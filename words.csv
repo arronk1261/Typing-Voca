@@ -1,0 +1,901 @@
+id,category,level,cefr,answer,sentence_en,sentence_ko,meaning,tts_text
+1,greeting,1,A1-A2,How,___ are you doing today?,오늘 어떻게 지내세요?,어떻게,How are you doing today?
+2,greeting,1,A1-A2,meet,Nice to ___ you.,만나서 반가워요.,만나다,Nice to meet you.
+3,greeting,1,A1-A2,name,My ___ is Daniel.,제 이름은 다니엘이에요.,이름,My name is Daniel.
+4,greeting,1,A1-A2,from,Where are you ___?,어디서 오셨어요?,"~에서, 출신",Where are you from?
+5,greeting,1,A1-A2,fine,"I'm ___, thanks.","전 괜찮아요, 고마워요.",괜찮은,"I'm fine, thanks."
+6,greeting,1,A1-A2,later,See you ___.,나중에 봐요.,나중에,See you later.
+7,greeting,1,A1-A2,weekend,How was your ___?,주말 어떻게 보냈어요?,주말,How was your weekend?
+8,greeting,1,A1-A2,morning,"Good ___, everyone.",모두들 좋은 아침이에요.,아침,"Good morning, everyone."
+9,greeting,1,A1-A2,again,It's nice to see you ___.,다시 만나서 반가워요.,다시,It's nice to see you again.
+10,greeting,1,A1-A2,welcome,___ to our office.,저희 사무실에 오신 걸 환영해요.,환영하다,Welcome to our office.
+11,greeting,1,A1-A2,too,Nice to meet you ___.,저도 만나서 반가워요.,~도,Nice to meet you too.
+12,greeting,1,A1-A2,day,Have a great ___!,좋은 하루 보내세요!,"날, 하루",Have a great day!
+13,greeting,1,A1-A2,long,It's been a ___ time.,오랜만이에요.,(시간이) 긴,It's been a long time.
+14,greeting,1,A1-A2,doing,What are you ___ these days?,요즘 뭐 하고 지내세요?,하고 있는,What are you doing these days?
+15,greeting,1,A1-A2,good,Have a ___ night.,좋은 밤 보내세요.,좋은,Have a good night.
+16,greeting,1,A1-A2,bye,"I have to go now, ___.","이제 가봐야 해요, 안녕.",안녕(작별),"I have to go now, bye."
+17,greeting,1,A1-A2,thanks,___ for coming.,와 주셔서 고마워요.,고마워요,Thanks for coming.
+18,greeting,1,A1-A2,introduce,Let me ___ myself.,제 소개를 할게요.,소개하다,Let me introduce myself.
+19,greeting,1,A1-A2,call,You can ___ me Dan.,댄이라고 부르셔도 돼요.,부르다,You can call me Dan.
+20,greeting,1,A1-A2,here,I'm new ___.,전 여기 처음이에요.,여기,I'm new here.
+21,greeting,1,A1-A2,yourself,Take care of ___.,몸 잘 챙기세요.,당신 자신,Take care of yourself.
+22,greeting,1,A1-A2,everyone,"Hi ___, I'm Mina.","안녕하세요 여러분, 저는 미나예요.",모두,"Hi everyone, I'm Mina."
+23,greeting,1,A1-A2,see,Hope to ___ you soon.,곧 또 봐요.,보다,Hope to see you soon.
+24,greeting,1,A1-A2,nice,Have a ___ trip.,즐거운 여행 되세요.,"즐거운, 좋은",Have a nice trip.
+25,greeting,1,A1-A2,excuse,"___ me, can I ask you something?","실례지만, 뭐 좀 물어봐도 될까요?",실례하다,"Excuse me, can I ask you something?"
+26,greeting,2,B1,catch up,Let's ___ over coffee sometime.,언제 커피 마시면서 얘기 좀 해요.,근황을 나누다,Let's catch up over coffee sometime.
+27,greeting,2,B1,been up to,What have you ___ lately?,요즘 뭐 하고 지냈어요?,~하며 지내다,What have you been up to lately?
+28,greeting,2,B1,introduce,Let me ___ you to my colleague.,제 동료를 소개해 드릴게요.,소개하다,Let me introduce you to my colleague.
+29,greeting,2,B1,small talk,I'm not great at ___ with strangers.,전 낯선 사람과 잡담하는 걸 잘 못해요.,잡담,I'm not great at small talk with strangers.
+30,greeting,2,B1,run into,I happened to ___ an old friend yesterday.,어제 우연히 옛 친구를 마주쳤어요.,우연히 마주치다,I happened to run into an old friend yesterday.
+31,greeting,2,B1,keep in touch,Let's ___ after the trip.,여행 끝나고도 연락하고 지내요.,연락하고 지내다,Let's keep in touch after the trip.
+32,greeting,2,B1,How come,___ you didn't call me back?,왜 답신 전화를 안 했어요?,"왜, 어째서",How come you didn't call me back?
+33,greeting,2,B1,get to know,I'd love to ___ you better.,당신을 더 잘 알고 싶어요.,알아가다,I'd love to get to know you better.
+34,greeting,2,B1,show up,Thanks for ___ on such short notice.,급한데도 와 줘서 고마워요.,"나타나다, 오다",Thanks for show up on such short notice.
+35,greeting,2,B1,drop by,Feel free to ___ whenever you're nearby.,근처 오면 언제든 들르세요.,잠깐 들르다,Feel free to drop by whenever you're nearby.
+36,greeting,2,B1,look forward,I ___ to meeting you.,만나뵙기를 고대하고 있어요.,고대하다,I look forward to meeting you.
+37,greeting,2,B1,stop by,Why don't you ___ for a coffee?,커피 한잔하러 들르지 그래요?,잠깐 들르다,Why don't you stop by for a coffee?
+38,greeting,2,B1,settle in,Have you ___ to the new city?,새 도시에 적응했어요?,적응하다,Have you settle in to the new city?
+39,greeting,2,B1,how's it going,"Hey, ___ with the new job?",새 직장은 어때요?,어떻게 지내요,"Hey, how's it going with the new job?"
+40,greeting,2,B1,make it,I'm glad you could ___ today.,오늘 와 주셔서 기뻐요.,"올 수 있다, 해내다",I'm glad you could make it today.
+41,greeting,2,B1,by the way,"___, did you get my message?","그런데, 제 메시지 받았어요?",그런데,"By the way, did you get my message?"
+42,greeting,2,B1,good to see,It's ___ you again.,다시 만나서 반가워요.,만나서 반가운,It's good to see you again.
+43,greeting,2,B1,how about,___ you? How have you been?,당신은요? 어떻게 지냈어요?,당신은 어때요,How about you? How have you been?
+44,greeting,2,B1,a long time,I haven't seen you in ___.,오랫동안 못 봤네요.,오랜 시간,I haven't seen you in a long time.
+45,greeting,2,B1,getting along,How are you ___ with the team?,팀이랑은 잘 지내요?,잘 지내다,How are you getting along with the team?
+46,greeting,2,B1,touch base,Let's ___ before the meeting.,회의 전에 잠깐 얘기해요.,간단히 연락하다,Let's touch base before the meeting.
+47,greeting,2,B1,up for,Are you ___ grabbing lunch?,점심 먹을 생각 있어요?,~할 마음이 있는,Are you up for grabbing lunch?
+48,greeting,2,B1,on my way,"I'm ___, see you soon.","가는 중이에요, 곧 봐요.",가는 중인,"I'm on my way, see you soon."
+49,greeting,2,B1,sounds good,"___, let's do that.","좋아요, 그렇게 해요.",좋네요,"Sounds good, let's do that."
+50,greeting,2,B1,take care,"___, talk to you later.","잘 지내요, 나중에 얘기해요.",잘 지내다,"Take care, talk to you later."
+51,greeting,3,B2-C1,break the ice,He told a joke to ___ at the meeting.,그는 회의에서 어색함을 깨려고 농담을 했어요.,어색함을 깨다,He told a joke to break the ice at the meeting.
+52,greeting,3,B2-C1,out of the blue,She called me ___ after ten years.,그녀가 10년 만에 갑자기 전화했어요.,난데없이,She called me out of the blue after ten years.
+53,greeting,3,B2-C1,long time no see,"Well, ___! You haven't changed a bit.",오랜만이에요! 하나도 안 변하셨네요.,오랜만이에요,"Well, long time no see! You haven't changed a bit."
+54,greeting,3,B2-C1,off guard,Your question caught me ___.,당신 질문에 제가 허를 찔렸어요.,방심한 틈에,Your question caught me off guard.
+55,greeting,3,B2-C1,hit it off,We ___ right away at the party.,우리는 파티에서 바로 죽이 잘 맞았어요.,금세 친해지다,We hit it off right away at the party.
+56,greeting,3,B2-C1,make small talk,I tried to ___ while we waited.,기다리는 동안 가벼운 대화를 나누려 했어요.,잡담을 나누다,I tried to make small talk while we waited.
+57,greeting,3,B2-C1,on the same page,I want to make sure we're ___.,우리가 같은 생각인지 확인하고 싶어요.,같은 생각인,I want to make sure we're on the same page.
+58,greeting,3,B2-C1,strike up,They ___ a conversation on the train.,그들은 기차에서 대화를 시작했어요.,(대화를) 시작하다,They strike up a conversation on the train.
+59,greeting,3,B2-C1,warm up to,It took her a while to ___ me.,그녀가 제게 마음을 여는 데 시간이 좀 걸렸어요.,마음을 열다,It took her a while to warm up to me.
+60,greeting,3,B2-C1,clear the air,Let's meet and ___ between us.,만나서 오해를 풀어요.,오해를 풀다,Let's meet and clear the air between us.
+61,greeting,3,B2-C1,on a first-name basis,We're already ___.,우리는 벌써 편하게 이름 부르는 사이예요.,이름 부르는 사이인,We're already on a first-name basis.
+62,greeting,3,B2-C1,put at ease,Her smile ___ everyone.,그녀의 미소가 모두를 편안하게 했어요.,편안하게 하다,Her smile put at ease everyone.
+63,greeting,3,B2-C1,touch base with,I'll ___ you next week.,다음 주에 당신과 잠깐 연락할게요.,~와 잠깐 연락하다,I'll touch base with you next week.
+64,greeting,3,B2-C1,a familiar face,It's nice to see ___ around here.,여기서 낯익은 얼굴을 보니 반갑네요.,낯익은 얼굴,It's nice to see a familiar face around here.
+65,greeting,3,B2-C1,get the ball rolling,Let's ___ with introductions.,소개부터 시작해 봅시다.,일을 시작하다,Let's get the ball rolling with introductions.
+66,greeting,3,B2-C1,mutual friend,We met through a ___.,우리는 공통의 친구를 통해 만났어요.,서로 아는 친구,We met through a mutual friend.
+67,greeting,3,B2-C1,pleasure is mine,The ___ entirely.,제가 더 영광이에요.,제 기쁨입니다,The pleasure is mine entirely.
+68,greeting,3,B2-C1,hit the ground running,She joined and ___.,그녀는 합류하자마자 곧장 활약했어요.,곧바로 활발히 시작하다,She joined and hit the ground running.
+69,greeting,3,B2-C1,catch someone's eye,She tried to ___ across the room.,그녀는 방 건너편에서 눈길을 끌려 했어요.,눈길을 끌다,She tried to catch someone's eye across the room.
+70,greeting,3,B2-C1,make the rounds,He ___ to greet every guest.,그는 손님 모두에게 인사하러 돌아다녔어요.,두루 돌아다니다,He make the rounds to greet every guest.
+71,greeting,3,B2-C1,a word with,Could I have ___ you?,잠깐 얘기 좀 할 수 있을까요?,~와 잠깐 이야기,Could I have a word with you?
+72,greeting,3,B2-C1,good to put a face to,It's ___ the name.,이름만 알다가 직접 뵈니 좋네요.,이름에 얼굴을 맞춰 보다,It's good to put a face to the name.
+73,greeting,3,B2-C1,how are things,___ on your end?,그쪽은 어떻게 돼 가요?,상황이 어떤가요,How are things on your end?
+74,greeting,3,B2-C1,long overdue,This catch-up is ___.,이 만남은 진작 했어야 했어요.,진작 했어야 하는,This catch-up is long overdue.
+75,greeting,3,B2-C1,part ways,We ___ on good terms.,우리는 좋게 헤어졌어요.,헤어지다,We part ways on good terms.
+76,shopping,1,A1-A2,much,How ___ is this?,이거 얼마예요?,얼마나,How much is this?
+77,shopping,1,A1-A2,card,Can I pay by ___?,카드로 계산해도 되나요?,카드,Can I pay by card?
+78,shopping,1,A1-A2,size,Do you have a bigger ___?,더 큰 사이즈 있어요?,사이즈,Do you have a bigger size?
+79,shopping,1,A1-A2,try,Can I ___ this on?,이거 입어 봐도 돼요?,입어 보다,Can I try this on?
+80,shopping,1,A1-A2,receipt,Can I get a ___?,영수증 받을 수 있을까요?,영수증,Can I get a receipt?
+81,shopping,1,A1-A2,change,Here is your ___.,여기 잔돈이요.,"잔돈, 거스름돈",Here is your change.
+82,shopping,1,A1-A2,looking,"I'm just ___, thanks.","그냥 둘러보는 거예요, 고마워요.",둘러보는,"I'm just looking, thanks."
+83,shopping,1,A1-A2,cash,Do you take ___?,현금 받으세요?,현금,Do you take cash?
+84,shopping,1,A1-A2,price,What's the ___ of this bag?,이 가방 가격이 얼마예요?,가격,What's the price of this bag?
+85,shopping,1,A1-A2,buy,I want to ___ this one.,이걸 사고 싶어요.,사다,I want to buy this one.
+86,shopping,1,A1-A2,color,Do you have another ___?,다른 색 있어요?,색깔,Do you have another color?
+87,shopping,1,A1-A2,open,What time do you ___?,몇 시에 문 열어요?,열다,What time do you open?
+88,shopping,1,A1-A2,cheap,This one is really ___.,이건 정말 싸요.,싼,This one is really cheap.
+89,shopping,1,A1-A2,bag,"Can I get a ___, please?",봉투 하나 주시겠어요?,"봉투, 가방","Can I get a bag, please?"
+90,shopping,1,A1-A2,sale,Is this on ___?,이거 세일하나요?,할인,Is this on sale?
+91,shopping,1,A1-A2,expensive,That's too ___ for me.,그건 제겐 너무 비싸요.,비싼,That's too expensive for me.
+92,shopping,1,A1-A2,pay,Where do I ___?,어디서 계산하나요?,지불하다,Where do I pay?
+93,shopping,1,A1-A2,small,Do you have a ___ size?,작은 사이즈 있어요?,작은,Do you have a small size?
+94,shopping,1,A1-A2,free,Is delivery ___?,배송은 무료인가요?,무료의,Is delivery free?
+95,shopping,1,A1-A2,new,I'd like a ___ one.,새것으로 주세요.,새로운,I'd like a new one.
+96,shopping,1,A1-A2,help,Can you ___ me find this?,이거 찾는 것 좀 도와주실래요?,돕다,Can you help me find this?
+97,shopping,1,A1-A2,store,Where is the shoe ___?,신발 가게가 어디예요?,가게,Where is the shoe store?
+98,shopping,1,A1-A2,discount,Is there a ___?,할인 되나요?,할인,Is there a discount?
+99,shopping,1,A1-A2,counter,Please pay at the ___.,계산대에서 결제해 주세요.,계산대,Please pay at the counter.
+100,shopping,1,A1-A2,more,Can I see one ___?,하나 더 볼 수 있을까요?,더,Can I see one more?
+101,shopping,2,B1,in stock,Is this item still ___?,이 상품 아직 재고 있나요?,재고가 있는,Is this item still in stock?
+102,shopping,2,B1,a refund,I'd like to get ___ for this.,이거 환불받고 싶어요.,환불,I'd like to get a refund for this.
+103,shopping,2,B1,on sale,These shoes are ___ this week.,이 신발은 이번 주에 세일해요.,할인 중인,These shoes are on sale this week.
+104,shopping,2,B1,exchange,Can I ___ it for a different color?,다른 색으로 교환할 수 있나요?,교환하다,Can I exchange it for a different color?
+105,shopping,2,B1,afford,I can't ___ such an expensive bag.,그렇게 비싼 가방은 살 형편이 안 돼요.,~을 살 형편이 되다,I can't afford such an expensive bag.
+106,shopping,2,B1,checkout,Please proceed to ___.,결제 단계로 진행해 주세요.,"결제, 계산대",Please proceed to checkout.
+107,shopping,2,B1,warranty,Does it come with a ___?,보증서가 같이 오나요?,보증(서),Does it come with a warranty?
+108,shopping,2,B1,sold out,"Sorry, that size is ___.","죄송해요, 그 사이즈는 품절이에요.",품절된,"Sorry, that size is sold out."
+109,shopping,2,B1,try on,Where can I ___ these jeans?,이 청바지 어디서 입어 볼 수 있어요?,입어 보다,Where can I try on these jeans?
+110,shopping,2,B1,a bargain,This coat was a real ___.,이 코트는 정말 싸게 잘 산 거예요.,싸게 잘 산 물건,This coat was a real a bargain.
+111,shopping,2,B1,out of stock,The item is currently ___.,그 상품은 현재 품절이에요.,품절된,The item is currently out of stock.
+112,shopping,2,B1,place an order,I'd like to ___ online.,온라인으로 주문하고 싶어요.,주문하다,I'd like to place an order online.
+113,shopping,2,B1,look for,I'm ___ a gift for my mom.,엄마 선물을 찾고 있어요.,찾다,I'm look for a gift for my mom.
+114,shopping,2,B1,return policy,What's your ___?,반품 규정이 어떻게 되나요?,반품 규정,What's your return policy?
+115,shopping,2,B1,a good deal,You got ___ on that.,그거 정말 잘 샀네요.,"좋은 거래, 싸게 사기",You got a good deal on that.
+116,shopping,2,B1,pick up,I'll ___ my order tomorrow.,제 주문은 내일 찾아갈게요.,"찾아가다, 수령하다",I'll pick up my order tomorrow.
+117,shopping,2,B1,free shipping,Orders over $50 get ___.,50달러 이상 주문은 무료 배송이에요.,무료 배송,Orders over $50 get free shipping.
+118,shopping,2,B1,run out of,We've ___ that model.,그 모델은 다 떨어졌어요.,다 떨어지다,We've run out of that model.
+119,shopping,2,B1,a coupon,Do you have ___ for this?,이거 쓸 쿠폰 있어요?,쿠폰,Do you have a coupon for this?
+120,shopping,2,B1,in cash,I'd rather pay ___.,현금으로 내고 싶어요.,현금으로,I'd rather pay in cash.
+121,shopping,2,B1,brand new,It's ___ in the box.,상자째 완전 새것이에요.,완전 새것인,It's brand new in the box.
+122,shopping,2,B1,compare prices,I always ___ before buying.,전 사기 전에 늘 가격을 비교해요.,가격을 비교하다,I always compare prices before buying.
+123,shopping,2,B1,on display,The sample is ___ over there.,견본은 저쪽에 진열돼 있어요.,진열된,The sample is on display over there.
+124,shopping,2,B1,ring up,Let me ___ these items for you.,이 물건들 계산해 드릴게요.,계산하다,Let me ring up these items for you.
+125,shopping,2,B1,stock up,I want to ___ on snacks.,간식을 잔뜩 사 두고 싶어요.,사재기하다,I want to stock up on snacks.
+126,shopping,3,B2-C1,a steal,"At that price, it's ___.",그 가격이면 거저나 마찬가지예요.,"거저, 아주 싼 것","At that price, it's a steal."
+127,shopping,3,B2-C1,splurge on,I decided to ___ a designer coat.,큰맘 먹고 명품 코트를 샀어요.,큰돈을 쓰다,I decided to splurge on a designer coat.
+128,shopping,3,B2-C1,haggle over,It's rude to ___ the price here.,여기서 가격을 흥정하는 건 무례해요.,값을 흥정하다,It's rude to haggle over the price here.
+129,shopping,3,B2-C1,buyer's remorse,I had ___ after the purchase.,구매 후에 후회가 밀려왔어요.,구매 후 후회,I had buyer's remorse after the purchase.
+130,shopping,3,B2-C1,break the bank,A nice dinner won't ___.,근사한 저녁 한 끼가 큰돈 드는 건 아니에요.,큰돈이 들다,A nice dinner won't break the bank.
+131,shopping,3,B2-C1,value for money,This laptop is great ___.,이 노트북은 가성비가 훌륭해요.,가성비,This laptop is great value for money.
+132,shopping,3,B2-C1,impulse buy,That gadget was a total ___.,그 기기는 완전 충동구매였어요.,충동구매,That gadget was a total impulse buy.
+133,shopping,3,B2-C1,on a budget,I'm shopping ___ this month.,이번 달은 예산을 아끼며 쇼핑해요.,빠듯한 예산으로,I'm shopping on a budget this month.
+134,shopping,3,B2-C1,cost an arm and a leg,That watch ___.,그 시계는 엄청 비쌌어요.,엄청 비싸다,That watch cost an arm and a leg.
+135,shopping,3,B2-C1,window shopping,We spent the afternoon ___.,우리는 오후 내내 아이쇼핑을 했어요.,아이쇼핑,We spent the afternoon window shopping.
+136,shopping,3,B2-C1,worth every penny,This sofa was ___.,이 소파는 값을 톡톡히 했어요.,돈값을 하는,This sofa was worth every penny.
+137,shopping,3,B2-C1,rip-off,"Honestly, that's a ___.",솔직히 그건 바가지예요.,바가지,"Honestly, that's a rip-off."
+138,shopping,3,B2-C1,knock off the price,Could you ___ a little?,조금 깎아 주실 수 있어요?,값을 깎다,Could you knock off the price a little?
+139,shopping,3,B2-C1,shop around,You should ___ before deciding.,결정 전에 여기저기 둘러보는 게 좋아요.,여러 곳을 둘러보다,You should shop around before deciding.
+140,shopping,3,B2-C1,on clearance,These boots are ___.,이 부츠는 재고 정리 세일 중이에요.,재고 정리 할인 중인,These boots are on clearance.
+141,shopping,3,B2-C1,set me back,The repair ___ a fortune.,그 수리비가 큰돈이 들었어요.,(비용이) ~나 들다,The repair set me back a fortune.
+142,shopping,3,B2-C1,tighten one's belt,We had to ___ this year.,올해는 허리띠를 졸라매야 했어요.,허리띠를 졸라매다,We had to tighten one's belt this year.
+143,shopping,3,B2-C1,at a premium,Tickets are selling ___.,표가 웃돈을 얹어 팔리고 있어요.,웃돈이 붙어,Tickets are selling at a premium.
+144,shopping,3,B2-C1,dirt cheap,I got it ___ at the market.,시장에서 아주 싸게 샀어요.,아주 싼,I got it dirt cheap at the market.
+145,shopping,3,B2-C1,a hidden gem,That little shop is ___.,그 작은 가게는 숨은 보석 같아요.,숨은 명소,That little shop is a hidden gem.
+146,shopping,3,B2-C1,haggle down,She ___ the seller to half price.,그녀는 판매자와 흥정해 반값으로 깎았어요.,흥정해 값을 내리다,She haggle down the seller to half price.
+147,shopping,3,B2-C1,burn a hole in my pocket,This bonus is ___.,이 보너스가 자꾸 쓰고 싶게 만드네요.,돈을 자꾸 쓰게 만들다,This bonus is burn a hole in my pocket.
+148,shopping,3,B2-C1,pay through the nose,We ___ for parking downtown.,시내 주차에 바가지를 썼어요.,바가지를 쓰다,We pay through the nose for parking downtown.
+149,shopping,3,B2-C1,a spending spree,She went on a ___ after payday.,그녀는 월급날 이후 펑펑 썼어요.,돈을 마구 쓰기,She went on a a spending spree after payday.
+150,shopping,3,B2-C1,get your money's worth,Use it daily to ___.,매일 써서 본전을 뽑으세요.,본전을 뽑다,Use it daily to get your money's worth.
+151,restaurant,1,A1-A2,menu,Can I see the ___?,메뉴 좀 볼 수 있을까요?,메뉴,Can I see the menu?
+152,restaurant,1,A1-A2,order,Are you ready to ___?,주문하시겠어요?,주문하다,Are you ready to order?
+153,restaurant,1,A1-A2,water,Could I get some ___?,물 좀 주시겠어요?,물,Could I get some water?
+154,restaurant,1,A1-A2,delicious,This soup is so ___.,이 수프 정말 맛있어요.,맛있는,This soup is so delicious.
+155,restaurant,1,A1-A2,bill,"Can we have the ___, please?",계산서 주시겠어요?,계산서,"Can we have the bill, please?"
+156,restaurant,1,A1-A2,table,I'd like a ___ for two.,두 명 자리 부탁해요.,"테이블, 자리",I'd like a table for two.
+157,restaurant,1,A1-A2,spicy,Is this dish very ___?,이 음식 많이 매워요?,매운,Is this dish very spicy?
+158,restaurant,1,A1-A2,hungry,I'm really ___ now.,지금 정말 배고파요.,배고픈,I'm really hungry now.
+159,restaurant,1,A1-A2,coffee,"I'll have a ___, please.",커피 한 잔 주세요.,커피,"I'll have a coffee, please."
+160,restaurant,1,A1-A2,more,Could I have some ___ rice?,밥 좀 더 주시겠어요?,더,Could I have some more rice?
+161,restaurant,1,A1-A2,fork,Could you bring me a ___?,포크 좀 갖다주시겠어요?,포크,Could you bring me a fork?
+162,restaurant,1,A1-A2,drink,What would you like to ___?,뭐 드시겠어요?,마시다,What would you like to drink?
+163,restaurant,1,A1-A2,tasty,The chicken was really ___.,치킨이 정말 맛있었어요.,맛있는,The chicken was really tasty.
+164,restaurant,1,A1-A2,ready,I'm not ___ to order yet.,아직 주문할 준비가 안 됐어요.,준비된,I'm not ready to order yet.
+165,restaurant,1,A1-A2,eat,Where should we ___ tonight?,오늘 밤 어디서 먹을까요?,먹다,Where should we eat tonight?
+166,restaurant,1,A1-A2,full,"I'm so ___, thank you.","너무 배불러요, 고마워요.",배부른,"I'm so full, thank you."
+167,restaurant,1,A1-A2,salt,Could you pass the ___?,소금 좀 건네주시겠어요?,소금,Could you pass the salt?
+168,restaurant,1,A1-A2,dessert,Would you like any ___?,디저트 드시겠어요?,디저트,Would you like any dessert?
+169,restaurant,1,A1-A2,table for,"A ___ three, please.",세 명 자리 부탁해요.,~명 자리,"A table for three, please."
+170,restaurant,1,A1-A2,napkin,Can I have a ___?,냅킨 하나 주시겠어요?,냅킨,Can I have a napkin?
+171,restaurant,1,A1-A2,hot,"Be careful, the plate is ___.","조심하세요, 접시가 뜨거워요.",뜨거운,"Be careful, the plate is hot."
+172,restaurant,1,A1-A2,plate,Could I get a clean ___?,깨끗한 접시 하나 주시겠어요?,접시,Could I get a clean plate?
+173,restaurant,1,A1-A2,sweet,This cake is too ___ for me.,이 케이크는 제겐 너무 달아요.,단,This cake is too sweet for me.
+174,restaurant,1,A1-A2,tea,I'll have some green ___.,녹차 마실게요.,차,I'll have some green tea.
+175,restaurant,1,A1-A2,takeout,Is this for ___?,포장이세요?,포장,Is this for takeout?
+176,restaurant,2,B1,recommend,What would you ___ for a first-timer?,처음 온 사람에게 뭘 추천하시겠어요?,추천하다,What would you recommend for a first-timer?
+177,restaurant,2,B1,allergic to,I'm ___ peanuts.,전 땅콩 알레르기가 있어요.,~에 알레르기가 있는,I'm allergic to peanuts.
+178,restaurant,2,B1,make a reservation,I'd like to ___ for Friday.,금요일로 예약하고 싶어요.,예약하다,I'd like to make a reservation for Friday.
+179,restaurant,2,B1,split the bill,Shall we ___?,각자 계산할까요?,비용을 나누다,Shall we split the bill?
+180,restaurant,2,B1,well done,I'd like my steak ___.,스테이크를 완전히 익혀 주세요.,바싹 익힌,I'd like my steak well done.
+181,restaurant,2,B1,leftovers,Can I take the ___ home?,남은 음식 싸 갈 수 있을까요?,남은 음식,Can I take the leftovers home?
+182,restaurant,2,B1,on the house,Dessert is ___ tonight.,오늘 디저트는 서비스예요.,가게에서 무료로 주는,Dessert is on the house tonight.
+183,restaurant,2,B1,eat out,We usually ___ on Fridays.,우리는 보통 금요일에 외식해요.,외식하다,We usually eat out on Fridays.
+184,restaurant,2,B1,the specials,What are ___ today?,오늘 특선 메뉴가 뭐예요?,특선 요리,What are the specials today?
+185,restaurant,2,B1,medium rare,I'll have my steak ___.,스테이크는 미디엄 레어로 할게요.,미디엄 레어,I'll have my steak medium rare.
+186,restaurant,2,B1,a table for,Could we get ___ four?,네 명 자리 받을 수 있을까요?,~명 자리,Could we get a table for four?
+187,restaurant,2,B1,to go,I'll have the burger ___.,버거는 포장으로 할게요.,포장으로,I'll have the burger to go.
+188,restaurant,2,B1,run out of,"Sorry, we've ___ the salmon.","죄송해요, 연어가 다 떨어졌어요.",다 떨어지다,"Sorry, we've run out of the salmon."
+189,restaurant,2,B1,a tip,Should we leave ___?,팁을 남겨야 할까요?,팁,Should we leave a tip?
+190,restaurant,2,B1,pick up the tab,Let me ___ tonight.,오늘은 제가 계산할게요.,계산을 맡다,Let me pick up the tab tonight.
+191,restaurant,2,B1,on the side,Can I get the sauce ___?,소스는 따로 주시겠어요?,따로,Can I get the sauce on the side?
+192,restaurant,2,B1,fully booked,I'm afraid we're ___ tonight.,죄송하지만 오늘 밤은 예약이 다 찼어요.,예약이 꽉 찬,I'm afraid we're fully booked tonight.
+193,restaurant,2,B1,grab a coffee,Want to ___ after lunch?,점심 후에 커피 한잔할래요?,커피를 마시다,Want to grab a coffee after lunch?
+194,restaurant,2,B1,a refill,Could I get a ___?,리필 좀 해 주시겠어요?,리필,Could I get a a refill?
+195,restaurant,2,B1,watch my weight,"I'm trying to ___, so just a salad.",체중 관리 중이라 샐러드만 할게요.,체중을 관리하다,"I'm trying to watch my weight, so just a salad."
+196,restaurant,2,B1,dig in,"The food's ready, let's ___.","음식 나왔어요, 맛있게 먹어요.",먹기 시작하다,"The food's ready, let's dig in."
+197,restaurant,2,B1,a doggy bag,Could you pack me a ___?,남은 거 포장해 주시겠어요?,남은 음식 포장 봉투,Could you pack me a a doggy bag?
+198,restaurant,2,B1,cut down on,I'm trying to ___ sugar.,설탕을 줄이려고 노력 중이에요.,~을 줄이다,I'm trying to cut down on sugar.
+199,restaurant,2,B1,set the table,Could you ___ for dinner?,저녁 먹게 상 좀 차려 줄래요?,상을 차리다,Could you set the table for dinner?
+200,restaurant,2,B1,a craving for,I have ___ something sweet.,뭔가 단 게 너무 당겨요.,~에 대한 식욕/갈망,I have a craving for something sweet.
+201,restaurant,3,B2-C1,to die for,Their cheesecake is ___.,거기 치즈케이크는 끝내줘요.,기막히게 좋은,Their cheesecake is to die for.
+202,restaurant,3,B2-C1,an acquired taste,Blue cheese is ___.,블루치즈는 차차 좋아지는 맛이에요.,차차 좋아지는 맛,Blue cheese is an acquired taste.
+203,restaurant,3,B2-C1,grab a bite,Let's ___ before the movie.,영화 전에 간단히 뭐 좀 먹어요.,간단히 먹다,Let's grab a bite before the movie.
+204,restaurant,3,B2-C1,wine and dine,They ___ their clients regularly.,그들은 고객을 정기적으로 융숭히 대접해요.,융숭히 대접하다,They wine and dine their clients regularly.
+205,restaurant,3,B2-C1,have a sweet tooth,I've always ___.,전 늘 단것을 좋아했어요.,단것을 좋아하다,I've always have a sweet tooth.
+206,restaurant,3,B2-C1,food coma,I'm in a ___ after that buffet.,그 뷔페 먹고 나니 식곤증이 와요.,과식 후 졸림,I'm in a food coma after that buffet.
+207,restaurant,3,B2-C1,save room for,Make sure to ___ dessert.,디저트 먹을 배는 남겨 두세요.,~할 여지를 남기다,Make sure to save room for dessert.
+208,restaurant,3,B2-C1,melt in your mouth,This beef just ___.,이 소고기는 입에서 살살 녹아요.,입에서 녹다,This beef just melt in your mouth.
+209,restaurant,3,B2-C1,a hole in the wall,"It's a ___, but the food is amazing.",허름한 가게지만 음식은 훌륭해요.,허름한 작은 식당,"It's a a hole in the wall, but the food is amazing."
+210,restaurant,3,B2-C1,eat like a horse,He ___ after the workout.,그는 운동 후에 엄청 많이 먹어요.,엄청 많이 먹다,He eat like a horse after the workout.
+211,restaurant,3,B2-C1,whet your appetite,The smell really ___.,그 냄새가 정말 식욕을 돋워요.,식욕을 돋우다,The smell really whet your appetite.
+212,restaurant,3,B2-C1,on a diet,I'll pass on dessert; I'm ___.,"디저트는 사양할게요, 다이어트 중이라.",다이어트 중인,I'll pass on dessert; I'm on a diet.
+213,restaurant,3,B2-C1,polish off,He ___ the whole pizza.,그는 피자를 통째로 해치웠어요.,다 먹어 치우다,He polish off the whole pizza.
+214,restaurant,3,B2-C1,a feast for the eyes,The dish was ___.,그 요리는 눈으로도 즐거운 한 상이었어요.,보기에도 즐거운 것,The dish was a feast for the eyes.
+215,restaurant,3,B2-C1,hit the spot,That cold drink really ___.,그 시원한 음료가 딱 좋았어요.,"딱 좋다, 만족스럽다",That cold drink really hit the spot.
+216,restaurant,3,B2-C1,comfort food,Soup is my favorite ___.,수프는 제가 제일 좋아하는 위안 음식이에요.,위안이 되는 음식,Soup is my favorite comfort food.
+217,restaurant,3,B2-C1,bite off more than you can chew,I ordered too much and ___.,너무 많이 시켜서 감당이 안 됐어요.,감당 못 할 일을 벌이다,I ordered too much and bite off more than you can chew.
+218,restaurant,3,B2-C1,a foodie,My sister is a real ___.,제 언니는 진정한 미식가예요.,미식가,My sister is a real a foodie.
+219,restaurant,3,B2-C1,wash it down with,I ___ a glass of wine.,와인 한 잔으로 곁들여 넘겼어요.,~로 곁들여 마시다,I wash it down with a glass of wine.
+220,restaurant,3,B2-C1,rave about,Everyone ___ this place.,다들 이 집을 극찬해요.,극찬하다,Everyone rave about this place.
+221,restaurant,3,B2-C1,a guilty pleasure,Fried chicken is my ___.,프라이드치킨은 제 죄책감 드는 기쁨이에요.,죄책감 드는 즐거움,Fried chicken is my a guilty pleasure.
+222,restaurant,3,B2-C1,spoiled for choice,"With this menu, you're ___.",이 메뉴면 고를 게 너무 많아요.,선택지가 너무 많은,"With this menu, you're spoiled for choice."
+223,restaurant,3,B2-C1,a slap-up meal,We had a ___ to celebrate.,우리는 축하하려고 거하게 잘 먹었어요.,거하게 잘 차린 식사,We had a a slap-up meal to celebrate.
+224,restaurant,3,B2-C1,leave a bad taste,The service ___ in my mouth.,그 서비스는 뒷맛이 안 좋았어요.,뒷맛이 안 좋다,The service leave a bad taste in my mouth.
+225,restaurant,3,B2-C1,the proof is in the pudding,Try it yourself; ___.,"직접 드셔 보세요, 먹어 봐야 알죠.",직접 해봐야 안다,Try it yourself; the proof is in the pudding.
+226,travel,1,A1-A2,ticket,I need a ___ to Busan.,부산행 표가 필요해요.,표,I need a ticket to Busan.
+227,travel,1,A1-A2,bus,Where is the ___ stop?,버스 정류장이 어디예요?,버스,Where is the bus stop?
+228,travel,1,A1-A2,lost,I think I'm ___.,저 길을 잃은 것 같아요.,길을 잃은,I think I'm lost.
+229,travel,1,A1-A2,airport,How do I get to the ___?,공항에 어떻게 가나요?,공항,How do I get to the airport?
+230,travel,1,A1-A2,left,Turn ___ at the corner.,모퉁이에서 왼쪽으로 도세요.,왼쪽,Turn left at the corner.
+231,travel,1,A1-A2,luggage,Where can I pick up my ___?,제 짐을 어디서 찾나요?,"짐, 수하물",Where can I pick up my luggage?
+232,travel,1,A1-A2,far,Is the station ___ from here?,여기서 역이 먼가요?,먼,Is the station far from here?
+233,travel,1,A1-A2,map,Can I get a ___ of the city?,도시 지도 하나 받을 수 있을까요?,지도,Can I get a map of the city?
+234,travel,1,A1-A2,train,What time does the ___ leave?,기차가 몇 시에 떠나요?,기차,What time does the train leave?
+235,travel,1,A1-A2,hotel,Where is my ___?,제 호텔이 어디예요?,호텔,Where is my hotel?
+236,travel,1,A1-A2,taxi,Can you call a ___ for me?,택시 좀 불러 주시겠어요?,택시,Can you call a taxi for me?
+237,travel,1,A1-A2,right,The bank is on your ___.,은행은 오른쪽에 있어요.,오른쪽,The bank is on your right.
+238,travel,1,A1-A2,near,Is there a cafe ___ here?,여기 근처에 카페 있어요?,가까운,Is there a cafe near here?
+239,travel,1,A1-A2,road,Which ___ goes downtown?,어느 길이 시내로 가나요?,"길, 도로",Which road goes downtown?
+240,travel,1,A1-A2,here,Please stop ___.,여기서 세워 주세요.,여기,Please stop here.
+241,travel,1,A1-A2,station,How far is the ___?,역이 얼마나 먼가요?,역,How far is the station?
+242,travel,1,A1-A2,trip,Have a safe ___!,안전한 여행 되세요!,여행,Have a safe trip!
+243,travel,1,A1-A2,walk,Can I ___ there?,거기 걸어갈 수 있어요?,걷다,Can I walk there?
+244,travel,1,A1-A2,city,Which ___ are you visiting?,어느 도시를 방문하세요?,도시,Which city are you visiting?
+245,travel,1,A1-A2,flight,My ___ is at noon.,제 비행기는 정오예요.,항공편,My flight is at noon.
+246,travel,1,A1-A2,room,I'd like a ___ for two nights.,2박 할 방을 원해요.,방,I'd like a room for two nights.
+247,travel,1,A1-A2,gate,Which ___ is my flight?,제 비행기는 몇 번 게이트예요?,탑승구,Which gate is my flight?
+248,travel,1,A1-A2,guide,Do you have a tour ___?,투어 가이드 있나요?,가이드,Do you have a tour guide?
+249,travel,1,A1-A2,seat,Is this ___ taken?,이 자리 주인 있나요?,자리,Is this seat taken?
+250,travel,1,A1-A2,passport,Here is my ___.,여기 제 여권이요.,여권,Here is my passport.
+251,travel,2,B1,check in,What time can I ___?,몇 시에 체크인할 수 있나요?,체크인하다,What time can I check in?
+252,travel,2,B1,a layover,We have ___ in Tokyo.,도쿄에서 경유해요.,"경유, 환승 대기",We have a layover in Tokyo.
+253,travel,2,B1,get around,It's easy to ___ by subway.,지하철로 다니기 편해요.,돌아다니다,It's easy to get around by subway.
+254,travel,2,B1,book a flight,I need to ___ to London.,런던행 비행기를 예약해야 해요.,항공편을 예약하다,I need to book a flight to London.
+255,travel,2,B1,delayed,Our train has been ___.,우리 기차가 지연됐어요.,지연된,Our train has been delayed.
+256,travel,2,B1,carry-on,Is this bag allowed as a ___?,이 가방 기내 반입 가능한가요?,기내 휴대 수하물,Is this bag allowed as a carry-on?
+257,travel,2,B1,make it,We barely ___ to the gate.,게이트에 간신히 도착했어요.,시간 맞춰 가다,We barely make it to the gate.
+258,travel,2,B1,set off,We'll ___ early in the morning.,우리는 아침 일찍 출발할 거예요.,출발하다,We'll set off early in the morning.
+259,travel,2,B1,check out,I need to ___ by eleven.,11시까지 체크아웃해야 해요.,체크아웃하다,I need to check out by eleven.
+260,travel,2,B1,a round trip,I'd like ___ to Jeju.,제주 왕복으로 주세요.,왕복 여행,I'd like a round trip to Jeju.
+261,travel,2,B1,show me the way,Could you ___ to the museum?,박물관 가는 길 좀 알려 주시겠어요?,길을 알려주다,Could you show me the way to the museum?
+262,travel,2,B1,on foot,The market is best explored ___.,그 시장은 걸어서 둘러보는 게 제일 좋아요.,걸어서,The market is best explored on foot.
+263,travel,2,B1,get on,Where do I ___ the train?,기차를 어디서 타나요?,(차에) 타다,Where do I get on the train?
+264,travel,2,B1,get off,Which stop do I ___ at?,어느 정류장에서 내리나요?,내리다,Which stop do I get off at?
+265,travel,2,B1,look around,We have time to ___ the old town.,구시가지를 둘러볼 시간이 있어요.,둘러보다,We have time to look around the old town.
+266,travel,2,B1,a one-way ticket,"I'll take ___, please.",편도 표로 주세요.,편도 표,"I'll take a one-way ticket, please."
+267,travel,2,B1,pick up,Where can I ___ the rental car?,렌터카를 어디서 받나요?,"받다, 픽업하다",Where can I pick up the rental car?
+268,travel,2,B1,a window seat,I'd prefer ___ if possible.,가능하면 창가 자리가 좋아요.,창가 자리,I'd prefer a window seat if possible.
+269,travel,2,B1,run late,The ferry is running ___.,페리가 늦어지고 있어요.,늦어지다,The ferry is running run late.
+270,travel,2,B1,take a detour,We had to ___ around the lake.,우리는 호수를 둘러 우회해야 했어요.,우회하다,We had to take a detour around the lake.
+271,travel,2,B1,a stopover,We made a ___ in Dubai.,우리는 두바이에서 잠깐 들렀어요.,"경유, 잠깐 머묾",We made a a stopover in Dubai.
+272,travel,2,B1,worth a visit,The castle is well ___.,그 성은 가 볼 만해요.,가 볼 만한,The castle is well worth a visit.
+273,travel,2,B1,settle the bill,Let me ___ at the front desk.,프런트에서 계산할게요.,계산을 끝내다,Let me settle the bill at the front desk.
+274,travel,2,B1,hop on,Let's ___ the next bus.,다음 버스에 얼른 타요.,얼른 올라타다,Let's hop on the next bus.
+275,travel,2,B1,a tight schedule,"We're on ___, so let's hurry.",일정이 빡빡하니 서두르죠.,빡빡한 일정,"We're on a tight schedule, so let's hurry."
+276,travel,3,B2-C1,off the beaten path,We love places ___.,우리는 잘 알려지지 않은 곳을 좋아해요.,사람들이 잘 안 가는,We love places off the beaten path.
+277,travel,3,B2-C1,a stone's throw,The beach is ___ from the hotel.,해변은 호텔에서 엎어지면 코 닿을 거리예요.,아주 가까운 거리,The beach is a stone's throw from the hotel.
+278,travel,3,B2-C1,jet lag,I'm still getting over ___.,아직 시차 적응 중이에요.,시차로 인한 피로,I'm still getting over jet lag.
+279,travel,3,B2-C1,travel light,I always try to ___.,전 항상 짐을 가볍게 싸려고 해요.,짐을 가볍게 하다,I always try to travel light.
+280,travel,3,B2-C1,hit the road,We should ___ before dawn.,동트기 전에 출발해야 해요.,출발하다,We should hit the road before dawn.
+281,travel,3,B2-C1,miss the connection,We almost ___ in Frankfurt.,프랑크푸르트에서 환승편을 놓칠 뻔했어요.,연결편을 놓치다,We almost miss the connection in Frankfurt.
+282,travel,3,B2-C1,soak up,I want to ___ the local culture.,현지 문화를 흠뻑 느끼고 싶어요.,흠뻑 받아들이다,I want to soak up the local culture.
+283,travel,3,B2-C1,a once-in-a-lifetime trip,This was ___.,이건 평생 한 번뿐인 여행이었어요.,평생 한 번뿐인 여행,This was a once-in-a-lifetime trip.
+284,travel,3,B2-C1,get itchy feet,I always ___ in spring.,봄만 되면 떠나고 싶어 좀이 쑤셔요.,여행 가고 싶어지다,I always get itchy feet in spring.
+285,travel,3,B2-C1,a tourist trap,Avoid that place; it's a ___.,거긴 관광객용 바가지니 피하세요.,관광객 바가지 명소,Avoid that place; it's a a tourist trap.
+286,travel,3,B2-C1,play it by ear,On this trip we'll just ___.,이번 여행은 그냥 즉흥적으로 할 거예요.,즉흥적으로 하다,On this trip we'll just play it by ear.
+287,travel,3,B2-C1,a layover from hell,We had ___ in the storm.,폭풍 때문에 끔찍한 환승 대기를 했어요.,최악의 환승 대기,We had a layover from hell in the storm.
+288,travel,3,B2-C1,take in the sights,We spent the day ___.,우리는 하루 종일 명소를 구경했어요.,구경하다,We spent the day take in the sights.
+289,travel,3,B2-C1,live out of a suitcase,I've been ___ for weeks.,몇 주째 여행 가방 하나로 떠돌고 있어요.,여행하며 떠돌다,I've been live out of a suitcase for weeks.
+290,travel,3,B2-C1,a whistle-stop tour,It was a ___ of Europe.,유럽을 후딱 도는 여행이었어요.,주마간산식 빠른 여행,It was a a whistle-stop tour of Europe.
+291,travel,3,B2-C1,get your bearings,Let me ___ first.,먼저 방향부터 좀 잡을게요.,길/방향을 파악하다,Let me get your bearings first.
+292,travel,3,B2-C1,a hidden gem,This village is a real ___.,이 마을은 진짜 숨은 명소예요.,숨은 명소,This village is a real a hidden gem.
+293,travel,3,B2-C1,catch the red-eye,I'll ___ back home.,집까지 심야 비행기를 탈 거예요.,심야 비행기를 타다,I'll catch the red-eye back home.
+294,travel,3,B2-C1,the trip of a lifetime,Safari was ___.,사파리는 일생일대의 여행이었어요.,일생일대의 여행,Safari was the trip of a lifetime.
+295,travel,3,B2-C1,brave the crowds,We ___ to see the parade.,우리는 인파를 뚫고 퍼레이드를 봤어요.,인파를 무릅쓰다,We brave the crowds to see the parade.
+296,travel,3,B2-C1,set in your ways,Try a new route if you're not ___.,틀에 박힌 게 아니라면 새 경로로 가 봐요.,습관에 굳어진,Try a new route if you're not set in your ways.
+297,travel,3,B2-C1,a bumpy ride,The mountain road was ___.,그 산길은 덜컹거리는 길이었어요.,울퉁불퉁한 여정,The mountain road was a bumpy ride.
+298,travel,3,B2-C1,call it a day,Let's ___ and rest.,오늘은 그만하고 쉬어요.,하루 일과를 끝내다,Let's call it a day and rest.
+299,travel,3,B2-C1,under your own steam,We explored ___.,우리는 우리 힘으로 돌아다녔어요.,자기 힘으로,We explored under your own steam.
+300,travel,3,B2-C1,see the world,She quit to ___.,그녀는 세계를 보러 일을 그만뒀어요.,세상을 두루 보다,She quit to see the world.
+301,work,1,A1-A2,meeting,We have a ___ at three.,3시에 회의가 있어요.,회의,We have a meeting at three.
+302,work,1,A1-A2,boss,My ___ is very kind.,제 상사는 아주 친절해요.,상사,My boss is very kind.
+303,work,1,A1-A2,busy,I'm really ___ today.,오늘 정말 바빠요.,바쁜,I'm really busy today.
+304,work,1,A1-A2,email,Please send me an ___.,이메일 보내 주세요.,이메일,Please send me an email.
+305,work,1,A1-A2,office,I work at an ___ downtown.,전 시내 사무실에서 일해요.,사무실,I work at an office downtown.
+306,work,1,A1-A2,break,Let's take a short ___.,잠깐 쉬어요.,휴식,Let's take a short break.
+307,work,1,A1-A2,done,The report is ___.,보고서 다 됐어요.,"끝난, 완료된",The report is done.
+308,work,1,A1-A2,work,I ___ from nine to six.,전 9시부터 6시까지 일해요.,일하다,I work from nine to six.
+309,work,1,A1-A2,job,I like my new ___.,제 새 직장이 마음에 들어요.,일자리,I like my new job.
+310,work,1,A1-A2,team,I'm on the design ___.,전 디자인 팀에 있어요.,팀,I'm on the design team.
+311,work,1,A1-A2,late,Sorry I'm ___ for work.,출근이 늦어서 죄송해요.,늦은,Sorry I'm late for work.
+312,work,1,A1-A2,desk,My ___ is by the window.,제 책상은 창가에 있어요.,책상,My desk is by the window.
+313,work,1,A1-A2,call,I have a ___ in five minutes.,5분 뒤에 통화가 있어요.,"통화, 전화",I have a call in five minutes.
+314,work,1,A1-A2,project,We started a new ___.,우리는 새 프로젝트를 시작했어요.,프로젝트,We started a new project.
+315,work,1,A1-A2,task,I finished my first ___.,첫 번째 업무를 끝냈어요.,"업무, 과제",I finished my first task.
+316,work,1,A1-A2,paper,Can you sign this ___?,이 서류에 서명해 주시겠어요?,서류,Can you sign this paper?
+317,work,1,A1-A2,manager,I'll ask my ___.,제 매니저에게 물어볼게요.,"관리자, 매니저",I'll ask my manager.
+318,work,1,A1-A2,plan,What's the ___ for the project?,프로젝트 계획이 뭐예요?,계획,What's the plan for the project?
+319,work,1,A1-A2,client,We have a new ___.,우리는 새 고객이 생겼어요.,고객,We have a new client.
+320,work,1,A1-A2,file,Please save the ___.,파일을 저장해 주세요.,파일,Please save the file.
+321,work,1,A1-A2,ready,The slides are ___.,슬라이드가 준비됐어요.,준비된,The slides are ready.
+322,work,1,A1-A2,help,Can you ___ me with this?,이것 좀 도와주실래요?,돕다,Can you help me with this?
+323,work,1,A1-A2,hour,Lunch is in one ___.,점심은 한 시간 뒤예요.,시간,Lunch is in one hour.
+324,work,1,A1-A2,note,I'll take a ___ of that.,그거 메모해 둘게요.,메모,I'll take a note of that.
+325,work,1,A1-A2,send,Can you ___ the report now?,지금 보고서 보내 줄래요?,보내다,Can you send the report now?
+326,work,2,B1,a deadline,We're working against ___.,마감에 쫓기며 일하고 있어요.,마감 기한,We're working against a deadline.
+327,work,2,B1,follow up,I'll ___ with you tomorrow.,내일 다시 연락드릴게요.,후속 조치하다,I'll follow up with you tomorrow.
+328,work,2,B1,in charge of,Who is ___ this project?,누가 이 프로젝트를 맡고 있나요?,~을 담당하는,Who is in charge of this project?
+329,work,2,B1,overtime,I had to work ___ again.,또 야근해야 했어요.,"초과 근무, 야근",I had to work overtime again.
+330,work,2,B1,set up,Can you ___ a call for Monday?,월요일로 통화 잡아 줄래요?,"마련하다, 잡다",Can you set up a call for Monday?
+331,work,2,B1,take over,Can you ___ my tasks while I'm away?,제가 없는 동안 제 업무 좀 맡아 줄래요?,인계받다,Can you take over my tasks while I'm away?
+332,work,2,B1,workload,My ___ has been heavy lately.,요즘 업무량이 많았어요.,업무량,My workload has been heavy lately.
+333,work,2,B1,get back to,I'll ___ you on that.,그 건은 다시 알려드릴게요.,나중에 답하다,I'll get back to you on that.
+334,work,2,B1,hand in,Please ___ the report by Friday.,금요일까지 보고서를 제출해 주세요.,제출하다,Please hand in the report by Friday.
+335,work,2,B1,come up with,We need to ___ a new idea.,새 아이디어를 내야 해요.,생각해 내다,We need to come up with a new idea.
+336,work,2,B1,a raise,I'm hoping for ___ this year.,올해 임금 인상을 기대하고 있어요.,임금 인상,I'm hoping for a raise this year.
+337,work,2,B1,call it a day,Let's ___ and finish tomorrow.,오늘은 마치고 내일 끝내요.,일과를 끝내다,Let's call it a day and finish tomorrow.
+338,work,2,B1,fall behind,I don't want to ___ on the schedule.,일정에 뒤처지고 싶지 않아요.,뒤처지다,I don't want to fall behind on the schedule.
+339,work,2,B1,a day off,I'm taking ___ tomorrow.,내일 하루 쉴 거예요.,휴무일,I'm taking a day off tomorrow.
+340,work,2,B1,sort out,Let me ___ this issue first.,이 문제부터 정리할게요.,"해결하다, 정리하다",Let me sort out this issue first.
+341,work,2,B1,on track,The project is ___.,프로젝트는 순조롭게 진행 중이에요.,순조롭게 진행 중인,The project is on track.
+342,work,2,B1,run by,Let me ___ this idea by you.,이 아이디어를 한번 물어볼게요.,의견을 구하다,Let me run by this idea by you.
+343,work,2,B1,a tight deadline,We're on ___.,우리는 빠듯한 마감에 쫓겨요.,빠듯한 마감,We're on a tight deadline.
+344,work,2,B1,step in,Can you ___ for me at the meeting?,회의에서 제 대신 좀 나서 줄래요?,대신 나서다,Can you step in for me at the meeting?
+345,work,2,B1,wrap up,Let's ___ the project this week.,이번 주에 프로젝트를 마무리해요.,마무리하다,Let's wrap up the project this week.
+346,work,2,B1,keep up with,It's hard to ___ all the emails.,모든 이메일을 따라가기가 힘들어요.,따라잡다,It's hard to keep up with all the emails.
+347,work,2,B1,a heads-up,Thanks for the ___.,미리 알려 줘서 고마워요.,미리 알려 줌,Thanks for the a heads-up.
+348,work,2,B1,delegate,A good leader knows how to ___.,좋은 리더는 일을 잘 위임할 줄 알아요.,위임하다,A good leader knows how to delegate.
+349,work,2,B1,pitch in,Everyone ___ to meet the deadline.,마감을 맞추려 모두 협력했어요.,"협력하다, 거들다",Everyone pitch in to meet the deadline.
+350,work,2,B1,brush up on,I need to ___ my Excel skills.,엑셀 실력을 다시 갈고닦아야 해요.,다시 익히다,I need to brush up on my Excel skills.
+351,work,3,B2-C1,touch base,Let's ___ early next week.,다음 주 초에 간단히 얘기해요.,간단히 연락하다,Let's touch base early next week.
+352,work,3,B2-C1,raise the bar,This launch really ___.,이번 출시가 기준을 확 높였어요.,기준을 높이다,This launch really raise the bar.
+353,work,3,B2-C1,drop the ball,I'm sorry I ___ on that.,"그 건은 제가 실수했어요, 죄송해요.",실수하다,I'm sorry I drop the ball on that.
+354,work,3,B2-C1,in the loop,Please keep me ___.,저도 계속 공유받게 해 주세요.,정보를 공유받는,Please keep me in the loop.
+355,work,3,B2-C1,wear many hats,"At a startup, you ___.",스타트업에선 여러 역할을 맡게 돼요.,여러 역할을 하다,"At a startup, you wear many hats."
+356,work,3,B2-C1,circle back,Let's ___ on this after lunch.,이건 점심 후에 다시 논의해요.,다시 돌아와 논의하다,Let's circle back on this after lunch.
+357,work,3,B2-C1,burn out,I don't want to ___ before the deadline.,마감 전에 번아웃되고 싶지 않아요.,기진맥진하다,I don't want to burn out before the deadline.
+358,work,3,B2-C1,think outside the box,We need to ___ here.,여기선 틀을 깬 발상이 필요해요.,틀을 깨고 생각하다,We need to think outside the box here.
+359,work,3,B2-C1,on the same wavelength,The team is ___.,팀이 서로 잘 통해요.,생각이 잘 통하는,The team is on the same wavelength.
+360,work,3,B2-C1,hit a snag,We ___ during testing.,테스트 중에 문제에 부딪혔어요.,난관에 부딪히다,We hit a snag during testing.
+361,work,3,B2-C1,take the lead,She offered to ___ on this.,그녀가 이 일을 주도하겠다고 했어요.,주도하다,She offered to take the lead on this.
+362,work,3,B2-C1,get up to speed,It took a week to ___.,업무를 파악하는 데 일주일 걸렸어요.,상황을 파악하다,It took a week to get up to speed.
+363,work,3,B2-C1,a ballpark figure,Can you give me ___?,대략적인 수치를 줄 수 있어요?,대략적인 수치,Can you give me a ballpark figure?
+364,work,3,B2-C1,go the extra mile,Our team always ___.,우리 팀은 늘 한 발 더 노력해요.,한층 더 노력하다,Our team always go the extra mile.
+365,work,3,B2-C1,play hardball,They started to ___ in talks.,그들은 협상에서 강경하게 나오기 시작했어요.,강경하게 나오다,They started to play hardball in talks.
+366,work,3,B2-C1,a learning curve,There's a steep ___ here.,여긴 배워야 할 게 가파르게 많아요.,학습 곡선,There's a steep a learning curve here.
+367,work,3,B2-C1,call the shots,Who ___ around here?,여기선 누가 결정권을 쥐고 있나요?,결정권을 쥐다,Who call the shots around here?
+368,work,3,B2-C1,on the back burner,That plan is ___ for now.,그 계획은 당분간 보류예요.,"뒷전인, 보류된",That plan is on the back burner for now.
+369,work,3,B2-C1,get the ball rolling,Let's ___ on the proposal.,제안서부터 착수합시다.,일을 시작하다,Let's get the ball rolling on the proposal.
+370,work,3,B2-C1,a game changer,This tool is a real ___.,이 도구는 판도를 바꾸는 물건이에요.,판도를 바꾸는 것,This tool is a real a game changer.
+371,work,3,B2-C1,bite the bullet,We had to ___ and cut costs.,우린 이를 악물고 비용을 줄여야 했어요.,이를 악물고 하다,We had to bite the bullet and cut costs.
+372,work,3,B2-C1,keep one's nose to the grindstone,She ___ until launch.,그녀는 출시까지 죽어라 일했어요.,쉬지 않고 열심히 일하다,She keep one's nose to the grindstone until launch.
+373,work,3,B2-C1,a window of opportunity,There's a small ___.,좁은 기회의 창이 있어요.,기회의 순간,There's a small a window of opportunity.
+374,work,3,B2-C1,cut corners,Don't ___ on quality.,품질에서 대충 넘어가지 마세요.,대충 줄여 하다,Don't cut corners on quality.
+375,work,3,B2-C1,hammer out,We need to ___ the details.,세부 사항을 협의해 정해야 해요.,협의해 정하다,We need to hammer out the details.
+376,phone_email,1,A1-A2,call,I'll ___ you tonight.,오늘 밤에 전화할게요.,전화하다,I'll call you tonight.
+377,phone_email,1,A1-A2,Hello,___? Can you hear me?,여보세요? 들리세요?,여보세요,Hello? Can you hear me?
+378,phone_email,1,A1-A2,number,What's your phone ___?,전화번호가 어떻게 되세요?,번호,What's your phone number?
+379,phone_email,1,A1-A2,message,I left you a ___.,메시지 남겼어요.,메시지,I left you a message.
+380,phone_email,1,A1-A2,reply,I'll ___ to your email soon.,곧 이메일에 답장할게요.,답장하다,I'll reply to your email soon.
+381,phone_email,1,A1-A2,wrong,"Sorry, ___ number.","죄송해요, 잘못 거셨어요.",잘못된,"Sorry, wrong number."
+382,phone_email,1,A1-A2,send,Can you ___ me the file?,파일 좀 보내 주실래요?,보내다,Can you send me the file?
+383,phone_email,1,A1-A2,text,I'll ___ you the address.,주소 문자로 보낼게요.,문자를 보내다,I'll text you the address.
+384,phone_email,1,A1-A2,phone,I can't find my ___.,제 전화기를 못 찾겠어요.,전화기,I can't find my phone.
+385,phone_email,1,A1-A2,speak,Can I ___ to Mr. Kim?,김 선생님과 통화할 수 있을까요?,말하다,Can I speak to Mr. Kim?
+386,phone_email,1,A1-A2,hold,Please ___ for a moment.,잠시만 기다려 주세요.,기다리다,Please hold for a moment.
+387,phone_email,1,A1-A2,again,Could you say that ___?,다시 말씀해 주시겠어요?,다시,Could you say that again?
+388,phone_email,1,A1-A2,busy,The line is ___.,통화 중이에요.,통화 중인,The line is busy.
+389,phone_email,1,A1-A2,answer,Why don't you ___ your phone?,왜 전화를 안 받아요?,"받다, 답하다",Why don't you answer your phone?
+390,phone_email,1,A1-A2,inbox,Check your ___.,받은 편지함 확인해 보세요.,받은 편지함,Check your inbox.
+391,phone_email,1,A1-A2,attach,Did you ___ the photo?,사진 첨부했어요?,첨부하다,Did you attach the photo?
+392,phone_email,1,A1-A2,dial,___ the number again.,번호를 다시 누르세요.,(번호를) 누르다,Dial the number again.
+393,phone_email,1,A1-A2,open,Please ___ the email.,이메일을 열어 보세요.,열다,Please open the email.
+394,phone_email,1,A1-A2,subject,What's the ___ of the email?,이메일 제목이 뭐예요?,제목,What's the subject of the email?
+395,phone_email,1,A1-A2,forward,Can you ___ this to her?,이거 그녀에게 전달해 줄래요?,전달하다,Can you forward this to her?
+396,phone_email,1,A1-A2,link,Click the ___ below.,아래 링크를 클릭하세요.,링크,Click the link below.
+397,phone_email,1,A1-A2,hang up,Don't ___ yet.,아직 끊지 마세요.,전화를 끊다,Don't hang up yet.
+398,phone_email,1,A1-A2,voice,I left a ___ message.,음성 메시지를 남겼어요.,음성,I left a voice message.
+399,phone_email,1,A1-A2,ring,Give me a ___ later.,나중에 전화 한 통 줘요.,전화 한 통,Give me a ring later.
+400,phone_email,1,A1-A2,write,I'll ___ you an email.,이메일을 써서 보낼게요.,쓰다,I'll write you an email.
+401,phone_email,2,B1,get back to,I'll ___ you by Friday.,금요일까지 답변드릴게요.,나중에 답하다,I'll get back to you by Friday.
+402,phone_email,2,B1,hold on,Could you ___ a second?,잠시만 기다려 주시겠어요?,"기다리다, 끊지 않다",Could you hold on a second?
+403,phone_email,2,B1,attach,I'll ___ the document to the email.,이메일에 문서를 첨부할게요.,첨부하다,I'll attach the document to the email.
+404,phone_email,2,B1,the line,"Sorry, ___ is breaking up.","죄송해요, 연결이 끊겨요.",통화 연결,"Sorry, the line is breaking up."
+405,phone_email,2,B1,reach,What's the best way to ___ you?,어떻게 연락드리는 게 가장 좋을까요?,연락하다,What's the best way to reach you?
+406,phone_email,2,B1,cc,Please ___ my manager on this.,이 건에 제 매니저도 참조로 넣어 주세요.,참조로 넣다,Please cc my manager on this.
+407,phone_email,2,B1,voicemail,Leave a ___ if I don't pick up.,안 받으면 음성 메시지 남겨 주세요.,음성 메시지,Leave a voicemail if I don't pick up.
+408,phone_email,2,B1,hang up,"Don't ___ on me, please.",제발 전화 끊지 마세요.,전화를 끊다,"Don't hang up on me, please."
+409,phone_email,2,B1,call back,I'll ___ in ten minutes.,10분 뒤에 다시 전화할게요.,다시 전화하다,I'll call back in ten minutes.
+410,phone_email,2,B1,put through,Could you ___ to sales?,영업부로 연결해 주시겠어요?,연결해 주다,Could you put through to sales?
+411,phone_email,2,B1,get through,I couldn't ___ to the office.,사무실에 전화 연결이 안 됐어요.,전화가 연결되다,I couldn't get through to the office.
+412,phone_email,2,B1,reply all,Please don't ___ by mistake.,실수로 전체 답장하지 마세요.,전체 답장하다,Please don't reply all by mistake.
+413,phone_email,2,B1,touch base,I'll ___ with you by email.,이메일로 잠깐 연락드릴게요.,간단히 연락하다,I'll touch base with you by email.
+414,phone_email,2,B1,a follow-up,I'm sending a ___ email.,후속 이메일을 보냅니다.,후속 (조치),I'm sending a a follow-up email.
+415,phone_email,2,B1,speaking,"Hello, Mina ___.","여보세요, 미나입니다.",(전화에서) 접니다,"Hello, Mina speaking."
+416,phone_email,2,B1,leave a message,Can I ___ for her?,그녀에게 메시지 남겨도 될까요?,메시지를 남기다,Can I leave a message for her?
+417,phone_email,2,B1,on another line,She's ___ right now.,그녀는 지금 다른 전화를 받고 있어요.,다른 전화를 받는 중인,She's on another line right now.
+418,phone_email,2,B1,pick up,Please ___ if you're free.,시간 되면 전화 받아 주세요.,전화를 받다,Please pick up if you're free.
+419,phone_email,2,B1,a reminder,I'll send you ___.,알림 메시지를 보내드릴게요.,상기시켜 주는 메시지,I'll send you a reminder.
+420,phone_email,2,B1,set up a call,Let's ___ for Tuesday.,화요일로 통화를 잡아요.,통화를 잡다,Let's set up a call for Tuesday.
+421,phone_email,2,B1,break up,You're ___; I can't hear you.,"소리가 끊겨요, 잘 안 들려요.",(통화가) 끊기다,You're break up; I can't hear you.
+422,phone_email,2,B1,on speaker,"You're ___, so everyone can hear.",스피커폰이라 다들 들을 수 있어요.,스피커폰으로,"You're on speaker, so everyone can hear."
+423,phone_email,2,B1,get cut off,We ___ during the call.,통화 중에 연결이 끊겼어요.,연결이 끊기다,We get cut off during the call.
+424,phone_email,2,B1,flag the email,Please ___ as urgent.,그 이메일을 긴급으로 표시해 주세요.,이메일을 표시하다,Please flag the email as urgent.
+425,phone_email,2,B1,loop me in,Please ___ on that thread.,그 메일 스레드에 저도 넣어 주세요.,나도 참여시키다,Please loop me in on that thread.
+426,phone_email,3,B2-C1,drop a line,Feel free to ___ anytime.,언제든 편하게 연락 주세요.,짧게 연락하다,Feel free to drop a line anytime.
+427,phone_email,3,B2-C1,loop in,Please ___ the design team.,디자인 팀도 포함시켜 주세요.,논의에 포함시키다,Please loop in the design team.
+428,phone_email,3,B2-C1,follow up on,I'm writing to ___ my last email.,지난 이메일 관련해 다시 연락드립니다.,후속 연락하다,I'm writing to follow up on my last email.
+429,phone_email,3,B2-C1,play phone tag,We've been ___ all week.,우리 일주일 내내 전화가 계속 엇갈렸어요.,전화가 계속 엇갈리다,We've been play phone tag all week.
+430,phone_email,3,B2-C1,for your reference,I'm sending the report ___.,참고하시라고 보고서를 보냅니다.,참고용으로,I'm sending the report for your reference.
+431,phone_email,3,B2-C1,at your earliest convenience,Please reply ___.,가능한 한 빨리 회신 부탁드립니다.,가급적 빨리,Please reply at your earliest convenience.
+432,phone_email,3,B2-C1,keep this brief,I'll ___ since you're busy.,바쁘실 테니 간단히 하겠습니다.,간단히 하다,I'll keep this brief since you're busy.
+433,phone_email,3,B2-C1,touch base later,Let's ___ on this.,이건 나중에 다시 얘기해요.,나중에 연락하다,Let's touch base later on this.
+434,phone_email,3,B2-C1,circle back via email,I'll ___ tomorrow.,내일 이메일로 다시 연락드릴게요.,이메일로 다시 연락하다,I'll circle back via email tomorrow.
+435,phone_email,3,B2-C1,per my last email,"___, the deadline is Friday.",지난 메일에서 말씀드렸듯 마감은 금요일이에요.,지난 이메일에서 언급했듯,"Per my last email, the deadline is Friday."
+436,phone_email,3,B2-C1,reach out to,I'll ___ the vendor today.,오늘 업체에 연락해 볼게요.,연락을 취하다,I'll reach out to the vendor today.
+437,phone_email,3,B2-C1,CC for visibility,I'll add her ___.,상황 공유차 그녀를 참조로 넣을게요.,공유 목적의 참조,I'll add her CC for visibility.
+438,phone_email,3,B2-C1,await your reply,I'll ___.,답신 기다리겠습니다.,답을 기다리다,I'll await your reply.
+439,phone_email,3,B2-C1,a quick word,Do you have time for ___?,잠깐 얘기할 시간 있어요?,짧은 대화,Do you have time for a quick word?
+440,phone_email,3,B2-C1,get the message across,I hope I ___ clearly.,제 뜻이 분명히 전달됐길 바라요.,뜻을 전달하다,I hope I get the message across clearly.
+441,phone_email,3,B2-C1,ping someone,I'll ___ you on the app.,앱으로 연락 한번 할게요.,간단히 연락하다,I'll ping someone you on the app.
+442,phone_email,3,B2-C1,keep me posted,Please ___ on the progress.,진행 상황을 계속 알려 주세요.,계속 알려 주다,Please keep me posted on the progress.
+443,phone_email,3,B2-C1,a paper trail,Let's keep ___ of this.,이건 기록으로 남겨 둡시다.,문서 기록,Let's keep a paper trail of this.
+444,phone_email,3,B2-C1,touch upon,I'll ___ this in my email.,이메일에서 이 점을 짚을게요.,간단히 언급하다,I'll touch upon this in my email.
+445,phone_email,3,B2-C1,with reference to,"___ your inquiry, here's the answer.",문의하신 건에 관해 답변드립니다.,~에 관하여,"With reference to your inquiry, here's the answer."
+446,phone_email,3,B2-C1,a cold email,I sent her ___ about a job.,저는 그녀에게 일자리 관련 콜드 메일을 보냈어요.,무작정 보내는 첫 이메일,I sent her a cold email about a job.
+447,phone_email,3,B2-C1,get hold of,I couldn't ___ him all day.,하루 종일 그와 연락이 안 됐어요.,연락이 닿다,I couldn't get hold of him all day.
+448,phone_email,3,B2-C1,dot the i's and cross the t's,Let me ___ in this email.,이 이메일을 빈틈없이 마무리할게요.,꼼꼼히 마무리하다,Let me dot the i's and cross the t's in this email.
+449,phone_email,3,B2-C1,a read receipt,I requested ___.,읽음 확인을 요청했어요.,읽음 확인,I requested a read receipt.
+450,phone_email,3,B2-C1,touch base offline,Let's ___ about this.,이건 따로 직접 만나 얘기해요.,따로 직접 만나 의논하다,Let's touch base offline about this.
+451,emotion,1,A1-A2,happy,I'm so ___ to see you.,널 봐서 정말 기뻐.,행복한,I'm so happy to see you.
+452,emotion,1,A1-A2,tired,I feel really ___ today.,오늘 정말 피곤해.,피곤한,I feel really tired today.
+453,emotion,1,A1-A2,think,What do you ___?,어떻게 생각해?,생각하다,What do you think?
+454,emotion,1,A1-A2,agree,I ___ with you.,네 말에 동의해.,동의하다,I agree with you.
+455,emotion,1,A1-A2,sad,She looks a little ___.,그녀는 좀 슬퍼 보여.,슬픈,She looks a little sad.
+456,emotion,1,A1-A2,love,I ___ this song.,이 노래 정말 좋아.,아주 좋아하다,I love this song.
+457,emotion,1,A1-A2,sorry,I'm ___ about that.,그건 미안해.,미안한,I'm sorry about that.
+458,emotion,1,A1-A2,angry,Please don't be ___.,화내지 마.,화난,Please don't be angry.
+459,emotion,1,A1-A2,scared,I'm a little ___ of dogs.,난 개가 좀 무서워.,무서워하는,I'm a little scared of dogs.
+460,emotion,1,A1-A2,excited,I'm so ___ for the trip.,여행이 너무 기대돼.,신난,I'm so excited for the trip.
+461,emotion,1,A1-A2,worried,I'm ___ about the test.,시험이 걱정돼.,걱정하는,I'm worried about the test.
+462,emotion,1,A1-A2,glad,I'm ___ you came.,네가 와서 기뻐.,기쁜,I'm glad you came.
+463,emotion,1,A1-A2,bored,I'm so ___ right now.,지금 너무 지루해.,지루한,I'm so bored right now.
+464,emotion,1,A1-A2,hope,I ___ you feel better.,네가 나아지길 바라.,바라다,I hope you feel better.
+465,emotion,1,A1-A2,nervous,I'm ___ about the interview.,면접 때문에 긴장돼.,긴장한,I'm nervous about the interview.
+466,emotion,1,A1-A2,like,I ___ this idea.,이 아이디어 마음에 들어.,좋아하다,I like this idea.
+467,emotion,1,A1-A2,upset,Are you ___ with me?,나한테 화났어?,속상한,Are you upset with me?
+468,emotion,1,A1-A2,proud,I'm so ___ of you.,네가 정말 자랑스러워.,자랑스러운,I'm so proud of you.
+469,emotion,1,A1-A2,feel,How do you ___ now?,지금 기분이 어때?,느끼다,How do you feel now?
+470,emotion,1,A1-A2,calm,Try to stay ___.,침착하려고 해 봐.,침착한,Try to stay calm.
+471,emotion,1,A1-A2,lonely,I feel ___ sometimes.,가끔 외로워.,외로운,I feel lonely sometimes.
+472,emotion,1,A1-A2,surprised,I was so ___ by the news.,그 소식에 너무 놀랐어.,놀란,I was so surprised by the news.
+473,emotion,1,A1-A2,fun,That was so much ___.,정말 재밌었어.,재미,That was so much fun.
+474,emotion,1,A1-A2,mind,Do you ___ if I sit here?,여기 앉아도 될까?,꺼리다,Do you mind if I sit here?
+475,emotion,1,A1-A2,miss,I really ___ you.,네가 정말 보고 싶어.,그리워하다,I really miss you.
+476,emotion,2,B1,stressed out,I've been ___ lately.,요즘 스트레스를 많이 받았어요.,스트레스에 시달리는,I've been stressed out lately.
+477,emotion,2,B1,In my opinion,"___, we should wait.",제 생각엔 기다리는 게 좋겠어요.,제 생각에는,"In my opinion, we should wait."
+478,emotion,2,B1,fed up with,I'm ___ the constant noise.,끊임없는 소음에 진절머리가 나요.,~에 진절머리가 난,I'm fed up with the constant noise.
+479,emotion,2,B1,cheer up,I tried to ___ my friend.,친구를 기운 나게 해 주려 했어요.,기운 내게 하다,I tried to cheer up my friend.
+480,emotion,2,B1,look forward to,I ___ the weekend.,주말이 기다려져요.,~을 고대하다,I look forward to the weekend.
+481,emotion,2,B1,get over,It took me a while to ___ it.,그걸 극복하는 데 시간이 좀 걸렸어요.,극복하다,It took me a while to get over it.
+482,emotion,2,B1,point of view,I see your ___.,당신 관점은 이해해요.,관점,I see your point of view.
+483,emotion,2,B1,calm down,Take a breath and ___.,숨 한번 쉬고 진정해요.,진정하다,Take a breath and calm down.
+484,emotion,2,B1,freak out,Try not to ___ about it.,그 일로 너무 당황하지 마세요.,질겁하다,Try not to freak out about it.
+485,emotion,2,B1,feel like,I ___ staying in tonight.,오늘 밤은 집에 있고 싶어요.,~하고 싶다,I feel like staying in tonight.
+486,emotion,2,B1,on edge,I've been a bit ___ today.,오늘 좀 예민했어요.,"초조한, 예민한",I've been a bit on edge today.
+487,emotion,2,B1,let down,I don't want to ___ the team.,팀을 실망시키고 싶지 않아요.,실망시키다,I don't want to let down the team.
+488,emotion,2,B1,be into,I'm really ___ photography.,전 사진에 푹 빠져 있어요.,~에 푹 빠진,I'm really be into photography.
+489,emotion,2,B1,put off,His attitude really ___ me.,그의 태도가 정말 거슬렸어요.,불쾌하게 하다,His attitude really put off me.
+490,emotion,2,B1,relate to,I can ___ how you feel.,당신 기분에 공감이 가요.,공감하다,I can relate to how you feel.
+491,emotion,2,B1,worked up,Don't get so ___ about it.,그 일로 너무 흥분하지 마세요.,흥분한,Don't get so worked up about it.
+492,emotion,2,B1,a mood,I'm not in ___ today.,오늘은 그럴 기분이 아니에요.,기분,I'm not in a mood today.
+493,emotion,2,B1,cope with,It's hard to ___ the pressure.,그 압박감을 견디기 힘들어요.,"견디다, 대처하다",It's hard to cope with the pressure.
+494,emotion,2,B1,get on my nerves,That noise really ___.,그 소음이 정말 거슬려요.,신경을 거스르다,That noise really get on my nerves.
+495,emotion,2,B1,look on the bright side,Let's try to ___.,긍정적인 면을 보려고 해요.,긍정적으로 보다,Let's try to look on the bright side.
+496,emotion,2,B1,burst into tears,She ___ at the news.,그녀는 그 소식에 왈칵 울음을 터뜨렸어요.,울음을 터뜨리다,She burst into tears at the news.
+497,emotion,2,B1,a sigh of relief,I let out ___.,안도의 한숨을 내쉬었어요.,안도의 한숨,I let out a sigh of relief.
+498,emotion,2,B1,warm up to,I'm starting to ___ the idea.,그 생각에 점점 마음이 가요.,마음이 가다,I'm starting to warm up to the idea.
+499,emotion,2,B1,over the worst,I think I'm ___ of it.,고비는 넘긴 것 같아요.,최악의 고비를 넘긴,I think I'm over the worst of it.
+500,emotion,2,B1,get a grip,I just need to ___.,마음을 좀 다잡아야겠어요.,마음을 다잡다,I just need to get a grip.
+501,emotion,3,B2-C1,mixed feelings,I have ___ about moving.,이사에 대해 복잡한 심정이에요.,착잡한 감정,I have mixed feelings about moving.
+502,emotion,3,B2-C1,on the fence,I'm still ___ about it.,그 일에 대해선 아직 결정을 못 했어요.,결정을 못 내린,I'm still on the fence about it.
+503,emotion,3,B2-C1,over the moon,She was ___ about the news.,그녀는 그 소식에 뛸 듯이 기뻤어요.,매우 기쁜,She was over the moon about the news.
+504,emotion,3,B2-C1,beg to differ,I ___ on that point.,그 점에 대해선 생각이 달라요.,생각을 달리하다,I beg to differ on that point.
+505,emotion,3,B2-C1,take it personally,Don't ___; it's just business.,"기분 나쁘게 받아들이지 마, 그냥 일이야.",개인적으로 받아들이다,Don't take it personally; it's just business.
+506,emotion,3,B2-C1,down in the dumps,He's been ___ since the breakup.,그는 이별 후로 의기소침해요.,"우울한, 풀이 죽은",He's been down in the dumps since the breakup.
+507,emotion,3,B2-C1,see eye to eye,We don't always ___.,우리가 늘 의견이 일치하는 건 아니에요.,의견이 일치하다,We don't always see eye to eye.
+508,emotion,3,B2-C1,at the end of my rope,I'm ___ with this project.,이 프로젝트로 인내심이 한계예요.,인내심의 한계인,I'm at the end of my rope with this project.
+509,emotion,3,B2-C1,a weight off my shoulders,Finishing it was ___.,그걸 끝내니 어깨가 한결 가벼웠어요.,마음의 짐을 던 것,Finishing it was a weight off my shoulders.
+510,emotion,3,B2-C1,bottle up,Don't ___ your feelings.,감정을 억누르지 마세요.,감정을 억누르다,Don't bottle up your feelings.
+511,emotion,3,B2-C1,walking on air,She's been ___ since the offer.,그녀는 제안을 받고 날아갈 듯 기뻐해요.,날아갈 듯 기쁜,She's been walking on air since the offer.
+512,emotion,3,B2-C1,hit a nerve,That comment really ___.,그 말이 정말 아픈 데를 건드렸어요.,아픈 데를 건드리다,That comment really hit a nerve.
+513,emotion,3,B2-C1,keep your chin up,"___, things will get better.","기운 내요, 좋아질 거예요.",기운을 내다,"Keep your chin up, things will get better."
+514,emotion,3,B2-C1,a roller coaster of emotions,This week was ___.,이번 주는 감정의 롤러코스터였어요.,감정 기복이 심한 것,This week was a roller coaster of emotions.
+515,emotion,3,B2-C1,come to terms with,I'm trying to ___ the loss.,그 상실을 받아들이려 애쓰고 있어요.,받아들이다,I'm trying to come to terms with the loss.
+516,emotion,3,B2-C1,lose my cool,I almost ___ in the meeting.,회의에서 하마터면 화를 낼 뻔했어요.,평정을 잃다,I almost lose my cool in the meeting.
+517,emotion,3,B2-C1,a sense of dread,I felt ___ before the result.,결과 전에 불안한 예감이 들었어요.,불길한 예감,I felt a sense of dread before the result.
+518,emotion,3,B2-C1,put a brave face on,She ___ despite the bad news.,나쁜 소식에도 그녀는 의연한 척했어요.,애써 태연한 척하다,She put a brave face on despite the bad news.
+519,emotion,3,B2-C1,wear your heart on your sleeve,He tends to ___.,그는 감정을 잘 드러내는 편이에요.,감정을 솔직히 드러내다,He tends to wear your heart on your sleeve.
+520,emotion,3,B2-C1,on cloud nine,I've been ___ all day.,하루 종일 너무 행복했어요.,구름 위를 걷는 듯 행복한,I've been on cloud nine all day.
+521,emotion,3,B2-C1,a sinking feeling,I had ___ about it.,그 일에 불길한 느낌이 들었어요.,불안한 예감,I had a sinking feeling about it.
+522,emotion,3,B2-C1,blow off steam,I went running to ___.,스트레스를 풀려고 달리기를 했어요.,스트레스를 풀다,I went running to blow off steam.
+523,emotion,3,B2-C1,rub me the wrong way,His tone ___.,그의 말투가 거슬렸어요.,기분을 거스르다,His tone rub me the wrong way.
+524,emotion,3,B2-C1,a leap of faith,Trusting them was ___.,그들을 믿은 건 큰 모험이었어요.,믿고 하는 모험,Trusting them was a leap of faith.
+525,emotion,3,B2-C1,at peace with,I'm finally ___ my decision.,제 결정에 마침내 마음이 편해졌어요.,~에 대해 마음이 편한,I'm finally at peace with my decision.
+526,schedule,1,A1-A2,time,What ___ is it?,지금 몇 시예요?,시간,What time is it?
+527,schedule,1,A1-A2,tomorrow,Let's meet ___.,내일 만나요.,내일,Let's meet tomorrow.
+528,schedule,1,A1-A2,free,Are you ___ tonight?,오늘 밤에 시간 있어요?,한가한,Are you free tonight?
+529,schedule,1,A1-A2,late,Sorry I'm ___.,늦어서 미안해요.,늦은,Sorry I'm late.
+530,schedule,1,A1-A2,When,___ can we meet?,언제 만날 수 있어요?,언제,When can we meet?
+531,schedule,1,A1-A2,ready,I'll be ___ in ten minutes.,10분이면 준비될 거예요.,준비된,I'll be ready in ten minutes.
+532,schedule,1,A1-A2,plan,What's the ___ for today?,오늘 계획이 뭐예요?,계획,What's the plan for today?
+533,schedule,1,A1-A2,today,Are you busy ___?,오늘 바빠요?,오늘,Are you busy today?
+534,schedule,1,A1-A2,early,Let's start ___.,일찍 시작해요.,일찍,Let's start early.
+535,schedule,1,A1-A2,week,See you next ___.,다음 주에 봐요.,주,See you next week.
+536,schedule,1,A1-A2,soon,I'll call you ___.,곧 전화할게요.,곧,I'll call you soon.
+537,schedule,1,A1-A2,now,Can we talk ___?,지금 얘기할 수 있어요?,지금,Can we talk now?
+538,schedule,1,A1-A2,clock,The ___ says five.,시계가 5시를 가리켜요.,시계,The clock says five.
+539,schedule,1,A1-A2,date,What's the ___ today?,오늘 며칠이에요?,날짜,What's the date today?
+540,schedule,1,A1-A2,wait,Can you ___ a minute?,잠깐 기다려 줄래요?,기다리다,Can you wait a minute?
+541,schedule,1,A1-A2,hour,I'll be there in an ___.,한 시간 뒤에 갈게요.,시간,I'll be there in an hour.
+542,schedule,1,A1-A2,meet,What time should we ___?,몇 시에 만날까요?,만나다,What time should we meet?
+543,schedule,1,A1-A2,busy,I'm ___ this afternoon.,오후엔 바빠요.,바쁜,I'm busy this afternoon.
+544,schedule,1,A1-A2,o'clock,Let's meet at three ___.,3시에 만나요.,~시,Let's meet at three o'clock.
+545,schedule,1,A1-A2,morning,Is ___ okay for you?,아침이 괜찮으세요?,아침,Is morning okay for you?
+546,schedule,1,A1-A2,minute,"Give me a ___, please.",잠깐만 기다려 주세요.,(잠깐의) 시간,"Give me a minute, please."
+547,schedule,1,A1-A2,night,Let's do it tomorrow ___.,내일 밤에 해요.,밤,Let's do it tomorrow night.
+548,schedule,1,A1-A2,start,What time does it ___?,몇 시에 시작해요?,시작하다,What time does it start?
+549,schedule,1,A1-A2,until,I'm here ___ six.,6시까지 여기 있어요.,~까지,I'm here until six.
+550,schedule,1,A1-A2,appointment,I have an ___ at two.,2시에 약속이 있어요.,약속,I have an appointment at two.
+551,schedule,2,B1,put off,Let's ___ the meeting to Friday.,회의를 금요일로 미뤄요.,미루다,Let's put off the meeting to Friday.
+552,schedule,2,B1,fit in,Can you ___ a quick call?,짧게 통화할 시간 낼 수 있어요?,시간을 짜내다,Can you fit in a quick call?
+553,schedule,2,B1,running late,"I'm ___, start without me.","좀 늦을 것 같아요, 먼저 시작하세요.",늦어지고 있는,"I'm running late, start without me."
+554,schedule,2,B1,reschedule,Can we ___ for next week?,다음 주로 다시 잡을 수 있을까요?,일정을 다시 잡다,Can we reschedule for next week?
+555,schedule,2,B1,come up,Something ___ at work.,회사에 일이 생겼어요.,(일이) 생기다,Something come up at work.
+556,schedule,2,B1,in advance,Please let me know ___.,미리 알려 주세요.,미리,Please let me know in advance.
+557,schedule,2,B1,tied up,I'm ___ until noon.,정오까지 일이 묶여 있어요.,(일로) 바쁜,I'm tied up until noon.
+558,schedule,2,B1,free up,I'll try to ___ some time.,시간을 좀 비워 볼게요.,시간을 비우다,I'll try to free up some time.
+559,schedule,2,B1,move up,Can we ___ the meeting to ten?,회의를 10시로 앞당길 수 있어요?,앞당기다,Can we move up the meeting to ten?
+560,schedule,2,B1,push back,Let's ___ the call to Thursday.,통화를 목요일로 미뤄요.,뒤로 미루다,Let's push back the call to Thursday.
+561,schedule,2,B1,squeeze in,I can ___ a meeting at four.,4시에 회의 하나 끼워 넣을 수 있어요.,끼워 넣다,I can squeeze in a meeting at four.
+562,schedule,2,B1,show up,Please ___ on time.,제시간에 와 주세요.,나타나다,Please show up on time.
+563,schedule,2,B1,a slot,Do you have a ___ at noon?,정오에 시간 자리 있어요?,(시간) 자리,Do you have a a slot at noon?
+564,schedule,2,B1,set a date,Let's ___ for the party.,파티 날짜를 정해요.,날짜를 정하다,Let's set a date for the party.
+565,schedule,2,B1,hold off,Let's ___ until Monday.,월요일까지 미뤄 둬요.,"미루다, 보류하다",Let's hold off until Monday.
+566,schedule,2,B1,clear my schedule,I'll ___ for you.,당신을 위해 일정을 비울게요.,일정을 비우다,I'll clear my schedule for you.
+567,schedule,2,B1,back to back,My meetings are ___ today.,오늘 회의가 줄줄이 잡혀 있어요.,연달아 있는,My meetings are back to back today.
+568,schedule,2,B1,first thing,Let's meet ___ tomorrow.,내일 아침 제일 먼저 만나요.,맨 먼저,Let's meet first thing tomorrow.
+569,schedule,2,B1,a rain check,Can I take ___ on dinner?,저녁은 다음으로 미뤄도 될까요?,다음 기회로 미루기,Can I take a rain check on dinner?
+570,schedule,2,B1,free of charge,The first session is ___.,첫 세션은 무료예요.,무료의,The first session is free of charge.
+571,schedule,2,B1,around,Let's meet ___ three.,3시쯤 만나요.,~쯤,Let's meet around three.
+572,schedule,2,B1,at the latest,Finish it by Friday ___.,늦어도 금요일까지 끝내세요.,늦어도,Finish it by Friday at the latest.
+573,schedule,2,B1,juggle,I have to ___ several tasks.,여러 일을 동시에 처리해야 해요.,동시에 처리하다,I have to juggle several tasks.
+574,schedule,2,B1,on short notice,Sorry to call you ___.,급하게 연락드려 죄송해요.,촉박하게,Sorry to call you on short notice.
+575,schedule,2,B1,make time,I'll ___ for it this week.,이번 주에 시간을 낼게요.,시간을 내다,I'll make time for it this week.
+576,schedule,3,B2-C1,pencil in,Let's ___ Thursday for now.,일단 목요일로 임시로 잡아 둬요.,잠정적으로 잡다,Let's pencil in Thursday for now.
+577,schedule,3,B2-C1,push back,We had to ___ the launch date.,출시일을 미뤄야 했어요.,(일정을) 뒤로 미루다,We had to push back the launch date.
+578,schedule,3,B2-C1,make room for,I'll ___ this in my week.,이번 주에 이걸 위한 시간을 낼게요.,~을 위한 시간을 내다,I'll make room for this in my week.
+579,schedule,3,B2-C1,around the clock,They worked ___ to finish.,그들은 끝내려고 밤낮없이 일했어요.,"쉬지 않고, 24시간 내내",They worked around the clock to finish.
+580,schedule,3,B2-C1,at short notice,Thanks for coming ___.,급히 와 주셔서 감사해요.,"촉박하게, 급히",Thanks for coming at short notice.
+581,schedule,3,B2-C1,double-booked,"I'm sorry, I'm ___.","죄송해요, 일정이 겹쳤어요.",이중으로 예약된,"I'm sorry, I'm double-booked."
+582,schedule,3,B2-C1,set in stone,Nothing is ___ yet.,아직 확정된 건 없어요.,확정된,Nothing is set in stone yet.
+583,schedule,3,B2-C1,squeeze you in,I can ___ at noon.,정오에 시간 내드릴 수 있어요.,시간을 내주다,I can squeeze you in at noon.
+584,schedule,3,B2-C1,a window,I have a small ___ at three.,3시에 잠깐 짬이 나요.,"짬, 빈 시간",I have a small a window at three.
+585,schedule,3,B2-C1,call it off,We had to ___ the event.,행사를 취소해야 했어요.,취소하다,We had to call it off the event.
+586,schedule,3,B2-C1,up in the air,The schedule is still ___.,일정이 아직 미정이에요.,미정인,The schedule is still up in the air.
+587,schedule,3,B2-C1,buy some time,Let's ___ by postponing.,연기해서 시간을 좀 벌어요.,시간을 벌다,Let's buy some time by postponing.
+588,schedule,3,B2-C1,run over,The meeting ___ by an hour.,회의가 한 시간 더 길어졌어요.,예정보다 길어지다,The meeting run over by an hour.
+589,schedule,3,B2-C1,a clash,There's a ___ with my calendar.,제 일정과 겹치는 게 있어요.,일정 충돌,There's a a clash with my calendar.
+590,schedule,3,B2-C1,fit it around,I'll ___ my work hours.,제 근무 시간에 맞춰 끼워 넣을게요.,~에 맞춰 끼워 넣다,I'll fit it around my work hours.
+591,schedule,3,B2-C1,at a moment's notice,She can leave ___.,그녀는 당장이라도 떠날 수 있어요.,"즉각, 통보 즉시",She can leave at a moment's notice.
+592,schedule,3,B2-C1,burn the midnight oil,I had to ___ before the deadline.,마감 전에 밤늦게까지 일해야 했어요.,밤늦게까지 일하다,I had to burn the midnight oil before the deadline.
+593,schedule,3,B2-C1,ahead of schedule,We finished ___.,우리는 예정보다 일찍 끝냈어요.,예정보다 빨리,We finished ahead of schedule.
+594,schedule,3,B2-C1,behind schedule,The project is ___ now.,프로젝트가 이제 일정보다 늦어요.,일정보다 늦은,The project is behind schedule now.
+595,schedule,3,B2-C1,pin down a time,Let's ___ for the call.,통화 시간을 확실히 정해요.,시간을 확정하다,Let's pin down a time for the call.
+596,schedule,3,B2-C1,a tight turnaround,It's a ___ on this report.,이 보고서는 처리 시간이 빠듯해요.,짧은 처리 기한,It's a a tight turnaround on this report.
+597,schedule,3,B2-C1,put on hold,The plan is ___ for now.,그 계획은 당분간 보류예요.,보류된,The plan is put on hold for now.
+598,schedule,3,B2-C1,crunch time,It's ___ before the launch.,출시 전 막판 고비예요.,막판 집중 기간,It's crunch time before the launch.
+599,schedule,3,B2-C1,free as a bird,I'm ___ this weekend.,이번 주말은 완전히 한가해요.,아주 자유로운,I'm free as a bird this weekend.
+600,schedule,3,B2-C1,clear the decks,Let's ___ before the new project.,새 프로젝트 전에 일을 정리해 둬요.,일을 깔끔히 정리하다,Let's clear the decks before the new project.
+601,health,1,A1-A2,sick,I feel ___ today.,오늘 몸이 안 좋아요.,아픈,I feel sick today.
+602,health,1,A1-A2,doctor,I need to see a ___.,의사를 봐야 해요.,의사,I need to see a doctor.
+603,health,1,A1-A2,hurts,My back really ___.,허리가 정말 아파요.,아프다,My back really hurts.
+604,health,1,A1-A2,rest,You should get some ___.,좀 쉬어야 해요.,휴식,You should get some rest.
+605,health,1,A1-A2,medicine,Take this ___ twice a day.,이 약을 하루에 두 번 드세요.,약,Take this medicine twice a day.
+606,health,1,A1-A2,headache,I have a bad ___.,두통이 심해요.,두통,I have a bad headache.
+607,health,1,A1-A2,better,I feel ___ now.,이제 좀 나아요.,더 나은,I feel better now.
+608,health,1,A1-A2,cold,I caught a ___.,감기에 걸렸어요.,감기,I caught a cold.
+609,health,1,A1-A2,fever,She has a high ___.,그녀는 고열이 있어요.,열,She has a high fever.
+610,health,1,A1-A2,hospital,He went to the ___.,그는 병원에 갔어요.,병원,He went to the hospital.
+611,health,1,A1-A2,pain,I have a ___ in my knee.,무릎에 통증이 있어요.,통증,I have a pain in my knee.
+612,health,1,A1-A2,sleep,You need more ___.,잠을 더 자야 해요.,잠,You need more sleep.
+613,health,1,A1-A2,cough,I've had a ___ for days.,며칠째 기침이 나요.,기침,I've had a cough for days.
+614,health,1,A1-A2,tired,I feel ___ all the time.,항상 피곤해요.,피곤한,I feel tired all the time.
+615,health,1,A1-A2,drink,___ plenty of water.,물을 많이 마시세요.,마시다,Drink plenty of water.
+616,health,1,A1-A2,sore,I have a ___ throat.,목이 따끔거려요.,"아픈, 따끔한",I have a sore throat.
+617,health,1,A1-A2,nurse,The ___ will help you.,간호사가 도와줄 거예요.,간호사,The nurse will help you.
+618,health,1,A1-A2,dizzy,I feel a little ___.,좀 어지러워요.,어지러운,I feel a little dizzy.
+619,health,1,A1-A2,healthy,Stay ___ this winter.,이번 겨울 건강하세요.,건강한,Stay healthy this winter.
+620,health,1,A1-A2,eat,Try to ___ well.,잘 챙겨 드세요.,먹다,Try to eat well.
+621,health,1,A1-A2,stomach,My ___ hurts.,배가 아파요.,"배, 위",My stomach hurts.
+622,health,1,A1-A2,weak,I feel a bit ___.,좀 기운이 없어요.,"약한, 기운 없는",I feel a bit weak.
+623,health,1,A1-A2,warm,Keep yourself ___.,몸을 따뜻하게 하세요.,따뜻한,Keep yourself warm.
+624,health,1,A1-A2,teeth,Brush your ___ twice a day.,하루에 두 번 양치하세요.,치아,Brush your teeth twice a day.
+625,health,1,A1-A2,exercise,I ___ every morning.,전 매일 아침 운동해요.,운동하다,I exercise every morning.
+626,health,2,B1,come down with,I think I'm ___ a cold.,감기에 걸리는 것 같아요.,(병에) 걸리다,I think I'm come down with a cold.
+627,health,2,B1,make an appointment,I'd like to ___ with Dr. Lee.,이 선생님께 진료 예약하고 싶어요.,예약하다,I'd like to make an appointment with Dr. Lee.
+628,health,2,B1,symptoms,What ___ do you have?,어떤 증상이 있으세요?,증상,What symptoms do you have?
+629,health,2,B1,get well,I hope you ___ soon.,빨리 낫길 바라요.,회복하다,I hope you get well soon.
+630,health,2,B1,prescription,Here's your ___.,여기 처방전이요.,처방전,Here's your prescription.
+631,health,2,B1,work out,I try to ___ three times a week.,일주일에 세 번 운동하려고 해요.,운동하다,I try to work out three times a week.
+632,health,2,B1,throw up,I felt like I might ___.,토할 것 같았어요.,토하다,I felt like I might throw up.
+633,health,2,B1,cut down on,I should ___ sugar.,설탕을 줄여야 해요.,~을 줄이다,I should cut down on sugar.
+634,health,2,B1,pass out,He nearly ___ from the heat.,그는 더위에 거의 기절할 뻔했어요.,기절하다,He nearly pass out from the heat.
+635,health,2,B1,get some rest,You really need to ___.,정말 좀 쉬어야 해요.,휴식을 취하다,You really need to get some rest.
+636,health,2,B1,a check-up,I'm due for ___.,건강검진 받을 때가 됐어요.,건강 검진,I'm due for a check-up.
+637,health,2,B1,feel under,I ___ the weather today.,오늘 몸이 좀 안 좋아요.,(몸이) 안 좋다,I feel under the weather today.
+638,health,2,B1,a sore throat,I woke up with ___.,목이 아픈 채로 깼어요.,인후통,I woke up with a sore throat.
+639,health,2,B1,knock out,This medicine will ___ for hours.,이 약을 먹으면 몇 시간 곯아떨어질 거예요.,곯아떨어지게 하다,This medicine will knock out for hours.
+640,health,2,B1,a balanced diet,I try to keep ___.,균형 잡힌 식사를 하려고 해요.,균형 잡힌 식단,I try to keep a balanced diet.
+641,health,2,B1,put on weight,I ___ over the holidays.,휴가 동안 살이 쪘어요.,살이 찌다,I put on weight over the holidays.
+642,health,2,B1,ease the pain,This will help ___.,이게 통증을 덜어 줄 거예요.,통증을 덜다,This will help ease the pain.
+643,health,2,B1,run a fever,The child is ___.,아이가 열이 나고 있어요.,열이 나다,The child is run a fever.
+644,health,2,B1,get checked out,You should ___ by a doctor.,의사에게 진찰받아 보는 게 좋아요.,진찰받다,You should get checked out by a doctor.
+645,health,2,B1,take it easy,___ until you recover.,회복할 때까지 무리하지 마세요.,무리하지 않다,Take it easy until you recover.
+646,health,2,B1,over the counter,You can buy it ___.,처방전 없이 살 수 있어요.,처방전 없이,You can buy it over the counter.
+647,health,2,B1,lose weight,I'm trying to ___.,살을 빼려고 노력 중이에요.,살을 빼다,I'm trying to lose weight.
+648,health,2,B1,a sick day,I'm taking ___ today.,오늘 병가를 내요.,병가,I'm taking a sick day today.
+649,health,2,B1,recover from,It took weeks to ___ the flu.,독감에서 회복하는 데 몇 주 걸렸어요.,~에서 회복하다,It took weeks to recover from the flu.
+650,health,2,B1,keep fit,I jog to ___.,건강을 유지하려고 조깅해요.,건강을 유지하다,I jog to keep fit.
+651,health,3,B2-C1,under the weather,I'm feeling a bit ___.,몸이 좀 안 좋아요.,몸이 찌뿌둥한,I'm feeling a bit under the weather.
+652,health,3,B2-C1,runs in the family,Diabetes ___.,당뇨는 집안 내력이에요.,집안 내력이다,Diabetes runs in the family.
+653,health,3,B2-C1,on the mend,She's finally ___.,그녀는 마침내 회복 중이에요.,회복 중인,She's finally on the mend.
+654,health,3,B2-C1,a check-up,I'm overdue for ___.,건강검진 받을 때가 한참 지났어요.,건강 검진,I'm overdue for a check-up.
+655,health,3,B2-C1,bounced back,He ___ quickly after the surgery.,그는 수술 후 빠르게 회복했어요.,회복하다,He bounced back quickly after the surgery.
+656,health,3,B2-C1,burnt out,I was completely ___ last month.,지난달엔 완전히 지쳐 있었어요.,기진맥진한,I was completely burnt out last month.
+657,health,3,B2-C1,take its toll,Stress can ___ on your body.,스트레스는 몸에 큰 타격을 줄 수 있어요.,큰 피해를 입히다,Stress can take its toll on your body.
+658,health,3,B2-C1,nurse back to health,She ___ him after the accident.,그녀는 사고 후 그를 간호해 회복시켰어요.,간호해 회복시키다,She nurse back to health him after the accident.
+659,health,3,B2-C1,a clean bill of health,The doctor gave me ___.,의사가 건강에 이상 없다고 했어요.,건강 이상 없음 진단,The doctor gave me a clean bill of health.
+660,health,3,B2-C1,a splitting headache,I have ___.,머리가 깨질 듯이 아파요.,쪼개질 듯한 두통,I have a splitting headache.
+661,health,3,B2-C1,at death's door,He was ___ but pulled through.,그는 사경을 헤맸지만 이겨 냈어요.,죽기 직전인,He was at death's door but pulled through.
+662,health,3,B2-C1,fighting fit,"After the rest, I'm ___.",쉬고 나니 아주 팔팔해요.,아주 건강한,"After the rest, I'm fighting fit."
+663,health,3,B2-C1,off-color,She looked a bit ___ today.,그녀는 오늘 안색이 좀 안 좋아 보였어요.,안색이 안 좋은,She looked a bit off-color today.
+664,health,3,B2-C1,a shot in the arm,The vaccine was ___ for the clinic.,그 백신은 병원에 큰 힘이 됐어요.,"활력소, 자극제",The vaccine was a shot in the arm for the clinic.
+665,health,3,B2-C1,kick the habit,He finally ___ of smoking.,그는 마침내 담배를 끊었어요.,나쁜 습관을 끊다,He finally kick the habit of smoking.
+666,health,3,B2-C1,run-down,I've been feeling ___ lately.,요즘 기진맥진한 느낌이에요.,쇠약해진,I've been feeling run-down lately.
+667,health,3,B2-C1,a new lease on life,The surgery gave her ___.,그 수술은 그녀에게 새 삶을 줬어요.,새로운 삶,The surgery gave her a new lease on life.
+668,health,3,B2-C1,watch what you eat,You should ___ more.,드시는 걸 더 신경 써야 해요.,음식을 가려 먹다,You should watch what you eat more.
+669,health,3,B2-C1,on the road to recovery,He's ___ now.,그는 이제 회복의 길에 들어섰어요.,회복하는 중인,He's on the road to recovery now.
+670,health,3,B2-C1,a picture of health,She's ___ these days.,그녀는 요즘 건강 그 자체예요.,아주 건강한 모습,She's a picture of health these days.
+671,health,3,B2-C1,come down hard,The flu ___ on him.,독감이 그를 심하게 덮쳤어요.,심하게 들이닥치다,The flu come down hard on him.
+672,health,3,B2-C1,nip it in the bud,Treat the cold to ___.,감기를 초기에 잡으세요.,초기에 막다,Treat the cold to nip it in the bud.
+673,health,3,B2-C1,pull through,Doctors weren't sure he'd ___.,의사들은 그가 회복할지 확신 못 했어요.,위기를 넘기다,Doctors weren't sure he'd pull through.
+674,health,3,B2-C1,sleep it off,I'll just ___ tonight.,오늘 밤은 푹 자서 떨쳐낼게요.,자고 나서 회복하다,I'll just sleep it off tonight.
+675,health,3,B2-C1,take a turn for the worse,His condition ___.,그의 상태가 악화됐어요.,악화되다,His condition take a turn for the worse.
+676,daily,1,A1-A2,wake,I ___ up at seven.,전 7시에 일어나요.,(잠에서) 깨다,I wake up at seven.
+677,daily,1,A1-A2,breakfast,I usually skip ___.,전 보통 아침을 걸러요.,아침 식사,I usually skip breakfast.
+678,daily,1,A1-A2,home,I get ___ around six.,6시쯤 집에 와요.,집에,I get home around six.
+679,daily,1,A1-A2,clean,I need to ___ my room.,방을 청소해야 해요.,청소하다,I need to clean my room.
+680,daily,1,A1-A2,sleep,I ___ eight hours a night.,전 밤에 여덟 시간 자요.,자다,I sleep eight hours a night.
+681,daily,1,A1-A2,every,I exercise ___ morning.,전 매일 아침 운동해요.,매~,I exercise every morning.
+682,daily,1,A1-A2,shower,I take a ___ before bed.,자기 전에 샤워해요.,샤워,I take a shower before bed.
+683,daily,1,A1-A2,brush,I ___ my teeth twice a day.,하루에 두 번 양치해요.,닦다,I brush my teeth twice a day.
+684,daily,1,A1-A2,cook,I ___ dinner every night.,매일 밤 저녁을 요리해요.,요리하다,I cook dinner every night.
+685,daily,1,A1-A2,walk,I ___ my dog in the park.,공원에서 개를 산책시켜요.,"걷다, 산책시키다",I walk my dog in the park.
+686,daily,1,A1-A2,read,I ___ before sleeping.,자기 전에 책을 읽어요.,읽다,I read before sleeping.
+687,daily,1,A1-A2,work,I go to ___ by subway.,전 지하철로 출근해요.,"일, 직장",I go to work by subway.
+688,daily,1,A1-A2,dinner,What's for ___?,저녁 뭐예요?,저녁 식사,What's for dinner?
+689,daily,1,A1-A2,water,I drink a lot of ___.,물을 많이 마셔요.,물,I drink a lot of water.
+690,daily,1,A1-A2,late,I went to bed ___ last night.,어젯밤엔 늦게 잤어요.,늦게,I went to bed late last night.
+691,daily,1,A1-A2,morning,I'm a ___ person.,전 아침형 인간이에요.,아침,I'm a morning person.
+692,daily,1,A1-A2,dishes,I wash the ___ after dinner.,저녁 후에 설거지를 해요.,설거지,I wash the dishes after dinner.
+693,daily,1,A1-A2,nap,I take a short ___ at noon.,정오에 잠깐 낮잠을 자요.,낮잠,I take a short nap at noon.
+694,daily,1,A1-A2,gym,I go to the ___ in the evening.,저녁에 체육관에 가요.,체육관,I go to the gym in the evening.
+695,daily,1,A1-A2,rest,I ___ on weekends.,주말엔 쉬어요.,쉬다,I rest on weekends.
+696,daily,1,A1-A2,lunch,I have ___ at noon.,정오에 점심을 먹어요.,점심,I have lunch at noon.
+697,daily,1,A1-A2,daily,It's part of my ___ routine.,그건 제 일상의 일부예요.,매일의,It's part of my daily routine.
+698,daily,1,A1-A2,alarm,My ___ goes off at six.,제 알람이 6시에 울려요.,알람,My alarm goes off at six.
+699,daily,1,A1-A2,tidy,I keep my desk ___.,제 책상을 깔끔하게 유지해요.,깔끔한,I keep my desk tidy.
+700,daily,1,A1-A2,relax,I ___ on the sofa at night.,밤엔 소파에서 쉬어요.,"쉬다, 긴장을 풀다",I relax on the sofa at night.
+701,daily,2,B1,run errands,I need to ___ this afternoon.,오후에 볼일을 좀 봐야 해요.,잡일을 보다,I need to run errands this afternoon.
+702,daily,2,B1,do the laundry,I usually ___ on Sundays.,전 보통 일요일에 빨래해요.,빨래하다,I usually do the laundry on Sundays.
+703,daily,2,B1,stay up,I tend to ___ too late.,전 너무 늦게까지 깨어 있는 편이에요.,안 자고 깨어 있다,I tend to stay up too late.
+704,daily,2,B1,get up,It's hard to ___ early.,일찍 일어나는 게 힘들어요.,"일어나다, 기상하다",It's hard to get up early.
+705,daily,2,B1,tidy up,Let me ___ before guests arrive.,손님 오기 전에 정리 좀 할게요.,정돈하다,Let me tidy up before guests arrive.
+706,daily,2,B1,grab,I'll just ___ a coffee on the way.,가는 길에 커피만 사 갈게요.,간단히 사다/집다,I'll just grab a coffee on the way.
+707,daily,2,B1,settle in,It took a week to ___ at the new place.,새집에 적응하는 데 일주일 걸렸어요.,적응하다,It took a week to settle in at the new place.
+708,daily,2,B1,get ready,Give me ten minutes to ___.,준비하게 10분만 줘요.,준비하다,Give me ten minutes to get ready.
+709,daily,2,B1,doze off,I almost ___ on the train.,기차에서 깜빡 졸 뻔했어요.,깜빡 졸다,I almost doze off on the train.
+710,daily,2,B1,warm up,I ___ some soup for lunch.,점심으로 수프를 데웠어요.,데우다,I warm up some soup for lunch.
+711,daily,2,B1,clean up,Let's ___ after the party.,파티 끝나고 치워요.,치우다,Let's clean up after the party.
+712,daily,2,B1,a routine,I'm stuck in the same ___.,전 똑같은 일상에 갇혀 있어요.,틀에 박힌 일과,I'm stuck in the same a routine.
+713,daily,2,B1,drop off,I'll ___ the kids at school.,아이들을 학교에 데려다줄게요.,데려다주다,I'll drop off the kids at school.
+714,daily,2,B1,knock out,I need to ___ these chores first.,이 집안일부터 후딱 해치워야 해요.,후딱 끝내다,I need to knock out these chores first.
+715,daily,2,B1,set the alarm,Don't forget to ___.,알람 맞추는 거 잊지 마세요.,알람을 맞추다,Don't forget to set the alarm.
+716,daily,2,B1,take out,Could you ___ the trash?,쓰레기 좀 내다 버려 줄래요?,내다 버리다,Could you take out the trash?
+717,daily,2,B1,hang out the laundry,I ___ in the morning.,아침에 빨래를 널어요.,빨래를 널다,I hang out the laundry in the morning.
+718,daily,2,B1,catch up on,I'll ___ sleep this weekend.,이번 주말에 밀린 잠을 보충할 거예요.,밀린 것을 보충하다,I'll catch up on sleep this weekend.
+719,daily,2,B1,wind up,I always ___ working late.,전 늘 늦게까지 일하게 돼요.,결국 ~하게 되다,I always wind up working late.
+720,daily,2,B1,get going,We'd better ___ now.,이제 슬슬 나서는 게 좋겠어요.,"출발하다, 서두르다",We'd better get going now.
+721,daily,2,B1,pop out,I'll ___ to the store quickly.,가게에 잠깐 다녀올게요.,잠깐 나가다,I'll pop out to the store quickly.
+722,daily,2,B1,fix breakfast,I'll ___ for everyone.,제가 모두 아침을 차릴게요.,아침을 차리다,I'll fix breakfast for everyone.
+723,daily,2,B1,turn in,I usually ___ around eleven.,전 보통 11시쯤 잠자리에 들어요.,잠자리에 들다,I usually turn in around eleven.
+724,daily,2,B1,freshen up,Let me ___ before we leave.,나가기 전에 좀 씻고 올게요.,씻고 단장하다,Let me freshen up before we leave.
+725,daily,2,B1,put away,Please ___ the dishes.,그릇 좀 치워서 정리해 주세요.,치워 넣다,Please put away the dishes.
+726,daily,3,B2-C1,creature of habit,I'm a real ___.,전 정말 습관의 동물이에요.,습관을 잘 안 바꾸는 사람,I'm a real creature of habit.
+727,daily,3,B2-C1,rut,I've gotten into a ___ with my routine.,제 일상이 매너리즘에 빠졌어요.,틀에 박힌 생활,I've gotten into a rut with my routine.
+728,daily,3,B2-C1,wind down,I read to ___ at night.,밤에 긴장을 풀려고 책을 읽어요.,긴장을 풀다,I read to wind down at night.
+729,daily,3,B2-C1,hit the hay,I'm exhausted; time to ___.,"너무 피곤해요, 이제 자야겠어요.",잠자리에 들다,I'm exhausted; time to hit the hay.
+730,daily,3,B2-C1,on autopilot,My mornings run ___.,제 아침은 거의 무의식적으로 흘러가요.,무의식적으로,My mornings run on autopilot.
+731,daily,3,B2-C1,carve out,I try to ___ time for myself.,저만의 시간을 따로 내려고 해요.,시간을 따로 떼어 내다,I try to carve out time for myself.
+732,daily,3,B2-C1,first thing,I check email ___ in the morning.,전 아침에 제일 먼저 이메일을 확인해요.,맨 먼저,I check email first thing in the morning.
+733,daily,3,B2-C1,the crack of dawn,I get up at ___.,전 동틀 무렵에 일어나요.,동틀 녘,I get up at the crack of dawn.
+734,daily,3,B2-C1,a night owl,My brother is a ___.,제 동생은 야행성이에요.,야행성인 사람,My brother is a a night owl.
+735,daily,3,B2-C1,hit the sack,I'm going to ___ early tonight.,오늘은 일찍 잘 거예요.,잠자리에 들다,I'm going to hit the sack early tonight.
+736,daily,3,B2-C1,bog down,Chores ___ my whole weekend.,집안일이 주말을 통째로 잡아먹어요.,꼼짝 못 하게 하다,Chores bog down my whole weekend.
+737,daily,3,B2-C1,a slow start,I always have ___ in the morning.,전 아침엔 늘 시동이 느려요.,느린 출발,I always have a slow start in the morning.
+738,daily,3,B2-C1,recharge my batteries,Weekends help me ___.,주말은 제 기력을 충전해 줘요.,기력을 충전하다,Weekends help me recharge my batteries.
+739,daily,3,B2-C1,burn the candle at both ends,She ___ for months.,그녀는 몇 달째 무리하며 지냈어요.,과로하다,She burn the candle at both ends for months.
+740,daily,3,B2-C1,get into the swing of things,It takes time to ___.,일에 적응하는 데 시간이 걸려요.,제 페이스를 찾다,It takes time to get into the swing of things.
+741,daily,3,B2-C1,a power nap,A quick ___ keeps me going.,짧은 낮잠이 절 버티게 해 줘요.,짧고 효과적인 낮잠,A quick a power nap keeps me going.
+742,daily,3,B2-C1,up and about,She's ___ by six every day.,그녀는 매일 6시면 일어나 활동해요.,일어나 움직이는,She's up and about by six every day.
+743,daily,3,B2-C1,clockwork,My routine runs like ___.,제 일상은 시계처럼 정확히 돌아가요.,시계처럼 정확함,My routine runs like clockwork.
+744,daily,3,B2-C1,call it a night,Let's ___ and head home.,오늘은 그만하고 집에 가요.,하루를 마무리하다,Let's call it a night and head home.
+745,daily,3,B2-C1,an early riser,My dad is an ___.,제 아버지는 일찍 일어나는 분이에요.,일찍 일어나는 사람,My dad is an an early riser.
+746,daily,3,B2-C1,dead to the world,After the trip I was ___.,여행 후 전 곯아떨어져 세상모르고 잤어요.,세상모르고 자는,After the trip I was dead to the world.
+747,daily,3,B2-C1,the daily grind,I'm tired of the ___.,전 단조로운 일상이 지겨워요.,따분한 매일의 일상,I'm tired of the the daily grind.
+748,daily,3,B2-C1,in the nick of time,I caught the bus ___.,아슬아슬하게 버스를 탔어요.,아슬아슬하게,I caught the bus in the nick of time.
+749,daily,3,B2-C1,set the tone,A good morning ___ for the day.,좋은 아침이 하루의 분위기를 정해요.,분위기를 정하다,A good morning set the tone for the day.
+750,daily,3,B2-C1,take five,Let's ___ before continuing.,계속하기 전에 잠깐 쉬어요.,잠깐 쉬다,Let's take five before continuing.
+751,social,1,A1-A2,friend,She's my best ___.,그녀는 제 가장 친한 친구예요.,친구,She's my best friend.
+752,social,1,A1-A2,party,Are you coming to the ___?,파티에 올 거예요?,파티,Are you coming to the party?
+753,social,1,A1-A2,invite,I want to ___ you to dinner.,저녁 식사에 초대하고 싶어요.,초대하다,I want to invite you to dinner.
+754,social,1,A1-A2,fun,We had so much ___.,정말 재밌었어요.,재미,We had so much fun.
+755,social,1,A1-A2,together,Let's go ___.,같이 가요.,함께,Let's go together.
+756,social,1,A1-A2,talk,Can we ___ later?,나중에 얘기할 수 있어요?,이야기하다,Can we talk later?
+757,social,1,A1-A2,nice,Your friends are so ___.,당신 친구들 정말 좋네요.,"친절한, 좋은",Your friends are so nice.
+758,social,1,A1-A2,meet,Let's ___ up this weekend.,이번 주말에 만나요.,만나다,Let's meet up this weekend.
+759,social,1,A1-A2,call,I'll ___ you tomorrow.,내일 전화할게요.,전화하다,I'll call you tomorrow.
+760,social,1,A1-A2,join,Why don't you ___ us?,우리랑 함께하지 그래요?,함께하다,Why don't you join us?
+761,social,1,A1-A2,share,Can I ___ this with you?,이거 같이 나눠도 될까요?,"나누다, 공유하다",Can I share this with you?
+762,social,1,A1-A2,help,Let me ___ you with that.,그거 제가 도와줄게요.,돕다,Let me help you with that.
+763,social,1,A1-A2,kind,He is very ___ to everyone.,그는 모두에게 아주 친절해요.,친절한,He is very kind to everyone.
+764,social,1,A1-A2,game,Let's play a ___ together.,같이 게임 한 판 해요.,게임,Let's play a game together.
+765,social,1,A1-A2,date,We went on a ___ last night.,우리 어젯밤 데이트했어요.,데이트,We went on a date last night.
+766,social,1,A1-A2,hug,She gave me a warm ___.,그녀가 따뜻하게 안아 줬어요.,포옹,She gave me a warm hug.
+767,social,1,A1-A2,smile,Your ___ is lovely.,당신 미소가 참 좋아요.,미소,Your smile is lovely.
+768,social,1,A1-A2,group,We have a study ___.,우리는 스터디 그룹이 있어요.,그룹,We have a study group.
+769,social,1,A1-A2,close,We are very ___.,우리는 아주 친해요.,가까운,We are very close.
+770,social,1,A1-A2,gift,I brought you a small ___.,작은 선물을 가져왔어요.,선물,I brought you a small gift.
+771,social,1,A1-A2,dinner,Let's have ___ together.,같이 저녁 먹어요.,저녁 식사,Let's have dinner together.
+772,social,1,A1-A2,laugh,We always ___ a lot.,우리는 늘 많이 웃어요.,웃다,We always laugh a lot.
+773,social,1,A1-A2,neighbor,My ___ is very friendly.,제 이웃은 아주 다정해요.,이웃,My neighbor is very friendly.
+774,social,1,A1-A2,guest,We have a ___ tonight.,오늘 밤 손님이 와요.,손님,We have a guest tonight.
+775,social,1,A1-A2,welcome,You're always ___ here.,여긴 언제든 환영이에요.,환영받는,You're always welcome here.
+776,social,2,B1,hang out,Let's ___ this weekend.,이번 주말에 같이 놀아요.,어울려 놀다,Let's hang out this weekend.
+777,social,2,B1,get along,Do you ___ with your roommate?,룸메이트랑 잘 지내요?,잘 지내다,Do you get along with your roommate?
+778,social,2,B1,showed up,Not many people ___.,사람들이 많이 안 왔어요.,"나타나다, 오다",Not many people showed up.
+779,social,2,B1,falling out,They had a ___ over money.,그들은 돈 문제로 사이가 틀어졌어요.,"다툼, 불화",They had a falling out over money.
+780,social,2,B1,make up,Did you two ___ after the fight?,둘이 싸우고 나서 화해했어요?,화해하다,Did you two make up after the fight?
+781,social,2,B1,close to,I'm very ___ my sister.,전 언니와 아주 가까워요.,~와 친한,I'm very close to my sister.
+782,social,2,B1,leave out,Don't ___ anyone from the group.,그룹에서 누구도 빼놓지 마세요.,"빼다, 따돌리다",Don't leave out anyone from the group.
+783,social,2,B1,catch up with,I need to ___ my old friends.,옛 친구들과 회포를 풀어야 해요.,근황을 나누다,I need to catch up with my old friends.
+784,social,2,B1,get to know,I'd like to ___ you better.,당신을 더 잘 알고 싶어요.,알아가다,I'd like to get to know you better.
+785,social,2,B1,look up to,I really ___ my mentor.,전 제 멘토를 정말 존경해요.,존경하다,I really look up to my mentor.
+786,social,2,B1,count on,You can ___ me anytime.,언제든 절 믿고 의지해도 돼요.,믿고 의지하다,You can count on me anytime.
+787,social,2,B1,fall for,She slowly ___ him.,그녀는 서서히 그에게 반했어요.,~에게 반하다,She slowly fall for him.
+788,social,2,B1,hit it off,We ___ on the first day.,우리는 첫날 바로 잘 통했어요.,금세 친해지다,We hit it off on the first day.
+789,social,2,B1,ask out,He finally ___ her.,그는 마침내 그녀에게 데이트 신청을 했어요.,데이트 신청을 하다,He finally ask out her.
+790,social,2,B1,get together,Let's ___ next week.,다음 주에 모여요.,모이다,Let's get together next week.
+791,social,2,B1,a heart-to-heart,We had ___ last night.,우리는 어젯밤 진솔한 대화를 나눴어요.,속 깊은 대화,We had a heart-to-heart last night.
+792,social,2,B1,break up,They decided to ___.,그들은 헤어지기로 했어요.,헤어지다,They decided to break up.
+793,social,2,B1,see eye to eye,My partner and I finally ___.,제 파트너와 전 마침내 의견이 일치했어요.,의견이 완전히 일치하다,My partner and I finally see eye to eye.
+794,social,2,B1,stand up for,She'll always ___ her friends.,그녀는 늘 친구 편을 들어 줘요.,"편들다, 옹호하다",She'll always stand up for her friends.
+795,social,2,B1,a get-together,We're having ___ on Saturday.,토요일에 모임이 있어요.,모임,We're having a get-together on Saturday.
+796,social,2,B1,show someone around,I'll ___ the city.,제가 도시를 구경시켜 드릴게요.,구경시켜 주다,I'll show someone around the city.
+797,social,2,B1,keep someone company,I'll ___ while you wait.,기다리는 동안 곁에 있어 줄게요.,곁에 있어 주다,I'll keep someone company while you wait.
+798,social,2,B1,bring up,Don't ___ that topic tonight.,오늘 밤 그 얘기는 꺼내지 마세요.,(화제를) 꺼내다,Don't bring up that topic tonight.
+799,social,2,B1,a falling-out,"After the ___, they stopped talking.",다툰 뒤로 그들은 말을 안 해요.,"다툼, 불화","After the a falling-out, they stopped talking."
+800,social,2,B1,set up,My friend tried to ___ me on a date.,친구가 소개팅을 주선해 줬어요.,주선하다,My friend tried to set up me on a date.
+801,social,3,B2-C1,drift apart,We slowly ___ after college.,우리는 대학 후에 서서히 멀어졌어요.,사이가 멀어지다,We slowly drift apart after college.
+802,social,3,B2-C1,back,"Don't worry, I've got your ___.","걱정 마, 내가 네 편이야.",편이 되어 줌,"Don't worry, I've got your back."
+803,social,3,B2-C1,patch things up,They managed to ___.,그들은 가까스로 관계를 회복했어요.,관계를 회복하다,They managed to patch things up.
+804,social,3,B2-C1,bend over backwards,She ___ to help everyone.,그녀는 모두를 돕느라 애를 무척 썼어요.,최선을 다해 애쓰다,She bend over backwards to help everyone.
+805,social,3,B2-C1,common ground,We finally found ___.,우리는 마침내 공통점을 찾았어요.,"공통점, 합의점",We finally found common ground.
+806,social,3,B2-C1,grew on,He really ___ me over time.,시간이 지나니 그가 점점 좋아졌어요.,점점 좋아지다,He really grew on me over time.
+807,social,3,B2-C1,the life of the party,She's always ___.,그녀는 늘 파티의 분위기 메이커예요.,분위기를 띄우는 사람,She's always the life of the party.
+808,social,3,B2-C1,see eye to eye,We finally ___ on it.,우리는 마침내 그 일에 의견이 일치했어요.,의견이 완전히 일치하다,We finally see eye to eye on it.
+809,social,3,B2-C1,a shoulder to cry on,She was ___ when I was down.,제가 힘들 때 그녀가 위로가 되어 줬어요.,"기댈 사람, 위안",She was a shoulder to cry on when I was down.
+810,social,3,B2-C1,hit it off with,I really ___ her family.,전 그녀 가족과 정말 잘 통했어요.,~와 금세 친해지다,I really hit it off with her family.
+811,social,3,B2-C1,keep in touch,Let's ___ after you move.,이사 가도 연락하고 지내요.,연락하고 지내다,Let's keep in touch after you move.
+812,social,3,B2-C1,a close-knit group,We're ___ of friends.,우리는 끈끈한 친구 무리예요.,끈끈한 무리,We're a close-knit group of friends.
+813,social,3,B2-C1,burn bridges,Don't ___ when you quit.,그만둘 때 인연을 끊지 마세요.,관계를 끊다,Don't burn bridges when you quit.
+814,social,3,B2-C1,on good terms,We're still ___.,우리는 아직 사이가 좋아요.,사이가 좋은,We're still on good terms.
+815,social,3,B2-C1,get on like a house on fire,They ___.,그들은 죽이 척척 잘 맞아요.,아주 잘 어울리다,They get on like a house on fire.
+816,social,3,B2-C1,an old flame,She ran into ___.,그녀는 옛 연인을 우연히 마주쳤어요.,옛 연인,She ran into an old flame.
+817,social,3,B2-C1,clear the air,We need to ___ between us.,우리 사이 오해를 풀어야 해요.,오해를 풀다,We need to clear the air between us.
+818,social,3,B2-C1,a fair-weather friend,He turned out to be ___.,그는 알고 보니 좋을 때만 친구였어요.,좋을 때만 친구,He turned out to be a fair-weather friend.
+819,social,3,B2-C1,take someone for granted,Don't ___ your friends.,친구를 당연하게 여기지 마세요.,당연하게 여기다,Don't take someone for granted your friends.
+820,social,3,B2-C1,bury the hatchet,It's time to ___.,이제 화해할 때예요.,화해하다,It's time to bury the hatchet.
+821,social,3,B2-C1,a soft spot for,I have ___ him.,전 그를 각별히 아껴요.,각별히 아끼는 마음,I have a soft spot for him.
+822,social,3,B2-C1,get off on the wrong foot,We ___ at first.,우리는 처음에 첫 단추를 잘못 끼웠어요.,첫인상이 나쁘게 시작하다,We get off on the wrong foot at first.
+823,social,3,B2-C1,a kindred spirit,I found ___ in her.,그녀에게서 마음이 통하는 사람을 만났어요.,마음 맞는 사람,I found a kindred spirit in her.
+824,social,3,B2-C1,win someone over,It took time to ___.,그를 설득해 마음을 얻는 데 시간이 걸렸어요.,마음을 얻다,It took time to win someone over.
+825,social,3,B2-C1,there for someone,I'll always be ___ you.,난 늘 네 곁에 있을게.,곁에서 힘이 되어 주는,I'll always be there for someone you.
+826,it,1,A1-A2,computer,My ___ is too slow.,제 컴퓨터가 너무 느려요.,컴퓨터,My computer is too slow.
+827,it,1,A1-A2,file,Can you open this ___?,이 파일 열 수 있어요?,파일,Can you open this file?
+828,it,1,A1-A2,save,Don't forget to ___ your work.,작업 저장하는 거 잊지 마세요.,저장하다,Don't forget to save your work.
+829,it,1,A1-A2,internet,The ___ is down again.,인터넷이 또 안 돼요.,인터넷,The internet is down again.
+830,it,1,A1-A2,password,I forgot my ___.,비밀번호를 잊어버렸어요.,비밀번호,I forgot my password.
+831,it,1,A1-A2,Click,___ the button to start.,시작하려면 버튼을 누르세요.,클릭하다,Click the button to start.
+832,it,1,A1-A2,screen,My ___ froze.,화면이 멈췄어요.,화면,My screen froze.
+833,it,1,A1-A2,mouse,My ___ stopped working.,제 마우스가 작동을 멈췄어요.,마우스,My mouse stopped working.
+834,it,1,A1-A2,keyboard,I spilled water on my ___.,키보드에 물을 쏟았어요.,키보드,I spilled water on my keyboard.
+835,it,1,A1-A2,download,I need to ___ this app.,이 앱을 다운로드해야 해요.,다운로드하다,I need to download this app.
+836,it,1,A1-A2,email,Did you check your ___?,이메일 확인했어요?,이메일,Did you check your email?
+837,it,1,A1-A2,delete,Please ___ that file.,그 파일을 삭제해 주세요.,삭제하다,Please delete that file.
+838,it,1,A1-A2,open,___ the program first.,먼저 프로그램을 여세요.,열다,Open the program first.
+839,it,1,A1-A2,phone,I left my ___ at home.,집에 휴대폰을 두고 왔어요.,휴대폰,I left my phone at home.
+840,it,1,A1-A2,type,Just ___ your name here.,여기 이름을 입력하세요.,입력하다,Just type your name here.
+841,it,1,A1-A2,slow,The website is so ___.,웹사이트가 너무 느려요.,느린,The website is so slow.
+842,it,1,A1-A2,button,Press the green ___.,초록 버튼을 누르세요.,버튼,Press the green button.
+843,it,1,A1-A2,wifi,Is there free ___ here?,여기 무료 와이파이 있어요?,와이파이,Is there free wifi here?
+844,it,1,A1-A2,app,I downloaded a new ___.,새 앱을 받았어요.,앱,I downloaded a new app.
+845,it,1,A1-A2,charge,I need to ___ my phone.,휴대폰을 충전해야 해요.,충전하다,I need to charge my phone.
+846,it,1,A1-A2,photo,Can you send me the ___?,그 사진 좀 보내 줄래요?,사진,Can you send me the photo?
+847,it,1,A1-A2,turn on,Please ___ the computer.,컴퓨터를 켜 주세요.,켜다,Please turn on the computer.
+848,it,1,A1-A2,link,Click this ___ to join.,참여하려면 이 링크를 누르세요.,링크,Click this link to join.
+849,it,1,A1-A2,search,I'll ___ for it online.,온라인으로 검색해 볼게요.,검색하다,I'll search for it online.
+850,it,1,A1-A2,upload,Please ___ the document.,문서를 업로드해 주세요.,업로드하다,Please upload the document.
+851,it,2,B1,back up,Make sure to ___ your data.,데이터를 꼭 백업하세요.,백업하다,Make sure to back up your data.
+852,it,2,B1,log in,I can't ___ to my account.,계정에 로그인이 안 돼요.,로그인하다,I can't log in to my account.
+853,it,2,B1,update,Please ___ the software first.,먼저 소프트웨어를 업데이트하세요.,업데이트하다,Please update the software first.
+854,it,2,B1,crashing,The app keeps ___.,앱이 자꾸 멈춰요.,(프로그램이) 다운되다,The app keeps crashing.
+855,it,2,B1,set up,Can you help me ___ the printer?,프린터 설치하는 것 좀 도와줄래요?,"설치하다, 설정하다",Can you help me set up the printer?
+856,it,2,B1,restart,Try to ___ your device.,기기를 재시작해 보세요.,재시작하다,Try to restart your device.
+857,it,2,B1,share,I'll ___ the folder with you.,폴더를 공유해 줄게요.,공유하다,I'll share the folder with you.
+858,it,2,B1,log out,Don't forget to ___ after.,끝나고 로그아웃 잊지 마세요.,로그아웃하다,Don't forget to log out after.
+859,it,2,B1,sign up,You need to ___ first.,먼저 가입해야 해요.,가입하다,You need to sign up first.
+860,it,2,B1,plug in,Did you ___ the cable?,케이블 꽂았어요?,"꽂다, 연결하다",Did you plug in the cable?
+861,it,2,B1,freeze up,My laptop tends to ___.,제 노트북이 자꾸 멈춰요.,(화면이) 멈추다,My laptop tends to freeze up.
+862,it,2,B1,a glitch,There's a small ___ in the app.,앱에 작은 오류가 있어요.,사소한 오류,There's a small a glitch in the app.
+863,it,2,B1,sync,My files won't ___.,제 파일이 동기화가 안 돼요.,동기화하다,My files won't sync.
+864,it,2,B1,zoom in,Could you ___ on the chart?,차트를 확대해 주시겠어요?,확대하다,Could you zoom in on the chart?
+865,it,2,B1,reset,I had to ___ my password.,비밀번호를 재설정해야 했어요.,재설정하다,I had to reset my password.
+866,it,2,B1,run out of,My phone is ___ battery.,제 휴대폰 배터리가 다 돼 가요.,다 떨어지다,My phone is run out of battery.
+867,it,2,B1,pop up,An error keeps ___.,오류가 자꾸 떠요.,(갑자기) 나타나다,An error keeps pop up.
+868,it,2,B1,a hard drive,I saved it on my ___.,하드 드라이브에 저장했어요.,하드 드라이브,I saved it on my a hard drive.
+869,it,2,B1,type in,Just ___ the code here.,여기에 코드만 입력하세요.,입력하다,Just type in the code here.
+870,it,2,B1,connect to,I can't ___ the network.,네트워크에 연결이 안 돼요.,~에 연결하다,I can't connect to the network.
+871,it,2,B1,a screenshot,Can you take ___?,스크린샷 좀 찍어 줄래요?,스크린샷,Can you take a screenshot?
+872,it,2,B1,speed up,This will ___ your computer.,이게 컴퓨터를 빠르게 해 줄 거예요.,속도를 높이다,This will speed up your computer.
+873,it,2,B1,log back in,Please ___ to refresh.,새로 고치려면 다시 로그인하세요.,다시 로그인하다,Please log back in to refresh.
+874,it,2,B1,a backup,Always keep ___ of your work.,작업은 늘 백업본을 두세요.,백업본,Always keep a backup of your work.
+875,it,2,B1,wipe,I had to ___ the whole drive.,드라이브 전체를 지워야 했어요.,싹 지우다,I had to wipe the whole drive.
+876,it,3,B2-C1,up and running,The server is finally ___.,서버가 마침내 정상 가동돼요.,정상 작동하는,The server is finally up and running.
+877,it,3,B2-C1,iron out,We need to ___ a few bugs.,버그 몇 개를 해결해야 해요.,(문제를) 해결하다,We need to iron out a few bugs.
+878,it,3,B2-C1,roll out,We plan to ___ the feature next month.,다음 달에 그 기능을 출시할 계획이에요.,출시하다,We plan to roll out the feature next month.
+879,it,3,B2-C1,from scratch,I built the app ___.,전 그 앱을 처음부터 만들었어요.,맨 처음부터,I built the app from scratch.
+880,it,3,B2-C1,a workaround,We found ___ for the issue.,그 문제에 대한 우회책을 찾았어요.,임시 해결책,We found a workaround for the issue.
+881,it,3,B2-C1,scalable,The system needs to be ___.,그 시스템은 확장 가능해야 해요.,확장 가능한,The system needs to be scalable.
+882,it,3,B2-C1,deprecated,That method is now ___.,그 방식은 이제 더 이상 안 써요.,사용 중단된,That method is now deprecated.
+883,it,3,B2-C1,crash and burn,The launch ___ on day one.,그 출시는 첫날 완전히 망했어요.,완전히 실패하다,The launch crash and burn on day one.
+884,it,3,B2-C1,a steep learning curve,This tool has ___.,이 도구는 배우기가 만만치 않아요.,가파른 학습 곡선,This tool has a steep learning curve.
+885,it,3,B2-C1,future-proof,We want a ___ design.,미래에도 대비되는 설계를 원해요.,미래에도 끄떡없는,We want a future-proof design.
+886,it,3,B2-C1,push out,Let's ___ the hotfix tonight.,오늘 밤 핫픽스를 배포해요.,배포하다,Let's push out the hotfix tonight.
+887,it,3,B2-C1,legacy code,We're stuck with ___.,우리는 낡은 코드에 발목 잡혀 있어요.,낡은 (유산) 코드,We're stuck with legacy code.
+888,it,3,B2-C1,a single point of failure,This is ___.,여기가 단일 장애 지점이에요.,단일 장애 지점,This is a single point of failure.
+889,it,3,B2-C1,scale up,We need to ___ the servers.,서버를 증설해야 해요.,규모를 키우다,We need to scale up the servers.
+890,it,3,B2-C1,a quick fix,This is just ___ for now.,이건 일단 임시방편이에요.,임시 미봉책,This is just a quick fix for now.
+891,it,3,B2-C1,plug and play,The device is ___.,그 기기는 꽂으면 바로 써져요.,꽂으면 바로 되는,The device is plug and play.
+892,it,3,B2-C1,break the build,That commit ___.,그 커밋이 빌드를 깨뜨렸어요.,빌드를 깨뜨리다,That commit break the build.
+893,it,3,B2-C1,on the cloud,All our data is ___.,우리 데이터는 전부 클라우드에 있어요.,클라우드에,All our data is on the cloud.
+894,it,3,B2-C1,roll back,We had to ___ the update.,우리는 업데이트를 되돌려야 했어요.,(이전 상태로) 되돌리다,We had to roll back the update.
+895,it,3,B2-C1,a stress test,We ran ___ before launch.,출시 전에 부하 테스트를 돌렸어요.,부하 테스트,We ran a stress test before launch.
+896,it,3,B2-C1,get up to speed,The new dev needs to ___.,새 개발자가 빨리 적응해야 해요.,빠르게 익히다,The new dev needs to get up to speed.
+897,it,3,B2-C1,buggy,The latest build is ___.,최신 빌드에 버그가 많아요.,버그가 많은,The latest build is buggy.
+898,it,3,B2-C1,edge case,We missed an ___.,우리는 예외적 상황을 놓쳤어요.,예외적 경우,We missed an edge case.
+899,it,3,B2-C1,ship it,"Once it's tested, let's ___.",테스트 끝나면 출시합시다.,"출시하다, 내보내다","Once it's tested, let's ship it."
+900,it,3,B2-C1,dial in,We need to ___ the settings.,설정을 정밀하게 맞춰야 해요.,정밀하게 조정하다,We need to dial in the settings.

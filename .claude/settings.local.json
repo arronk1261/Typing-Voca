@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(npm install *)",
+      "Bash(npm audit *)",
+      "Bash(npm view *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"home:%{http_code}\\\\n\" http://localhost:3000/)",
+      "Bash(curl -s -o /dev/null -w \"study:%{http_code}\\\\n\" http://localhost:3000/study)",
+      "Read(//private/tmp/**)",
+      "Bash(pkill -f \"next dev\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/study)",
+      "Bash(curl -s -o /dev/null -w \"sample:%{http_code} study:\" http://localhost:3000/sample)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} login:\" http://localhost:3000/study)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/login)",
+      "Bash(curl -s -o /dev/null -w \"study:%{http_code} sample:\" http://localhost:3000/study)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/sample)",
+      "Bash(node -e \"const w=require\\('./src/data/words.json'\\); const c=[...new Set\\(w.map\\(x=>x.category\\)\\)]; console.log\\(c.length, JSON.stringify\\(c\\)\\); const lv={}; w.forEach\\(x=>lv[x.level]=\\(lv[x.level]||0\\)+1\\); console.log\\('levels',lv\\);\")",
+      "Bash(node --experimental-strip-types scripts/test-score.ts)",
+      "Bash(node --experimental-strip-types --import ./scripts/alias-resolve.mjs scripts/test-srs.ts)",
+      "Bash(node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-srs.ts)",
+      "Bash(node -e \"console.log\\(require\\('./package.json'\\).dependencies.recharts || 'NOT INSTALLED'\\)\")",
+      "Bash(node -e \"console.log\\('recharts', require\\('./package.json'\\).dependencies.recharts\\)\")",
+      "Bash(node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-stats.ts)",
+      "Bash(npx tsc *)",
+      "Bash(sed -n '1,60p' src/components/ui/BottomSheet.tsx)",
+      "Bash(sed -n '1,40p' src/components/ui/Card.tsx)",
+      "Bash(gh auth *)",
+      "Bash(gh repo *)"
+    ]
+  }
+}
