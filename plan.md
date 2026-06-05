@@ -2,7 +2,7 @@
 
 본 문서는 AI(Claude)와 함께 **단계별(Phase-by-Phase) 바이브 코딩**으로 MVP를 빌드하기 위한 제품 요구사항 정의서(PRD)이자 실행 로드맵입니다. 각 Phase는 **독립적으로 테스트 가능한 산출물**을 갖도록 설계되어, 한 단계를 끝낼 때마다 실제로 동작하는 결과물이 나옵니다.
 
-> **버전:** v5 (개정판) — **구글 로그인** 채택 + **카테고리 선택 학습 · 통계 히스토리 · 주간 리포트 · 채점 알고리즘 고도화**를 MVP 범위에 포함 / v4 학습 데이터 Supabase 이전 / v3 단어 DB Supabase / v2 발음 재설계·폴백·콘텐츠 확장
+> **버전:** v6 (학습 품질 고도화) — **단어 DB를 900→2,520(레벨당 840, 카테고리당 210)로 확충 + v6 스키마(콘텐츠 태그) 적용 완료** / MVP(Phase 0~5) 완료 후 **콘텐츠 정제 · 진단/채점 신뢰도 · 장기 기억(SRS) 설계**를 다루는 Phase 6~8 로드맵 추가(8장 말미) / v5 구글 로그인 + 카테고리·통계·리포트·채점 고도화 MVP 포함 / v4 학습 데이터 Supabase 이전 / v3 단어 DB Supabase / v2 발음 재설계·폴백·콘텐츠 확장
 
 ---
 
@@ -10,7 +10,7 @@
 
 1. **발음 단계 → "섀도잉 챌린지".** 점수 심판이 아니라 무한 재시도 가능한 따라 말하기 도전. 별 등급(⭐) 기반, STT 실패는 유저 실패로 간주하지 않음.
 2. **지원 환경 = Chrome/Edge 풀 지원 + 3단계 폴백.** STT 미지원 환경에서도 학습이 절대 막히지 않게 설계.
-3. **콘텐츠 = 성인 일반회화까지 (12개 카테고리 · CEFR 3레벨 · 레벨당 300문항 목표).** 출제는 신규70/복습30 + 적응형, 복습은 SRS-lite 졸업 규칙.
+3. **콘텐츠 = 성인 일반회화까지 (12개 카테고리 · CEFR 3레벨 · 레벨당 840문항 / 총 2,520 — 구축 완료).** 출제는 신규70/복습30 + 적응형, 복습은 SRS-lite 졸업 규칙.
 4. **저장/인증 = 전부 Supabase + 구글 로그인.** 단어 콘텐츠(공개 읽기 전용) + 학습 데이터(`auth.uid()` RLS). 구글 OAuth로 로그인 → 기기 간 동기화 기본 제공.
 5. **이번 MVP에 포함되는 확장 4종:** ①카테고리 선택 학습 ②통계 히스토리 ③주간 리포트 ④채점 알고리즘 고도화(음소 근사 + 단어 정렬 + 부분 점수). → 6단계 로드맵(Phase 0~5).
 
@@ -123,9 +123,9 @@
 
 ### 5.3 DB 규모 (반복 체감 기준 역산)
 * **MVP 최소:** 레벨당 150문항 (총 450) → 약 15일치. 출시 가능 최소선.
-* **권장 1차 목표:** **레벨당 300문항 (총 900)** → 약 30일치, 체감 반복 거의 없음. ← **목표.**
-* **성장 목표:** 레벨당 500+ (카테고리 균등 분배).
-* 품질 원칙: AI 대량 생성 + **카테고리·레벨 균형 + 예문 자연스러움 검수.** 어색한 예문 1개가 신뢰를 깎음.
+* **권장 1차 목표(달성):** 레벨당 300문항 (총 900) → 약 30일치.
+* ✅ **현재 = 최종 서비스 규모: 레벨당 840문항 (총 2,520).** 12 카테고리 × 3 레벨 × **70개** 격자. 일상 회화 전 영역을 체감 반복 없이 커버. (구축 방식·검수: 8.5 / `docs/word-content-spec-v6.md`)
+* 품질 원칙: AI 대량 생성 + **카테고리·레벨 균형 + 예문 자연스러움 검수.** 어색한 예문 1개가 신뢰를 깎음 → `npm run validate:words`로 빈칸채움=tts·placeholder 누수·카테고리 내 중복을 자동 게이트(오류 0건).
 
 ### 5.4 출제 로직 (세션당 10문항)
 * **신규 70% / 복습 30%** (신규 7 + 복습 3). 신규는 현재 레벨 미학습 우선, 그다음 가장 오래전 본 문항.
@@ -145,7 +145,7 @@
   * **오늘의 10단어(기본):** 현재 레벨에서 전 카테고리 혼합 출제.
   * **카테고리 학습:** 사용자가 1개 이상 카테고리를 골라 그 범위에서만 출제.
 * 마지막 선택은 `user_state.preferred_categories`에 저장해 다음에 기본값으로 제안.
-* **출제 충원 규칙:** 선택 카테고리 × 현재 레벨 문항이 10개에 못 미치면 → ①같은 카테고리의 인접 레벨로 확장 → ②그래도 부족하면 복습 비율을 높여 채움. (252문항 시드에선 단일 카테고리·단일 레벨이 7개라 얇음 → **DB를 레벨당 300으로 확충하면 단일 카테고리 세션도 쾌적.** 6.1 참조)
+* **출제 충원 규칙:** 선택 카테고리 × 현재 레벨 문항이 10개에 못 미치면 → ①같은 카테고리의 인접 레벨로 확장 → ②그래도 부족하면 복습 비율을 높여 채움. (현재 DB는 **카테고리당 레벨별 70개**라 단일 카테고리·단일 레벨 세션도 충분히 쾌적 — 충원 규칙은 안전장치로 유지. 6.1 참조)
 
 ### 5.7 통계 히스토리 & 주간 리포트 (이번 MVP 포함)
 * **원천 데이터:** 세션 종료 시 `study_sessions`에 1행 기록(6.6). 추이·집계는 이 테이블 + `progress`에서 산출.
@@ -161,7 +161,7 @@
 ## 6. 데이터 스키마
 
 ### 6.1 단어/문장 DB — `words.json` → Supabase `words` 테이블
-실제 생성된 `words.json` 한 행의 형태 (총 252문항):
+실제 생성된 `words.json` 한 행의 형태 (**총 2,520문항 · v6 스키마**):
 ```json
 {
   "id": 8,
@@ -172,12 +172,19 @@
   "sentence_en": "Let's ___ over coffee sometime.",
   "sentence_ko": "언제 커피 마시면서 얘기 좀 해요.",
   "meaning": "근황을 나누다",
-  "tts_text": "Let's catch up over coffee sometime."
+  "tts_text": "Let's catch up over coffee sometime.",
+  "display_sentence": "Let's catch up over coffee sometime.",
+  "frequency": "high",
+  "chunk_type": "phrasal_verb",
+  "difficulty_axis": "usage",
+  "use_case": ["greeting", "social"]
 }
 ```
 * `answer`는 단어 또는 청크(콜로케이션)이며 `sentence_en`의 `___` 자리에 들어갑니다.
 * `tts_text`는 빈칸이 채워진 완성 문장 = **섀도잉 대상**입니다.
 * 문두에 빈칸이 오는 경우 `answer`/`tts_text`는 첫 글자가 대문자로 처리되어 있습니다(예: `How`, `When`).
+* **v6 콘텐츠 태그**(`display_sentence`/`frequency`/`chunk_type`/`difficulty_axis`/`use_case`)는 진단·적응형 출제(8.5 Phase 6~8)에서 활용. 규격 상세: `docs/word-content-spec-v6.md`.
+* 빌드 파이프라인: 카테고리별 `src/data/generated/*.json` → `npm run assemble:words`(검수+ID 부여) → `src/data/words.json` → `npm run seed`(Supabase upsert).
 
 ### 6.2 Supabase 스키마 & 시드 등록 (SQL)
 ```sql
@@ -191,10 +198,19 @@ create table public.words (
   sentence_en text    not null,
   sentence_ko text    not null,
   meaning     text    not null,
-  tts_text    text    not null
+  tts_text    text    not null,
+  -- v6 콘텐츠 태그 (docs/word-content-spec-v6.md)
+  display_sentence text,
+  frequency        text,
+  chunk_type       text,
+  difficulty_axis  text,
+  use_case         text[] not null default '{}'
 );
 create index on public.words (level);
 create index on public.words (category);
+create index on public.words (frequency);
+create index on public.words (chunk_type);
+-- 기존 DB는 supabase/migrations/v6_words_tags.sql 로 컬럼만 추가 후 재시드
 
 -- 2) RLS: 누구나 읽기만 가능 (쓰기는 차단)
 alter table public.words enable row level security;
@@ -320,7 +336,7 @@ create policy "own sessions" on public.study_sessions
 ### 🧱 Phase 0 — 기반 (환경·Supabase·구글 인증·스키마·디자인 시스템)
 * **목표:** 빌드 기반 + Supabase(콘텐츠·학습 데이터·세션) + 구글 로그인 + 디자인 시스템까지 준비.
 * **0-1 프로젝트 셋업 & 모바일 셸:** Next.js(App Router)+TS+Tailwind v4, 폴더 구조(app/components/stores/hooks/lib/types), `@theme` 디자인 토큰·다크모드, `100dvh`/세이프에어리어 전역 레이아웃, ESLint/Prettier. **Done:** 모바일 뷰(390px) 에러 없이 렌더 + 다크모드 토큰 적용.
-* **0-2 Supabase 스키마 + RLS + 시드:** 6.2 `words`(공개 읽기) + 6.4 `user_state`·`progress`·`study_sessions`(`auth.uid()` RLS). `words.json`(252) 시드 스크립트(Service Role 전용). **Done:** 252행 적재 + anon 키로 words SELECT 가능/INSERT 차단 + 타 user 데이터 RLS 차단.
+* **0-2 Supabase 스키마 + RLS + 시드:** 6.2 `words`(공개 읽기) + 6.4 `user_state`·`progress`·`study_sessions`(`auth.uid()` RLS). `words.json`(**현재 2,520행/v6**) 시드 스크립트(Service Role 전용). **Done:** 단어 행 적재 + anon 키로 words SELECT 가능/INSERT 차단 + 타 user 데이터 RLS 차단.
 * **0-3 구글 로그인 + 세션 가드:** Supabase Google OAuth 설정, `[Google로 계속하기]` 화면, `onAuthStateChange` 세션 관리, 로그인 시 `user_state` upsert, 비로그인 가드. **Done:** 구글 로그인→로그아웃→재로그인 동작, 신규 유저 `user_state` 1행 생성.
 * **0-4 데이터 레이어 + 동기화:** `getWords`(레벨/카테고리 조회+캐시), `userData`(로드 + 변경분 배치 upsert + 오프라인 큐), 타입 정의(Word/UserState/Progress/StudySession). **Done:** 시작 시 데이터 로드, 체크포인트에서만 쓰기, 오프라인 변경 복귀 시 flush.
 * **0-5 디자인 시스템 공통 컴포넌트:** Button/Card/ProgressBar/Hearts/LoadingDots/BottomSheet/BottomActionBar/Toast + 다크모드·접근성(48px·포커스링·색+아이콘) + framer-motion 전환 프리셋. **Done:** 샘플 페이지에서 전 컴포넌트·다크토글·전환 모션 정상.
@@ -373,9 +389,64 @@ create policy "own sessions" on public.study_sessions
 
 ---
 
-### (Post-MVP) Phase 6+ — 추가 확장 후보
-* **단어 DB 확충: 252문항 → 레벨당 300(총 900).** `upsert`로 추가만 하면 즉시 반영(단일 카테고리 세션 쾌적해짐).
+### (참고) 그 밖의 확장 후보 (Phase 9+)
 * 데이터 export/import(백업), 리더보드/친구 등 소셜, PWA 오프라인 강화, 월간 리포트·공유 이미지, 채점 동의어 사전 확장.
+
+---
+
+## 8.5 학습 품질 고도화 로드맵 ⭐ (v6 추가 · Phase 6~8)
+
+> MVP(Phase 0~5)로 **제품 학습 루프**는 완성됐다. 이제 *영어 학습 서비스로서의 품질*을 끌어올린다. 영어 학습 콘텐츠 전문가 리뷰 결과, 개선 우선순위는 **①콘텐츠 오류 정제 → ②진단(레벨테스트)·채점 신뢰도 → ③장기 기억(SRS) 설계** 순이다.
+>
+> **현황 검증(2026-06):** 단어 DB는 **총 2,520문항(Lv.1/2/3 각 840, 카테고리당 210)·v6 스키마로 확충·시드 완료** ✅ (구 900문항 시절의 템플릿 오류 4건·placeholder 9건·중복 61종은 검수 스크립트로 전수 제거). **남은 과제는 콘텐츠가 아니라 진단·채점·복습 로직** — 레벨테스트 5문항 랜덤, 완전일치만 정답 인정, SRS 2회 통과 졸업·+1일 고정, `loadUserData`가 현재 레벨 progress만 로드(레벨 상향 시 이전 레벨 복습 누락).
+>
+> **Phase 6 콘텐츠 정제 상태 — ✅ 전 단위 완료:** 6-1(검수 스크립트 `scripts/validateWords.ts`)·6-2(오류 수정)·6-4(v6 태깅+스키마/시드 파이프라인)은 DB 구축으로 완료, **6-3(중복 정리)도 `scripts/dedupReport.ts`로 마무리**(카테고리 간 동일 예문 오염 9종을 맥락별 예문으로 차별화 → 오염 0종, 사유 로그 `docs/duplicate-answer-report.md`). 전수 검수 오류 0/2,520. → **다음 착수는 Phase 7(진단·채점 신뢰도)**.
+
+### 의존성 순서
+
+```
+[Phase 6] 콘텐츠 정제 (최우선)        6-1 → 6-2 → 6-3 → 6-4
+[Phase 7] 진단·채점 신뢰도           7-1 → 7-2 → 7-3 → 7-4 → 7-5
+[Phase 8] 장기 기억·적응            8-1 → 8-2 → 8-3 → 8-4 → 8-5 → 8-6
+```
+* **6 → 7 → 8 순서 권장.** 7-1(앵커 문항 선별)·8-3(적응 출제)이 6-4의 콘텐츠 태그를 활용한다.
+* 스키마 변경을 수반하는 단위: **6-4(`words`), 7-3(`user_state`), 8-2(`progress`)** → 각각 `supabase/migrations/` SQL + `scripts/seed.ts`/`types/index.ts` 동반 수정.
+
+---
+
+### 🧹 Phase 6 — 콘텐츠 정제 (최우선)
+* **목표:** 어색·오류 문장 제거. 학습 서비스 신뢰의 1순위.
+* **6-1 콘텐츠 검수 스크립트:** `scripts/validateWords.ts` — placeholder 누수(`someone you`·`for granted your` 류), 문법 의심(주어+동사원형 `Something come`), `sentence_en` 빈칸채움≠`tts_text`, `answer`↔빈칸 토큰수 불일치, 중복 `answer` 목록을 카테고리·레벨과 함께 리포트. **Done:** `npm run validate:words`로 전수 오류 리포트 출력, 회귀 방지용 재사용.
+* **6-2 확정 오류 수정(4건+placeholder 9건):** `id 441`(`ping someone`→`ping`, `I'll ___ you on the app.`), `id 555`(`Something has ___ at work.`로 문법 교정), `id 819`·`825` 구조 재설계, `someone`류 관용구(`win someone over` 등)는 6-4의 학습표현/예문 분리로 해소. **Done:** 6-1 리포트에서 placeholder 누수 0건 + 문법 의심 수동 확인 완료.
+* **6-3 중복 answer 정리 — ✅ 완료:** `scripts/dedupReport.ts`(`npm run dedup:report`)가 중복을 **의도적 재노출**(다른 카테고리·다른 예문 → 유지)과 **오염**(동일 카테고리 또는 동일 예문 복제 → 교체)으로 자동 분류. 카테고리 내 중복 0종, 카테고리 간 238종 중 **동일 예문 오염 9종을 카테고리 맥락 예문으로 차별화**(`generated/*` 패치→재조립→재시드). **Done:** 재실행 시 오염 0종, 사유 로그 `docs/duplicate-answer-report.md` 자동 생성.
+* **6-4 콘텐츠 태깅 + 학습표현/예문 분리(`words` 스키마 확장) — ✅ 완료:** 컬럼 추가 `frequency`/`chunk_type`/`difficulty_axis`/`use_case`(text[]) + `display_sentence`(자연 예문) 분리. 레벨은 빈도+청크유형 기준으로 재구성(전체 idiom 약 14%로 절제). **Done:** `supabase/migrations/v6_words_tags.sql` + `scripts/assembleWords.ts` 파이프라인 + `types/index.ts` `Word` 확장 + **2,520개 전수 태깅·시드 완료**(`docs/word-content-spec-v6.md`).
+
+---
+
+### 🎯 Phase 7 — 진단·채점 신뢰도
+* **목표:** 첫 경험 진단 정확도 + 정답 인정 범위의 학습 친화성.
+* **7-1 앵커 레벨테스트(5→9~12문항):** `src/data/anchorTest.json` — 레벨별 3~4개 **검증된 대표 문항**(랜덤 아님, 6-4 태그로 고빈도·대표성 선별). `levelTest.ts`의 `pickLevelTest`를 앵커 로딩으로 교체. **Done:** 매 진입 동일 난이도 분포, 운 요소 제거.
+* **7-2 다요소 채점 + "추천 시작 레벨" 표현:** 정답 수 외 **힌트 사용·오답 후 재시도·응답 시간·멀티워드 성공** 반영한 가중 점수로 `levelFromScore` 교체, 결과 UI를 "Lv.X 확정"이 아닌 **"추천 시작 레벨"**(T2 톤). **Done:** 단위 테스트 — 동일 정답수라도 힌트 다용/저속 응답이 점수에 반영되어 분기.
+* **7-3 임시 레벨 자동 보정(`user_state` 확장):** 컬럼 추가 `level_provisional`(bool)·`calibration_questions`·`calibration_correct`. 첫 진입 Lv.2 provisional로 시작 → 누적 30문항(3세트) 후 확정/조정. **Done:** 모킹으로 30문항 누적 시 확정, 그 전엔 provisional 유지.
+* **7-4 정답 허용범위 확대:** `answerCheck.ts`의 `isAnswerCorrect`에 허용 규칙 — 관사 차이 일부, 축약/비축약(`I'll`=`I will`), 하이픈·아포스트로피, 단/복수 일부. `Word`에 선택적 `accepted_answers[]` 지원. **Done:** 단위 테스트 — `I will`=`I'll` 통과, 핵심 표현 오인정은 차단.
+* **7-5 멀티워드 단계 힌트:** 오답 시 1회차 첫 글자 → 2회차 단어 수 → 3회차 청크 단위 힌트. Lv.3 긴 표현은 "핵심 청크 재조립" UX 검토. **Done:** 멀티워드 문항에서 단계별 힌트 순차 노출.
+
+---
+
+### 🧠 Phase 8 — 장기 기억·적응
+* **목표:** "복습 노트"를 넘어 장기 기억 시스템으로. 한 세트가 아닌 누적 안정성 기반 적응.
+* **8-1 SRS 간격 장기화:** `srs.ts` — 졸업 2회 → **3~4회 노출**, 간격 `1→3→7→14일`, Lv.3 idiom은 졸업 3회. **Done:** 모킹으로 간격 확장·졸업 회수 분기 정확.
+* **8-2 3요소 분리 기록(`progress` 스키마 확장):** 컬럼 추가 `meaning_recall_score`·`spelling_score`·`pronunciation_score`. 타이핑(철자/뜻)·섀도잉(발음)을 따로 기록. **Done:** 결과가 각 요소로 분리 저장.
+* **8-3 적응형 출제 비율:** `getWords.ts`의 고정 `REVIEW_RATIO` → 동적 — Lv.1 초반 신규50/복습50, 안정 70/30, 오답누적 多 40/60, streak 끊긴 복귀자 30/70. 카테고리 학습은 상황별 순서(공항→호텔→길찾기→식당) 묶음. **Done:** 상태별로 비율이 의도대로 변동.
+* **8-4 크로스레벨 복습 로드(현 누락 수정):** `userData.ts`의 `loadLevelProgress` — 현재 레벨 + `in_review=true`인 이전 레벨 progress까지 로드. **Done:** 레벨 상향 후에도 이전 레벨 복습 대상이 출제 풀에 유지.
+* **8-5 누적 기반 승급 정책:** `suggestLevelAdjustment`를 한 세트 → **최근 3~5세트/40~50문항 롤링 윈도우**로(정답률 85%↑, 복습진입률 15%↓, 섀도잉 2.2↑, 졸업 30개↑). 상향=강제 X "Lv.3 맛보기 세트", 하향="기초 다지기 모드"(T2). **Done:** 누적 모킹으로 제안 정확, 단일 세트 흔들림 제거.
+* **8-6 졸업 후 유지 점검:** 졸업 단어를 월 1회 아주 낮은 비율로 8-3 풀에 소량 혼입 재출제. **Done:** 졸업 단어가 일정 주기로 재등장.
+
+---
+
+### ⚠️ Phase 6~8 선결 의사결정 2가지 — ✅ 해소됨
+1. **콘텐츠 모델:** `someone`류 관용구는 **실제 목적어를 문장에 넣고 answer는 핵심 청크만** 두는 방식으로 정리(예: `win over the whole team`). `display_sentence`도 함께 도입. → 해결.
+2. **태깅 범위:** **2,520개 전수 태깅을 이번 DB 구축에 포함** 완료(코드 파이프라인 + 시드). → 별도 콘텐츠 작업 불필요.
 
 ---
 

@@ -1,0 +1,3782 @@
+[
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "meeting",
+    "sentence_en": "We have a ___ at three.",
+    "sentence_ko": "3시에 회의가 있어요.",
+    "meaning": "회의",
+    "tts_text": "We have a meeting at three.",
+    "display_sentence": "We have a meeting at three.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "boss",
+    "sentence_en": "My ___ is very kind.",
+    "sentence_ko": "제 상사는 아주 친절해요.",
+    "meaning": "상사",
+    "tts_text": "My boss is very kind.",
+    "display_sentence": "My boss is very kind.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "busy",
+    "sentence_en": "I'm really ___ today.",
+    "sentence_ko": "오늘 정말 바빠요.",
+    "meaning": "바쁜",
+    "tts_text": "I'm really busy today.",
+    "display_sentence": "I'm really busy today.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "daily"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "email",
+    "sentence_en": "Please send me an ___.",
+    "sentence_ko": "이메일 보내 주세요.",
+    "meaning": "이메일",
+    "tts_text": "Please send me an email.",
+    "display_sentence": "Please send me an email.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "office",
+    "sentence_en": "I work at an ___ downtown.",
+    "sentence_ko": "전 시내 사무실에서 일해요.",
+    "meaning": "사무실",
+    "tts_text": "I work at an office downtown.",
+    "display_sentence": "I work at an office downtown.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "break",
+    "sentence_en": "Let's take a short ___.",
+    "sentence_ko": "잠깐 쉬어요.",
+    "meaning": "휴식",
+    "tts_text": "Let's take a short break.",
+    "display_sentence": "Let's take a short break.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "daily"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "done",
+    "sentence_en": "The report is ___.",
+    "sentence_ko": "보고서 다 됐어요.",
+    "meaning": "끝난, 완료된",
+    "tts_text": "The report is done.",
+    "display_sentence": "The report is done.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "work",
+    "sentence_en": "I ___ from nine to six.",
+    "sentence_ko": "전 9시부터 6시까지 일해요.",
+    "meaning": "일하다",
+    "tts_text": "I work from nine to six.",
+    "display_sentence": "I work from nine to six.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "job",
+    "sentence_en": "I like my new ___.",
+    "sentence_ko": "제 새 직장이 마음에 들어요.",
+    "meaning": "일자리",
+    "tts_text": "I like my new job.",
+    "display_sentence": "I like my new job.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "career"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "team",
+    "sentence_en": "I'm on the design ___.",
+    "sentence_ko": "전 디자인 팀에 있어요.",
+    "meaning": "팀",
+    "tts_text": "I'm on the design team.",
+    "display_sentence": "I'm on the design team.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "late",
+    "sentence_en": "Sorry I'm ___ for work.",
+    "sentence_ko": "출근이 늦어서 죄송해요.",
+    "meaning": "늦은",
+    "tts_text": "Sorry I'm late for work.",
+    "display_sentence": "Sorry I'm late for work.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "daily"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "desk",
+    "sentence_en": "My ___ is by the window.",
+    "sentence_ko": "제 책상은 창가에 있어요.",
+    "meaning": "책상",
+    "tts_text": "My desk is by the window.",
+    "display_sentence": "My desk is by the window.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "call",
+    "sentence_en": "I have a ___ in five minutes.",
+    "sentence_ko": "5분 뒤에 통화가 있어요.",
+    "meaning": "통화, 전화",
+    "tts_text": "I have a call in five minutes.",
+    "display_sentence": "I have a call in five minutes.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "project",
+    "sentence_en": "We started a new ___.",
+    "sentence_ko": "우리는 새 프로젝트를 시작했어요.",
+    "meaning": "프로젝트",
+    "tts_text": "We started a new project.",
+    "display_sentence": "We started a new project.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "task",
+    "sentence_en": "I finished my first ___.",
+    "sentence_ko": "첫 번째 업무를 끝냈어요.",
+    "meaning": "업무, 과제",
+    "tts_text": "I finished my first task.",
+    "display_sentence": "I finished my first task.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "paper",
+    "sentence_en": "Can you sign this ___?",
+    "sentence_ko": "이 서류에 서명해 주시겠어요?",
+    "meaning": "서류",
+    "tts_text": "Can you sign this paper?",
+    "display_sentence": "Can you sign this paper?",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "manager",
+    "sentence_en": "I'll ask my ___.",
+    "sentence_ko": "제 매니저에게 물어볼게요.",
+    "meaning": "관리자, 매니저",
+    "tts_text": "I'll ask my manager.",
+    "display_sentence": "I'll ask my manager.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "plan",
+    "sentence_en": "What's the ___ for the project?",
+    "sentence_ko": "프로젝트 계획이 뭐예요?",
+    "meaning": "계획",
+    "tts_text": "What's the plan for the project?",
+    "display_sentence": "What's the plan for the project?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "client",
+    "sentence_en": "We have a new ___.",
+    "sentence_ko": "우리는 새 고객이 생겼어요.",
+    "meaning": "고객",
+    "tts_text": "We have a new client.",
+    "display_sentence": "We have a new client.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "sales"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "file",
+    "sentence_en": "Please save the ___.",
+    "sentence_ko": "파일을 저장해 주세요.",
+    "meaning": "파일",
+    "tts_text": "Please save the file.",
+    "display_sentence": "Please save the file.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "ready",
+    "sentence_en": "The slides are ___.",
+    "sentence_ko": "슬라이드가 준비됐어요.",
+    "meaning": "준비된",
+    "tts_text": "The slides are ready.",
+    "display_sentence": "The slides are ready.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "presentation"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "help",
+    "sentence_en": "Can you ___ me with this?",
+    "sentence_ko": "이것 좀 도와주실래요?",
+    "meaning": "돕다",
+    "tts_text": "Can you help me with this?",
+    "display_sentence": "Can you help me with this?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hour",
+    "sentence_en": "Lunch is in one ___.",
+    "sentence_ko": "점심은 한 시간 뒤예요.",
+    "meaning": "시간",
+    "tts_text": "Lunch is in one hour.",
+    "display_sentence": "Lunch is in one hour.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "note",
+    "sentence_en": "I'll take a ___ of that.",
+    "sentence_ko": "그거 메모해 둘게요.",
+    "meaning": "메모",
+    "tts_text": "I'll take a note of that.",
+    "display_sentence": "I'll take a note of that.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "send",
+    "sentence_en": "Can you ___ the report now?",
+    "sentence_ko": "지금 보고서 보내 줄래요?",
+    "meaning": "보내다",
+    "tts_text": "Can you send the report now?",
+    "display_sentence": "Can you send the report now?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hire",
+    "sentence_en": "We're going to ___ two new people.",
+    "sentence_ko": "우리 신입 두 명을 채용할 거예요.",
+    "meaning": "채용하다",
+    "tts_text": "We're going to hire two new people.",
+    "display_sentence": "We're going to hire two new people.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "hr"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "report",
+    "sentence_en": "My ___ is due tomorrow.",
+    "sentence_ko": "제 보고서 마감이 내일이에요.",
+    "meaning": "보고서",
+    "tts_text": "My report is due tomorrow.",
+    "display_sentence": "My report is due tomorrow.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "deadline",
+    "sentence_en": "What's the ___ for this?",
+    "sentence_ko": "이거 마감이 언제예요?",
+    "meaning": "마감 기한",
+    "tts_text": "What's the deadline for this?",
+    "display_sentence": "What's the deadline for this?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "present",
+    "sentence_en": "I need to ___ the results.",
+    "sentence_ko": "결과를 발표해야 해요.",
+    "meaning": "발표하다",
+    "tts_text": "I need to present the results.",
+    "display_sentence": "I need to present the results.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "presentation"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "leave",
+    "sentence_en": "I'm taking annual ___ next week.",
+    "sentence_ko": "다음 주에 연차를 쓸 거예요.",
+    "meaning": "휴가",
+    "tts_text": "I'm taking annual leave next week.",
+    "display_sentence": "I'm taking annual leave next week.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "hr"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "interview",
+    "sentence_en": "I have a job ___ today.",
+    "sentence_ko": "오늘 취업 면접이 있어요.",
+    "meaning": "면접",
+    "tts_text": "I have a job interview today.",
+    "display_sentence": "I have a job interview today.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "career"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "salary",
+    "sentence_en": "My ___ is paid monthly.",
+    "sentence_ko": "제 월급은 매달 나와요.",
+    "meaning": "월급, 급여",
+    "tts_text": "My salary is paid monthly.",
+    "display_sentence": "My salary is paid monthly.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "hr"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "colleague",
+    "sentence_en": "My ___ sits next to me.",
+    "sentence_ko": "제 동료는 제 옆에 앉아요.",
+    "meaning": "동료",
+    "tts_text": "My colleague sits next to me.",
+    "display_sentence": "My colleague sits next to me.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "agenda",
+    "sentence_en": "Did you get the meeting ___?",
+    "sentence_ko": "회의 안건표 받았어요?",
+    "meaning": "안건, 의제",
+    "tts_text": "Did you get the meeting agenda?",
+    "display_sentence": "Did you get the meeting agenda?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "update",
+    "sentence_en": "Can you give me an ___?",
+    "sentence_ko": "상황 좀 업데이트해 줄래요?",
+    "meaning": "최신 정보, 업데이트",
+    "tts_text": "Can you give me an update?",
+    "display_sentence": "Can you give me an update?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "remote",
+    "sentence_en": "I work ___ two days a week.",
+    "sentence_ko": "저는 일주일에 이틀 재택근무해요.",
+    "meaning": "원격의, 재택의",
+    "tts_text": "I work remote two days a week.",
+    "display_sentence": "I work remote two days a week.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "approve",
+    "sentence_en": "My boss needs to ___ this first.",
+    "sentence_ko": "이건 먼저 상사 승인이 필요해요.",
+    "meaning": "승인하다",
+    "tts_text": "My boss needs to approve this first.",
+    "display_sentence": "My boss needs to approve this first.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "budget",
+    "sentence_en": "We're over ___.",
+    "sentence_ko": "예산을 초과했어요.",
+    "meaning": "예산",
+    "tts_text": "We're over budget.",
+    "display_sentence": "We're over budget.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "finance"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "feedback",
+    "sentence_en": "Can I get your ___?",
+    "sentence_ko": "피드백을 주실 수 있어요?",
+    "meaning": "의견, 피드백",
+    "tts_text": "Can I get your feedback?",
+    "display_sentence": "Can I get your feedback?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "quit",
+    "sentence_en": "He decided to ___ his job.",
+    "sentence_ko": "그는 직장을 그만두기로 했어요.",
+    "meaning": "그만두다",
+    "tts_text": "He decided to quit his job.",
+    "display_sentence": "He decided to quit his job.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "career"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sign",
+    "sentence_en": "Please ___ here.",
+    "sentence_ko": "여기에 서명해 주세요.",
+    "meaning": "서명하다",
+    "tts_text": "Please sign here.",
+    "display_sentence": "Please sign here.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "target",
+    "sentence_en": "We hit our sales ___ this month.",
+    "sentence_ko": "이번 달 판매 목표를 달성했어요.",
+    "meaning": "목표",
+    "tts_text": "We hit our sales target this month.",
+    "display_sentence": "We hit our sales target this month.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "sales"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "schedule",
+    "sentence_en": "My ___ is really full this week.",
+    "sentence_ko": "이번 주 일정이 정말 꽉 찼어요.",
+    "meaning": "일정",
+    "tts_text": "My schedule is really full this week.",
+    "display_sentence": "My schedule is really full this week.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "contract",
+    "sentence_en": "Please read the ___ carefully.",
+    "sentence_ko": "계약서를 꼼꼼히 읽어 주세요.",
+    "meaning": "계약서",
+    "tts_text": "Please read the contract carefully.",
+    "display_sentence": "Please read the contract carefully.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "hr"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "attend",
+    "sentence_en": "Can you ___ the morning session?",
+    "sentence_ko": "오전 세션에 참석할 수 있어요?",
+    "meaning": "참석하다",
+    "tts_text": "Can you attend the morning session?",
+    "display_sentence": "Can you attend the morning session?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "confirm",
+    "sentence_en": "Please ___ your attendance.",
+    "sentence_ko": "참석 여부를 확인해 주세요.",
+    "meaning": "확인하다",
+    "tts_text": "Please confirm your attendance.",
+    "display_sentence": "Please confirm your attendance.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "submit",
+    "sentence_en": "Please ___ your timesheet by Friday.",
+    "sentence_ko": "금요일까지 근무표를 제출해 주세요.",
+    "meaning": "제출하다",
+    "tts_text": "Please submit your timesheet by Friday.",
+    "display_sentence": "Please submit your timesheet by Friday.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "hr"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "focus",
+    "sentence_en": "Let's ___ on the key issues.",
+    "sentence_ko": "핵심 사안에 집중해요.",
+    "meaning": "집중하다",
+    "tts_text": "Let's focus on the key issues.",
+    "display_sentence": "Let's focus on the key issues.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "review",
+    "sentence_en": "Can you ___ this draft?",
+    "sentence_ko": "이 초안을 검토해 줄 수 있어요?",
+    "meaning": "검토하다",
+    "tts_text": "Can you review this draft?",
+    "display_sentence": "Can you review this draft?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "resign",
+    "sentence_en": "She plans to ___ next month.",
+    "sentence_ko": "그녀는 다음 달에 사직할 계획이에요.",
+    "meaning": "사직하다",
+    "tts_text": "She plans to resign next month.",
+    "display_sentence": "She plans to resign next month.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "career"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "productive",
+    "sentence_en": "It was a very ___ day.",
+    "sentence_ko": "정말 생산적인 하루였어요.",
+    "meaning": "생산적인",
+    "tts_text": "It was a very productive day.",
+    "display_sentence": "It was a very productive day.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "daily"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "urgent",
+    "sentence_en": "This is ___; please handle it first.",
+    "sentence_ko": "이건 긴급해요, 먼저 처리해 주세요.",
+    "meaning": "긴급한",
+    "tts_text": "This is urgent; please handle it first.",
+    "display_sentence": "This is urgent; please handle it first.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "invite",
+    "sentence_en": "I'll ___ you to the shared folder.",
+    "sentence_ko": "공유 폴더에 초대할게요.",
+    "meaning": "초대하다",
+    "tts_text": "I'll invite you to the shared folder.",
+    "display_sentence": "I'll invite you to the shared folder.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "postpone",
+    "sentence_en": "We had to ___ the launch.",
+    "sentence_ko": "출시를 연기해야 했어요.",
+    "meaning": "연기하다",
+    "tts_text": "We had to postpone the launch.",
+    "display_sentence": "We had to postpone the launch.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "cancel",
+    "sentence_en": "We had to ___ the meeting.",
+    "sentence_ko": "회의를 취소해야 했어요.",
+    "meaning": "취소하다",
+    "tts_text": "We had to cancel the meeting.",
+    "display_sentence": "We had to cancel the meeting.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "deliver",
+    "sentence_en": "Can we ___ this by Thursday?",
+    "sentence_ko": "목요일까지 이걸 납품할 수 있어요?",
+    "meaning": "납품하다, 전달하다",
+    "tts_text": "Can we deliver this by Thursday?",
+    "display_sentence": "Can we deliver this by Thursday?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "reschedule",
+    "sentence_en": "Can we ___ for next week?",
+    "sentence_ko": "다음 주로 일정 변경 가능해요?",
+    "meaning": "일정을 변경하다",
+    "tts_text": "Can we reschedule for next week?",
+    "display_sentence": "Can we reschedule for next week?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "assign",
+    "sentence_en": "Who did they ___ this to?",
+    "sentence_ko": "누구한테 이걸 배정했어요?",
+    "meaning": "배정하다",
+    "tts_text": "Who did they assign this to?",
+    "display_sentence": "Who did they assign this to?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "cover",
+    "sentence_en": "Can you ___ for me on Friday?",
+    "sentence_ko": "금요일에 제 대신해 줄 수 있어요?",
+    "meaning": "대신하다",
+    "tts_text": "Can you cover for me on Friday?",
+    "display_sentence": "Can you cover for me on Friday?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "overtime",
+    "sentence_en": "I have to work ___ tonight.",
+    "sentence_ko": "오늘 밤 야근해야 해요.",
+    "meaning": "초과 근무, 야근",
+    "tts_text": "I have to work overtime tonight.",
+    "display_sentence": "I have to work overtime tonight.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "draft",
+    "sentence_en": "I'll send you the ___ by end of day.",
+    "sentence_ko": "오늘 오후 안에 초안 보내드릴게요.",
+    "meaning": "초안",
+    "tts_text": "I'll send you the draft by end of day.",
+    "display_sentence": "I'll send you the draft by end of day.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "promote",
+    "sentence_en": "They decided to ___ her to team lead.",
+    "sentence_ko": "그들은 그녀를 팀장으로 승진시키기로 했어요.",
+    "meaning": "승진시키다",
+    "tts_text": "They decided to promote her to team lead.",
+    "display_sentence": "They decided to promote her to team lead.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "career"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "onboard",
+    "sentence_en": "We need to ___ the new hire this week.",
+    "sentence_ko": "이번 주에 신입을 온보딩해야 해요.",
+    "meaning": "신규 입사자를 교육하다",
+    "tts_text": "We need to onboard the new hire this week.",
+    "display_sentence": "We need to onboard the new hire this week.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "hr"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "copy",
+    "sentence_en": "Can you ___ me on that email?",
+    "sentence_ko": "그 이메일에 저도 참조해 줄래요?",
+    "meaning": "참조하다",
+    "tts_text": "Can you copy me on that email?",
+    "display_sentence": "Can you copy me on that email?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "cc",
+    "sentence_en": "Please ___ me on the reply.",
+    "sentence_ko": "답장에 저 참조해 주세요.",
+    "meaning": "이메일을 참조로 보내다",
+    "tts_text": "Please cc me on the reply.",
+    "display_sentence": "Please cc me on the reply.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "handover",
+    "sentence_en": "Did you finish the ___?",
+    "sentence_ko": "인수인계 끝냈어요?",
+    "meaning": "인수인계",
+    "tts_text": "Did you finish the handover?",
+    "display_sentence": "Did you finish the handover?",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "hr"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a deadline",
+    "sentence_en": "We're working against ___.",
+    "sentence_ko": "마감에 쫓기며 일하고 있어요.",
+    "meaning": "마감 기한",
+    "tts_text": "We're working against a deadline.",
+    "display_sentence": "We're working against a deadline.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "follow up",
+    "sentence_en": "I'll ___ with you tomorrow.",
+    "sentence_ko": "내일 다시 연락드릴게요.",
+    "meaning": "후속 조치하다",
+    "tts_text": "I'll follow up with you tomorrow.",
+    "display_sentence": "I'll follow up with you tomorrow.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "in charge of",
+    "sentence_en": "Who is ___ this project?",
+    "sentence_ko": "누가 이 프로젝트를 맡고 있나요?",
+    "meaning": "~을 담당하는",
+    "tts_text": "Who is in charge of this project?",
+    "display_sentence": "Who is in charge of this project?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "set up",
+    "sentence_en": "Can you ___ a call for Monday?",
+    "sentence_ko": "월요일로 통화 잡아 줄래요?",
+    "meaning": "마련하다, 잡다",
+    "tts_text": "Can you set up a call for Monday?",
+    "display_sentence": "Can you set up a call for Monday?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take over",
+    "sentence_en": "Can you ___ my tasks while I'm away?",
+    "sentence_ko": "제가 없는 동안 제 업무 좀 맡아 줄래요?",
+    "meaning": "인계받다",
+    "tts_text": "Can you take over my tasks while I'm away?",
+    "display_sentence": "Can you take over my tasks while I'm away?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "workload",
+    "sentence_en": "My ___ has been heavy lately.",
+    "sentence_ko": "요즘 업무량이 많았어요.",
+    "meaning": "업무량",
+    "tts_text": "My workload has been heavy lately.",
+    "display_sentence": "My workload has been heavy lately.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get back to",
+    "sentence_en": "I'll ___ you on that.",
+    "sentence_ko": "그 건은 다시 알려드릴게요.",
+    "meaning": "나중에 답하다",
+    "tts_text": "I'll get back to you on that.",
+    "display_sentence": "I'll get back to you on that.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "hand in",
+    "sentence_en": "Please ___ the report by Friday.",
+    "sentence_ko": "금요일까지 보고서를 제출해 주세요.",
+    "meaning": "제출하다",
+    "tts_text": "Please hand in the report by Friday.",
+    "display_sentence": "Please hand in the report by Friday.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "come up with",
+    "sentence_en": "We need to ___ a new idea.",
+    "sentence_ko": "새 아이디어를 내야 해요.",
+    "meaning": "생각해 내다",
+    "tts_text": "We need to come up with a new idea.",
+    "display_sentence": "We need to come up with a new idea.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a raise",
+    "sentence_en": "I'm hoping for ___ this year.",
+    "sentence_ko": "올해 임금 인상을 기대하고 있어요.",
+    "meaning": "임금 인상",
+    "tts_text": "I'm hoping for a raise this year.",
+    "display_sentence": "I'm hoping for a raise this year.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "hr"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "call it a day",
+    "sentence_en": "Let's ___ and finish tomorrow.",
+    "sentence_ko": "오늘은 마치고 내일 끝내요.",
+    "meaning": "일과를 끝내다",
+    "tts_text": "Let's call it a day and finish tomorrow.",
+    "display_sentence": "Let's call it a day and finish tomorrow.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "fall behind",
+    "sentence_en": "I don't want to ___ on the schedule.",
+    "sentence_ko": "일정에 뒤처지고 싶지 않아요.",
+    "meaning": "뒤처지다",
+    "tts_text": "I don't want to fall behind on the schedule.",
+    "display_sentence": "I don't want to fall behind on the schedule.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a day off",
+    "sentence_en": "I'm taking ___ tomorrow.",
+    "sentence_ko": "내일 하루 쉴 거예요.",
+    "meaning": "휴무일",
+    "tts_text": "I'm taking a day off tomorrow.",
+    "display_sentence": "I'm taking a day off tomorrow.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "hr"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "sort out",
+    "sentence_en": "Let me ___ this issue first.",
+    "sentence_ko": "이 문제부터 정리할게요.",
+    "meaning": "해결하다, 정리하다",
+    "tts_text": "Let me sort out this issue first.",
+    "display_sentence": "Let me sort out this issue first.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "on track",
+    "sentence_en": "The project is ___.",
+    "sentence_ko": "프로젝트는 순조롭게 진행 중이에요.",
+    "meaning": "순조롭게 진행 중인",
+    "tts_text": "The project is on track.",
+    "display_sentence": "The project is on track.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "run this idea by",
+    "sentence_en": "Let me ___ you.",
+    "sentence_ko": "이 아이디어에 대한 의견을 물어볼게요.",
+    "meaning": "아이디어를 상대에게 말해보다",
+    "tts_text": "Let me run this idea by you.",
+    "display_sentence": "Let me run this idea by you.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a tight deadline",
+    "sentence_en": "We're on ___.",
+    "sentence_ko": "우리는 빠듯한 마감에 쫓겨요.",
+    "meaning": "빠듯한 마감",
+    "tts_text": "We're on a tight deadline.",
+    "display_sentence": "We're on a tight deadline.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "step in",
+    "sentence_en": "Can you ___ for me at the meeting?",
+    "sentence_ko": "회의에서 제 대신 좀 나서 줄래요?",
+    "meaning": "대신 나서다",
+    "tts_text": "Can you step in for me at the meeting?",
+    "display_sentence": "Can you step in for me at the meeting?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "wrap up",
+    "sentence_en": "Let's ___ the project this week.",
+    "sentence_ko": "이번 주에 프로젝트를 마무리해요.",
+    "meaning": "마무리하다",
+    "tts_text": "Let's wrap up the project this week.",
+    "display_sentence": "Let's wrap up the project this week.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "keep up with",
+    "sentence_en": "It's hard to ___ all the emails.",
+    "sentence_ko": "모든 이메일을 따라가기가 힘들어요.",
+    "meaning": "따라잡다",
+    "tts_text": "It's hard to keep up with all the emails.",
+    "display_sentence": "It's hard to keep up with all the emails.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "heads-up",
+    "sentence_en": "Thanks for the ___.",
+    "sentence_ko": "미리 알려 줘서 고마워요.",
+    "meaning": "미리 알려 줌",
+    "tts_text": "Thanks for the heads-up.",
+    "display_sentence": "Thanks for the heads-up.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "delegate",
+    "sentence_en": "A good leader knows how to ___.",
+    "sentence_ko": "좋은 리더는 일을 잘 위임할 줄 알아요.",
+    "meaning": "위임하다",
+    "tts_text": "A good leader knows how to delegate.",
+    "display_sentence": "A good leader knows how to delegate.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pitched in",
+    "sentence_en": "Everyone ___ to meet the deadline.",
+    "sentence_ko": "마감을 맞추려 모두 협력했어요.",
+    "meaning": "협력했다, 거들었다",
+    "tts_text": "Everyone pitched in to meet the deadline.",
+    "display_sentence": "Everyone pitched in to meet the deadline.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "teamwork"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "brush up on",
+    "sentence_en": "I need to ___ my Excel skills.",
+    "sentence_ko": "엑셀 실력을 다시 갈고닦아야 해요.",
+    "meaning": "다시 익히다",
+    "tts_text": "I need to brush up on my Excel skills.",
+    "display_sentence": "I need to brush up on my Excel skills.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "career"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "check in with",
+    "sentence_en": "I'll ___ the team tomorrow morning.",
+    "sentence_ko": "내일 아침 팀에 상황 확인을 할게요.",
+    "meaning": "~에게 상황을 확인하다",
+    "tts_text": "I'll check in with the team tomorrow morning.",
+    "display_sentence": "I'll check in with the team tomorrow morning.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "put off",
+    "sentence_en": "We can't ___ this decision any longer.",
+    "sentence_ko": "이 결정을 더 이상 미룰 수 없어요.",
+    "meaning": "미루다",
+    "tts_text": "We can't put off this decision any longer.",
+    "display_sentence": "We can't put off this decision any longer.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "bring up",
+    "sentence_en": "I need to ___ a concern at the meeting.",
+    "sentence_ko": "회의에서 한 가지 우려를 제기해야 해요.",
+    "meaning": "꺼내다, 언급하다",
+    "tts_text": "I need to bring up a concern at the meeting.",
+    "display_sentence": "I need to bring up a concern at the meeting.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "cut back on",
+    "sentence_en": "We need to ___ expenses this quarter.",
+    "sentence_ko": "이번 분기 지출을 줄여야 해요.",
+    "meaning": "줄이다",
+    "tts_text": "We need to cut back on expenses this quarter.",
+    "display_sentence": "We need to cut back on expenses this quarter.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "finance"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take on",
+    "sentence_en": "I'd like to ___ more responsibility.",
+    "sentence_ko": "더 많은 책임을 맡고 싶어요.",
+    "meaning": "맡다, 떠맡다",
+    "tts_text": "I'd like to take on more responsibility.",
+    "display_sentence": "I'd like to take on more responsibility.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "career"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "at full capacity",
+    "sentence_en": "The team is working ___ right now.",
+    "sentence_ko": "팀이 지금 최대치로 가동 중이에요.",
+    "meaning": "최대 용량으로",
+    "tts_text": "The team is working at full capacity right now.",
+    "display_sentence": "The team is working at full capacity right now.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "reach out to",
+    "sentence_en": "Please ___ the client directly.",
+    "sentence_ko": "고객에게 직접 연락해 주세요.",
+    "meaning": "연락하다",
+    "tts_text": "Please reach out to the client directly.",
+    "display_sentence": "Please reach out to the client directly.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "go over",
+    "sentence_en": "Let's ___ the numbers together.",
+    "sentence_ko": "수치를 같이 살펴봐요.",
+    "meaning": "검토하다, 살펴보다",
+    "tts_text": "Let's go over the numbers together.",
+    "display_sentence": "Let's go over the numbers together.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "sign off on",
+    "sentence_en": "The director needs to ___ this budget.",
+    "sentence_ko": "이 예산은 이사가 승인해야 해요.",
+    "meaning": "승인하다",
+    "tts_text": "The director needs to sign off on this budget.",
+    "display_sentence": "The director needs to sign off on this budget.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "finance"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pointed out",
+    "sentence_en": "She ___ a mistake in the draft.",
+    "sentence_ko": "그녀가 초안의 오류를 지적했어요.",
+    "meaning": "지적했다",
+    "tts_text": "She pointed out a mistake in the draft.",
+    "display_sentence": "She pointed out a mistake in the draft.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take note of",
+    "sentence_en": "Please ___ the new policy changes.",
+    "sentence_ko": "새 정책 변경 사항을 숙지해 주세요.",
+    "meaning": "주목하다, 숙지하다",
+    "tts_text": "Please take note of the new policy changes.",
+    "display_sentence": "Please take note of the new policy changes.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "roll out",
+    "sentence_en": "We'll ___ the new feature next week.",
+    "sentence_ko": "다음 주에 새 기능을 출시할 거예요.",
+    "meaning": "출시하다, 배포하다",
+    "tts_text": "We'll roll out the new feature next week.",
+    "display_sentence": "We'll roll out the new feature next week.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "product"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "make progress on",
+    "sentence_en": "We're starting to ___ the proposal.",
+    "sentence_ko": "제안서가 조금씩 진척되고 있어요.",
+    "meaning": "진척을 이루다",
+    "tts_text": "We're starting to make progress on the proposal.",
+    "display_sentence": "We're starting to make progress on the proposal.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "an urgent matter",
+    "sentence_en": "There's ___ I need to address.",
+    "sentence_ko": "처리해야 할 긴급한 일이 생겼어요.",
+    "meaning": "긴급한 일",
+    "tts_text": "There's an urgent matter I need to address.",
+    "display_sentence": "There's an urgent matter I need to address.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "behind schedule",
+    "sentence_en": "The project is running ___.",
+    "sentence_ko": "프로젝트가 일정보다 늦어지고 있어요.",
+    "meaning": "일정보다 늦은",
+    "tts_text": "The project is running behind schedule.",
+    "display_sentence": "The project is running behind schedule.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pull together",
+    "sentence_en": "We need to ___ and get this done.",
+    "sentence_ko": "힘을 합쳐서 이걸 끝내야 해요.",
+    "meaning": "힘을 합치다",
+    "tts_text": "We need to pull together and get this done.",
+    "display_sentence": "We need to pull together and get this done.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "teamwork"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "talk through",
+    "sentence_en": "Can we ___ the options together?",
+    "sentence_ko": "선택지를 같이 살펴볼 수 있을까요?",
+    "meaning": "차근차근 논의하다",
+    "tts_text": "Can we talk through the options together?",
+    "display_sentence": "Can we talk through the options together?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "action items",
+    "sentence_en": "Let's list the ___ from today's meeting.",
+    "sentence_ko": "오늘 회의에서 나온 실행 항목을 정리해요.",
+    "meaning": "실행 항목",
+    "tts_text": "Let's list the action items from today's meeting.",
+    "display_sentence": "Let's list the action items from today's meeting.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "look into",
+    "sentence_en": "I'll ___ that issue right away.",
+    "sentence_ko": "그 문제를 바로 살펴볼게요.",
+    "meaning": "조사하다, 살펴보다",
+    "tts_text": "I'll look into that issue right away.",
+    "display_sentence": "I'll look into that issue right away.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "kick off",
+    "sentence_en": "Let's ___ the project with a team lunch.",
+    "sentence_ko": "팀 점심으로 프로젝트를 시작해요.",
+    "meaning": "시작하다",
+    "tts_text": "Let's kick off the project with a team lunch.",
+    "display_sentence": "Let's kick off the project with a team lunch.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "move forward with",
+    "sentence_en": "Are we ready to ___ the plan?",
+    "sentence_ko": "계획을 추진할 준비가 됐나요?",
+    "meaning": "추진하다",
+    "tts_text": "Are we ready to move forward with the plan?",
+    "display_sentence": "Are we ready to move forward with the plan?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "catch up on",
+    "sentence_en": "I need to ___ my emails after the holiday.",
+    "sentence_ko": "휴일 이후 쌓인 이메일을 처리해야 해요.",
+    "meaning": "밀린 것을 처리하다",
+    "tts_text": "I need to catch up on my emails after the holiday.",
+    "display_sentence": "I need to catch up on my emails after the holiday.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "sick leave",
+    "sentence_en": "She's on ___ this week.",
+    "sentence_ko": "그녀는 이번 주 병가 중이에요.",
+    "meaning": "병가",
+    "tts_text": "She's on sick leave this week.",
+    "display_sentence": "She's on sick leave this week.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "hr"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "performance review",
+    "sentence_en": "My ___ is next Tuesday.",
+    "sentence_ko": "제 인사 고과가 다음 주 화요일이에요.",
+    "meaning": "성과 평가",
+    "tts_text": "My performance review is next Tuesday.",
+    "display_sentence": "My performance review is next Tuesday.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "hr"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "hand off",
+    "sentence_en": "I need to ___ this task to Jake.",
+    "sentence_ko": "이 업무를 Jake에게 넘겨야 해요.",
+    "meaning": "넘기다, 인계하다",
+    "tts_text": "I need to hand off this task to Jake.",
+    "display_sentence": "I need to hand off this task to Jake.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "bring on board",
+    "sentence_en": "We want to ___ a new designer.",
+    "sentence_ko": "새 디자이너를 영입하고 싶어요.",
+    "meaning": "영입하다",
+    "tts_text": "We want to bring on board a new designer.",
+    "display_sentence": "We want to bring on board a new designer.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "hr"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "fill in for",
+    "sentence_en": "Can you ___ me while I'm on leave?",
+    "sentence_ko": "제가 휴가인 동안 대신해 줄 수 있어요?",
+    "meaning": "대신하다",
+    "tts_text": "Can you fill in for me while I'm on leave?",
+    "display_sentence": "Can you fill in for me while I'm on leave?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "hr"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "meet the deadline",
+    "sentence_en": "We're not going to ___ at this rate.",
+    "sentence_ko": "이 속도로는 마감을 못 맞출 것 같아요.",
+    "meaning": "마감을 맞추다",
+    "tts_text": "We're not going to meet the deadline at this rate.",
+    "display_sentence": "We're not going to meet the deadline at this rate.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take minutes",
+    "sentence_en": "Can you ___ for the meeting?",
+    "sentence_ko": "회의록을 작성해 줄 수 있어요?",
+    "meaning": "회의록을 작성하다",
+    "tts_text": "Can you take minutes for the meeting?",
+    "display_sentence": "Can you take minutes for the meeting?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "run out of time",
+    "sentence_en": "We're going to ___ before we finish.",
+    "sentence_ko": "끝내기 전에 시간이 다 될 것 같아요.",
+    "meaning": "시간이 다 되다",
+    "tts_text": "We're going to run out of time before we finish.",
+    "display_sentence": "We're going to run out of time before we finish.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "give the green light",
+    "sentence_en": "The client finally ___ to proceed.",
+    "sentence_ko": "고객이 마침내 진행 승인을 했어요.",
+    "meaning": "진행 승인을 하다",
+    "tts_text": "The client finally give the green light to proceed.",
+    "display_sentence": "The client finally gave the green light to proceed.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "sales"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "up to date",
+    "sentence_en": "Is your contact list ___?",
+    "sentence_ko": "연락처 목록 최신 상태인가요?",
+    "meaning": "최신 상태인",
+    "tts_text": "Is your contact list up to date?",
+    "display_sentence": "Is your contact list up to date?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "make a case for",
+    "sentence_en": "We need to ___ a bigger budget.",
+    "sentence_ko": "더 큰 예산의 필요성을 주장해야 해요.",
+    "meaning": "~의 필요성을 주장하다",
+    "tts_text": "We need to make a case for a bigger budget.",
+    "display_sentence": "We need to make a case for a bigger budget.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "finance"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "touch base",
+    "sentence_en": "Let's ___ early next week.",
+    "sentence_ko": "다음 주 초에 간단히 얘기해요.",
+    "meaning": "간단히 연락하다",
+    "tts_text": "Let's touch base early next week.",
+    "display_sentence": "Let's touch base early next week.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "raised the bar",
+    "sentence_en": "This launch really ___.",
+    "sentence_ko": "이번 출시가 기준을 확 높였어요.",
+    "meaning": "기준을 높였다",
+    "tts_text": "This launch really raised the bar.",
+    "display_sentence": "This launch really raised the bar.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "product"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "dropped the ball",
+    "sentence_en": "I'm sorry I ___ on that.",
+    "sentence_ko": "그 건은 제가 실수했어요, 죄송해요.",
+    "meaning": "실수했다",
+    "tts_text": "I'm sorry I dropped the ball on that.",
+    "display_sentence": "I'm sorry I dropped the ball on that.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "in the loop",
+    "sentence_en": "Please keep me ___.",
+    "sentence_ko": "저도 계속 공유받게 해 주세요.",
+    "meaning": "정보를 공유받는",
+    "tts_text": "Please keep me in the loop.",
+    "display_sentence": "Please keep me in the loop.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "wear many hats",
+    "sentence_en": "At a startup, you ___.",
+    "sentence_ko": "스타트업에선 여러 역할을 맡게 돼요.",
+    "meaning": "여러 역할을 하다",
+    "tts_text": "At a startup, you wear many hats.",
+    "display_sentence": "At a startup, you wear many hats.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "career"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "circle back",
+    "sentence_en": "Let's ___ on this after lunch.",
+    "sentence_ko": "이건 점심 후에 다시 논의해요.",
+    "meaning": "다시 돌아와 논의하다",
+    "tts_text": "Let's circle back on this after lunch.",
+    "display_sentence": "Let's circle back on this after lunch.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "burn out",
+    "sentence_en": "I don't want to ___ before the deadline.",
+    "sentence_ko": "마감 전에 번아웃되고 싶지 않아요.",
+    "meaning": "기진맥진하다",
+    "tts_text": "I don't want to burn out before the deadline.",
+    "display_sentence": "I don't want to burn out before the deadline.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "think outside the box",
+    "sentence_en": "We need to ___ here.",
+    "sentence_ko": "여기선 틀을 깬 발상이 필요해요.",
+    "meaning": "틀을 깨고 생각하다",
+    "tts_text": "We need to think outside the box here.",
+    "display_sentence": "We need to think outside the box here.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on the same wavelength",
+    "sentence_en": "The team is ___.",
+    "sentence_ko": "팀이 서로 잘 통해요.",
+    "meaning": "생각이 잘 통하는",
+    "tts_text": "The team is on the same wavelength.",
+    "display_sentence": "The team is on the same wavelength.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "teamwork"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "hit a snag",
+    "sentence_en": "We ___ during testing.",
+    "sentence_ko": "테스트 중에 문제에 부딪혔어요.",
+    "meaning": "난관에 부딪히다",
+    "tts_text": "We hit a snag during testing.",
+    "display_sentence": "We hit a snag during testing.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "take the lead",
+    "sentence_en": "She offered to ___ on this.",
+    "sentence_ko": "그녀가 이 일을 주도하겠다고 했어요.",
+    "meaning": "주도하다",
+    "tts_text": "She offered to take the lead on this.",
+    "display_sentence": "She offered to take the lead on this.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get up to speed",
+    "sentence_en": "It took a week to ___.",
+    "sentence_ko": "업무를 파악하는 데 일주일 걸렸어요.",
+    "meaning": "상황을 파악하다",
+    "tts_text": "It took a week to get up to speed.",
+    "display_sentence": "It took a week to get up to speed.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "career"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a ballpark figure",
+    "sentence_en": "Can you give me ___?",
+    "sentence_ko": "대략적인 수치를 줄 수 있어요?",
+    "meaning": "대략적인 수치",
+    "tts_text": "Can you give me a ballpark figure?",
+    "display_sentence": "Can you give me a ballpark figure?",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "finance"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "goes the extra mile",
+    "sentence_en": "Our team always ___.",
+    "sentence_ko": "우리 팀은 늘 한 발 더 노력해요.",
+    "meaning": "한층 더 노력한다",
+    "tts_text": "Our team always goes the extra mile.",
+    "display_sentence": "Our team always goes the extra mile.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "teamwork"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "play hardball",
+    "sentence_en": "They started to ___ in talks.",
+    "sentence_ko": "그들은 협상에서 강경하게 나오기 시작했어요.",
+    "meaning": "강경하게 나오다",
+    "tts_text": "They started to play hardball in talks.",
+    "display_sentence": "They started to play hardball in talks.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "negotiation"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a steep learning curve",
+    "sentence_en": "There's ___ here.",
+    "sentence_ko": "여긴 배워야 할 게 가파르게 많아요.",
+    "meaning": "가파른 학습 곡선",
+    "tts_text": "There's a steep learning curve here.",
+    "display_sentence": "There's a steep learning curve here.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "career"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "calls the shots",
+    "sentence_en": "Who ___ around here?",
+    "sentence_ko": "여기선 누가 결정권을 쥐고 있나요?",
+    "meaning": "결정권을 쥔다",
+    "tts_text": "Who calls the shots around here?",
+    "display_sentence": "Who calls the shots around here?",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on the back burner",
+    "sentence_en": "That plan is ___ for now.",
+    "sentence_ko": "그 계획은 당분간 보류예요.",
+    "meaning": "뒷전인, 보류된",
+    "tts_text": "That plan is on the back burner for now.",
+    "display_sentence": "That plan is on the back burner for now.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get the ball rolling",
+    "sentence_en": "Let's ___ on the proposal.",
+    "sentence_ko": "제안서부터 착수합시다.",
+    "meaning": "일을 시작하다",
+    "tts_text": "Let's get the ball rolling on the proposal.",
+    "display_sentence": "Let's get the ball rolling on the proposal.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "game changer",
+    "sentence_en": "This tool is a real ___.",
+    "sentence_ko": "이 도구는 판도를 바꾸는 물건이에요.",
+    "meaning": "판도를 바꾸는 것",
+    "tts_text": "This tool is a real game changer.",
+    "display_sentence": "This tool is a real game changer.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "product"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bite the bullet",
+    "sentence_en": "We had to ___ and cut costs.",
+    "sentence_ko": "우린 이를 악물고 비용을 줄여야 했어요.",
+    "meaning": "이를 악물고 하다",
+    "tts_text": "We had to bite the bullet and cut costs.",
+    "display_sentence": "We had to bite the bullet and cut costs.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "finance"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "kept her nose to the grindstone",
+    "sentence_en": "She ___ until launch.",
+    "sentence_ko": "그녀는 출시까지 죽어라 일했어요.",
+    "meaning": "쉬지 않고 열심히 일했다",
+    "tts_text": "She kept her nose to the grindstone until launch.",
+    "display_sentence": "She kept her nose to the grindstone until launch.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a window of opportunity",
+    "sentence_en": "There's ___ to close this deal.",
+    "sentence_ko": "이 거래를 성사시킬 기회의 창이 있어요.",
+    "meaning": "기회의 순간",
+    "tts_text": "There's a window of opportunity to close this deal.",
+    "display_sentence": "There's a window of opportunity to close this deal.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "sales"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "cut corners",
+    "sentence_en": "Don't ___ on quality.",
+    "sentence_ko": "품질에서 대충 넘어가지 마세요.",
+    "meaning": "대충 줄여 하다",
+    "tts_text": "Don't cut corners on quality.",
+    "display_sentence": "Don't cut corners on quality.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "hammer out",
+    "sentence_en": "We need to ___ the details.",
+    "sentence_ko": "세부 사항을 협의해 정해야 해요.",
+    "meaning": "협의해 정하다",
+    "tts_text": "We need to hammer out the details.",
+    "display_sentence": "We need to hammer out the details.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "negotiation"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "align on",
+    "sentence_en": "We need to ___ the priorities first.",
+    "sentence_ko": "먼저 우선순위를 맞춰야 해요.",
+    "meaning": "공감대를 이루다",
+    "tts_text": "We need to align on the priorities first.",
+    "display_sentence": "We need to align on the priorities first.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "move the needle",
+    "sentence_en": "This campaign really helped to ___.",
+    "sentence_ko": "이 캠페인이 성과를 실질적으로 끌어올렸어요.",
+    "meaning": "실질적인 변화를 만들다",
+    "tts_text": "This campaign really helped to move the needle.",
+    "display_sentence": "This campaign really helped to move the needle.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "sales"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "push back on",
+    "sentence_en": "The team decided to ___ the new policy.",
+    "sentence_ko": "팀은 새 정책에 반발하기로 했어요.",
+    "meaning": "반발하다, 이의를 제기하다",
+    "tts_text": "The team decided to push back on the new policy.",
+    "display_sentence": "The team decided to push back on the new policy.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "At the end of the day",
+    "sentence_en": "___, results are what matter.",
+    "sentence_ko": "결국 중요한 건 결과예요.",
+    "meaning": "결국, 결국엔",
+    "tts_text": "At the end of the day, results are what matter.",
+    "display_sentence": "At the end of the day, results are what matter.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "low-hanging fruit",
+    "sentence_en": "Let's start with the ___ first.",
+    "sentence_ko": "먼저 쉽게 얻을 수 있는 것부터 시작해요.",
+    "meaning": "쉽게 얻을 수 있는 것",
+    "tts_text": "Let's start with the low-hanging fruit first.",
+    "display_sentence": "Let's start with the low-hanging fruit first.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bandwidth",
+    "sentence_en": "I don't have the ___ for another project.",
+    "sentence_ko": "다른 프로젝트를 맡을 여력이 없어요.",
+    "meaning": "여력, 처리 용량",
+    "tts_text": "I don't have the bandwidth for another project.",
+    "display_sentence": "I don't have the bandwidth for another project.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "scope creep",
+    "sentence_en": "We need to watch out for ___.",
+    "sentence_ko": "범위 확장에 주의해야 해요.",
+    "meaning": "범위 확장, 스코프 크리프",
+    "tts_text": "We need to watch out for scope creep.",
+    "display_sentence": "We need to watch out for scope creep.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "project"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "take stock of",
+    "sentence_en": "We should ___ what we've achieved so far.",
+    "sentence_ko": "지금까지 이룬 것을 점검해야 해요.",
+    "meaning": "점검하다, 되돌아보다",
+    "tts_text": "We should take stock of what we've achieved so far.",
+    "display_sentence": "We should take stock of what we've achieved so far.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on the same page",
+    "sentence_en": "Let's make sure we're ___ before the call.",
+    "sentence_ko": "통화 전에 우리가 같은 생각인지 확인해요.",
+    "meaning": "같은 이해를 공유하다",
+    "tts_text": "Let's make sure we're on the same page before the call.",
+    "display_sentence": "Let's make sure we're on the same page before the call.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "Going forward",
+    "sentence_en": "___, we'll use a new process.",
+    "sentence_ko": "앞으로는 새 프로세스를 사용할 거예요.",
+    "meaning": "앞으로는",
+    "tts_text": "Going forward, we'll use a new process.",
+    "display_sentence": "Going forward, we'll use a new process.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "The bottom line",
+    "sentence_en": "___ is that we need more funding.",
+    "sentence_ko": "핵심은 자금이 더 필요하다는 거예요.",
+    "meaning": "핵심 결론",
+    "tts_text": "The bottom line is that we need more funding.",
+    "display_sentence": "The bottom line is that we need more funding.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "finance"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "fast-track",
+    "sentence_en": "We need to ___ this approval.",
+    "sentence_ko": "이 승인을 빠르게 처리해야 해요.",
+    "meaning": "신속히 추진하다",
+    "tts_text": "We need to fast-track this approval.",
+    "display_sentence": "We need to fast-track this approval.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "pivot",
+    "sentence_en": "We need to ___ our strategy completely.",
+    "sentence_ko": "전략을 완전히 전환해야 해요.",
+    "meaning": "방향을 전환하다",
+    "tts_text": "We need to pivot our strategy completely.",
+    "display_sentence": "We need to pivot our strategy completely.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "product"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "stakeholder buy-in",
+    "sentence_en": "We need ___ before we proceed.",
+    "sentence_ko": "진행하기 전에 이해관계자 동의가 필요해요.",
+    "meaning": "이해관계자 동의",
+    "tts_text": "We need stakeholder buy-in before we proceed.",
+    "display_sentence": "We need stakeholder buy-in before we proceed.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "deep dive",
+    "sentence_en": "Let's do a ___ into the data.",
+    "sentence_ko": "데이터를 깊이 파고들어 봐요.",
+    "meaning": "깊이 파고드는 분석",
+    "tts_text": "Let's do a deep dive into the data.",
+    "display_sentence": "Let's do a deep dive into the data.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "pain point",
+    "sentence_en": "What's the main ___ for our users?",
+    "sentence_ko": "우리 사용자의 주요 불편 사항이 뭐예요?",
+    "meaning": "불편 사항, 핵심 문제",
+    "tts_text": "What's the main pain point for our users?",
+    "display_sentence": "What's the main pain point for our users?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "product"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "synergy",
+    "sentence_en": "There's real ___ between the two teams.",
+    "sentence_ko": "두 팀 사이에 진짜 시너지가 있어요.",
+    "meaning": "시너지, 상승 효과",
+    "tts_text": "There's real synergy between the two teams.",
+    "display_sentence": "There's real synergy between the two teams.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "teamwork"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "hit the ground running",
+    "sentence_en": "She managed to ___ on day one.",
+    "sentence_ko": "그녀는 첫날부터 바로 뛰어들었어요.",
+    "meaning": "즉시 시작하다",
+    "tts_text": "She managed to hit the ground running on day one.",
+    "display_sentence": "She managed to hit the ground running on day one.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "career"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "under the radar",
+    "sentence_en": "That issue has been flying ___.",
+    "sentence_ko": "그 문제는 눈에 띄지 않게 지나치고 있었어요.",
+    "meaning": "주목받지 않는",
+    "tts_text": "That issue has been flying under the radar.",
+    "display_sentence": "That issue has been flying under the radar.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "connect the dots",
+    "sentence_en": "It took a while to ___ on this project.",
+    "sentence_ko": "이 프로젝트를 파악하는 데 시간이 걸렸어요.",
+    "meaning": "전체 그림을 파악하다",
+    "tts_text": "It took a while to connect the dots on this project.",
+    "display_sentence": "It took a while to connect the dots on this project.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a red flag",
+    "sentence_en": "That response from the client is ___.",
+    "sentence_ko": "고객의 그 반응은 경고 신호예요.",
+    "meaning": "경고 신호",
+    "tts_text": "That response from the client is a red flag.",
+    "display_sentence": "That response from the client is a red flag.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "sales"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "in the pipeline",
+    "sentence_en": "We have three new projects ___.",
+    "sentence_ko": "신규 프로젝트 세 개가 진행 중이에요.",
+    "meaning": "진행 예정인",
+    "tts_text": "We have three new projects in the pipeline.",
+    "display_sentence": "We have three new projects in the pipeline.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "product"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "onboarding process",
+    "sentence_en": "We should improve the ___.",
+    "sentence_ko": "온보딩 프로세스를 개선해야 해요.",
+    "meaning": "신입 교육 과정",
+    "tts_text": "We should improve the onboarding process.",
+    "display_sentence": "We should improve the onboarding process.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "hr"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bridge the gap",
+    "sentence_en": "We need to ___ between sales and product.",
+    "sentence_ko": "영업과 제품 팀 사이의 간극을 메워야 해요.",
+    "meaning": "간극을 메우다",
+    "tts_text": "We need to bridge the gap between sales and product.",
+    "display_sentence": "We need to bridge the gap between sales and product.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "set expectations",
+    "sentence_en": "It's important to ___ with the client early.",
+    "sentence_ko": "초기에 고객과 기대치를 설정하는 게 중요해요.",
+    "meaning": "기대치를 설정하다",
+    "tts_text": "It's important to set expectations with the client early.",
+    "display_sentence": "It's important to set expectations with the client early.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "sales"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "In hindsight",
+    "sentence_en": "___, we should have tested earlier.",
+    "sentence_ko": "되돌아보면 더 일찍 테스트했어야 했어요.",
+    "meaning": "되돌아보면",
+    "tts_text": "In hindsight, we should have tested earlier.",
+    "display_sentence": "In hindsight, we should have tested earlier.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "contingency plan",
+    "sentence_en": "We need a ___ in case it fails.",
+    "sentence_ko": "실패할 경우를 대비한 비상 계획이 필요해요.",
+    "meaning": "비상 계획",
+    "tts_text": "We need a contingency plan in case it fails.",
+    "display_sentence": "We need a contingency plan in case it fails.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "shed light on",
+    "sentence_en": "This report should ___ the issue.",
+    "sentence_ko": "이 보고서가 그 문제를 밝혀줄 거예요.",
+    "meaning": "밝히다, 명확히 하다",
+    "tts_text": "This report should shed light on the issue.",
+    "display_sentence": "This report should shed light on the issue.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "printer",
+    "sentence_en": "The ___ is out of ink.",
+    "sentence_ko": "프린터 잉크가 다 떨어졌어요.",
+    "meaning": "프린터",
+    "tts_text": "The printer is out of ink.",
+    "display_sentence": "The printer is out of ink.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "staff",
+    "sentence_en": "We need more ___ for the event.",
+    "sentence_ko": "행사에 직원이 더 필요해요.",
+    "meaning": "직원",
+    "tts_text": "We need more staff for the event.",
+    "display_sentence": "We need more staff for the event.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "hr"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "policy",
+    "sentence_en": "Please follow the company ___.",
+    "sentence_ko": "회사 정책을 따라 주세요.",
+    "meaning": "정책",
+    "tts_text": "Please follow the company policy.",
+    "display_sentence": "Please follow the company policy.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "office"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "document",
+    "sentence_en": "Please attach the ___ to your email.",
+    "sentence_ko": "이메일에 문서를 첨부해 주세요.",
+    "meaning": "문서",
+    "tts_text": "Please attach the document to your email.",
+    "display_sentence": "Please attach the document to your email.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take a step back",
+    "sentence_en": "Let's ___ and look at the big picture.",
+    "sentence_ko": "한 발 물러서서 큰 그림을 봐요.",
+    "meaning": "한 발 물러서다",
+    "tts_text": "Let's take a step back and look at the big picture.",
+    "display_sentence": "Let's take a step back and look at the big picture.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "cover all bases",
+    "sentence_en": "We need to ___ before the presentation.",
+    "sentence_ko": "발표 전에 모든 부분을 커버해야 해요.",
+    "meaning": "모든 부분을 대비하다",
+    "tts_text": "We need to cover all bases before the presentation.",
+    "display_sentence": "We need to cover all bases before the presentation.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "presentation"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "short notice",
+    "sentence_en": "Sorry for the ___.",
+    "sentence_ko": "갑작스럽게 알려 드려서 죄송해요.",
+    "meaning": "촉박한 통보",
+    "tts_text": "Sorry for the short notice.",
+    "display_sentence": "Sorry for the short notice.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "hit the deadline",
+    "sentence_en": "We managed to ___ this time.",
+    "sentence_ko": "이번에 마감을 맞췄어요.",
+    "meaning": "마감을 맞추다",
+    "tts_text": "We managed to hit the deadline this time.",
+    "display_sentence": "We managed to hit the deadline this time.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "stand in for",
+    "sentence_en": "Can you ___ the team lead today?",
+    "sentence_ko": "오늘 팀장 대신 나서 줄 수 있어요?",
+    "meaning": "대신하다",
+    "tts_text": "Can you stand in for the team lead today?",
+    "display_sentence": "Can you stand in for the team lead today?",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "on a budget",
+    "sentence_en": "We need to do this ___.",
+    "sentence_ko": "예산 내에서 해결해야 해요.",
+    "meaning": "예산 안에서",
+    "tts_text": "We need to do this on a budget.",
+    "display_sentence": "We need to do this on a budget.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "finance"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "prior to",
+    "sentence_en": "Please review the file ___ the meeting.",
+    "sentence_ko": "회의 전에 파일을 검토해 주세요.",
+    "meaning": "~이전에",
+    "tts_text": "Please review the file prior to the meeting.",
+    "display_sentence": "Please review the file prior to the meeting.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "back to back",
+    "sentence_en": "I have ___ meetings all morning.",
+    "sentence_ko": "오전 내내 연달아 회의가 있어요.",
+    "meaning": "연달아",
+    "tts_text": "I have back to back meetings all morning.",
+    "display_sentence": "I have back to back meetings all morning.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "schedule"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "on hold",
+    "sentence_en": "The project is ___ until further notice.",
+    "sentence_ko": "추가 공지가 있을 때까지 프로젝트가 보류예요.",
+    "meaning": "보류 중인",
+    "tts_text": "The project is on hold until further notice.",
+    "display_sentence": "The project is on hold until further notice.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "hold off on",
+    "sentence_en": "Let's ___ the announcement for now.",
+    "sentence_ko": "지금은 발표를 잠시 보류해요.",
+    "meaning": "보류하다",
+    "tts_text": "Let's hold off on the announcement for now.",
+    "display_sentence": "Let's hold off on the announcement for now.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "liaise with",
+    "sentence_en": "I'll ___ the design team directly.",
+    "sentence_ko": "디자인 팀과 직접 협력할게요.",
+    "meaning": "협력하다, 연락을 취하다",
+    "tts_text": "I'll liaise with the design team directly.",
+    "display_sentence": "I'll liaise with the design team directly.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "loop in",
+    "sentence_en": "Can you ___ Sarah on this thread?",
+    "sentence_ko": "Sarah를 이 스레드에 포함해 줄 수 있어요?",
+    "meaning": "공유에 포함시키다",
+    "tts_text": "Can you loop in Sarah on this thread?",
+    "display_sentence": "Can you loop in Sarah on this thread?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get the most out of",
+    "sentence_en": "How do we ___ this meeting?",
+    "sentence_ko": "이 회의를 최대한 활용하려면 어떻게 해야 해요?",
+    "meaning": "최대한 활용하다",
+    "tts_text": "How do we get the most out of this meeting?",
+    "display_sentence": "How do we get the most out of this meeting?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "raise concerns about",
+    "sentence_en": "I need to ___ the timeline.",
+    "sentence_ko": "일정에 대한 우려를 제기해야 해요.",
+    "meaning": "우려를 제기하다",
+    "tts_text": "I need to raise concerns about the timeline.",
+    "display_sentence": "I need to raise concerns about the timeline.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "face value",
+    "sentence_en": "Don't take the proposal at ___.",
+    "sentence_ko": "제안을 액면 그대로 받아들이지 마세요.",
+    "meaning": "액면 그대로",
+    "tts_text": "Don't take the proposal at face value.",
+    "display_sentence": "Don't take the proposal at face value.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "negotiation"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "keep tabs on",
+    "sentence_en": "I need to ___ the project progress.",
+    "sentence_ko": "프로젝트 진행 상황을 계속 파악해야 해요.",
+    "meaning": "계속 파악하다",
+    "tts_text": "I need to keep tabs on the project progress.",
+    "display_sentence": "I need to keep tabs on the project progress.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "value proposition",
+    "sentence_en": "We need to sharpen our ___.",
+    "sentence_ko": "가치 제안을 더 명확히 다듬어야 해요.",
+    "meaning": "가치 제안",
+    "tts_text": "We need to sharpen our value proposition.",
+    "display_sentence": "We need to sharpen our value proposition.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "sales"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "put in perspective",
+    "sentence_en": "Let me ___ what this means for the team.",
+    "sentence_ko": "이게 팀에 어떤 의미인지 맥락을 잡아드릴게요.",
+    "meaning": "관점을 잡다, 맥락화하다",
+    "tts_text": "Let me put in perspective what this means for the team.",
+    "display_sentence": "Let me put in perspective what this means for the team.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a bottleneck",
+    "sentence_en": "The approval process is ___.",
+    "sentence_ko": "승인 과정이 병목 현상이에요.",
+    "meaning": "병목 현상",
+    "tts_text": "The approval process is a bottleneck.",
+    "display_sentence": "The approval process is a bottleneck.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "runs a tight ship",
+    "sentence_en": "She really ___.",
+    "sentence_ko": "그녀는 정말 규율 있게 운영해요.",
+    "meaning": "엄격하게 운영한다",
+    "tts_text": "She really runs a tight ship.",
+    "display_sentence": "She really runs a tight ship.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "turnaround time",
+    "sentence_en": "What's the ___ on this request?",
+    "sentence_ko": "이 요청 처리 기간이 어떻게 돼요?",
+    "meaning": "처리 기간",
+    "tts_text": "What's the turnaround time on this request?",
+    "display_sentence": "What's the turnaround time on this request?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on the front burner",
+    "sentence_en": "Let's keep this issue ___.",
+    "sentence_ko": "이 문제를 최우선 과제로 유지해요.",
+    "meaning": "최우선 과제인",
+    "tts_text": "Let's keep this issue on the front burner.",
+    "display_sentence": "Let's keep this issue on the front burner.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "key performance indicators",
+    "sentence_en": "What are our ___ for this quarter?",
+    "sentence_ko": "이번 분기 핵심 성과 지표가 뭐예요?",
+    "meaning": "핵심 성과 지표(KPI)",
+    "tts_text": "What are our key performance indicators for this quarter?",
+    "display_sentence": "What are our key performance indicators for this quarter?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "escalate",
+    "sentence_en": "We need to ___ this issue to senior management.",
+    "sentence_ko": "이 문제를 상위 관리자에게 올려야 해요.",
+    "meaning": "상위에 보고하다, 에스컬레이션하다",
+    "tts_text": "We need to escalate this issue to senior management.",
+    "display_sentence": "We need to escalate this issue to senior management.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "the elephant in the room",
+    "sentence_en": "Let's talk about ___.",
+    "sentence_ko": "아무도 말하지 않는 그 문제를 얘기해봐요.",
+    "meaning": "아무도 말하지 않는 명백한 문제",
+    "tts_text": "Let's talk about the elephant in the room.",
+    "display_sentence": "Let's talk about the elephant in the room.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "meeting"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "best practices",
+    "sentence_en": "We should document our ___ for this process.",
+    "sentence_ko": "이 프로세스의 모범 사례를 문서화해야 해요.",
+    "meaning": "모범 사례",
+    "tts_text": "We should document our best practices for this process.",
+    "display_sentence": "We should document our best practices for this process.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "take ownership of",
+    "sentence_en": "You need to ___ this project.",
+    "sentence_ko": "이 프로젝트를 책임지고 맡아야 해요.",
+    "meaning": "책임을 맡다",
+    "tts_text": "You need to take ownership of this project.",
+    "display_sentence": "You need to take ownership of this project.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "work",
+      "management"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "outside of my wheelhouse",
+    "sentence_en": "That question is a bit ___.",
+    "sentence_ko": "그 질문은 제 전문 영역 밖이에요.",
+    "meaning": "전문 영역 밖인",
+    "tts_text": "That question is a bit outside of my wheelhouse.",
+    "display_sentence": "That question is a bit outside of my wheelhouse.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "communication"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "due diligence",
+    "sentence_en": "We need to do our ___ before signing.",
+    "sentence_ko": "서명 전에 철저한 사전 검토를 해야 해요.",
+    "meaning": "사전 정밀 조사",
+    "tts_text": "We need to do our due diligence before signing.",
+    "display_sentence": "We need to do our due diligence before signing.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "finance"
+    ]
+  },
+  {
+    "category": "work",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "deliverables",
+    "sentence_en": "What are the ___ for this project?",
+    "sentence_ko": "이 프로젝트의 산출물이 뭐예요?",
+    "meaning": "산출물, 납품물",
+    "tts_text": "What are the deliverables for this project?",
+    "display_sentence": "What are the deliverables for this project?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "work",
+      "task"
+    ]
+  }
+]

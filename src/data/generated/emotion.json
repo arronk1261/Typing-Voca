@@ -1,0 +1,3790 @@
+[
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "happy",
+    "sentence_en": "I'm so ___ to see you.",
+    "sentence_ko": "널 봐서 정말 기뻐.",
+    "meaning": "행복한",
+    "tts_text": "I'm so happy to see you.",
+    "display_sentence": "I'm so happy to see you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "greeting"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "tired",
+    "sentence_en": "I feel really ___ today.",
+    "sentence_ko": "오늘 정말 피곤해.",
+    "meaning": "피곤한",
+    "tts_text": "I feel really tired today.",
+    "display_sentence": "I feel really tired today.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "think",
+    "sentence_en": "What do you ___?",
+    "sentence_ko": "어떻게 생각해?",
+    "meaning": "생각하다",
+    "tts_text": "What do you think?",
+    "display_sentence": "What do you think?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "opinion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "agree",
+    "sentence_en": "I ___ with you.",
+    "sentence_ko": "네 말에 동의해.",
+    "meaning": "동의하다",
+    "tts_text": "I agree with you.",
+    "display_sentence": "I agree with you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "opinion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sad",
+    "sentence_en": "She looks a little ___.",
+    "sentence_ko": "그녀는 좀 슬퍼 보여.",
+    "meaning": "슬픈",
+    "tts_text": "She looks a little sad.",
+    "display_sentence": "She looks a little sad.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "love",
+    "sentence_en": "I ___ this song.",
+    "sentence_ko": "이 노래 정말 좋아.",
+    "meaning": "아주 좋아하다",
+    "tts_text": "I love this song.",
+    "display_sentence": "I love this song.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sorry",
+    "sentence_en": "I'm ___ about that.",
+    "sentence_ko": "그건 미안해.",
+    "meaning": "미안한",
+    "tts_text": "I'm sorry about that.",
+    "display_sentence": "I'm sorry about that.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "apology"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "angry",
+    "sentence_en": "Please don't be ___.",
+    "sentence_ko": "화내지 마.",
+    "meaning": "화난",
+    "tts_text": "Please don't be angry.",
+    "display_sentence": "Please don't be angry.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "conflict"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "scared",
+    "sentence_en": "I'm a little ___ of dogs.",
+    "sentence_ko": "난 개가 좀 무서워.",
+    "meaning": "무서워하는",
+    "tts_text": "I'm a little scared of dogs.",
+    "display_sentence": "I'm a little scared of dogs.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "excited",
+    "sentence_en": "I'm so ___ for the trip.",
+    "sentence_ko": "여행이 너무 기대돼.",
+    "meaning": "신난",
+    "tts_text": "I'm so excited for the trip.",
+    "display_sentence": "I'm so excited for the trip.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "travel"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "worried",
+    "sentence_en": "I'm ___ about the test.",
+    "sentence_ko": "시험이 걱정돼.",
+    "meaning": "걱정하는",
+    "tts_text": "I'm worried about the test.",
+    "display_sentence": "I'm worried about the test.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "glad",
+    "sentence_en": "I'm ___ you came.",
+    "sentence_ko": "네가 와서 기뻐.",
+    "meaning": "기쁜",
+    "tts_text": "I'm glad you came.",
+    "display_sentence": "I'm glad you came.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "bored",
+    "sentence_en": "I'm so ___ right now.",
+    "sentence_ko": "지금 너무 지루해.",
+    "meaning": "지루한",
+    "tts_text": "I'm so bored right now.",
+    "display_sentence": "I'm so bored right now.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hope",
+    "sentence_en": "I ___ you feel better.",
+    "sentence_ko": "네가 나아지길 바라.",
+    "meaning": "바라다",
+    "tts_text": "I hope you feel better.",
+    "display_sentence": "I hope you feel better.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "health"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "nervous",
+    "sentence_en": "I'm ___ about the interview.",
+    "sentence_ko": "면접 때문에 긴장돼.",
+    "meaning": "긴장한",
+    "tts_text": "I'm nervous about the interview.",
+    "display_sentence": "I'm nervous about the interview.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "like",
+    "sentence_en": "I ___ this idea.",
+    "sentence_ko": "이 아이디어 마음에 들어.",
+    "meaning": "좋아하다",
+    "tts_text": "I like this idea.",
+    "display_sentence": "I like this idea.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "opinion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "upset",
+    "sentence_en": "Are you ___ with me?",
+    "sentence_ko": "나한테 화났어?",
+    "meaning": "속상한",
+    "tts_text": "Are you upset with me?",
+    "display_sentence": "Are you upset with me?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "conflict"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "proud",
+    "sentence_en": "I'm so ___ of you.",
+    "sentence_ko": "네가 정말 자랑스러워.",
+    "meaning": "자랑스러운",
+    "tts_text": "I'm so proud of you.",
+    "display_sentence": "I'm so proud of you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "feel",
+    "sentence_en": "How do you ___ now?",
+    "sentence_ko": "지금 기분이 어때?",
+    "meaning": "느끼다",
+    "tts_text": "How do you feel now?",
+    "display_sentence": "How do you feel now?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "calm",
+    "sentence_en": "Try to stay ___.",
+    "sentence_ko": "침착하려고 해 봐.",
+    "meaning": "침착한",
+    "tts_text": "Try to stay calm.",
+    "display_sentence": "Try to stay calm.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "conflict"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "lonely",
+    "sentence_en": "I feel ___ sometimes.",
+    "sentence_ko": "가끔 외로워.",
+    "meaning": "외로운",
+    "tts_text": "I feel lonely sometimes.",
+    "display_sentence": "I feel lonely sometimes.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "surprised",
+    "sentence_en": "I was so ___ by the news.",
+    "sentence_ko": "그 소식에 너무 놀랐어.",
+    "meaning": "놀란",
+    "tts_text": "I was so surprised by the news.",
+    "display_sentence": "I was so surprised by the news.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "fun",
+    "sentence_en": "That was so much ___.",
+    "sentence_ko": "정말 재밌었어.",
+    "meaning": "재미",
+    "tts_text": "That was so much fun.",
+    "display_sentence": "That was so much fun.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "mind",
+    "sentence_en": "I don't ___ at all.",
+    "sentence_ko": "전혀 신경 안 써요.",
+    "meaning": "꺼리다",
+    "tts_text": "I don't mind at all.",
+    "display_sentence": "I don't mind at all.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "opinion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "miss",
+    "sentence_en": "I really ___ you.",
+    "sentence_ko": "네가 정말 보고 싶어.",
+    "meaning": "그리워하다",
+    "tts_text": "I really miss you.",
+    "display_sentence": "I really miss you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "awful",
+    "sentence_en": "I feel ___ about what happened.",
+    "sentence_ko": "일어난 일에 대해 정말 끔찍해.",
+    "meaning": "끔찍한",
+    "tts_text": "I feel awful about what happened.",
+    "display_sentence": "I feel awful about what happened.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "apology"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "mad",
+    "sentence_en": "Are you ___ at me?",
+    "sentence_ko": "나한테 화났어?",
+    "meaning": "화난",
+    "tts_text": "Are you mad at me?",
+    "display_sentence": "Are you mad at me?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "conflict"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "grateful",
+    "sentence_en": "I'm really ___ for your help.",
+    "sentence_ko": "도와줘서 정말 감사해.",
+    "meaning": "감사하는",
+    "tts_text": "I'm really grateful for your help.",
+    "display_sentence": "I'm really grateful for your help.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "embarrassed",
+    "sentence_en": "I was so ___ when I fell.",
+    "sentence_ko": "넘어졌을 때 너무 창피했어.",
+    "meaning": "창피한",
+    "tts_text": "I was so embarrassed when I fell.",
+    "display_sentence": "I was so embarrassed when I fell.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "confused",
+    "sentence_en": "I'm a bit ___ by his answer.",
+    "sentence_ko": "그의 대답에 좀 혼란스러워.",
+    "meaning": "혼란스러운",
+    "tts_text": "I'm a bit confused by his answer.",
+    "display_sentence": "I'm a bit confused by his answer.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "disappointed",
+    "sentence_en": "I was really ___ by the result.",
+    "sentence_ko": "결과에 정말 실망했어.",
+    "meaning": "실망한",
+    "tts_text": "I was really disappointed by the result.",
+    "display_sentence": "I was really disappointed by the result.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "jealous",
+    "sentence_en": "I'm a little ___ of her success.",
+    "sentence_ko": "그녀의 성공이 좀 부러워.",
+    "meaning": "부러운, 질투하는",
+    "tts_text": "I'm a little jealous of her success.",
+    "display_sentence": "I'm a little jealous of her success.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "relieved",
+    "sentence_en": "I'm so ___ it's over.",
+    "sentence_ko": "끝나서 정말 다행이야.",
+    "meaning": "안도한",
+    "tts_text": "I'm so relieved it's over.",
+    "display_sentence": "I'm so relieved it's over.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "ashamed",
+    "sentence_en": "I felt ___ of my behavior.",
+    "sentence_ko": "내 행동이 부끄러웠어.",
+    "meaning": "부끄러운",
+    "tts_text": "I felt ashamed of my behavior.",
+    "display_sentence": "I felt ashamed of my behavior.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sure",
+    "sentence_en": "Are you ___ about that?",
+    "sentence_ko": "그거 확실해?",
+    "meaning": "확신하는",
+    "tts_text": "Are you sure about that?",
+    "display_sentence": "Are you sure about that?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "opinion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "fine",
+    "sentence_en": "I'm not really ___ today.",
+    "sentence_ko": "오늘 별로 좋지 않아.",
+    "meaning": "괜찮은",
+    "tts_text": "I'm not really fine today.",
+    "display_sentence": "I'm not really fine today.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "curious",
+    "sentence_en": "I'm ___ about the results.",
+    "sentence_ko": "결과가 궁금해.",
+    "meaning": "궁금한",
+    "tts_text": "I'm curious about the results.",
+    "display_sentence": "I'm curious about the results.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hurt",
+    "sentence_en": "His words really ___ me.",
+    "sentence_ko": "그의 말이 정말 상처를 줬어.",
+    "meaning": "상처를 주다",
+    "tts_text": "His words really hurt me.",
+    "display_sentence": "His words really hurt me.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "conflict"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "peaceful",
+    "sentence_en": "This place feels so ___.",
+    "sentence_ko": "이 곳은 정말 평화롭게 느껴져.",
+    "meaning": "평화로운",
+    "tts_text": "This place feels so peaceful.",
+    "display_sentence": "This place feels so peaceful.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "travel"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hate",
+    "sentence_en": "I ___ being late.",
+    "sentence_ko": "늦는 게 정말 싫어.",
+    "meaning": "싫어하다",
+    "tts_text": "I hate being late.",
+    "display_sentence": "I hate being late.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "touched",
+    "sentence_en": "I was really ___ by the gift.",
+    "sentence_ko": "선물에 정말 감동받았어.",
+    "meaning": "감동받은",
+    "tts_text": "I was really touched by the gift.",
+    "display_sentence": "I was really touched by the gift.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "frustrated",
+    "sentence_en": "I got really ___ waiting.",
+    "sentence_ko": "기다리다가 정말 짜증났어.",
+    "meaning": "좌절한, 짜증난",
+    "tts_text": "I got really frustrated waiting.",
+    "display_sentence": "I got really frustrated waiting.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "mean",
+    "sentence_en": "That was really ___ of you.",
+    "sentence_ko": "그건 정말 못된 행동이었어.",
+    "meaning": "못된",
+    "tts_text": "That was really mean of you.",
+    "display_sentence": "That was really mean of you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "conflict"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "speechless",
+    "sentence_en": "I was completely ___.",
+    "sentence_ko": "완전히 말문이 막혔어.",
+    "meaning": "말문이 막힌",
+    "tts_text": "I was completely speechless.",
+    "display_sentence": "I was completely speechless.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "wonder",
+    "sentence_en": "I ___ if he knows.",
+    "sentence_ko": "그가 알고 있는지 궁금해.",
+    "meaning": "궁금해하다",
+    "tts_text": "I wonder if he knows.",
+    "display_sentence": "I wonder if he knows.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "opinion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "homesick",
+    "sentence_en": "I've been feeling ___ lately.",
+    "sentence_ko": "요즘 고향이 그리워.",
+    "meaning": "향수에 젖은",
+    "tts_text": "I've been feeling homesick lately.",
+    "display_sentence": "I've been feeling homesick lately.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "travel"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "content",
+    "sentence_en": "I feel ___ with my life right now.",
+    "sentence_ko": "지금 내 삶이 만족스러워.",
+    "meaning": "만족하는",
+    "tts_text": "I feel content with my life right now.",
+    "display_sentence": "I feel content with my life right now.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "moved",
+    "sentence_en": "The speech really ___ me.",
+    "sentence_ko": "그 연설에 정말 감동받았어.",
+    "meaning": "감동받은",
+    "tts_text": "The speech really moved me.",
+    "display_sentence": "The speech really moved me.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "thrilled",
+    "sentence_en": "I'm ___ about the promotion.",
+    "sentence_ko": "승진해서 정말 기뻐.",
+    "meaning": "매우 기쁜",
+    "tts_text": "I'm thrilled about the promotion.",
+    "display_sentence": "I'm thrilled about the promotion.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "miserable",
+    "sentence_en": "He looks absolutely ___.",
+    "sentence_ko": "그는 완전히 비참해 보여.",
+    "meaning": "비참한",
+    "tts_text": "He looks absolutely miserable.",
+    "display_sentence": "He looks absolutely miserable.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "need",
+    "sentence_en": "I just ___ some time alone.",
+    "sentence_ko": "혼자만의 시간이 좀 필요해.",
+    "meaning": "필요하다",
+    "tts_text": "I just need some time alone.",
+    "display_sentence": "I just need some time alone.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "believe",
+    "sentence_en": "I can't ___ he said that.",
+    "sentence_ko": "그가 그런 말을 했다니 믿기지 않아.",
+    "meaning": "믿다",
+    "tts_text": "I can't believe he said that.",
+    "display_sentence": "I can't believe he said that.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "overwhelmed",
+    "sentence_en": "I feel a bit ___ right now.",
+    "sentence_ko": "지금 좀 벅차게 느껴져.",
+    "meaning": "압도된",
+    "tts_text": "I feel a bit overwhelmed right now.",
+    "display_sentence": "I feel a bit overwhelmed right now.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "annoyed",
+    "sentence_en": "I was ___ by the delay.",
+    "sentence_ko": "지연 때문에 짜증났어.",
+    "meaning": "짜증난",
+    "tts_text": "I was annoyed by the delay.",
+    "display_sentence": "I was annoyed by the delay.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hopeful",
+    "sentence_en": "I'm still ___ about the future.",
+    "sentence_ko": "나는 아직 미래에 대해 희망적이야.",
+    "meaning": "희망적인",
+    "tts_text": "I'm still hopeful about the future.",
+    "display_sentence": "I'm still hopeful about the future.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "tense",
+    "sentence_en": "The atmosphere felt really ___.",
+    "sentence_ko": "분위기가 정말 긴장됐어.",
+    "meaning": "긴장된",
+    "tts_text": "The atmosphere felt really tense.",
+    "display_sentence": "The atmosphere felt really tense.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "bitter",
+    "sentence_en": "He still feels ___ about it.",
+    "sentence_ko": "그는 아직도 그것에 대해 씁쓸해.",
+    "meaning": "씁쓸한",
+    "tts_text": "He still feels bitter about it.",
+    "display_sentence": "He still feels bitter about it.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "delighted",
+    "sentence_en": "We're ___ to have you here.",
+    "sentence_ko": "오셔서 정말 기뻐요.",
+    "meaning": "매우 기쁜",
+    "tts_text": "We're delighted to have you here.",
+    "display_sentence": "We're delighted to have you here.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "greeting"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "moody",
+    "sentence_en": "She's been really ___ lately.",
+    "sentence_ko": "그녀는 요즘 기분이 오락가락해.",
+    "meaning": "기분이 오락가락하는",
+    "tts_text": "She's been really moody lately.",
+    "display_sentence": "She's been really moody lately.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "terrified",
+    "sentence_en": "I was ___ of flying at first.",
+    "sentence_ko": "처음에는 비행이 너무 무서웠어.",
+    "meaning": "두려운",
+    "tts_text": "I was terrified of flying at first.",
+    "display_sentence": "I was terrified of flying at first.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "travel"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "shy",
+    "sentence_en": "He's quite ___ around new people.",
+    "sentence_ko": "그는 새로운 사람들 앞에서 꽤 수줍어해.",
+    "meaning": "수줍은",
+    "tts_text": "He's quite shy around new people.",
+    "display_sentence": "He's quite shy around new people.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "positive",
+    "sentence_en": "Try to stay ___ about it.",
+    "sentence_ko": "그것에 대해 긍정적으로 생각해 봐.",
+    "meaning": "긍정적인",
+    "tts_text": "Try to stay positive about it.",
+    "display_sentence": "Try to stay positive about it.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "opinion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "regret",
+    "sentence_en": "I ___ saying that.",
+    "sentence_ko": "그 말을 한 게 후회돼.",
+    "meaning": "후회하다",
+    "tts_text": "I regret saying that.",
+    "display_sentence": "I regret saying that.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "uncomfortable",
+    "sentence_en": "I feel ___ in big crowds.",
+    "sentence_ko": "많은 사람들 속에 있으면 불편해.",
+    "meaning": "불편한",
+    "tts_text": "I feel uncomfortable in big crowds.",
+    "display_sentence": "I feel uncomfortable in big crowds.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "stressed out",
+    "sentence_en": "I've been ___ lately.",
+    "sentence_ko": "요즘 스트레스를 많이 받았어요.",
+    "meaning": "스트레스에 시달리는",
+    "tts_text": "I've been stressed out lately.",
+    "display_sentence": "I've been stressed out lately.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "work",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "In my opinion",
+    "sentence_en": "___, we should wait.",
+    "sentence_ko": "제 생각엔 기다리는 게 좋겠어요.",
+    "meaning": "제 생각에는",
+    "tts_text": "In my opinion, we should wait.",
+    "display_sentence": "In my opinion, we should wait.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "opinion",
+      "work",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "fed up with",
+    "sentence_en": "I'm ___ the constant noise.",
+    "sentence_ko": "끊임없는 소음에 진절머리가 나요.",
+    "meaning": "~에 진절머리가 난",
+    "tts_text": "I'm fed up with the constant noise.",
+    "display_sentence": "I'm fed up with the constant noise.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "cheer up",
+    "sentence_en": "I tried to ___ my friend.",
+    "sentence_ko": "친구를 기운 나게 해 주려 했어요.",
+    "meaning": "기운 내게 하다",
+    "tts_text": "I tried to cheer up my friend.",
+    "display_sentence": "I tried to cheer up my friend.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "look forward to",
+    "sentence_en": "I ___ the weekend.",
+    "sentence_ko": "주말이 기다려져요.",
+    "meaning": "~을 고대하다",
+    "tts_text": "I look forward to the weekend.",
+    "display_sentence": "I look forward to the weekend.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get over",
+    "sentence_en": "It took me a while to ___ it.",
+    "sentence_ko": "그걸 극복하는 데 시간이 좀 걸렸어요.",
+    "meaning": "극복하다",
+    "tts_text": "It took me a while to get over it.",
+    "display_sentence": "It took me a while to get over it.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "point of view",
+    "sentence_en": "I see your ___.",
+    "sentence_ko": "당신 관점은 이해해요.",
+    "meaning": "관점",
+    "tts_text": "I see your point of view.",
+    "display_sentence": "I see your point of view.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "opinion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "calm down",
+    "sentence_en": "Take a breath and ___.",
+    "sentence_ko": "숨 한번 쉬고 진정해요.",
+    "meaning": "진정하다",
+    "tts_text": "Take a breath and calm down.",
+    "display_sentence": "Take a breath and calm down.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "conflict"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "freak out",
+    "sentence_en": "Try not to ___ about it.",
+    "sentence_ko": "그 일로 너무 당황하지 마세요.",
+    "meaning": "질겁하다",
+    "tts_text": "Try not to freak out about it.",
+    "display_sentence": "Try not to freak out about it.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "feel like",
+    "sentence_en": "I ___ staying in tonight.",
+    "sentence_ko": "오늘 밤은 집에 있고 싶어요.",
+    "meaning": "~하고 싶다",
+    "tts_text": "I feel like staying in tonight.",
+    "display_sentence": "I feel like staying in tonight.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "on edge",
+    "sentence_en": "I've been a bit ___ today.",
+    "sentence_ko": "오늘 좀 예민했어요.",
+    "meaning": "초조한, 예민한",
+    "tts_text": "I've been a bit on edge today.",
+    "display_sentence": "I've been a bit on edge today.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "let down",
+    "sentence_en": "I don't want to ___ the team.",
+    "sentence_ko": "팀을 실망시키고 싶지 않아요.",
+    "meaning": "실망시키다",
+    "tts_text": "I don't want to let down the team.",
+    "display_sentence": "I don't want to let down the team.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "into",
+    "sentence_en": "I'm really ___ photography.",
+    "sentence_ko": "전 사진에 푹 빠져 있어요.",
+    "meaning": "~에 푹 빠진",
+    "tts_text": "I'm really into photography.",
+    "display_sentence": "I'm really into photography.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "put me off",
+    "sentence_en": "His attitude really ___.",
+    "sentence_ko": "그의 태도가 정말 거슬렸어요.",
+    "meaning": "불쾌하게 하다",
+    "tts_text": "His attitude really put me off.",
+    "display_sentence": "His attitude really put me off.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "relate to",
+    "sentence_en": "I can ___ how you feel.",
+    "sentence_ko": "당신 기분에 공감이 가요.",
+    "meaning": "공감하다",
+    "tts_text": "I can relate to how you feel.",
+    "display_sentence": "I can relate to how you feel.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "worked up",
+    "sentence_en": "Don't get so ___ about it.",
+    "sentence_ko": "그 일로 너무 흥분하지 마세요.",
+    "meaning": "흥분한",
+    "tts_text": "Don't get so worked up about it.",
+    "display_sentence": "Don't get so worked up about it.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "conflict"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "in the mood",
+    "sentence_en": "I'm not ___ for a party tonight.",
+    "sentence_ko": "오늘 밤 파티할 기분이 아니에요.",
+    "meaning": "~할 기분인",
+    "tts_text": "I'm not in the mood for a party tonight.",
+    "display_sentence": "I'm not in the mood for a party tonight.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "cope with",
+    "sentence_en": "It's hard to ___ the pressure.",
+    "sentence_ko": "그 압박감을 견디기 힘들어요.",
+    "meaning": "견디다, 대처하다",
+    "tts_text": "It's hard to cope with the pressure.",
+    "display_sentence": "It's hard to cope with the pressure.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "gets on my nerves",
+    "sentence_en": "That noise really ___.",
+    "sentence_ko": "그 소음이 정말 거슬려요.",
+    "meaning": "신경을 거스르다",
+    "tts_text": "That noise really gets on my nerves.",
+    "display_sentence": "That noise really gets on my nerves.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "look on the bright side",
+    "sentence_en": "Let's try to ___.",
+    "sentence_ko": "긍정적인 면을 보려고 해요.",
+    "meaning": "긍정적으로 보다",
+    "tts_text": "Let's try to look on the bright side.",
+    "display_sentence": "Let's try to look on the bright side.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "burst into tears",
+    "sentence_en": "She ___ at the news.",
+    "sentence_ko": "그녀는 그 소식에 왈칵 울음을 터뜨렸어요.",
+    "meaning": "울음을 터뜨리다",
+    "tts_text": "She burst into tears at the news.",
+    "display_sentence": "She burst into tears at the news.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a sigh of relief",
+    "sentence_en": "I let out ___.",
+    "sentence_ko": "안도의 한숨을 내쉬었어요.",
+    "meaning": "안도의 한숨",
+    "tts_text": "I let out a sigh of relief.",
+    "display_sentence": "I let out a sigh of relief.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "warm up to",
+    "sentence_en": "I'm starting to ___ the idea.",
+    "sentence_ko": "그 생각에 점점 마음이 가요.",
+    "meaning": "마음이 가다",
+    "tts_text": "I'm starting to warm up to the idea.",
+    "display_sentence": "I'm starting to warm up to the idea.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "opinion"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "over the worst",
+    "sentence_en": "I think I'm ___ of it.",
+    "sentence_ko": "고비는 넘긴 것 같아요.",
+    "meaning": "최악의 고비를 넘긴",
+    "tts_text": "I think I'm over the worst of it.",
+    "display_sentence": "I think I'm over the worst of it.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "health"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get a grip",
+    "sentence_en": "I just need to ___.",
+    "sentence_ko": "마음을 좀 다잡아야겠어요.",
+    "meaning": "마음을 다잡다",
+    "tts_text": "I just need to get a grip.",
+    "display_sentence": "I just need to get a grip.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "dwelling on",
+    "sentence_en": "There's no point ___ the past.",
+    "sentence_ko": "지난 일에 연연하는 건 의미 없어요.",
+    "meaning": "~에 연연하다",
+    "tts_text": "There's no point dwelling on the past.",
+    "display_sentence": "There's no point dwelling on the past.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "open up",
+    "sentence_en": "It's hard for him to ___ about his feelings.",
+    "sentence_ko": "그는 자신의 감정에 대해 마음을 여는 게 어려워요.",
+    "meaning": "마음을 열다",
+    "tts_text": "It's hard for him to open up about his feelings.",
+    "display_sentence": "It's hard for him to open up about his feelings.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "picked up",
+    "sentence_en": "My mood really ___ after the walk.",
+    "sentence_ko": "산책 후에 기분이 정말 좋아졌어요.",
+    "meaning": "나아지다",
+    "tts_text": "My mood really picked up after the walk.",
+    "display_sentence": "My mood really picked up after the walk.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pour out",
+    "sentence_en": "She needed to ___ her feelings.",
+    "sentence_ko": "그녀는 감정을 쏟아낼 필요가 있었어요.",
+    "meaning": "감정을 쏟아내다",
+    "tts_text": "She needed to pour out her feelings.",
+    "display_sentence": "She needed to pour out her feelings.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "snap at",
+    "sentence_en": "I didn't mean to ___ you.",
+    "sentence_ko": "당신한테 쏘아붙이려던 건 아니었어요.",
+    "meaning": "쏘아붙이다",
+    "tts_text": "I didn't mean to snap at you.",
+    "display_sentence": "I didn't mean to snap at you.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "conflict"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take a toll on",
+    "sentence_en": "The long hours really ___ me.",
+    "sentence_ko": "긴 근무 시간이 정말 저를 힘들게 했어요.",
+    "meaning": "~에 타격을 주다",
+    "tts_text": "The long hours really take a toll on me.",
+    "display_sentence": "The long hours really take a toll on me.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "lighten up",
+    "sentence_en": "Come on, just ___.",
+    "sentence_ko": "이봐요, 그냥 좀 밝게 봐요.",
+    "meaning": "긴장을 풀다",
+    "tts_text": "Come on, just lighten up.",
+    "display_sentence": "Come on, just lighten up.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "made up",
+    "sentence_en": "They finally ___ after the argument.",
+    "sentence_ko": "다툼 후 그들은 마침내 화해했어요.",
+    "meaning": "화해하다",
+    "tts_text": "They finally made up after the argument.",
+    "display_sentence": "They finally made up after the argument.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social",
+      "conflict"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "stand by",
+    "sentence_en": "I'll always ___ you.",
+    "sentence_ko": "항상 네 편에 있을게요.",
+    "meaning": "편에 서다, 지지하다",
+    "tts_text": "I'll always stand by you.",
+    "display_sentence": "I'll always stand by you.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "hold back",
+    "sentence_en": "She was trying to ___ her tears.",
+    "sentence_ko": "그녀는 눈물을 참으려 했어요.",
+    "meaning": "참다, 억제하다",
+    "tts_text": "She was trying to hold back her tears.",
+    "display_sentence": "She was trying to hold back her tears.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "set off",
+    "sentence_en": "That remark really ___ his anger.",
+    "sentence_ko": "그 말이 그의 화를 촉발시켰어요.",
+    "meaning": "촉발시키다",
+    "tts_text": "That remark really set off his anger.",
+    "display_sentence": "That remark really set off his anger.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "conflict"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "mixed emotions",
+    "sentence_en": "I left the job with ___.",
+    "sentence_ko": "복잡한 감정으로 그 일을 그만뒀어요.",
+    "meaning": "복잡한 감정",
+    "tts_text": "I left the job with mixed emotions.",
+    "display_sentence": "I left the job with mixed emotions.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "emotional support",
+    "sentence_en": "I really needed ___ at the time.",
+    "sentence_ko": "그때 정말 감정적인 지지가 필요했어요.",
+    "meaning": "정서적 지원",
+    "tts_text": "I really needed emotional support at the time.",
+    "display_sentence": "I really needed emotional support at the time.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "let it go",
+    "sentence_en": "You just have to ___.",
+    "sentence_ko": "그냥 흘려보내야 해요.",
+    "meaning": "잊어버리다, 내려놓다",
+    "tts_text": "You just have to let it go.",
+    "display_sentence": "You just have to let it go.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "bring up",
+    "sentence_en": "I didn't want to ___ the topic.",
+    "sentence_ko": "그 주제를 꺼내고 싶지 않았어요.",
+    "meaning": "화제를 꺼내다",
+    "tts_text": "I didn't want to bring up the topic.",
+    "display_sentence": "I didn't want to bring up the topic.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "conversation",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "give in",
+    "sentence_en": "I finally had to ___ to his request.",
+    "sentence_ko": "결국 그의 요청에 굴복해야 했어요.",
+    "meaning": "굴복하다",
+    "tts_text": "I finally had to give in to his request.",
+    "display_sentence": "I finally had to give in to his request.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "conflict"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "wear off",
+    "sentence_en": "The excitement will ___ soon.",
+    "sentence_ko": "흥분이 곧 가라앉을 거예요.",
+    "meaning": "사라지다, 가라앉다",
+    "tts_text": "The excitement will wear off soon.",
+    "display_sentence": "The excitement will wear off soon.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "fall apart",
+    "sentence_en": "I felt like I was going to ___ emotionally.",
+    "sentence_ko": "감정적으로 무너질 것 같았어요.",
+    "meaning": "무너지다",
+    "tts_text": "I felt like I was going to fall apart emotionally.",
+    "display_sentence": "I felt like I was going to fall apart emotionally.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "jump to conclusions",
+    "sentence_en": "Don't ___ before hearing the facts.",
+    "sentence_ko": "사실을 듣기 전에 속단하지 마요.",
+    "meaning": "속단하다",
+    "tts_text": "Don't jump to conclusions before hearing the facts.",
+    "display_sentence": "Don't jump to conclusions before hearing the facts.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "opinion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "feel torn",
+    "sentence_en": "I ___ between staying and leaving.",
+    "sentence_ko": "머물고 싶기도 하고 떠나고도 싶어 갈등돼요.",
+    "meaning": "갈등을 느끼다",
+    "tts_text": "I feel torn between staying and leaving.",
+    "display_sentence": "I feel torn between staying and leaving.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "hit me hard",
+    "sentence_en": "The news really ___.",
+    "sentence_ko": "그 소식이 정말 크게 다가왔어요.",
+    "meaning": "크게 충격을 주다",
+    "tts_text": "The news really hit me hard.",
+    "display_sentence": "The news really hit me hard.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "vent to",
+    "sentence_en": "I just needed to ___ a friend.",
+    "sentence_ko": "친구에게 속내를 털어놓고 싶었어요.",
+    "meaning": "~에게 감정을 털어놓다",
+    "tts_text": "I just needed to vent to a friend.",
+    "display_sentence": "I just needed to vent to a friend.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "heart sank",
+    "sentence_en": "My ___ when I heard the news.",
+    "sentence_ko": "그 소식을 들었을 때 가슴이 내려앉았어요.",
+    "meaning": "가슴이 내려앉다",
+    "tts_text": "My heart sank when I heard the news.",
+    "display_sentence": "My heart sank when I heard the news.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "burst out laughing",
+    "sentence_en": "We all ___ at the same time.",
+    "sentence_ko": "우리 모두 동시에 폭소를 터뜨렸어요.",
+    "meaning": "폭소를 터뜨리다",
+    "tts_text": "We all burst out laughing at the same time.",
+    "display_sentence": "We all burst out laughing at the same time.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "lose interest",
+    "sentence_en": "I started to ___ in the project.",
+    "sentence_ko": "그 프로젝트에 점점 흥미를 잃었어요.",
+    "meaning": "흥미를 잃다",
+    "tts_text": "I started to lose interest in the project.",
+    "display_sentence": "I started to lose interest in the project.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "keep it together",
+    "sentence_en": "I'm trying to ___ under pressure.",
+    "sentence_ko": "압박 속에서 정신을 차리려 하고 있어요.",
+    "meaning": "침착함을 유지하다",
+    "tts_text": "I'm trying to keep it together under pressure.",
+    "display_sentence": "I'm trying to keep it together under pressure.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "broke down",
+    "sentence_en": "She ___ crying in the hallway.",
+    "sentence_ko": "그녀는 복도에서 울음을 터뜨렸어요.",
+    "meaning": "무너지다, 감정이 터지다",
+    "tts_text": "She broke down crying in the hallway.",
+    "display_sentence": "She broke down crying in the hallway.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "push through",
+    "sentence_en": "I had to ___ the difficult moment.",
+    "sentence_ko": "힘든 순간을 밀고 나가야 했어요.",
+    "meaning": "버티고 나아가다",
+    "tts_text": "I had to push through the difficult moment.",
+    "display_sentence": "I had to push through the difficult moment.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "shift in mood",
+    "sentence_en": "I noticed a sudden ___ in the room.",
+    "sentence_ko": "방 안에서 갑작스러운 분위기 변화를 느꼈어요.",
+    "meaning": "기분 전환",
+    "tts_text": "I noticed a sudden shift in mood in the room.",
+    "display_sentence": "I noticed a sudden shift in mood in the room.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "run out of patience",
+    "sentence_en": "I'm starting to ___.",
+    "sentence_ko": "인내심이 바닥나고 있어요.",
+    "meaning": "인내심이 바닥나다",
+    "tts_text": "I'm starting to run out of patience.",
+    "display_sentence": "I'm starting to run out of patience.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "come around",
+    "sentence_en": "He'll ___ to the idea eventually.",
+    "sentence_ko": "그도 결국 그 생각을 받아들이게 될 거예요.",
+    "meaning": "마음을 바꾸다",
+    "tts_text": "He'll come around to the idea eventually.",
+    "display_sentence": "He'll come around to the idea eventually.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "opinion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "mixed feelings",
+    "sentence_en": "I have ___ about moving.",
+    "sentence_ko": "이사에 대해 복잡한 심정이에요.",
+    "meaning": "착잡한 감정",
+    "tts_text": "I have mixed feelings about moving.",
+    "display_sentence": "I have mixed feelings about moving.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on the fence",
+    "sentence_en": "I'm still ___ about it.",
+    "sentence_ko": "그 일에 대해선 아직 결정을 못 했어요.",
+    "meaning": "결정을 못 내린",
+    "tts_text": "I'm still on the fence about it.",
+    "display_sentence": "I'm still on the fence about it.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "opinion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "over the moon",
+    "sentence_en": "She was ___ about the news.",
+    "sentence_ko": "그녀는 그 소식에 뛸 듯이 기뻤어요.",
+    "meaning": "매우 기쁜",
+    "tts_text": "She was over the moon about the news.",
+    "display_sentence": "She was over the moon about the news.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "beg to differ",
+    "sentence_en": "I ___ on that point.",
+    "sentence_ko": "그 점에 대해선 생각이 달라요.",
+    "meaning": "생각을 달리하다",
+    "tts_text": "I beg to differ on that point.",
+    "display_sentence": "I beg to differ on that point.",
+    "frequency": "mid",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "opinion",
+      "conversation",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "take it personally",
+    "sentence_en": "Don't ___; it's just business.",
+    "sentence_ko": "기분 나쁘게 받아들이지 마, 그냥 일이야.",
+    "meaning": "개인적으로 받아들이다",
+    "tts_text": "Don't take it personally; it's just business.",
+    "display_sentence": "Don't take it personally; it's just business.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "down in the dumps",
+    "sentence_en": "He's been ___ since the breakup.",
+    "sentence_ko": "그는 이별 후로 의기소침해요.",
+    "meaning": "우울한, 풀이 죽은",
+    "tts_text": "He's been down in the dumps since the breakup.",
+    "display_sentence": "He's been down in the dumps since the breakup.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "see eye to eye",
+    "sentence_en": "We don't always ___.",
+    "sentence_ko": "우리가 늘 의견이 일치하는 건 아니에요.",
+    "meaning": "의견이 일치하다",
+    "tts_text": "We don't always see eye to eye.",
+    "display_sentence": "We don't always see eye to eye.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "opinion",
+      "work",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "at the end of my rope",
+    "sentence_en": "I'm ___ with this project.",
+    "sentence_ko": "이 프로젝트로 인내심이 한계예요.",
+    "meaning": "인내심의 한계인",
+    "tts_text": "I'm at the end of my rope with this project.",
+    "display_sentence": "I'm at the end of my rope with this project.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a weight off my shoulders",
+    "sentence_en": "Finishing it was ___.",
+    "sentence_ko": "그걸 끝내니 어깨가 한결 가벼웠어요.",
+    "meaning": "마음의 짐을 던 것",
+    "tts_text": "Finishing it was a weight off my shoulders.",
+    "display_sentence": "Finishing it was a weight off my shoulders.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bottle up",
+    "sentence_en": "Don't ___ your feelings.",
+    "sentence_ko": "감정을 억누르지 마세요.",
+    "meaning": "감정을 억누르다",
+    "tts_text": "Don't bottle up your feelings.",
+    "display_sentence": "Don't bottle up your feelings.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "walking on air",
+    "sentence_en": "She's been ___ since the offer.",
+    "sentence_ko": "그녀는 제안을 받고 날아갈 듯 기뻐해요.",
+    "meaning": "날아갈 듯 기쁜",
+    "tts_text": "She's been walking on air since the offer.",
+    "display_sentence": "She's been walking on air since the offer.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "hit a nerve",
+    "sentence_en": "That comment really ___.",
+    "sentence_ko": "그 말이 정말 아픈 데를 건드렸어요.",
+    "meaning": "아픈 데를 건드리다",
+    "tts_text": "That comment really hit a nerve.",
+    "display_sentence": "That comment really hit a nerve.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "conflict"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "Keep your chin up",
+    "sentence_en": "___, things will get better.",
+    "sentence_ko": "기운 내요, 좋아질 거예요.",
+    "meaning": "기운을 내다",
+    "tts_text": "Keep your chin up, things will get better.",
+    "display_sentence": "Keep your chin up, things will get better.",
+    "frequency": "mid",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a roller coaster of emotions",
+    "sentence_en": "This week was ___.",
+    "sentence_ko": "이번 주는 감정의 롤러코스터였어요.",
+    "meaning": "감정 기복이 심한 것",
+    "tts_text": "This week was a roller coaster of emotions.",
+    "display_sentence": "This week was a roller coaster of emotions.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "come to terms with",
+    "sentence_en": "I'm trying to ___ the loss.",
+    "sentence_ko": "그 상실을 받아들이려 애쓰고 있어요.",
+    "meaning": "받아들이다",
+    "tts_text": "I'm trying to come to terms with the loss.",
+    "display_sentence": "I'm trying to come to terms with the loss.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "lost my cool",
+    "sentence_en": "I almost ___ in the meeting.",
+    "sentence_ko": "회의에서 하마터면 화를 낼 뻔했어요.",
+    "meaning": "평정을 잃다",
+    "tts_text": "I almost lost my cool in the meeting.",
+    "display_sentence": "I almost lost my cool in the meeting.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a sense of dread",
+    "sentence_en": "I felt ___ before the result.",
+    "sentence_ko": "결과 전에 불안한 예감이 들었어요.",
+    "meaning": "불길한 예감",
+    "tts_text": "I felt a sense of dread before the result.",
+    "display_sentence": "I felt a sense of dread before the result.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "put a brave face on",
+    "sentence_en": "She ___ despite the bad news.",
+    "sentence_ko": "나쁜 소식에도 그녀는 의연한 척했어요.",
+    "meaning": "애써 태연한 척하다",
+    "tts_text": "She put a brave face on despite the bad news.",
+    "display_sentence": "She put a brave face on despite the bad news.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "wear his heart on his sleeve",
+    "sentence_en": "He tends to ___.",
+    "sentence_ko": "그는 감정을 잘 드러내는 편이에요.",
+    "meaning": "감정을 솔직히 드러내다",
+    "tts_text": "He tends to wear his heart on his sleeve.",
+    "display_sentence": "He tends to wear his heart on his sleeve.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on cloud nine",
+    "sentence_en": "I've been ___ all day.",
+    "sentence_ko": "하루 종일 너무 행복했어요.",
+    "meaning": "구름 위를 걷는 듯 행복한",
+    "tts_text": "I've been on cloud nine all day.",
+    "display_sentence": "I've been on cloud nine all day.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a sinking feeling",
+    "sentence_en": "I had ___ about it.",
+    "sentence_ko": "그 일에 불길한 느낌이 들었어요.",
+    "meaning": "불안한 예감",
+    "tts_text": "I had a sinking feeling about it.",
+    "display_sentence": "I had a sinking feeling about it.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "blow off steam",
+    "sentence_en": "I went running to ___.",
+    "sentence_ko": "스트레스를 풀려고 달리기를 했어요.",
+    "meaning": "스트레스를 풀다",
+    "tts_text": "I went running to blow off steam.",
+    "display_sentence": "I went running to blow off steam.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "health"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "rubbed me the wrong way",
+    "sentence_en": "His tone ___.",
+    "sentence_ko": "그의 말투가 거슬렸어요.",
+    "meaning": "기분을 거스르다",
+    "tts_text": "His tone rubbed me the wrong way.",
+    "display_sentence": "His tone rubbed me the wrong way.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a leap of faith",
+    "sentence_en": "Trusting them was ___.",
+    "sentence_ko": "그들을 믿은 건 큰 모험이었어요.",
+    "meaning": "믿고 하는 모험",
+    "tts_text": "Trusting them was a leap of faith.",
+    "display_sentence": "Trusting them was a leap of faith.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "at peace with",
+    "sentence_en": "I'm finally ___ my decision.",
+    "sentence_ko": "제 결정에 마침내 마음이 편해졌어요.",
+    "meaning": "~에 대해 마음이 편한",
+    "tts_text": "I'm finally at peace with my decision.",
+    "display_sentence": "I'm finally at peace with my decision.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "emotionally drained",
+    "sentence_en": "I feel completely ___ after that conversation.",
+    "sentence_ko": "그 대화 후 완전히 감정적으로 지쳤어요.",
+    "meaning": "감정적으로 소진된",
+    "tts_text": "I feel completely emotionally drained after that conversation.",
+    "display_sentence": "I feel completely emotionally drained after that conversation.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "struck a chord",
+    "sentence_en": "Her story really ___ with me.",
+    "sentence_ko": "그녀의 이야기가 정말 공감을 불러일으켰어요.",
+    "meaning": "공감을 불러일으키다",
+    "tts_text": "Her story really struck a chord with me.",
+    "display_sentence": "Her story really struck a chord with me.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "pull yourself together",
+    "sentence_en": "You need to ___ and focus.",
+    "sentence_ko": "정신 차리고 집중해야 해요.",
+    "meaning": "정신을 차리다",
+    "tts_text": "You need to pull yourself together and focus.",
+    "display_sentence": "You need to pull yourself together and focus.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get under your skin",
+    "sentence_en": "Don't let criticism ___.",
+    "sentence_ko": "비판이 마음에 걸리게 두지 마세요.",
+    "meaning": "마음에 걸리게 하다",
+    "tts_text": "Don't let criticism get under your skin.",
+    "display_sentence": "Don't let criticism get under your skin.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "sit with",
+    "sentence_en": "I need some time to ___ this feeling.",
+    "sentence_ko": "이 감정을 받아들일 시간이 필요해요.",
+    "meaning": "감정을 받아들이다",
+    "tts_text": "I need some time to sit with this feeling.",
+    "display_sentence": "I need some time to sit with this feeling.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "have a lump in my throat",
+    "sentence_en": "I ___ watching the farewell speech.",
+    "sentence_ko": "작별 연설을 보며 목이 메었어요.",
+    "meaning": "목이 메다",
+    "tts_text": "I have a lump in my throat watching the farewell speech.",
+    "display_sentence": "I have a lump in my throat watching the farewell speech.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "caught me off guard",
+    "sentence_en": "His reaction really ___.",
+    "sentence_ko": "그의 반응에 정말 허를 찔렸어요.",
+    "meaning": "허를 찌르다, 방심하게 하다",
+    "tts_text": "His reaction really caught me off guard.",
+    "display_sentence": "His reaction really caught me off guard.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "speak your mind",
+    "sentence_en": "Don't be afraid to ___.",
+    "sentence_ko": "거침없이 말해도 돼요.",
+    "meaning": "솔직하게 말하다",
+    "tts_text": "Don't be afraid to speak your mind.",
+    "display_sentence": "Don't be afraid to speak your mind.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "opinion",
+      "work",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "take the edge off",
+    "sentence_en": "A walk really helps to ___.",
+    "sentence_ko": "산책이 긴장을 풀어주는 데 정말 도움이 돼요.",
+    "meaning": "날카로움을 누그러뜨리다",
+    "tts_text": "A walk really helps to take the edge off.",
+    "display_sentence": "A walk really helps to take the edge off.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "health"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "have second thoughts",
+    "sentence_en": "I'm starting to ___ about the decision.",
+    "sentence_ko": "결정에 대해 다시 생각하게 되네요.",
+    "meaning": "재고하다, 망설이다",
+    "tts_text": "I'm starting to have second thoughts about the decision.",
+    "display_sentence": "I'm starting to have second thoughts about the decision.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "opinion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "wear thin",
+    "sentence_en": "My patience is starting to ___.",
+    "sentence_ko": "제 인내심이 한계에 이르고 있어요.",
+    "meaning": "한계에 이르다",
+    "tts_text": "My patience is starting to wear thin.",
+    "display_sentence": "My patience is starting to wear thin.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "gut-wrenching",
+    "sentence_en": "The farewell scene was absolutely ___.",
+    "sentence_ko": "그 작별 장면은 정말 가슴이 찢어지는 것 같았어요.",
+    "meaning": "가슴이 찢어지는",
+    "tts_text": "The farewell scene was absolutely gut-wrenching.",
+    "display_sentence": "The farewell scene was absolutely gut-wrenching.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "beside herself with worry",
+    "sentence_en": "She was ___ waiting for the results.",
+    "sentence_ko": "그녀는 결과를 기다리며 걱정으로 어쩔 줄 몰랐어요.",
+    "meaning": "걱정으로 어쩔 줄 모르는",
+    "tts_text": "She was beside herself with worry waiting for the results.",
+    "display_sentence": "She was beside herself with worry waiting for the results.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "make peace with",
+    "sentence_en": "I've finally managed to ___ my past.",
+    "sentence_ko": "마침내 과거와 화해할 수 있었어요.",
+    "meaning": "~와 화해하다",
+    "tts_text": "I've finally managed to make peace with my past.",
+    "display_sentence": "I've finally managed to make peace with my past.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "carrying the weight of the world",
+    "sentence_en": "She looks like she's ___.",
+    "sentence_ko": "그녀는 세상의 짐을 짊어진 것처럼 보여요.",
+    "meaning": "온갖 걱정을 짊어지다",
+    "tts_text": "She looks like she's carrying the weight of the world.",
+    "display_sentence": "She looks like she's carrying the weight of the world.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "catch feelings",
+    "sentence_en": "I didn't mean to ___ for him.",
+    "sentence_ko": "그에게 감정이 생기게 될 줄 몰랐어요.",
+    "meaning": "감정이 생기다",
+    "tts_text": "I didn't mean to catch feelings for him.",
+    "display_sentence": "I didn't mean to catch feelings for him.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "put things in perspective",
+    "sentence_en": "It helps to ___ sometimes.",
+    "sentence_ko": "가끔 상황을 객관적으로 보는 게 도움이 돼요.",
+    "meaning": "상황을 객관적으로 보다",
+    "tts_text": "It helps to put things in perspective sometimes.",
+    "display_sentence": "It helps to put things in perspective sometimes.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "opinion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "emotionally unavailable",
+    "sentence_en": "He was ___ during our relationship.",
+    "sentence_ko": "우리 관계에서 그는 감정적으로 거리를 뒀어요.",
+    "meaning": "감정적으로 거리를 두는",
+    "tts_text": "He was emotionally unavailable during our relationship.",
+    "display_sentence": "He was emotionally unavailable during our relationship.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "giving him the cold shoulder",
+    "sentence_en": "She's been ___ all week.",
+    "sentence_ko": "그녀는 일주일 내내 그를 냉대하고 있어요.",
+    "meaning": "냉대하다",
+    "tts_text": "She's been giving him the cold shoulder all week.",
+    "display_sentence": "She's been giving him the cold shoulder all week.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social",
+      "conflict"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "have a gut feeling",
+    "sentence_en": "I ___ that he was lying.",
+    "sentence_ko": "그가 거짓말하고 있다는 직감이 있었어요.",
+    "meaning": "직감이 있다",
+    "tts_text": "I have a gut feeling that he was lying.",
+    "display_sentence": "I have a gut feeling that he was lying.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "give him the benefit of the doubt",
+    "sentence_en": "I decided to ___.",
+    "sentence_ko": "그에게 믿음을 주기로 했어요.",
+    "meaning": "믿어주다, 유리하게 해석하다",
+    "tts_text": "I decided to give him the benefit of the doubt.",
+    "display_sentence": "I decided to give the benefit of the doubt to him.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "opinion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bristle at",
+    "sentence_en": "She tends to ___ criticism.",
+    "sentence_ko": "그녀는 비판에 발끈하는 경향이 있어요.",
+    "meaning": "~에 발끈하다",
+    "tts_text": "She tends to bristle at criticism.",
+    "display_sentence": "She tends to bristle at criticism.",
+    "frequency": "low",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "own your feelings",
+    "sentence_en": "It's important to ___.",
+    "sentence_ko": "자신의 감정을 인정하는 것이 중요해요.",
+    "meaning": "감정을 인정하다",
+    "tts_text": "It's important to own your feelings.",
+    "display_sentence": "It's important to own your feelings.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "exhausted",
+    "sentence_en": "I'm completely ___ after the hike.",
+    "sentence_ko": "하이킹 후에 완전히 지쳤어.",
+    "meaning": "몹시 피곤한",
+    "tts_text": "I'm completely exhausted after the hike.",
+    "display_sentence": "I'm completely exhausted after the hike.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "heartbroken",
+    "sentence_en": "She was absolutely ___ after the breakup.",
+    "sentence_ko": "그녀는 이별 후 완전히 마음이 무너졌어.",
+    "meaning": "마음이 무너진",
+    "tts_text": "She was absolutely heartbroken after the breakup.",
+    "display_sentence": "She was absolutely heartbroken after the breakup.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "incredible",
+    "sentence_en": "I feel ___ right now.",
+    "sentence_ko": "지금 기분이 엄청나게 좋아.",
+    "meaning": "믿기지 않을 정도로 좋은",
+    "tts_text": "I feel incredible right now.",
+    "display_sentence": "I feel incredible right now.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "bad",
+    "sentence_en": "I feel really ___ for him.",
+    "sentence_ko": "그가 정말 안됐다고 느껴.",
+    "meaning": "안됐다, 미안하다",
+    "tts_text": "I feel really bad for him.",
+    "display_sentence": "I feel really bad for him.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "envious",
+    "sentence_en": "I was ___ of their vacation.",
+    "sentence_ko": "그들의 휴가가 부러웠어.",
+    "meaning": "부러워하는",
+    "tts_text": "I was envious of their vacation.",
+    "display_sentence": "I was envious of their vacation.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "indifferent",
+    "sentence_en": "He seemed ___ to the whole situation.",
+    "sentence_ko": "그는 상황 전체에 무관심한 것 같았어.",
+    "meaning": "무관심한",
+    "tts_text": "He seemed indifferent to the whole situation.",
+    "display_sentence": "He seemed indifferent to the whole situation.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "put up with",
+    "sentence_en": "I can't ___ this anymore.",
+    "sentence_ko": "더 이상 이걸 참을 수가 없어요.",
+    "meaning": "참다, 견디다",
+    "tts_text": "I can't put up with this anymore.",
+    "display_sentence": "I can't put up with this anymore.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take it out on",
+    "sentence_en": "Don't ___ me.",
+    "sentence_ko": "저한테 화풀이하지 마세요.",
+    "meaning": "화풀이하다",
+    "tts_text": "Don't take it out on me.",
+    "display_sentence": "Don't take it out on me.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "conflict"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "bottle it up",
+    "sentence_en": "You shouldn't ___ inside.",
+    "sentence_ko": "속에 담아두지 말아야 해요.",
+    "meaning": "속에 담아두다",
+    "tts_text": "You shouldn't bottle it up inside.",
+    "display_sentence": "You shouldn't bottle it up inside.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "swallow your pride",
+    "sentence_en": "You'll have to ___.",
+    "sentence_ko": "자존심을 좀 굽혀야 할 거예요.",
+    "meaning": "자존심을 굽히다",
+    "tts_text": "You'll have to swallow your pride.",
+    "display_sentence": "You'll have to swallow your pride.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "conflict"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "Take heart",
+    "sentence_en": "___; things will improve.",
+    "sentence_ko": "힘 내요; 상황이 나아질 거예요.",
+    "meaning": "용기를 내다",
+    "tts_text": "Take heart; things will improve.",
+    "display_sentence": "Take heart; things will improve.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "lose heart",
+    "sentence_en": "Don't ___ when things get tough.",
+    "sentence_ko": "힘들어질 때 낙담하지 마요.",
+    "meaning": "낙담하다",
+    "tts_text": "Don't lose heart when things get tough.",
+    "display_sentence": "Don't lose heart when things get tough.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get the hang of",
+    "sentence_en": "I'm slowly starting to ___ it.",
+    "sentence_ko": "서서히 요령을 익히고 있어요.",
+    "meaning": "요령을 익히다",
+    "tts_text": "I'm slowly starting to get the hang of it.",
+    "display_sentence": "I'm slowly starting to get the hang of it.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "feel out of place",
+    "sentence_en": "I always ___ at big parties.",
+    "sentence_ko": "큰 파티에서는 항상 어색해요.",
+    "meaning": "어색함을 느끼다",
+    "tts_text": "I always feel out of place at big parties.",
+    "display_sentence": "I always feel out of place at big parties.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "carry a grudge",
+    "sentence_en": "He tends to ___.",
+    "sentence_ko": "그는 앙심을 품는 경향이 있어요.",
+    "meaning": "앙심을 품다",
+    "tts_text": "He tends to carry a grudge.",
+    "display_sentence": "He tends to carry a grudge.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "second-guessing yourself",
+    "sentence_en": "Stop ___.",
+    "sentence_ko": "스스로를 자꾸 의심하지 마요.",
+    "meaning": "스스로를 의심하다",
+    "tts_text": "Stop second-guessing yourself.",
+    "display_sentence": "Stop second-guessing yourself.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "touched me deeply",
+    "sentence_en": "His words really ___.",
+    "sentence_ko": "그의 말이 정말 깊이 감동을 줬어요.",
+    "meaning": "깊이 감동시키다",
+    "tts_text": "His words really touched me deeply.",
+    "display_sentence": "His words really touched me deeply.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "feel numb",
+    "sentence_en": "I just ___ after the accident.",
+    "sentence_ko": "사고 후에 그냥 무감각해졌어요.",
+    "meaning": "무감각하다",
+    "tts_text": "I just feel numb after the accident.",
+    "display_sentence": "I just feel numb after the accident.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "at a loss",
+    "sentence_en": "I was completely ___ for words.",
+    "sentence_ko": "완전히 할 말을 잃었어요.",
+    "meaning": "어쩔 줄 모르는",
+    "tts_text": "I was completely at a loss for words.",
+    "display_sentence": "I was completely at a loss for words.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "shrug off",
+    "sentence_en": "He tried to ___ the criticism.",
+    "sentence_ko": "그는 비판을 대수롭지 않게 넘기려 했어요.",
+    "meaning": "대수롭지 않게 넘기다",
+    "tts_text": "He tried to shrug off the criticism.",
+    "display_sentence": "He tried to shrug off the criticism.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "come undone",
+    "sentence_en": "She started to ___ under pressure.",
+    "sentence_ko": "그녀는 압박 속에서 흔들리기 시작했어요.",
+    "meaning": "흔들리다, 무너지다",
+    "tts_text": "She started to come undone under pressure.",
+    "display_sentence": "She started to come undone under pressure.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "swallowed my pride",
+    "sentence_en": "I ___ and apologized.",
+    "sentence_ko": "자존심을 꺾고 사과했어요.",
+    "meaning": "자존심을 굽히다",
+    "tts_text": "I swallowed my pride and apologized.",
+    "display_sentence": "I swallowed my pride and apologized.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "resignation",
+    "sentence_en": "He accepted the loss with quiet ___.",
+    "sentence_ko": "그는 묵묵히 체념하며 패배를 받아들였어요.",
+    "meaning": "체념",
+    "tts_text": "He accepted the loss with quiet resignation.",
+    "display_sentence": "He accepted the loss with quiet resignation.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "harbouring resentment",
+    "sentence_en": "She's been ___ for years.",
+    "sentence_ko": "그녀는 몇 년간 원망을 품고 있었어요.",
+    "meaning": "원망을 품다",
+    "tts_text": "She's been harbouring resentment for years.",
+    "display_sentence": "She's been harbouring resentment for years.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "emotionally charged",
+    "sentence_en": "The meeting was very ___.",
+    "sentence_ko": "그 회의는 감정이 매우 격렬했어요.",
+    "meaning": "감정이 격한",
+    "tts_text": "The meeting was very emotionally charged.",
+    "display_sentence": "The meeting was very emotionally charged.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "wrestling with",
+    "sentence_en": "She's been ___ guilt ever since.",
+    "sentence_ko": "그녀는 그 이후로 죄책감과 씨름하고 있어요.",
+    "meaning": "~와 씨름하다",
+    "tts_text": "She's been wrestling with guilt ever since.",
+    "display_sentence": "She's been wrestling with guilt ever since.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bury your feelings",
+    "sentence_en": "Trying to ___ never helps.",
+    "sentence_ko": "감정을 묻어두려 하는 건 결코 도움이 안 돼요.",
+    "meaning": "감정을 묻어두다",
+    "tts_text": "Trying to bury your feelings never helps.",
+    "display_sentence": "Trying to bury your feelings never helps.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "gnawing sense of guilt",
+    "sentence_en": "He had a ___ about it.",
+    "sentence_ko": "그는 그 일에 대한 죄책감이 끊임없이 마음을 갉아먹었어요.",
+    "meaning": "끊임없이 마음을 갉아먹는 죄책감",
+    "tts_text": "He had a gnawing sense of guilt about it.",
+    "display_sentence": "He had a gnawing sense of guilt about it.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "stewing over",
+    "sentence_en": "There's no point ___ it.",
+    "sentence_ko": "그것에 대해 끙끙대는 건 의미 없어요.",
+    "meaning": "끙끙대며 고민하다",
+    "tts_text": "There's no point stewing over it.",
+    "display_sentence": "There's no point stewing over it.",
+    "frequency": "low",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "emotionally intelligent",
+    "sentence_en": "He's one of the most ___ people I know.",
+    "sentence_ko": "그는 내가 아는 사람 중 감성 지능이 가장 높아요.",
+    "meaning": "감성 지능이 높은",
+    "tts_text": "He's one of the most emotionally intelligent people I know.",
+    "display_sentence": "He's one of the most emotionally intelligent people I know.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "lost for words",
+    "sentence_en": "I was completely ___ by his kindness.",
+    "sentence_ko": "그의 친절에 완전히 할 말을 잃었어요.",
+    "meaning": "할 말을 잃은",
+    "tts_text": "I was completely lost for words by his kindness.",
+    "display_sentence": "I was completely lost for words by his kindness.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "keep a stiff upper lip",
+    "sentence_en": "He was taught to ___ in difficult times.",
+    "sentence_ko": "그는 어려운 시기에 꿋꿋하게 버티는 법을 배웠어요.",
+    "meaning": "꿋꿋하게 버티다",
+    "tts_text": "He was taught to keep a stiff upper lip in difficult times.",
+    "display_sentence": "He was taught to keep a stiff upper lip in difficult times.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "ride out",
+    "sentence_en": "We just have to ___ this storm.",
+    "sentence_ko": "그냥 이 폭풍을 버텨야 해요.",
+    "meaning": "버티다",
+    "tts_text": "We just have to ride out this storm.",
+    "display_sentence": "We just have to ride out this storm.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "raw emotion",
+    "sentence_en": "The film was full of ___.",
+    "sentence_ko": "그 영화는 가공하지 않은 감정으로 가득했어요.",
+    "meaning": "가공하지 않은 감정",
+    "tts_text": "The film was full of raw emotion.",
+    "display_sentence": "The film was full of raw emotion.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "tipped the scales",
+    "sentence_en": "Her encouragement really ___ for me.",
+    "sentence_ko": "그녀의 격려가 제게 결정적인 역할을 했어요.",
+    "meaning": "결정적인 역할을 하다",
+    "tts_text": "Her encouragement really tipped the scales for me.",
+    "display_sentence": "Her encouragement really tipped the scales for me.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "gut instinct",
+    "sentence_en": "Trust your ___ on this one.",
+    "sentence_ko": "이번엔 직감을 믿어요.",
+    "meaning": "직감",
+    "tts_text": "Trust your gut instinct on this one.",
+    "display_sentence": "Trust your gut instinct on this one.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "opinion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "masking her feelings",
+    "sentence_en": "She's good at ___.",
+    "sentence_ko": "그녀는 감정을 숨기는 걸 잘해요.",
+    "meaning": "감정을 숨기다",
+    "tts_text": "She's good at masking her feelings.",
+    "display_sentence": "She's good at masking her feelings.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "out of my depth",
+    "sentence_en": "I felt completely ___ emotionally.",
+    "sentence_ko": "감정적으로 완전히 벅찼어요.",
+    "meaning": "감당할 수 없는",
+    "tts_text": "I felt completely out of my depth emotionally.",
+    "display_sentence": "I felt completely out of my depth emotionally.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "in two minds",
+    "sentence_en": "I'm ___ about whether to go.",
+    "sentence_ko": "갈지 말지 갈팡질팡하고 있어요.",
+    "meaning": "갈팡질팡하는",
+    "tts_text": "I'm in two minds about whether to go.",
+    "display_sentence": "I'm in two minds about whether to go.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "opinion",
+      "daily"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "touched a nerve",
+    "sentence_en": "That question really ___.",
+    "sentence_ko": "그 질문이 정말 아픈 데를 건드렸어요.",
+    "meaning": "민감한 부분을 건드리다",
+    "tts_text": "That question really touched a nerve.",
+    "display_sentence": "That question really touched a nerve.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "conversation"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "emotionally resilient",
+    "sentence_en": "She's incredibly ___ despite everything.",
+    "sentence_ko": "그 모든 것에도 불구하고 그녀는 감정적으로 놀랍도록 강해요.",
+    "meaning": "감정적으로 회복력이 강한",
+    "tts_text": "She's incredibly emotionally resilient despite everything.",
+    "display_sentence": "She's incredibly emotionally resilient despite everything.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "category": "emotion",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "feel vindicated",
+    "sentence_en": "I finally ___ after all those years.",
+    "sentence_ko": "모든 세월이 지나 마침내 억울함이 풀렸어요.",
+    "meaning": "억울함이 풀리다",
+    "tts_text": "I finally feel vindicated after all those years.",
+    "display_sentence": "I finally feel vindicated after all those years.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "work"
+    ]
+  }
+]

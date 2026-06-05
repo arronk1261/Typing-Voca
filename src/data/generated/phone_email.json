@@ -1,0 +1,3782 @@
+[
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "call",
+    "sentence_en": "I'll ___ you tonight.",
+    "sentence_ko": "오늘 밤에 전화할게요.",
+    "meaning": "전화하다",
+    "tts_text": "I'll call you tonight.",
+    "display_sentence": "I'll call you tonight.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "daily"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "Hello",
+    "sentence_en": "___? Can you hear me?",
+    "sentence_ko": "여보세요? 들리세요?",
+    "meaning": "여보세요",
+    "tts_text": "Hello? Can you hear me?",
+    "display_sentence": "Hello? Can you hear me?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "greeting"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "number",
+    "sentence_en": "What's your phone ___?",
+    "sentence_ko": "전화번호가 어떻게 되세요?",
+    "meaning": "번호",
+    "tts_text": "What's your phone number?",
+    "display_sentence": "What's your phone number?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "contact"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "message",
+    "sentence_en": "I left you a ___.",
+    "sentence_ko": "메시지 남겼어요.",
+    "meaning": "메시지",
+    "tts_text": "I left you a message.",
+    "display_sentence": "I left you a message.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "voicemail"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "reply",
+    "sentence_en": "I'll ___ to your email soon.",
+    "sentence_ko": "곧 이메일에 답장할게요.",
+    "meaning": "답장하다",
+    "tts_text": "I'll reply to your email soon.",
+    "display_sentence": "I'll reply to your email soon.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "response"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "wrong",
+    "sentence_en": "Sorry, ___ number.",
+    "sentence_ko": "죄송해요, 잘못 거셨어요.",
+    "meaning": "잘못된",
+    "tts_text": "Sorry, wrong number.",
+    "display_sentence": "Sorry, wrong number.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "error"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "send",
+    "sentence_en": "Can you ___ me the file?",
+    "sentence_ko": "파일 좀 보내 주실래요?",
+    "meaning": "보내다",
+    "tts_text": "Can you send me the file?",
+    "display_sentence": "Can you send me the file?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "file_sharing"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "text",
+    "sentence_en": "I'll ___ you the address.",
+    "sentence_ko": "주소 문자로 보낼게요.",
+    "meaning": "문자를 보내다",
+    "tts_text": "I'll text you the address.",
+    "display_sentence": "I'll text you the address.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "messaging",
+      "contact"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "phone",
+    "sentence_en": "I can't find my ___.",
+    "sentence_ko": "제 전화기를 못 찾겠어요.",
+    "meaning": "전화기",
+    "tts_text": "I can't find my phone.",
+    "display_sentence": "I can't find my phone.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "daily"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "speak",
+    "sentence_en": "Can I ___ to Mr. Kim?",
+    "sentence_ko": "김 선생님과 통화할 수 있을까요?",
+    "meaning": "말하다",
+    "tts_text": "Can I speak to Mr. Kim?",
+    "display_sentence": "Can I speak to Mr. Kim?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hold",
+    "sentence_en": "Please ___ for a moment.",
+    "sentence_ko": "잠시만 기다려 주세요.",
+    "meaning": "기다리다",
+    "tts_text": "Please hold for a moment.",
+    "display_sentence": "Please hold for a moment.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "waiting"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "again",
+    "sentence_en": "Could you say that ___?",
+    "sentence_ko": "다시 말씀해 주시겠어요?",
+    "meaning": "다시",
+    "tts_text": "Could you say that again?",
+    "display_sentence": "Could you say that again?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "clarification"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "busy",
+    "sentence_en": "The line is ___.",
+    "sentence_ko": "통화 중이에요.",
+    "meaning": "통화 중인",
+    "tts_text": "The line is busy.",
+    "display_sentence": "The line is busy.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "status"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "answer",
+    "sentence_en": "Why don't you ___ your phone?",
+    "sentence_ko": "왜 전화를 안 받아요?",
+    "meaning": "받다, 답하다",
+    "tts_text": "Why don't you answer your phone?",
+    "display_sentence": "Why don't you answer your phone?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "daily"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "inbox",
+    "sentence_en": "Check your ___.",
+    "sentence_ko": "받은 편지함 확인해 보세요.",
+    "meaning": "받은 편지함",
+    "tts_text": "Check your inbox.",
+    "display_sentence": "Check your inbox.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "daily"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "attach",
+    "sentence_en": "Did you ___ the photo?",
+    "sentence_ko": "사진 첨부했어요?",
+    "meaning": "첨부하다",
+    "tts_text": "Did you attach the photo?",
+    "display_sentence": "Did you attach the photo?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "file_sharing"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "Dial",
+    "sentence_en": "___ the number again.",
+    "sentence_ko": "번호를 다시 누르세요.",
+    "meaning": "(번호를) 누르다",
+    "tts_text": "Dial the number again.",
+    "display_sentence": "Dial the number again.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "action"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "open",
+    "sentence_en": "Please ___ the email.",
+    "sentence_ko": "이메일을 열어 보세요.",
+    "meaning": "열다",
+    "tts_text": "Please open the email.",
+    "display_sentence": "Please open the email.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "action"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "subject",
+    "sentence_en": "What's the ___ of the email?",
+    "sentence_ko": "이메일 제목이 뭐예요?",
+    "meaning": "제목",
+    "tts_text": "What's the subject of the email?",
+    "display_sentence": "What's the subject of the email?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "composition"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "forward",
+    "sentence_en": "Can you ___ this to her?",
+    "sentence_ko": "이거 그녀에게 전달해 줄래요?",
+    "meaning": "전달하다",
+    "tts_text": "Can you forward this to her?",
+    "display_sentence": "Can you forward this to her?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "sharing"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "link",
+    "sentence_en": "Click the ___ below.",
+    "sentence_ko": "아래 링크를 클릭하세요.",
+    "meaning": "링크",
+    "tts_text": "Click the link below.",
+    "display_sentence": "Click the link below.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "digital"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hang up",
+    "sentence_en": "Don't ___ yet.",
+    "sentence_ko": "아직 끊지 마세요.",
+    "meaning": "전화를 끊다",
+    "tts_text": "Don't hang up yet.",
+    "display_sentence": "Don't hang up yet.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "action"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "voice",
+    "sentence_en": "I left a ___ message.",
+    "sentence_ko": "음성 메시지를 남겼어요.",
+    "meaning": "음성",
+    "tts_text": "I left a voice message.",
+    "display_sentence": "I left a voice message.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "voicemail"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "ring",
+    "sentence_en": "Give me a ___ later.",
+    "sentence_ko": "나중에 전화 한 통 줘요.",
+    "meaning": "전화 한 통",
+    "tts_text": "Give me a ring later.",
+    "display_sentence": "Give me a ring later.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "casual"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "write",
+    "sentence_en": "I'll ___ you an email.",
+    "sentence_ko": "이메일을 써서 보낼게요.",
+    "meaning": "쓰다",
+    "tts_text": "I'll write you an email.",
+    "display_sentence": "I'll write you an email.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "daily"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "missed",
+    "sentence_en": "You have a ___ call.",
+    "sentence_ko": "부재중 전화가 있어요.",
+    "meaning": "놓친",
+    "tts_text": "You have a missed call.",
+    "display_sentence": "You have a missed call.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "status"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "charge",
+    "sentence_en": "My phone is out of ___.",
+    "sentence_ko": "제 전화기 배터리가 없어요.",
+    "meaning": "충전(량)",
+    "tts_text": "My phone is out of charge.",
+    "display_sentence": "My phone is out of charge.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "device"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "mute",
+    "sentence_en": "Please ___ your phone.",
+    "sentence_ko": "전화기 소리를 꺼 주세요.",
+    "meaning": "무음으로 하다",
+    "tts_text": "Please mute your phone.",
+    "display_sentence": "Please mute your phone.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "etiquette"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "email",
+    "sentence_en": "What's your ___ address?",
+    "sentence_ko": "이메일 주소가 어떻게 되세요?",
+    "meaning": "이메일",
+    "tts_text": "What's your email address?",
+    "display_sentence": "What's your email address?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "contact"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "Delete",
+    "sentence_en": "___ that email, please.",
+    "sentence_ko": "그 이메일 삭제해 주세요.",
+    "meaning": "삭제하다",
+    "tts_text": "Delete that email, please.",
+    "display_sentence": "Delete that email, please.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "action"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "password",
+    "sentence_en": "Enter your ___ to log in.",
+    "sentence_ko": "로그인하려면 비밀번호를 입력하세요.",
+    "meaning": "비밀번호",
+    "tts_text": "Enter your password to log in.",
+    "display_sentence": "Enter your password to log in.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "digital",
+      "security"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "signal",
+    "sentence_en": "There's no ___ here.",
+    "sentence_ko": "여기는 신호가 없어요.",
+    "meaning": "신호",
+    "tts_text": "There's no signal here.",
+    "display_sentence": "There's no signal here.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "network"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "loud",
+    "sentence_en": "Could you speak a little ___?",
+    "sentence_ko": "좀 더 크게 말씀해 주시겠어요?",
+    "meaning": "크게",
+    "tts_text": "Could you speak a little loud?",
+    "display_sentence": "Could you speak a little loud?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "clarification"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "connection",
+    "sentence_en": "The ___ is bad today.",
+    "sentence_ko": "오늘 연결 상태가 좋지 않아요.",
+    "meaning": "연결 상태",
+    "tts_text": "The connection is bad today.",
+    "display_sentence": "The connection is bad today.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "network"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "speaker",
+    "sentence_en": "Turn on the ___.",
+    "sentence_ko": "스피커를 켜 주세요.",
+    "meaning": "스피커",
+    "tts_text": "Turn on the speaker.",
+    "display_sentence": "Turn on the speaker.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "device"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "save",
+    "sentence_en": "Did you ___ the number?",
+    "sentence_ko": "번호 저장했어요?",
+    "meaning": "저장하다",
+    "tts_text": "Did you save the number?",
+    "display_sentence": "Did you save the number?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "contact"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "offline",
+    "sentence_en": "I was ___ all morning.",
+    "sentence_ko": "오전 내내 오프라인이었어요.",
+    "meaning": "오프라인",
+    "tts_text": "I was offline all morning.",
+    "display_sentence": "I was offline all morning.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "digital",
+      "status"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "recharge",
+    "sentence_en": "I need to ___ my phone battery.",
+    "sentence_ko": "전화기 배터리를 재충전해야 해요.",
+    "meaning": "재충전하다",
+    "tts_text": "I need to recharge my phone battery.",
+    "display_sentence": "I need to recharge my phone battery.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "phone",
+      "device"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "available",
+    "sentence_en": "Are you ___ to talk?",
+    "sentence_ko": "통화할 수 있어요?",
+    "meaning": "시간이 있는",
+    "tts_text": "Are you available to talk?",
+    "display_sentence": "Are you available to talk?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "scheduling"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "print",
+    "sentence_en": "Can you ___ the email?",
+    "sentence_ko": "이메일을 출력해 줄 수 있어요?",
+    "meaning": "출력하다",
+    "tts_text": "Can you print the email?",
+    "display_sentence": "Can you print the email?",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "office"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "notify",
+    "sentence_en": "Please ___ me when it's ready.",
+    "sentence_ko": "준비되면 알려 주세요.",
+    "meaning": "알리다",
+    "tts_text": "Please notify me when it's ready.",
+    "display_sentence": "Please notify me when it's ready.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "messaging",
+      "action"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "draft",
+    "sentence_en": "Save it as a ___ first.",
+    "sentence_ko": "먼저 임시 저장해 두세요.",
+    "meaning": "임시 저장본",
+    "tts_text": "Save it as a draft first.",
+    "display_sentence": "Save it as a draft first.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "composition"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "read",
+    "sentence_en": "Did you ___ my message?",
+    "sentence_ko": "내 메시지 읽었어요?",
+    "meaning": "읽다",
+    "tts_text": "Did you read my message?",
+    "display_sentence": "Did you read my message?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "messaging",
+      "daily"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "contact",
+    "sentence_en": "I'll ___ you later.",
+    "sentence_ko": "나중에 연락드릴게요.",
+    "meaning": "연락하다",
+    "tts_text": "I'll contact you later.",
+    "display_sentence": "I'll contact you later.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "contact",
+      "daily"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "network",
+    "sentence_en": "Check your ___ settings.",
+    "sentence_ko": "네트워크 설정을 확인해 보세요.",
+    "meaning": "네트워크",
+    "tts_text": "Check your network settings.",
+    "display_sentence": "Check your network settings.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "block",
+    "sentence_en": "I had to ___ that number.",
+    "sentence_ko": "그 번호를 차단해야 했어요.",
+    "meaning": "차단하다",
+    "tts_text": "I had to block that number.",
+    "display_sentence": "I had to block that number.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "safety"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "louder",
+    "sentence_en": "Can you speak ___?",
+    "sentence_ko": "더 크게 말씀해 주시겠어요?",
+    "meaning": "더 크게",
+    "tts_text": "Can you speak louder?",
+    "display_sentence": "Can you speak louder?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "phone",
+      "clarification"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "international",
+    "sentence_en": "It's an ___ call.",
+    "sentence_ko": "국제 전화예요.",
+    "meaning": "국제",
+    "tts_text": "It's an international call.",
+    "display_sentence": "It's an international call.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "phone",
+      "travel"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "calendar",
+    "sentence_en": "Check the ___ invite.",
+    "sentence_ko": "캘린더 초대를 확인해 보세요.",
+    "meaning": "캘린더",
+    "tts_text": "Check the calendar invite.",
+    "display_sentence": "Check the calendar invite.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "email",
+      "scheduling"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "confirm",
+    "sentence_en": "Please ___ your email address.",
+    "sentence_ko": "이메일 주소를 확인해 주세요.",
+    "meaning": "확인하다",
+    "tts_text": "Please confirm your email address.",
+    "display_sentence": "Please confirm your email address.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "verification"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "roaming",
+    "sentence_en": "Turn off ___ abroad.",
+    "sentence_ko": "해외에서는 로밍을 꺼 두세요.",
+    "meaning": "로밍",
+    "tts_text": "Turn off roaming abroad.",
+    "display_sentence": "Turn off roaming abroad.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "travel"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "spam",
+    "sentence_en": "That looks like ___ mail.",
+    "sentence_ko": "그건 스팸 메일 같아요.",
+    "meaning": "스팸",
+    "tts_text": "That looks like spam mail.",
+    "display_sentence": "That looks like spam mail.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "safety"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "notification",
+    "sentence_en": "I got a ___ from you.",
+    "sentence_ko": "당신에게서 알림을 받았어요.",
+    "meaning": "알림",
+    "tts_text": "I got a notification from you.",
+    "display_sentence": "I got a notification from you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "messaging",
+      "digital"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "disconnect",
+    "sentence_en": "Don't ___ the call.",
+    "sentence_ko": "전화 연결을 끊지 마세요.",
+    "meaning": "연결을 끊다",
+    "tts_text": "Don't disconnect the call.",
+    "display_sentence": "Don't disconnect the call.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "phone",
+      "action"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "upload",
+    "sentence_en": "Can you ___ the photo?",
+    "sentence_ko": "사진을 올려 줄 수 있어요?",
+    "meaning": "업로드하다",
+    "tts_text": "Can you upload the photo?",
+    "display_sentence": "Can you upload the photo?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "digital",
+      "file_sharing"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "signature",
+    "sentence_en": "Add your ___ to the email.",
+    "sentence_ko": "이메일에 서명을 추가해 주세요.",
+    "meaning": "서명",
+    "tts_text": "Add your signature to the email.",
+    "display_sentence": "Add your signature to the email.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "update",
+    "sentence_en": "I'll ___ you on the details.",
+    "sentence_ko": "자세한 내용은 알려드릴게요.",
+    "meaning": "업데이트하다, 알리다",
+    "tts_text": "I'll update you on the details.",
+    "display_sentence": "I'll update you on the details.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "messaging",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "urgent",
+    "sentence_en": "It's ___. Please call me back.",
+    "sentence_ko": "급해요. 다시 전화 주세요.",
+    "meaning": "긴급한",
+    "tts_text": "It's urgent. Please call me back.",
+    "display_sentence": "It's urgent. Please call me back.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "email"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "address",
+    "sentence_en": "Send it to my home ___.",
+    "sentence_ko": "제 집 주소로 보내 주세요.",
+    "meaning": "주소",
+    "tts_text": "Send it to my home address.",
+    "display_sentence": "Send it to my home address.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "contact"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "cut off",
+    "sentence_en": "I think we got ___.",
+    "sentence_ko": "전화가 끊긴 것 같아요.",
+    "meaning": "끊기다",
+    "tts_text": "I think we got cut off.",
+    "display_sentence": "I think we got cut off.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "network"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "put on",
+    "sentence_en": "Can you ___ your headphones?",
+    "sentence_ko": "헤드폰을 써 줄 수 있어요?",
+    "meaning": "착용하다, 연결하다",
+    "tts_text": "Can you put on your headphones?",
+    "display_sentence": "Can you put on your headphones?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "device"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "check",
+    "sentence_en": "Please ___ your messages.",
+    "sentence_ko": "메시지를 확인해 주세요.",
+    "meaning": "확인하다",
+    "tts_text": "Please check your messages.",
+    "display_sentence": "Please check your messages.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "messaging",
+      "action"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "silent",
+    "sentence_en": "Put your phone on ___.",
+    "sentence_ko": "전화기를 무음으로 해 주세요.",
+    "meaning": "무음",
+    "tts_text": "Put your phone on silent.",
+    "display_sentence": "Put your phone on silent.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "etiquette"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "tone",
+    "sentence_en": "I heard the dial ___.",
+    "sentence_ko": "발신음이 들렸어요.",
+    "meaning": "(전화) 발신음",
+    "tts_text": "I heard the dial tone.",
+    "display_sentence": "I heard the dial tone.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "audio"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "receiver",
+    "sentence_en": "Pick up the ___.",
+    "sentence_ko": "수화기를 드세요.",
+    "meaning": "수화기",
+    "tts_text": "Pick up the receiver.",
+    "display_sentence": "Pick up the receiver.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "device"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get back to",
+    "sentence_en": "I'll ___ you by Friday.",
+    "sentence_ko": "금요일까지 답변드릴게요.",
+    "meaning": "나중에 답하다",
+    "tts_text": "I'll get back to you by Friday.",
+    "display_sentence": "I'll get back to you by Friday.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "email"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "hold on",
+    "sentence_en": "Could you ___ a second?",
+    "sentence_ko": "잠시만 기다려 주시겠어요?",
+    "meaning": "기다리다, 끊지 않다",
+    "tts_text": "Could you hold on a second?",
+    "display_sentence": "Could you hold on a second?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "waiting"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "attach the document",
+    "sentence_en": "I'll ___ to the email.",
+    "sentence_ko": "이메일에 문서를 첨부할게요.",
+    "meaning": "문서를 첨부하다",
+    "tts_text": "I'll attach the document to the email.",
+    "display_sentence": "I'll attach the document to the email.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "file_sharing"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "the line",
+    "sentence_en": "Sorry, ___ is breaking up.",
+    "sentence_ko": "죄송해요, 연결이 끊겨요.",
+    "meaning": "통화 연결",
+    "tts_text": "Sorry, the line is breaking up.",
+    "display_sentence": "Sorry, the line is breaking up.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "network"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "reach",
+    "sentence_en": "What's the best way to ___ you?",
+    "sentence_ko": "어떻게 연락드리는 게 가장 좋을까요?",
+    "meaning": "연락하다",
+    "tts_text": "What's the best way to reach you?",
+    "display_sentence": "What's the best way to reach you?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "contact",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "cc",
+    "sentence_en": "Please ___ my manager on this.",
+    "sentence_ko": "이 건에 제 매니저도 참조로 넣어 주세요.",
+    "meaning": "참조로 넣다",
+    "tts_text": "Please cc my manager on this.",
+    "display_sentence": "Please cc my manager on this.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "voicemail",
+    "sentence_en": "Leave a ___ if I don't pick up.",
+    "sentence_ko": "안 받으면 음성 메시지 남겨 주세요.",
+    "meaning": "음성 메시지",
+    "tts_text": "Leave a voicemail if I don't pick up.",
+    "display_sentence": "Leave a voicemail if I don't pick up.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "voicemail"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "hang up on",
+    "sentence_en": "Don't ___ me, please.",
+    "sentence_ko": "제발 전화 끊지 마세요.",
+    "meaning": "전화를 끊다",
+    "tts_text": "Don't hang up on me, please.",
+    "display_sentence": "Don't hang up on me, please.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "conversation"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "call back",
+    "sentence_en": "I'll ___ in ten minutes.",
+    "sentence_ko": "10분 뒤에 다시 전화할게요.",
+    "meaning": "다시 전화하다",
+    "tts_text": "I'll call back in ten minutes.",
+    "display_sentence": "I'll call back in ten minutes.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "scheduling"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "put me through",
+    "sentence_en": "Could you ___ to sales?",
+    "sentence_ko": "영업부로 연결해 주시겠어요?",
+    "meaning": "연결해 주다",
+    "tts_text": "Could you put me through to sales?",
+    "display_sentence": "Could you put me through to sales?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get through",
+    "sentence_en": "I couldn't ___ to the office.",
+    "sentence_ko": "사무실에 전화 연결이 안 됐어요.",
+    "meaning": "전화가 연결되다",
+    "tts_text": "I couldn't get through to the office.",
+    "display_sentence": "I couldn't get through to the office.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "reply all",
+    "sentence_en": "Please don't ___ by mistake.",
+    "sentence_ko": "실수로 전체 답장하지 마세요.",
+    "meaning": "전체 답장하다",
+    "tts_text": "Please don't reply all by mistake.",
+    "display_sentence": "Please don't reply all by mistake.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "etiquette"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "touch base",
+    "sentence_en": "I'll ___ with you by email.",
+    "sentence_ko": "이메일로 잠깐 연락드릴게요.",
+    "meaning": "간단히 연락하다",
+    "tts_text": "I'll touch base with you by email.",
+    "display_sentence": "I'll touch base with you by email.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "follow-up email",
+    "sentence_en": "I'm sending a ___.",
+    "sentence_ko": "후속 이메일을 보냅니다.",
+    "meaning": "후속 이메일",
+    "tts_text": "I'm sending a follow-up email.",
+    "display_sentence": "I'm sending a follow-up email.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "speaking",
+    "sentence_en": "Hello, Mina ___.",
+    "sentence_ko": "여보세요, 미나입니다.",
+    "meaning": "(전화에서) 접니다",
+    "tts_text": "Hello, Mina speaking.",
+    "display_sentence": "Hello, Mina speaking.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "introduction"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "leave a message",
+    "sentence_en": "Can I ___ for her?",
+    "sentence_ko": "그녀에게 메시지 남겨도 될까요?",
+    "meaning": "메시지를 남기다",
+    "tts_text": "Can I leave a message for her?",
+    "display_sentence": "Can I leave a message for her?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "voicemail"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "on another line",
+    "sentence_en": "She's ___ right now.",
+    "sentence_ko": "그녀는 지금 다른 전화를 받고 있어요.",
+    "meaning": "다른 전화를 받는 중인",
+    "tts_text": "She's on another line right now.",
+    "display_sentence": "She's on another line right now.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "status"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pick up",
+    "sentence_en": "Please ___ if you're free.",
+    "sentence_ko": "시간 되면 전화 받아 주세요.",
+    "meaning": "전화를 받다",
+    "tts_text": "Please pick up if you're free.",
+    "display_sentence": "Please pick up if you're free.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "action"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a reminder",
+    "sentence_en": "I'll send you ___.",
+    "sentence_ko": "알림 메시지를 보내드릴게요.",
+    "meaning": "상기시켜 주는 메시지",
+    "tts_text": "I'll send you a reminder.",
+    "display_sentence": "I'll send you a reminder.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "scheduling"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "set up a call",
+    "sentence_en": "Let's ___ for Tuesday.",
+    "sentence_ko": "화요일로 통화를 잡아요.",
+    "meaning": "통화를 잡다",
+    "tts_text": "Let's set up a call for Tuesday.",
+    "display_sentence": "Let's set up a call for Tuesday.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "scheduling"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "breaking up",
+    "sentence_en": "You're ___; I can't hear you.",
+    "sentence_ko": "소리가 끊겨요, 잘 안 들려요.",
+    "meaning": "(통화가) 끊기는",
+    "tts_text": "You're breaking up; I can't hear you.",
+    "display_sentence": "You're breaking up; I can't hear you.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "network"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "on speaker",
+    "sentence_en": "You're ___, so everyone can hear.",
+    "sentence_ko": "스피커폰이라 다들 들을 수 있어요.",
+    "meaning": "스피커폰으로",
+    "tts_text": "You're on speaker, so everyone can hear.",
+    "display_sentence": "You're on speaker, so everyone can hear.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "meeting"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "got cut off",
+    "sentence_en": "We ___ during the call.",
+    "sentence_ko": "통화 중에 연결이 끊겼어요.",
+    "meaning": "연결이 끊겼다",
+    "tts_text": "We got cut off during the call.",
+    "display_sentence": "We got cut off during the call.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "network"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "flag the email",
+    "sentence_en": "Please ___ as urgent.",
+    "sentence_ko": "그 이메일을 긴급으로 표시해 주세요.",
+    "meaning": "이메일을 표시하다",
+    "tts_text": "Please flag the email as urgent.",
+    "display_sentence": "Please flag the email as urgent.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "loop me in",
+    "sentence_en": "Please ___ on that thread.",
+    "sentence_ko": "그 메일 스레드에 저도 넣어 주세요.",
+    "meaning": "나도 참여시키다",
+    "tts_text": "Please loop me in on that thread.",
+    "display_sentence": "Please loop me in on that thread.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "unsubscribe",
+    "sentence_en": "Click here to ___.",
+    "sentence_ko": "수신 거부하려면 여기를 클릭하세요.",
+    "meaning": "수신 거부하다",
+    "tts_text": "Click here to unsubscribe.",
+    "display_sentence": "Click here to unsubscribe.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "email",
+      "digital"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "schedule a meeting",
+    "sentence_en": "Let's ___ for next week.",
+    "sentence_ko": "다음 주에 미팅을 잡아요.",
+    "meaning": "미팅을 일정에 잡다",
+    "tts_text": "Let's schedule a meeting for next week.",
+    "display_sentence": "Let's schedule a meeting for next week.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "scheduling"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "out of office",
+    "sentence_en": "I'll be ___ this week.",
+    "sentence_ko": "이번 주에는 부재 중이에요.",
+    "meaning": "사무실 부재 중",
+    "tts_text": "I'll be out of office this week.",
+    "display_sentence": "I'll be out of office this week.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "return your call",
+    "sentence_en": "I'll ___ as soon as I can.",
+    "sentence_ko": "최대한 빨리 전화드릴게요.",
+    "meaning": "전화를 다시 드리다",
+    "tts_text": "I'll return your call as soon as I can.",
+    "display_sentence": "I'll return your call as soon as I can.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "missed your call",
+    "sentence_en": "Sorry, I ___.",
+    "sentence_ko": "죄송해요, 전화를 못 받았어요.",
+    "meaning": "전화를 놓치다",
+    "tts_text": "Sorry, I missed your call.",
+    "display_sentence": "Sorry, I missed your call.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "apology"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "put on hold",
+    "sentence_en": "You've been ___ by the operator.",
+    "sentence_ko": "교환원이 당신을 대기 상태로 연결했어요.",
+    "meaning": "대기 상태로 두다",
+    "tts_text": "You've been put on hold by the operator.",
+    "display_sentence": "You've been put on hold by the operator.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "waiting"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "forward the email",
+    "sentence_en": "Can you ___ to the team?",
+    "sentence_ko": "팀에 이메일을 전달해 줄 수 있어요?",
+    "meaning": "이메일을 전달하다",
+    "tts_text": "Can you forward the email to the team?",
+    "display_sentence": "Can you forward the email to the team?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "sharing"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "keep in touch",
+    "sentence_en": "Let's ___ after the project.",
+    "sentence_ko": "프로젝트 끝난 후에도 연락하고 지내요.",
+    "meaning": "연락을 유지하다",
+    "tts_text": "Let's keep in touch after the project.",
+    "display_sentence": "Let's keep in touch after the project.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "contact",
+      "social"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "mute yourself",
+    "sentence_en": "Please ___ when you're not talking.",
+    "sentence_ko": "말할 때 외에는 마이크를 꺼 주세요.",
+    "meaning": "마이크를 끄다",
+    "tts_text": "Please mute yourself when you're not talking.",
+    "display_sentence": "Please mute yourself when you're not talking.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "meeting"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "transfer the call",
+    "sentence_en": "I'll ___ to the manager.",
+    "sentence_ko": "매니저에게 전화를 돌려 드릴게요.",
+    "meaning": "전화를 돌리다",
+    "tts_text": "I'll transfer the call to the manager.",
+    "display_sentence": "I'll transfer the call to the manager.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "send me a link",
+    "sentence_en": "Could you ___?",
+    "sentence_ko": "링크 좀 보내 주실 수 있어요?",
+    "meaning": "링크를 보내다",
+    "tts_text": "Could you send me a link?",
+    "display_sentence": "Could you send me a link?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "digital",
+      "sharing"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "spam folder",
+    "sentence_en": "Check your ___ if you didn't get it.",
+    "sentence_ko": "받지 못했다면 스팸함을 확인해 보세요.",
+    "meaning": "스팸함",
+    "tts_text": "Check your spam folder if you didn't get it.",
+    "display_sentence": "Check your spam folder if you didn't get it.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "respond to",
+    "sentence_en": "I'll ___ your inquiry by tomorrow.",
+    "sentence_ko": "내일까지 문의에 답변드릴게요.",
+    "meaning": "~에 응답하다",
+    "tts_text": "I'll respond to your inquiry by tomorrow.",
+    "display_sentence": "I'll respond to your inquiry by tomorrow.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "confirm receipt",
+    "sentence_en": "Please ___ of this email.",
+    "sentence_ko": "이 이메일을 받으셨다고 확인해 주세요.",
+    "meaning": "수신을 확인하다",
+    "tts_text": "Please confirm receipt of this email.",
+    "display_sentence": "Please confirm receipt of this email.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "phone tag",
+    "sentence_en": "We've been playing ___ all week.",
+    "sentence_ko": "우리 일주일 내내 전화가 계속 엇갈렸어요.",
+    "meaning": "전화가 엇갈림",
+    "tts_text": "We've been playing phone tag all week.",
+    "display_sentence": "We've been playing phone tag all week.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "daily"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "Drop me a text",
+    "sentence_en": "___ when you arrive.",
+    "sentence_ko": "도착하면 문자 남겨 줘요.",
+    "meaning": "문자를 보내다",
+    "tts_text": "Drop me a text when you arrive.",
+    "display_sentence": "Drop me a text when you arrive.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "messaging",
+      "casual"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "connect on",
+    "sentence_en": "Let's ___ LinkedIn.",
+    "sentence_ko": "링크드인으로 연결해요.",
+    "meaning": "~에서 연결하다",
+    "tts_text": "Let's connect on LinkedIn.",
+    "display_sentence": "Let's connect on LinkedIn.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "digital",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "bounced back",
+    "sentence_en": "My email ___; the address is wrong.",
+    "sentence_ko": "이메일이 반송됐어요. 주소가 잘못됐어요.",
+    "meaning": "(이메일이) 반송됐다",
+    "tts_text": "My email bounced back; the address is wrong.",
+    "display_sentence": "My email bounced back; the address is wrong.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "return missed calls",
+    "sentence_en": "I need to ___ from today.",
+    "sentence_ko": "오늘 놓친 전화를 다시 걸어야 해요.",
+    "meaning": "부재중 전화에 답하다",
+    "tts_text": "I need to return missed calls from today.",
+    "display_sentence": "I need to return missed calls from today.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "read between the lines",
+    "sentence_en": "You have to ___ in his email.",
+    "sentence_ko": "그의 이메일을 행간을 읽어야 해요.",
+    "meaning": "행간을 읽다",
+    "tts_text": "You have to read between the lines in his email.",
+    "display_sentence": "You have to read between the lines in his email.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "communication"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "give me a call",
+    "sentence_en": "When you're free, ___.",
+    "sentence_ko": "시간 나면 전화 주세요.",
+    "meaning": "전화하다",
+    "tts_text": "When you're free, give me a call.",
+    "display_sentence": "When you're free, give me a call.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "casual"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "check your voicemail",
+    "sentence_en": "Please ___ when you get a chance.",
+    "sentence_ko": "시간 나면 음성 메시지 확인해 주세요.",
+    "meaning": "음성 메시지를 확인하다",
+    "tts_text": "Please check your voicemail when you get a chance.",
+    "display_sentence": "Please check your voicemail when you get a chance.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "action"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "on a call",
+    "sentence_en": "He's ___ right now.",
+    "sentence_ko": "그는 지금 통화 중이에요.",
+    "meaning": "통화 중인",
+    "tts_text": "He's on a call right now.",
+    "display_sentence": "He's on a call right now.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "status"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "write back",
+    "sentence_en": "I'll ___ as soon as I can.",
+    "sentence_ko": "최대한 빨리 답장할게요.",
+    "meaning": "답장하다",
+    "tts_text": "I'll write back as soon as I can.",
+    "display_sentence": "I'll write back as soon as I can.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "response"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "drop a line",
+    "sentence_en": "Feel free to ___ anytime.",
+    "sentence_ko": "언제든 편하게 연락 주세요.",
+    "meaning": "짧게 연락하다",
+    "tts_text": "Feel free to drop a line anytime.",
+    "display_sentence": "Feel free to drop a line anytime.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "contact",
+      "casual"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "loop in",
+    "sentence_en": "Please ___ the design team.",
+    "sentence_ko": "디자인 팀도 포함시켜 주세요.",
+    "meaning": "논의에 포함시키다",
+    "tts_text": "Please loop in the design team.",
+    "display_sentence": "Please loop in the design team.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "follow up on",
+    "sentence_en": "I'm writing to ___ my last email.",
+    "sentence_ko": "지난 이메일 관련해 다시 연락드립니다.",
+    "meaning": "후속 연락하다",
+    "tts_text": "I'm writing to follow up on my last email.",
+    "display_sentence": "I'm writing to follow up on my last email.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "for your reference",
+    "sentence_en": "I'm sending the report ___.",
+    "sentence_ko": "참고하시라고 보고서를 보냅니다.",
+    "meaning": "참고용으로",
+    "tts_text": "I'm sending the report for your reference.",
+    "display_sentence": "I'm sending the report for your reference.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "at your earliest convenience",
+    "sentence_en": "Please reply ___.",
+    "sentence_ko": "가능한 한 빨리 회신 부탁드립니다.",
+    "meaning": "가급적 빨리",
+    "tts_text": "Please reply at your earliest convenience.",
+    "display_sentence": "Please reply at your earliest convenience.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "keep this brief",
+    "sentence_en": "I'll ___ since you're busy.",
+    "sentence_ko": "바쁘실 테니 간단히 하겠습니다.",
+    "meaning": "간단히 하다",
+    "tts_text": "I'll keep this brief since you're busy.",
+    "display_sentence": "I'll keep this brief since you're busy.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "circle back",
+    "sentence_en": "Let's ___ on this later.",
+    "sentence_ko": "이건 나중에 다시 얘기해요.",
+    "meaning": "나중에 다시 연락하다",
+    "tts_text": "Let's circle back on this later.",
+    "display_sentence": "Let's circle back on this later.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "email"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "circle back via email",
+    "sentence_en": "I'll ___ tomorrow.",
+    "sentence_ko": "내일 이메일로 다시 연락드릴게요.",
+    "meaning": "이메일로 다시 연락하다",
+    "tts_text": "I'll circle back via email tomorrow.",
+    "display_sentence": "I'll circle back via email tomorrow.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "Per my last email",
+    "sentence_en": "___, the deadline is Friday.",
+    "sentence_ko": "지난 메일에서 말씀드렸듯 마감은 금요일이에요.",
+    "meaning": "지난 이메일에서 언급했듯",
+    "tts_text": "Per my last email, the deadline is Friday.",
+    "display_sentence": "Per my last email, the deadline is Friday.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "reach out to",
+    "sentence_en": "I'll ___ the vendor today.",
+    "sentence_ko": "오늘 업체에 연락해 볼게요.",
+    "meaning": "연락을 취하다",
+    "tts_text": "I'll reach out to the vendor today.",
+    "display_sentence": "I'll reach out to the vendor today.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "await your reply",
+    "sentence_en": "I'll ___.",
+    "sentence_ko": "답신 기다리겠습니다.",
+    "meaning": "답을 기다리다",
+    "tts_text": "I'll await your reply.",
+    "display_sentence": "I'll await your reply.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a quick word",
+    "sentence_en": "Do you have time for ___?",
+    "sentence_ko": "잠깐 얘기할 시간 있어요?",
+    "meaning": "짧은 대화",
+    "tts_text": "Do you have time for a quick word?",
+    "display_sentence": "Do you have time for a quick word?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "casual"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get the message across",
+    "sentence_en": "I hope I ___ clearly.",
+    "sentence_ko": "제 뜻이 분명히 전달됐길 바라요.",
+    "meaning": "뜻을 전달하다",
+    "tts_text": "I hope I get the message across clearly.",
+    "display_sentence": "I hope I get the message across clearly.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "email"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "ping",
+    "sentence_en": "I'll ___ you on the app.",
+    "sentence_ko": "앱으로 연락 한번 할게요.",
+    "meaning": "간단히 연락하다",
+    "tts_text": "I'll ping you on the app.",
+    "display_sentence": "I'll ping you on the app.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "messaging",
+      "digital"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "keep me posted",
+    "sentence_en": "Please ___ on the progress.",
+    "sentence_ko": "진행 상황을 계속 알려 주세요.",
+    "meaning": "계속 알려 주다",
+    "tts_text": "Please keep me posted on the progress.",
+    "display_sentence": "Please keep me posted on the progress.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a paper trail",
+    "sentence_en": "Let's keep ___ of this.",
+    "sentence_ko": "이건 기록으로 남겨 둡시다.",
+    "meaning": "문서 기록",
+    "tts_text": "Let's keep a paper trail of this.",
+    "display_sentence": "Let's keep a paper trail of this.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "touch upon",
+    "sentence_en": "I'll ___ this in my email.",
+    "sentence_ko": "이메일에서 이 점을 짚을게요.",
+    "meaning": "간단히 언급하다",
+    "tts_text": "I'll touch upon this in my email.",
+    "display_sentence": "I'll touch upon this in my email.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "With reference to",
+    "sentence_en": "___ your inquiry, here's the answer.",
+    "sentence_ko": "문의하신 건에 관해 답변드립니다.",
+    "meaning": "~에 관하여",
+    "tts_text": "With reference to your inquiry, here's the answer.",
+    "display_sentence": "With reference to your inquiry, here's the answer.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a cold email",
+    "sentence_en": "I sent her ___ about a job.",
+    "sentence_ko": "저는 그녀에게 일자리 관련 콜드 메일을 보냈어요.",
+    "meaning": "무작정 보내는 첫 이메일",
+    "tts_text": "I sent her a cold email about a job.",
+    "display_sentence": "I sent her a cold email about a job.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "job_search"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get hold of",
+    "sentence_en": "I couldn't ___ him all day.",
+    "sentence_ko": "하루 종일 그와 연락이 안 됐어요.",
+    "meaning": "연락이 닿다",
+    "tts_text": "I couldn't get hold of him all day.",
+    "display_sentence": "I couldn't get hold of him all day.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "contact"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a read receipt",
+    "sentence_en": "I requested ___.",
+    "sentence_ko": "읽음 확인을 요청했어요.",
+    "meaning": "읽음 확인",
+    "tts_text": "I requested a read receipt.",
+    "display_sentence": "I requested a read receipt.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "digital"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "touch base offline",
+    "sentence_en": "Let's ___ about this.",
+    "sentence_ko": "이건 따로 직접 만나 얘기해요.",
+    "meaning": "따로 직접 만나 의논하다",
+    "tts_text": "Let's touch base offline about this.",
+    "display_sentence": "Let's touch base offline about this.",
+    "frequency": "mid",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "business",
+      "meeting"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "out of the loop",
+    "sentence_en": "I've been ___ on this project.",
+    "sentence_ko": "저는 이 프로젝트 관련 소식을 못 듣고 있었어요.",
+    "meaning": "소식을 못 듣는",
+    "tts_text": "I've been out of the loop on this project.",
+    "display_sentence": "I've been out of the loop on this project.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on the same page",
+    "sentence_en": "Let's confirm we're ___ before the call.",
+    "sentence_ko": "전화 전에 우리가 같은 이해를 하고 있는지 확인해요.",
+    "meaning": "같은 인식을 가진",
+    "tts_text": "Let's confirm we're on the same page before the call.",
+    "display_sentence": "Let's confirm we're on the same page before the call.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "raise a red flag",
+    "sentence_en": "That email should ___ for you.",
+    "sentence_ko": "그 이메일은 경계 신호가 돼야 해요.",
+    "meaning": "경계 신호를 올리다",
+    "tts_text": "That email should raise a red flag for you.",
+    "display_sentence": "That email should raise a red flag for you.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "safety"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "take it offline",
+    "sentence_en": "Let's ___ and discuss later.",
+    "sentence_ko": "나중에 따로 이야기합시다.",
+    "meaning": "따로 이야기하다",
+    "tts_text": "Let's take it offline and discuss later.",
+    "display_sentence": "Let's take it offline and discuss later.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "business",
+      "meeting"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "be in touch",
+    "sentence_en": "I'll ___ once I have an update.",
+    "sentence_ko": "업데이트가 생기면 연락드릴게요.",
+    "meaning": "연락하다",
+    "tts_text": "I'll be in touch once I have an update.",
+    "display_sentence": "I'll be in touch once I have an update.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "put it in writing",
+    "sentence_en": "Please ___ before we move forward.",
+    "sentence_ko": "진행하기 전에 서면으로 남겨 주세요.",
+    "meaning": "서면으로 기록하다",
+    "tts_text": "Please put it in writing before we move forward.",
+    "display_sentence": "Please put it in writing before we move forward.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "actionable",
+    "sentence_en": "Please make your email ___.",
+    "sentence_ko": "이메일을 실행 가능하게 작성해 주세요.",
+    "meaning": "실행 가능한",
+    "tts_text": "Please make your email actionable.",
+    "display_sentence": "Please make your email actionable.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "escalate the issue",
+    "sentence_en": "If it's urgent, we can ___.",
+    "sentence_ko": "긴급하다면 문제를 윗선으로 올릴 수 있어요.",
+    "meaning": "문제를 상위 단계로 올리다",
+    "tts_text": "If it's urgent, we can escalate the issue.",
+    "display_sentence": "If it's urgent, we can escalate the issue.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "in the subject line",
+    "sentence_en": "Please mention the project ___.",
+    "sentence_ko": "제목란에 프로젝트를 언급해 주세요.",
+    "meaning": "제목란에",
+    "tts_text": "Please mention the project in the subject line.",
+    "display_sentence": "Please mention the project in the subject line.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "composition"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "do a quick sync",
+    "sentence_en": "Can we ___ before the meeting?",
+    "sentence_ko": "미팅 전에 짧게 통화 맞춰볼 수 있어요?",
+    "meaning": "빠르게 상황 공유하다",
+    "tts_text": "Can we do a quick sync before the meeting?",
+    "display_sentence": "Can we do a quick sync before the meeting?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "misread the tone",
+    "sentence_en": "I think I ___ of her email.",
+    "sentence_ko": "그녀의 이메일 어조를 잘못 읽은 것 같아요.",
+    "meaning": "어조를 잘못 파악하다",
+    "tts_text": "I think I misread the tone of her email.",
+    "display_sentence": "I think I misread the tone of her email.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "communication"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "sign off on",
+    "sentence_en": "The manager needs to ___ this email.",
+    "sentence_ko": "매니저가 이 이메일을 승인해야 해요.",
+    "meaning": "승인하다",
+    "tts_text": "The manager needs to sign off on this email.",
+    "display_sentence": "The manager needs to sign off on this email.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "thread",
+    "sentence_en": "Check the email ___ for context.",
+    "sentence_ko": "맥락을 파악하려면 이메일 스레드를 확인하세요.",
+    "meaning": "이메일 스레드",
+    "tts_text": "Check the email thread for context.",
+    "display_sentence": "Check the email thread for context.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on the record",
+    "sentence_en": "I'm sending this email to keep things ___.",
+    "sentence_ko": "기록을 남기기 위해 이 이메일을 보내요.",
+    "meaning": "공식적으로 기록된",
+    "tts_text": "I'm sending this email to keep things on the record.",
+    "display_sentence": "I'm sending this email to keep things on the record.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "in the loop",
+    "sentence_en": "I want to keep you ___.",
+    "sentence_ko": "계속 소식을 알려드리고 싶어요.",
+    "meaning": "정보를 공유받는",
+    "tts_text": "I want to keep you in the loop.",
+    "display_sentence": "I want to keep you in the loop.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "cut to the chase",
+    "sentence_en": "Let me ___ and explain the issue.",
+    "sentence_ko": "요점만 말씀드리고 문제를 설명할게요.",
+    "meaning": "바로 본론으로 가다",
+    "tts_text": "Let me cut to the chase and explain the issue.",
+    "display_sentence": "Let me cut to the chase and explain the issue.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "communication"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "play it by ear",
+    "sentence_en": "Let's ___ and decide on the call.",
+    "sentence_ko": "상황에 따라 통화로 결정해요.",
+    "meaning": "상황에 따라 결정하다",
+    "tts_text": "Let's play it by ear and decide on the call.",
+    "display_sentence": "Let's play it by ear and decide on the call.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "casual"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "go over the email",
+    "sentence_en": "Let's ___ together before you send it.",
+    "sentence_ko": "보내기 전에 같이 이메일 한 번 살펴봐요.",
+    "meaning": "이메일을 검토하다",
+    "tts_text": "Let's go over the email together before you send it.",
+    "display_sentence": "Let's go over the email together before you send it.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "off the record",
+    "sentence_en": "This is strictly ___, but the deal fell through.",
+    "sentence_ko": "이건 비공개인데, 거래가 무산됐어요.",
+    "meaning": "비공개로",
+    "tts_text": "This is strictly off the record, but the deal fell through.",
+    "display_sentence": "This is strictly off the record, but the deal fell through.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "proofread",
+    "sentence_en": "Always ___ before sending the email.",
+    "sentence_ko": "이메일을 보내기 전에 항상 교정해 보세요.",
+    "meaning": "교정하다",
+    "tts_text": "Always proofread before sending the email.",
+    "display_sentence": "Always proofread before sending the email.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "email",
+      "composition"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "read into it",
+    "sentence_en": "Don't ___ too much; it's just a reminder.",
+    "sentence_ko": "너무 깊이 생각하지 마세요. 그냥 리마인더예요.",
+    "meaning": "너무 깊이 해석하다",
+    "tts_text": "Don't read into it too much; it's just a reminder.",
+    "display_sentence": "Don't read into it too much; it's just a reminder.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "communication"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get straight to the point",
+    "sentence_en": "I'll ___ in this email.",
+    "sentence_ko": "이 이메일에서 바로 핵심을 말씀드릴게요.",
+    "meaning": "바로 요점을 말하다",
+    "tts_text": "I'll get straight to the point in this email.",
+    "display_sentence": "I'll get straight to the point in this email.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "communication"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "screen",
+    "sentence_en": "My phone ___ is cracked.",
+    "sentence_ko": "제 전화기 화면이 깨졌어요.",
+    "meaning": "화면",
+    "tts_text": "My phone screen is cracked.",
+    "display_sentence": "My phone screen is cracked.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "device"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "share",
+    "sentence_en": "Can you ___ the document with me?",
+    "sentence_ko": "문서를 저와 공유해 줄 수 있어요?",
+    "meaning": "공유하다",
+    "tts_text": "Can you share the document with me?",
+    "display_sentence": "Can you share the document with me?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "file_sharing"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "ringtone",
+    "sentence_en": "I like your ___.",
+    "sentence_ko": "벨소리가 마음에 들어요.",
+    "meaning": "벨소리",
+    "tts_text": "I like your ringtone.",
+    "display_sentence": "I like your ringtone.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "phone",
+      "device"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "emoji",
+    "sentence_en": "She sent me a funny ___.",
+    "sentence_ko": "그녀가 웃긴 이모지를 보냈어요.",
+    "meaning": "이모지",
+    "tts_text": "She sent me a funny emoji.",
+    "display_sentence": "She sent me a funny emoji.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "messaging",
+      "casual"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "group chat",
+    "sentence_en": "I added you to the ___.",
+    "sentence_ko": "그룹 채팅에 추가했어요.",
+    "meaning": "그룹 채팅",
+    "tts_text": "I added you to the group chat.",
+    "display_sentence": "I added you to the group chat.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "messaging",
+      "social"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "conference call",
+    "sentence_en": "We have a ___ at two.",
+    "sentence_ko": "두 시에 화상 통화가 있어요.",
+    "meaning": "전화 회의",
+    "tts_text": "We have a conference call at two.",
+    "display_sentence": "We have a conference call at two.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "dial in",
+    "sentence_en": "You can ___ from any phone.",
+    "sentence_ko": "아무 전화기에서나 접속할 수 있어요.",
+    "meaning": "전화로 접속하다",
+    "tts_text": "You can dial in from any phone.",
+    "display_sentence": "You can dial in from any phone.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "meeting"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "let you know",
+    "sentence_en": "I'll ___ as soon as I hear back.",
+    "sentence_ko": "소식 오면 바로 알려드릴게요.",
+    "meaning": "알려주다",
+    "tts_text": "I'll let you know as soon as I hear back.",
+    "display_sentence": "I'll let you know as soon as I hear back.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "heads up",
+    "sentence_en": "Just a ___ — the meeting is moved.",
+    "sentence_ko": "미리 알려드리자면, 미팅이 변경됐어요.",
+    "meaning": "사전 알림",
+    "tts_text": "Just a heads up — the meeting is moved.",
+    "display_sentence": "Just a heads up — the meeting is moved.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "attached",
+    "sentence_en": "Please find the report ___ below.",
+    "sentence_ko": "아래에 첨부된 보고서를 확인해 주세요.",
+    "meaning": "첨부된",
+    "tts_text": "Please find the report attached below.",
+    "display_sentence": "Please find the report attached below.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "Best regards",
+    "sentence_en": "___, Mina",
+    "sentence_ko": "감사합니다, 미나 드림",
+    "meaning": "이메일 마무리 인사",
+    "tts_text": "Best regards, Mina",
+    "display_sentence": "Best regards, Mina",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "put you on hold",
+    "sentence_en": "Sorry, I have to ___.",
+    "sentence_ko": "죄송해요, 잠시 대기시켜 드려야 해요.",
+    "meaning": "대기시키다",
+    "tts_text": "Sorry, I have to put you on hold.",
+    "display_sentence": "Sorry, I have to put you on hold.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "waiting"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "call waiting",
+    "sentence_en": "I have ___ right now.",
+    "sentence_ko": "지금 다른 전화가 기다리고 있어요.",
+    "meaning": "통화 대기",
+    "tts_text": "I have call waiting right now.",
+    "display_sentence": "I have call waiting right now.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "status"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "three-way call",
+    "sentence_en": "Let's do a ___ with the client.",
+    "sentence_ko": "고객과 삼자 통화를 합시다.",
+    "meaning": "삼자 통화",
+    "tts_text": "Let's do a three-way call with the client.",
+    "display_sentence": "Let's do a three-way call with the client.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pass the message",
+    "sentence_en": "Can you ___ to him?",
+    "sentence_ko": "그에게 메시지 전달해 줄 수 있어요?",
+    "meaning": "메시지를 전달하다",
+    "tts_text": "Can you pass the message to him?",
+    "display_sentence": "Can you pass the message to him?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "messaging"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "call screening",
+    "sentence_en": "My phone does ___ automatically.",
+    "sentence_ko": "제 전화기가 자동으로 전화 필터링을 해요.",
+    "meaning": "전화 필터링",
+    "tts_text": "My phone does call screening automatically.",
+    "display_sentence": "My phone does call screening automatically.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "digital"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "ring back",
+    "sentence_en": "I'll ___ later if I miss you.",
+    "sentence_ko": "못 받으면 나중에 다시 전화할게요.",
+    "meaning": "다시 전화하다",
+    "tts_text": "I'll ring back later if I miss you.",
+    "display_sentence": "I'll ring back later if I miss you.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "casual"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "out of service",
+    "sentence_en": "That number is ___ now.",
+    "sentence_ko": "그 번호는 지금 사용 불가예요.",
+    "meaning": "사용 불가",
+    "tts_text": "That number is out of service now.",
+    "display_sentence": "That number is out of service now.",
+    "frequency": "mid",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "status"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "mark as read",
+    "sentence_en": "Did you ___ all the emails?",
+    "sentence_ko": "모든 이메일을 읽음으로 표시했어요?",
+    "meaning": "읽음으로 표시하다",
+    "tts_text": "Did you mark as read all the emails?",
+    "display_sentence": "Did you mark all the emails as read?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "action"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "on mute",
+    "sentence_en": "You're ___; we can't hear you.",
+    "sentence_ko": "음소거 상태예요, 들리지 않아요.",
+    "meaning": "음소거 상태인",
+    "tts_text": "You're on mute; we can't hear you.",
+    "display_sentence": "You're on mute; we can't hear you.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "meeting"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "inbox zero",
+    "sentence_en": "I finally hit ___ today.",
+    "sentence_ko": "오늘 드디어 받은 편지함을 다 비웠어요.",
+    "meaning": "이메일 받은 함을 완전히 처리한 상태",
+    "tts_text": "I finally hit inbox zero today.",
+    "display_sentence": "I finally hit inbox zero today.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "active listener",
+    "sentence_en": "She's such a great ___ on calls.",
+    "sentence_ko": "그녀는 통화할 때 정말 잘 들어줘요.",
+    "meaning": "적극적인 청취자",
+    "tts_text": "She's such a great active listener on calls.",
+    "display_sentence": "She's such a great active listener on calls.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "communication"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "bcc",
+    "sentence_en": "I'll ___ you on the email.",
+    "sentence_ko": "이메일에 숨은 참조로 넣을게요.",
+    "meaning": "숨은 참조로 넣다",
+    "tts_text": "I'll bcc you on the email.",
+    "display_sentence": "I'll bcc you on the email.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "subscribe",
+    "sentence_en": "Do you want to ___ to the newsletter?",
+    "sentence_ko": "뉴스레터를 구독하시겠어요?",
+    "meaning": "구독하다",
+    "tts_text": "Do you want to subscribe to the newsletter?",
+    "display_sentence": "Do you want to subscribe to the newsletter?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "email",
+      "digital"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "international roaming",
+    "sentence_en": "Turn off ___ to save money.",
+    "sentence_ko": "돈을 아끼려면 국제 로밍을 꺼 두세요.",
+    "meaning": "국제 로밍",
+    "tts_text": "Turn off international roaming to save money.",
+    "display_sentence": "Turn off international roaming to save money.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "travel"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "wrong email address",
+    "sentence_en": "I think you have the ___.",
+    "sentence_ko": "이메일 주소가 잘못된 것 같아요.",
+    "meaning": "잘못된 이메일 주소",
+    "tts_text": "I think you have the wrong email address.",
+    "display_sentence": "I think you have the wrong email address.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "error"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "take action",
+    "sentence_en": "Please ___ on this email by Friday.",
+    "sentence_ko": "이 이메일에 대해 금요일까지 조치해 주세요.",
+    "meaning": "조치를 취하다",
+    "tts_text": "Please take action on this email by Friday.",
+    "display_sentence": "Please take action on this email by Friday.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "set the record straight",
+    "sentence_en": "I need to ___ on this issue.",
+    "sentence_ko": "이 문제에 대해 사실을 명확히 해야 해요.",
+    "meaning": "사실을 명확히 하다",
+    "tts_text": "I need to set the record straight on this issue.",
+    "display_sentence": "I need to set the record straight on this issue.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "communication"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "piggyback on",
+    "sentence_en": "Let me ___ James's email to add context.",
+    "sentence_ko": "맥락을 추가하려고 제임스의 이메일에 덧붙일게요.",
+    "meaning": "~에 덧붙이다",
+    "tts_text": "Let me piggyback on James's email to add context.",
+    "display_sentence": "Let me piggyback on James's email to add context.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "above the fold",
+    "sentence_en": "Put the key info ___ in your email.",
+    "sentence_ko": "이메일에서 핵심 정보를 스크롤 없이 보이는 위치에 두세요.",
+    "meaning": "스크롤 없이 보이는 영역에",
+    "tts_text": "Put the key info above the fold in your email.",
+    "display_sentence": "Put the key info above the fold in your email.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "composition"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "catch up on",
+    "sentence_en": "I need to ___ all the emails I missed.",
+    "sentence_ko": "놓친 이메일을 모두 따라잡아야 해요.",
+    "meaning": "따라잡다",
+    "tts_text": "I need to catch up on all the emails I missed.",
+    "display_sentence": "I need to catch up on all the emails I missed.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a point of contact",
+    "sentence_en": "She'll be ___ for this project.",
+    "sentence_ko": "그녀가 이 프로젝트의 담당 창구예요.",
+    "meaning": "담당 연락 창구",
+    "tts_text": "She'll be a point of contact for this project.",
+    "display_sentence": "She'll be a point of contact for this project.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "business",
+      "email"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "lay out",
+    "sentence_en": "Let me ___ the issue in this email.",
+    "sentence_ko": "이 이메일에서 문제를 명확히 설명할게요.",
+    "meaning": "명확히 설명하다",
+    "tts_text": "Let me lay out the issue in this email.",
+    "display_sentence": "Let me lay out the issue in this email.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "communication"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bring up",
+    "sentence_en": "I need to ___ this on our next call.",
+    "sentence_ko": "다음 통화 때 이 문제를 꺼내야 해요.",
+    "meaning": "꺼내다, 언급하다",
+    "tts_text": "I need to bring up this on our next call.",
+    "display_sentence": "I need to bring up this on our next call.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "drill down into",
+    "sentence_en": "We can ___ the details on the call.",
+    "sentence_ko": "통화로 세부 내용을 깊이 파고들 수 있어요.",
+    "meaning": "깊이 파고들다",
+    "tts_text": "We can drill down into the details on the call.",
+    "display_sentence": "We can drill down into the details on the call.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "digest the email",
+    "sentence_en": "Give me a moment to ___.",
+    "sentence_ko": "이메일 내용을 소화할 시간을 주세요.",
+    "meaning": "이메일 내용을 파악하다",
+    "tts_text": "Give me a moment to digest the email.",
+    "display_sentence": "Give me a moment to digest the email.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "communication"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "unsubscribe rate",
+    "sentence_en": "Our ___ went up after that campaign.",
+    "sentence_ko": "그 캠페인 후 수신 거부율이 올라갔어요.",
+    "meaning": "수신 거부율",
+    "tts_text": "Our unsubscribe rate went up after that campaign.",
+    "display_sentence": "Our unsubscribe rate went up after that campaign.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "put a call out",
+    "sentence_en": "Let me ___ to the whole team.",
+    "sentence_ko": "전 팀원에게 공지를 보낼게요.",
+    "meaning": "공지하다",
+    "tts_text": "Let me put a call out to the whole team.",
+    "display_sentence": "Let me put a call out to the whole team.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "navigate to",
+    "sentence_en": "Please ___ the link in my email.",
+    "sentence_ko": "이메일의 링크로 이동해 주세요.",
+    "meaning": "~로 이동하다",
+    "tts_text": "Please navigate to the link in my email.",
+    "display_sentence": "Please navigate to the link in my email.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "digital"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "close the loop",
+    "sentence_en": "Let's ___ on this before Friday.",
+    "sentence_ko": "금요일 전에 이 건을 마무리합시다.",
+    "meaning": "마무리 짓다",
+    "tts_text": "Let's close the loop on this before Friday.",
+    "display_sentence": "Let's close the loop on this before Friday.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "pick up the thread",
+    "sentence_en": "I'll ___ from where we left off.",
+    "sentence_ko": "우리가 멈춘 곳부터 다시 이어갈게요.",
+    "meaning": "중단된 것을 이어가다",
+    "tts_text": "I'll pick up the thread from where we left off.",
+    "display_sentence": "I'll pick up the thread from where we left off.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "communication"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "ring a bell",
+    "sentence_en": "Does that email address ___?",
+    "sentence_ko": "그 이메일 주소가 기억나세요?",
+    "meaning": "기억이 나다",
+    "tts_text": "Does that email address ring a bell?",
+    "display_sentence": "Does that email address ring a bell?",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "casual"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "connect the dots",
+    "sentence_en": "Read through the email chain to ___.",
+    "sentence_ko": "이메일 체인을 읽어서 맥락을 파악해 보세요.",
+    "meaning": "맥락을 파악하다",
+    "tts_text": "Read through the email chain to connect the dots.",
+    "display_sentence": "Read through the email chain to connect the dots.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "communication"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "pending your approval",
+    "sentence_en": "This proposal is ___.",
+    "sentence_ko": "이 제안은 귀하의 승인을 기다리고 있습니다.",
+    "meaning": "승인을 기다리는",
+    "tts_text": "This proposal is pending your approval.",
+    "display_sentence": "This proposal is pending your approval.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "fallen through the cracks",
+    "sentence_en": "That message must have ___.",
+    "sentence_ko": "그 메시지가 놓쳐진 것 같아요.",
+    "meaning": "놓쳐졌다",
+    "tts_text": "That message must have fallen through the cracks.",
+    "display_sentence": "That message must have fallen through the cracks.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "open communication",
+    "sentence_en": "We need to keep ___ going forward.",
+    "sentence_ko": "앞으로 열린 소통을 유지해야 해요.",
+    "meaning": "열린 소통",
+    "tts_text": "We need to keep open communication going forward.",
+    "display_sentence": "We need to keep open communication going forward.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "communication",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "tailor your message",
+    "sentence_en": "Please ___ to the audience.",
+    "sentence_ko": "받는 사람에 맞게 메시지를 조정해 주세요.",
+    "meaning": "메시지를 맞춤화하다",
+    "tts_text": "Please tailor your message to the audience.",
+    "display_sentence": "Please tailor your message to the audience.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "communication"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "soft bounce",
+    "sentence_en": "The email had a ___ because the inbox was full.",
+    "sentence_ko": "받은 편지함이 가득 찼서 이메일이 일시 반송됐어요.",
+    "meaning": "일시 반송",
+    "tts_text": "The email had a soft bounce because the inbox was full.",
+    "display_sentence": "The email had a soft bounce because the inbox was full.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "email",
+      "technical"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on the same wavelength",
+    "sentence_en": "I want to make sure we're ___ on this.",
+    "sentence_ko": "이 건에서 서로 같은 이해를 하고 있는지 확인하고 싶어요.",
+    "meaning": "서로 통하는",
+    "tts_text": "I want to make sure we're on the same wavelength on this.",
+    "display_sentence": "I want to make sure we're on the same wavelength on this.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "work"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "address the elephant in the room",
+    "sentence_en": "We need to ___ on this call.",
+    "sentence_ko": "이번 통화에서 외면해왔던 문제를 짚어야 해요.",
+    "meaning": "외면해왔던 문제를 직접 언급하다",
+    "tts_text": "We need to address the elephant in the room on this call.",
+    "display_sentence": "We need to address the elephant in the room on this call.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "phone",
+      "communication"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "wrap up",
+    "sentence_en": "Let's ___ the call in five minutes.",
+    "sentence_ko": "5분 안에 통화를 마무리합시다.",
+    "meaning": "마무리하다",
+    "tts_text": "Let's wrap up the call in five minutes.",
+    "display_sentence": "Let's wrap up the call in five minutes.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "phone",
+      "meeting"
+    ]
+  },
+  {
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "For the record",
+    "sentence_en": "___, I sent that email last Friday.",
+    "sentence_ko": "공식적으로 말씀드리자면, 지난 금요일에 그 이메일을 보냈어요.",
+    "meaning": "공식적으로 말하자면",
+    "tts_text": "For the record, I sent that email last Friday.",
+    "display_sentence": "For the record, I sent that email last Friday.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "business"
+    ]
+  }
+]

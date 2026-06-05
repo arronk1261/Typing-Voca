@@ -1,5 +1,14 @@
 export type WordLevel = 1 | 2 | 3;
 
+export type WordFrequency = "high" | "mid" | "low";
+export type WordChunkType =
+  | "single_word"
+  | "collocation"
+  | "phrasal_verb"
+  | "idiom"
+  | "sentence_frame";
+export type WordDifficultyAxis = "spelling" | "meaning" | "usage" | "pronunciation";
+
 export interface Word {
   id: number;
   category: string;
@@ -10,6 +19,12 @@ export interface Word {
   sentence_ko: string;
   meaning: string;
   tts_text: string;
+  // v6 콘텐츠 태그 (docs/word-content-spec-v6.md)
+  display_sentence?: string;
+  frequency?: WordFrequency;
+  chunk_type?: WordChunkType;
+  difficulty_axis?: WordDifficultyAxis;
+  use_case?: string[];
 }
 
 export type StudyStage = "typing" | "shadowing";

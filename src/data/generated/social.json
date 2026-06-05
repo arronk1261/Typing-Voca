@@ -1,0 +1,3782 @@
+[
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "friend",
+    "sentence_en": "She's my best ___.",
+    "sentence_ko": "그녀는 제 가장 친한 친구예요.",
+    "meaning": "친구",
+    "tts_text": "She's my best friend.",
+    "display_sentence": "She's my best friend.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "friendship",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "party",
+    "sentence_en": "Are you coming to the ___?",
+    "sentence_ko": "파티에 올 거예요?",
+    "meaning": "파티",
+    "tts_text": "Are you coming to the party?",
+    "display_sentence": "Are you coming to the party?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social_event",
+      "invitation"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "invite",
+    "sentence_en": "I want to ___ you to dinner.",
+    "sentence_ko": "저녁 식사에 초대하고 싶어요.",
+    "meaning": "초대하다",
+    "tts_text": "I want to invite you to dinner.",
+    "display_sentence": "I want to invite you to dinner.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "invitation",
+      "dining"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "fun",
+    "sentence_en": "We had so much ___.",
+    "sentence_ko": "정말 재밌었어요.",
+    "meaning": "재미",
+    "tts_text": "We had so much fun.",
+    "display_sentence": "We had so much fun.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "friendship",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "together",
+    "sentence_en": "Let's go ___.",
+    "sentence_ko": "같이 가요.",
+    "meaning": "함께",
+    "tts_text": "Let's go together.",
+    "display_sentence": "Let's go together.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "friendship",
+      "daily"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "talk",
+    "sentence_en": "Can we ___ later?",
+    "sentence_ko": "나중에 얘기할 수 있어요?",
+    "meaning": "이야기하다",
+    "tts_text": "Can we talk later?",
+    "display_sentence": "Can we talk later?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "nice",
+    "sentence_en": "Your friends are so ___.",
+    "sentence_ko": "당신 친구들 정말 좋네요.",
+    "meaning": "친절한, 좋은",
+    "tts_text": "Your friends are so nice.",
+    "display_sentence": "Your friends are so nice.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "compliment",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "meet",
+    "sentence_en": "Let's ___ up this weekend.",
+    "sentence_ko": "이번 주말에 만나요.",
+    "meaning": "만나다",
+    "tts_text": "Let's meet up this weekend.",
+    "display_sentence": "Let's meet up this weekend.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "friendship",
+      "plan"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "call",
+    "sentence_en": "I'll ___ you tomorrow.",
+    "sentence_ko": "내일 전화할게요.",
+    "meaning": "전화하다",
+    "tts_text": "I'll call you tomorrow.",
+    "display_sentence": "I'll call you tomorrow.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "join",
+    "sentence_en": "Why don't you ___ us?",
+    "sentence_ko": "우리랑 함께하지 그래요?",
+    "meaning": "함께하다",
+    "tts_text": "Why don't you join us?",
+    "display_sentence": "Why don't you join us?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "invitation",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "share",
+    "sentence_en": "Can I ___ this with you?",
+    "sentence_ko": "이거 같이 나눠도 될까요?",
+    "meaning": "나누다, 공유하다",
+    "tts_text": "Can I share this with you?",
+    "display_sentence": "Can I share this with you?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "friendship",
+      "daily"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "help",
+    "sentence_en": "Let me ___ you with that.",
+    "sentence_ko": "그거 제가 도와줄게요.",
+    "meaning": "돕다",
+    "tts_text": "Let me help you with that.",
+    "display_sentence": "Let me help you with that.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "helping",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "kind",
+    "sentence_en": "He is very ___ to everyone.",
+    "sentence_ko": "그는 모두에게 아주 친절해요.",
+    "meaning": "친절한",
+    "tts_text": "He is very kind to everyone.",
+    "display_sentence": "He is very kind to everyone.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "character",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "game",
+    "sentence_en": "Let's play a ___ together.",
+    "sentence_ko": "같이 게임 한 판 해요.",
+    "meaning": "게임",
+    "tts_text": "Let's play a game together.",
+    "display_sentence": "Let's play a game together.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social_event",
+      "leisure"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "date",
+    "sentence_en": "We went on a ___ last night.",
+    "sentence_ko": "우리 어젯밤 데이트했어요.",
+    "meaning": "데이트",
+    "tts_text": "We went on a date last night.",
+    "display_sentence": "We went on a date last night.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "romance",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hug",
+    "sentence_en": "She gave me a warm ___.",
+    "sentence_ko": "그녀가 따뜻하게 안아 줬어요.",
+    "meaning": "포옹",
+    "tts_text": "She gave me a warm hug.",
+    "display_sentence": "She gave me a warm hug.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "affection",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "smile",
+    "sentence_en": "Your ___ is lovely.",
+    "sentence_ko": "당신 미소가 참 좋아요.",
+    "meaning": "미소",
+    "tts_text": "Your smile is lovely.",
+    "display_sentence": "Your smile is lovely.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "compliment",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "group",
+    "sentence_en": "We have a study ___.",
+    "sentence_ko": "우리는 스터디 그룹이 있어요.",
+    "meaning": "그룹",
+    "tts_text": "We have a study group.",
+    "display_sentence": "We have a study group.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "community",
+      "study"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "close",
+    "sentence_en": "We are very ___.",
+    "sentence_ko": "우리는 아주 친해요.",
+    "meaning": "가까운",
+    "tts_text": "We are very close.",
+    "display_sentence": "We are very close.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "friendship",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "gift",
+    "sentence_en": "I brought you a small ___.",
+    "sentence_ko": "작은 선물을 가져왔어요.",
+    "meaning": "선물",
+    "tts_text": "I brought you a small gift.",
+    "display_sentence": "I brought you a small gift.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social_event",
+      "celebration"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "dinner",
+    "sentence_en": "Let's have ___ together.",
+    "sentence_ko": "같이 저녁 먹어요.",
+    "meaning": "저녁 식사",
+    "tts_text": "Let's have dinner together.",
+    "display_sentence": "Let's have dinner together.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "dining",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "laugh",
+    "sentence_en": "We always ___ a lot.",
+    "sentence_ko": "우리는 늘 많이 웃어요.",
+    "meaning": "웃다",
+    "tts_text": "We always laugh a lot.",
+    "display_sentence": "We always laugh a lot.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "friendship",
+      "leisure"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "neighbor",
+    "sentence_en": "My ___ is very friendly.",
+    "sentence_ko": "제 이웃은 아주 다정해요.",
+    "meaning": "이웃",
+    "tts_text": "My neighbor is very friendly.",
+    "display_sentence": "My neighbor is very friendly.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "community",
+      "daily"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "guest",
+    "sentence_en": "We have a ___ tonight.",
+    "sentence_ko": "오늘 밤 손님이 와요.",
+    "meaning": "손님",
+    "tts_text": "We have a guest tonight.",
+    "display_sentence": "We have a guest tonight.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "hosting",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "welcome",
+    "sentence_en": "You're always ___ here.",
+    "sentence_ko": "여긴 언제든 환영이에요.",
+    "meaning": "환영받는",
+    "tts_text": "You're always welcome here.",
+    "display_sentence": "You're always welcome here.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "hosting",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "alone",
+    "sentence_en": "I don't want to be ___.",
+    "sentence_ko": "혼자 있고 싶지 않아요.",
+    "meaning": "혼자인",
+    "tts_text": "I don't want to be alone.",
+    "display_sentence": "I don't want to be alone.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "love",
+    "sentence_en": "I ___ spending time with you.",
+    "sentence_ko": "당신과 함께하는 시간이 너무 좋아요.",
+    "meaning": "너무 좋아하다",
+    "tts_text": "I love spending time with you.",
+    "display_sentence": "I love spending time with you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "affection",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sorry",
+    "sentence_en": "I'm really ___ about that.",
+    "sentence_ko": "정말 미안해요.",
+    "meaning": "미안한",
+    "tts_text": "I'm really sorry about that.",
+    "display_sentence": "I'm really sorry about that.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "apology",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "trust",
+    "sentence_en": "I ___ you completely.",
+    "sentence_ko": "당신을 완전히 믿어요.",
+    "meaning": "믿다",
+    "tts_text": "I trust you completely.",
+    "display_sentence": "I trust you completely.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "miss",
+    "sentence_en": "I ___ hanging out with you.",
+    "sentence_ko": "너랑 노는 게 그리워.",
+    "meaning": "보고 싶다",
+    "tts_text": "I miss hanging out with you.",
+    "display_sentence": "I miss hanging out with you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "affection",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "mad",
+    "sentence_en": "Please don't be ___ at me.",
+    "sentence_ko": "저한테 화내지 마세요.",
+    "meaning": "화난",
+    "tts_text": "Please don't be mad at me.",
+    "display_sentence": "Please don't be mad at me.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "emotion"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "argue",
+    "sentence_en": "Let's not ___ about this.",
+    "sentence_ko": "이 일로 다투지 말아요.",
+    "meaning": "다투다",
+    "tts_text": "Let's not argue about this.",
+    "display_sentence": "Let's not argue about this.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "promise",
+    "sentence_en": "I ___ I'll be there.",
+    "sentence_ko": "꼭 갈게요.",
+    "meaning": "약속하다",
+    "tts_text": "I promise I'll be there.",
+    "display_sentence": "I promise I'll be there.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "commitment",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "care",
+    "sentence_en": "I really ___ about you.",
+    "sentence_ko": "당신이 정말 걱정돼요.",
+    "meaning": "마음을 쓰다",
+    "tts_text": "I really care about you.",
+    "display_sentence": "I really care about you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "affection",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "fight",
+    "sentence_en": "We had a big ___ last night.",
+    "sentence_ko": "우리 어젯밤 크게 싸웠어요.",
+    "meaning": "다툼",
+    "tts_text": "We had a big fight last night.",
+    "display_sentence": "We had a big fight last night.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "honest",
+    "sentence_en": "Please be ___ with me.",
+    "sentence_ko": "저한테 솔직하게 말해 줘요.",
+    "meaning": "솔직한",
+    "tts_text": "Please be honest with me.",
+    "display_sentence": "Please be honest with me.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "couple",
+    "sentence_en": "They make a lovely ___.",
+    "sentence_ko": "그들은 정말 잘 어울리는 커플이에요.",
+    "meaning": "커플",
+    "tts_text": "They make a lovely couple.",
+    "display_sentence": "They make a lovely couple.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "romance",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "popular",
+    "sentence_en": "She's very ___ at school.",
+    "sentence_ko": "그녀는 학교에서 아주 인기 있어요.",
+    "meaning": "인기 있는",
+    "tts_text": "She's very popular at school.",
+    "display_sentence": "She's very popular at school.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "community",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "social",
+    "sentence_en": "He's a very ___ person.",
+    "sentence_ko": "그는 아주 사교적인 사람이에요.",
+    "meaning": "사교적인",
+    "tts_text": "He's a very social person.",
+    "display_sentence": "He's a very social person.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "character",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "cheer",
+    "sentence_en": "We need to ___ her up.",
+    "sentence_ko": "그녀를 기운 차리게 해 줘야 해요.",
+    "meaning": "기운 나게 하다",
+    "tts_text": "We need to cheer her up.",
+    "display_sentence": "We need to cheer her up.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "helping",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "generous",
+    "sentence_en": "That was very ___ of you.",
+    "sentence_ko": "정말 너그러우셨어요.",
+    "meaning": "너그러운, 관대한",
+    "tts_text": "That was very generous of you.",
+    "display_sentence": "That was very generous of you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "compliment",
+      "helping"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "wait",
+    "sentence_en": "Can you ___ for me?",
+    "sentence_ko": "저 기다려 줄 수 있어요?",
+    "meaning": "기다리다",
+    "tts_text": "Can you wait for me?",
+    "display_sentence": "Can you wait for me?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "friendship",
+      "daily"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "introduce",
+    "sentence_en": "Let me ___ you to my friends.",
+    "sentence_ko": "제 친구들을 소개시켜 드릴게요.",
+    "meaning": "소개하다",
+    "tts_text": "Let me introduce you to my friends.",
+    "display_sentence": "Let me introduce you to my friends.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "introduction",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "visit",
+    "sentence_en": "I'd love to ___ your new place.",
+    "sentence_ko": "너의 새 집에 꼭 놀러 가고 싶어.",
+    "meaning": "방문하다",
+    "tts_text": "I'd love to visit your new place.",
+    "display_sentence": "I'd love to visit your new place.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "hosting",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "shy",
+    "sentence_en": "She's a little ___ at first.",
+    "sentence_ko": "그녀는 처음에 좀 수줍어해요.",
+    "meaning": "수줍어하는",
+    "tts_text": "She's a little shy at first.",
+    "display_sentence": "She's a little shy at first.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "character",
+      "introduction"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sweet",
+    "sentence_en": "That's so ___ of you.",
+    "sentence_ko": "당신 정말 다정하네요.",
+    "meaning": "다정한, 친절한",
+    "tts_text": "That's so sweet of you.",
+    "display_sentence": "That's so sweet of you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "compliment",
+      "affection"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "busy",
+    "sentence_en": "Are you ___ this evening?",
+    "sentence_ko": "오늘 저녁에 바빠요?",
+    "meaning": "바쁜",
+    "tts_text": "Are you busy this evening?",
+    "display_sentence": "Are you busy this evening?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "plan",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "free",
+    "sentence_en": "Are you ___ on Saturday?",
+    "sentence_ko": "토요일에 시간 있어요?",
+    "meaning": "시간이 있는",
+    "tts_text": "Are you free on Saturday?",
+    "display_sentence": "Are you free on Saturday?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "plan",
+      "invitation"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "borrow",
+    "sentence_en": "Can I ___ your pen?",
+    "sentence_ko": "펜 좀 빌려도 될까요?",
+    "meaning": "빌리다",
+    "tts_text": "Can I borrow your pen?",
+    "display_sentence": "Can I borrow your pen?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "helping",
+      "daily"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "support",
+    "sentence_en": "Thank you for your ___.",
+    "sentence_ko": "응원해 줘서 고마워요.",
+    "meaning": "지지, 응원",
+    "tts_text": "Thank you for your support.",
+    "display_sentence": "Thank you for your support.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "helping",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "listen",
+    "sentence_en": "Please ___ to me.",
+    "sentence_ko": "제 말 좀 들어 주세요.",
+    "meaning": "듣다",
+    "tts_text": "Please listen to me.",
+    "display_sentence": "Please listen to me.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "respect",
+    "sentence_en": "I have a lot of ___ for her.",
+    "sentence_ko": "저는 그녀를 많이 존경해요.",
+    "meaning": "존경, 존중",
+    "tts_text": "I have a lot of respect for her.",
+    "display_sentence": "I have a lot of respect for her.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "relationship",
+      "character"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "accept",
+    "sentence_en": "Please ___ my apology.",
+    "sentence_ko": "제 사과를 받아 줘요.",
+    "meaning": "받아들이다",
+    "tts_text": "Please accept my apology.",
+    "display_sentence": "Please accept my apology.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "apology",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "forgive",
+    "sentence_en": "Can you ___ me?",
+    "sentence_ko": "저를 용서해 줄 수 있어요?",
+    "meaning": "용서하다",
+    "tts_text": "Can you forgive me?",
+    "display_sentence": "Can you forgive me?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "apology",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "birthday",
+    "sentence_en": "Happy ___ to you!",
+    "sentence_ko": "생일 축하해요!",
+    "meaning": "생일",
+    "tts_text": "Happy birthday to you!",
+    "display_sentence": "Happy birthday to you!",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "celebration",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "celebrate",
+    "sentence_en": "Let's ___ together!",
+    "sentence_ko": "같이 축하해요!",
+    "meaning": "축하하다",
+    "tts_text": "Let's celebrate together!",
+    "display_sentence": "Let's celebrate together!",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "celebration",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "wedding",
+    "sentence_en": "I'm going to a ___ this Saturday.",
+    "sentence_ko": "이번 토요일에 결혼식에 가요.",
+    "meaning": "결혼식",
+    "tts_text": "I'm going to a wedding this Saturday.",
+    "display_sentence": "I'm going to a wedding this Saturday.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "celebration",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "upset",
+    "sentence_en": "She was really ___ at me.",
+    "sentence_ko": "그녀는 저한테 정말 화가 났어요.",
+    "meaning": "화난, 속상한",
+    "tts_text": "She was really upset at me.",
+    "display_sentence": "She was really upset at me.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "emotion"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "understand",
+    "sentence_en": "I ___ how you feel.",
+    "sentence_ko": "당신 마음 이해해요.",
+    "meaning": "이해하다",
+    "tts_text": "I understand how you feel.",
+    "display_sentence": "I understand how you feel.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "empathy",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "feel",
+    "sentence_en": "How do you ___ about that?",
+    "sentence_ko": "그것에 대해 어떻게 느껴요?",
+    "meaning": "느끼다",
+    "tts_text": "How do you feel about that?",
+    "display_sentence": "How do you feel about that?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "empathy",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "nervous",
+    "sentence_en": "I'm a little ___ about meeting them.",
+    "sentence_ko": "그들을 만나는 게 좀 긴장돼요.",
+    "meaning": "긴장한",
+    "tts_text": "I'm a little nervous about meeting them.",
+    "display_sentence": "I'm a little nervous about meeting them.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emotion",
+      "introduction"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "grateful",
+    "sentence_en": "I'm so ___ for your help.",
+    "sentence_ko": "도움에 정말 감사해요.",
+    "meaning": "감사하는",
+    "tts_text": "I'm so grateful for your help.",
+    "display_sentence": "I'm so grateful for your help.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "gratitude",
+      "helping"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "mention",
+    "sentence_en": "Don't ___ it to anyone.",
+    "sentence_ko": "아무한테도 말하지 마세요.",
+    "meaning": "언급하다",
+    "tts_text": "Don't mention it to anyone.",
+    "display_sentence": "Don't mention it to anyone.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "secret"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "secret",
+    "sentence_en": "Can you keep a ___?",
+    "sentence_ko": "비밀 지킬 수 있어요?",
+    "meaning": "비밀",
+    "tts_text": "Can you keep a secret?",
+    "display_sentence": "Can you keep a secret?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "secret",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "apologize",
+    "sentence_en": "I need to ___ to you.",
+    "sentence_ko": "당신에게 사과해야 해요.",
+    "meaning": "사과하다",
+    "tts_text": "I need to apologize to you.",
+    "display_sentence": "I need to apologize to you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "apology",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "remind",
+    "sentence_en": "Can you ___ me about the party?",
+    "sentence_ko": "파티 얘기 다시 알려줄 수 있어요?",
+    "meaning": "상기시키다",
+    "tts_text": "Can you remind me about the party?",
+    "display_sentence": "Can you remind me about the party?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "gossip",
+    "sentence_en": "I don't like ___.",
+    "sentence_ko": "저는 험담을 좋아하지 않아요.",
+    "meaning": "험담, 가십",
+    "tts_text": "I don't like gossip.",
+    "display_sentence": "I don't like gossip.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "community",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "polite",
+    "sentence_en": "It's important to be ___ to others.",
+    "sentence_ko": "다른 사람에게 예의 바른 게 중요해요.",
+    "meaning": "예의 바른",
+    "tts_text": "It's important to be polite to others.",
+    "display_sentence": "It's important to be polite to others.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "character",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "hang out",
+    "sentence_en": "Let's ___ this weekend.",
+    "sentence_ko": "이번 주말에 같이 놀아요.",
+    "meaning": "어울려 놀다",
+    "tts_text": "Let's hang out this weekend.",
+    "display_sentence": "Let's hang out this weekend.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "friendship",
+      "leisure"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get along",
+    "sentence_en": "Do you ___ with your roommate?",
+    "sentence_ko": "룸메이트랑 잘 지내요?",
+    "meaning": "잘 지내다",
+    "tts_text": "Do you get along with your roommate?",
+    "display_sentence": "Do you get along with your roommate?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "relationship",
+      "daily"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "show up",
+    "sentence_en": "Not many people ___ to the event.",
+    "sentence_ko": "그 행사에 사람들이 많이 안 왔어요.",
+    "meaning": "나타나다, 오다",
+    "tts_text": "Not many people show up to the event.",
+    "display_sentence": "Not many people show up to the event.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social_event",
+      "plan"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "have a falling out",
+    "sentence_en": "They ___ over money.",
+    "sentence_ko": "그들은 돈 문제로 사이가 틀어졌어요.",
+    "meaning": "사이가 틀어지다",
+    "tts_text": "They have a falling out over money.",
+    "display_sentence": "They have a falling out over money.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "conflict",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "make up",
+    "sentence_en": "Did you two ___ after the fight?",
+    "sentence_ko": "둘이 싸우고 나서 화해했어요?",
+    "meaning": "화해하다",
+    "tts_text": "Did you two make up after the fight?",
+    "display_sentence": "Did you two make up after the fight?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "close to",
+    "sentence_en": "I'm very ___ my sister.",
+    "sentence_ko": "전 언니와 아주 가까워요.",
+    "meaning": "~와 친한",
+    "tts_text": "I'm very close to my sister.",
+    "display_sentence": "I'm very close to my sister.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "friendship",
+      "family"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "leave out",
+    "sentence_en": "Don't ___ anyone from the group.",
+    "sentence_ko": "그룹에서 누구도 빼놓지 마세요.",
+    "meaning": "빼다, 따돌리다",
+    "tts_text": "Don't leave out anyone from the group.",
+    "display_sentence": "Don't leave out anyone from the group.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "community",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "catch up with",
+    "sentence_en": "I need to ___ my old friends.",
+    "sentence_ko": "옛 친구들과 회포를 풀어야 해요.",
+    "meaning": "근황을 나누다",
+    "tts_text": "I need to catch up with my old friends.",
+    "display_sentence": "I need to catch up with my old friends.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "friendship",
+      "reunion"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get to know",
+    "sentence_en": "I'd like to ___ you better.",
+    "sentence_ko": "당신을 더 잘 알고 싶어요.",
+    "meaning": "알아가다",
+    "tts_text": "I'd like to get to know you better.",
+    "display_sentence": "I'd like to get to know you better.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "introduction",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "look up to",
+    "sentence_en": "I really ___ my mentor.",
+    "sentence_ko": "전 제 멘토를 정말 존경해요.",
+    "meaning": "존경하다",
+    "tts_text": "I really look up to my mentor.",
+    "display_sentence": "I really look up to my mentor.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "character"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "count on",
+    "sentence_en": "You can ___ me anytime.",
+    "sentence_ko": "언제든 절 믿고 의지해도 돼요.",
+    "meaning": "믿고 의지하다",
+    "tts_text": "You can count on me anytime.",
+    "display_sentence": "You can count on me anytime.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "trust",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "fell for",
+    "sentence_en": "She slowly ___ him.",
+    "sentence_ko": "그녀는 서서히 그에게 반했어요.",
+    "meaning": "~에게 반하다",
+    "tts_text": "She slowly fell for him.",
+    "display_sentence": "She slowly fell for him.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "romance",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "hit it off",
+    "sentence_en": "We ___ on the first day.",
+    "sentence_ko": "우리는 첫날 바로 잘 통했어요.",
+    "meaning": "금세 친해지다",
+    "tts_text": "We hit it off on the first day.",
+    "display_sentence": "We hit it off on the first day.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "friendship",
+      "introduction"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "asked her out",
+    "sentence_en": "He finally ___.",
+    "sentence_ko": "그는 마침내 그녀에게 데이트 신청을 했어요.",
+    "meaning": "데이트 신청을 하다",
+    "tts_text": "He finally asked her out.",
+    "display_sentence": "He finally asked her out.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "romance",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get together",
+    "sentence_en": "Let's ___ next week.",
+    "sentence_ko": "다음 주에 모여요.",
+    "meaning": "모이다",
+    "tts_text": "Let's get together next week.",
+    "display_sentence": "Let's get together next week.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social_event",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a heart-to-heart",
+    "sentence_en": "We had ___ last night.",
+    "sentence_ko": "우리는 어젯밤 진솔한 대화를 나눴어요.",
+    "meaning": "속 깊은 대화",
+    "tts_text": "We had a heart-to-heart last night.",
+    "display_sentence": "We had a heart-to-heart last night.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "break up",
+    "sentence_en": "They decided to ___.",
+    "sentence_ko": "그들은 헤어지기로 했어요.",
+    "meaning": "헤어지다",
+    "tts_text": "They decided to break up.",
+    "display_sentence": "They decided to break up.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "romance",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "stand up for",
+    "sentence_en": "She'll always ___ her friends.",
+    "sentence_ko": "그녀는 늘 친구 편을 들어 줘요.",
+    "meaning": "편들다, 옹호하다",
+    "tts_text": "She'll always stand up for her friends.",
+    "display_sentence": "She'll always stand up for her friends.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "friendship",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a get-together",
+    "sentence_en": "We're having ___ on Saturday.",
+    "sentence_ko": "토요일에 모임이 있어요.",
+    "meaning": "모임",
+    "tts_text": "We're having a get-together on Saturday.",
+    "display_sentence": "We're having a get-together on Saturday.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social_event",
+      "plan"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "show around",
+    "sentence_en": "Let me ___ the new intern.",
+    "sentence_ko": "제가 새 인턴을 구경시켜 드릴게요.",
+    "meaning": "구경시켜 주다",
+    "tts_text": "Let me show around the new intern.",
+    "display_sentence": "Let me show around the new intern.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "introduction",
+      "hosting"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "keep me company",
+    "sentence_en": "Will you ___ while I wait?",
+    "sentence_ko": "기다리는 동안 곁에 있어 줄래요?",
+    "meaning": "곁에 있어 주다",
+    "tts_text": "Will you keep me company while I wait?",
+    "display_sentence": "Will you keep me company while I wait?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "helping",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "bring up",
+    "sentence_en": "Don't ___ that topic tonight.",
+    "sentence_ko": "오늘 밤 그 얘기는 꺼내지 마세요.",
+    "meaning": "(화제를) 꺼내다",
+    "tts_text": "Don't bring up that topic tonight.",
+    "display_sentence": "Don't bring up that topic tonight.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "set up",
+    "sentence_en": "My friend tried to ___ a blind date for me.",
+    "sentence_ko": "친구가 저한테 소개팅을 주선해 줬어요.",
+    "meaning": "주선하다",
+    "tts_text": "My friend tried to set up a blind date for me.",
+    "display_sentence": "My friend tried to set up a blind date for me.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "romance",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "reach out",
+    "sentence_en": "I should ___ to her first.",
+    "sentence_ko": "제가 먼저 그녀에게 연락해야 해요.",
+    "meaning": "먼저 연락하다",
+    "tts_text": "I should reach out to her first.",
+    "display_sentence": "I should reach out to her first.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "open up",
+    "sentence_en": "It's hard for him to ___ to people.",
+    "sentence_ko": "그는 사람들에게 마음을 열기가 어려워요.",
+    "meaning": "마음을 열다",
+    "tts_text": "It's hard for him to open up to people.",
+    "display_sentence": "It's hard for him to open up to people.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "fall out",
+    "sentence_en": "They ___ over a misunderstanding.",
+    "sentence_ko": "그들은 오해로 인해 사이가 멀어졌어요.",
+    "meaning": "사이가 멀어지다",
+    "tts_text": "They fall out over a misunderstanding.",
+    "display_sentence": "They fall out over a misunderstanding.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "fit in",
+    "sentence_en": "She was trying hard to ___ with the group.",
+    "sentence_ko": "그녀는 그룹에 어울리려고 열심히 노력했어요.",
+    "meaning": "어울리다, 섞이다",
+    "tts_text": "She was trying hard to fit in with the group.",
+    "display_sentence": "She was trying hard to fit in with the group.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "community",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "put up with",
+    "sentence_en": "I can't ___ his behavior anymore.",
+    "sentence_ko": "그의 행동을 더 이상 참을 수가 없어요.",
+    "meaning": "참다, 견디다",
+    "tts_text": "I can't put up with his behavior anymore.",
+    "display_sentence": "I can't put up with his behavior anymore.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "conflict",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a good listener",
+    "sentence_en": "She's always been ___.",
+    "sentence_ko": "그녀는 늘 잘 들어주는 사람이에요.",
+    "meaning": "잘 들어주는 사람",
+    "tts_text": "She's always been a good listener.",
+    "display_sentence": "She's always been a good listener.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "character",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "give and take",
+    "sentence_en": "Every good relationship needs ___.",
+    "sentence_ko": "모든 좋은 관계에는 주고받음이 필요해요.",
+    "meaning": "주고받음, 상호 양보",
+    "tts_text": "Every good relationship needs give and take.",
+    "display_sentence": "Every good relationship needs give and take.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "mutual friend",
+    "sentence_en": "We have a ___ in common.",
+    "sentence_ko": "우리에게 공통으로 아는 친구가 있어요.",
+    "meaning": "공통의 친구",
+    "tts_text": "We have a mutual friend in common.",
+    "display_sentence": "We have a mutual friend in common.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "introduction",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take sides",
+    "sentence_en": "I don't want to ___ in your argument.",
+    "sentence_ko": "당신들 싸움에서 어느 편도 들고 싶지 않아요.",
+    "meaning": "편을 들다",
+    "tts_text": "I don't want to take sides in your argument.",
+    "display_sentence": "I don't want to take sides in your argument.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "conflict",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "stay in touch",
+    "sentence_en": "Let's ___ after you move.",
+    "sentence_ko": "이사 가도 연락하며 지내요.",
+    "meaning": "연락하며 지내다",
+    "tts_text": "Let's stay in touch after you move.",
+    "display_sentence": "Let's stay in touch after you move.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "friendship",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "in common",
+    "sentence_en": "We have a lot ___.",
+    "sentence_ko": "우리는 공통점이 많아요.",
+    "meaning": "공통점으로",
+    "tts_text": "We have a lot in common.",
+    "display_sentence": "We have a lot in common.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "friendship",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "give him space",
+    "sentence_en": "He needs us to ___ right now.",
+    "sentence_ko": "지금은 그에게 혼자 있을 공간을 줘야 해요.",
+    "meaning": "혼자만의 공간을 주다",
+    "tts_text": "He needs us to give him space right now.",
+    "display_sentence": "He needs us to give him space right now.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "relationship",
+      "emotion"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "on the same page",
+    "sentence_en": "Are we all ___?",
+    "sentence_ko": "우리 모두 이해가 같아요?",
+    "meaning": "같은 생각을 하는",
+    "tts_text": "Are we all on the same page?",
+    "display_sentence": "Are we all on the same page?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "going through",
+    "sentence_en": "She's ___ a tough time right now.",
+    "sentence_ko": "그녀는 지금 힘든 시간을 보내고 있어요.",
+    "meaning": "겪다, 힘든 시기를 보내다",
+    "tts_text": "She's going through a tough time right now.",
+    "display_sentence": "She's going through a tough time right now.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "empathy",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take for granted",
+    "sentence_en": "Never ___ the people who help you.",
+    "sentence_ko": "당신을 도와주는 사람들을 당연하게 여기지 마세요.",
+    "meaning": "당연하게 여기다",
+    "tts_text": "Never take for granted the people who help you.",
+    "display_sentence": "Never take for granted the people who help you.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "relationship",
+      "gratitude"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "be there for",
+    "sentence_en": "I'll always ___ you.",
+    "sentence_ko": "난 늘 네 곁에 있을게.",
+    "meaning": "곁에서 힘이 되어 주다",
+    "tts_text": "I'll always be there for you.",
+    "display_sentence": "I'll always be there for you.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "friendship",
+      "support"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "win over",
+    "sentence_en": "It took time to ___ the whole team.",
+    "sentence_ko": "팀 전체의 마음을 얻는 데 시간이 걸렸어요.",
+    "meaning": "마음을 얻다",
+    "tts_text": "It took time to win over the whole team.",
+    "display_sentence": "It took time to win over the whole team.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "persuasion"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a rocky relationship",
+    "sentence_en": "They've had ___ from the start.",
+    "sentence_ko": "그들은 처음부터 험난한 관계였어요.",
+    "meaning": "순탄치 않은 관계",
+    "tts_text": "They've had a rocky relationship from the start.",
+    "display_sentence": "They've had a rocky relationship from the start.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "romance"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "move on",
+    "sentence_en": "It's time to ___ and forget the past.",
+    "sentence_ko": "이제 과거를 잊고 앞으로 나아갈 때예요.",
+    "meaning": "잊고 앞으로 나아가다",
+    "tts_text": "It's time to move on and forget the past.",
+    "display_sentence": "It's time to move on and forget the past.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a big deal",
+    "sentence_en": "Don't make ___ out of it.",
+    "sentence_ko": "그걸로 너무 크게 만들지 마세요.",
+    "meaning": "중요한 일",
+    "tts_text": "Don't make a big deal out of it.",
+    "display_sentence": "Don't make a big deal out of it.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "speak up",
+    "sentence_en": "Don't be afraid to ___ for yourself.",
+    "sentence_ko": "자신을 위해 목소리를 내는 걸 두려워하지 마세요.",
+    "meaning": "목소리를 높이다, 의견을 말하다",
+    "tts_text": "Don't be afraid to speak up for yourself.",
+    "display_sentence": "Don't be afraid to speak up for yourself.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "talk things out",
+    "sentence_en": "We should ___ before it gets worse.",
+    "sentence_ko": "더 나빠지기 전에 이야기로 풀어야 해요.",
+    "meaning": "이야기로 풀다",
+    "tts_text": "We should talk things out before it gets worse.",
+    "display_sentence": "We should talk things out before it gets worse.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "conflict",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "make friends",
+    "sentence_en": "It's easy to ___ when you're outgoing.",
+    "sentence_ko": "외향적이면 친구 사귀기가 쉬워요.",
+    "meaning": "친구를 사귀다",
+    "tts_text": "It's easy to make friends when you're outgoing.",
+    "display_sentence": "It's easy to make friends when you're outgoing.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "friendship",
+      "introduction"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "grow apart",
+    "sentence_en": "We slowly started to ___ after college.",
+    "sentence_ko": "대학 후에 우리는 서서히 멀어지기 시작했어요.",
+    "meaning": "서서히 멀어지다",
+    "tts_text": "We slowly started to grow apart after college.",
+    "display_sentence": "We slowly started to grow apart after college.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get back together",
+    "sentence_en": "They decided to ___ after six months.",
+    "sentence_ko": "그들은 여섯 달 만에 다시 만나기로 했어요.",
+    "meaning": "다시 사귀다",
+    "tts_text": "They decided to get back together after six months.",
+    "display_sentence": "They decided to get back together after six months.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "romance",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "make it up to",
+    "sentence_en": "I'll ___ you, I promise.",
+    "sentence_ko": "꼭 보상해 줄게요, 약속해요.",
+    "meaning": "보상하다, 만회하다",
+    "tts_text": "I'll make it up to you, I promise.",
+    "display_sentence": "I'll make it up to you, I promise.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "apology",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "drop by",
+    "sentence_en": "Why don't you ___ after work?",
+    "sentence_ko": "퇴근하고 한번 들를래요?",
+    "meaning": "잠깐 들르다",
+    "tts_text": "Why don't you drop by after work?",
+    "display_sentence": "Why don't you drop by after work?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "hosting",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "lean on",
+    "sentence_en": "You can always ___ me when things are hard.",
+    "sentence_ko": "힘들 때 언제든 저한테 기대도 돼요.",
+    "meaning": "기대다, 의지하다",
+    "tts_text": "You can always lean on me when things are hard.",
+    "display_sentence": "You can always lean on me when things are hard.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "support",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "seeing less of",
+    "sentence_en": "We've been ___ each other lately.",
+    "sentence_ko": "요즘 우리 서로 얼굴 보는 게 줄었어요.",
+    "meaning": "덜 만나다",
+    "tts_text": "We've been seeing less of each other lately.",
+    "display_sentence": "We've been seeing less of each other lately.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "relationship",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "goes out of her way",
+    "sentence_en": "She always ___ to help others.",
+    "sentence_ko": "그녀는 늘 다른 사람을 돕기 위해 수고를 아끼지 않아요.",
+    "meaning": "수고를 아끼지 않다",
+    "tts_text": "She always goes out of her way to help others.",
+    "display_sentence": "She always goes out of her way to help others.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "helping",
+      "character"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "drifted apart",
+    "sentence_en": "We slowly ___ after college.",
+    "sentence_ko": "우리는 대학 후에 서서히 멀어졌어요.",
+    "meaning": "사이가 멀어지다",
+    "tts_text": "We slowly drifted apart after college.",
+    "display_sentence": "We slowly drifted apart after college.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "got your back",
+    "sentence_en": "Don't worry, I've ___.",
+    "sentence_ko": "걱정 마, 내가 네 편이야.",
+    "meaning": "편이 되어 줌",
+    "tts_text": "Don't worry, I've got your back.",
+    "display_sentence": "Don't worry, I've got your back.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "support",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "patch things up",
+    "sentence_en": "They managed to ___.",
+    "sentence_ko": "그들은 가까스로 관계를 회복했어요.",
+    "meaning": "관계를 회복하다",
+    "tts_text": "They managed to patch things up.",
+    "display_sentence": "They managed to patch things up.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bent over backwards",
+    "sentence_en": "She ___ to help everyone.",
+    "sentence_ko": "그녀는 모두를 돕느라 애를 무척 썼어요.",
+    "meaning": "최선을 다해 애쓰다",
+    "tts_text": "She bent over backwards to help everyone.",
+    "display_sentence": "She bent over backwards to help everyone.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "helping",
+      "character"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "common ground",
+    "sentence_en": "We finally found ___.",
+    "sentence_ko": "우리는 마침내 공통점을 찾았어요.",
+    "meaning": "공통점, 합의점",
+    "tts_text": "We finally found common ground.",
+    "display_sentence": "We finally found common ground.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "grew on",
+    "sentence_en": "He really ___ me over time.",
+    "sentence_ko": "시간이 지나니 그가 점점 좋아졌어요.",
+    "meaning": "점점 좋아지다",
+    "tts_text": "He really grew on me over time.",
+    "display_sentence": "He really grew on me over time.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "the life of the party",
+    "sentence_en": "She's always ___.",
+    "sentence_ko": "그녀는 늘 파티의 분위기 메이커예요.",
+    "meaning": "분위기를 띄우는 사람",
+    "tts_text": "She's always the life of the party.",
+    "display_sentence": "She's always the life of the party.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social_event",
+      "character"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "see eye to eye",
+    "sentence_en": "We finally ___ on it.",
+    "sentence_ko": "우리는 마침내 그 일에 의견이 일치했어요.",
+    "meaning": "의견이 완전히 일치하다",
+    "tts_text": "We finally see eye to eye on it.",
+    "display_sentence": "We finally see eye to eye on it.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a shoulder to cry on",
+    "sentence_en": "She was ___ when I was down.",
+    "sentence_ko": "제가 힘들 때 그녀가 위로가 되어 줬어요.",
+    "meaning": "기댈 사람, 위안",
+    "tts_text": "She was a shoulder to cry on when I was down.",
+    "display_sentence": "She was a shoulder to cry on when I was down.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "support",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "hit it off with",
+    "sentence_en": "I really ___ her family.",
+    "sentence_ko": "전 그녀 가족과 정말 잘 통했어요.",
+    "meaning": "~와 금세 친해지다",
+    "tts_text": "I really hit it off with her family.",
+    "display_sentence": "I really hit it off with her family.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "introduction",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "keep in touch",
+    "sentence_en": "Let's ___ after you move.",
+    "sentence_ko": "이사 가도 연락하고 지내요.",
+    "meaning": "연락하고 지내다",
+    "tts_text": "Let's keep in touch after you move.",
+    "display_sentence": "Let's keep in touch after you move.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "friendship",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a close-knit group",
+    "sentence_en": "We're ___ of friends.",
+    "sentence_ko": "우리는 끈끈한 친구 무리예요.",
+    "meaning": "끈끈한 무리",
+    "tts_text": "We're a close-knit group of friends.",
+    "display_sentence": "We're a close-knit group of friends.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "community",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "burn bridges",
+    "sentence_en": "Don't ___ when you quit.",
+    "sentence_ko": "그만둘 때 인연을 끊지 마세요.",
+    "meaning": "관계를 끊다",
+    "tts_text": "Don't burn bridges when you quit.",
+    "display_sentence": "Don't burn bridges when you quit.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on good terms",
+    "sentence_en": "We're still ___.",
+    "sentence_ko": "우리는 아직 사이가 좋아요.",
+    "meaning": "사이가 좋은",
+    "tts_text": "We're still on good terms.",
+    "display_sentence": "We're still on good terms.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get on like a house on fire",
+    "sentence_en": "They ___.",
+    "sentence_ko": "그들은 죽이 척척 잘 맞아요.",
+    "meaning": "아주 잘 어울리다",
+    "tts_text": "They get on like a house on fire.",
+    "display_sentence": "They get on like a house on fire.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "friendship",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "an old flame",
+    "sentence_en": "She ran into ___.",
+    "sentence_ko": "그녀는 옛 연인을 우연히 마주쳤어요.",
+    "meaning": "옛 연인",
+    "tts_text": "She ran into an old flame.",
+    "display_sentence": "She ran into an old flame.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "romance",
+      "reunion"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "clear the air",
+    "sentence_en": "We need to ___ between us.",
+    "sentence_ko": "우리 사이 오해를 풀어야 해요.",
+    "meaning": "오해를 풀다",
+    "tts_text": "We need to clear the air between us.",
+    "display_sentence": "We need to clear the air between us.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a fair-weather friend",
+    "sentence_en": "He turned out to be ___.",
+    "sentence_ko": "그는 알고 보니 좋을 때만 친구였어요.",
+    "meaning": "좋을 때만 친구",
+    "tts_text": "He turned out to be a fair-weather friend.",
+    "display_sentence": "He turned out to be a fair-weather friend.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "friendship",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bury the hatchet",
+    "sentence_en": "It's time to ___.",
+    "sentence_ko": "이제 화해할 때예요.",
+    "meaning": "화해하다",
+    "tts_text": "It's time to bury the hatchet.",
+    "display_sentence": "It's time to bury the hatchet.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a soft spot for",
+    "sentence_en": "I have ___ him.",
+    "sentence_ko": "전 그를 각별히 아껴요.",
+    "meaning": "각별히 아끼는 마음",
+    "tts_text": "I have a soft spot for him.",
+    "display_sentence": "I have a soft spot for him.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "affection",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "got off on the wrong foot",
+    "sentence_en": "We ___ at first.",
+    "sentence_ko": "우리는 처음에 첫 단추를 잘못 끼웠어요.",
+    "meaning": "첫인상이 나쁘게 시작하다",
+    "tts_text": "We got off on the wrong foot at first.",
+    "display_sentence": "We got off on the wrong foot at first.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "introduction",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a kindred spirit",
+    "sentence_en": "I found ___ in her.",
+    "sentence_ko": "그녀에게서 마음이 통하는 사람을 만났어요.",
+    "meaning": "마음 맞는 사람",
+    "tts_text": "I found a kindred spirit in her.",
+    "display_sentence": "I found a kindred spirit in her.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "friendship",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "have a lot of baggage",
+    "sentence_en": "He seems to ___ from his past.",
+    "sentence_ko": "그는 과거에서 비롯된 짐이 많은 것 같아요.",
+    "meaning": "과거의 상처가 많다",
+    "tts_text": "He seems to have a lot of baggage from his past.",
+    "display_sentence": "He seems to have a lot of baggage from his past.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "emotion"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "let down",
+    "sentence_en": "I don't want to ___ my friends.",
+    "sentence_ko": "친구들을 실망시키고 싶지 않아요.",
+    "meaning": "실망시키다",
+    "tts_text": "I don't want to let down my friends.",
+    "display_sentence": "I don't want to let down my friends.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "friendship",
+      "trust"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "extend an olive branch",
+    "sentence_en": "He decided to ___ after the argument.",
+    "sentence_ko": "그는 말다툼 후 화해의 손을 내밀기로 했어요.",
+    "meaning": "화해의 손을 내밀다",
+    "tts_text": "He decided to extend an olive branch after the argument.",
+    "display_sentence": "He decided to extend an olive branch after the argument.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "pull away",
+    "sentence_en": "She started to ___ from the group.",
+    "sentence_ko": "그녀는 그룹에서 멀어지기 시작했어요.",
+    "meaning": "멀어지다, 거리를 두다",
+    "tts_text": "She started to pull away from the group.",
+    "display_sentence": "She started to pull away from the group.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "emotion"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "fall on deaf ears",
+    "sentence_en": "My advice seemed to ___.",
+    "sentence_ko": "제 조언이 헛귀에 그친 것 같았어요.",
+    "meaning": "무시되다, 헛귀에 그치다",
+    "tts_text": "My advice seemed to fall on deaf ears.",
+    "display_sentence": "My advice seemed to fall on deaf ears.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "keeping him at arm's length",
+    "sentence_en": "I've been ___.",
+    "sentence_ko": "저는 그와 어느 정도 거리를 유지하고 있어요.",
+    "meaning": "거리를 유지하다",
+    "tts_text": "I've been keeping him at arm's length.",
+    "display_sentence": "I've been keeping him at arm's length.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "relationship",
+      "boundary"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "wear his heart on his sleeve",
+    "sentence_en": "Among friends, he tends to ___.",
+    "sentence_ko": "친구들 사이에서 그는 감정을 잘 드러내는 편이에요.",
+    "meaning": "감정을 쉽게 드러내다",
+    "tts_text": "Among friends, he tends to wear his heart on his sleeve.",
+    "display_sentence": "Among friends, he tends to wear his heart on his sleeve.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "character"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "toxic relationship",
+    "sentence_en": "She finally walked away from a ___.",
+    "sentence_ko": "그녀는 마침내 독성 관계에서 벗어났어요.",
+    "meaning": "해로운 관계",
+    "tts_text": "She finally walked away from a toxic relationship.",
+    "display_sentence": "She finally walked away from a toxic relationship.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "mend fences",
+    "sentence_en": "It's time to ___ with your brother.",
+    "sentence_ko": "남동생과 관계를 회복할 때가 됐어요.",
+    "meaning": "관계를 개선하다",
+    "tts_text": "It's time to mend fences with your brother.",
+    "display_sentence": "It's time to mend fences with your brother.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "family"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "play devil's advocate",
+    "sentence_en": "Let me ___ for a moment.",
+    "sentence_ko": "잠깐 반론을 제기해 볼게요.",
+    "meaning": "반론을 제기하다",
+    "tts_text": "Let me play devil's advocate for a moment.",
+    "display_sentence": "Let me play devil's advocate for a moment.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "strike up a friendship",
+    "sentence_en": "They managed to ___ in no time.",
+    "sentence_ko": "그들은 금세 우정을 쌓았어요.",
+    "meaning": "우정을 쌓다",
+    "tts_text": "They managed to strike up a friendship in no time.",
+    "display_sentence": "They managed to strike up a friendship in no time.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "friendship",
+      "introduction"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "call it quits",
+    "sentence_en": "After three years, they decided to ___.",
+    "sentence_ko": "3년 만에 그들은 끝내기로 했어요.",
+    "meaning": "끝내다, 관계를 정리하다",
+    "tts_text": "After three years, they decided to call it quits.",
+    "display_sentence": "After three years, they decided to call it quits.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "romance",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a two-way street",
+    "sentence_en": "Friendship is ___.",
+    "sentence_ko": "우정은 서로 주고받는 것이에요.",
+    "meaning": "서로 주고받는 것",
+    "tts_text": "Friendship is a two-way street.",
+    "display_sentence": "Friendship is a two-way street.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "friendship",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "give the benefit of the doubt",
+    "sentence_en": "I'll ___ this time.",
+    "sentence_ko": "이번엔 의심하지 않고 믿어볼게요.",
+    "meaning": "의심하지 않고 믿어주다",
+    "tts_text": "I'll give the benefit of the doubt this time.",
+    "display_sentence": "I'll give the benefit of the doubt this time.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "trust",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "set boundaries",
+    "sentence_en": "It's healthy to ___ in any relationship.",
+    "sentence_ko": "어떤 관계에서든 경계를 정하는 게 건강해요.",
+    "meaning": "경계를 정하다",
+    "tts_text": "It's healthy to set boundaries in any relationship.",
+    "display_sentence": "It's healthy to set boundaries in any relationship.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "relationship",
+      "boundary"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "Mutual respect",
+    "sentence_en": "___ is the foundation of any strong relationship.",
+    "sentence_ko": "상호 존중은 모든 강한 관계의 토대예요.",
+    "meaning": "상호 존중",
+    "tts_text": "Mutual respect is the foundation of any strong relationship.",
+    "display_sentence": "Mutual respect is the foundation of any strong relationship.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "come clean",
+    "sentence_en": "He finally decided to ___ about his mistake.",
+    "sentence_ko": "그는 마침내 자신의 실수를 솔직히 털어놓기로 했어요.",
+    "meaning": "솔직히 털어놓다",
+    "tts_text": "He finally decided to come clean about his mistake.",
+    "display_sentence": "He finally decided to come clean about his mistake.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "trust"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "take the high road",
+    "sentence_en": "Even when she was upset, she decided to ___.",
+    "sentence_ko": "화가 났을 때도 그녀는 품위 있게 행동하기로 했어요.",
+    "meaning": "품위 있게 행동하다",
+    "tts_text": "Even when she was upset, she decided to take the high road.",
+    "display_sentence": "Even when she was upset, she decided to take the high road.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "character"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "have your best interests at heart",
+    "sentence_en": "I always ___.",
+    "sentence_ko": "저는 늘 당신에게 최선을 생각해요.",
+    "meaning": "진심으로 상대방을 위하다",
+    "tts_text": "I always have your best interests at heart.",
+    "display_sentence": "I always have your best interests at heart.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "trust",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "water under the bridge",
+    "sentence_en": "Don't worry about it — it's ___.",
+    "sentence_ko": "걱정하지 마요 — 다 지난 일이에요.",
+    "meaning": "이미 지난 일",
+    "tts_text": "Don't worry about it — it's water under the bridge.",
+    "display_sentence": "Don't worry about it — it's water under the bridge.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on bad terms",
+    "sentence_en": "They've been ___ ever since the incident.",
+    "sentence_ko": "그 사건 이후로 그들은 사이가 안 좋아요.",
+    "meaning": "사이가 좋지 않은",
+    "tts_text": "They've been on bad terms ever since the incident.",
+    "display_sentence": "They've been on bad terms ever since the incident.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "nip it in the bud",
+    "sentence_en": "We should ___ before it becomes a bigger problem.",
+    "sentence_ko": "더 큰 문제가 되기 전에 초기에 잡아야 해요.",
+    "meaning": "초기에 막다",
+    "tts_text": "We should nip it in the bud before it becomes a bigger problem.",
+    "display_sentence": "We should nip it in the bud before it becomes a bigger problem.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "eat humble pie",
+    "sentence_en": "He had to ___ and admit he was wrong.",
+    "sentence_ko": "그는 틀렸다고 인정하며 굴욕을 감수해야 했어요.",
+    "meaning": "굴욕을 감수하다, 자존심을 굽히다",
+    "tts_text": "He had to eat humble pie and admit he was wrong.",
+    "display_sentence": "He had to eat humble pie and admit he was wrong.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "apology"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "social butterfly",
+    "sentence_en": "She's such a ___ — she knows everyone.",
+    "sentence_ko": "그녀는 정말 사교적이에요 — 모두를 알아요.",
+    "meaning": "사교적인 사람",
+    "tts_text": "She's such a social butterfly — she knows everyone.",
+    "display_sentence": "She's such a social butterfly — she knows everyone.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "character",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "sweep every problem under the rug",
+    "sentence_en": "You can't just ___.",
+    "sentence_ko": "모든 문제를 그냥 덮어 두면 안 돼요.",
+    "meaning": "덮어 두다, 감추다",
+    "tts_text": "You can't just sweep every problem under the rug.",
+    "display_sentence": "You can't just sweep every problem under the rug.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "break the ice",
+    "sentence_en": "He told a joke to ___.",
+    "sentence_ko": "그는 어색한 분위기를 깨려고 농담을 했어요.",
+    "meaning": "어색한 분위기를 깨다",
+    "tts_text": "He told a joke to break the ice.",
+    "display_sentence": "He told a joke to break the ice.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "introduction",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "an awkward silence",
+    "sentence_en": "There was ___ after the comment.",
+    "sentence_ko": "그 말 이후 어색한 침묵이 흘렀어요.",
+    "meaning": "어색한 침묵",
+    "tts_text": "There was an awkward silence after the comment.",
+    "display_sentence": "There was an awkward silence after the comment.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social_event",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "message",
+    "sentence_en": "Did you get my ___?",
+    "sentence_ko": "제 문자 받았어요?",
+    "meaning": "문자, 메시지",
+    "tts_text": "Did you get my message?",
+    "display_sentence": "Did you get my message?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "disagree",
+    "sentence_en": "It's okay to ___ sometimes.",
+    "sentence_ko": "때로는 의견이 달라도 괜찮아요.",
+    "meaning": "의견이 다르다",
+    "tts_text": "It's okay to disagree sometimes.",
+    "display_sentence": "It's okay to disagree sometimes.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "conflict",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "feel left out",
+    "sentence_en": "She started to ___ in the group.",
+    "sentence_ko": "그녀는 그룹에서 소외감을 느끼기 시작했어요.",
+    "meaning": "소외감을 느끼다",
+    "tts_text": "She started to feel left out in the group.",
+    "display_sentence": "She started to feel left out in the group.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "community"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "make amends",
+    "sentence_en": "I need to ___ for what I said.",
+    "sentence_ko": "제가 한 말에 대해 사과해야 해요.",
+    "meaning": "사과하다, 잘못을 바로잡다",
+    "tts_text": "I need to make amends for what I said.",
+    "display_sentence": "I need to make amends for what I said.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "apology",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "keep a secret",
+    "sentence_en": "Can you ___?",
+    "sentence_ko": "비밀 지킬 수 있어요?",
+    "meaning": "비밀을 지키다",
+    "tts_text": "Can you keep a secret?",
+    "display_sentence": "Can you keep a secret?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "trust",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "grow on you",
+    "sentence_en": "It takes time but he'll ___.",
+    "sentence_ko": "시간이 걸리지만 그가 점점 좋아질 거예요.",
+    "meaning": "점점 좋아지다",
+    "tts_text": "It takes time but he'll grow on you.",
+    "display_sentence": "It takes time but he'll grow on you.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "fall in love",
+    "sentence_en": "He didn't expect to ___ so quickly.",
+    "sentence_ko": "그는 그렇게 빨리 사랑에 빠질 줄 몰랐어요.",
+    "meaning": "사랑에 빠지다",
+    "tts_text": "He didn't expect to fall in love so quickly.",
+    "display_sentence": "He didn't expect to fall in love so quickly.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "romance",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "patch up",
+    "sentence_en": "They tried to ___ their friendship.",
+    "sentence_ko": "그들은 우정을 회복하려 했어요.",
+    "meaning": "관계를 회복하다",
+    "tts_text": "They tried to patch up their friendship.",
+    "display_sentence": "They tried to patch up their friendship.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "lose touch",
+    "sentence_en": "We ___ after moving to different cities.",
+    "sentence_ko": "다른 도시로 이사하고 연락이 끊겼어요.",
+    "meaning": "연락이 끊기다",
+    "tts_text": "We lose touch after moving to different cities.",
+    "display_sentence": "We lose touch after moving to different cities.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "friendship",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "ask for advice",
+    "sentence_en": "I always ___ from my best friend.",
+    "sentence_ko": "저는 늘 친한 친구에게 조언을 구해요.",
+    "meaning": "조언을 구하다",
+    "tts_text": "I always ask for advice from my best friend.",
+    "display_sentence": "I always ask for advice from my best friend.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "friendship",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "check in on",
+    "sentence_en": "I'll ___ her after the surgery.",
+    "sentence_ko": "수술 후에 그녀에게 연락해서 안부를 물어볼게요.",
+    "meaning": "안부를 살피다",
+    "tts_text": "I'll check in on her after the surgery.",
+    "display_sentence": "I'll check in on her after the surgery.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "helping",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "have a word with",
+    "sentence_en": "I need to ___ you.",
+    "sentence_ko": "당신에게 한마디 해야 할 것 같아요.",
+    "meaning": "~에게 한마디 하다",
+    "tts_text": "I need to have a word with you.",
+    "display_sentence": "I need to have a word with you.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "talking behind her back",
+    "sentence_en": "She found out they were ___.",
+    "sentence_ko": "그들이 험담을 하고 있다는 걸 그녀가 알아차렸어요.",
+    "meaning": "험담하다",
+    "tts_text": "She found out they were talking behind her back.",
+    "display_sentence": "She found out they were talking behind her back.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "conflict",
+      "community"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "reconnect with",
+    "sentence_en": "I managed to ___ an old classmate.",
+    "sentence_ko": "옛 반 친구와 다시 연락이 닿았어요.",
+    "meaning": "다시 연락하다",
+    "tts_text": "I managed to reconnect with an old classmate.",
+    "display_sentence": "I managed to reconnect with an old classmate.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "friendship",
+      "reunion"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "cut off",
+    "sentence_en": "She decided to ___ contact with him.",
+    "sentence_ko": "그녀는 그와 연락을 끊기로 했어요.",
+    "meaning": "끊다, 차단하다",
+    "tts_text": "She decided to cut off contact with him.",
+    "display_sentence": "She decided to cut off contact with him.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pay her a compliment",
+    "sentence_en": "He stopped to ___ on her presentation.",
+    "sentence_ko": "그는 잠깐 멈춰 그녀의 발표를 칭찬했어요.",
+    "meaning": "칭찬하다",
+    "tts_text": "He stopped to pay her a compliment on her presentation.",
+    "display_sentence": "He stopped to pay her a compliment on her presentation.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "compliment",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "feel at home",
+    "sentence_en": "Please ___ here.",
+    "sentence_ko": "여기서 편하게 계세요.",
+    "meaning": "편하게 느끼다",
+    "tts_text": "Please feel at home here.",
+    "display_sentence": "Please feel at home here.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "hosting",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get on well with",
+    "sentence_en": "She seems to ___ her colleagues.",
+    "sentence_ko": "그녀는 동료들과 잘 지내는 것 같아요.",
+    "meaning": "~와 잘 지내다",
+    "tts_text": "She seems to get on well with her colleagues.",
+    "display_sentence": "She seems to get on well with her colleagues.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "relationship",
+      "daily"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "pull strings",
+    "sentence_en": "He had to ___ to get us the tickets.",
+    "sentence_ko": "그는 우리에게 티켓을 구해 주려고 뒤를 봐야 했어요.",
+    "meaning": "뒤를 봐주다, 연줄을 쓰다",
+    "tts_text": "He had to pull strings to get us the tickets.",
+    "display_sentence": "He had to pull strings to get us the tickets.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "relationship",
+      "helping"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "threw us under the bus",
+    "sentence_en": "I can't believe he ___.",
+    "sentence_ko": "그가 우리를 팔아넘겼다니 믿기지 않아요.",
+    "meaning": "배신하다, 팔아넘기다",
+    "tts_text": "I can't believe he threw us under the bus.",
+    "display_sentence": "I can't believe he threw us under the bus.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "trust"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "foster a relationship",
+    "sentence_en": "It takes effort to ___ with neighbors.",
+    "sentence_ko": "이웃과 관계를 키우는 데는 노력이 필요해요.",
+    "meaning": "관계를 키우다",
+    "tts_text": "It takes effort to foster a relationship with neighbors.",
+    "display_sentence": "It takes effort to foster a relationship with neighbors.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "relationship",
+      "community"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "stab in the back",
+    "sentence_en": "What she did felt like a real ___.",
+    "sentence_ko": "그녀가 한 짓은 진짜 배신처럼 느껴졌어요.",
+    "meaning": "배신, 뒤통수 치기",
+    "tts_text": "What she did felt like a real stab in the back.",
+    "display_sentence": "What she did felt like a real stab in the back.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "trust"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bridge the gap",
+    "sentence_en": "We need to ___ between the two groups.",
+    "sentence_ko": "두 그룹 사이의 간극을 메워야 해요.",
+    "meaning": "간극을 메우다",
+    "tts_text": "We need to bridge the gap between the two groups.",
+    "display_sentence": "We need to bridge the gap between the two groups.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "community"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "talk him into going to the party",
+    "sentence_en": "She managed to ___.",
+    "sentence_ko": "그녀는 파티에 가도록 설득하는 데 성공했어요.",
+    "meaning": "설득하다",
+    "tts_text": "She managed to talk him into going to the party.",
+    "display_sentence": "She managed to talk him into going to the party.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "communication",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "put yourself in their shoes",
+    "sentence_en": "Try to ___ before judging.",
+    "sentence_ko": "판단하기 전에 상대방 입장이 돼 보세요.",
+    "meaning": "상대방 입장이 되어보다",
+    "tts_text": "Try to put yourself in their shoes before judging.",
+    "display_sentence": "Try to put yourself in their shoes before judging.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "empathy",
+      "communication"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "read between the lines",
+    "sentence_en": "You have to ___ with her.",
+    "sentence_ko": "그녀와는 행간을 읽어야 해요.",
+    "meaning": "행간을 읽다",
+    "tts_text": "You have to read between the lines with her.",
+    "display_sentence": "You have to read between the lines with her.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "keep my distance",
+    "sentence_en": "I've decided to ___ from him.",
+    "sentence_ko": "그로부터 거리를 두기로 했어요.",
+    "meaning": "거리를 두다",
+    "tts_text": "I've decided to keep my distance from him.",
+    "display_sentence": "I've decided to keep my distance from him.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "relationship",
+      "boundary"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "caught in the middle",
+    "sentence_en": "I feel ___ when they fight.",
+    "sentence_ko": "그들이 싸울 때 중간에 끼인 느낌이에요.",
+    "meaning": "중간에 끼이다",
+    "tts_text": "I feel caught in the middle when they fight.",
+    "display_sentence": "I feel caught in the middle when they fight.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "speak the same language",
+    "sentence_en": "We don't always ___ when it comes to values.",
+    "sentence_ko": "가치관에 있어서는 우리가 항상 통하는 건 아니에요.",
+    "meaning": "서로 통하다",
+    "tts_text": "We don't always speak the same language when it comes to values.",
+    "display_sentence": "We don't always speak the same language when it comes to values.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "like-minded people",
+    "sentence_en": "I enjoy spending time with ___.",
+    "sentence_ko": "뜻이 맞는 사람들과 시간 보내는 게 좋아요.",
+    "meaning": "뜻이 맞는 사람들",
+    "tts_text": "I enjoy spending time with like-minded people.",
+    "display_sentence": "I enjoy spending time with like-minded people.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "friendship",
+      "community"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "take the initiative",
+    "sentence_en": "If you want more friends, you have to ___.",
+    "sentence_ko": "친구를 더 사귀고 싶다면 먼저 나서야 해요.",
+    "meaning": "먼저 나서다, 주도권을 쥐다",
+    "tts_text": "If you want more friends, you have to take the initiative.",
+    "display_sentence": "If you want more friends, you have to take the initiative.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "friendship",
+      "introduction"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "show appreciation",
+    "sentence_en": "It's important to ___ for people who help you.",
+    "sentence_ko": "도와주는 사람에게 감사를 표현하는 게 중요해요.",
+    "meaning": "감사를 표현하다",
+    "tts_text": "It's important to show appreciation for people who help you.",
+    "display_sentence": "It's important to show appreciation for people who help you.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "gratitude",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "overstepped the mark",
+    "sentence_en": "He really ___ with that comment.",
+    "sentence_ko": "그는 그 말로 선을 정말 넘었어요.",
+    "meaning": "선을 넘다",
+    "tts_text": "He really overstepped the mark with that comment.",
+    "display_sentence": "He really overstepped the mark with that comment.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "conflict",
+      "boundary"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "give credit where it's due",
+    "sentence_en": "You have to ___ — she worked hard.",
+    "sentence_ko": "공을 제대로 인정해야 해요 — 그녀는 열심히 했으니까요.",
+    "meaning": "공을 제대로 인정하다",
+    "tts_text": "You have to give credit where it's due — she worked hard.",
+    "display_sentence": "You have to give credit where it's due — she worked hard.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "relationship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "goes the extra mile",
+    "sentence_en": "She always ___ for her friends.",
+    "sentence_ko": "그녀는 친구들을 위해 늘 한 발 더 나아가요.",
+    "meaning": "한 발 더 나아가다, 각별히 노력하다",
+    "tts_text": "She always goes the extra mile for her friends.",
+    "display_sentence": "She always goes the extra mile for her friends.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "helping",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "the elephant in the room",
+    "sentence_en": "Nobody talked about ___ during dinner.",
+    "sentence_ko": "저녁 식사 내내 아무도 그 불편한 화제를 꺼내지 않았어요.",
+    "meaning": "모두가 알지만 꺼내기 불편한 화제",
+    "tts_text": "Nobody talked about the elephant in the room during dinner.",
+    "display_sentence": "Nobody talked about the elephant in the room during dinner.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "communication",
+      "conflict"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "play it cool",
+    "sentence_en": "He tried to ___ when he saw his ex.",
+    "sentence_ko": "그는 전 애인을 봤을 때 태연하게 굴려고 했어요.",
+    "meaning": "태연하게 굴다",
+    "tts_text": "He tried to play it cool when he saw his ex.",
+    "display_sentence": "He tried to play it cool when he saw his ex.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "romance",
+      "social_event"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "vent to",
+    "sentence_en": "Sometimes I just need to ___ a friend.",
+    "sentence_ko": "가끔은 친구에게 속 털어놓을 필요가 있어요.",
+    "meaning": "~에게 속을 털어놓다",
+    "tts_text": "Sometimes I just need to vent to a friend.",
+    "display_sentence": "Sometimes I just need to vent to a friend.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "poured her heart out",
+    "sentence_en": "She finally ___ to her best friend.",
+    "sentence_ko": "그녀는 마침내 친한 친구에게 속마음을 털어놓았어요.",
+    "meaning": "속마음을 털어놓다",
+    "tts_text": "She finally poured her heart out to her best friend.",
+    "display_sentence": "She finally poured her heart out to her best friend.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emotion",
+      "friendship"
+    ]
+  },
+  {
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "runs hot and cold",
+    "sentence_en": "He always ___ in relationships.",
+    "sentence_ko": "그는 늘 관계에서 일관성이 없어요.",
+    "meaning": "일관성 없이 냉온탕을 오가다",
+    "tts_text": "He always runs hot and cold in relationships.",
+    "display_sentence": "He always runs hot and cold in relationships.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "romance",
+      "relationship"
+    ]
+  }
+]

@@ -1,0 +1,3782 @@
+[
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "computer",
+    "sentence_en": "My ___ is too slow.",
+    "sentence_ko": "제 컴퓨터가 너무 느려요.",
+    "meaning": "컴퓨터",
+    "tts_text": "My computer is too slow.",
+    "display_sentence": "My computer is too slow.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "device",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "file",
+    "sentence_en": "Can you open this ___?",
+    "sentence_ko": "이 파일 열 수 있어요?",
+    "meaning": "파일",
+    "tts_text": "Can you open this file?",
+    "display_sentence": "Can you open this file?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "office",
+      "sharing"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "save",
+    "sentence_en": "Don't forget to ___ your work.",
+    "sentence_ko": "작업 저장하는 거 잊지 마세요.",
+    "meaning": "저장하다",
+    "tts_text": "Don't forget to save your work.",
+    "display_sentence": "Don't forget to save your work.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "office",
+      "document"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "internet",
+    "sentence_en": "The ___ is down again.",
+    "sentence_ko": "인터넷이 또 안 돼요.",
+    "meaning": "인터넷",
+    "tts_text": "The internet is down again.",
+    "display_sentence": "The internet is down again.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "network",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "password",
+    "sentence_en": "I forgot my ___.",
+    "sentence_ko": "비밀번호를 잊어버렸어요.",
+    "meaning": "비밀번호",
+    "tts_text": "I forgot my password.",
+    "display_sentence": "I forgot my password.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "account",
+      "security"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "Click",
+    "sentence_en": "___ the button to start.",
+    "sentence_ko": "시작하려면 버튼을 누르세요.",
+    "meaning": "클릭하다",
+    "tts_text": "Click the button to start.",
+    "display_sentence": "Click the button to start.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "navigation",
+      "interface"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "screen",
+    "sentence_en": "My ___ froze.",
+    "sentence_ko": "화면이 멈췄어요.",
+    "meaning": "화면",
+    "tts_text": "My screen froze.",
+    "display_sentence": "My screen froze.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "device",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "mouse",
+    "sentence_en": "My ___ stopped working.",
+    "sentence_ko": "제 마우스가 작동을 멈췄어요.",
+    "meaning": "마우스",
+    "tts_text": "My mouse stopped working.",
+    "display_sentence": "My mouse stopped working.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "device",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "keyboard",
+    "sentence_en": "I spilled water on my ___.",
+    "sentence_ko": "키보드에 물을 쏟았어요.",
+    "meaning": "키보드",
+    "tts_text": "I spilled water on my keyboard.",
+    "display_sentence": "I spilled water on my keyboard.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "device",
+      "accident"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "download",
+    "sentence_en": "I need to ___ this app.",
+    "sentence_ko": "이 앱을 다운로드해야 해요.",
+    "meaning": "다운로드하다",
+    "tts_text": "I need to download this app.",
+    "display_sentence": "I need to download this app.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "app",
+      "software"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "email",
+    "sentence_en": "Did you check your ___?",
+    "sentence_ko": "이메일 확인했어요?",
+    "meaning": "이메일",
+    "tts_text": "Did you check your email?",
+    "display_sentence": "Did you check your email?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "communication",
+      "office"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "delete",
+    "sentence_en": "Please ___ that file.",
+    "sentence_ko": "그 파일을 삭제해 주세요.",
+    "meaning": "삭제하다",
+    "tts_text": "Please delete that file.",
+    "display_sentence": "Please delete that file.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "office",
+      "document"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "Open",
+    "sentence_en": "___ the program first.",
+    "sentence_ko": "먼저 프로그램을 여세요.",
+    "meaning": "열다",
+    "tts_text": "Open the program first.",
+    "display_sentence": "Open the program first.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "software",
+      "interface"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "phone",
+    "sentence_en": "I left my ___ at home.",
+    "sentence_ko": "집에 휴대폰을 두고 왔어요.",
+    "meaning": "휴대폰",
+    "tts_text": "I left my phone at home.",
+    "display_sentence": "I left my phone at home.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "device",
+      "daily"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "type",
+    "sentence_en": "Just ___ your name here.",
+    "sentence_ko": "여기 이름을 입력하세요.",
+    "meaning": "입력하다",
+    "tts_text": "Just type your name here.",
+    "display_sentence": "Just type your name here.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "interface",
+      "form"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "slow",
+    "sentence_en": "The website is so ___.",
+    "sentence_ko": "웹사이트가 너무 느려요.",
+    "meaning": "느린",
+    "tts_text": "The website is so slow.",
+    "display_sentence": "The website is so slow.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "network",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "button",
+    "sentence_en": "Press the green ___.",
+    "sentence_ko": "초록 버튼을 누르세요.",
+    "meaning": "버튼",
+    "tts_text": "Press the green button.",
+    "display_sentence": "Press the green button.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "interface",
+      "navigation"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "wifi",
+    "sentence_en": "Is there free ___ here?",
+    "sentence_ko": "여기 무료 와이파이 있어요?",
+    "meaning": "와이파이",
+    "tts_text": "Is there free wifi here?",
+    "display_sentence": "Is there free wifi here?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "network",
+      "travel"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "app",
+    "sentence_en": "I downloaded a new ___.",
+    "sentence_ko": "새 앱을 받았어요.",
+    "meaning": "앱",
+    "tts_text": "I downloaded a new app.",
+    "display_sentence": "I downloaded a new app.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "mobile",
+      "software"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "charge",
+    "sentence_en": "I need to ___ my phone.",
+    "sentence_ko": "휴대폰을 충전해야 해요.",
+    "meaning": "충전하다",
+    "tts_text": "I need to charge my phone.",
+    "display_sentence": "I need to charge my phone.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "device",
+      "mobile"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "photo",
+    "sentence_en": "Can you send me the ___?",
+    "sentence_ko": "그 사진 좀 보내 줄래요?",
+    "meaning": "사진",
+    "tts_text": "Can you send me the photo?",
+    "display_sentence": "Can you send me the photo?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "sharing",
+      "communication"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "turn on",
+    "sentence_en": "Please ___ the computer.",
+    "sentence_ko": "컴퓨터를 켜 주세요.",
+    "meaning": "켜다",
+    "tts_text": "Please turn on the computer.",
+    "display_sentence": "Please turn on the computer.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "device",
+      "office"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "link",
+    "sentence_en": "Click this ___ to join.",
+    "sentence_ko": "참여하려면 이 링크를 누르세요.",
+    "meaning": "링크",
+    "tts_text": "Click this link to join.",
+    "display_sentence": "Click this link to join.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "online",
+      "communication"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "search",
+    "sentence_en": "I'll ___ for it online.",
+    "sentence_ko": "온라인으로 검색해 볼게요.",
+    "meaning": "검색하다",
+    "tts_text": "I'll search for it online.",
+    "display_sentence": "I'll search for it online.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "online",
+      "research"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "upload",
+    "sentence_en": "Please ___ the document.",
+    "sentence_ko": "문서를 업로드해 주세요.",
+    "meaning": "업로드하다",
+    "tts_text": "Please upload the document.",
+    "display_sentence": "Please upload the document.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "office",
+      "sharing"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "folder",
+    "sentence_en": "I put it in a ___.",
+    "sentence_ko": "폴더 안에 넣었어요.",
+    "meaning": "폴더",
+    "tts_text": "I put it in a folder.",
+    "display_sentence": "I put it in a folder.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "office",
+      "document"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "cable",
+    "sentence_en": "I need a ___ to connect this.",
+    "sentence_ko": "이걸 연결하려면 케이블이 필요해요.",
+    "meaning": "케이블",
+    "tts_text": "I need a cable to connect this.",
+    "display_sentence": "I need a cable to connect this.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "device",
+      "hardware"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "printer",
+    "sentence_en": "I can't connect to the ___.",
+    "sentence_ko": "프린터에 연결이 안 돼요.",
+    "meaning": "프린터",
+    "tts_text": "I can't connect to the printer.",
+    "display_sentence": "I can't connect to the printer.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "office",
+      "hardware"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "laptop",
+    "sentence_en": "I use my ___ for work.",
+    "sentence_ko": "업무에 노트북을 써요.",
+    "meaning": "노트북",
+    "tts_text": "I use my laptop for work.",
+    "display_sentence": "I use my laptop for work.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "device",
+      "office"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "battery",
+    "sentence_en": "My ___ is almost dead.",
+    "sentence_ko": "배터리가 거의 다 됐어요.",
+    "meaning": "배터리",
+    "tts_text": "My battery is almost dead.",
+    "display_sentence": "My battery is almost dead.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "device",
+      "mobile"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "copy",
+    "sentence_en": "Can you ___ this text?",
+    "sentence_ko": "이 텍스트를 복사해 줄 수 있어요?",
+    "meaning": "복사하다",
+    "tts_text": "Can you copy this text?",
+    "display_sentence": "Can you copy this text?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "office",
+      "document"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "paste",
+    "sentence_en": "Now ___ it here.",
+    "sentence_ko": "이제 여기에 붙여넣기 하세요.",
+    "meaning": "붙여넣기 하다",
+    "tts_text": "Now paste it here.",
+    "display_sentence": "Now paste it here.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "office",
+      "document"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "tablet",
+    "sentence_en": "I read on my ___ every morning.",
+    "sentence_ko": "매일 아침 태블릿으로 읽어요.",
+    "meaning": "태블릿",
+    "tts_text": "I read on my tablet every morning.",
+    "display_sentence": "I read on my tablet every morning.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "device",
+      "daily"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "message",
+    "sentence_en": "I sent you a ___.",
+    "sentence_ko": "메시지 보냈어요.",
+    "meaning": "메시지",
+    "tts_text": "I sent you a message.",
+    "display_sentence": "I sent you a message.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "communication",
+      "mobile"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "settings",
+    "sentence_en": "Go to ___ to change that.",
+    "sentence_ko": "그걸 바꾸려면 설정으로 가세요.",
+    "meaning": "설정",
+    "tts_text": "Go to settings to change that.",
+    "display_sentence": "Go to settings to change that.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "interface",
+      "device"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "format",
+    "sentence_en": "What ___ is the file in?",
+    "sentence_ko": "파일 형식이 뭐예요?",
+    "meaning": "형식",
+    "tts_text": "What format is the file in?",
+    "display_sentence": "What format is the file in?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "document",
+      "office"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "headphones",
+    "sentence_en": "I can't hear without my ___.",
+    "sentence_ko": "헤드폰 없이는 들을 수가 없어요.",
+    "meaning": "헤드폰",
+    "tts_text": "I can't hear without my headphones.",
+    "display_sentence": "I can't hear without my headphones.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "device",
+      "online_meeting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "camera",
+    "sentence_en": "My ___ is off in this meeting.",
+    "sentence_ko": "이 회의에서 카메라가 꺼져 있어요.",
+    "meaning": "카메라",
+    "tts_text": "My camera is off in this meeting.",
+    "display_sentence": "My camera is off in this meeting.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "online_meeting",
+      "device"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "mute",
+    "sentence_en": "I think you're on ___.",
+    "sentence_ko": "음소거 상태인 것 같아요.",
+    "meaning": "음소거",
+    "tts_text": "I think you're on mute.",
+    "display_sentence": "I think you're on mute.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "online_meeting",
+      "communication"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "notification",
+    "sentence_en": "I got a ___ from the app.",
+    "sentence_ko": "앱에서 알림이 왔어요.",
+    "meaning": "알림",
+    "tts_text": "I got a notification from the app.",
+    "display_sentence": "I got a notification from the app.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "mobile",
+      "app"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "microphone",
+    "sentence_en": "Check your ___ before the call.",
+    "sentence_ko": "통화 전에 마이크를 확인하세요.",
+    "meaning": "마이크",
+    "tts_text": "Check your microphone before the call.",
+    "display_sentence": "Check your microphone before the call.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "online_meeting",
+      "device"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "speaker",
+    "sentence_en": "The ___ sound is too low.",
+    "sentence_ko": "스피커 소리가 너무 작아요.",
+    "meaning": "스피커",
+    "tts_text": "The speaker sound is too low.",
+    "display_sentence": "The speaker sound is too low.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "device",
+      "online_meeting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "print",
+    "sentence_en": "Can you ___ two copies?",
+    "sentence_ko": "두 장 인쇄해 줄 수 있어요?",
+    "meaning": "인쇄하다",
+    "tts_text": "Can you print two copies?",
+    "display_sentence": "Can you print two copies?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "office",
+      "document"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "error",
+    "sentence_en": "There's an ___ on the screen.",
+    "sentence_ko": "화면에 오류 메시지가 떠요.",
+    "meaning": "오류",
+    "tts_text": "There's an error on the screen.",
+    "display_sentence": "There's an error on the screen.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "troubleshooting",
+      "software"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "video",
+    "sentence_en": "Can I share my ___ now?",
+    "sentence_ko": "지금 화상을 켜도 될까요?",
+    "meaning": "영상, 비디오",
+    "tts_text": "Can I share my video now?",
+    "display_sentence": "Can I share my video now?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "online_meeting",
+      "communication"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sign in",
+    "sentence_en": "You need to ___ to access this.",
+    "sentence_ko": "이걸 사용하려면 로그인해야 해요.",
+    "meaning": "로그인하다",
+    "tts_text": "You need to sign in to access this.",
+    "display_sentence": "You need to sign in to access this.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "account",
+      "security"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "network",
+    "sentence_en": "The ___ connection is weak.",
+    "sentence_ko": "네트워크 연결이 약해요.",
+    "meaning": "네트워크",
+    "tts_text": "The network connection is weak.",
+    "display_sentence": "The network connection is weak.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "network",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "share",
+    "sentence_en": "Can I ___ my screen now?",
+    "sentence_ko": "지금 화면을 공유해도 될까요?",
+    "meaning": "공유하다",
+    "tts_text": "Can I share my screen now?",
+    "display_sentence": "Can I share my screen now?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "online_meeting",
+      "collaboration"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "volume",
+    "sentence_en": "Turn up the ___ please.",
+    "sentence_ko": "볼륨 좀 올려 주세요.",
+    "meaning": "볼륨",
+    "tts_text": "Turn up the volume please.",
+    "display_sentence": "Turn up the volume please.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "device",
+      "online_meeting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "icon",
+    "sentence_en": "Tap the ___ on the home screen.",
+    "sentence_ko": "홈 화면의 아이콘을 탭하세요.",
+    "meaning": "아이콘",
+    "tts_text": "Tap the icon on the home screen.",
+    "display_sentence": "Tap the icon on the home screen.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "interface",
+      "mobile"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "restart",
+    "sentence_en": "Try a ___ to fix the problem.",
+    "sentence_ko": "문제를 고치려면 재시작을 해 보세요.",
+    "meaning": "재시작",
+    "tts_text": "Try a restart to fix the problem.",
+    "display_sentence": "Try a restart to fix the problem.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "troubleshooting",
+      "device"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "data",
+    "sentence_en": "I'm using too much mobile ___.",
+    "sentence_ko": "모바일 데이터를 너무 많이 쓰고 있어요.",
+    "meaning": "데이터",
+    "tts_text": "I'm using too much mobile data.",
+    "display_sentence": "I'm using too much mobile data.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "mobile",
+      "network"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "bluetooth",
+    "sentence_en": "Turn on ___ to connect.",
+    "sentence_ko": "연결하려면 블루투스를 켜세요.",
+    "meaning": "블루투스",
+    "tts_text": "Turn on bluetooth to connect.",
+    "display_sentence": "Turn on bluetooth to connect.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "device",
+      "hardware"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "update",
+    "sentence_en": "There's a new ___ available.",
+    "sentence_ko": "새 업데이트가 있어요.",
+    "meaning": "업데이트",
+    "tts_text": "There's a new update available.",
+    "display_sentence": "There's a new update available.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "software",
+      "app"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "username",
+    "sentence_en": "What's your ___?",
+    "sentence_ko": "사용자 이름이 뭐예요?",
+    "meaning": "사용자 이름",
+    "tts_text": "What's your username?",
+    "display_sentence": "What's your username?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "account",
+      "security"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "attach",
+    "sentence_en": "Please ___ the file to the email.",
+    "sentence_ko": "이메일에 파일을 첨부해 주세요.",
+    "meaning": "첨부하다",
+    "tts_text": "Please attach the file to the email.",
+    "display_sentence": "Please attach the file to the email.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "office"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "charger",
+    "sentence_en": "Did you bring your ___?",
+    "sentence_ko": "충전기 가져왔어요?",
+    "meaning": "충전기",
+    "tts_text": "Did you bring your charger?",
+    "display_sentence": "Did you bring your charger?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "device",
+      "travel"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "zoom",
+    "sentence_en": "The meeting is on ___ today.",
+    "sentence_ko": "오늘 회의는 줌으로 해요.",
+    "meaning": "줌(화상회의 도구)",
+    "tts_text": "The meeting is on zoom today.",
+    "display_sentence": "The meeting is on zoom today.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "online_meeting",
+      "collaboration"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "storage",
+    "sentence_en": "My phone ___ is almost full.",
+    "sentence_ko": "폰 저장 공간이 거의 다 찼어요.",
+    "meaning": "저장 공간",
+    "tts_text": "My phone storage is almost full.",
+    "display_sentence": "My phone storage is almost full.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "device",
+      "mobile"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "calendar",
+    "sentence_en": "Add it to the shared ___.",
+    "sentence_ko": "공유 캘린더에 추가하세요.",
+    "meaning": "캘린더",
+    "tts_text": "Add it to the shared calendar.",
+    "display_sentence": "Add it to the shared calendar.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "collaboration",
+      "office"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "spreadsheet",
+    "sentence_en": "I put the numbers in a ___.",
+    "sentence_ko": "숫자를 스프레드시트에 넣었어요.",
+    "meaning": "스프레드시트",
+    "tts_text": "I put the numbers in a spreadsheet.",
+    "display_sentence": "I put the numbers in a spreadsheet.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "office",
+      "document"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "install",
+    "sentence_en": "I need to ___ the driver.",
+    "sentence_ko": "드라이버를 설치해야 해요.",
+    "meaning": "설치하다",
+    "tts_text": "I need to install the driver.",
+    "display_sentence": "I need to install the driver.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "software",
+      "hardware"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "log",
+    "sentence_en": "Check the error ___ for details.",
+    "sentence_ko": "자세한 내용은 오류 로그를 확인하세요.",
+    "meaning": "로그",
+    "tts_text": "Check the error log for details.",
+    "display_sentence": "Check the error log for details.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "troubleshooting",
+      "software"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "refresh",
+    "sentence_en": "Just ___ the page.",
+    "sentence_ko": "그냥 페이지를 새로 고침하세요.",
+    "meaning": "새로 고침하다",
+    "tts_text": "Just refresh the page.",
+    "display_sentence": "Just refresh the page.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "browser",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "back up",
+    "sentence_en": "Make sure to ___ your data.",
+    "sentence_ko": "데이터를 꼭 백업하세요.",
+    "meaning": "백업하다",
+    "tts_text": "Make sure to back up your data.",
+    "display_sentence": "Make sure to back up your data.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "data",
+      "security"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "log in",
+    "sentence_en": "I can't ___ to my account.",
+    "sentence_ko": "계정에 로그인이 안 돼요.",
+    "meaning": "로그인하다",
+    "tts_text": "I can't log in to my account.",
+    "display_sentence": "I can't log in to my account.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "account",
+      "security"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "install the latest version",
+    "sentence_en": "Please ___ of the app.",
+    "sentence_ko": "최신 버전의 앱을 설치하세요.",
+    "meaning": "최신 버전을 설치하다",
+    "tts_text": "Please install the latest version of the app.",
+    "display_sentence": "Please install the latest version of the app.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "software",
+      "app"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "crashing",
+    "sentence_en": "The app keeps ___.",
+    "sentence_ko": "앱이 자꾸 멈춰요.",
+    "meaning": "(프로그램이) 다운되는",
+    "tts_text": "The app keeps crashing.",
+    "display_sentence": "The app keeps crashing.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "troubleshooting",
+      "app"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "set up",
+    "sentence_en": "Can you help me ___ the printer?",
+    "sentence_ko": "프린터 설치하는 것 좀 도와줄래요?",
+    "meaning": "설치하다, 설정하다",
+    "tts_text": "Can you help me set up the printer?",
+    "display_sentence": "Can you help me set up the printer?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "hardware",
+      "office"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "force restart",
+    "sentence_en": "Try a ___ if it's totally frozen.",
+    "sentence_ko": "완전히 멈췄다면 강제 재시작을 해보세요.",
+    "meaning": "강제 재시작",
+    "tts_text": "Try a force restart if it's totally frozen.",
+    "display_sentence": "Try a force restart if it's totally frozen.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "troubleshooting",
+      "device"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "share the folder",
+    "sentence_en": "I'll ___ with you.",
+    "sentence_ko": "폴더를 공유해 줄게요.",
+    "meaning": "폴더를 공유하다",
+    "tts_text": "I'll share the folder with you.",
+    "display_sentence": "I'll share the folder with you.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "collaboration",
+      "office"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "log out",
+    "sentence_en": "Don't forget to ___ after.",
+    "sentence_ko": "끝나고 로그아웃 잊지 마세요.",
+    "meaning": "로그아웃하다",
+    "tts_text": "Don't forget to log out after.",
+    "display_sentence": "Don't forget to log out after.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "account",
+      "security"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "sign up",
+    "sentence_en": "You need to ___ first.",
+    "sentence_ko": "먼저 가입해야 해요.",
+    "meaning": "가입하다",
+    "tts_text": "You need to sign up first.",
+    "display_sentence": "You need to sign up first.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "account",
+      "online"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "plug in",
+    "sentence_en": "Did you ___ the cable?",
+    "sentence_ko": "케이블 꽂았어요?",
+    "meaning": "꽂다, 연결하다",
+    "tts_text": "Did you plug in the cable?",
+    "display_sentence": "Did you plug in the cable?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "hardware",
+      "device"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "freeze up",
+    "sentence_en": "My laptop tends to ___.",
+    "sentence_ko": "제 노트북이 자꾸 멈춰요.",
+    "meaning": "(화면이) 멈추다",
+    "tts_text": "My laptop tends to freeze up.",
+    "display_sentence": "My laptop tends to freeze up.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "troubleshooting",
+      "device"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a glitch",
+    "sentence_en": "There's ___ in the app.",
+    "sentence_ko": "앱에 오류가 있어요.",
+    "meaning": "사소한 오류",
+    "tts_text": "There's a glitch in the app.",
+    "display_sentence": "There's a glitch in the app.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "troubleshooting",
+      "software"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "sync",
+    "sentence_en": "My files won't ___.",
+    "sentence_ko": "제 파일이 동기화가 안 돼요.",
+    "meaning": "동기화하다",
+    "tts_text": "My files won't sync.",
+    "display_sentence": "My files won't sync.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "cloud",
+      "data"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "zoom in",
+    "sentence_en": "Could you ___ on the chart?",
+    "sentence_ko": "차트를 확대해 주시겠어요?",
+    "meaning": "확대하다",
+    "tts_text": "Could you zoom in on the chart?",
+    "display_sentence": "Could you zoom in on the chart?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "presentation",
+      "online_meeting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "reset",
+    "sentence_en": "I had to ___ my password.",
+    "sentence_ko": "비밀번호를 재설정해야 했어요.",
+    "meaning": "재설정하다",
+    "tts_text": "I had to reset my password.",
+    "display_sentence": "I had to reset my password.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "account",
+      "security"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "running low on",
+    "sentence_en": "My phone is ___ battery.",
+    "sentence_ko": "제 휴대폰 배터리가 다 돼 가요.",
+    "meaning": "~이 부족해지다",
+    "tts_text": "My phone is running low on battery.",
+    "display_sentence": "My phone is running low on battery.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "mobile",
+      "device"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "popping up",
+    "sentence_en": "An error keeps ___.",
+    "sentence_ko": "오류가 자꾸 떠요.",
+    "meaning": "계속 나타나는",
+    "tts_text": "An error keeps popping up.",
+    "display_sentence": "An error keeps popping up.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "troubleshooting",
+      "software"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "an external hard drive",
+    "sentence_en": "I saved it on ___.",
+    "sentence_ko": "외장 하드 드라이브에 저장했어요.",
+    "meaning": "외장 하드 드라이브",
+    "tts_text": "I saved it on an external hard drive.",
+    "display_sentence": "I saved it on an external hard drive.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "data",
+      "hardware"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "type in",
+    "sentence_en": "Just ___ the code here.",
+    "sentence_ko": "여기에 코드만 입력하세요.",
+    "meaning": "입력하다",
+    "tts_text": "Just type in the code here.",
+    "display_sentence": "Just type in the code here.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "interface",
+      "security"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "connect to",
+    "sentence_en": "I can't ___ the network.",
+    "sentence_ko": "네트워크에 연결이 안 돼요.",
+    "meaning": "~에 연결하다",
+    "tts_text": "I can't connect to the network.",
+    "display_sentence": "I can't connect to the network.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "network",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take a screenshot",
+    "sentence_en": "Can you ___?",
+    "sentence_ko": "스크린샷 좀 찍어 줄래요?",
+    "meaning": "스크린샷을 찍다",
+    "tts_text": "Can you take a screenshot?",
+    "display_sentence": "Can you take a screenshot?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "communication",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "speed up",
+    "sentence_en": "This will ___ your computer.",
+    "sentence_ko": "이게 컴퓨터를 빠르게 해 줄 거예요.",
+    "meaning": "속도를 높이다",
+    "tts_text": "This will speed up your computer.",
+    "display_sentence": "This will speed up your computer.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "troubleshooting",
+      "software"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "log back in",
+    "sentence_en": "Please ___ to refresh.",
+    "sentence_ko": "새로 고치려면 다시 로그인하세요.",
+    "meaning": "다시 로그인하다",
+    "tts_text": "Please log back in to refresh.",
+    "display_sentence": "Please log back in to refresh.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "account",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a backup",
+    "sentence_en": "Always keep ___ of your work.",
+    "sentence_ko": "작업은 늘 백업본을 두세요.",
+    "meaning": "백업본",
+    "tts_text": "Always keep a backup of your work.",
+    "display_sentence": "Always keep a backup of your work.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "data",
+      "security"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "wipe",
+    "sentence_en": "I had to ___ the whole drive.",
+    "sentence_ko": "드라이브 전체를 지워야 했어요.",
+    "meaning": "싹 지우다",
+    "tts_text": "I had to wipe the whole drive.",
+    "display_sentence": "I had to wipe the whole drive.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "data",
+      "hardware"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "screen share",
+    "sentence_en": "I'll start the ___ now.",
+    "sentence_ko": "지금 화면 공유를 시작할게요.",
+    "meaning": "화면 공유",
+    "tts_text": "I'll start the screen share now.",
+    "display_sentence": "I'll start the screen share now.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "online_meeting",
+      "collaboration"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "close out of",
+    "sentence_en": "Just ___ the app and reopen it.",
+    "sentence_ko": "앱을 완전히 껐다가 다시 열어 보세요.",
+    "meaning": "완전히 닫다",
+    "tts_text": "Just close out of the app and reopen it.",
+    "display_sentence": "Just close out of the app and reopen it.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "troubleshooting",
+      "app"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "grant access",
+    "sentence_en": "Can you ___ to the document?",
+    "sentence_ko": "문서에 접근 권한을 줄 수 있어요?",
+    "meaning": "접근 권한을 주다",
+    "tts_text": "Can you grant access to the document?",
+    "display_sentence": "Can you grant access to the document?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "collaboration",
+      "security"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "two-factor authentication",
+    "sentence_en": "Enable ___ for better security.",
+    "sentence_ko": "보안을 강화하려면 이중 인증을 켜세요.",
+    "meaning": "이중 인증",
+    "tts_text": "Enable two-factor authentication for better security.",
+    "display_sentence": "Enable two-factor authentication for better security.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "security",
+      "account"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "drag and drop",
+    "sentence_en": "You can use ___ to move files.",
+    "sentence_ko": "드래그 앤 드롭으로 파일을 이동할 수 있어요.",
+    "meaning": "드래그 앤 드롭",
+    "tts_text": "You can use drag and drop to move files.",
+    "display_sentence": "You can use drag and drop to move files.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "interface",
+      "document"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "turn off",
+    "sentence_en": "Please ___ your notifications during the meeting.",
+    "sentence_ko": "회의 중에는 알림을 꺼 주세요.",
+    "meaning": "끄다",
+    "tts_text": "Please turn off your notifications during the meeting.",
+    "display_sentence": "Please turn off your notifications during the meeting.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "online_meeting",
+      "device"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "switch over to",
+    "sentence_en": "Can we ___ the new platform?",
+    "sentence_ko": "새 플랫폼으로 전환할 수 있을까요?",
+    "meaning": "~으로 전환하다",
+    "tts_text": "Can we switch over to the new platform?",
+    "display_sentence": "Can we switch over to the new platform?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "software",
+      "collaboration"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "cut and paste",
+    "sentence_en": "I'll just ___ it into the doc.",
+    "sentence_ko": "그냥 문서에 잘라 붙여넣기 할게요.",
+    "meaning": "잘라 붙여넣기 하다",
+    "tts_text": "I'll just cut and paste it into the doc.",
+    "display_sentence": "I'll just cut and paste it into the doc.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "document",
+      "office"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "VPN",
+    "sentence_en": "You'll need to use a ___ at the office.",
+    "sentence_ko": "사무실에서는 VPN을 써야 해요.",
+    "meaning": "가상 사설망",
+    "tts_text": "You'll need to use a VPN at the office.",
+    "display_sentence": "You'll need to use a VPN at the office.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "network",
+      "security"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "check in",
+    "sentence_en": "Can you ___ on the Slack channel?",
+    "sentence_ko": "슬랙 채널에서 확인해 줄 수 있어요?",
+    "meaning": "확인하다, 체크인하다",
+    "tts_text": "Can you check in on the Slack channel?",
+    "display_sentence": "Can you check in on the Slack channel?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "collaboration",
+      "communication"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "clear the cache",
+    "sentence_en": "Try to ___ and reload.",
+    "sentence_ko": "캐시를 지우고 다시 로드해 보세요.",
+    "meaning": "캐시를 지우다",
+    "tts_text": "Try to clear the cache and reload.",
+    "display_sentence": "Try to clear the cache and reload.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "troubleshooting",
+      "browser"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "in the cloud",
+    "sentence_en": "I store all my photos ___.",
+    "sentence_ko": "사진을 전부 클라우드에 저장해요.",
+    "meaning": "클라우드에",
+    "tts_text": "I store all my photos in the cloud.",
+    "display_sentence": "I store all my photos in the cloud.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "cloud",
+      "data"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a template",
+    "sentence_en": "I used ___ for the report.",
+    "sentence_ko": "보고서에 템플릿을 사용했어요.",
+    "meaning": "템플릿",
+    "tts_text": "I used a template for the report.",
+    "display_sentence": "I used a template for the report.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "document",
+      "office"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "run a scan",
+    "sentence_en": "I need to ___ on this drive.",
+    "sentence_ko": "이 드라이브를 스캔해야 해요.",
+    "meaning": "스캔을 실행하다",
+    "tts_text": "I need to run a scan on this drive.",
+    "display_sentence": "I need to run a scan on this drive.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "security",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "export",
+    "sentence_en": "Can you ___ the data as a CSV?",
+    "sentence_ko": "데이터를 CSV로 내보낼 수 있어요?",
+    "meaning": "내보내다",
+    "tts_text": "Can you export the data as a CSV?",
+    "display_sentence": "Can you export the data as a CSV?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "data",
+      "document"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "remotely",
+    "sentence_en": "I can access the server ___.",
+    "sentence_ko": "서버에 원격으로 접속할 수 있어요.",
+    "meaning": "원격으로",
+    "tts_text": "I can access the server remotely.",
+    "display_sentence": "I can access the server remotely.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "remote_work",
+      "network"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "check the settings",
+    "sentence_en": "Let me ___ on your device.",
+    "sentence_ko": "기기 설정을 한번 확인해 볼게요.",
+    "meaning": "설정을 확인하다",
+    "tts_text": "Let me check the settings on your device.",
+    "display_sentence": "Let me check the settings on your device.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "troubleshooting",
+      "device"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "click through",
+    "sentence_en": "Just ___ the install steps.",
+    "sentence_ko": "설치 단계를 쭉 클릭해 나가세요.",
+    "meaning": "클릭하며 진행하다",
+    "tts_text": "Just click through the install steps.",
+    "display_sentence": "Just click through the install steps.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "software",
+      "interface"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pin",
+    "sentence_en": "Can you ___ that message in the chat?",
+    "sentence_ko": "채팅에서 그 메시지를 고정해 줄 수 있어요?",
+    "meaning": "고정하다",
+    "tts_text": "Can you pin that message in the chat?",
+    "display_sentence": "Can you pin that message in the chat?",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "collaboration",
+      "communication"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "merge",
+    "sentence_en": "We need to ___ these two documents.",
+    "sentence_ko": "이 두 문서를 합쳐야 해요.",
+    "meaning": "병합하다",
+    "tts_text": "We need to merge these two documents.",
+    "display_sentence": "We need to merge these two documents.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "document",
+      "collaboration"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "compress",
+    "sentence_en": "Please ___ the file before sending.",
+    "sentence_ko": "보내기 전에 파일을 압축하세요.",
+    "meaning": "압축하다",
+    "tts_text": "Please compress the file before sending.",
+    "display_sentence": "Please compress the file before sending.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "document",
+      "sharing"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "offline mode",
+    "sentence_en": "It works in ___ too.",
+    "sentence_ko": "오프라인 모드에서도 작동해요.",
+    "meaning": "오프라인 모드",
+    "tts_text": "It works in offline mode too.",
+    "display_sentence": "It works in offline mode too.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "app",
+      "network"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "sort by",
+    "sentence_en": "Can you ___ date?",
+    "sentence_ko": "날짜순으로 정렬해 줄 수 있어요?",
+    "meaning": "~별로 정렬하다",
+    "tts_text": "Can you sort by date?",
+    "display_sentence": "Can you sort by date?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "document",
+      "data"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "send a reminder",
+    "sentence_en": "Could you ___ about the deadline?",
+    "sentence_ko": "마감 기한에 대해 알림을 보내 줄 수 있어요?",
+    "meaning": "알림을 보내다",
+    "tts_text": "Could you send a reminder about the deadline?",
+    "display_sentence": "Could you send a reminder about the deadline?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "collaboration",
+      "communication"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "mirror the screen",
+    "sentence_en": "How do I ___ to the TV?",
+    "sentence_ko": "TV에 화면을 미러링하는 방법이 뭐예요?",
+    "meaning": "화면을 미러링하다",
+    "tts_text": "How do I mirror the screen to the TV?",
+    "display_sentence": "How do I mirror the screen to the TV?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "device",
+      "presentation"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "up and running",
+    "sentence_en": "The server is finally ___.",
+    "sentence_ko": "서버가 마침내 정상 가동돼요.",
+    "meaning": "정상 작동하는",
+    "tts_text": "The server is finally up and running.",
+    "display_sentence": "The server is finally up and running.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "server",
+      "deployment"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "iron out",
+    "sentence_en": "We need to ___ a few bugs.",
+    "sentence_ko": "버그 몇 개를 해결해야 해요.",
+    "meaning": "(문제를) 해결하다",
+    "tts_text": "We need to iron out a few bugs.",
+    "display_sentence": "We need to iron out a few bugs.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "development",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "roll out",
+    "sentence_en": "We plan to ___ the feature next month.",
+    "sentence_ko": "다음 달에 그 기능을 출시할 계획이에요.",
+    "meaning": "출시하다",
+    "tts_text": "We plan to roll out the feature next month.",
+    "display_sentence": "We plan to roll out the feature next month.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "deployment",
+      "product"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "from scratch",
+    "sentence_en": "I built the app ___.",
+    "sentence_ko": "전 그 앱을 처음부터 만들었어요.",
+    "meaning": "맨 처음부터",
+    "tts_text": "I built the app from scratch.",
+    "display_sentence": "I built the app from scratch.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "development",
+      "project"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a workaround",
+    "sentence_en": "We found ___ for the issue.",
+    "sentence_ko": "그 문제에 대한 우회책을 찾았어요.",
+    "meaning": "임시 해결책",
+    "tts_text": "We found a workaround for the issue.",
+    "display_sentence": "We found a workaround for the issue.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "troubleshooting",
+      "development"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "scalable",
+    "sentence_en": "The system needs to be ___.",
+    "sentence_ko": "그 시스템은 확장 가능해야 해요.",
+    "meaning": "확장 가능한",
+    "tts_text": "The system needs to be scalable.",
+    "display_sentence": "The system needs to be scalable.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "architecture",
+      "server"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "deprecated",
+    "sentence_en": "That method is now ___.",
+    "sentence_ko": "그 방식은 이제 더 이상 안 써요.",
+    "meaning": "사용 중단된",
+    "tts_text": "That method is now deprecated.",
+    "display_sentence": "That method is now deprecated.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "development",
+      "software"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "crashed and burned",
+    "sentence_en": "The launch ___ on day one.",
+    "sentence_ko": "그 출시는 첫날 완전히 망했어요.",
+    "meaning": "완전히 실패하다(과거형)",
+    "tts_text": "The launch crashed and burned on day one.",
+    "display_sentence": "The launch crashed and burned on day one.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "product",
+      "deployment"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a steep learning curve",
+    "sentence_en": "This tool has ___.",
+    "sentence_ko": "이 도구는 배우기가 만만치 않아요.",
+    "meaning": "가파른 학습 곡선",
+    "tts_text": "This tool has a steep learning curve.",
+    "display_sentence": "This tool has a steep learning curve.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "software",
+      "training"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "future-proof",
+    "sentence_en": "We want a ___ design.",
+    "sentence_ko": "미래에도 대비되는 설계를 원해요.",
+    "meaning": "미래에도 끄떡없는",
+    "tts_text": "We want a future-proof design.",
+    "display_sentence": "We want a future-proof design.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "architecture",
+      "product"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "push out",
+    "sentence_en": "Let's ___ the hotfix tonight.",
+    "sentence_ko": "오늘 밤 핫픽스를 배포해요.",
+    "meaning": "배포하다",
+    "tts_text": "Let's push out the hotfix tonight.",
+    "display_sentence": "Let's push out the hotfix tonight.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "deployment",
+      "development"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "legacy code",
+    "sentence_en": "We're stuck with ___.",
+    "sentence_ko": "우리는 낡은 코드에 발목 잡혀 있어요.",
+    "meaning": "낡은 (유산) 코드",
+    "tts_text": "We're stuck with legacy code.",
+    "display_sentence": "We're stuck with legacy code.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "development",
+      "architecture"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a single point of failure",
+    "sentence_en": "This is ___.",
+    "sentence_ko": "여기가 단일 장애 지점이에요.",
+    "meaning": "단일 장애 지점",
+    "tts_text": "This is a single point of failure.",
+    "display_sentence": "This is a single point of failure.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "architecture",
+      "server"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "scale up",
+    "sentence_en": "We need to ___ the servers.",
+    "sentence_ko": "서버를 증설해야 해요.",
+    "meaning": "규모를 키우다",
+    "tts_text": "We need to scale up the servers.",
+    "display_sentence": "We need to scale up the servers.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "server",
+      "architecture"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a quick fix",
+    "sentence_en": "This is just ___ for now.",
+    "sentence_ko": "이건 일단 임시방편이에요.",
+    "meaning": "임시 미봉책",
+    "tts_text": "This is just a quick fix for now.",
+    "display_sentence": "This is just a quick fix for now.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "development",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "plug and play",
+    "sentence_en": "The device is ___.",
+    "sentence_ko": "그 기기는 꽂으면 바로 써져요.",
+    "meaning": "꽂으면 바로 되는",
+    "tts_text": "The device is plug and play.",
+    "display_sentence": "The device is plug and play.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "hardware",
+      "device"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "broke the build",
+    "sentence_en": "That commit ___.",
+    "sentence_ko": "그 커밋이 빌드를 깨뜨렸어요.",
+    "meaning": "빌드를 깨뜨리다(과거형)",
+    "tts_text": "That commit broke the build.",
+    "display_sentence": "That commit broke the build.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "development",
+      "ci_cd"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on the cloud",
+    "sentence_en": "All our data is ___.",
+    "sentence_ko": "우리 데이터는 전부 클라우드에 있어요.",
+    "meaning": "클라우드에",
+    "tts_text": "All our data is on the cloud.",
+    "display_sentence": "All our data is on the cloud.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "cloud",
+      "data"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "roll back",
+    "sentence_en": "We had to ___ the update.",
+    "sentence_ko": "우리는 업데이트를 되돌려야 했어요.",
+    "meaning": "(이전 상태로) 되돌리다",
+    "tts_text": "We had to roll back the update.",
+    "display_sentence": "We had to roll back the update.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "deployment",
+      "development"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a stress test",
+    "sentence_en": "We ran ___ before launch.",
+    "sentence_ko": "출시 전에 부하 테스트를 돌렸어요.",
+    "meaning": "부하 테스트",
+    "tts_text": "We ran a stress test before launch.",
+    "display_sentence": "We ran a stress test before launch.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "testing",
+      "deployment"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get up to speed",
+    "sentence_en": "The new dev needs to ___.",
+    "sentence_ko": "새 개발자가 빨리 적응해야 해요.",
+    "meaning": "빠르게 익히다",
+    "tts_text": "The new dev needs to get up to speed.",
+    "display_sentence": "The new dev needs to get up to speed.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "training",
+      "onboarding"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "buggy",
+    "sentence_en": "The latest build is ___.",
+    "sentence_ko": "최신 빌드에 버그가 많아요.",
+    "meaning": "버그가 많은",
+    "tts_text": "The latest build is buggy.",
+    "display_sentence": "The latest build is buggy.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "development",
+      "testing"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "edge case",
+    "sentence_en": "We missed an ___.",
+    "sentence_ko": "우리는 예외적 상황을 놓쳤어요.",
+    "meaning": "예외적 경우",
+    "tts_text": "We missed an edge case.",
+    "display_sentence": "We missed an edge case.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "development",
+      "testing"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "ship it",
+    "sentence_en": "Once it's tested, let's ___.",
+    "sentence_ko": "테스트 끝나면 출시합시다.",
+    "meaning": "출시하다, 내보내다",
+    "tts_text": "Once it's tested, let's ship it.",
+    "display_sentence": "Once it's tested, let's ship it.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "deployment",
+      "product"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "dial in",
+    "sentence_en": "We need to ___ the settings.",
+    "sentence_ko": "설정을 정밀하게 맞춰야 해요.",
+    "meaning": "정밀하게 조정하다",
+    "tts_text": "We need to dial in the settings.",
+    "display_sentence": "We need to dial in the settings.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "configuration",
+      "development"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bandwidth",
+    "sentence_en": "We don't have enough ___ for that.",
+    "sentence_ko": "그거 할 여력이 없어요.",
+    "meaning": "여력, 대역폭",
+    "tts_text": "We don't have enough bandwidth for that.",
+    "display_sentence": "We don't have enough bandwidth for that.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "project",
+      "collaboration"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "go live",
+    "sentence_en": "We're set to ___ on Friday.",
+    "sentence_ko": "금요일에 오픈할 예정이에요.",
+    "meaning": "실서비스를 시작하다",
+    "tts_text": "We're set to go live on Friday.",
+    "display_sentence": "We're set to go live on Friday.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "deployment",
+      "product"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "pain point",
+    "sentence_en": "Slow loading is a major ___.",
+    "sentence_ko": "느린 로딩이 큰 불편 사항이에요.",
+    "meaning": "불편 사항, 문제점",
+    "tts_text": "Slow loading is a major pain point.",
+    "display_sentence": "Slow loading is a major pain point.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "product",
+      "ux"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "iterate on",
+    "sentence_en": "We'll ___ the design next sprint.",
+    "sentence_ko": "다음 스프린트에서 디자인을 개선해 나갈게요.",
+    "meaning": "반복 개선하다",
+    "tts_text": "We'll iterate on the design next sprint.",
+    "display_sentence": "We'll iterate on the design next sprint.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "development",
+      "product"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "real-time",
+    "sentence_en": "The dashboard updates in ___.",
+    "sentence_ko": "대시보드가 실시간으로 업데이트돼요.",
+    "meaning": "실시간",
+    "tts_text": "The dashboard updates in real-time.",
+    "display_sentence": "The dashboard updates in real-time.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "product",
+      "data"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "end-to-end",
+    "sentence_en": "We do ___ testing before each release.",
+    "sentence_ko": "매 릴리즈 전에 전체 구간 테스트를 해요.",
+    "meaning": "처음부터 끝까지, 전체 구간",
+    "tts_text": "We do end-to-end testing before each release.",
+    "display_sentence": "We do end-to-end testing before each release.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "testing",
+      "development"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a bottleneck",
+    "sentence_en": "The database is ___ right now.",
+    "sentence_ko": "데이터베이스가 지금 병목 지점이에요.",
+    "meaning": "병목 지점",
+    "tts_text": "The database is a bottleneck right now.",
+    "display_sentence": "The database is a bottleneck right now.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "performance",
+      "architecture"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "spin up",
+    "sentence_en": "Can you ___ a new test environment?",
+    "sentence_ko": "새 테스트 환경을 구축해 줄 수 있어요?",
+    "meaning": "환경을 빠르게 만들다",
+    "tts_text": "Can you spin up a new test environment?",
+    "display_sentence": "Can you spin up a new test environment?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "development",
+      "server"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a proof of concept",
+    "sentence_en": "Let's build ___ first.",
+    "sentence_ko": "먼저 개념 증명을 만들어 봐요.",
+    "meaning": "개념 증명",
+    "tts_text": "Let's build a proof of concept first.",
+    "display_sentence": "Let's build a proof of concept first.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "project",
+      "development"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "version control",
+    "sentence_en": "We use ___ for all our code.",
+    "sentence_ko": "모든 코드에 버전 관리를 사용해요.",
+    "meaning": "버전 관리",
+    "tts_text": "We use version control for all our code.",
+    "display_sentence": "We use version control for all our code.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "development",
+      "ci_cd"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "behind a paywall",
+    "sentence_en": "That feature is ___.",
+    "sentence_ko": "그 기능은 유료예요.",
+    "meaning": "유료 잠금 뒤에 있는",
+    "tts_text": "That feature is behind a paywall.",
+    "display_sentence": "That feature is behind a paywall.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "product",
+      "subscription"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "harden",
+    "sentence_en": "We need to ___ the security settings.",
+    "sentence_ko": "보안 설정을 강화해야 해요.",
+    "meaning": "강화하다(보안)",
+    "tts_text": "We need to harden the security settings.",
+    "display_sentence": "We need to harden the security settings.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "security",
+      "architecture"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "moving parts",
+    "sentence_en": "There are too many ___ in this system.",
+    "sentence_ko": "이 시스템에는 변수가 너무 많아요.",
+    "meaning": "변수, 복잡한 요소",
+    "tts_text": "There are too many moving parts in this system.",
+    "display_sentence": "There are too many moving parts in this system.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "architecture",
+      "project"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "under the hood",
+    "sentence_en": "Let me show you what's ___.",
+    "sentence_ko": "내부가 어떻게 돌아가는지 보여 드릴게요.",
+    "meaning": "내부에서, 겉으로는 안 보이는",
+    "tts_text": "Let me show you what's under the hood.",
+    "display_sentence": "Let me show you what's under the hood.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "development",
+      "product"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "in production",
+    "sentence_en": "Be careful, this change is ___.",
+    "sentence_ko": "주의하세요, 이 변경 사항은 운영 중이에요.",
+    "meaning": "운영 환경에서",
+    "tts_text": "Be careful, this change is in production.",
+    "display_sentence": "Be careful, this change is in production.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "deployment",
+      "development"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "cut corners",
+    "sentence_en": "We can't afford to ___ on testing.",
+    "sentence_ko": "테스트에서 대충 할 여유는 없어요.",
+    "meaning": "대충 처리하다",
+    "tts_text": "We can't afford to cut corners on testing.",
+    "display_sentence": "We can't afford to cut corners on testing.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "development",
+      "quality"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a dependency",
+    "sentence_en": "This module has ___ on the legacy system.",
+    "sentence_ko": "이 모듈은 레거시 시스템에 의존성이 있어요.",
+    "meaning": "의존성",
+    "tts_text": "This module has a dependency on the legacy system.",
+    "display_sentence": "This module has a dependency on the legacy system.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "development",
+      "architecture"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a knowledge base",
+    "sentence_en": "Check ___ before asking the team.",
+    "sentence_ko": "팀에 묻기 전에 지식 베이스를 확인하세요.",
+    "meaning": "지식 베이스",
+    "tts_text": "Check a knowledge base before asking the team.",
+    "display_sentence": "Check a knowledge base before asking the team.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "collaboration",
+      "onboarding"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "in the pipeline",
+    "sentence_en": "That feature is ___.",
+    "sentence_ko": "그 기능은 개발 예정이에요.",
+    "meaning": "개발·진행 중인",
+    "tts_text": "That feature is in the pipeline.",
+    "display_sentence": "That feature is in the pipeline.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "product",
+      "project"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "hard-code",
+    "sentence_en": "Don't ___ the values into the script.",
+    "sentence_ko": "값을 스크립트에 직접 박아 넣지 마세요.",
+    "meaning": "값을 직접 삽입하다",
+    "tts_text": "Don't hard-code the values into the script.",
+    "display_sentence": "Don't hard-code the values into the script.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "development",
+      "architecture"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on-premise",
+    "sentence_en": "Our servers are ___, not cloud.",
+    "sentence_ko": "우리 서버는 클라우드가 아니라 자체 설치형이에요.",
+    "meaning": "자체 설치형의",
+    "tts_text": "Our servers are on-premise, not cloud.",
+    "display_sentence": "Our servers are on-premise, not cloud.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "server",
+      "architecture"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "technical debt",
+    "sentence_en": "We've been accumulating ___ for years.",
+    "sentence_ko": "몇 년째 기술 부채가 쌓이고 있어요.",
+    "meaning": "기술 부채",
+    "tts_text": "We've been accumulating technical debt for years.",
+    "display_sentence": "We've been accumulating technical debt for years.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "development",
+      "architecture"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a feature flag",
+    "sentence_en": "We used ___ to test this change.",
+    "sentence_ko": "이 변경 사항을 테스트하는 데 피처 플래그를 사용했어요.",
+    "meaning": "피처 플래그",
+    "tts_text": "We used a feature flag to test this change.",
+    "display_sentence": "We used a feature flag to test this change.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "deployment",
+      "development"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "sign off on",
+    "sentence_en": "The CTO needs to ___ this deployment.",
+    "sentence_ko": "이 배포는 CTO가 최종 승인해야 해요.",
+    "meaning": "최종 승인하다",
+    "tts_text": "The CTO needs to sign off on this deployment.",
+    "display_sentence": "The CTO needs to sign off on this deployment.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "deployment",
+      "project"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on the same page",
+    "sentence_en": "Let's make sure we're all ___.",
+    "sentence_ko": "우리 모두 같은 인식을 갖도록 확인합시다.",
+    "meaning": "같은 생각(인식)을 가진",
+    "tts_text": "Let's make sure we're all on the same page.",
+    "display_sentence": "Let's make sure we're all on the same page.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "collaboration",
+      "project"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "scope creep",
+    "sentence_en": "We're dealing with ___ again.",
+    "sentence_ko": "또 범위 확장 문제가 생겼어요.",
+    "meaning": "범위 확장(비통제적)",
+    "tts_text": "We're dealing with scope creep again.",
+    "display_sentence": "We're dealing with scope creep again.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "project",
+      "product"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a retrospective",
+    "sentence_en": "Let's schedule ___ after the sprint.",
+    "sentence_ko": "스프린트 후에 회고 시간을 잡아요.",
+    "meaning": "회고 미팅",
+    "tts_text": "Let's schedule a retrospective after the sprint.",
+    "display_sentence": "Let's schedule a retrospective after the sprint.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "development",
+      "collaboration"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "asynchronous",
+    "sentence_en": "We prefer ___ communication on this team.",
+    "sentence_ko": "이 팀은 비동기 소통을 선호해요.",
+    "meaning": "비동기의",
+    "tts_text": "We prefer asynchronous communication on this team.",
+    "display_sentence": "We prefer asynchronous communication on this team.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "collaboration",
+      "remote_work"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "onboard",
+    "sentence_en": "We need a week to ___ the new hire.",
+    "sentence_ko": "신입 직원을 온보딩하는 데 일주일이 필요해요.",
+    "meaning": "온보딩하다",
+    "tts_text": "We need a week to onboard the new hire.",
+    "display_sentence": "We need a week to onboard the new hire.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "onboarding",
+      "collaboration"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a roadmap",
+    "sentence_en": "Can you share ___ for Q3?",
+    "sentence_ko": "3분기 로드맵을 공유해 줄 수 있어요?",
+    "meaning": "로드맵",
+    "tts_text": "Can you share a roadmap for Q3?",
+    "display_sentence": "Can you share a roadmap for Q3?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "product",
+      "project"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "refactor",
+    "sentence_en": "We should ___ this module before adding features.",
+    "sentence_ko": "기능을 추가하기 전에 이 모듈을 리팩토링해야 해요.",
+    "meaning": "리팩토링하다",
+    "tts_text": "We should refactor this module before adding features.",
+    "display_sentence": "We should refactor this module before adding features.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "development",
+      "architecture"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "latency",
+    "sentence_en": "High ___ is making the app feel slow.",
+    "sentence_ko": "높은 지연 시간 때문에 앱이 느리게 느껴져요.",
+    "meaning": "지연 시간",
+    "tts_text": "High latency is making the app feel slow.",
+    "display_sentence": "High latency is making the app feel slow.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "performance",
+      "network"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a sandbox",
+    "sentence_en": "Test it in ___ before deploying.",
+    "sentence_ko": "배포하기 전에 샌드박스에서 테스트하세요.",
+    "meaning": "샌드박스(격리 테스트 환경)",
+    "tts_text": "Test it in a sandbox before deploying.",
+    "display_sentence": "Test it in a sandbox before deploying.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "testing",
+      "development"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "milestone",
+    "sentence_en": "We hit an important ___ today.",
+    "sentence_ko": "오늘 중요한 이정표를 달성했어요.",
+    "meaning": "이정표, 주요 단계",
+    "tts_text": "We hit an important milestone today.",
+    "display_sentence": "We hit an important milestone today.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "project",
+      "product"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "profile",
+    "sentence_en": "Update your ___ with a photo.",
+    "sentence_ko": "사진으로 프로필을 업데이트하세요.",
+    "meaning": "프로필",
+    "tts_text": "Update your profile with a photo.",
+    "display_sentence": "Update your profile with a photo.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "account",
+      "online"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "plug",
+    "sentence_en": "Where is the power ___?",
+    "sentence_ko": "전원 플러그가 어디 있어요?",
+    "meaning": "플러그",
+    "tts_text": "Where is the power plug?",
+    "display_sentence": "Where is the power plug?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "hardware",
+      "office"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "website",
+    "sentence_en": "Check the company ___.",
+    "sentence_ko": "회사 웹사이트를 확인해 보세요.",
+    "meaning": "웹사이트",
+    "tts_text": "Check the company website.",
+    "display_sentence": "Check the company website.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "online",
+      "office"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "video call",
+    "sentence_en": "Let's set up a ___ tomorrow.",
+    "sentence_ko": "내일 화상 통화를 잡아요.",
+    "meaning": "화상 통화",
+    "tts_text": "Let's set up a video call tomorrow.",
+    "display_sentence": "Let's set up a video call tomorrow.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "online_meeting",
+      "communication"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "account",
+    "sentence_en": "I need to create a new ___.",
+    "sentence_ko": "새 계정을 만들어야 해요.",
+    "meaning": "계정",
+    "tts_text": "I need to create a new account.",
+    "display_sentence": "I need to create a new account.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "account",
+      "online"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "shortcut",
+    "sentence_en": "Use the keyboard ___ to copy.",
+    "sentence_ko": "복사하려면 키보드 단축키를 쓰세요.",
+    "meaning": "단축키",
+    "tts_text": "Use the keyboard shortcut to copy.",
+    "display_sentence": "Use the keyboard shortcut to copy.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "interface",
+      "office"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "go offline",
+    "sentence_en": "The server tends to ___ at night.",
+    "sentence_ko": "서버가 밤에 자주 오프라인이 돼요.",
+    "meaning": "오프라인이 되다",
+    "tts_text": "The server tends to go offline at night.",
+    "display_sentence": "The server tends to go offline at night.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "network",
+      "server"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "troubleshoot",
+    "sentence_en": "Let me ___ the connection issue.",
+    "sentence_ko": "연결 문제를 점검해 볼게요.",
+    "meaning": "문제를 점검하다",
+    "tts_text": "Let me troubleshoot the connection issue.",
+    "display_sentence": "Let me troubleshoot the connection issue.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "troubleshooting",
+      "network"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "paste in",
+    "sentence_en": "Just ___ the link to the chat.",
+    "sentence_ko": "채팅에 링크를 붙여넣기만 하세요.",
+    "meaning": "붙여넣기 하다",
+    "tts_text": "Just paste in the link to the chat.",
+    "display_sentence": "Just paste in the link to the chat.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "communication",
+      "collaboration"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "flag",
+    "sentence_en": "Can you ___ that message for me?",
+    "sentence_ko": "그 메시지 표시해 줄 수 있어요?",
+    "meaning": "표시하다",
+    "tts_text": "Can you flag that message for me?",
+    "display_sentence": "Can you flag that message for me?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "email",
+      "collaboration"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "filter",
+    "sentence_en": "Can you ___ the results by date?",
+    "sentence_ko": "날짜로 결과를 필터링해 줄 수 있어요?",
+    "meaning": "필터링하다",
+    "tts_text": "Can you filter the results by date?",
+    "display_sentence": "Can you filter the results by date?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "data",
+      "interface"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "send a link",
+    "sentence_en": "Can you ___ to the document?",
+    "sentence_ko": "문서 링크를 보내 줄 수 있어요?",
+    "meaning": "링크를 보내다",
+    "tts_text": "Can you send a link to the document?",
+    "display_sentence": "Can you send a link to the document?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "sharing",
+      "communication"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "rename",
+    "sentence_en": "Please ___ the file before saving.",
+    "sentence_ko": "저장하기 전에 파일 이름을 바꾸세요.",
+    "meaning": "이름을 바꾸다",
+    "tts_text": "Please rename the file before saving.",
+    "display_sentence": "Please rename the file before saving.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "document",
+      "office"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "check for updates",
+    "sentence_en": "Make sure to ___ regularly.",
+    "sentence_ko": "정기적으로 업데이트 확인을 하세요.",
+    "meaning": "업데이트를 확인하다",
+    "tts_text": "Make sure to check for updates regularly.",
+    "display_sentence": "Make sure to check for updates regularly.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "software",
+      "security"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "send over",
+    "sentence_en": "Can you ___ the report?",
+    "sentence_ko": "보고서를 보내 줄 수 있어요?",
+    "meaning": "보내다",
+    "tts_text": "Can you send over the report?",
+    "display_sentence": "Can you send over the report?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "communication",
+      "office"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a duplicate",
+    "sentence_en": "I think this file is ___.",
+    "sentence_ko": "이 파일이 중복된 것 같아요.",
+    "meaning": "중복 파일",
+    "tts_text": "I think this file is a duplicate.",
+    "display_sentence": "I think this file is a duplicate.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "data",
+      "document"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "archive",
+    "sentence_en": "Please ___ the old project files.",
+    "sentence_ko": "오래된 프로젝트 파일을 보관하세요.",
+    "meaning": "보관하다",
+    "tts_text": "Please archive the old project files.",
+    "display_sentence": "Please archive the old project files.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "document",
+      "office"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "copy and share",
+    "sentence_en": "You can ___ the invite code.",
+    "sentence_ko": "초대 코드를 복사해서 공유하면 돼요.",
+    "meaning": "복사해서 공유하다",
+    "tts_text": "You can copy and share the invite code.",
+    "display_sentence": "You can copy and share the invite code.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "sharing",
+      "collaboration"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "add a comment",
+    "sentence_en": "Please ___ on the document.",
+    "sentence_ko": "문서에 댓글을 달아 주세요.",
+    "meaning": "댓글을 달다",
+    "tts_text": "Please add a comment on the document.",
+    "display_sentence": "Please add a comment on the document.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "collaboration",
+      "document"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "disable",
+    "sentence_en": "You can ___ pop-up notifications.",
+    "sentence_ko": "팝업 알림을 비활성화할 수 있어요.",
+    "meaning": "비활성화하다",
+    "tts_text": "You can disable pop-up notifications.",
+    "display_sentence": "You can disable pop-up notifications.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "settings",
+      "app"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "run in the background",
+    "sentence_en": "The app will ___ while you work.",
+    "sentence_ko": "작업하는 동안 앱이 백그라운드에서 실행돼요.",
+    "meaning": "백그라운드에서 실행하다",
+    "tts_text": "The app will run in the background while you work.",
+    "display_sentence": "The app will run in the background while you work.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "app",
+      "software"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "enable",
+    "sentence_en": "You need to ___ location access first.",
+    "sentence_ko": "먼저 위치 접근을 활성화해야 해요.",
+    "meaning": "활성화하다",
+    "tts_text": "You need to enable location access first.",
+    "display_sentence": "You need to enable location access first.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "settings",
+      "app"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a permission",
+    "sentence_en": "The app needs ___ to access photos.",
+    "sentence_ko": "앱이 사진 접근 권한이 필요해요.",
+    "meaning": "권한",
+    "tts_text": "The app needs a permission to access photos.",
+    "display_sentence": "The app needs a permission to access photos.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "app",
+      "security"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "tag",
+    "sentence_en": "Can you ___ me in the document?",
+    "sentence_ko": "문서에서 저를 태그해 줄 수 있어요?",
+    "meaning": "태그하다",
+    "tts_text": "Can you tag me in the document?",
+    "display_sentence": "Can you tag me in the document?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "collaboration",
+      "document"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "cut off",
+    "sentence_en": "Sorry, you got ___ for a second.",
+    "sentence_ko": "잠깐 연결이 끊겼어요, 죄송해요.",
+    "meaning": "(통화가) 끊기다",
+    "tts_text": "Sorry, you got cut off for a second.",
+    "display_sentence": "Sorry, you got cut off for a second.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "online_meeting",
+      "communication"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "read-only",
+    "sentence_en": "That file is ___, you can't edit it.",
+    "sentence_ko": "그 파일은 읽기 전용이라 수정할 수 없어요.",
+    "meaning": "읽기 전용",
+    "tts_text": "That file is read-only, you can't edit it.",
+    "display_sentence": "That file is read-only, you can't edit it.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "document",
+      "sharing"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "push the deadline",
+    "sentence_en": "Can we ___ by one more week?",
+    "sentence_ko": "마감을 일주일 더 미룰 수 있을까요?",
+    "meaning": "마감을 미루다",
+    "tts_text": "Can we push the deadline by one more week?",
+    "display_sentence": "Can we push the deadline by one more week?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "project",
+      "collaboration"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "patch",
+    "sentence_en": "We released a security ___ this morning.",
+    "sentence_ko": "오늘 아침에 보안 패치를 배포했어요.",
+    "meaning": "패치(소프트웨어 수정본)",
+    "tts_text": "We released a security patch this morning.",
+    "display_sentence": "We released a security patch this morning.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "security",
+      "deployment"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "drag our feet",
+    "sentence_en": "We can't ___ on this migration.",
+    "sentence_ko": "이 마이그레이션을 질질 끌 수는 없어요.",
+    "meaning": "질질 끌다",
+    "tts_text": "We can't drag our feet on this migration.",
+    "display_sentence": "We can't drag our feet on this migration.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "project",
+      "development"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a release candidate",
+    "sentence_en": "We're testing ___ now.",
+    "sentence_ko": "지금 릴리즈 후보를 테스트하고 있어요.",
+    "meaning": "릴리즈 후보",
+    "tts_text": "We're testing a release candidate now.",
+    "display_sentence": "We're testing a release candidate now.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "deployment",
+      "testing"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "smoke test",
+    "sentence_en": "Run a quick ___ before the demo.",
+    "sentence_ko": "데모 전에 간단한 스모크 테스트를 해보세요.",
+    "meaning": "기본 동작 확인 테스트",
+    "tts_text": "Run a quick smoke test before the demo.",
+    "display_sentence": "Run a quick smoke test before the demo.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "testing",
+      "deployment"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "go down",
+    "sentence_en": "The production server is about to ___.",
+    "sentence_ko": "프로덕션 서버가 곧 다운될 것 같아요.",
+    "meaning": "다운되다",
+    "tts_text": "The production server is about to go down.",
+    "display_sentence": "The production server is about to go down.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "server",
+      "troubleshooting"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "ownership",
+    "sentence_en": "Who has ___ of this module?",
+    "sentence_ko": "이 모듈의 담당자가 누구예요?",
+    "meaning": "담당, 소유권",
+    "tts_text": "Who has ownership of this module?",
+    "display_sentence": "Who has ownership of this module?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "collaboration",
+      "development"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "access control",
+    "sentence_en": "We need stronger ___ on this folder.",
+    "sentence_ko": "이 폴더에 더 강한 접근 제어가 필요해요.",
+    "meaning": "접근 제어",
+    "tts_text": "We need stronger access control on this folder.",
+    "display_sentence": "We need stronger access control on this folder.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "security",
+      "collaboration"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "automate",
+    "sentence_en": "We should ___ this repetitive task.",
+    "sentence_ko": "이 반복적인 작업을 자동화해야 해요.",
+    "meaning": "자동화하다",
+    "tts_text": "We should automate this repetitive task.",
+    "display_sentence": "We should automate this repetitive task.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "development",
+      "productivity"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a pull request",
+    "sentence_en": "Please review ___ before merging.",
+    "sentence_ko": "병합 전에 풀 리퀘스트를 검토해 주세요.",
+    "meaning": "풀 리퀘스트",
+    "tts_text": "Please review a pull request before merging.",
+    "display_sentence": "Please review a pull request before merging.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "development",
+      "ci_cd"
+    ]
+  },
+  {
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "fallback",
+    "sentence_en": "We need a ___ plan if the API fails.",
+    "sentence_ko": "API가 실패했을 때 대비 방안이 필요해요.",
+    "meaning": "대비 방안, 폴백",
+    "tts_text": "We need a fallback plan if the API fails.",
+    "display_sentence": "We need a fallback plan if the API fails.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "architecture",
+      "development"
+    ]
+  }
+]

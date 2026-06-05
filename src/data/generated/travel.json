@@ -1,0 +1,3674 @@
+[
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "ticket",
+    "sentence_en": "I need a ___ to Busan.",
+    "sentence_ko": "부산행 표가 필요해요.",
+    "meaning": "표",
+    "tts_text": "I need a ticket to Busan.",
+    "display_sentence": "I need a ticket to Busan.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "transportation",
+      "booking"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "bus",
+    "sentence_en": "Where is the ___ stop?",
+    "sentence_ko": "버스 정류장이 어디예요?",
+    "meaning": "버스",
+    "tts_text": "Where is the bus stop?",
+    "display_sentence": "Where is the bus stop?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation",
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "lost",
+    "sentence_en": "I think I'm ___.",
+    "sentence_ko": "저 길을 잃은 것 같아요.",
+    "meaning": "길을 잃은",
+    "tts_text": "I think I'm lost.",
+    "display_sentence": "I think I'm lost.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "directions",
+      "emergency"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "airport",
+    "sentence_en": "How do I get to the ___?",
+    "sentence_ko": "공항에 어떻게 가나요?",
+    "meaning": "공항",
+    "tts_text": "How do I get to the airport?",
+    "display_sentence": "How do I get to the airport?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "transportation",
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "left",
+    "sentence_en": "Turn ___ at the corner.",
+    "sentence_ko": "모퉁이에서 왼쪽으로 도세요.",
+    "meaning": "왼쪽",
+    "tts_text": "Turn left at the corner.",
+    "display_sentence": "Turn left at the corner.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "luggage",
+    "sentence_en": "Where can I pick up my ___?",
+    "sentence_ko": "제 짐을 어디서 찾나요?",
+    "meaning": "짐, 수하물",
+    "tts_text": "Where can I pick up my luggage?",
+    "display_sentence": "Where can I pick up my luggage?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "airport",
+      "hotel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "far",
+    "sentence_en": "Is the station ___ from here?",
+    "sentence_ko": "여기서 역이 먼가요?",
+    "meaning": "먼",
+    "tts_text": "Is the station far from here?",
+    "display_sentence": "Is the station far from here?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "directions",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "map",
+    "sentence_en": "Can I get a ___ of the city?",
+    "sentence_ko": "도시 지도 하나 받을 수 있을까요?",
+    "meaning": "지도",
+    "tts_text": "Can I get a map of the city?",
+    "display_sentence": "Can I get a map of the city?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "sightseeing",
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "train",
+    "sentence_en": "What time does the ___ leave?",
+    "sentence_ko": "기차가 몇 시에 떠나요?",
+    "meaning": "기차",
+    "tts_text": "What time does the train leave?",
+    "display_sentence": "What time does the train leave?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hotel",
+    "sentence_en": "Where is my ___?",
+    "sentence_ko": "제 호텔이 어디예요?",
+    "meaning": "호텔",
+    "tts_text": "Where is my hotel?",
+    "display_sentence": "Where is my hotel?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "accommodation",
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "taxi",
+    "sentence_en": "Can you call a ___ for me?",
+    "sentence_ko": "택시 좀 불러 주시겠어요?",
+    "meaning": "택시",
+    "tts_text": "Can you call a taxi for me?",
+    "display_sentence": "Can you call a taxi for me?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "right",
+    "sentence_en": "The bank is on your ___.",
+    "sentence_ko": "은행은 오른쪽에 있어요.",
+    "meaning": "오른쪽",
+    "tts_text": "The bank is on your right.",
+    "display_sentence": "The bank is on your right.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "near",
+    "sentence_en": "Is there a cafe ___ here?",
+    "sentence_ko": "여기 근처에 카페 있어요?",
+    "meaning": "가까운",
+    "tts_text": "Is there a cafe near here?",
+    "display_sentence": "Is there a cafe near here?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "directions",
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "road",
+    "sentence_en": "Which ___ goes downtown?",
+    "sentence_ko": "어느 길이 시내로 가나요?",
+    "meaning": "길, 도로",
+    "tts_text": "Which road goes downtown?",
+    "display_sentence": "Which road goes downtown?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "here",
+    "sentence_en": "Please stop ___.",
+    "sentence_ko": "여기서 세워 주세요.",
+    "meaning": "여기",
+    "tts_text": "Please stop here.",
+    "display_sentence": "Please stop here.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "station",
+    "sentence_en": "How far is the ___?",
+    "sentence_ko": "역이 얼마나 먼가요?",
+    "meaning": "역",
+    "tts_text": "How far is the station?",
+    "display_sentence": "How far is the station?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation",
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "trip",
+    "sentence_en": "Have a safe ___!",
+    "sentence_ko": "안전한 여행 되세요!",
+    "meaning": "여행",
+    "tts_text": "Have a safe trip!",
+    "display_sentence": "Have a safe trip!",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "walk",
+    "sentence_en": "Can I ___ there?",
+    "sentence_ko": "거기 걸어갈 수 있어요?",
+    "meaning": "걷다",
+    "tts_text": "Can I walk there?",
+    "display_sentence": "Can I walk there?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "directions",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "city",
+    "sentence_en": "Which ___ are you visiting?",
+    "sentence_ko": "어느 도시를 방문하세요?",
+    "meaning": "도시",
+    "tts_text": "Which city are you visiting?",
+    "display_sentence": "Which city are you visiting?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel",
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "flight",
+    "sentence_en": "My ___ is at noon.",
+    "sentence_ko": "제 비행기는 정오예요.",
+    "meaning": "항공편",
+    "tts_text": "My flight is at noon.",
+    "display_sentence": "My flight is at noon.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "airport",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "room",
+    "sentence_en": "I'd like a ___ for two nights.",
+    "sentence_ko": "2박 할 방을 원해요.",
+    "meaning": "방",
+    "tts_text": "I'd like a room for two nights.",
+    "display_sentence": "I'd like a room for two nights.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "accommodation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "gate",
+    "sentence_en": "Which ___ is my flight?",
+    "sentence_ko": "제 비행기는 몇 번 게이트예요?",
+    "meaning": "탑승구",
+    "tts_text": "Which gate is my flight?",
+    "display_sentence": "Which gate is my flight?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "airport"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "guide",
+    "sentence_en": "Do you have a tour ___?",
+    "sentence_ko": "투어 가이드 있나요?",
+    "meaning": "가이드",
+    "tts_text": "Do you have a tour guide?",
+    "display_sentence": "Do you have a tour guide?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "seat",
+    "sentence_en": "Is this ___ taken?",
+    "sentence_ko": "이 자리 주인 있나요?",
+    "meaning": "자리",
+    "tts_text": "Is this seat taken?",
+    "display_sentence": "Is this seat taken?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation",
+      "accommodation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "passport",
+    "sentence_en": "Here is my ___.",
+    "sentence_ko": "여기 제 여권이요.",
+    "meaning": "여권",
+    "tts_text": "Here is my passport.",
+    "display_sentence": "Here is my passport.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "airport",
+      "border"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "subway",
+    "sentence_en": "Which ___ line should I take?",
+    "sentence_ko": "어느 지하철 노선을 타야 하나요?",
+    "meaning": "지하철",
+    "tts_text": "Which subway line should I take?",
+    "display_sentence": "Which subway line should I take?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "straight",
+    "sentence_en": "Go ___ for two blocks.",
+    "sentence_ko": "두 블록 직진하세요.",
+    "meaning": "직진",
+    "tts_text": "Go straight for two blocks.",
+    "display_sentence": "Go straight for two blocks.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "late",
+    "sentence_en": "The bus is running ___.",
+    "sentence_ko": "버스가 늦게 오고 있어요.",
+    "meaning": "늦은",
+    "tts_text": "The bus is running late.",
+    "display_sentence": "The bus is running late.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "visa",
+    "sentence_en": "Do I need a ___ to enter?",
+    "sentence_ko": "입국하려면 비자가 필요한가요?",
+    "meaning": "비자",
+    "tts_text": "Do I need a visa to enter?",
+    "display_sentence": "Do I need a visa to enter?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "airport",
+      "border"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "stop",
+    "sentence_en": "Which ___ is the museum?",
+    "sentence_ko": "박물관은 어느 정류장이에요?",
+    "meaning": "정류장",
+    "tts_text": "Which stop is the museum?",
+    "display_sentence": "Which stop is the museum?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation",
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "window",
+    "sentence_en": "I'd like a ___ seat.",
+    "sentence_ko": "창가 자리로 주세요.",
+    "meaning": "창가",
+    "tts_text": "I'd like a window seat.",
+    "display_sentence": "I'd like a window seat.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation",
+      "accommodation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "full",
+    "sentence_en": "Sorry, the hotel is ___.",
+    "sentence_ko": "죄송해요, 호텔이 만실이에요.",
+    "meaning": "꽉 찬",
+    "tts_text": "Sorry, the hotel is full.",
+    "display_sentence": "Sorry, the hotel is full.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "accommodation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "cash",
+    "sentence_en": "Do you accept ___?",
+    "sentence_ko": "현금 받으시나요?",
+    "meaning": "현금",
+    "tts_text": "Do you accept cash?",
+    "display_sentence": "Do you accept cash?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "return",
+    "sentence_en": "When is your ___ flight?",
+    "sentence_ko": "귀국 비행기가 언제예요?",
+    "meaning": "귀국",
+    "tts_text": "When is your return flight?",
+    "display_sentence": "When is your return flight?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "airport",
+      "booking"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "ferry",
+    "sentence_en": "Does the ___ go to the island?",
+    "sentence_ko": "그 페리가 섬으로 가나요?",
+    "meaning": "페리",
+    "tts_text": "Does the ferry go to the island?",
+    "display_sentence": "Does the ferry go to the island?",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "border",
+    "sentence_en": "We crossed the ___ at noon.",
+    "sentence_ko": "우리는 정오에 국경을 넘었어요.",
+    "meaning": "국경",
+    "tts_text": "We crossed the border at noon.",
+    "display_sentence": "We crossed the border at noon.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "border",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "platform",
+    "sentence_en": "The train leaves from ___ three.",
+    "sentence_ko": "기차는 3번 승강장에서 출발해요.",
+    "meaning": "승강장",
+    "tts_text": "The train leaves from platform three.",
+    "display_sentence": "The train leaves from platform three.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "customs",
+    "sentence_en": "You have to go through ___ first.",
+    "sentence_ko": "먼저 세관을 통과해야 해요.",
+    "meaning": "세관",
+    "tts_text": "You have to go through customs first.",
+    "display_sentence": "You have to go through customs first.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "airport",
+      "border"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "downtown",
+    "sentence_en": "Is this bus going ___?",
+    "sentence_ko": "이 버스가 시내로 가나요?",
+    "meaning": "시내",
+    "tts_text": "Is this bus going downtown?",
+    "display_sentence": "Is this bus going downtown?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation",
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "delay",
+    "sentence_en": "There is a ___ of thirty minutes.",
+    "sentence_ko": "30분 지연이 있어요.",
+    "meaning": "지연",
+    "tts_text": "There is a delay of thirty minutes.",
+    "display_sentence": "There is a delay of thirty minutes.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "transportation",
+      "airport"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "transfer",
+    "sentence_en": "Where do I ___ to the blue line?",
+    "sentence_ko": "파란 노선으로 어디서 갈아타나요?",
+    "meaning": "갈아타다",
+    "tts_text": "Where do I transfer to the blue line?",
+    "display_sentence": "Where do I transfer to the blue line?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "corner",
+    "sentence_en": "Turn right at the next ___.",
+    "sentence_ko": "다음 모퉁이에서 우회전하세요.",
+    "meaning": "모퉁이",
+    "tts_text": "Turn right at the next corner.",
+    "display_sentence": "Turn right at the next corner.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "entrance",
+    "sentence_en": "Use the side ___, please.",
+    "sentence_ko": "옆쪽 입구를 이용해 주세요.",
+    "meaning": "입구",
+    "tts_text": "Use the side entrance, please.",
+    "display_sentence": "Use the side entrance, please.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "sightseeing",
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "currency",
+    "sentence_en": "Where can I exchange ___?",
+    "sentence_ko": "환전을 어디서 할 수 있나요?",
+    "meaning": "화폐",
+    "tts_text": "Where can I exchange currency?",
+    "display_sentence": "Where can I exchange currency?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "payment",
+      "airport"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "bridge",
+    "sentence_en": "Cross the ___ and turn right.",
+    "sentence_ko": "다리를 건너서 오른쪽으로 도세요.",
+    "meaning": "다리",
+    "tts_text": "Cross the bridge and turn right.",
+    "display_sentence": "Cross the bridge and turn right.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "departure",
+    "sentence_en": "The ___ time is seven a.m.",
+    "sentence_ko": "출발 시간은 오전 7시예요.",
+    "meaning": "출발",
+    "tts_text": "The departure time is seven a.m.",
+    "display_sentence": "The departure time is seven a.m.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "airport",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "arrival",
+    "sentence_en": "Check the ___ board for your gate.",
+    "sentence_ko": "도착 안내판에서 게이트를 확인하세요.",
+    "meaning": "도착",
+    "tts_text": "Check the arrival board for your gate.",
+    "display_sentence": "Check the arrival board for your gate.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "airport"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "reservation",
+    "sentence_en": "I have a ___ under my name.",
+    "sentence_ko": "제 이름으로 예약이 있어요.",
+    "meaning": "예약",
+    "tts_text": "I have a reservation under my name.",
+    "display_sentence": "I have a reservation under my name.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "accommodation",
+      "booking"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "express",
+    "sentence_en": "Take the ___ train to save time.",
+    "sentence_ko": "시간을 아끼려면 급행열차를 타세요.",
+    "meaning": "급행",
+    "tts_text": "Take the express train to save time.",
+    "display_sentence": "Take the express train to save time.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "destination",
+    "sentence_en": "What is your final ___?",
+    "sentence_ko": "최종 목적지가 어디예요?",
+    "meaning": "목적지",
+    "tts_text": "What is your final destination?",
+    "display_sentence": "What is your final destination?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "airport",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "parking",
+    "sentence_en": "Where is the ___ lot?",
+    "sentence_ko": "주차장이 어디예요?",
+    "meaning": "주차",
+    "tts_text": "Where is the parking lot?",
+    "display_sentence": "Where is the parking lot?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation",
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "shuttle",
+    "sentence_en": "Is there a ___ to the hotel?",
+    "sentence_ko": "호텔까지 셔틀이 있나요?",
+    "meaning": "셔틀버스",
+    "tts_text": "Is there a shuttle to the hotel?",
+    "display_sentence": "Is there a shuttle to the hotel?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation",
+      "accommodation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "landmark",
+    "sentence_en": "The tower is a famous ___ here.",
+    "sentence_ko": "그 타워는 여기서 유명한 랜드마크예요.",
+    "meaning": "랜드마크",
+    "tts_text": "The tower is a famous landmark here.",
+    "display_sentence": "The tower is a famous landmark here.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "sightseeing",
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "backpack",
+    "sentence_en": "I carry everything in my ___.",
+    "sentence_ko": "전 모든 걸 배낭에 넣고 다녀요.",
+    "meaning": "배낭",
+    "tts_text": "I carry everything in my backpack.",
+    "display_sentence": "I carry everything in my backpack.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "itinerary",
+    "sentence_en": "Let me check our ___.",
+    "sentence_ko": "여행 일정을 확인해 볼게요.",
+    "meaning": "여행 일정표",
+    "tts_text": "Let me check our itinerary.",
+    "display_sentence": "Let me check our itinerary.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "general_travel",
+      "booking"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "route",
+    "sentence_en": "Which ___ is faster?",
+    "sentence_ko": "어느 경로가 더 빠른가요?",
+    "meaning": "경로",
+    "tts_text": "Which route is faster?",
+    "display_sentence": "Which route is faster?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "directions",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "Boarding",
+    "sentence_en": "___ starts in ten minutes.",
+    "sentence_ko": "탑승이 10분 후에 시작돼요.",
+    "meaning": "탑승",
+    "tts_text": "Boarding starts in ten minutes.",
+    "display_sentence": "Boarding starts in ten minutes.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "airport"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "souvenir",
+    "sentence_en": "I bought a ___ for my mom.",
+    "sentence_ko": "엄마에게 줄 기념품을 샀어요.",
+    "meaning": "기념품",
+    "tts_text": "I bought a souvenir for my mom.",
+    "display_sentence": "I bought a souvenir for my mom.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "sightseeing",
+      "shopping"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "beach",
+    "sentence_en": "The hotel is next to the ___.",
+    "sentence_ko": "호텔은 해변 바로 옆에 있어요.",
+    "meaning": "해변",
+    "tts_text": "The hotel is next to the beach.",
+    "display_sentence": "The hotel is next to the beach.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "accommodation",
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "tour",
+    "sentence_en": "I booked a ___ of the old city.",
+    "sentence_ko": "구시가지 투어를 예약했어요.",
+    "meaning": "투어",
+    "tts_text": "I booked a tour of the old city.",
+    "display_sentence": "I booked a tour of the old city.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "speed",
+    "sentence_en": "What is the ___ limit here?",
+    "sentence_ko": "여기 제한 속도가 얼마예요?",
+    "meaning": "속도",
+    "tts_text": "What is the speed limit here?",
+    "display_sentence": "What is the speed limit here?",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "abroad",
+    "sentence_en": "I've never traveled ___ before.",
+    "sentence_ko": "전 해외여행을 한 번도 해 본 적이 없어요.",
+    "meaning": "해외로",
+    "tts_text": "I've never traveled abroad before.",
+    "display_sentence": "I've never traveled abroad before.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "Check-in",
+    "sentence_en": "___ opens two hours before departure.",
+    "sentence_ko": "체크인은 출발 두 시간 전부터 열려요.",
+    "meaning": "체크인",
+    "tts_text": "Check-in opens two hours before departure.",
+    "display_sentence": "Check-in opens two hours before departure.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "airport"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "exit",
+    "sentence_en": "Take ___ seven off the highway.",
+    "sentence_ko": "고속도로에서 7번 출구로 나가세요.",
+    "meaning": "출구",
+    "tts_text": "Take exit seven off the highway.",
+    "display_sentence": "Take exit seven off the highway.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation",
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "check in",
+    "sentence_en": "What time can I ___?",
+    "sentence_ko": "몇 시에 체크인할 수 있나요?",
+    "meaning": "체크인하다",
+    "tts_text": "What time can I check in?",
+    "display_sentence": "What time can I check in?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "accommodation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a layover",
+    "sentence_en": "We have ___ in Tokyo.",
+    "sentence_ko": "도쿄에서 경유해요.",
+    "meaning": "경유, 환승 대기",
+    "tts_text": "We have a layover in Tokyo.",
+    "display_sentence": "We have a layover in Tokyo.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "airport",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get around",
+    "sentence_en": "It's easy to ___ by subway.",
+    "sentence_ko": "지하철로 다니기 편해요.",
+    "meaning": "돌아다니다",
+    "tts_text": "It's easy to get around by subway.",
+    "display_sentence": "It's easy to get around by subway.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "book a flight",
+    "sentence_en": "I need to ___ to London.",
+    "sentence_ko": "런던행 비행기를 예약해야 해요.",
+    "meaning": "항공편을 예약하다",
+    "tts_text": "I need to book a flight to London.",
+    "display_sentence": "I need to book a flight to London.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "airport",
+      "booking"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "delayed",
+    "sentence_en": "Our train has been ___.",
+    "sentence_ko": "우리 기차가 지연됐어요.",
+    "meaning": "지연된",
+    "tts_text": "Our train has been delayed.",
+    "display_sentence": "Our train has been delayed.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "carry-on",
+    "sentence_en": "Is this bag allowed as a ___?",
+    "sentence_ko": "이 가방 기내 반입 가능한가요?",
+    "meaning": "기내 휴대 수하물",
+    "tts_text": "Is this bag allowed as a carry-on?",
+    "display_sentence": "Is this bag allowed as a carry-on?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "airport"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "made it",
+    "sentence_en": "We barely ___ to the gate.",
+    "sentence_ko": "게이트에 간신히 도착했어요.",
+    "meaning": "시간 맞춰 가다",
+    "tts_text": "We barely made it to the gate.",
+    "display_sentence": "We barely made it to the gate.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "airport",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "set off",
+    "sentence_en": "We'll ___ early in the morning.",
+    "sentence_ko": "우리는 아침 일찍 출발할 거예요.",
+    "meaning": "출발하다",
+    "tts_text": "We'll set off early in the morning.",
+    "display_sentence": "We'll set off early in the morning.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "check out",
+    "sentence_en": "I need to ___ by eleven.",
+    "sentence_ko": "11시까지 체크아웃해야 해요.",
+    "meaning": "체크아웃하다",
+    "tts_text": "I need to check out by eleven.",
+    "display_sentence": "I need to check out by eleven.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "accommodation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a round trip",
+    "sentence_en": "I'd like ___ to Jeju.",
+    "sentence_ko": "제주 왕복으로 주세요.",
+    "meaning": "왕복 여행",
+    "tts_text": "I'd like a round trip to Jeju.",
+    "display_sentence": "I'd like a round trip to Jeju.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "booking",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "show me the way",
+    "sentence_en": "Could you ___ to the museum?",
+    "sentence_ko": "박물관 가는 길 좀 알려 주시겠어요?",
+    "meaning": "길을 알려주다",
+    "tts_text": "Could you show me the way to the museum?",
+    "display_sentence": "Could you show me the way to the museum?",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "directions",
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "on foot",
+    "sentence_en": "The market is best explored ___.",
+    "sentence_ko": "그 시장은 걸어서 둘러보는 게 제일 좋아요.",
+    "meaning": "걸어서",
+    "tts_text": "The market is best explored on foot.",
+    "display_sentence": "The market is best explored on foot.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "sightseeing",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get on",
+    "sentence_en": "Where do I ___ the train?",
+    "sentence_ko": "기차를 어디서 타나요?",
+    "meaning": "(차에) 타다",
+    "tts_text": "Where do I get on the train?",
+    "display_sentence": "Where do I get on the train?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get off",
+    "sentence_en": "Which stop do I ___ at?",
+    "sentence_ko": "어느 정류장에서 내리나요?",
+    "meaning": "내리다",
+    "tts_text": "Which stop do I get off at?",
+    "display_sentence": "Which stop do I get off at?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "look around",
+    "sentence_en": "We have time to ___ the old town.",
+    "sentence_ko": "구시가지를 둘러볼 시간이 있어요.",
+    "meaning": "둘러보다",
+    "tts_text": "We have time to look around the old town.",
+    "display_sentence": "We have time to look around the old town.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a one-way ticket",
+    "sentence_en": "I'll take ___, please.",
+    "sentence_ko": "편도 표로 주세요.",
+    "meaning": "편도 표",
+    "tts_text": "I'll take a one-way ticket, please.",
+    "display_sentence": "I'll take a one-way ticket, please.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "booking",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pick up",
+    "sentence_en": "Where can I ___ the rental car?",
+    "sentence_ko": "렌터카를 어디서 받나요?",
+    "meaning": "받다, 픽업하다",
+    "tts_text": "Where can I pick up the rental car?",
+    "display_sentence": "Where can I pick up the rental car?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "running late",
+    "sentence_en": "The ferry is ___.",
+    "sentence_ko": "페리가 늦어지고 있어요.",
+    "meaning": "늦어지는",
+    "tts_text": "The ferry is running late.",
+    "display_sentence": "The ferry is running late.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take a detour",
+    "sentence_en": "We had to ___ around the lake.",
+    "sentence_ko": "우리는 호수를 둘러 우회해야 했어요.",
+    "meaning": "우회하다",
+    "tts_text": "We had to take a detour around the lake.",
+    "display_sentence": "We had to take a detour around the lake.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation",
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a stopover",
+    "sentence_en": "We made ___ in Dubai.",
+    "sentence_ko": "우리는 두바이에서 잠깐 들렀어요.",
+    "meaning": "경유, 잠깐 머묾",
+    "tts_text": "We made a stopover in Dubai.",
+    "display_sentence": "We made a stopover in Dubai.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "airport",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "worth a visit",
+    "sentence_en": "The castle is well ___.",
+    "sentence_ko": "그 성은 가 볼 만해요.",
+    "meaning": "가 볼 만한",
+    "tts_text": "The castle is well worth a visit.",
+    "display_sentence": "The castle is well worth a visit.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "settle the bill",
+    "sentence_en": "Let me ___ at the front desk.",
+    "sentence_ko": "프런트에서 계산할게요.",
+    "meaning": "계산을 끝내다",
+    "tts_text": "Let me settle the bill at the front desk.",
+    "display_sentence": "Let me settle the bill at the front desk.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "accommodation",
+      "payment"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "hop on",
+    "sentence_en": "Let's ___ the next bus.",
+    "sentence_ko": "다음 버스에 얼른 타요.",
+    "meaning": "얼른 올라타다",
+    "tts_text": "Let's hop on the next bus.",
+    "display_sentence": "Let's hop on the next bus.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a tight schedule",
+    "sentence_en": "We're on ___, so let's hurry.",
+    "sentence_ko": "일정이 빡빡하니 서두르죠.",
+    "meaning": "빡빡한 일정",
+    "tts_text": "We're on a tight schedule, so let's hurry.",
+    "display_sentence": "We're on a tight schedule, so let's hurry.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "rent a car",
+    "sentence_en": "We decided to ___ for the trip.",
+    "sentence_ko": "우리는 여행을 위해 차를 빌리기로 했어요.",
+    "meaning": "차를 렌트하다",
+    "tts_text": "We decided to rent a car for the trip.",
+    "display_sentence": "We decided to rent a car for the trip.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "go through security",
+    "sentence_en": "You need to ___ before boarding.",
+    "sentence_ko": "탑승 전에 보안 검색대를 통과해야 해요.",
+    "meaning": "보안 검색을 받다",
+    "tts_text": "You need to go through security before boarding.",
+    "display_sentence": "You need to go through security before boarding.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "airport"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "catch the bus",
+    "sentence_en": "We need to hurry if we want to ___.",
+    "sentence_ko": "버스를 타려면 서둘러야 해요.",
+    "meaning": "버스를 타다",
+    "tts_text": "We need to hurry if we want to catch the bus.",
+    "display_sentence": "We need to hurry if we want to catch the bus.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "packed with tourists",
+    "sentence_en": "The old town is always ___.",
+    "sentence_ko": "구시가지는 항상 관광객으로 붐벼요.",
+    "meaning": "관광객으로 붐비는",
+    "tts_text": "The old town is always packed with tourists.",
+    "display_sentence": "The old town is always packed with tourists.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "extend my stay",
+    "sentence_en": "I'd like to ___ by one night.",
+    "sentence_ko": "하루 더 묵고 싶어요.",
+    "meaning": "체류를 연장하다",
+    "tts_text": "I'd like to extend my stay by one night.",
+    "display_sentence": "I'd like to extend my stay by one night.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "accommodation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "head to",
+    "sentence_en": "Let's ___ the station now.",
+    "sentence_ko": "지금 역으로 향해요.",
+    "meaning": "~로 향하다",
+    "tts_text": "Let's head to the station now.",
+    "display_sentence": "Let's head to the station now.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "make a connection",
+    "sentence_en": "Do I have enough time to ___?",
+    "sentence_ko": "환승할 시간이 충분한가요?",
+    "meaning": "환승편에 연결되다",
+    "tts_text": "Do I have enough time to make a connection?",
+    "display_sentence": "Do I have enough time to make a connection?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "airport"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "drop off",
+    "sentence_en": "Can you ___ my bags at the lobby?",
+    "sentence_ko": "로비에 가방을 내려 주시겠어요?",
+    "meaning": "내려주다",
+    "tts_text": "Can you drop off my bags at the lobby?",
+    "display_sentence": "Can you drop off my bags at the lobby?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a long haul",
+    "sentence_en": "A flight to Australia is quite ___.",
+    "sentence_ko": "호주까지 비행은 꽤 장거리예요.",
+    "meaning": "장거리 여정",
+    "tts_text": "A flight to Australia is quite a long haul.",
+    "display_sentence": "A flight to Australia is quite a long haul.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "airport",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "go sightseeing",
+    "sentence_en": "We plan to ___ tomorrow morning.",
+    "sentence_ko": "내일 오전에 관광할 계획이에요.",
+    "meaning": "관광하러 다니다",
+    "tts_text": "We plan to go sightseeing tomorrow morning.",
+    "display_sentence": "We plan to go sightseeing tomorrow morning.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "book in advance",
+    "sentence_en": "It's best to ___ during peak season.",
+    "sentence_ko": "성수기에는 미리 예약하는 게 좋아요.",
+    "meaning": "미리 예약하다",
+    "tts_text": "It's best to book in advance during peak season.",
+    "display_sentence": "It's best to book in advance during peak season.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "booking",
+      "accommodation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "travel insurance",
+    "sentence_en": "Make sure you have ___ before flying.",
+    "sentence_ko": "비행 전에 여행자 보험이 있는지 확인하세요.",
+    "meaning": "여행자 보험",
+    "tts_text": "Make sure you have travel insurance before flying.",
+    "display_sentence": "Make sure you have travel insurance before flying.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take a cab",
+    "sentence_en": "Let's just ___ to the hotel.",
+    "sentence_ko": "그냥 택시 타고 호텔로 가요.",
+    "meaning": "택시를 타다",
+    "tts_text": "Let's just take a cab to the hotel.",
+    "display_sentence": "Let's just take a cab to the hotel.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "tourist attraction",
+    "sentence_en": "The Eiffel Tower is the top ___ in Paris.",
+    "sentence_ko": "에펠탑은 파리의 최고 관광 명소예요.",
+    "meaning": "관광 명소",
+    "tts_text": "The Eiffel Tower is the top tourist attraction in Paris.",
+    "display_sentence": "The Eiffel Tower is the top tourist attraction in Paris.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "board the plane",
+    "sentence_en": "Passengers should ___ in groups.",
+    "sentence_ko": "승객들은 그룹별로 비행기에 탑승해야 해요.",
+    "meaning": "비행기에 탑승하다",
+    "tts_text": "Passengers should board the plane in groups.",
+    "display_sentence": "Passengers should board the plane in groups.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "airport"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "find your way",
+    "sentence_en": "Can you ___ back to the hotel?",
+    "sentence_ko": "호텔로 돌아가는 길을 찾을 수 있어요?",
+    "meaning": "길을 찾다",
+    "tts_text": "Can you find your way back to the hotel?",
+    "display_sentence": "Can you find your way back to the hotel?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "directions",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "exchange rate",
+    "sentence_en": "What is the current ___?",
+    "sentence_ko": "현재 환율이 어떻게 돼요?",
+    "meaning": "환율",
+    "tts_text": "What is the current exchange rate?",
+    "display_sentence": "What is the current exchange rate?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "off the tourist trail",
+    "sentence_en": "I prefer restaurants ___.",
+    "sentence_ko": "저는 관광지를 벗어난 식당을 선호해요.",
+    "meaning": "관광코스에서 벗어난",
+    "tts_text": "I prefer restaurants off the tourist trail.",
+    "display_sentence": "I prefer restaurants off the tourist trail.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "sightseeing",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get a refund",
+    "sentence_en": "Can I ___ on this unused ticket?",
+    "sentence_ko": "이 미사용 티켓 환불 받을 수 있나요?",
+    "meaning": "환불받다",
+    "tts_text": "Can I get a refund on this unused ticket?",
+    "display_sentence": "Can I get a refund on this unused ticket?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "booking",
+      "payment"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "check the timetable",
+    "sentence_en": "Let me ___ before we leave.",
+    "sentence_ko": "떠나기 전에 시간표를 확인할게요.",
+    "meaning": "시간표를 확인하다",
+    "tts_text": "Let me check the timetable before we leave.",
+    "display_sentence": "Let me check the timetable before we leave.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "spare seat",
+    "sentence_en": "Is there a ___ on the next train?",
+    "sentence_ko": "다음 기차에 빈자리가 있나요?",
+    "meaning": "빈 좌석",
+    "tts_text": "Is there a spare seat on the next train?",
+    "display_sentence": "Is there a spare seat on the next train?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "peak season",
+    "sentence_en": "Prices double during ___.",
+    "sentence_ko": "성수기에는 가격이 두 배로 올라요.",
+    "meaning": "성수기",
+    "tts_text": "Prices double during peak season.",
+    "display_sentence": "Prices double during peak season.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "booking",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "travel on a budget",
+    "sentence_en": "It's possible to ___ in Southeast Asia.",
+    "sentence_ko": "동남아에서는 저예산 여행이 가능해요.",
+    "meaning": "저예산으로 여행하다",
+    "tts_text": "It's possible to travel on a budget in Southeast Asia.",
+    "display_sentence": "It's possible to travel on a budget in Southeast Asia.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "miss the train",
+    "sentence_en": "We'll ___ if we don't leave now.",
+    "sentence_ko": "지금 출발하지 않으면 기차를 놓칠 거예요.",
+    "meaning": "기차를 놓치다",
+    "tts_text": "We'll miss the train if we don't leave now.",
+    "display_sentence": "We'll miss the train if we don't leave now.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "upgrade my seat",
+    "sentence_en": "Is it possible to ___ to business class?",
+    "sentence_ko": "비즈니스 클래스로 좌석 업그레이드가 가능한가요?",
+    "meaning": "좌석을 업그레이드하다",
+    "tts_text": "Is it possible to upgrade my seat to business class?",
+    "display_sentence": "Is it possible to upgrade my seat to business class?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "airport",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "domestic flight",
+    "sentence_en": "I prefer a ___ to save time.",
+    "sentence_ko": "시간을 아끼려고 국내선을 선호해요.",
+    "meaning": "국내선 항공편",
+    "tts_text": "I prefer a domestic flight to save time.",
+    "display_sentence": "I prefer a domestic flight to save time.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "airport",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "avoid the rush hour",
+    "sentence_en": "Try to travel early to ___.",
+    "sentence_ko": "러시아워를 피하려면 일찍 이동하려고 해보세요.",
+    "meaning": "러시아워를 피하다",
+    "tts_text": "Try to travel early to avoid the rush hour.",
+    "display_sentence": "Try to travel early to avoid the rush hour.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "off the beaten path",
+    "sentence_en": "We love places ___.",
+    "sentence_ko": "우리는 잘 알려지지 않은 곳을 좋아해요.",
+    "meaning": "사람들이 잘 안 가는",
+    "tts_text": "We love places off the beaten path.",
+    "display_sentence": "We love places off the beaten path.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "sightseeing",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a stone's throw",
+    "sentence_en": "The beach is ___ from the hotel.",
+    "sentence_ko": "해변은 호텔에서 엎어지면 코 닿을 거리예요.",
+    "meaning": "아주 가까운 거리",
+    "tts_text": "The beach is a stone's throw from the hotel.",
+    "display_sentence": "The beach is a stone's throw from the hotel.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "accommodation",
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "jet lag",
+    "sentence_en": "I'm still getting over ___.",
+    "sentence_ko": "아직 시차 적응 중이에요.",
+    "meaning": "시차로 인한 피로",
+    "tts_text": "I'm still getting over jet lag.",
+    "display_sentence": "I'm still getting over jet lag.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel",
+      "airport"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "travel light",
+    "sentence_en": "I always try to ___.",
+    "sentence_ko": "전 항상 짐을 가볍게 싸려고 해요.",
+    "meaning": "짐을 가볍게 하다",
+    "tts_text": "I always try to travel light.",
+    "display_sentence": "I always try to travel light.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "hit the road",
+    "sentence_en": "We should ___ before dawn.",
+    "sentence_ko": "동트기 전에 출발해야 해요.",
+    "meaning": "출발하다",
+    "tts_text": "We should hit the road before dawn.",
+    "display_sentence": "We should hit the road before dawn.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "missed the connection",
+    "sentence_en": "We almost ___ in Frankfurt.",
+    "sentence_ko": "프랑크푸르트에서 환승편을 놓칠 뻔했어요.",
+    "meaning": "연결편을 놓치다",
+    "tts_text": "We almost missed the connection in Frankfurt.",
+    "display_sentence": "We almost missed the connection in Frankfurt.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "airport"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "soak up",
+    "sentence_en": "I want to ___ the local culture.",
+    "sentence_ko": "현지 문화를 흠뻑 느끼고 싶어요.",
+    "meaning": "흠뻑 받아들이다",
+    "tts_text": "I want to soak up the local culture.",
+    "display_sentence": "I want to soak up the local culture.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "sightseeing",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a once-in-a-lifetime trip",
+    "sentence_en": "This was ___.",
+    "sentence_ko": "이건 평생 한 번뿐인 여행이었어요.",
+    "meaning": "평생 한 번뿐인 여행",
+    "tts_text": "This was a once-in-a-lifetime trip.",
+    "display_sentence": "This was a once-in-a-lifetime trip.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get itchy feet",
+    "sentence_en": "I always ___ in spring.",
+    "sentence_ko": "봄만 되면 떠나고 싶어 좀이 쑤셔요.",
+    "meaning": "여행 가고 싶어지다",
+    "tts_text": "I always get itchy feet in spring.",
+    "display_sentence": "I always get itchy feet in spring.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a tourist trap",
+    "sentence_en": "Avoid that place; it's ___.",
+    "sentence_ko": "거긴 관광객용 바가지니 피하세요.",
+    "meaning": "관광객 바가지 명소",
+    "tts_text": "Avoid that place; it's a tourist trap.",
+    "display_sentence": "Avoid that place; it's a tourist trap.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "play it by ear",
+    "sentence_en": "On this trip we'll just ___.",
+    "sentence_ko": "이번 여행은 그냥 즉흥적으로 할 거예요.",
+    "meaning": "즉흥적으로 하다",
+    "tts_text": "On this trip we'll just play it by ear.",
+    "display_sentence": "On this trip we'll just play it by ear.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "take in the sights",
+    "sentence_en": "We went out to ___ after breakfast.",
+    "sentence_ko": "우리는 아침 식사 후에 명소를 구경하러 나갔어요.",
+    "meaning": "명소를 구경하다",
+    "tts_text": "We went out to take in the sights after breakfast.",
+    "display_sentence": "We spent the day taking in the sights.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "living out of a suitcase",
+    "sentence_en": "I've been ___ for weeks.",
+    "sentence_ko": "몇 주째 여행 가방 하나로 떠돌고 있어요.",
+    "meaning": "여행하며 떠돌다",
+    "tts_text": "I've been living out of a suitcase for weeks.",
+    "display_sentence": "I've been living out of a suitcase for weeks.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a whistle-stop tour",
+    "sentence_en": "It was ___ of Europe.",
+    "sentence_ko": "유럽을 후딱 도는 여행이었어요.",
+    "meaning": "주마간산식 빠른 여행",
+    "tts_text": "It was a whistle-stop tour of Europe.",
+    "display_sentence": "It was a whistle-stop tour of Europe.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get my bearings",
+    "sentence_en": "Let me ___ first.",
+    "sentence_ko": "먼저 방향부터 좀 잡을게요.",
+    "meaning": "길/방향을 파악하다",
+    "tts_text": "Let me get my bearings first.",
+    "display_sentence": "Let me get my bearings first.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "directions",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a hidden gem",
+    "sentence_en": "This village is really ___.",
+    "sentence_ko": "이 마을은 진짜 숨은 명소예요.",
+    "meaning": "숨은 명소",
+    "tts_text": "This village is really a hidden gem.",
+    "display_sentence": "This village is really a hidden gem.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "sightseeing",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "catch the red-eye",
+    "sentence_en": "I'll ___ back home.",
+    "sentence_ko": "집까지 심야 비행기를 탈 거예요.",
+    "meaning": "심야 비행기를 타다",
+    "tts_text": "I'll catch the red-eye back home.",
+    "display_sentence": "I'll catch the red-eye back home.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "airport",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "the trip of a lifetime",
+    "sentence_en": "Safari was ___.",
+    "sentence_ko": "사파리는 일생일대의 여행이었어요.",
+    "meaning": "일생일대의 여행",
+    "tts_text": "Safari was the trip of a lifetime.",
+    "display_sentence": "Safari was the trip of a lifetime.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "brave the crowds",
+    "sentence_en": "We had to ___ to see the parade.",
+    "sentence_ko": "우리는 인파를 뚫고 퍼레이드를 봤어요.",
+    "meaning": "인파를 무릅쓰다",
+    "tts_text": "We had to brave the crowds to see the parade.",
+    "display_sentence": "We had to brave the crowds to see the parade.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "set in your ways",
+    "sentence_en": "Try a new route if you're not ___.",
+    "sentence_ko": "틀에 박힌 게 아니라면 새 경로로 가 봐요.",
+    "meaning": "습관에 굳어진",
+    "tts_text": "Try a new route if you're not set in your ways.",
+    "display_sentence": "Try a new route if you're not set in your ways.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a bumpy ride",
+    "sentence_en": "The mountain road was ___.",
+    "sentence_ko": "그 산길은 덜컹거리는 길이었어요.",
+    "meaning": "울퉁불퉁한 여정",
+    "tts_text": "The mountain road was a bumpy ride.",
+    "display_sentence": "The mountain road was a bumpy ride.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "call it a day",
+    "sentence_en": "Let's ___ and rest.",
+    "sentence_ko": "오늘은 그만하고 쉬어요.",
+    "meaning": "하루 일과를 끝내다",
+    "tts_text": "Let's call it a day and rest.",
+    "display_sentence": "Let's call it a day and rest.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel",
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "under our own steam",
+    "sentence_en": "We explored the city ___.",
+    "sentence_ko": "우리는 우리 힘으로 도시를 돌아다녔어요.",
+    "meaning": "자기 힘으로",
+    "tts_text": "We explored the city under our own steam.",
+    "display_sentence": "We explored the city under our own steam.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel",
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "see the world",
+    "sentence_en": "She quit her job to ___.",
+    "sentence_ko": "그녀는 세계를 보러 일을 그만뒀어요.",
+    "meaning": "세상을 두루 보다",
+    "tts_text": "She quit her job to see the world.",
+    "display_sentence": "She quit her job to see the world.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "charted territory",
+    "sentence_en": "We were in totally un___ on that island.",
+    "sentence_ko": "우리는 그 섬에서 완전히 미지의 영역에 있었어요.",
+    "meaning": "지도에 표시된 영역",
+    "tts_text": "We were in totally uncharted territory on that island.",
+    "display_sentence": "We were in totally uncharted territory on that island.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "blend in with the locals",
+    "sentence_en": "Try to ___ when you visit.",
+    "sentence_ko": "방문할 때 현지인들과 어울리려고 해 보세요.",
+    "meaning": "현지인들과 어울리다",
+    "tts_text": "Try to blend in with the locals when you visit.",
+    "display_sentence": "Try to blend in with the locals when you visit.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "general_travel",
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "go off the grid",
+    "sentence_en": "I want to ___ for a week.",
+    "sentence_ko": "일주일간 연락을 끊고 지내고 싶어요.",
+    "meaning": "연락을 끊고 지내다",
+    "tts_text": "I want to go off the grid for a week.",
+    "display_sentence": "I want to go off the grid for a week.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "stretch your legs",
+    "sentence_en": "Let's stop and ___ for a bit.",
+    "sentence_ko": "잠깐 멈춰서 다리 좀 펴요.",
+    "meaning": "다리를 펴다",
+    "tts_text": "Let's stop and stretch your legs for a bit.",
+    "display_sentence": "Let's stop and stretch your legs for a bit.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "make the most of",
+    "sentence_en": "Let's ___ our time in Rome.",
+    "sentence_ko": "로마에서 시간을 최대한 활용해요.",
+    "meaning": "~을 최대한 활용하다",
+    "tts_text": "Let's make the most of our time in Rome.",
+    "display_sentence": "Let's make the most of our time in Rome.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "sightseeing",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a layover from hell",
+    "sentence_en": "We had ___ because of the storm.",
+    "sentence_ko": "폭풍 때문에 끔찍한 환승 대기를 했어요.",
+    "meaning": "최악의 환승 대기",
+    "tts_text": "We had a layover from hell because of the storm.",
+    "display_sentence": "We had a layover from hell because of the storm.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "airport"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "immerse yourself in",
+    "sentence_en": "The best way to learn is to ___ the culture.",
+    "sentence_ko": "배우는 가장 좋은 방법은 그 문화에 완전히 빠져드는 거예요.",
+    "meaning": "~에 완전히 빠져들다",
+    "tts_text": "The best way to learn is to immerse yourself in the culture.",
+    "display_sentence": "The best way to learn is to immerse yourself in the culture.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "general_travel",
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "cover a lot of ground",
+    "sentence_en": "We managed to ___ in just three days.",
+    "sentence_ko": "단 3일 만에 많은 곳을 다녔어요.",
+    "meaning": "많은 곳을 다니다",
+    "tts_text": "We managed to cover a lot of ground in just three days.",
+    "display_sentence": "We managed to cover a lot of ground in just three days.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "sightseeing",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "talk your way out of",
+    "sentence_en": "He managed to ___ the fine.",
+    "sentence_ko": "그는 말로 잘 설득해서 벌금을 면했어요.",
+    "meaning": "말로 빠져나오다",
+    "tts_text": "He managed to talk your way out of the fine.",
+    "display_sentence": "He managed to talk your way out of the fine.",
+    "frequency": "low",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "border",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "weather permitting",
+    "sentence_en": "We'll hike to the summit, ___.",
+    "sentence_ko": "날씨가 허락한다면 정상까지 등산할 거예요.",
+    "meaning": "날씨가 허락한다면",
+    "tts_text": "We'll hike to the summit, weather permitting.",
+    "display_sentence": "We'll hike to the summit, weather permitting.",
+    "frequency": "mid",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "general_travel",
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "go native",
+    "sentence_en": "After a week there, I started to ___.",
+    "sentence_ko": "그곳에서 일주일 후, 현지인처럼 행동하기 시작했어요.",
+    "meaning": "현지 문화에 동화되다",
+    "tts_text": "After a week there, I started to go native.",
+    "display_sentence": "After a week there, I started to go native.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "explore off the map",
+    "sentence_en": "We decided to ___ and skipped the guidebook.",
+    "sentence_ko": "우리는 가이드북을 제쳐두고 지도에 없는 곳을 탐험하기로 했어요.",
+    "meaning": "지도에 없는 곳을 탐험하다",
+    "tts_text": "We decided to explore off the map and skipped the guidebook.",
+    "display_sentence": "We decided to explore off the map and skipped the guidebook.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "sightseeing",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "culture shock",
+    "sentence_en": "Arriving in Tokyo, I experienced real ___.",
+    "sentence_ko": "도쿄에 도착해서 진짜 문화 충격을 받았어요.",
+    "meaning": "문화 충격",
+    "tts_text": "Arriving in Tokyo, I experienced real culture shock.",
+    "display_sentence": "Arriving in Tokyo, I experienced real culture shock.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "navigate your way through",
+    "sentence_en": "It's hard to ___ the metro alone.",
+    "sentence_ko": "혼자 지하철을 헤쳐나가기 어려워요.",
+    "meaning": "~을 헤쳐 나가다",
+    "tts_text": "It's hard to navigate your way through the metro alone.",
+    "display_sentence": "It's hard to navigate your way through the metro alone.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation",
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "venture off",
+    "sentence_en": "Don't be afraid to ___ the main street.",
+    "sentence_ko": "큰길에서 벗어나 탐험하는 것을 두려워하지 마세요.",
+    "meaning": "과감히 나아가다",
+    "tts_text": "Don't be afraid to venture off the main street.",
+    "display_sentence": "Don't be afraid to venture off the main street.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "sightseeing",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "itinerary packed with activities",
+    "sentence_en": "We had an ___ from the start.",
+    "sentence_ko": "처음부터 활동으로 가득 찬 일정이 있었어요.",
+    "meaning": "활동으로 꽉 찬 일정",
+    "tts_text": "We had an itinerary packed with activities from the start.",
+    "display_sentence": "We had an itinerary packed with activities from the start.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "road-trip",
+    "sentence_en": "We decided to ___ across the country.",
+    "sentence_ko": "우리는 전국을 자동차로 여행하기로 했어요.",
+    "meaning": "자동차 여행을 하다",
+    "tts_text": "We decided to road-trip across the country.",
+    "display_sentence": "We decided to road-trip across the country.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "scratch the surface",
+    "sentence_en": "Three days barely lets you ___ of Paris.",
+    "sentence_ko": "사흘로는 파리를 겉핥기밖에 못 해요.",
+    "meaning": "겉핥기에 그치다",
+    "tts_text": "Three days barely lets you scratch the surface of Paris.",
+    "display_sentence": "Three days barely lets you scratch the surface of Paris.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "sightseeing",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "in transit",
+    "sentence_en": "My bag went missing while ___ in Amsterdam.",
+    "sentence_ko": "암스테르담 환승 중에 가방이 없어졌어요.",
+    "meaning": "이동 중인, 환승 중인",
+    "tts_text": "My bag went missing while in transit in Amsterdam.",
+    "display_sentence": "My bag went missing while in transit in Amsterdam.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "airport",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "lost in translation",
+    "sentence_en": "Something got ___ when I asked for directions.",
+    "sentence_ko": "길을 물어볼 때 뭔가 뜻이 제대로 전달되지 않았어요.",
+    "meaning": "뜻이 제대로 전달되지 않다",
+    "tts_text": "Something got lost in translation when I asked for directions.",
+    "display_sentence": "Something got lost in translation when I asked for directions.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel",
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "go the extra mile",
+    "sentence_en": "That hotel really does ___ for guests.",
+    "sentence_ko": "그 호텔은 투숙객을 위해 진짜 한발 더 나아가요.",
+    "meaning": "한발 더 나아가다",
+    "tts_text": "That hotel really does go the extra mile for guests.",
+    "display_sentence": "That hotel really does go the extra mile for guests.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "accommodation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on the move",
+    "sentence_en": "We've been constantly ___ this week.",
+    "sentence_ko": "이번 주 내내 이동 중이에요.",
+    "meaning": "계속 이동 중인",
+    "tts_text": "We've been constantly on the move this week.",
+    "display_sentence": "We've been constantly on the move this week.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "find your footing",
+    "sentence_en": "It took a few days to ___ in the new city.",
+    "sentence_ko": "새 도시에서 적응하는 데 며칠이 걸렸어요.",
+    "meaning": "적응하다",
+    "tts_text": "It took a few days to find your footing in the new city.",
+    "display_sentence": "It took a few days to find your footing in the new city.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "packed to the gills",
+    "sentence_en": "The night market was ___ with people.",
+    "sentence_ko": "야시장은 사람들로 가득 찼어요.",
+    "meaning": "꽉 들어찬",
+    "tts_text": "The night market was packed to the gills with people.",
+    "display_sentence": "The night market was packed to the gills with people.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get into the swing of things",
+    "sentence_en": "By day two, I started to ___.",
+    "sentence_ko": "이틀째가 되자 여행에 익숙해지기 시작했어요.",
+    "meaning": "점차 적응하다",
+    "tts_text": "By day two, I started to get into the swing of things.",
+    "display_sentence": "By day two, I started to get into the swing of things.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "straight ahead",
+    "sentence_en": "Go ___ until you see the park.",
+    "sentence_ko": "공원이 보일 때까지 직진하세요.",
+    "meaning": "앞으로 쭉",
+    "tts_text": "Go straight ahead until you see the park.",
+    "display_sentence": "Go straight ahead until you see the park.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "roundabout",
+    "sentence_en": "Take the second exit at the ___.",
+    "sentence_ko": "로터리에서 두 번째 출구로 나가세요.",
+    "meaning": "로터리",
+    "tts_text": "Take the second exit at the roundabout.",
+    "display_sentence": "Take the second exit at the roundabout.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "directions",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "rush hour",
+    "sentence_en": "Traffic is terrible during ___.",
+    "sentence_ko": "러시아워에는 교통이 엉망이에요.",
+    "meaning": "혼잡 시간대",
+    "tts_text": "Traffic is terrible during rush hour.",
+    "display_sentence": "Traffic is terrible during rush hour.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "taxi rank",
+    "sentence_en": "There is a ___ outside the terminal.",
+    "sentence_ko": "터미널 밖에 택시 승강장이 있어요.",
+    "meaning": "택시 승강장",
+    "tts_text": "There is a taxi rank outside the terminal.",
+    "display_sentence": "There is a taxi rank outside the terminal.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "fare",
+    "sentence_en": "What is the ___ to the city center?",
+    "sentence_ko": "시내 중심까지 요금이 얼마예요?",
+    "meaning": "요금",
+    "tts_text": "What is the fare to the city center?",
+    "display_sentence": "What is the fare to the city center?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation",
+      "payment"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "immigration",
+    "sentence_en": "Please fill out the ___ form.",
+    "sentence_ko": "출입국 신고서를 작성해 주세요.",
+    "meaning": "출입국 심사",
+    "tts_text": "Please fill out the immigration form.",
+    "display_sentence": "Please fill out the immigration form.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "airport",
+      "border"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "hail a cab",
+    "sentence_en": "I tried to ___ on the main road.",
+    "sentence_ko": "큰 도로에서 택시를 잡으려고 했어요.",
+    "meaning": "택시를 잡다",
+    "tts_text": "I tried to hail a cab on the main road.",
+    "display_sentence": "I tried to hail a cab on the main road.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a direct flight",
+    "sentence_en": "I prefer ___ when possible.",
+    "sentence_ko": "가능하면 직항을 선호해요.",
+    "meaning": "직항편",
+    "tts_text": "I prefer a direct flight when possible.",
+    "display_sentence": "I prefer a direct flight when possible.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "airport",
+      "booking"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "return leg",
+    "sentence_en": "The ___ of the trip was more tiring.",
+    "sentence_ko": "귀국 구간이 더 피곤했어요.",
+    "meaning": "귀국편 구간",
+    "tts_text": "The return leg of the trip was more tiring.",
+    "display_sentence": "The return leg of the trip was more tiring.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "split the cost",
+    "sentence_en": "We can ___ of the hotel room.",
+    "sentence_ko": "우리가 호텔 방 비용을 나눌 수 있어요.",
+    "meaning": "비용을 나누다",
+    "tts_text": "We can split the cost of the hotel room.",
+    "display_sentence": "We can split the cost of the hotel room.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "accommodation",
+      "payment"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "local transport",
+    "sentence_en": "Using ___ is the cheapest way to explore.",
+    "sentence_ko": "현지 교통수단을 이용하는 게 가장 저렴하게 돌아다니는 방법이에요.",
+    "meaning": "현지 교통수단",
+    "tts_text": "Using local transport is the cheapest way to explore.",
+    "display_sentence": "Using local transport is the cheapest way to explore.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a travel pass",
+    "sentence_en": "I bought ___ for the whole week.",
+    "sentence_ko": "일주일 내내 쓸 교통 패스를 샀어요.",
+    "meaning": "교통 패스",
+    "tts_text": "I bought a travel pass for the whole week.",
+    "display_sentence": "I bought a travel pass for the whole week.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pack light",
+    "sentence_en": "I always ___ for short trips.",
+    "sentence_ko": "단기 여행에는 항상 짐을 가볍게 싸요.",
+    "meaning": "짐을 가볍게 싸다",
+    "tts_text": "I always pack light for short trips.",
+    "display_sentence": "I always pack light for short trips.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a no-show",
+    "sentence_en": "The guest was ___, so we gave the room away.",
+    "sentence_ko": "손님이 나타나지 않아서 방을 다른 사람에게 줬어요.",
+    "meaning": "나타나지 않은 손님",
+    "tts_text": "The guest was a no-show, so we gave the room away.",
+    "display_sentence": "The guest was a no-show, so we gave the room away.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "accommodation",
+      "booking"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "off-season",
+    "sentence_en": "Traveling ___ saves a lot of money.",
+    "sentence_ko": "비수기에 여행하면 돈을 많이 아껴요.",
+    "meaning": "비수기",
+    "tts_text": "Traveling off-season saves a lot of money.",
+    "display_sentence": "Traveling off-season saves a lot of money.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "booking",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "non-refundable",
+    "sentence_en": "Please note this ticket is ___.",
+    "sentence_ko": "이 티켓은 환불 불가임을 유의해 주세요.",
+    "meaning": "환불 불가",
+    "tts_text": "Please note this ticket is non-refundable.",
+    "display_sentence": "Please note this ticket is non-refundable.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "booking"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "follow the signs",
+    "sentence_en": "Just ___ to the baggage claim.",
+    "sentence_ko": "수하물 찾는 곳까지 안내판을 따라가세요.",
+    "meaning": "안내판을 따라가다",
+    "tts_text": "Just follow the signs to the baggage claim.",
+    "display_sentence": "Just follow the signs to the baggage claim.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "airport",
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "scenic route",
+    "sentence_en": "Let's take the ___ along the coast.",
+    "sentence_ko": "해안을 따라 경치 좋은 길로 가요.",
+    "meaning": "경치 좋은 길",
+    "tts_text": "Let's take the scenic route along the coast.",
+    "display_sentence": "Let's take the scenic route along the coast.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation",
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "road trip",
+    "sentence_en": "We're planning a ___ along the coast.",
+    "sentence_ko": "해안을 따라 자동차 여행을 계획하고 있어요.",
+    "meaning": "자동차 여행",
+    "tts_text": "We're planning a road trip along the coast.",
+    "display_sentence": "We're planning a road trip along the coast.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "travel advisory",
+    "sentence_en": "There is a ___ for that region.",
+    "sentence_ko": "그 지역에 여행 주의보가 발령되어 있어요.",
+    "meaning": "여행 주의보",
+    "tts_text": "There is a travel advisory for that region.",
+    "display_sentence": "There is a travel advisory for that region.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "priority boarding",
+    "sentence_en": "We qualified for ___ at the gate.",
+    "sentence_ko": "우리는 게이트에서 우선 탑승 자격이 됐어요.",
+    "meaning": "우선 탑승",
+    "tts_text": "We qualified for priority boarding at the gate.",
+    "display_sentence": "We qualified for priority boarding at the gate.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "airport"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "claim your luggage",
+    "sentence_en": "You can ___ at carousel three.",
+    "sentence_ko": "3번 수하물 컨베이어에서 짐을 찾을 수 있어요.",
+    "meaning": "짐을 찾다",
+    "tts_text": "You can claim your luggage at carousel three.",
+    "display_sentence": "You can claim your luggage at carousel three.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "airport"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "accommodation included",
+    "sentence_en": "The package comes with ___.",
+    "sentence_ko": "패키지에 숙박이 포함되어 있어요.",
+    "meaning": "숙박 포함",
+    "tts_text": "The package comes with accommodation included.",
+    "display_sentence": "The package comes with accommodation included.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "accommodation",
+      "booking"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "all-inclusive",
+    "sentence_en": "We booked an ___ resort in Bali.",
+    "sentence_ko": "발리에서 올인클루시브 리조트를 예약했어요.",
+    "meaning": "모든 것이 포함된",
+    "tts_text": "We booked an all-inclusive resort in Bali.",
+    "display_sentence": "We booked an all-inclusive resort in Bali.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "accommodation",
+      "booking"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "transit visa",
+    "sentence_en": "Do I need a ___ for my stopover?",
+    "sentence_ko": "경유할 때 환승 비자가 필요한가요?",
+    "meaning": "환승 비자",
+    "tts_text": "Do I need a transit visa for my stopover?",
+    "display_sentence": "Do I need a transit visa for my stopover?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "airport",
+      "border"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "wanderlust",
+    "sentence_en": "Her ___ took her across six continents.",
+    "sentence_ko": "그녀의 여행 열망이 그녀를 여섯 대륙으로 데려갔어요.",
+    "meaning": "여행 열망",
+    "tts_text": "Her wanderlust took her across six continents.",
+    "display_sentence": "Her wanderlust took her across six continents.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "off the radar",
+    "sentence_en": "That restaurant is completely ___.",
+    "sentence_ko": "그 식당은 사람들이 전혀 모르는 곳이에요.",
+    "meaning": "거의 알려지지 않은",
+    "tts_text": "That restaurant is completely off the radar.",
+    "display_sentence": "That restaurant is completely off the radar.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "sightseeing",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "take the scenic route",
+    "sentence_en": "We decided to ___ through the valley.",
+    "sentence_ko": "우리는 계곡을 통해 경치 좋은 길로 가기로 했어요.",
+    "meaning": "경치 좋은 길로 가다",
+    "tts_text": "We decided to take the scenic route through the valley.",
+    "display_sentence": "We decided to take the scenic route through the valley.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation",
+      "sightseeing"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "stomach the long flight",
+    "sentence_en": "I can barely ___ to New York.",
+    "sentence_ko": "뉴욕까지 긴 비행을 겨우 견딜 수 있어요.",
+    "meaning": "장거리 비행을 견디다",
+    "tts_text": "I can barely stomach the long flight to New York.",
+    "display_sentence": "I can barely stomach the long flight to New York.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "airport",
+      "transportation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "running on empty",
+    "sentence_en": "After three flights I was ___.",
+    "sentence_ko": "세 번의 비행 후 완전히 기진맥진했어요.",
+    "meaning": "완전히 지친",
+    "tts_text": "After three flights I was running on empty.",
+    "display_sentence": "After three flights I was running on empty.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "touch down",
+    "sentence_en": "We'll ___ in Sydney at dawn.",
+    "sentence_ko": "우리는 새벽에 시드니에 착륙할 거예요.",
+    "meaning": "착륙하다",
+    "tts_text": "We'll touch down in Sydney at dawn.",
+    "display_sentence": "We'll touch down in Sydney at dawn.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "airport"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "put down roots",
+    "sentence_en": "She eventually decided to ___ in Lisbon.",
+    "sentence_ko": "그녀는 결국 리스본에 정착하기로 했어요.",
+    "meaning": "정착하다",
+    "tts_text": "She eventually decided to put down roots in Lisbon.",
+    "display_sentence": "She eventually decided to put down roots in Lisbon.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get the lay of the land",
+    "sentence_en": "We spent the first morning just trying to ___.",
+    "sentence_ko": "첫날 오전은 그냥 현지 상황을 파악하는 데 보냈어요.",
+    "meaning": "현지 상황을 파악하다",
+    "tts_text": "We spent the first morning just trying to get the lay of the land.",
+    "display_sentence": "We spent the first morning just trying to get the lay of the land.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel",
+      "directions"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "beaten to the punch",
+    "sentence_en": "We were ___ for the last room.",
+    "sentence_ko": "마지막 방을 다른 사람에게 빼앗겼어요.",
+    "meaning": "선수를 빼앗기다",
+    "tts_text": "We were beaten to the punch for the last room.",
+    "display_sentence": "We were beaten to the punch for the last room.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "accommodation"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "catch you off guard",
+    "sentence_en": "Local customs can sometimes ___.",
+    "sentence_ko": "현지 관습이 때로는 당신을 당황하게 할 수 있어요.",
+    "meaning": "당황하게 하다",
+    "tts_text": "Local customs can sometimes catch you off guard.",
+    "display_sentence": "Local customs can sometimes catch you off guard.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a pit stop",
+    "sentence_en": "We made ___ at a roadside diner.",
+    "sentence_ko": "도로변 식당에서 잠깐 쉬었어요.",
+    "meaning": "잠깐 들르는 곳",
+    "tts_text": "We made a pit stop at a roadside diner.",
+    "display_sentence": "We made a pit stop at a roadside diner.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "transportation",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "stranded",
+    "sentence_en": "We almost got ___ when the last train left.",
+    "sentence_ko": "막차가 떠날 뻔해서 고립될 뻔했어요.",
+    "meaning": "고립된",
+    "tts_text": "We almost got stranded when the last train left.",
+    "display_sentence": "We almost got stranded when the last train left.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "transportation",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bucket list destination",
+    "sentence_en": "Patagonia has always been my ___.",
+    "sentence_ko": "파타고니아는 항상 내 버킷리스트 여행지였어요.",
+    "meaning": "버킷리스트 여행지",
+    "tts_text": "Patagonia has always been my bucket list destination.",
+    "display_sentence": "Patagonia has always been my bucket list destination.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "keep a low profile",
+    "sentence_en": "It's smart to ___ in unfamiliar areas.",
+    "sentence_ko": "낯선 지역에서는 눈에 띄지 않게 행동하는 게 현명해요.",
+    "meaning": "눈에 띄지 않다",
+    "tts_text": "It's smart to keep a low profile in unfamiliar areas.",
+    "display_sentence": "It's smart to keep a low profile in unfamiliar areas.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "go with the flow",
+    "sentence_en": "In a new city, it helps to ___.",
+    "sentence_ko": "새 도시에서는 흐름을 따라가는 게 도움이 돼요.",
+    "meaning": "흐름을 따라가다",
+    "tts_text": "In a new city, it helps to go with the flow.",
+    "display_sentence": "In a new city, it helps to go with the flow.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "take a leap of faith",
+    "sentence_en": "I decided to ___ and travel solo.",
+    "sentence_ko": "저는 모험을 감수하고 혼자 여행하기로 결심했어요.",
+    "meaning": "믿음을 갖고 모험을 하다",
+    "tts_text": "I decided to take a leap of faith and travel solo.",
+    "display_sentence": "I decided to take a leap of faith and travel solo.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "find hidden corners",
+    "sentence_en": "The best way to ___ is to walk aimlessly.",
+    "sentence_ko": "숨겨진 골목을 발견하는 가장 좋은 방법은 목적 없이 걷는 거예요.",
+    "meaning": "숨겨진 골목을 발견하다",
+    "tts_text": "The best way to find hidden corners is to walk aimlessly.",
+    "display_sentence": "The best way to find hidden corners is to walk aimlessly.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "sightseeing",
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a seasoned traveler",
+    "sentence_en": "She's ___ who never over-packs.",
+    "sentence_ko": "그녀는 절대 짐을 너무 많이 싸지 않는 베테랑 여행자예요.",
+    "meaning": "노련한 여행자",
+    "tts_text": "She's a seasoned traveler who never over-packs.",
+    "display_sentence": "She's a seasoned traveler who never over-packs.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "uncharted territory",
+    "sentence_en": "Traveling solo was ___ for me.",
+    "sentence_ko": "혼자 여행하는 건 나에게 미지의 영역이었어요.",
+    "meaning": "미지의 영역",
+    "tts_text": "Traveling solo was uncharted territory for me.",
+    "display_sentence": "Traveling solo was uncharted territory for me.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "recharge your batteries",
+    "sentence_en": "A beach getaway is the best way to ___.",
+    "sentence_ko": "해변 여행이 에너지를 재충전하는 최고의 방법이에요.",
+    "meaning": "에너지를 재충전하다",
+    "tts_text": "A beach getaway is the best way to recharge your batteries.",
+    "display_sentence": "A beach getaway is the best way to recharge your batteries.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "general_travel"
+    ]
+  },
+  {
+    "category": "travel",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "keep your options open",
+    "sentence_en": "Don't book everything in advance — ___.",
+    "sentence_ko": "모든 걸 미리 예약하지 말고 선택지를 열어 두세요.",
+    "meaning": "선택의 여지를 남겨두다",
+    "tts_text": "Don't book everything in advance — keep your options open.",
+    "display_sentence": "Don't book everything in advance — keep your options open.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "booking",
+      "general_travel"
+    ]
+  }
+]

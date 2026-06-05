@@ -1,0 +1,3796 @@
+[
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "menu",
+    "sentence_en": "Can I see the ___?",
+    "sentence_ko": "메뉴 좀 볼 수 있을까요?",
+    "meaning": "메뉴",
+    "tts_text": "Can I see the menu?",
+    "display_sentence": "Can I see the menu?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "order",
+    "sentence_en": "Are you ready to ___?",
+    "sentence_ko": "주문하시겠어요?",
+    "meaning": "주문하다",
+    "tts_text": "Are you ready to order?",
+    "display_sentence": "Are you ready to order?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "water",
+    "sentence_en": "Could I get some ___?",
+    "sentence_ko": "물 좀 주시겠어요?",
+    "meaning": "물",
+    "tts_text": "Could I get some water?",
+    "display_sentence": "Could I get some water?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "drinks"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "delicious",
+    "sentence_en": "This soup is so ___.",
+    "sentence_ko": "이 수프 정말 맛있어요.",
+    "meaning": "맛있는",
+    "tts_text": "This soup is so delicious.",
+    "display_sentence": "This soup is so delicious.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "compliment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "bill",
+    "sentence_en": "Can we have the ___, please?",
+    "sentence_ko": "계산서 주시겠어요?",
+    "meaning": "계산서",
+    "tts_text": "Can we have the bill, please?",
+    "display_sentence": "Can we have the bill, please?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "table",
+    "sentence_en": "I'd like a ___ for two.",
+    "sentence_ko": "두 명 자리 부탁해요.",
+    "meaning": "테이블, 자리",
+    "tts_text": "I'd like a table for two.",
+    "display_sentence": "I'd like a table for two.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "seating"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "spicy",
+    "sentence_en": "Is this dish very ___?",
+    "sentence_ko": "이 음식 많이 매워요?",
+    "meaning": "매운",
+    "tts_text": "Is this dish very spicy?",
+    "display_sentence": "Is this dish very spicy?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hungry",
+    "sentence_en": "I'm really ___ now.",
+    "sentence_ko": "지금 정말 배고파요.",
+    "meaning": "배고픈",
+    "tts_text": "I'm really hungry now.",
+    "display_sentence": "I'm really hungry now.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "daily"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "coffee",
+    "sentence_en": "I'll have a ___, please.",
+    "sentence_ko": "커피 한 잔 주세요.",
+    "meaning": "커피",
+    "tts_text": "I'll have a coffee, please.",
+    "display_sentence": "I'll have a coffee, please.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "restaurant",
+      "drinks"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "more",
+    "sentence_en": "Could I have some ___ rice?",
+    "sentence_ko": "밥 좀 더 주시겠어요?",
+    "meaning": "더",
+    "tts_text": "Could I have some more rice?",
+    "display_sentence": "Could I have some more rice?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "fork",
+    "sentence_en": "Could you bring me a ___?",
+    "sentence_ko": "포크 좀 갖다주시겠어요?",
+    "meaning": "포크",
+    "tts_text": "Could you bring me a fork?",
+    "display_sentence": "Could you bring me a fork?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "utensils"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "drink",
+    "sentence_en": "What would you like to ___?",
+    "sentence_ko": "뭐 드시겠어요?",
+    "meaning": "마시다",
+    "tts_text": "What would you like to drink?",
+    "display_sentence": "What would you like to drink?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "drinks"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "tasty",
+    "sentence_en": "The chicken was really ___.",
+    "sentence_ko": "치킨이 정말 맛있었어요.",
+    "meaning": "맛있는",
+    "tts_text": "The chicken was really tasty.",
+    "display_sentence": "The chicken was really tasty.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "compliment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "ready",
+    "sentence_en": "I'm not ___ to order yet.",
+    "sentence_ko": "아직 주문할 준비가 안 됐어요.",
+    "meaning": "준비된",
+    "tts_text": "I'm not ready to order yet.",
+    "display_sentence": "I'm not ready to order yet.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "eat",
+    "sentence_en": "Where should we ___ tonight?",
+    "sentence_ko": "오늘 밤 어디서 먹을까요?",
+    "meaning": "먹다",
+    "tts_text": "Where should we eat tonight?",
+    "display_sentence": "Where should we eat tonight?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "daily"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "full",
+    "sentence_en": "I'm so ___, thank you.",
+    "sentence_ko": "너무 배불러요, 고마워요.",
+    "meaning": "배부른",
+    "tts_text": "I'm so full, thank you.",
+    "display_sentence": "I'm so full, thank you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "salt",
+    "sentence_en": "Could you pass the ___?",
+    "sentence_ko": "소금 좀 건네주시겠어요?",
+    "meaning": "소금",
+    "tts_text": "Could you pass the salt?",
+    "display_sentence": "Could you pass the salt?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "dining"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "dessert",
+    "sentence_en": "Would you like any ___?",
+    "sentence_ko": "디저트 드시겠어요?",
+    "meaning": "디저트",
+    "tts_text": "Would you like any dessert?",
+    "display_sentence": "Would you like any dessert?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "napkin",
+    "sentence_en": "Can I have a ___?",
+    "sentence_ko": "냅킨 하나 주시겠어요?",
+    "meaning": "냅킨",
+    "tts_text": "Can I have a napkin?",
+    "display_sentence": "Can I have a napkin?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "utensils"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hot",
+    "sentence_en": "Be careful, the plate is ___.",
+    "sentence_ko": "조심하세요, 접시가 뜨거워요.",
+    "meaning": "뜨거운",
+    "tts_text": "Be careful, the plate is hot.",
+    "display_sentence": "Be careful, the plate is hot.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "safety"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "plate",
+    "sentence_en": "Could I get a clean ___?",
+    "sentence_ko": "깨끗한 접시 하나 주시겠어요?",
+    "meaning": "접시",
+    "tts_text": "Could I get a clean plate?",
+    "display_sentence": "Could I get a clean plate?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "utensils"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sweet",
+    "sentence_en": "This cake is too ___ for me.",
+    "sentence_ko": "이 케이크는 제겐 너무 달아요.",
+    "meaning": "단",
+    "tts_text": "This cake is too sweet for me.",
+    "display_sentence": "This cake is too sweet for me.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "tea",
+    "sentence_en": "I'll have some green ___.",
+    "sentence_ko": "녹차 마실게요.",
+    "meaning": "차",
+    "tts_text": "I'll have some green tea.",
+    "display_sentence": "I'll have some green tea.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "drinks"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "takeout",
+    "sentence_en": "Is this for ___?",
+    "sentence_ko": "포장이세요?",
+    "meaning": "포장",
+    "tts_text": "Is this for takeout?",
+    "display_sentence": "Is this for takeout?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "fresh",
+    "sentence_en": "Is the fish ___?",
+    "sentence_ko": "생선이 신선한가요?",
+    "meaning": "신선한",
+    "tts_text": "Is the fish fresh?",
+    "display_sentence": "Is the fish fresh?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "wait",
+    "sentence_en": "How long is the ___?",
+    "sentence_ko": "얼마나 기다려야 해요?",
+    "meaning": "기다림, 대기",
+    "tts_text": "How long is the wait?",
+    "display_sentence": "How long is the wait?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "seating"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "soup",
+    "sentence_en": "What kind of ___ do you have?",
+    "sentence_ko": "어떤 수프가 있어요?",
+    "meaning": "수프",
+    "tts_text": "What kind of soup do you have?",
+    "display_sentence": "What kind of soup do you have?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "steak",
+    "sentence_en": "I'll have the ___, please.",
+    "sentence_ko": "스테이크로 할게요.",
+    "meaning": "스테이크",
+    "tts_text": "I'll have the steak, please.",
+    "display_sentence": "I'll have the steak, please.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "bread",
+    "sentence_en": "Could we get some ___?",
+    "sentence_ko": "빵 좀 주시겠어요?",
+    "meaning": "빵",
+    "tts_text": "Could we get some bread?",
+    "display_sentence": "Could we get some bread?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "check",
+    "sentence_en": "Can I have the ___, please?",
+    "sentence_ko": "계산서 주시겠어요?",
+    "meaning": "계산서 (미국식)",
+    "tts_text": "Can I have the check, please?",
+    "display_sentence": "Can I have the check, please?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "spoon",
+    "sentence_en": "I need a ___ for my soup.",
+    "sentence_ko": "수프 먹을 숟가락이 필요해요.",
+    "meaning": "숟가락",
+    "tts_text": "I need a spoon for my soup.",
+    "display_sentence": "I need a spoon for my soup.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "utensils"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "cold",
+    "sentence_en": "My food is a bit ___.",
+    "sentence_ko": "음식이 좀 식었어요.",
+    "meaning": "차가운",
+    "tts_text": "My food is a bit cold.",
+    "display_sentence": "My food is a bit cold.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "complaint"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "Enjoy",
+    "sentence_en": "___ your meal!",
+    "sentence_ko": "맛있게 드세요!",
+    "meaning": "즐기다",
+    "tts_text": "Enjoy your meal!",
+    "display_sentence": "Enjoy your meal!",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "service"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "vegetarian",
+    "sentence_en": "Do you have any ___ options?",
+    "sentence_ko": "채식 메뉴가 있나요?",
+    "meaning": "채식주의자용",
+    "tts_text": "Do you have any vegetarian options?",
+    "display_sentence": "Do you have any vegetarian options?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "dietary"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "outside",
+    "sentence_en": "Can we sit ___?",
+    "sentence_ko": "밖에 앉을 수 있을까요?",
+    "meaning": "밖에, 야외에",
+    "tts_text": "Can we sit outside?",
+    "display_sentence": "Can we sit outside?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "seating"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "price",
+    "sentence_en": "What's the ___ of the pasta?",
+    "sentence_ko": "파스타 가격이 얼마예요?",
+    "meaning": "가격",
+    "tts_text": "What's the price of the pasta?",
+    "display_sentence": "What's the price of the pasta?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "popular",
+    "sentence_en": "What's the most ___ dish here?",
+    "sentence_ko": "여기서 제일 인기 있는 음식이 뭐예요?",
+    "meaning": "인기 있는",
+    "tts_text": "What's the most popular dish here?",
+    "display_sentence": "What's the most popular dish here?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "glass",
+    "sentence_en": "Can I get another ___ of water?",
+    "sentence_ko": "물 한 잔 더 주시겠어요?",
+    "meaning": "잔, 유리잔",
+    "tts_text": "Can I get another glass of water?",
+    "display_sentence": "Can I get another glass of water?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "drinks"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "tip",
+    "sentence_en": "Did you leave a ___?",
+    "sentence_ko": "팁 남겼어요?",
+    "meaning": "팁",
+    "tts_text": "Did you leave a tip?",
+    "display_sentence": "Did you leave a tip?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "lunch",
+    "sentence_en": "What's good for ___?",
+    "sentence_ko": "점심으로 뭐가 좋아요?",
+    "meaning": "점심",
+    "tts_text": "What's good for lunch?",
+    "display_sentence": "What's good for lunch?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "dinner",
+    "sentence_en": "Let's go out for ___.",
+    "sentence_ko": "저녁 먹으러 나가요.",
+    "meaning": "저녁 식사",
+    "tts_text": "Let's go out for dinner.",
+    "display_sentence": "Let's go out for dinner.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "daily"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sauce",
+    "sentence_en": "Can I have extra ___?",
+    "sentence_ko": "소스 좀 더 주시겠어요?",
+    "meaning": "소스",
+    "tts_text": "Can I have extra sauce?",
+    "display_sentence": "Can I have extra sauce?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "reservation",
+    "sentence_en": "I have a ___ under Lee.",
+    "sentence_ko": "이 씨 이름으로 예약했어요.",
+    "meaning": "예약",
+    "tts_text": "I have a reservation under Lee.",
+    "display_sentence": "I have a reservation under Lee.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "booking"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "salty",
+    "sentence_en": "This pasta is a little too ___.",
+    "sentence_ko": "이 파스타는 좀 너무 짜요.",
+    "meaning": "짠",
+    "tts_text": "This pasta is a little too salty.",
+    "display_sentence": "This pasta is a little too salty.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "portion",
+    "sentence_en": "That's a huge ___!",
+    "sentence_ko": "양이 엄청 많네요!",
+    "meaning": "1인분, 양",
+    "tts_text": "That's a huge portion!",
+    "display_sentence": "That's a huge portion!",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "waiter",
+    "sentence_en": "Excuse me, ___!",
+    "sentence_ko": "저기요, 웨이터!",
+    "meaning": "웨이터",
+    "tts_text": "Excuse me, waiter!",
+    "display_sentence": "Excuse me, waiter!",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "service"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "fried",
+    "sentence_en": "I'll have the ___ chicken.",
+    "sentence_ko": "프라이드 치킨으로 할게요.",
+    "meaning": "튀긴",
+    "tts_text": "I'll have the fried chicken.",
+    "display_sentence": "I'll have the fried chicken.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "grilled",
+    "sentence_en": "Can I get ___ salmon instead?",
+    "sentence_ko": "구운 연어로 바꿀 수 있을까요?",
+    "meaning": "구운",
+    "tts_text": "Can I get grilled salmon instead?",
+    "display_sentence": "Can I get grilled salmon instead?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "crowded",
+    "sentence_en": "It's so ___ in here tonight.",
+    "sentence_ko": "오늘 밤은 여기가 정말 붐비네요.",
+    "meaning": "붐비는, 혼잡한",
+    "tts_text": "It's so crowded in here tonight.",
+    "display_sentence": "It's so crowded in here tonight.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "seating"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "birthday",
+    "sentence_en": "We're here to celebrate a ___.",
+    "sentence_ko": "생일 축하하러 왔어요.",
+    "meaning": "생일",
+    "tts_text": "We're here to celebrate a birthday.",
+    "display_sentence": "We're here to celebrate a birthday.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "special_occasion"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "change",
+    "sentence_en": "Can I ___ my order?",
+    "sentence_ko": "주문을 바꿀 수 있을까요?",
+    "meaning": "바꾸다",
+    "tts_text": "Can I change my order?",
+    "display_sentence": "Can I change my order?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "share",
+    "sentence_en": "Can we ___ this dish?",
+    "sentence_ko": "이 요리를 나눠 먹을 수 있을까요?",
+    "meaning": "나누다",
+    "tts_text": "Can we share this dish?",
+    "display_sentence": "Can we share this dish?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "dining"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "open",
+    "sentence_en": "Are you ___ for lunch?",
+    "sentence_ko": "점심 시간에 영업해요?",
+    "meaning": "영업 중인",
+    "tts_text": "Are you open for lunch?",
+    "display_sentence": "Are you open for lunch?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "booking"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "cook",
+    "sentence_en": "Can you ___ it a bit more?",
+    "sentence_ko": "조금 더 익혀 주시겠어요?",
+    "meaning": "요리하다, 익히다",
+    "tts_text": "Can you cook it a bit more?",
+    "display_sentence": "Can you cook it a bit more?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "raw",
+    "sentence_en": "This meat is still ___.",
+    "sentence_ko": "이 고기가 아직 덜 익었어요.",
+    "meaning": "날것의, 덜 익은",
+    "tts_text": "This meat is still raw.",
+    "display_sentence": "This meat is still raw.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "complaint"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "smoking",
+    "sentence_en": "Is this the non-___ section?",
+    "sentence_ko": "여기가 금연 구역인가요?",
+    "meaning": "흡연",
+    "tts_text": "Is this the non-smoking section?",
+    "display_sentence": "Is this the non-smoking section?",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "seating"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "free",
+    "sentence_en": "Is the Wi-Fi ___ here?",
+    "sentence_ko": "여기 와이파이 무료예요?",
+    "meaning": "무료의",
+    "tts_text": "Is the Wi-Fi free here?",
+    "display_sentence": "Is the Wi-Fi free here?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "daily"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "refund",
+    "sentence_en": "Can I get a ___?",
+    "sentence_ko": "환불받을 수 있을까요?",
+    "meaning": "환불",
+    "tts_text": "Can I get a refund?",
+    "display_sentence": "Can I get a refund?",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "vegetable",
+    "sentence_en": "Can I get extra ___ on the side?",
+    "sentence_ko": "야채를 추가로 옆에 주시겠어요?",
+    "meaning": "야채",
+    "tts_text": "Can I get extra vegetable on the side?",
+    "display_sentence": "Can I get extra vegetable on the side?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "dietary"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "chef",
+    "sentence_en": "The ___ here is excellent.",
+    "sentence_ko": "여기 셰프가 정말 뛰어나요.",
+    "meaning": "요리사, 셰프",
+    "tts_text": "The chef here is excellent.",
+    "display_sentence": "The chef here is excellent.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "restaurant",
+      "compliment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "awful",
+    "sentence_en": "The smell in there was ___.",
+    "sentence_ko": "거기 냄새가 정말 끔찍했어요.",
+    "meaning": "끔찍한",
+    "tts_text": "The smell in there was awful.",
+    "display_sentence": "The smell in there was awful.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "complaint"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "flavor",
+    "sentence_en": "This sauce has great ___.",
+    "sentence_ko": "이 소스는 맛이 훌륭해요.",
+    "meaning": "맛, 풍미",
+    "tts_text": "This sauce has great flavor.",
+    "display_sentence": "This sauce has great flavor.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "stuffed",
+    "sentence_en": "I'm absolutely ___ after that meal.",
+    "sentence_ko": "그 식사 후로 너무 배불러요.",
+    "meaning": "배가 꽉 찬",
+    "tts_text": "I'm absolutely stuffed after that meal.",
+    "display_sentence": "I'm absolutely stuffed after that meal.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "knife",
+    "sentence_en": "Could I have a ___, please?",
+    "sentence_ko": "칼 좀 주시겠어요?",
+    "meaning": "칼, 나이프",
+    "tts_text": "Could I have a knife, please?",
+    "display_sentence": "Could I have a knife, please?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "utensils"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "slow",
+    "sentence_en": "The service is a bit ___ today.",
+    "sentence_ko": "오늘 서비스가 좀 느리네요.",
+    "meaning": "느린",
+    "tts_text": "The service is a bit slow today.",
+    "display_sentence": "The service is a bit slow today.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "complaint"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "mild",
+    "sentence_en": "Is there a ___ version of this?",
+    "sentence_ko": "이것의 순한 버전이 있나요?",
+    "meaning": "순한, 맵지 않은",
+    "tts_text": "Is there a mild version of this?",
+    "display_sentence": "Is there a mild version of this?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "soup of the day",
+    "sentence_en": "What is the ___?",
+    "sentence_ko": "오늘의 수프는 뭐예요?",
+    "meaning": "오늘의 수프",
+    "tts_text": "What is the soup of the day?",
+    "display_sentence": "What is the soup of the day?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "local",
+    "sentence_en": "Do you use ___ ingredients?",
+    "sentence_ko": "지역 재료를 사용하나요?",
+    "meaning": "지역의",
+    "tts_text": "Do you use local ingredients?",
+    "display_sentence": "Do you use local ingredients?",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "closing time",
+    "sentence_en": "What is your ___?",
+    "sentence_ko": "영업 종료 시간이 언제예요?",
+    "meaning": "영업 종료 시간",
+    "tts_text": "What is your closing time?",
+    "display_sentence": "What is your closing time?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "booking"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "noisy",
+    "sentence_en": "It's a bit too ___ in here.",
+    "sentence_ko": "여기가 좀 너무 시끄러워요.",
+    "meaning": "시끄러운",
+    "tts_text": "It's a bit too noisy in here.",
+    "display_sentence": "It's a bit too noisy in here.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "complaint"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "recommend",
+    "sentence_en": "What would you ___ for a first-timer?",
+    "sentence_ko": "처음 온 사람에게 뭘 추천하시겠어요?",
+    "meaning": "추천하다",
+    "tts_text": "What would you recommend for a first-timer?",
+    "display_sentence": "What would you recommend for a first-timer?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "allergic to",
+    "sentence_en": "I'm ___ peanuts.",
+    "sentence_ko": "전 땅콩 알레르기가 있어요.",
+    "meaning": "~에 알레르기가 있는",
+    "tts_text": "I'm allergic to peanuts.",
+    "display_sentence": "I'm allergic to peanuts.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "dietary",
+      "health"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "make a reservation",
+    "sentence_en": "I'd like to ___ for Friday.",
+    "sentence_ko": "금요일로 예약하고 싶어요.",
+    "meaning": "예약하다",
+    "tts_text": "I'd like to make a reservation for Friday.",
+    "display_sentence": "I'd like to make a reservation for Friday.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "booking"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "split the bill",
+    "sentence_en": "Shall we ___?",
+    "sentence_ko": "각자 계산할까요?",
+    "meaning": "비용을 나누다",
+    "tts_text": "Shall we split the bill?",
+    "display_sentence": "Shall we split the bill?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "well done",
+    "sentence_en": "I'd like my steak ___.",
+    "sentence_ko": "스테이크를 완전히 익혀 주세요.",
+    "meaning": "바싹 익힌",
+    "tts_text": "I'd like my steak well done.",
+    "display_sentence": "I'd like my steak well done.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "leftovers",
+    "sentence_en": "Can I take the ___ home?",
+    "sentence_ko": "남은 음식 싸 갈 수 있을까요?",
+    "meaning": "남은 음식",
+    "tts_text": "Can I take the leftovers home?",
+    "display_sentence": "Can I take the leftovers home?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "on the house",
+    "sentence_en": "Dessert is ___ tonight.",
+    "sentence_ko": "오늘 디저트는 서비스예요.",
+    "meaning": "가게에서 무료로 주는",
+    "tts_text": "Dessert is on the house tonight.",
+    "display_sentence": "Dessert is on the house tonight.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "eat out",
+    "sentence_en": "We usually ___ on Fridays.",
+    "sentence_ko": "우리는 보통 금요일에 외식해요.",
+    "meaning": "외식하다",
+    "tts_text": "We usually eat out on Fridays.",
+    "display_sentence": "We usually eat out on Fridays.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "daily"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "the specials",
+    "sentence_en": "What are ___ today?",
+    "sentence_ko": "오늘 특선 메뉴가 뭐예요?",
+    "meaning": "특선 요리",
+    "tts_text": "What are the specials today?",
+    "display_sentence": "What are the specials today?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "medium rare",
+    "sentence_en": "I'll have my steak ___.",
+    "sentence_ko": "스테이크는 미디엄 레어로 할게요.",
+    "meaning": "미디엄 레어",
+    "tts_text": "I'll have my steak medium rare.",
+    "display_sentence": "I'll have my steak medium rare.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a table for",
+    "sentence_en": "Could we get ___ four?",
+    "sentence_ko": "네 명 자리 받을 수 있을까요?",
+    "meaning": "~명 자리",
+    "tts_text": "Could we get a table for four?",
+    "display_sentence": "Could we get a table for four?",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "seating"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "to go",
+    "sentence_en": "I'll have the burger ___.",
+    "sentence_ko": "버거는 포장으로 할게요.",
+    "meaning": "포장으로",
+    "tts_text": "I'll have the burger to go.",
+    "display_sentence": "I'll have the burger to go.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "run out of",
+    "sentence_en": "Sorry, we've ___ the salmon.",
+    "sentence_ko": "죄송해요, 연어가 다 떨어졌어요.",
+    "meaning": "다 떨어지다",
+    "tts_text": "Sorry, we've run out of the salmon.",
+    "display_sentence": "Sorry, we've run out of the salmon.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pick up the tab",
+    "sentence_en": "Let me ___ tonight.",
+    "sentence_ko": "오늘은 제가 계산할게요.",
+    "meaning": "계산을 맡다",
+    "tts_text": "Let me pick up the tab tonight.",
+    "display_sentence": "Let me pick up the tab tonight.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "on the side",
+    "sentence_en": "Can I get the sauce ___?",
+    "sentence_ko": "소스는 따로 주시겠어요?",
+    "meaning": "따로",
+    "tts_text": "Can I get the sauce on the side?",
+    "display_sentence": "Can I get the sauce on the side?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "fully booked",
+    "sentence_en": "I'm afraid we're ___ tonight.",
+    "sentence_ko": "죄송하지만 오늘 밤은 예약이 다 찼어요.",
+    "meaning": "예약이 꽉 찬",
+    "tts_text": "I'm afraid we're fully booked tonight.",
+    "display_sentence": "I'm afraid we're fully booked tonight.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "booking"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "grab a coffee",
+    "sentence_en": "Want to ___ after lunch?",
+    "sentence_ko": "점심 후에 커피 한잔할래요?",
+    "meaning": "커피를 마시다",
+    "tts_text": "Want to grab a coffee after lunch?",
+    "display_sentence": "Want to grab a coffee after lunch?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "drinks",
+      "social"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "watch my weight",
+    "sentence_en": "I'm trying to ___, so just a salad.",
+    "sentence_ko": "체중 관리 중이라 샐러드만 할게요.",
+    "meaning": "체중을 관리하다",
+    "tts_text": "I'm trying to watch my weight, so just a salad.",
+    "display_sentence": "I'm trying to watch my weight, so just a salad.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "dietary"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "dig in",
+    "sentence_en": "The food's ready, let's ___.",
+    "sentence_ko": "음식 나왔어요, 맛있게 먹어요.",
+    "meaning": "먹기 시작하다",
+    "tts_text": "The food's ready, let's dig in.",
+    "display_sentence": "The food's ready, let's dig in.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "dining"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "cut down on",
+    "sentence_en": "I'm trying to ___ sugar.",
+    "sentence_ko": "설탕을 줄이려고 노력 중이에요.",
+    "meaning": "~을 줄이다",
+    "tts_text": "I'm trying to cut down on sugar.",
+    "display_sentence": "I'm trying to cut down on sugar.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "dietary",
+      "health"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "set the table",
+    "sentence_en": "Could you ___ for dinner?",
+    "sentence_ko": "저녁 먹게 상 좀 차려 줄래요?",
+    "meaning": "상을 차리다",
+    "tts_text": "Could you set the table for dinner?",
+    "display_sentence": "Could you set the table for dinner?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "dining",
+      "daily"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a craving for",
+    "sentence_en": "I have ___ something sweet.",
+    "sentence_ko": "뭔가 단 게 너무 당겨요.",
+    "meaning": "~에 대한 식욕/갈망",
+    "tts_text": "I have a craving for something sweet.",
+    "display_sentence": "I have a craving for something sweet.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take your order",
+    "sentence_en": "I'm ready to ___ now.",
+    "sentence_ko": "지금 주문 받을게요.",
+    "meaning": "주문을 받다",
+    "tts_text": "I'm ready to take your order now.",
+    "display_sentence": "I'm ready to take your order now.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "service"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a doggy bag",
+    "sentence_en": "Could I get ___?",
+    "sentence_ko": "남은 거 포장해 주시겠어요?",
+    "meaning": "남은 음식 포장 봉투",
+    "tts_text": "Could I get a doggy bag?",
+    "display_sentence": "Could I get a doggy bag?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get a refill",
+    "sentence_en": "Could I ___ on the coffee?",
+    "sentence_ko": "커피 리필 좀 해 주시겠어요?",
+    "meaning": "리필하다",
+    "tts_text": "Could I get a refill on the coffee?",
+    "display_sentence": "Could I get a refill on the coffee?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "drinks"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "leave a tip",
+    "sentence_en": "Should we ___ for the service?",
+    "sentence_ko": "서비스에 대한 팁을 남겨야 할까요?",
+    "meaning": "팁을 남기다",
+    "tts_text": "Should we leave a tip for the service?",
+    "display_sentence": "Should we leave a tip for the service?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a side dish",
+    "sentence_en": "What comes as ___ with this?",
+    "sentence_ko": "이건 무슨 반찬이 나와요?",
+    "meaning": "곁들임 요리, 사이드 디시",
+    "tts_text": "What comes as a side dish with this?",
+    "display_sentence": "What comes as a side dish with this?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "gluten-free",
+    "sentence_en": "Is this pasta ___?",
+    "sentence_ko": "이 파스타는 글루텐이 없나요?",
+    "meaning": "글루텐 없는",
+    "tts_text": "Is this pasta gluten-free?",
+    "display_sentence": "Is this pasta gluten-free?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "dietary"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "save a spot",
+    "sentence_en": "Can you ___ for us?",
+    "sentence_ko": "저희 자리 맡아 주시겠어요?",
+    "meaning": "자리를 맡아두다",
+    "tts_text": "Can you save a spot for us?",
+    "display_sentence": "Can you save a spot for us?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "seating"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "book a table",
+    "sentence_en": "I'd like to ___ for Saturday night.",
+    "sentence_ko": "토요일 밤에 자리를 예약하고 싶어요.",
+    "meaning": "자리를 예약하다",
+    "tts_text": "I'd like to book a table for Saturday night.",
+    "display_sentence": "I'd like to book a table for Saturday night.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "booking"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "order in",
+    "sentence_en": "Let's just ___ tonight.",
+    "sentence_ko": "오늘은 그냥 배달 시켜 먹어요.",
+    "meaning": "음식을 배달 시켜 먹다",
+    "tts_text": "Let's just order in tonight.",
+    "display_sentence": "Let's just order in tonight.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "daily"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "fresh out of",
+    "sentence_en": "Sorry, we're ___ the lamb chops.",
+    "sentence_ko": "죄송해요, 양갈비가 다 떨어졌어요.",
+    "meaning": "~이 방금 다 떨어진",
+    "tts_text": "Sorry, we're fresh out of the lamb chops.",
+    "display_sentence": "Sorry, we're fresh out of the lamb chops.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "go Dutch",
+    "sentence_en": "Let's ___ this time.",
+    "sentence_ko": "이번엔 더치페이로 해요.",
+    "meaning": "각자 계산하다",
+    "tts_text": "Let's go Dutch this time.",
+    "display_sentence": "Let's go Dutch this time.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get a window seat",
+    "sentence_en": "Can we ___?",
+    "sentence_ko": "창가 자리 받을 수 있을까요?",
+    "meaning": "창가 자리를 잡다",
+    "tts_text": "Can we get a window seat?",
+    "display_sentence": "Can we get a window seat?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "seating"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pairs well with",
+    "sentence_en": "The sommelier said this wine ___ the lamb.",
+    "sentence_ko": "소믈리에가 이 와인은 양고기와 잘 어울린다고 했어요.",
+    "meaning": "~와 잘 어울리다",
+    "tts_text": "The sommelier said this wine pairs well with the lamb.",
+    "display_sentence": "The sommelier said this wine pairs well with the lamb.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "drinks"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "bring the check",
+    "sentence_en": "Could you ___ when you get a chance?",
+    "sentence_ko": "시간 되실 때 계산서 좀 가져다주시겠어요?",
+    "meaning": "계산서를 가져오다",
+    "tts_text": "Could you bring the check when you get a chance?",
+    "display_sentence": "Could you bring the check when you get a chance?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "make a substitution",
+    "sentence_en": "Is it possible to ___?",
+    "sentence_ko": "재료를 바꿀 수 있을까요?",
+    "meaning": "대체 재료를 요청하다",
+    "tts_text": "Is it possible to make a substitution?",
+    "display_sentence": "Is it possible to make a substitution?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "dietary"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pay by card",
+    "sentence_en": "We'd like to ___.",
+    "sentence_ko": "카드로 결제하고 싶어요.",
+    "meaning": "카드로 지불하다",
+    "tts_text": "We'd like to pay by card.",
+    "display_sentence": "We'd like to pay by card.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "hold the",
+    "sentence_en": "Can you ___ onions on mine?",
+    "sentence_ko": "제 것엔 양파를 빼 주시겠어요?",
+    "meaning": "~을 빼다 (음식 주문 시)",
+    "tts_text": "Can you hold the onions on mine?",
+    "display_sentence": "Can you hold the onions on mine?",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "warm up",
+    "sentence_en": "Could you ___ this dish for me?",
+    "sentence_ko": "이 음식 좀 데워 주시겠어요?",
+    "meaning": "데우다",
+    "tts_text": "Could you warm up this dish for me?",
+    "display_sentence": "Could you warm up this dish for me?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "service"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "wrap up",
+    "sentence_en": "Could you ___ the rest for me?",
+    "sentence_ko": "남은 거 포장해 주시겠어요?",
+    "meaning": "포장하다",
+    "tts_text": "Could you wrap up the rest for me?",
+    "display_sentence": "Could you wrap up the rest for me?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "dairy-free",
+    "sentence_en": "Is there a ___ option on the menu?",
+    "sentence_ko": "유제품이 없는 메뉴가 있나요?",
+    "meaning": "유제품이 없는",
+    "tts_text": "Is there a dairy-free option on the menu?",
+    "display_sentence": "Is there a dairy-free option on the menu?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "dietary"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "bring out",
+    "sentence_en": "Can you ___ the food together?",
+    "sentence_ko": "음식을 다 같이 내와 주시겠어요?",
+    "meaning": "음식을 내오다",
+    "tts_text": "Can you bring out the food together?",
+    "display_sentence": "Can you bring out the food together?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "service"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "extra charge",
+    "sentence_en": "Is there an ___ for that?",
+    "sentence_ko": "그거 추가 요금이 있나요?",
+    "meaning": "추가 요금",
+    "tts_text": "Is there an extra charge for that?",
+    "display_sentence": "Is there an extra charge for that?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take away",
+    "sentence_en": "Is this for here or ___?",
+    "sentence_ko": "여기서 드실 건가요, 포장이세요?",
+    "meaning": "포장하다, 테이크아웃",
+    "tts_text": "Is this for here or take away?",
+    "display_sentence": "Is this for here or take away?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "high chair",
+    "sentence_en": "Do you have a ___ for my toddler?",
+    "sentence_ko": "아이를 위한 유아용 의자가 있나요?",
+    "meaning": "유아용 의자",
+    "tts_text": "Do you have a high chair for my toddler?",
+    "display_sentence": "Do you have a high chair for my toddler?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "family",
+      "seating"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a quiet table",
+    "sentence_en": "Could we have ___ in the back?",
+    "sentence_ko": "안쪽에 조용한 자리 좀 주시겠어요?",
+    "meaning": "조용한 자리",
+    "tts_text": "Could we have a quiet table in the back?",
+    "display_sentence": "Could we have a quiet table in the back?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "seating"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "skip the appetizer",
+    "sentence_en": "I'll ___ and go straight to the main.",
+    "sentence_ko": "애피타이저는 건너뛰고 메인 코스로 바로 갈게요.",
+    "meaning": "애피타이저를 건너뛰다",
+    "tts_text": "I'll skip the appetizer and go straight to the main.",
+    "display_sentence": "I'll skip the appetizer and go straight to the main.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take turns paying",
+    "sentence_en": "We usually ___ when we go out.",
+    "sentence_ko": "우리는 외식할 때 보통 번갈아 가며 계산해요.",
+    "meaning": "번갈아 가며 계산하다",
+    "tts_text": "We usually take turns paying when we go out.",
+    "display_sentence": "We usually take turns paying when we go out.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get a corner booth",
+    "sentence_en": "Can we ___?",
+    "sentence_ko": "코너 칸막이 자리 받을 수 있을까요?",
+    "meaning": "코너 부스 자리를 잡다",
+    "tts_text": "Can we get a corner booth?",
+    "display_sentence": "Can we get a corner booth?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "seating"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "have it your way",
+    "sentence_en": "You can ___ with any toppings you like.",
+    "sentence_ko": "원하는 토핑으로 마음대로 하시면 돼요.",
+    "meaning": "원하는 대로 하다",
+    "tts_text": "You can have it your way with any toppings you like.",
+    "display_sentence": "You can have it your way with any toppings you like.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "complimentary",
+    "sentence_en": "The bread basket is ___ this evening.",
+    "sentence_ko": "오늘 저녁 빵 바구니는 무료로 드려요.",
+    "meaning": "무료로 제공되는",
+    "tts_text": "The bread basket is complimentary this evening.",
+    "display_sentence": "The bread basket is complimentary this evening.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "waiting list",
+    "sentence_en": "Can I get on the ___?",
+    "sentence_ko": "대기 명단에 올릴 수 있을까요?",
+    "meaning": "대기 명단",
+    "tts_text": "Can I get on the waiting list?",
+    "display_sentence": "Can I get on the waiting list?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "booking"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "rush hour",
+    "sentence_en": "It gets crowded during ___ at noon.",
+    "sentence_ko": "점심 러시 타임에는 많이 붐벼요.",
+    "meaning": "혼잡 시간대",
+    "tts_text": "It gets crowded during rush hour at noon.",
+    "display_sentence": "It gets crowded during rush hour at noon.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "seating"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "dress code",
+    "sentence_en": "Is there a ___ for this restaurant?",
+    "sentence_ko": "이 레스토랑에 복장 규정이 있나요?",
+    "meaning": "복장 규정",
+    "tts_text": "Is there a dress code for this restaurant?",
+    "display_sentence": "Is there a dress code for this restaurant?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "booking"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "two for one",
+    "sentence_en": "They have a ___ deal on cocktails tonight.",
+    "sentence_ko": "오늘 밤 칵테일 1+1 행사를 해요.",
+    "meaning": "하나 사면 하나 무료",
+    "tts_text": "They have a two for one deal on cocktails tonight.",
+    "display_sentence": "They have a two for one deal on cocktails tonight.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "payment",
+      "drinks"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "set menu",
+    "sentence_en": "The ___ for tonight includes soup and dessert.",
+    "sentence_ko": "오늘 밤 세트 메뉴에는 수프와 디저트가 포함돼요.",
+    "meaning": "정해진 코스 세트",
+    "tts_text": "The set menu for tonight includes soup and dessert.",
+    "display_sentence": "The set menu for tonight includes soup and dessert.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "table manners",
+    "sentence_en": "Good ___ make a great impression.",
+    "sentence_ko": "좋은 식사 예절은 좋은 인상을 남겨요.",
+    "meaning": "식사 예절",
+    "tts_text": "Good table manners make a great impression.",
+    "display_sentence": "Good table manners make a great impression.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "social"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "cancel my reservation",
+    "sentence_en": "I need to ___.",
+    "sentence_ko": "예약을 취소해야 할 것 같아요.",
+    "meaning": "예약을 취소하다",
+    "tts_text": "I need to cancel my reservation.",
+    "display_sentence": "I need to cancel my reservation.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "booking"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "appetizer",
+    "sentence_en": "Can we start with an ___?",
+    "sentence_ko": "애피타이저로 시작할 수 있을까요?",
+    "meaning": "애피타이저",
+    "tts_text": "Can we start with an appetizer?",
+    "display_sentence": "Can we start with an appetizer?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "half portion",
+    "sentence_en": "Can I get a ___ of the pasta?",
+    "sentence_ko": "파스타 하프 사이즈로 주시겠어요?",
+    "meaning": "반인분",
+    "tts_text": "Can I get a half portion of the pasta?",
+    "display_sentence": "Can I get a half portion of the pasta?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "corkage fee",
+    "sentence_en": "Do you charge a ___?",
+    "sentence_ko": "콜키지 요금을 받나요?",
+    "meaning": "콜키지 요금",
+    "tts_text": "Do you charge a corkage fee?",
+    "display_sentence": "Do you charge a corkage fee?",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "drinks",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "split into",
+    "sentence_en": "Can we ___ two separate bills?",
+    "sentence_ko": "계산서를 두 장으로 나눌 수 있을까요?",
+    "meaning": "나누다",
+    "tts_text": "Can we split into two separate bills?",
+    "display_sentence": "Can we split into two separate bills?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "payment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "catch up over",
+    "sentence_en": "Let's ___ dinner this week.",
+    "sentence_ko": "이번 주에 저녁 먹으면서 근황 얘기해요.",
+    "meaning": "~하면서 근황을 나누다",
+    "tts_text": "Let's catch up over dinner this week.",
+    "display_sentence": "Let's catch up over dinner this week.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "social"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "serve",
+    "sentence_en": "Do you ___ breakfast on weekends?",
+    "sentence_ko": "주말에도 아침 식사를 제공하나요?",
+    "meaning": "제공하다",
+    "tts_text": "Do you serve breakfast on weekends?",
+    "display_sentence": "Do you serve breakfast on weekends?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "make room for",
+    "sentence_en": "Can you ___ one more guest?",
+    "sentence_ko": "손님 한 명 더 자리를 만들어 주실 수 있을까요?",
+    "meaning": "~을 위한 자리를 만들다",
+    "tts_text": "Can you make room for one more guest?",
+    "display_sentence": "Can you make room for one more guest?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "seating"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "go easy on",
+    "sentence_en": "Can you ___ the salt for me?",
+    "sentence_ko": "소금을 조금 줄여서 해 주시겠어요?",
+    "meaning": "~을 조금만 쓰다",
+    "tts_text": "Can you go easy on the salt for me?",
+    "display_sentence": "Can you go easy on the salt for me?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering",
+      "dietary"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "long wait",
+    "sentence_en": "Is there usually a ___ for a table?",
+    "sentence_ko": "자리를 기다리는 시간이 보통 길어요?",
+    "meaning": "긴 대기 시간",
+    "tts_text": "Is there usually a long wait for a table?",
+    "display_sentence": "Is there usually a long wait for a table?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "seating"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "check in",
+    "sentence_en": "We have a reservation and need to ___.",
+    "sentence_ko": "예약이 있어서 체크인해야 해요.",
+    "meaning": "도착 확인을 하다",
+    "tts_text": "We have a reservation and need to check in.",
+    "display_sentence": "We have a reservation and need to check in.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "booking"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "opening hours",
+    "sentence_en": "Can you tell me your ___?",
+    "sentence_ko": "영업 시간을 알려 주시겠어요?",
+    "meaning": "영업 시간",
+    "tts_text": "Can you tell me your opening hours?",
+    "display_sentence": "Can you tell me your opening hours?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "booking"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "to die for",
+    "sentence_en": "Their cheesecake is ___.",
+    "sentence_ko": "거기 치즈케이크는 끝내줘요.",
+    "meaning": "기막히게 좋은",
+    "tts_text": "Their cheesecake is to die for.",
+    "display_sentence": "Their cheesecake is to die for.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "compliment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "an acquired taste",
+    "sentence_en": "Blue cheese is ___.",
+    "sentence_ko": "블루치즈는 차차 좋아지는 맛이에요.",
+    "meaning": "차차 좋아지는 맛",
+    "tts_text": "Blue cheese is an acquired taste.",
+    "display_sentence": "Blue cheese is an acquired taste.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "grab a bite",
+    "sentence_en": "Let's ___ before the movie.",
+    "sentence_ko": "영화 전에 간단히 뭐 좀 먹어요.",
+    "meaning": "간단히 먹다",
+    "tts_text": "Let's grab a bite before the movie.",
+    "display_sentence": "Let's grab a bite before the movie.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "daily"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "wine and dine",
+    "sentence_en": "They ___ their clients regularly.",
+    "sentence_ko": "그들은 고객을 정기적으로 융숭히 대접해요.",
+    "meaning": "융숭히 대접하다",
+    "tts_text": "They wine and dine their clients regularly.",
+    "display_sentence": "They wine and dine their clients regularly.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "work",
+      "social"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "had a sweet tooth",
+    "sentence_en": "I've always ___.",
+    "sentence_ko": "전 늘 단것을 좋아했어요.",
+    "meaning": "단것을 좋아했다",
+    "tts_text": "I've always had a sweet tooth.",
+    "display_sentence": "I've always had a sweet tooth.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "food coma",
+    "sentence_en": "I'm in a ___ after that buffet.",
+    "sentence_ko": "그 뷔페 먹고 나니 식곤증이 와요.",
+    "meaning": "과식 후 졸림",
+    "tts_text": "I'm in a food coma after that buffet.",
+    "display_sentence": "I'm in a food coma after that buffet.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "save room for",
+    "sentence_en": "Make sure to ___ dessert.",
+    "sentence_ko": "디저트 먹을 배는 남겨 두세요.",
+    "meaning": "~할 여지를 남기다",
+    "tts_text": "Make sure to save room for dessert.",
+    "display_sentence": "Make sure to save room for dessert.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "melts in your mouth",
+    "sentence_en": "This wagyu beef just ___.",
+    "sentence_ko": "이 와규 소고기는 입에서 살살 녹아요.",
+    "meaning": "입에서 녹다",
+    "tts_text": "This wagyu beef just melts in your mouth.",
+    "display_sentence": "This wagyu beef just melts in your mouth.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "compliment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a hole in the wall",
+    "sentence_en": "It's ___, but the food is amazing.",
+    "sentence_ko": "허름한 가게지만 음식은 훌륭해요.",
+    "meaning": "허름한 작은 식당",
+    "tts_text": "It's a hole in the wall, but the food is amazing.",
+    "display_sentence": "It's a hole in the wall, but the food is amazing.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "social"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "eats like a horse",
+    "sentence_en": "My brother ___ after the gym.",
+    "sentence_ko": "내 남동생은 헬스 후에 엄청 많이 먹어요.",
+    "meaning": "엄청 많이 먹다",
+    "tts_text": "My brother eats like a horse after the gym.",
+    "display_sentence": "My brother eats like a horse after the gym.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "whets your appetite",
+    "sentence_en": "That trailer really ___.",
+    "sentence_ko": "그 예고편이 정말 식욕을 돋워요.",
+    "meaning": "식욕을 돋우다",
+    "tts_text": "That trailer really whets your appetite.",
+    "display_sentence": "That trailer really whets your appetite.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on a diet",
+    "sentence_en": "I'll pass on dessert; I'm ___.",
+    "sentence_ko": "디저트는 사양할게요, 다이어트 중이라.",
+    "meaning": "다이어트 중인",
+    "tts_text": "I'll pass on dessert; I'm on a diet.",
+    "display_sentence": "I'll pass on dessert; I'm on a diet.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "dietary"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "polished off",
+    "sentence_en": "He ___ the whole pizza in minutes.",
+    "sentence_ko": "그는 몇 분 만에 피자를 통째로 해치웠어요.",
+    "meaning": "다 먹어 치웠다",
+    "tts_text": "He polished off the whole pizza in minutes.",
+    "display_sentence": "He polished off the whole pizza in minutes.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a feast for the eyes",
+    "sentence_en": "The dish was ___.",
+    "sentence_ko": "그 요리는 보는 것만으로도 즐거웠어요.",
+    "meaning": "보기에도 즐거운 것",
+    "tts_text": "The dish was a feast for the eyes.",
+    "display_sentence": "The dish was a feast for the eyes.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "compliment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "hit the spot",
+    "sentence_en": "That cold drink really ___.",
+    "sentence_ko": "그 시원한 음료가 딱 좋았어요.",
+    "meaning": "딱 좋다, 만족스럽다",
+    "tts_text": "That cold drink really hit the spot.",
+    "display_sentence": "That cold drink really hit the spot.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "compliment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "comfort food",
+    "sentence_en": "Soup is my favorite ___.",
+    "sentence_ko": "수프는 제가 제일 좋아하는 위안 음식이에요.",
+    "meaning": "위안이 되는 음식",
+    "tts_text": "Soup is my favorite comfort food.",
+    "display_sentence": "Soup is my favorite comfort food.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food",
+      "emotion"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bit off more than he could chew",
+    "sentence_en": "He ordered five dishes and ___.",
+    "sentence_ko": "그는 요리를 다섯 개나 시켜서 감당이 안 됐어요.",
+    "meaning": "감당 못 할 일을 벌이다 (과거형)",
+    "tts_text": "He ordered five dishes and bit off more than he could chew.",
+    "display_sentence": "He ordered five dishes and bit off more than he could chew.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a real foodie",
+    "sentence_en": "My sister is ___.",
+    "sentence_ko": "제 언니는 진정한 미식가예요.",
+    "meaning": "진정한 미식가",
+    "tts_text": "My sister is a real foodie.",
+    "display_sentence": "My sister is a real foodie.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "social"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "washed it down with",
+    "sentence_en": "I ___ a cold beer.",
+    "sentence_ko": "시원한 맥주 한 잔으로 곁들여 넘겼어요.",
+    "meaning": "~로 곁들여 마시다 (과거형)",
+    "tts_text": "I washed it down with a cold beer.",
+    "display_sentence": "I washed it down with a cold beer.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "drinks"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "raves about",
+    "sentence_en": "Everyone ___ this ramen place.",
+    "sentence_ko": "다들 이 라멘 집을 극찬해요.",
+    "meaning": "극찬하다 (3인칭 단수형)",
+    "tts_text": "Everyone raves about this ramen place.",
+    "display_sentence": "Everyone raves about this ramen place.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "social"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "my guilty pleasure",
+    "sentence_en": "Fried chicken is ___.",
+    "sentence_ko": "프라이드치킨은 제 죄책감 드는 즐거움이에요.",
+    "meaning": "죄책감 드는 즐거움",
+    "tts_text": "Fried chicken is my guilty pleasure.",
+    "display_sentence": "Fried chicken is my guilty pleasure.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food",
+      "emotion"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "spoiled for choice",
+    "sentence_en": "With this menu, you're ___.",
+    "sentence_ko": "이 메뉴면 고를 게 너무 많아요.",
+    "meaning": "선택지가 너무 많은",
+    "tts_text": "With this menu, you're spoiled for choice.",
+    "display_sentence": "With this menu, you're spoiled for choice.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a slap-up meal",
+    "sentence_en": "We had ___ to celebrate the promotion.",
+    "sentence_ko": "승진을 축하하려고 거하게 잘 먹었어요.",
+    "meaning": "거하게 잘 차린 식사",
+    "tts_text": "We had a slap-up meal to celebrate the promotion.",
+    "display_sentence": "We had a slap-up meal to celebrate the promotion.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "special_occasion"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "left a bad taste in my mouth",
+    "sentence_en": "The rude service ___.",
+    "sentence_ko": "무례한 서비스가 뒷맛을 씁쓸하게 만들었어요.",
+    "meaning": "뒷맛이 안 좋다 (과거형)",
+    "tts_text": "The rude service left a bad taste in my mouth.",
+    "display_sentence": "The rude service left a bad taste in my mouth.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "complaint"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "the proof is in the pudding",
+    "sentence_en": "Try it yourself; ___.",
+    "sentence_ko": "직접 드셔 보세요, 먹어 봐야 알죠.",
+    "meaning": "직접 해봐야 안다",
+    "tts_text": "Try it yourself; the proof is in the pudding.",
+    "display_sentence": "Try it yourself; the proof is in the pudding.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "over the top",
+    "sentence_en": "The dessert presentation was a bit ___.",
+    "sentence_ko": "디저트 플레이팅이 좀 과했어요.",
+    "meaning": "지나친, 과도한",
+    "tts_text": "The dessert presentation was a bit over the top.",
+    "display_sentence": "The dessert presentation was a bit over the top.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "compliment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "lived up to the hype",
+    "sentence_en": "The new brunch spot really ___.",
+    "sentence_ko": "그 새 브런치 집이 소문값을 제대로 했어요.",
+    "meaning": "소문값을 하다",
+    "tts_text": "The new brunch spot really lived up to the hype.",
+    "display_sentence": "The new brunch spot really lived up to the hype.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "social"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "went the extra mile",
+    "sentence_en": "The chef really ___ with this dish.",
+    "sentence_ko": "셰프가 이 요리에 정말 특별한 노력을 기울였어요.",
+    "meaning": "한층 더 노력하다 (과거형)",
+    "tts_text": "The chef really went the extra mile with this dish.",
+    "display_sentence": "The chef really went the extra mile with this dish.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "compliment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "rich and indulgent",
+    "sentence_en": "The chocolate mousse was ___.",
+    "sentence_ko": "초콜릿 무스가 진하고 진득했어요.",
+    "meaning": "진하고 탐닉하게 맛있는",
+    "tts_text": "The chocolate mousse was rich and indulgent.",
+    "display_sentence": "The chocolate mousse was rich and indulgent.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "not worth the wait",
+    "sentence_en": "Honestly, the food was ___.",
+    "sentence_ko": "솔직히 음식이 기다린 보람이 없었어요.",
+    "meaning": "기다린 보람이 없는",
+    "tts_text": "Honestly, the food was not worth the wait.",
+    "display_sentence": "Honestly, the food was not worth the wait.",
+    "frequency": "mid",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "complaint"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a hidden gem",
+    "sentence_en": "This little place is ___.",
+    "sentence_ko": "이 작은 식당은 숨겨진 보석 같은 곳이에요.",
+    "meaning": "숨겨진 보석 같은 곳",
+    "tts_text": "This little place is a hidden gem.",
+    "display_sentence": "This little place is a hidden gem.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "social"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "seasonal ingredients",
+    "sentence_en": "The chef uses only ___.",
+    "sentence_ko": "셰프는 제철 식재료만 사용해요.",
+    "meaning": "제철 재료",
+    "tts_text": "The chef uses only seasonal ingredients.",
+    "display_sentence": "The chef uses only seasonal ingredients.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "tasting menu",
+    "sentence_en": "We went for the ___ last time.",
+    "sentence_ko": "저번에 코스 요리를 먹었어요.",
+    "meaning": "코스별 소량 시식 메뉴",
+    "tts_text": "We went for the tasting menu last time.",
+    "display_sentence": "We went for the tasting menu last time.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "build up an appetite",
+    "sentence_en": "We walked around all day to ___.",
+    "sentence_ko": "하루 종일 걸어다녀서 배가 엄청 고파졌어요.",
+    "meaning": "배고픔을 키우다",
+    "tts_text": "We walked around all day to build up an appetite.",
+    "display_sentence": "We walked around all day to build up an appetite.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "had a field day",
+    "sentence_en": "At the all-you-can-eat buffet, we really ___.",
+    "sentence_ko": "무한리필 뷔페에서 우리는 정말 신나게 먹었어요.",
+    "meaning": "실컷 즐기다 (과거형)",
+    "tts_text": "At the all-you-can-eat buffet, we really had a field day.",
+    "display_sentence": "At the all-you-can-eat buffet, we really had a field day.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food",
+      "social"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "ambiance",
+    "sentence_en": "The ___ here is perfect for a date.",
+    "sentence_ko": "이 곳 분위기는 데이트하기에 딱이에요.",
+    "meaning": "분위기",
+    "tts_text": "The ambiance here is perfect for a date.",
+    "display_sentence": "The ambiance here is perfect for a date.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "social"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "portion size",
+    "sentence_en": "The ___ here is incredibly generous.",
+    "sentence_ko": "여기 양이 정말 푸짐해요.",
+    "meaning": "1인분의 양",
+    "tts_text": "The portion size here is incredibly generous.",
+    "display_sentence": "The portion size here is incredibly generous.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "impeccable service",
+    "sentence_en": "The staff provided ___.",
+    "sentence_ko": "직원들이 흠잡을 데 없는 서비스를 제공했어요.",
+    "meaning": "흠잡을 데 없는 서비스",
+    "tts_text": "The staff provided impeccable service.",
+    "display_sentence": "The staff provided impeccable service.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "service"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "prix fixe",
+    "sentence_en": "The restaurant offers a ___ menu on weekends.",
+    "sentence_ko": "그 레스토랑은 주말에 정찬 메뉴를 운영해요.",
+    "meaning": "정해진 가격의 코스 요리",
+    "tts_text": "The restaurant offers a prix fixe menu on weekends.",
+    "display_sentence": "The restaurant offers a prix fixe menu on weekends.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "went back for seconds",
+    "sentence_en": "The paella was so good I ___.",
+    "sentence_ko": "빠에야가 너무 맛있어서 한 번 더 덜어 먹었어요.",
+    "meaning": "한 번 더 먹으러 가다 (과거형)",
+    "tts_text": "The paella was so good I went back for seconds.",
+    "display_sentence": "The paella was so good I went back for seconds.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "slow-cooked",
+    "sentence_en": "The ___ pork belly was incredibly tender.",
+    "sentence_ko": "천천히 조린 삼겹살이 정말 부드러웠어요.",
+    "meaning": "천천히 조린, 저온 조리한",
+    "tts_text": "The slow-cooked pork belly was incredibly tender.",
+    "display_sentence": "The slow-cooked pork belly was incredibly tender.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bold flavors",
+    "sentence_en": "This Thai curry is full of ___.",
+    "sentence_ko": "이 태국 커리는 강렬한 풍미가 가득해요.",
+    "meaning": "강렬한 풍미",
+    "tts_text": "This Thai curry is full of bold flavors.",
+    "display_sentence": "This Thai curry is full of bold flavors.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "earmarked a table",
+    "sentence_en": "We ___ by the window for our anniversary.",
+    "sentence_ko": "기념일을 위해 창가 자리를 미리 잡아 뒀어요.",
+    "meaning": "특정 자리를 미리 지정하다 (과거형)",
+    "tts_text": "We earmarked a table by the window for our anniversary.",
+    "display_sentence": "We earmarked a table by the window for our anniversary.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "booking",
+      "special_occasion"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "couldn't fault",
+    "sentence_en": "I ___ a single thing about the meal.",
+    "sentence_ko": "식사에서 단 하나도 흠잡을 게 없었어요.",
+    "meaning": "전혀 흠잡을 수 없다 (과거형)",
+    "tts_text": "I couldn't fault a single thing about the meal.",
+    "display_sentence": "I couldn't fault a single thing about the meal.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "compliment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "make a night of it",
+    "sentence_en": "Since we're out anyway, let's ___.",
+    "sentence_ko": "어차피 나온 김에 저녁을 제대로 즐겨봐요.",
+    "meaning": "하룻밤을 제대로 즐기다",
+    "tts_text": "Since we're out anyway, let's make a night of it.",
+    "display_sentence": "Since we're out anyway, let's make a night of it.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "social",
+      "special_occasion"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "caters to",
+    "sentence_en": "This restaurant ___ all dietary needs.",
+    "sentence_ko": "이 레스토랑은 모든 식이 요구 사항에 맞춰 줘요.",
+    "meaning": "~의 요구를 충족시키다",
+    "tts_text": "This restaurant caters to all dietary needs.",
+    "display_sentence": "This restaurant caters to all dietary needs.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "dietary"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "pass on",
+    "sentence_en": "I'll ___ the fries; I'm watching my carbs.",
+    "sentence_ko": "탄수화물을 줄이는 중이라 감자튀김은 사양할게요.",
+    "meaning": "사양하다",
+    "tts_text": "I'll pass on the fries; I'm watching my carbs.",
+    "display_sentence": "I'll pass on the fries; I'm watching my carbs.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "dietary"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "umami",
+    "sentence_en": "This broth has a deep ___ flavor.",
+    "sentence_ko": "이 육수에서 깊은 감칠맛이 나요.",
+    "meaning": "감칠맛",
+    "tts_text": "This broth has a deep umami flavor.",
+    "display_sentence": "This broth has a deep umami flavor.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "turned a blind eye",
+    "sentence_en": "The manager ___ to the noisy table next to us.",
+    "sentence_ko": "매니저가 옆 테이블의 소란스러움을 못 본 척했어요.",
+    "meaning": "못 본 척하다 (과거형)",
+    "tts_text": "The manager turned a blind eye to the noisy table next to us.",
+    "display_sentence": "The manager turned a blind eye to the noisy table next to us.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "complaint"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "clean plate club",
+    "sentence_en": "I'm a proud member of the ___.",
+    "sentence_ko": "저는 음식을 남기지 않기로 유명해요.",
+    "meaning": "음식을 깨끗이 비우는 것",
+    "tts_text": "I'm a proud member of the clean plate club.",
+    "display_sentence": "I'm a proud member of the clean plate club.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "in its own right",
+    "sentence_en": "The side salad was a star dish ___.",
+    "sentence_ko": "그 사이드 샐러드는 그 자체로 훌륭한 요리였어요.",
+    "meaning": "그 자체로",
+    "tts_text": "The side salad was a star dish in its own right.",
+    "display_sentence": "The side salad was a star dish in its own right.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "compliment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bring to the table",
+    "sentence_en": "The new chef has a lot to ___.",
+    "sentence_ko": "새 셰프는 많은 것을 가져다줄 역량이 있어요.",
+    "meaning": "기여하다, 제공하다",
+    "tts_text": "The new chef has a lot to bring to the table.",
+    "display_sentence": "The new chef has a lot to bring to the table.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "compliment"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "off the menu",
+    "sentence_en": "The truffle pasta is ___ tonight.",
+    "sentence_ko": "오늘 밤은 트러플 파스타를 안 팔아요.",
+    "meaning": "메뉴에서 빠진",
+    "tts_text": "The truffle pasta is off the menu tonight.",
+    "display_sentence": "The truffle pasta is off the menu tonight.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "sourced locally",
+    "sentence_en": "All our produce is ___.",
+    "sentence_ko": "모든 식재료는 지역에서 조달해요.",
+    "meaning": "지역에서 조달된",
+    "tts_text": "All our produce is sourced locally.",
+    "display_sentence": "All our produce is sourced locally.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "my mouth water",
+    "sentence_en": "The description alone made ___.",
+    "sentence_ko": "설명만으로도 침이 고였어요.",
+    "meaning": "침이 고이다",
+    "tts_text": "The description alone made my mouth water.",
+    "display_sentence": "The description alone made my mouth water.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "al fresco",
+    "sentence_en": "We dined ___ on the terrace.",
+    "sentence_ko": "테라스에서 야외 식사를 했어요.",
+    "meaning": "야외에서",
+    "tts_text": "We dined al fresco on the terrace.",
+    "display_sentence": "We dined al fresco on the terrace.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "restaurant",
+      "dining"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "come highly recommended",
+    "sentence_en": "This place really does ___.",
+    "sentence_ko": "이 곳은 정말 강력하게 추천할 만해요.",
+    "meaning": "강력히 추천받다",
+    "tts_text": "This place really does come highly recommended.",
+    "display_sentence": "This place really does come highly recommended.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "social"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "fine dining",
+    "sentence_en": "That place is known for ___.",
+    "sentence_ko": "그 곳은 고급 레스토랑으로 유명해요.",
+    "meaning": "고급 식사",
+    "tts_text": "That place is known for fine dining.",
+    "display_sentence": "That place is known for fine dining.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "special_occasion"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "food for thought",
+    "sentence_en": "That dish gave me a lot of ___.",
+    "sentence_ko": "그 요리는 생각할 거리를 많이 줬어요.",
+    "meaning": "생각거리",
+    "tts_text": "That dish gave me a lot of food for thought.",
+    "display_sentence": "That dish gave me a lot of food for thought.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "table-hopping",
+    "sentence_en": "He spent the night ___ at the gala dinner.",
+    "sentence_ko": "그는 갈라 디너에서 이 테이블 저 테이블 다니며 인사했어요.",
+    "meaning": "여러 테이블을 돌아다니며 인사하기",
+    "tts_text": "He spent the night table-hopping at the gala dinner.",
+    "display_sentence": "He spent the night table-hopping at the gala dinner.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "social"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "chef's table",
+    "sentence_en": "We booked a spot at the ___.",
+    "sentence_ko": "셰프 테이블 자리를 예약했어요.",
+    "meaning": "주방 앞 특별석",
+    "tts_text": "We booked a spot at the chef's table.",
+    "display_sentence": "We booked a spot at the chef's table.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "special_occasion"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "back-to-back reservations",
+    "sentence_en": "We're running ___ tonight, so service may be quicker.",
+    "sentence_ko": "오늘 밤은 예약이 연속으로 잡혀 있어서 서비스가 빠를 수 있어요.",
+    "meaning": "연속으로 잡힌 예약",
+    "tts_text": "We're running back-to-back reservations tonight, so service may be quicker.",
+    "display_sentence": "We're running back-to-back reservations tonight, so service may be quicker.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "booking"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "deconstructed",
+    "sentence_en": "The ___ tiramisu was a work of art.",
+    "sentence_ko": "분해된 형식으로 재해석한 티라미수가 정말 예술이었어요.",
+    "meaning": "해체·재구성된 (요리 스타일)",
+    "tts_text": "The deconstructed tiramisu was a work of art.",
+    "display_sentence": "The deconstructed tiramisu was a work of art.",
+    "frequency": "low",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bring out the best in",
+    "sentence_en": "Good seasoning can ___ any ingredient.",
+    "sentence_ko": "좋은 양념은 어떤 재료의 장점도 살려줄 수 있어요.",
+    "meaning": "~의 최선을 이끌어 내다",
+    "tts_text": "Good seasoning can bring out the best in any ingredient.",
+    "display_sentence": "Good seasoning can bring out the best in any ingredient.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "farm to table",
+    "sentence_en": "The restaurant prides itself on being ___.",
+    "sentence_ko": "그 레스토랑은 팜 투 테이블 방식을 자랑으로 여겨요.",
+    "meaning": "농장에서 식탁까지 직접 공급하는",
+    "tts_text": "The restaurant prides itself on being farm to table.",
+    "display_sentence": "The restaurant prides itself on being farm to table.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "food miles",
+    "sentence_en": "They keep ___ low by sourcing locally.",
+    "sentence_ko": "지역 재료를 써서 식자재 이동 거리를 최소화해요.",
+    "meaning": "식자재가 이동한 거리 (환경 개념)",
+    "tts_text": "They keep food miles low by sourcing locally.",
+    "display_sentence": "They keep food miles low by sourcing locally.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "complain to the manager",
+    "sentence_en": "If the issue isn't resolved, you may want to ___.",
+    "sentence_ko": "문제가 해결이 안 되면 매니저에게 이야기하는 게 좋을 것 같아요.",
+    "meaning": "매니저에게 항의하다",
+    "tts_text": "If the issue isn't resolved, you may want to complain to the manager.",
+    "display_sentence": "If the issue isn't resolved, you may want to complain to the manager.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "complaint"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "went viral",
+    "sentence_en": "This dumpling shop ___ on social media last month.",
+    "sentence_ko": "이 만두 가게가 지난달 소셜 미디어에서 엄청 유명해졌어요.",
+    "meaning": "입소문을 타다, 바이럴 되다 (과거형)",
+    "tts_text": "This dumpling shop went viral on social media last month.",
+    "display_sentence": "This dumpling shop went viral on social media last month.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "restaurant",
+      "social"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "cheat day",
+    "sentence_en": "It's my ___, so I'm ordering the double burger.",
+    "sentence_ko": "오늘은 치팅데이라 더블 버거 시킬게요.",
+    "meaning": "식이 규칙을 잠깐 어기는 날",
+    "tts_text": "It's my cheat day, so I'm ordering the double burger.",
+    "display_sentence": "It's my cheat day, so I'm ordering the double burger.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "dietary"
+    ]
+  },
+  {
+    "category": "restaurant",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "nose-to-tail",
+    "sentence_en": "The chef practices ___ cooking to reduce waste.",
+    "sentence_ko": "셰프는 낭비를 줄이기 위해 전체 식재료를 활용하는 요리를 해요.",
+    "meaning": "식재료 전체를 활용하는",
+    "tts_text": "The chef practices nose-to-tail cooking to reduce waste.",
+    "display_sentence": "The chef practices nose-to-tail cooking to reduce waste.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "food"
+    ]
+  }
+]
