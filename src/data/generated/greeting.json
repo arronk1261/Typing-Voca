@@ -1,0 +1,3706 @@
+[
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "How",
+    "sentence_en": "___ are you doing today?",
+    "sentence_ko": "오늘 어떻게 지내세요?",
+    "meaning": "어떻게",
+    "tts_text": "How are you doing today?",
+    "display_sentence": "How are you doing today?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "meet",
+    "sentence_en": "Nice to ___ you.",
+    "sentence_ko": "만나서 반가워요.",
+    "meaning": "만나다",
+    "tts_text": "Nice to meet you.",
+    "display_sentence": "Nice to meet you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "introduction"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "name",
+    "sentence_en": "My ___ is Daniel.",
+    "sentence_ko": "제 이름은 다니엘이에요.",
+    "meaning": "이름",
+    "tts_text": "My name is Daniel.",
+    "display_sentence": "My name is Daniel.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "introduction",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "from",
+    "sentence_en": "Where are you ___?",
+    "sentence_ko": "어디서 오셨어요?",
+    "meaning": "~에서, 출신",
+    "tts_text": "Where are you from?",
+    "display_sentence": "Where are you from?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "introduction",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "fine",
+    "sentence_en": "I'm ___, thanks.",
+    "sentence_ko": "전 괜찮아요, 고마워요.",
+    "meaning": "괜찮은",
+    "tts_text": "I'm fine, thanks.",
+    "display_sentence": "I'm fine, thanks.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "greeting",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "later",
+    "sentence_en": "See you ___.",
+    "sentence_ko": "나중에 봐요.",
+    "meaning": "나중에",
+    "tts_text": "See you later.",
+    "display_sentence": "See you later.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "weekend",
+    "sentence_en": "How was your ___?",
+    "sentence_ko": "주말 어떻게 보냈어요?",
+    "meaning": "주말",
+    "tts_text": "How was your weekend?",
+    "display_sentence": "How was your weekend?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "smalltalk",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "morning",
+    "sentence_en": "Good ___, everyone.",
+    "sentence_ko": "모두들 좋은 아침이에요.",
+    "meaning": "아침",
+    "tts_text": "Good morning, everyone.",
+    "display_sentence": "Good morning, everyone.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "greeting",
+      "workplace"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "again",
+    "sentence_en": "It's nice to see you ___.",
+    "sentence_ko": "다시 만나서 반가워요.",
+    "meaning": "다시",
+    "tts_text": "It's nice to see you again.",
+    "display_sentence": "It's nice to see you again.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "reunion"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "too",
+    "sentence_en": "Nice to meet you ___.",
+    "sentence_ko": "저도 만나서 반가워요.",
+    "meaning": "~도",
+    "tts_text": "Nice to meet you too.",
+    "display_sentence": "Nice to meet you too.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "introduction"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "day",
+    "sentence_en": "Have a great ___!",
+    "sentence_ko": "좋은 하루 보내세요!",
+    "meaning": "날, 하루",
+    "tts_text": "Have a great day!",
+    "display_sentence": "Have a great day!",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "long",
+    "sentence_en": "It's been a ___ time.",
+    "sentence_ko": "오랜만이에요.",
+    "meaning": "(시간이) 긴",
+    "tts_text": "It's been a long time.",
+    "display_sentence": "It's been a long time.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "reunion",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "doing",
+    "sentence_en": "What are you ___ these days?",
+    "sentence_ko": "요즘 뭐 하고 지내세요?",
+    "meaning": "하고 있는",
+    "tts_text": "What are you doing these days?",
+    "display_sentence": "What are you doing these days?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "smalltalk",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "good",
+    "sentence_en": "Have a ___ night.",
+    "sentence_ko": "좋은 밤 보내세요.",
+    "meaning": "좋은",
+    "tts_text": "Have a good night.",
+    "display_sentence": "Have a good night.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "bye",
+    "sentence_en": "I have to go now, ___.",
+    "sentence_ko": "이제 가봐야 해요, 안녕.",
+    "meaning": "안녕(작별)",
+    "tts_text": "I have to go now, bye.",
+    "display_sentence": "I have to go now, bye.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "farewell",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "introduce",
+    "sentence_en": "Let me ___ myself.",
+    "sentence_ko": "제 소개를 할게요.",
+    "meaning": "소개하다",
+    "tts_text": "Let me introduce myself.",
+    "display_sentence": "Let me introduce myself.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "introduction",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "call",
+    "sentence_en": "You can ___ me Dan.",
+    "sentence_ko": "댄이라고 부르셔도 돼요.",
+    "meaning": "부르다",
+    "tts_text": "You can call me Dan.",
+    "display_sentence": "You can call me Dan.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "introduction",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "here",
+    "sentence_en": "I'm new ___.",
+    "sentence_ko": "전 여기 처음이에요.",
+    "meaning": "여기",
+    "tts_text": "I'm new here.",
+    "display_sentence": "I'm new here.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "introduction",
+      "workplace"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "yourself",
+    "sentence_en": "Take care of ___.",
+    "sentence_ko": "몸 잘 챙기세요.",
+    "meaning": "당신 자신",
+    "tts_text": "Take care of yourself.",
+    "display_sentence": "Take care of yourself.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "farewell",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "everyone",
+    "sentence_en": "Hi ___, I'm Mina.",
+    "sentence_ko": "안녕하세요 여러분, 저는 미나예요.",
+    "meaning": "모두",
+    "tts_text": "Hi everyone, I'm Mina.",
+    "display_sentence": "Hi everyone, I'm Mina.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "introduction",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "see",
+    "sentence_en": "Hope to ___ you soon.",
+    "sentence_ko": "곧 또 봐요.",
+    "meaning": "보다",
+    "tts_text": "Hope to see you soon.",
+    "display_sentence": "Hope to see you soon.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "nice",
+    "sentence_en": "Have a ___ trip.",
+    "sentence_ko": "즐거운 여행 되세요.",
+    "meaning": "즐거운, 좋은",
+    "tts_text": "Have a nice trip.",
+    "display_sentence": "Have a nice trip.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell",
+      "travel"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sorry",
+    "sentence_en": "I'm ___ I'm late.",
+    "sentence_ko": "늦어서 죄송해요.",
+    "meaning": "미안한",
+    "tts_text": "I'm sorry I'm late.",
+    "display_sentence": "I'm sorry I'm late.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "greeting",
+      "workplace"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "pleasure",
+    "sentence_en": "It's a ___ to meet you.",
+    "sentence_ko": "만나 뵙게 되어 영광입니다.",
+    "meaning": "기쁨, 영광",
+    "tts_text": "It's a pleasure to meet you.",
+    "display_sentence": "It's a pleasure to meet you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "introduction",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "happy",
+    "sentence_en": "I'm ___ to be here.",
+    "sentence_ko": "여기 오게 되어 기뻐요.",
+    "meaning": "기쁜",
+    "tts_text": "I'm happy to be here.",
+    "display_sentence": "I'm happy to be here.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "introduction"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "busy",
+    "sentence_en": "Have you been ___?",
+    "sentence_ko": "바빴어요?",
+    "meaning": "바쁜",
+    "tts_text": "Have you been busy?",
+    "display_sentence": "Have you been busy?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "smalltalk",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "weather",
+    "sentence_en": "The ___ is really nice today.",
+    "sentence_ko": "오늘 날씨가 정말 좋네요.",
+    "meaning": "날씨",
+    "tts_text": "The weather is really nice today.",
+    "display_sentence": "The weather is really nice today.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "smalltalk",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "work",
+    "sentence_en": "How's ___ going?",
+    "sentence_ko": "일은 어떻게 돼 가요?",
+    "meaning": "일, 직장",
+    "tts_text": "How's work going?",
+    "display_sentence": "How's work going?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "smalltalk",
+      "workplace"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "soon",
+    "sentence_en": "Talk to you ___.",
+    "sentence_ko": "곧 또 얘기해요.",
+    "meaning": "곧",
+    "tts_text": "Talk to you soon.",
+    "display_sentence": "Talk to you soon.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "holiday",
+    "sentence_en": "Did you enjoy the ___?",
+    "sentence_ko": "휴가 즐겁게 보냈어요?",
+    "meaning": "휴일, 휴가",
+    "tts_text": "Did you enjoy the holiday?",
+    "display_sentence": "Did you enjoy the holiday?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "smalltalk",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "afternoon",
+    "sentence_en": "Good ___, everyone.",
+    "sentence_ko": "모두들 좋은 오후예요.",
+    "meaning": "오후",
+    "tts_text": "Good afternoon, everyone.",
+    "display_sentence": "Good afternoon, everyone.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "greeting",
+      "workplace"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "evening",
+    "sentence_en": "Good ___, how was your day?",
+    "sentence_ko": "안녕하세요, 하루 어떠셨어요?",
+    "meaning": "저녁",
+    "tts_text": "Good evening, how was your day?",
+    "display_sentence": "Good evening, how was your day?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "greeting",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "back",
+    "sentence_en": "Welcome ___ from your trip.",
+    "sentence_ko": "여행에서 돌아온 걸 환영해요.",
+    "meaning": "돌아온",
+    "tts_text": "Welcome back from your trip.",
+    "display_sentence": "Welcome back from your trip.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "reunion"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "glad",
+    "sentence_en": "I'm ___ you're here.",
+    "sentence_ko": "와 주셔서 기뻐요.",
+    "meaning": "기쁜",
+    "tts_text": "I'm glad you're here.",
+    "display_sentence": "I'm glad you're here.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "remember",
+    "sentence_en": "Do you ___ me?",
+    "sentence_ko": "저 기억하세요?",
+    "meaning": "기억하다",
+    "tts_text": "Do you remember me?",
+    "display_sentence": "Do you remember me?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "reunion",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "missed",
+    "sentence_en": "I've ___ you so much.",
+    "sentence_ko": "많이 보고 싶었어요.",
+    "meaning": "그리워하다(과거)",
+    "tts_text": "I've missed you so much.",
+    "display_sentence": "I've missed you so much.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "reunion",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "well",
+    "sentence_en": "I hope you're doing ___.",
+    "sentence_ko": "잘 지내고 계시길 바라요.",
+    "meaning": "잘",
+    "tts_text": "I hope you're doing well.",
+    "display_sentence": "I hope you're doing well.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "together",
+    "sentence_en": "It's great to be ___ again.",
+    "sentence_ko": "다시 함께해서 좋아요.",
+    "meaning": "함께",
+    "tts_text": "It's great to be together again.",
+    "display_sentence": "It's great to be together again.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "reunion",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "today",
+    "sentence_en": "How are you feeling ___?",
+    "sentence_ko": "오늘 기분이 어때요?",
+    "meaning": "오늘",
+    "tts_text": "How are you feeling today?",
+    "display_sentence": "How are you feeling today?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "been",
+    "sentence_en": "How have you ___?",
+    "sentence_ko": "어떻게 지내셨어요?",
+    "meaning": "지내다(과거)",
+    "tts_text": "How have you been?",
+    "display_sentence": "How have you been?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "reunion"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "mind",
+    "sentence_en": "Do you ___ if I sit here?",
+    "sentence_ko": "여기 앉아도 될까요?",
+    "meaning": "꺼리다",
+    "tts_text": "Do you mind if I sit here?",
+    "display_sentence": "Do you mind if I sit here?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "smalltalk",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "pardon",
+    "sentence_en": "I beg your ___?",
+    "sentence_ko": "죄송한데 다시 말씀해 주시겠어요?",
+    "meaning": "실례합니다, 다시 말해 주세요",
+    "tts_text": "I beg your pardon?",
+    "display_sentence": "I beg your pardon?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "greeting",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "family",
+    "sentence_en": "How's the ___?",
+    "sentence_ko": "가족들은 어때요?",
+    "meaning": "가족",
+    "tts_text": "How's the family?",
+    "display_sentence": "How's the family?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "smalltalk",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "colleague",
+    "sentence_en": "Let me introduce my ___.",
+    "sentence_ko": "제 동료를 소개할게요.",
+    "meaning": "동료",
+    "tts_text": "Let me introduce my colleague.",
+    "display_sentence": "Let me introduce my colleague.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "introduction",
+      "workplace"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "first",
+    "sentence_en": "Is this your ___ time here?",
+    "sentence_ko": "여기 처음 오셨어요?",
+    "meaning": "처음",
+    "tts_text": "Is this your first time here?",
+    "display_sentence": "Is this your first time here?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "smalltalk",
+      "introduction"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "while",
+    "sentence_en": "It's been a ___.",
+    "sentence_ko": "오랜만이에요.",
+    "meaning": "한동안",
+    "tts_text": "It's been a while.",
+    "display_sentence": "It's been a while.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "reunion",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "wonderful",
+    "sentence_en": "It's ___ to see you.",
+    "sentence_ko": "뵙게 되어 정말 좋아요.",
+    "meaning": "훌륭한, 멋진",
+    "tts_text": "It's wonderful to see you.",
+    "display_sentence": "It's wonderful to see you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "greeting",
+      "reunion"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "free",
+    "sentence_en": "Are you ___ this weekend?",
+    "sentence_ko": "이번 주말에 시간 있어요?",
+    "meaning": "한가한, 자유로운",
+    "tts_text": "Are you free this weekend?",
+    "display_sentence": "Are you free this weekend?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "smalltalk",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hungry",
+    "sentence_en": "Are you ___? Let's grab something.",
+    "sentence_ko": "배고프세요? 뭐라도 먹어요.",
+    "meaning": "배고픈",
+    "tts_text": "Are you hungry? Let's grab something.",
+    "display_sentence": "Are you hungry? Let's grab something.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "smalltalk",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "take",
+    "sentence_en": "Please ___ a seat.",
+    "sentence_ko": "앉으세요.",
+    "meaning": "잡다, 앉다",
+    "tts_text": "Please take a seat.",
+    "display_sentence": "Please take a seat.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "workplace"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "right",
+    "sentence_en": "I'll be ___ back.",
+    "sentence_ko": "금방 돌아올게요.",
+    "meaning": "바로",
+    "tts_text": "I'll be right back.",
+    "display_sentence": "I'll be right back.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "everything",
+    "sentence_en": "Is ___ okay?",
+    "sentence_ko": "다 괜찮아요?",
+    "meaning": "모든 것",
+    "tts_text": "Is everything okay?",
+    "display_sentence": "Is everything okay?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "greeting",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "last",
+    "sentence_en": "When did we ___ see each other?",
+    "sentence_ko": "우리가 마지막으로 만난 게 언제였죠?",
+    "meaning": "마지막으로",
+    "tts_text": "When did we last see each other?",
+    "display_sentence": "When did we last see each other?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "reunion",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "smile",
+    "sentence_en": "You have such a warm ___.",
+    "sentence_ko": "참 따뜻한 미소를 갖고 계시네요.",
+    "meaning": "미소",
+    "tts_text": "You have such a warm smile.",
+    "display_sentence": "You have such a warm smile.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "smalltalk",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "lucky",
+    "sentence_en": "I'm ___ to be working with you.",
+    "sentence_ko": "함께 일하게 되어 운이 좋아요.",
+    "meaning": "운이 좋은",
+    "tts_text": "I'm lucky to be working with you.",
+    "display_sentence": "I'm lucky to be working with you.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "introduction",
+      "workplace"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "around",
+    "sentence_en": "We should hang ___ sometime.",
+    "sentence_ko": "언제 한번 같이 놀아요.",
+    "meaning": "근처에, 함께",
+    "tts_text": "We should hang around sometime.",
+    "display_sentence": "We should hang around sometime.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "social",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "time",
+    "sentence_en": "Next ___, let's grab coffee.",
+    "sentence_ko": "다음에 커피 마셔요.",
+    "meaning": "시간, 번",
+    "tts_text": "Next time, let's grab coffee.",
+    "display_sentence": "Next time, let's grab coffee.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "catch up",
+    "sentence_en": "Let's ___ over coffee sometime.",
+    "sentence_ko": "언제 커피 마시면서 얘기 좀 해요.",
+    "meaning": "근황을 나누다",
+    "tts_text": "Let's catch up over coffee sometime.",
+    "display_sentence": "Let's catch up over coffee sometime.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "reunion",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "been up to",
+    "sentence_en": "What have you ___ lately?",
+    "sentence_ko": "요즘 뭐 하고 지냈어요?",
+    "meaning": "~하며 지내다",
+    "tts_text": "What have you been up to lately?",
+    "display_sentence": "What have you been up to lately?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "small talk",
+    "sentence_en": "I'm not great at ___ with strangers.",
+    "sentence_ko": "전 낯선 사람과 잡담하는 걸 잘 못해요.",
+    "meaning": "잡담",
+    "tts_text": "I'm not great at small talk with strangers.",
+    "display_sentence": "I'm not great at small talk with strangers.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "smalltalk",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "run into",
+    "sentence_en": "I happened to ___ an old friend yesterday.",
+    "sentence_ko": "어제 우연히 옛 친구를 마주쳤어요.",
+    "meaning": "우연히 마주치다",
+    "tts_text": "I happened to run into an old friend yesterday.",
+    "display_sentence": "I happened to run into an old friend yesterday.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "reunion",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "keep in touch",
+    "sentence_en": "Let's ___ after the trip.",
+    "sentence_ko": "여행 끝나고도 연락하고 지내요.",
+    "meaning": "연락하고 지내다",
+    "tts_text": "Let's keep in touch after the trip.",
+    "display_sentence": "Let's keep in touch after the trip.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "How come",
+    "sentence_en": "___ you didn't call me back?",
+    "sentence_ko": "왜 답신 전화를 안 했어요?",
+    "meaning": "왜, 어째서",
+    "tts_text": "How come you didn't call me back?",
+    "display_sentence": "How come you didn't call me back?",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get to know",
+    "sentence_en": "I'd love to ___ you better.",
+    "sentence_ko": "당신을 더 잘 알고 싶어요.",
+    "meaning": "알아가다",
+    "tts_text": "I'd love to get to know you better.",
+    "display_sentence": "I'd love to get to know you better.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "introduction",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "showing up",
+    "sentence_en": "Thanks for ___ on such short notice.",
+    "sentence_ko": "급한데도 와 줘서 고마워요.",
+    "meaning": "나타나다, 오다",
+    "tts_text": "Thanks for showing up on such short notice.",
+    "display_sentence": "Thanks for showing up on such short notice.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "workplace"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "drop by",
+    "sentence_en": "Feel free to ___ whenever you're nearby.",
+    "sentence_ko": "근처 오면 언제든 들르세요.",
+    "meaning": "잠깐 들르다",
+    "tts_text": "Feel free to drop by whenever you're nearby.",
+    "display_sentence": "Feel free to drop by whenever you're nearby.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "look forward to",
+    "sentence_en": "I ___ meeting you in person.",
+    "sentence_ko": "직접 만나 뵙기를 고대하고 있어요.",
+    "meaning": "고대하다",
+    "tts_text": "I look forward to meeting you in person.",
+    "display_sentence": "I look forward to meeting you in person.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "introduction",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "stop by",
+    "sentence_en": "Why don't you ___ for a coffee?",
+    "sentence_ko": "커피 한잔하러 들르지 그래요?",
+    "meaning": "잠깐 들르다",
+    "tts_text": "Why don't you stop by for a coffee?",
+    "display_sentence": "Why don't you stop by for a coffee?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "settled in",
+    "sentence_en": "Have you ___ to the new city yet?",
+    "sentence_ko": "새 도시에 적응했어요?",
+    "meaning": "적응하다",
+    "tts_text": "Have you settled in to the new city yet?",
+    "display_sentence": "Have you settled in to the new city yet?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "how's it going",
+    "sentence_en": "Hey, ___ with the new job?",
+    "sentence_ko": "새 직장은 어때요?",
+    "meaning": "어떻게 지내요",
+    "tts_text": "Hey, how's it going with the new job?",
+    "display_sentence": "Hey, how's it going with the new job?",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "workplace"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "make it",
+    "sentence_en": "I'm glad you could ___ today.",
+    "sentence_ko": "오늘 와 주셔서 기뻐요.",
+    "meaning": "올 수 있다, 해내다",
+    "tts_text": "I'm glad you could make it today.",
+    "display_sentence": "I'm glad you could make it today.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "good to see",
+    "sentence_en": "It's ___ you again.",
+    "sentence_ko": "다시 만나서 반가워요.",
+    "meaning": "만나서 반가운",
+    "tts_text": "It's good to see you again.",
+    "display_sentence": "It's good to see you again.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "reunion"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a long time",
+    "sentence_en": "I haven't seen you in ___.",
+    "sentence_ko": "오랫동안 못 봤네요.",
+    "meaning": "오랜 시간",
+    "tts_text": "I haven't seen you in a long time.",
+    "display_sentence": "I haven't seen you in a long time.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "reunion",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "getting along",
+    "sentence_en": "How are you ___ with the team?",
+    "sentence_ko": "팀이랑은 잘 지내요?",
+    "meaning": "잘 지내다",
+    "tts_text": "How are you getting along with the team?",
+    "display_sentence": "How are you getting along with the team?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "workplace",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "touch base",
+    "sentence_en": "Let's ___ before the meeting.",
+    "sentence_ko": "회의 전에 잠깐 얘기해요.",
+    "meaning": "간단히 연락하다",
+    "tts_text": "Let's touch base before the meeting.",
+    "display_sentence": "Let's touch base before the meeting.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "workplace",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "up for",
+    "sentence_en": "Are you ___ grabbing lunch?",
+    "sentence_ko": "점심 먹을 생각 있어요?",
+    "meaning": "~할 마음이 있는",
+    "tts_text": "Are you up for grabbing lunch?",
+    "display_sentence": "Are you up for grabbing lunch?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "smalltalk",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "on my way",
+    "sentence_en": "I'm ___, see you soon.",
+    "sentence_ko": "가는 중이에요, 곧 봐요.",
+    "meaning": "가는 중인",
+    "tts_text": "I'm on my way, see you soon.",
+    "display_sentence": "I'm on my way, see you soon.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "checking in",
+    "sentence_en": "Just ___ to see how you're doing.",
+    "sentence_ko": "그냥 어떻게 지내시나 확인하러요.",
+    "meaning": "안부 확인하다",
+    "tts_text": "Just checking in to see how you're doing.",
+    "display_sentence": "Just checking in to see how you're doing.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "fit in",
+    "sentence_en": "Are you starting to ___ with the group?",
+    "sentence_ko": "그룹에 어울리기 시작했어요?",
+    "meaning": "어울리다, 적응하다",
+    "tts_text": "Are you starting to fit in with the group?",
+    "display_sentence": "Are you starting to fit in with the group?",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "social",
+      "introduction"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "reach out",
+    "sentence_en": "Don't hesitate to ___ anytime.",
+    "sentence_ko": "언제든 연락 주저하지 마세요.",
+    "meaning": "연락하다",
+    "tts_text": "Don't hesitate to reach out anytime.",
+    "display_sentence": "Don't hesitate to reach out anytime.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get together",
+    "sentence_en": "We should ___ more often.",
+    "sentence_ko": "더 자주 만나야 해요.",
+    "meaning": "모이다, 만나다",
+    "tts_text": "We should get together more often.",
+    "display_sentence": "We should get together more often.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "social",
+      "reunion"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "nice to finally",
+    "sentence_en": "It's ___ meet you in person.",
+    "sentence_ko": "드디어 직접 만나게 되어 반가워요.",
+    "meaning": "드디어 만나서 반가운",
+    "tts_text": "It's nice to finally meet you in person.",
+    "display_sentence": "It's nice to finally meet you in person.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "introduction",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "on your end",
+    "sentence_en": "How are things ___?",
+    "sentence_ko": "그쪽은 어떻게 지내요?",
+    "meaning": "당신 쪽에서는",
+    "tts_text": "How are things on your end?",
+    "display_sentence": "How are things on your end?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "smalltalk",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "give my regards",
+    "sentence_en": "Please ___ to your family.",
+    "sentence_ko": "가족분들께 안부 전해 주세요.",
+    "meaning": "안부를 전하다",
+    "tts_text": "Please give my regards to your family.",
+    "display_sentence": "Please give my regards to your family.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pleased to meet",
+    "sentence_en": "I'm ___ you.",
+    "sentence_ko": "만나 뵙게 되어 기쁩니다.",
+    "meaning": "만나서 기쁜",
+    "tts_text": "I'm pleased to meet you.",
+    "display_sentence": "I'm pleased to meet you.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "introduction",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "heard so much about",
+    "sentence_en": "I've ___ you.",
+    "sentence_ko": "말씀 많이 들었어요.",
+    "meaning": "~에 대해 많이 듣다",
+    "tts_text": "I've heard so much about you.",
+    "display_sentence": "I've heard so much about you.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "introduction",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "been meaning to",
+    "sentence_en": "I've ___ call you.",
+    "sentence_ko": "전화하려고 했었어요.",
+    "meaning": "~하려고 했었다",
+    "tts_text": "I've been meaning to call you.",
+    "display_sentence": "I've been meaning to call you.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "reunion"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "going on",
+    "sentence_en": "What's ___ with you these days?",
+    "sentence_ko": "요즘 어떻게 지내세요?",
+    "meaning": "일어나다, 진행되다",
+    "tts_text": "What's going on with you these days?",
+    "display_sentence": "What's going on with you these days?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "in ages",
+    "sentence_en": "We haven't spoken ___.",
+    "sentence_ko": "정말 오랫동안 얘기를 못 했네요.",
+    "meaning": "아주 오랫동안",
+    "tts_text": "We haven't spoken in ages.",
+    "display_sentence": "We haven't spoken in ages.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "reunion",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "stick around",
+    "sentence_en": "Can you ___ for a bit?",
+    "sentence_ko": "잠깐만 더 있어 줄 수 있어요?",
+    "meaning": "잠시 머물다",
+    "tts_text": "Can you stick around for a bit?",
+    "display_sentence": "Can you stick around for a bit?",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "social",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "cross paths",
+    "sentence_en": "I hope we ___ again soon.",
+    "sentence_ko": "다시 만나게 되기를 바라요.",
+    "meaning": "마주치다, 우연히 만나다",
+    "tts_text": "I hope we cross paths again soon.",
+    "display_sentence": "I hope we cross paths again soon.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell",
+      "reunion"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "in good hands",
+    "sentence_en": "Don't worry, you're ___.",
+    "sentence_ko": "걱정 마세요, 잘 돌봐 드릴게요.",
+    "meaning": "잘 보살펴지는",
+    "tts_text": "Don't worry, you're in good hands.",
+    "display_sentence": "Don't worry, you're in good hands.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "greeting",
+      "workplace"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "show you around",
+    "sentence_en": "Let me ___ the office.",
+    "sentence_ko": "사무실 구경시켜 드릴게요.",
+    "meaning": "안내하다, 구경시켜 주다",
+    "tts_text": "Let me show you around the office.",
+    "display_sentence": "Let me show you around the office.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "introduction",
+      "workplace"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "familiar with",
+    "sentence_en": "Are you ___ this area?",
+    "sentence_ko": "이 지역 잘 아세요?",
+    "meaning": "~에 익숙한",
+    "tts_text": "Are you familiar with this area?",
+    "display_sentence": "Are you familiar with this area?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "smalltalk",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "talk you through",
+    "sentence_en": "Let me ___ the process.",
+    "sentence_ko": "과정을 하나씩 설명해 드릴게요.",
+    "meaning": "하나씩 설명해 주다",
+    "tts_text": "Let me talk you through the process.",
+    "display_sentence": "Let me talk you through the process.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "workplace",
+      "introduction"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "looking good",
+    "sentence_en": "Hey, you're ___!",
+    "sentence_ko": "이야, 좋아 보이는데요!",
+    "meaning": "잘 지내 보이다, 좋아 보이다",
+    "tts_text": "Hey, you're looking good!",
+    "display_sentence": "Hey, you're looking good!",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "smalltalk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "no stranger to",
+    "sentence_en": "He's ___ public speaking.",
+    "sentence_ko": "그는 발표에 익숙한 사람이에요.",
+    "meaning": "~에 익숙하다",
+    "tts_text": "He's no stranger to public speaking.",
+    "display_sentence": "He's no stranger to public speaking.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "introduction",
+      "workplace"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "break the ice",
+    "sentence_en": "He told a joke to ___ at the meeting.",
+    "sentence_ko": "그는 회의에서 어색함을 깨려고 농담을 했어요.",
+    "meaning": "어색함을 깨다",
+    "tts_text": "He told a joke to break the ice at the meeting.",
+    "display_sentence": "He told a joke to break the ice at the meeting.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "out of the blue",
+    "sentence_en": "She called me ___ after ten years.",
+    "sentence_ko": "그녀가 10년 만에 갑자기 전화했어요.",
+    "meaning": "난데없이",
+    "tts_text": "She called me out of the blue after ten years.",
+    "display_sentence": "She called me out of the blue after ten years.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "reunion",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "long time no see",
+    "sentence_en": "Well, ___! You haven't changed a bit.",
+    "sentence_ko": "오랜만이에요! 하나도 안 변하셨네요.",
+    "meaning": "오랜만이에요",
+    "tts_text": "Well, long time no see! You haven't changed a bit.",
+    "display_sentence": "Well, long time no see! You haven't changed a bit.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "reunion",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "caught me off guard",
+    "sentence_en": "Your question ___.",
+    "sentence_ko": "당신 질문에 제가 허를 찔렸어요.",
+    "meaning": "허를 찌르다",
+    "tts_text": "Your question caught me off guard.",
+    "display_sentence": "Your question caught me off guard.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "smalltalk",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "hit it off",
+    "sentence_en": "We ___ right away at the party.",
+    "sentence_ko": "우리는 파티에서 바로 죽이 잘 맞았어요.",
+    "meaning": "금세 친해지다",
+    "tts_text": "We hit it off right away at the party.",
+    "display_sentence": "We hit it off right away at the party.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "make small talk",
+    "sentence_en": "I tried to ___ while we waited.",
+    "sentence_ko": "기다리는 동안 가벼운 대화를 나누려 했어요.",
+    "meaning": "잡담을 나누다",
+    "tts_text": "I tried to make small talk while we waited.",
+    "display_sentence": "I tried to make small talk while we waited.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "smalltalk",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on the same page",
+    "sentence_en": "I want to make sure we're ___.",
+    "sentence_ko": "우리가 같은 생각인지 확인하고 싶어요.",
+    "meaning": "같은 생각인",
+    "tts_text": "I want to make sure we're on the same page.",
+    "display_sentence": "I want to make sure we're on the same page.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "workplace",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "struck up",
+    "sentence_en": "They ___ a conversation on the train.",
+    "sentence_ko": "그들은 기차에서 대화를 시작했어요.",
+    "meaning": "(대화를) 시작하다(과거)",
+    "tts_text": "They struck up a conversation on the train.",
+    "display_sentence": "They struck up a conversation on the train.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "social",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "warm up to",
+    "sentence_en": "It took her a while to ___ me.",
+    "sentence_ko": "그녀가 제게 마음을 여는 데 시간이 좀 걸렸어요.",
+    "meaning": "마음을 열다",
+    "tts_text": "It took her a while to warm up to me.",
+    "display_sentence": "It took her a while to warm up to me.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "clear the air",
+    "sentence_en": "Let's meet and ___ between us.",
+    "sentence_ko": "만나서 오해를 풀어요.",
+    "meaning": "오해를 풀다",
+    "tts_text": "Let's meet and clear the air between us.",
+    "display_sentence": "Let's meet and clear the air between us.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on a first-name basis",
+    "sentence_en": "We're already ___.",
+    "sentence_ko": "우리는 벌써 편하게 이름 부르는 사이예요.",
+    "meaning": "이름 부르는 사이인",
+    "tts_text": "We're already on a first-name basis.",
+    "display_sentence": "We're already on a first-name basis.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "introduction",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "put everyone at ease",
+    "sentence_en": "Her smile helped ___ in the room.",
+    "sentence_ko": "그녀의 미소가 방 안 모두를 편안하게 했어요.",
+    "meaning": "모두를 편안하게 하다",
+    "tts_text": "Her smile helped put everyone at ease in the room.",
+    "display_sentence": "Her smile helped put everyone at ease in the room.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "social",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a familiar face",
+    "sentence_en": "It's nice to see ___ around here.",
+    "sentence_ko": "여기서 낯익은 얼굴을 보니 반갑네요.",
+    "meaning": "낯익은 얼굴",
+    "tts_text": "It's nice to see a familiar face around here.",
+    "display_sentence": "It's nice to see a familiar face around here.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "reunion",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get the ball rolling",
+    "sentence_en": "Let's ___ with introductions.",
+    "sentence_ko": "소개부터 시작해 봅시다.",
+    "meaning": "일을 시작하다",
+    "tts_text": "Let's get the ball rolling with introductions.",
+    "display_sentence": "Let's get the ball rolling with introductions.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "greeting",
+      "workplace"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "mutual friend",
+    "sentence_en": "We met through a ___.",
+    "sentence_ko": "우리는 공통의 친구를 통해 만났어요.",
+    "meaning": "서로 아는 친구",
+    "tts_text": "We met through a mutual friend.",
+    "display_sentence": "We met through a mutual friend.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "introduction",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "hit the ground running",
+    "sentence_en": "She joined the team and ___.",
+    "sentence_ko": "그녀는 팀에 합류하자마자 곧장 활약했어요.",
+    "meaning": "곧바로 활발히 시작하다",
+    "tts_text": "She joined the team and hit the ground running.",
+    "display_sentence": "She joined the team and hit the ground running.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "workplace",
+      "introduction"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "catch my eye",
+    "sentence_en": "She tried to ___ across the room.",
+    "sentence_ko": "그녀는 방 건너편에서 눈길을 끌려 했어요.",
+    "meaning": "눈길을 끌다",
+    "tts_text": "She tried to catch my eye across the room.",
+    "display_sentence": "She tried to catch my eye across the room.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "made the rounds",
+    "sentence_en": "He ___ to greet every guest.",
+    "sentence_ko": "그는 손님 모두에게 인사하러 돌아다녔어요.",
+    "meaning": "두루 돌아다니다",
+    "tts_text": "He made the rounds to greet every guest.",
+    "display_sentence": "He made the rounds to greet every guest.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "social",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a word with",
+    "sentence_en": "Could I have ___ you?",
+    "sentence_ko": "잠깐 얘기 좀 할 수 있을까요?",
+    "meaning": "~와 잠깐 이야기",
+    "tts_text": "Could I have a word with you?",
+    "display_sentence": "Could I have a word with you?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "workplace",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "put a face to the name",
+    "sentence_en": "It's great to finally ___.",
+    "sentence_ko": "이름만 알다가 직접 뵈니 정말 좋네요.",
+    "meaning": "이름에 얼굴을 맞춰 보다",
+    "tts_text": "It's great to finally put a face to the name.",
+    "display_sentence": "It's great to finally put a face to the name.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "introduction",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "long overdue",
+    "sentence_en": "This catch-up is ___.",
+    "sentence_ko": "이 만남은 진작 했어야 했어요.",
+    "meaning": "진작 했어야 하는",
+    "tts_text": "This catch-up is long overdue.",
+    "display_sentence": "This catch-up is long overdue.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "reunion",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "parted ways",
+    "sentence_en": "We ___ on good terms.",
+    "sentence_ko": "우리는 좋게 헤어졌어요.",
+    "meaning": "헤어지다",
+    "tts_text": "We parted ways on good terms.",
+    "display_sentence": "We parted ways on good terms.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "make a good impression",
+    "sentence_en": "I always try to ___ when I meet new people.",
+    "sentence_ko": "저는 새로운 사람을 만날 때 항상 좋은 인상을 주려고 해요.",
+    "meaning": "좋은 인상을 주다",
+    "tts_text": "I always try to make a good impression when I meet new people.",
+    "display_sentence": "I always try to make a good impression when I meet new people.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "introduction",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "come across as",
+    "sentence_en": "I don't want to ___ rude at the event.",
+    "sentence_ko": "행사에서 무례하게 보이고 싶지 않아요.",
+    "meaning": "~처럼 보이다",
+    "tts_text": "I don't want to come across as rude at the event.",
+    "display_sentence": "I don't want to come across as rude at the event.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "social",
+      "introduction"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "make yourself at home",
+    "sentence_en": "Please ___, I'll be right back.",
+    "sentence_ko": "편하게 계세요, 금방 돌아올게요.",
+    "meaning": "편하게 있다",
+    "tts_text": "Please make yourself at home, I'll be right back.",
+    "display_sentence": "Please make yourself at home, I'll be right back.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "have mixed feelings",
+    "sentence_en": "I ___ about meeting his ex at the party.",
+    "sentence_ko": "파티에서 그의 전 여자친구를 만나는 게 복잡한 심정이에요.",
+    "meaning": "복잡한 감정이다",
+    "tts_text": "I have mixed feelings about meeting his ex at the party.",
+    "display_sentence": "I have mixed feelings about meeting his ex at the party.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "keep me in the loop",
+    "sentence_en": "Please ___ on the new arrivals.",
+    "sentence_ko": "새로운 사람들에 대해 계속 알려 주세요.",
+    "meaning": "상황을 계속 알려 주다",
+    "tts_text": "Please keep me in the loop on the new arrivals.",
+    "display_sentence": "Please keep me in the loop on the new arrivals.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "workplace",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "old acquaintances",
+    "sentence_en": "We're just ___ from college.",
+    "sentence_ko": "우리는 그냥 대학 때 알고 지낸 사이예요.",
+    "meaning": "오래된 지인들",
+    "tts_text": "We're just old acquaintances from college.",
+    "display_sentence": "We're just old acquaintances from college.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "social",
+      "introduction"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on speaking terms",
+    "sentence_en": "We're finally ___ again after the argument.",
+    "sentence_ko": "다툼 이후 우리는 마침내 다시 말을 나누는 사이가 됐어요.",
+    "meaning": "말을 나누는 사이인",
+    "tts_text": "We're finally on speaking terms again after the argument.",
+    "display_sentence": "We're finally on speaking terms again after the argument.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social",
+      "reunion"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "extend a warm welcome",
+    "sentence_en": "We'd like to ___ to our new team members.",
+    "sentence_ko": "새로운 팀원들을 따뜻하게 환영하고 싶어요.",
+    "meaning": "따뜻하게 환영하다",
+    "tts_text": "We'd like to extend a warm welcome to our new team members.",
+    "display_sentence": "We'd like to extend a warm welcome to our new team members.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "workplace"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bridge the gap",
+    "sentence_en": "Good conversation can ___ between strangers.",
+    "sentence_ko": "좋은 대화는 낯선 사람들 사이의 간극을 좁혀 줄 수 있어요.",
+    "meaning": "간극을 좁히다",
+    "tts_text": "Good conversation can bridge the gap between strangers.",
+    "display_sentence": "Good conversation can bridge the gap between strangers.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on good terms",
+    "sentence_en": "We've always been ___ with the neighbors.",
+    "sentence_ko": "우리는 항상 이웃과 사이좋게 지내 왔어요.",
+    "meaning": "사이좋게 지내는",
+    "tts_text": "We've always been on good terms with the neighbors.",
+    "display_sentence": "We've always been on good terms with the neighbors.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "social",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "make an entrance",
+    "sentence_en": "She always knows how to ___.",
+    "sentence_ko": "그녀는 항상 인상적으로 등장할 줄 알아요.",
+    "meaning": "인상적으로 등장하다",
+    "tts_text": "She always knows how to make an entrance.",
+    "display_sentence": "She always knows how to make an entrance.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "circle back",
+    "sentence_en": "Let's ___ to this conversation tomorrow.",
+    "sentence_ko": "내일 이 대화로 다시 돌아와요.",
+    "meaning": "나중에 다시 돌아오다",
+    "tts_text": "Let's circle back to this conversation tomorrow.",
+    "display_sentence": "Let's circle back to this conversation tomorrow.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "workplace",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "speak too soon",
+    "sentence_en": "I don't want to ___, but this seems to be going well.",
+    "sentence_ko": "섣불리 말하고 싶지 않지만, 잘 되는 것 같아요.",
+    "meaning": "섣불리 말하다",
+    "tts_text": "I don't want to speak too soon, but this seems to be going well.",
+    "display_sentence": "I don't want to speak too soon, but this seems to be going well.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "smalltalk",
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "take the new intern under her wing",
+    "sentence_en": "She offered to ___.",
+    "sentence_ko": "그녀는 신입 인턴을 돌봐 주겠다고 했어요.",
+    "meaning": "신입 인턴을 보호·지도하다",
+    "tts_text": "She offered to take the new intern under her wing.",
+    "display_sentence": "She offered to take the new intern under her wing.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "workplace",
+      "introduction"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "set the tone",
+    "sentence_en": "A good opening line can ___ for the whole conversation.",
+    "sentence_ko": "좋은 첫 마디가 대화 전체의 분위기를 결정할 수 있어요.",
+    "meaning": "분위기를 정하다",
+    "tts_text": "A good opening line can set the tone for the whole conversation.",
+    "display_sentence": "A good opening line can set the tone for the whole conversation.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "social",
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "great",
+    "sentence_en": "I'm doing ___, thanks.",
+    "sentence_ko": "아주 잘 지내요, 고마워요.",
+    "meaning": "아주 좋은",
+    "tts_text": "I'm doing great, thanks.",
+    "display_sentence": "I'm doing great, thanks.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "greet",
+    "sentence_en": "Let's ___ our guests.",
+    "sentence_ko": "손님들을 맞이합시다.",
+    "meaning": "맞이하다, 인사하다",
+    "tts_text": "Let's greet our guests.",
+    "display_sentence": "Let's greet our guests.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "wave",
+    "sentence_en": "She gave a friendly ___.",
+    "sentence_ko": "그녀는 친근하게 손을 흔들었어요.",
+    "meaning": "손 흔들기",
+    "tts_text": "She gave a friendly wave.",
+    "display_sentence": "She gave a friendly wave.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "chat",
+    "sentence_en": "Let's have a quick ___.",
+    "sentence_ko": "잠깐 얘기 좀 해요.",
+    "meaning": "가벼운 대화, 수다",
+    "tts_text": "Let's have a quick chat.",
+    "display_sentence": "Let's have a quick chat.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "neighbor",
+    "sentence_en": "He's my new ___.",
+    "sentence_ko": "그는 제 새 이웃이에요.",
+    "meaning": "이웃",
+    "tts_text": "He's my new neighbor.",
+    "display_sentence": "He's my new neighbor.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "guest",
+    "sentence_en": "You're our special ___.",
+    "sentence_ko": "당신은 우리의 특별한 손님이에요.",
+    "meaning": "손님",
+    "tts_text": "You're our special guest.",
+    "display_sentence": "You're our special guest.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "stay",
+    "sentence_en": "Please ___ a little longer.",
+    "sentence_ko": "조금만 더 있다 가세요.",
+    "meaning": "머무르다",
+    "tts_text": "Please stay a little longer.",
+    "display_sentence": "Please stay a little longer.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "visit",
+    "sentence_en": "Come ___ us sometime.",
+    "sentence_ko": "언제 한번 놀러 오세요.",
+    "meaning": "방문하다",
+    "tts_text": "Come visit us sometime.",
+    "display_sentence": "Come visit us sometime.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "nice to meet you",
+    "sentence_en": "It's ___.",
+    "sentence_ko": "만나서 반갑습니다.",
+    "meaning": "만나서 반가워요",
+    "tts_text": "It's nice to meet you.",
+    "display_sentence": "It's nice to meet you.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "how are you doing",
+    "sentence_en": "Hey, ___ these days?",
+    "sentence_ko": "안녕, 요즘 어떻게 지내?",
+    "meaning": "어떻게 지내요",
+    "tts_text": "Hey, how are you doing these days?",
+    "display_sentence": "Hey, how are you doing these days?",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "what's new",
+    "sentence_en": "Hey, ___ with you?",
+    "sentence_ko": "안녕, 뭐 새로운 일 있어?",
+    "meaning": "별일 있어?, 새 소식 있어?",
+    "tts_text": "Hey, what's new with you?",
+    "display_sentence": "Hey, what's new with you?",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "how's everything",
+    "sentence_en": "Hi, ___ going?",
+    "sentence_ko": "안녕, 다 잘 돼 가요?",
+    "meaning": "다 잘 지내요?",
+    "tts_text": "Hi, how's everything going?",
+    "display_sentence": "Hi, how's everything going?",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "see you soon",
+    "sentence_en": "Bye for now, ___.",
+    "sentence_ko": "이만 안녕, 곧 봐요.",
+    "meaning": "곧 봐요",
+    "tts_text": "Bye for now, see you soon.",
+    "display_sentence": "Bye for now, see you soon.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "see you around",
+    "sentence_en": "Alright, ___!",
+    "sentence_ko": "그래, 또 봐요!",
+    "meaning": "또 봐요",
+    "tts_text": "Alright, see you around!",
+    "display_sentence": "Alright, see you around!",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "catch you later",
+    "sentence_en": "Gotta run, ___.",
+    "sentence_ko": "가 봐야 해, 나중에 봐.",
+    "meaning": "나중에 봐요",
+    "tts_text": "Gotta run, catch you later.",
+    "display_sentence": "Gotta run, catch you later.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "farewell"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "say hello to",
+    "sentence_en": "Please ___ your family.",
+    "sentence_ko": "가족분들께 안부 전해 주세요.",
+    "meaning": "~에게 안부를 전하다",
+    "tts_text": "Please say hello to your family.",
+    "display_sentence": "Please say hello to your family.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pass along my regards",
+    "sentence_en": "Please ___ to her.",
+    "sentence_ko": "그녀에게 제 안부 좀 전해 주세요.",
+    "meaning": "안부를 전하다",
+    "tts_text": "Please pass along my regards to her.",
+    "display_sentence": "Please pass along my regards to her.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "lovely to see you",
+    "sentence_en": "It's ___ again.",
+    "sentence_ko": "다시 만나서 정말 반가워요.",
+    "meaning": "만나서 정말 반가워요",
+    "tts_text": "It's lovely to see you again.",
+    "display_sentence": "It's lovely to see you again.",
+    "frequency": "mid",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "been a minute",
+    "sentence_en": "Wow, it's ___.",
+    "sentence_ko": "와, 진짜 오랜만이다.",
+    "meaning": "꽤 오랜만이다",
+    "tts_text": "Wow, it's been a minute.",
+    "display_sentence": "Wow, it's been a minute.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "how have you been",
+    "sentence_en": "It's been a while, ___?",
+    "sentence_ko": "오랜만이에요, 그동안 어떻게 지냈어요?",
+    "meaning": "그동안 어떻게 지냈어요",
+    "tts_text": "It's been a while, how have you been?",
+    "display_sentence": "It's been a while, how have you been?",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "how's your day",
+    "sentence_en": "Hi there, ___ going?",
+    "sentence_ko": "안녕하세요, 오늘 하루 어때요?",
+    "meaning": "오늘 하루 어때요",
+    "tts_text": "Hi there, how's your day going?",
+    "display_sentence": "Hi there, how's your day going?",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "what brings you here",
+    "sentence_en": "Oh hi, ___ today?",
+    "sentence_ko": "어머 안녕, 오늘 여긴 어쩐 일이에요?",
+    "meaning": "여긴 어쩐 일이에요",
+    "tts_text": "Oh hi, what brings you here today?",
+    "display_sentence": "Oh hi, what brings you here today?",
+    "frequency": "mid",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "have we met",
+    "sentence_en": "Sorry, ___ before?",
+    "sentence_ko": "죄송한데, 저희 전에 만난 적 있나요?",
+    "meaning": "저희 만난 적 있나요",
+    "tts_text": "Sorry, have we met before?",
+    "display_sentence": "Sorry, have we met before?",
+    "frequency": "mid",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "nice to see you again",
+    "sentence_en": "Oh, ___!",
+    "sentence_ko": "어, 다시 만나서 반가워요!",
+    "meaning": "다시 만나서 반가워요",
+    "tts_text": "Oh, nice to see you again!",
+    "display_sentence": "Oh, nice to see you again!",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "say goodbye",
+    "sentence_en": "I came to ___.",
+    "sentence_ko": "작별 인사를 하러 왔어요.",
+    "meaning": "작별 인사를 하다",
+    "tts_text": "I came to say goodbye.",
+    "display_sentence": "I came to say goodbye.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "wave goodbye",
+    "sentence_en": "The kids ___ at the door.",
+    "sentence_ko": "아이들이 문에서 손을 흔들며 작별 인사를 했어요.",
+    "meaning": "손 흔들어 작별하다",
+    "tts_text": "The kids wave goodbye at the door.",
+    "display_sentence": "The kids wave goodbye at the door.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "strike up a chat",
+    "sentence_en": "We began to ___.",
+    "sentence_ko": "우리는 대화를 트기 시작했어요.",
+    "meaning": "대화를 트다",
+    "tts_text": "We began to strike up a chat.",
+    "display_sentence": "We began to strike up a chat.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "make conversation",
+    "sentence_en": "He tried to ___.",
+    "sentence_ko": "그는 말을 붙여 보려 했어요.",
+    "meaning": "대화를 나누다, 말을 붙이다",
+    "tts_text": "He tried to make conversation.",
+    "display_sentence": "He tried to make conversation.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "introduce yourself",
+    "sentence_en": "Feel free to ___.",
+    "sentence_ko": "편하게 자기소개를 하세요.",
+    "meaning": "자기소개를 하다",
+    "tts_text": "Feel free to introduce yourself.",
+    "display_sentence": "Feel free to introduce yourself.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "shake hands",
+    "sentence_en": "They paused to ___.",
+    "sentence_ko": "그들은 멈춰 서서 악수를 했어요.",
+    "meaning": "악수하다",
+    "tts_text": "They paused to shake hands.",
+    "display_sentence": "They paused to shake hands.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "wish you well",
+    "sentence_en": "We just want to ___.",
+    "sentence_ko": "우리는 그저 잘되길 바랄 뿐이에요.",
+    "meaning": "잘되길 빌다",
+    "tts_text": "We just want to wish you well.",
+    "display_sentence": "We just want to wish you well.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get acquainted",
+    "sentence_en": "Let's take time to ___.",
+    "sentence_ko": "서로 알아 갈 시간을 가져요.",
+    "meaning": "서로 알게 되다",
+    "tts_text": "Let's take time to get acquainted.",
+    "display_sentence": "Let's take time to get acquainted.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "lose touch",
+    "sentence_en": "Let's not ___ again.",
+    "sentence_ko": "다시는 연락 끊기지 말아요.",
+    "meaning": "연락이 끊기다",
+    "tts_text": "Let's not lose touch again.",
+    "display_sentence": "Let's not lose touch again.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "farewell"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "keep it short",
+    "sentence_en": "I'll ___ today.",
+    "sentence_ko": "오늘은 짧게 할게요.",
+    "meaning": "짧게 하다",
+    "tts_text": "I'll keep it short today.",
+    "display_sentence": "I'll keep it short today.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "grab a coffee",
+    "sentence_en": "Let's ___ and catch up.",
+    "sentence_ko": "커피 한잔하면서 얘기해요.",
+    "meaning": "커피 한잔하다",
+    "tts_text": "Let's grab a coffee and catch up.",
+    "display_sentence": "Let's grab a coffee and catch up.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "good to be back",
+    "sentence_en": "It feels ___.",
+    "sentence_ko": "돌아오니 기분이 좋네요.",
+    "meaning": "돌아와서 좋은",
+    "tts_text": "It feels good to be back.",
+    "display_sentence": "It feels good to be back.",
+    "frequency": "mid",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a blast from the past",
+    "sentence_en": "Seeing him was ___.",
+    "sentence_ko": "그를 본 건 옛 추억이 확 떠오르는 일이었어요.",
+    "meaning": "옛 추억을 떠올리게 하는 것",
+    "tts_text": "Seeing him was a blast from the past.",
+    "display_sentence": "Seeing him was a blast from the past.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a friendly face",
+    "sentence_en": "It's nice to see ___.",
+    "sentence_ko": "반가운 얼굴을 보니 좋네요.",
+    "meaning": "반가운 사람",
+    "tts_text": "It's nice to see a friendly face.",
+    "display_sentence": "It's nice to see a friendly face.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "it's a small world",
+    "sentence_en": "Wow, ___!",
+    "sentence_ko": "와, 세상 정말 좁네요!",
+    "meaning": "세상 참 좁다",
+    "tts_text": "Wow, it's a small world!",
+    "display_sentence": "Wow, it's a small world!",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "fancy meeting you here",
+    "sentence_en": "Oh, ___!",
+    "sentence_ko": "어머, 여기서 다 만나네요!",
+    "meaning": "여기서 만나다니 뜻밖이네요",
+    "tts_text": "Oh, fancy meeting you here!",
+    "display_sentence": "Oh, fancy meeting you here!",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "what a coincidence",
+    "sentence_en": "Oh wow, ___!",
+    "sentence_ko": "와, 이런 우연이!",
+    "meaning": "이런 우연이",
+    "tts_text": "Oh wow, what a coincidence!",
+    "display_sentence": "Oh wow, what a coincidence!",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "great minds think alike",
+    "sentence_en": "Ha, ___!",
+    "sentence_ko": "하하, 역시 통하는 게 있네요!",
+    "meaning": "생각이 잘 통하네요",
+    "tts_text": "Ha, great minds think alike!",
+    "display_sentence": "Ha, great minds think alike!",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "speak of the devil",
+    "sentence_en": "Well, ___!",
+    "sentence_ko": "어, 호랑이도 제 말 하면 온다더니!",
+    "meaning": "호랑이도 제 말 하면 온다",
+    "tts_text": "Well, speak of the devil!",
+    "display_sentence": "Well, speak of the devil!",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "we go way back",
+    "sentence_en": "Oh, ___.",
+    "sentence_ko": "아, 우리는 아주 오래된 사이예요.",
+    "meaning": "오래전부터 알고 지내다",
+    "tts_text": "Oh, we go way back.",
+    "display_sentence": "Oh, we go way back.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "pick up where we left off",
+    "sentence_en": "Let's just ___.",
+    "sentence_ko": "그냥 하던 얘기 이어서 해요.",
+    "meaning": "멈췄던 데서 이어가다",
+    "tts_text": "Let's just pick up where we left off.",
+    "display_sentence": "Let's just pick up where we left off.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "catch up over coffee",
+    "sentence_en": "We should ___.",
+    "sentence_ko": "커피 한잔하며 밀린 얘기 나눠요.",
+    "meaning": "커피 마시며 근황을 나누다",
+    "tts_text": "We should catch up over coffee.",
+    "display_sentence": "We should catch up over coffee.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "make the first move",
+    "sentence_en": "Someone has to ___.",
+    "sentence_ko": "누군가는 먼저 다가가야 해요.",
+    "meaning": "먼저 다가가다",
+    "tts_text": "Someone has to make the first move.",
+    "display_sentence": "Someone has to make the first move.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "keep the conversation going",
+    "sentence_en": "Ask questions to ___.",
+    "sentence_ko": "대화를 이어가려면 질문을 하세요.",
+    "meaning": "대화를 이어가다",
+    "tts_text": "Ask questions to keep the conversation going.",
+    "display_sentence": "Ask questions to keep the conversation going.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a warm welcome",
+    "sentence_en": "They gave us ___.",
+    "sentence_ko": "그들은 우리를 따뜻하게 맞아 줬어요.",
+    "meaning": "따뜻한 환영",
+    "tts_text": "They gave us a warm welcome.",
+    "display_sentence": "They gave us a warm welcome.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "feel right at home",
+    "sentence_en": "Please ___.",
+    "sentence_ko": "편하게 내 집처럼 계세요.",
+    "meaning": "아주 편안하게 느끼다",
+    "tts_text": "Please feel right at home.",
+    "display_sentence": "Please feel right at home.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "mingle with the crowd",
+    "sentence_en": "Try to ___ a bit.",
+    "sentence_ko": "사람들 사이에 좀 어울려 보세요.",
+    "meaning": "사람들과 어울리다",
+    "tts_text": "Try to mingle with the crowd a bit.",
+    "display_sentence": "Try to mingle with the crowd a bit.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "work the room",
+    "sentence_en": "She knows how to ___.",
+    "sentence_ko": "그녀는 사람들과 두루 친해지는 법을 알아요.",
+    "meaning": "파티 등에서 사람들과 두루 어울리다",
+    "tts_text": "She knows how to work the room.",
+    "display_sentence": "She knows how to work the room.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a familiar voice",
+    "sentence_en": "I recognized ___.",
+    "sentence_ko": "저는 익숙한 목소리를 알아챘어요.",
+    "meaning": "익숙한 목소리",
+    "tts_text": "I recognized a familiar voice.",
+    "display_sentence": "I recognized a familiar voice.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "you haven't changed a bit",
+    "sentence_en": "Wow, ___!",
+    "sentence_ko": "와, 하나도 안 변했네요!",
+    "meaning": "하나도 안 변했어요",
+    "tts_text": "Wow, you haven't changed a bit!",
+    "display_sentence": "Wow, you haven't changed a bit!",
+    "frequency": "mid",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "it's been far too long",
+    "sentence_en": "Oh, ___!",
+    "sentence_ko": "아, 정말 너무 오랜만이에요!",
+    "meaning": "정말 너무 오랜만이에요",
+    "tts_text": "Oh, it's been far too long!",
+    "display_sentence": "Oh, it's been far too long!",
+    "frequency": "mid",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "great catching up",
+    "sentence_en": "It was ___ with you.",
+    "sentence_ko": "당신과 근황 나눠서 정말 좋았어요.",
+    "meaning": "근황을 나눠서 좋은",
+    "tts_text": "It was great catching up with you.",
+    "display_sentence": "It was great catching up with you.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "let's not be strangers",
+    "sentence_en": "Take care, and ___.",
+    "sentence_ko": "잘 지내고, 우리 자주 연락해요.",
+    "meaning": "자주 연락하고 지내자",
+    "tts_text": "Take care, and let's not be strangers.",
+    "display_sentence": "Take care, and let's not be strangers.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "farewell"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "keep me posted",
+    "sentence_en": "Alright, ___.",
+    "sentence_ko": "알겠어요, 소식 계속 전해 줘요.",
+    "meaning": "소식을 계속 알려 주다",
+    "tts_text": "Alright, keep me posted.",
+    "display_sentence": "Alright, keep me posted.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "farewell"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "stay in touch",
+    "sentence_en": "Let's ___ this time.",
+    "sentence_ko": "이번엔 꼭 연락하고 지내요.",
+    "meaning": "연락하고 지내다",
+    "tts_text": "Let's stay in touch this time.",
+    "display_sentence": "Let's stay in touch this time.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "we should do this more often",
+    "sentence_en": "That was fun, ___.",
+    "sentence_ko": "재밌었어요, 우리 이런 거 자주 해요.",
+    "meaning": "이런 거 자주 하자",
+    "tts_text": "That was fun, we should do this more often.",
+    "display_sentence": "That was fun, we should do this more often.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "reconnect with",
+    "sentence_en": "I'd love to ___ old friends.",
+    "sentence_ko": "옛 친구들과 다시 연락하고 싶어요.",
+    "meaning": "~와 다시 연락하다",
+    "tts_text": "I'd love to reconnect with old friends.",
+    "display_sentence": "I'd love to reconnect with old friends.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a casual acquaintance",
+    "sentence_en": "He's just ___.",
+    "sentence_ko": "그는 그냥 가볍게 아는 사이예요.",
+    "meaning": "가볍게 아는 사이",
+    "tts_text": "He's just a casual acquaintance.",
+    "display_sentence": "He's just a casual acquaintance.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "ease into the conversation",
+    "sentence_en": "Small talk helps you ___.",
+    "sentence_ko": "가벼운 잡담은 대화를 자연스럽게 시작하게 해줘요.",
+    "meaning": "대화를 자연스럽게 시작하다",
+    "tts_text": "Small talk helps you ease into the conversation.",
+    "display_sentence": "Small talk helps you ease into the conversation.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "leave a good impression",
+    "sentence_en": "Try to ___.",
+    "sentence_ko": "좋은 인상을 남기도록 하세요.",
+    "meaning": "좋은 인상을 남기다",
+    "tts_text": "Try to leave a good impression.",
+    "display_sentence": "Try to leave a good impression.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "Hi",
+    "sentence_en": "___, how are you?",
+    "sentence_ko": "안녕, 잘 지내?",
+    "meaning": "안녕 (가벼운 인사)",
+    "tts_text": "Hi, how are you?",
+    "display_sentence": "Hi, how are you?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "Hello",
+    "sentence_en": "___, nice to see you.",
+    "sentence_ko": "안녕하세요, 만나서 반가워요.",
+    "meaning": "안녕하세요",
+    "tts_text": "Hello, nice to see you.",
+    "display_sentence": "Hello, nice to see you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "Hey",
+    "sentence_en": "___, long time no see!",
+    "sentence_ko": "어이, 오랜만이야!",
+    "meaning": "이봐, 안녕 (친근한 인사)",
+    "tts_text": "Hey, long time no see!",
+    "display_sentence": "Hey, long time no see!",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "Thanks",
+    "sentence_en": "___ for coming today.",
+    "sentence_ko": "오늘 와 줘서 고마워요.",
+    "meaning": "고마워요",
+    "tts_text": "Thanks for coming today.",
+    "display_sentence": "Thanks for coming today.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "Welcome",
+    "sentence_en": "___ to our home.",
+    "sentence_ko": "저희 집에 오신 걸 환영해요.",
+    "meaning": "환영합니다",
+    "tts_text": "Welcome to our home.",
+    "display_sentence": "Welcome to our home.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "greeting"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "Take care",
+    "sentence_en": "___ and see you soon.",
+    "sentence_ko": "몸조심하고 곧 봐요.",
+    "meaning": "잘 지내요, 몸조심해요",
+    "tts_text": "Take care and see you soon.",
+    "display_sentence": "Take care and see you soon.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "farewell"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "chatted for a while",
+    "sentence_en": "We stood and ___.",
+    "sentence_ko": "우리는 서서 한참 수다를 떨었어요.",
+    "meaning": "한참 이야기를 나누다",
+    "tts_text": "We stood and chatted for a while.",
+    "display_sentence": "We stood and chatted for a while.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "broke the silence",
+    "sentence_en": "Someone finally ___.",
+    "sentence_ko": "누군가 마침내 침묵을 깼어요.",
+    "meaning": "침묵을 깨다",
+    "tts_text": "Someone finally broke the silence.",
+    "display_sentence": "Someone finally broke the silence.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "exchanged pleasantries",
+    "sentence_en": "We briefly ___.",
+    "sentence_ko": "우리는 잠깐 인사치레를 나눴어요.",
+    "meaning": "인사치레를 주고받다",
+    "tts_text": "We briefly exchanged pleasantries.",
+    "display_sentence": "We briefly exchanged pleasantries.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "made polite conversation",
+    "sentence_en": "We just ___.",
+    "sentence_ko": "우리는 그냥 예의상 대화를 나눴어요.",
+    "meaning": "예의상 대화를 나누다",
+    "tts_text": "We just made polite conversation.",
+    "display_sentence": "We just made polite conversation.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "small talk"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "struck up a friendship",
+    "sentence_en": "They quickly ___.",
+    "sentence_ko": "그들은 금세 친구가 되었어요.",
+    "meaning": "친분을 쌓기 시작하다",
+    "tts_text": "They quickly struck up a friendship.",
+    "display_sentence": "They quickly struck up a friendship.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social"
+    ]
+  },
+  {
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a chance encounter",
+    "sentence_en": "It was just ___.",
+    "sentence_ko": "그건 그냥 우연한 만남이었어요.",
+    "meaning": "우연한 만남",
+    "tts_text": "It was just a chance encounter.",
+    "display_sentence": "It was just a chance encounter.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "social"
+    ]
+  }
+]

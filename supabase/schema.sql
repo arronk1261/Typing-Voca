@@ -13,7 +13,13 @@ create table if not exists public.words (
   sentence_en text    not null,
   sentence_ko text    not null,
   meaning     text    not null,
-  tts_text    text    not null
+  tts_text    text    not null,
+  -- v6 콘텐츠 태그 (docs/word-content-spec-v6.md)
+  display_sentence text,
+  frequency        text,
+  chunk_type       text,
+  difficulty_axis  text,
+  use_case         text[] not null default '{}'
 );
 create index if not exists words_level_idx    on public.words (level);
 create index if not exists words_category_idx on public.words (category);

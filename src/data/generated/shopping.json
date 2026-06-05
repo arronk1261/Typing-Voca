@@ -1,0 +1,3721 @@
+[
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "much",
+    "sentence_en": "How ___ is this?",
+    "sentence_ko": "이거 얼마예요?",
+    "meaning": "얼마나",
+    "tts_text": "How much is this?",
+    "display_sentence": "How much is this?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "card",
+    "sentence_en": "Can I pay by ___?",
+    "sentence_ko": "카드로 계산해도 되나요?",
+    "meaning": "카드",
+    "tts_text": "Can I pay by card?",
+    "display_sentence": "Can I pay by card?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "size",
+    "sentence_en": "Do you have a bigger ___?",
+    "sentence_ko": "더 큰 사이즈 있어요?",
+    "meaning": "사이즈",
+    "tts_text": "Do you have a bigger size?",
+    "display_sentence": "Do you have a bigger size?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "clothing",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "try",
+    "sentence_en": "Can I ___ this on?",
+    "sentence_ko": "이거 입어 봐도 돼요?",
+    "meaning": "입어 보다",
+    "tts_text": "Can I try this on?",
+    "display_sentence": "Can I try this on?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "clothing",
+      "fitting_room"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "receipt",
+    "sentence_en": "Can I get a ___?",
+    "sentence_ko": "영수증 받을 수 있을까요?",
+    "meaning": "영수증",
+    "tts_text": "Can I get a receipt?",
+    "display_sentence": "Can I get a receipt?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "payment",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "change",
+    "sentence_en": "Here is your ___.",
+    "sentence_ko": "여기 잔돈이요.",
+    "meaning": "잔돈, 거스름돈",
+    "tts_text": "Here is your change.",
+    "display_sentence": "Here is your change.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "looking",
+    "sentence_en": "I'm just ___, thanks.",
+    "sentence_ko": "그냥 둘러보는 거예요, 고마워요.",
+    "meaning": "둘러보는",
+    "tts_text": "I'm just looking, thanks.",
+    "display_sentence": "I'm just looking, thanks.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "shopping",
+      "browsing"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "cash",
+    "sentence_en": "Do you take ___?",
+    "sentence_ko": "현금 받으세요?",
+    "meaning": "현금",
+    "tts_text": "Do you take cash?",
+    "display_sentence": "Do you take cash?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "price",
+    "sentence_en": "What's the ___ of this bag?",
+    "sentence_ko": "이 가방 가격이 얼마예요?",
+    "meaning": "가격",
+    "tts_text": "What's the price of this bag?",
+    "display_sentence": "What's the price of this bag?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "pricing"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "buy",
+    "sentence_en": "I want to ___ this one.",
+    "sentence_ko": "이걸 사고 싶어요.",
+    "meaning": "사다",
+    "tts_text": "I want to buy this one.",
+    "display_sentence": "I want to buy this one.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "purchase"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "color",
+    "sentence_en": "Do you have another ___?",
+    "sentence_ko": "다른 색 있어요?",
+    "meaning": "색깔",
+    "tts_text": "Do you have another color?",
+    "display_sentence": "Do you have another color?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "clothing",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "open",
+    "sentence_en": "What time do you ___?",
+    "sentence_ko": "몇 시에 문 열어요?",
+    "meaning": "열다",
+    "tts_text": "What time do you open?",
+    "display_sentence": "What time do you open?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "store_hours"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "cheap",
+    "sentence_en": "This one is really ___.",
+    "sentence_ko": "이건 정말 싸요.",
+    "meaning": "싼",
+    "tts_text": "This one is really cheap.",
+    "display_sentence": "This one is really cheap.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "pricing",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "bag",
+    "sentence_en": "Can I get a ___, please?",
+    "sentence_ko": "봉투 하나 주시겠어요?",
+    "meaning": "봉투, 가방",
+    "tts_text": "Can I get a bag, please?",
+    "display_sentence": "Can I get a bag, please?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "packaging"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sale",
+    "sentence_en": "Is this on ___?",
+    "sentence_ko": "이거 세일하나요?",
+    "meaning": "할인",
+    "tts_text": "Is this on sale?",
+    "display_sentence": "Is this on sale?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "discount",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "expensive",
+    "sentence_en": "That's too ___ for me.",
+    "sentence_ko": "그건 제겐 너무 비싸요.",
+    "meaning": "비싼",
+    "tts_text": "That's too expensive for me.",
+    "display_sentence": "That's too expensive for me.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "pricing",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "pay",
+    "sentence_en": "Where do I ___?",
+    "sentence_ko": "어디서 계산하나요?",
+    "meaning": "지불하다",
+    "tts_text": "Where do I pay?",
+    "display_sentence": "Where do I pay?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "small",
+    "sentence_en": "Do you have a ___ size?",
+    "sentence_ko": "작은 사이즈 있어요?",
+    "meaning": "작은",
+    "tts_text": "Do you have a small size?",
+    "display_sentence": "Do you have a small size?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "clothing",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "free",
+    "sentence_en": "Is delivery ___?",
+    "sentence_ko": "배송은 무료인가요?",
+    "meaning": "무료의",
+    "tts_text": "Is delivery free?",
+    "display_sentence": "Is delivery free?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "online_shopping",
+      "delivery"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "new",
+    "sentence_en": "I'd like a ___ one.",
+    "sentence_ko": "새것으로 주세요.",
+    "meaning": "새로운",
+    "tts_text": "I'd like a new one.",
+    "display_sentence": "I'd like a new one.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "purchase"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "help",
+    "sentence_en": "Can you ___ me find this?",
+    "sentence_ko": "이거 찾는 것 좀 도와주실래요?",
+    "meaning": "돕다",
+    "tts_text": "Can you help me find this?",
+    "display_sentence": "Can you help me find this?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "customer_service"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "store",
+    "sentence_en": "Where is the shoe ___?",
+    "sentence_ko": "신발 가게가 어디예요?",
+    "meaning": "가게",
+    "tts_text": "Where is the shoe store?",
+    "display_sentence": "Where is the shoe store?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "navigation"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "discount",
+    "sentence_en": "Is there a ___?",
+    "sentence_ko": "할인 되나요?",
+    "meaning": "할인",
+    "tts_text": "Is there a discount?",
+    "display_sentence": "Is there a discount?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "discount",
+      "pricing"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "counter",
+    "sentence_en": "Please pay at the ___.",
+    "sentence_ko": "계산대에서 결제해 주세요.",
+    "meaning": "계산대",
+    "tts_text": "Please pay at the counter.",
+    "display_sentence": "Please pay at the counter.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "more",
+    "sentence_en": "Can I see one ___?",
+    "sentence_ko": "하나 더 볼 수 있을까요?",
+    "meaning": "더",
+    "tts_text": "Can I see one more?",
+    "display_sentence": "Can I see one more?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "browsing"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "gift",
+    "sentence_en": "It's a ___ for my friend.",
+    "sentence_ko": "친구한테 줄 선물이에요.",
+    "meaning": "선물",
+    "tts_text": "It's a gift for my friend.",
+    "display_sentence": "It's a gift for my friend.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "gifting"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "wrap",
+    "sentence_en": "Can you ___ it as a gift?",
+    "sentence_ko": "선물 포장해 주실 수 있어요?",
+    "meaning": "포장하다",
+    "tts_text": "Can you wrap it as a gift?",
+    "display_sentence": "Can you wrap it as a gift?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "gifting",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "return",
+    "sentence_en": "Can I ___ this?",
+    "sentence_ko": "이거 반품할 수 있어요?",
+    "meaning": "반품하다",
+    "tts_text": "Can I return this?",
+    "display_sentence": "Can I return this?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "return",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "broken",
+    "sentence_en": "This one is ___.",
+    "sentence_ko": "이건 망가졌어요.",
+    "meaning": "망가진",
+    "tts_text": "This one is broken.",
+    "display_sentence": "This one is broken.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "return",
+      "complaint"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "total",
+    "sentence_en": "What's the ___?",
+    "sentence_ko": "합계가 얼마예요?",
+    "meaning": "합계",
+    "tts_text": "What's the total?",
+    "display_sentence": "What's the total?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "close",
+    "sentence_en": "What time do you ___?",
+    "sentence_ko": "몇 시에 문 닫아요?",
+    "meaning": "닫다",
+    "tts_text": "What time do you close?",
+    "display_sentence": "What time do you close?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "store_hours",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "fitting room",
+    "sentence_en": "Where is the ___?",
+    "sentence_ko": "탈의실이 어디예요?",
+    "meaning": "탈의실",
+    "tts_text": "Where is the fitting room?",
+    "display_sentence": "Where is the fitting room?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "clothing",
+      "fitting_room"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sold",
+    "sentence_en": "Is it ___?",
+    "sentence_ko": "품절인가요?",
+    "meaning": "팔린",
+    "tts_text": "Is it sold?",
+    "display_sentence": "Is it sold?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "availability"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "clean",
+    "sentence_en": "Is there a ___ one?",
+    "sentence_ko": "깨끗한 거 있나요?",
+    "meaning": "깨끗한",
+    "tts_text": "Is there a clean one?",
+    "display_sentence": "Is there a clean one?",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "quality"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "tax",
+    "sentence_en": "Is ___ included?",
+    "sentence_ko": "세금이 포함된 가격인가요?",
+    "meaning": "세금",
+    "tts_text": "Is tax included?",
+    "display_sentence": "Is tax included?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment",
+      "pricing"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "floor",
+    "sentence_en": "Which ___ are the bags on?",
+    "sentence_ko": "가방은 몇 층에 있어요?",
+    "meaning": "층",
+    "tts_text": "Which floor are the bags on?",
+    "display_sentence": "Which floor are the bags on?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "navigation"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "long",
+    "sentence_en": "Is the line very ___?",
+    "sentence_ko": "줄이 많이 길어요?",
+    "meaning": "긴",
+    "tts_text": "Is the line very long?",
+    "display_sentence": "Is the line very long?",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "queue"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "half",
+    "sentence_en": "It's ___ off today.",
+    "sentence_ko": "오늘 반값이에요.",
+    "meaning": "절반",
+    "tts_text": "It's half off today.",
+    "display_sentence": "It's half off today.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "discount",
+      "pricing"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "online",
+    "sentence_en": "I bought it ___.",
+    "sentence_ko": "온라인으로 샀어요.",
+    "meaning": "온라인으로",
+    "tts_text": "I bought it online.",
+    "display_sentence": "I bought it online.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "online_shopping",
+      "purchase"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "mall",
+    "sentence_en": "Let's go to the ___.",
+    "sentence_ko": "쇼핑몰에 가자.",
+    "meaning": "쇼핑몰",
+    "tts_text": "Let's go to the mall.",
+    "display_sentence": "Let's go to the mall.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "leisure"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "exchange",
+    "sentence_en": "Can I ___ this for a larger one?",
+    "sentence_ko": "이거 더 큰 걸로 바꿀 수 있어요?",
+    "meaning": "교환하다",
+    "tts_text": "Can I exchange this for a larger one?",
+    "display_sentence": "Can I exchange this for a larger one?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "return",
+      "exchange"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "member",
+    "sentence_en": "Are you a ___ here?",
+    "sentence_ko": "여기 회원이세요?",
+    "meaning": "회원",
+    "tts_text": "Are you a member here?",
+    "display_sentence": "Are you a member here?",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "membership"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "brand",
+    "sentence_en": "What ___ is this?",
+    "sentence_ko": "이거 무슨 브랜드예요?",
+    "meaning": "브랜드",
+    "tts_text": "What brand is this?",
+    "display_sentence": "What brand is this?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "product_info"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "wallet",
+    "sentence_en": "I left my ___ at home.",
+    "sentence_ko": "지갑을 집에 놓고 왔어요.",
+    "meaning": "지갑",
+    "tts_text": "I left my wallet at home.",
+    "display_sentence": "I left my wallet at home.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "point",
+    "sentence_en": "Can I use my ___s?",
+    "sentence_ko": "포인트 쓸 수 있어요?",
+    "meaning": "포인트",
+    "tts_text": "Can I use my points?",
+    "display_sentence": "Can I use my points?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment",
+      "membership"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "left",
+    "sentence_en": "There are only two ___.",
+    "sentence_ko": "두 개밖에 안 남았어요.",
+    "meaning": "남은",
+    "tts_text": "There are only two left.",
+    "display_sentence": "There are only two left.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "availability"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "popular",
+    "sentence_en": "This is our most ___ item.",
+    "sentence_ko": "이게 저희 가장 인기 있는 상품이에요.",
+    "meaning": "인기 있는",
+    "tts_text": "This is our most popular item.",
+    "display_sentence": "This is our most popular item.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "shopping",
+      "product_info"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "order",
+    "sentence_en": "I'd like to place an ___.",
+    "sentence_ko": "주문하고 싶어요.",
+    "meaning": "주문",
+    "tts_text": "I'd like to place an order.",
+    "display_sentence": "I'd like to place an order.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "online_shopping",
+      "purchase"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "stock",
+    "sentence_en": "Do you have this in ___?",
+    "sentence_ko": "이거 재고 있어요?",
+    "meaning": "재고",
+    "tts_text": "Do you have this in stock?",
+    "display_sentence": "Do you have this in stock?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "availability"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "label",
+    "sentence_en": "Where is the price ___?",
+    "sentence_ko": "가격표가 어디 있어요?",
+    "meaning": "라벨, 표",
+    "tts_text": "Where is the price label?",
+    "display_sentence": "Where is the price label?",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "pricing"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "quality",
+    "sentence_en": "The ___ is really good.",
+    "sentence_ko": "품질이 정말 좋아요.",
+    "meaning": "품질",
+    "tts_text": "The quality is really good.",
+    "display_sentence": "The quality is really good.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "shopping",
+      "product_info"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "ATM",
+    "sentence_en": "Is there an ___ nearby?",
+    "sentence_ko": "근처에 ATM이 있어요?",
+    "meaning": "현금 인출기",
+    "tts_text": "Is there an ATM nearby?",
+    "display_sentence": "Is there an ATM nearby?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "payment",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "damaged",
+    "sentence_en": "This one looks ___.",
+    "sentence_ko": "이건 훼손된 것 같아요.",
+    "meaning": "손상된",
+    "tts_text": "This one looks damaged.",
+    "display_sentence": "This one looks damaged.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "return",
+      "complaint"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "package",
+    "sentence_en": "The ___ was open when it arrived.",
+    "sentence_ko": "도착했을 때 포장이 뜯겨 있었어요.",
+    "meaning": "포장, 패키지",
+    "tts_text": "The package was open when it arrived.",
+    "display_sentence": "The package was open when it arrived.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "online_shopping",
+      "delivery"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "wide",
+    "sentence_en": "Do you have this in a ___ fit?",
+    "sentence_ko": "와이드 핏도 있어요?",
+    "meaning": "넓은",
+    "tts_text": "Do you have this in a wide fit?",
+    "display_sentence": "Do you have this in a wide fit?",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "clothing",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "coat",
+    "sentence_en": "I'm looking for a winter ___.",
+    "sentence_ko": "겨울 코트를 찾고 있어요.",
+    "meaning": "코트",
+    "tts_text": "I'm looking for a winter coat.",
+    "display_sentence": "I'm looking for a winter coat.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "clothing",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "cart",
+    "sentence_en": "I need a shopping ___.",
+    "sentence_ko": "쇼핑 카트가 필요해요.",
+    "meaning": "카트",
+    "tts_text": "I need a shopping cart.",
+    "display_sentence": "I need a shopping cart.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "grocery"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "item",
+    "sentence_en": "This ___ is on sale.",
+    "sentence_ko": "이 상품은 세일 중이에요.",
+    "meaning": "상품, 품목",
+    "tts_text": "This item is on sale.",
+    "display_sentence": "This item is on sale.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "discount"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "machine",
+    "sentence_en": "Is there a self-checkout ___?",
+    "sentence_ko": "셀프 계산 기계 있어요?",
+    "meaning": "기계",
+    "tts_text": "Is there a self-checkout machine?",
+    "display_sentence": "Is there a self-checkout machine?",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "delivery",
+    "sentence_en": "When does the ___ arrive?",
+    "sentence_ko": "배송이 언제 도착하나요?",
+    "meaning": "배송",
+    "tts_text": "When does the delivery arrive?",
+    "display_sentence": "When does the delivery arrive?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "online_shopping",
+      "delivery"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "checkout",
+    "sentence_en": "The ___ line is very short.",
+    "sentence_ko": "계산대 줄이 짧아요.",
+    "meaning": "계산대",
+    "tts_text": "The checkout line is very short.",
+    "display_sentence": "The checkout line is very short.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "refund",
+    "sentence_en": "I'd like a ___ please.",
+    "sentence_ko": "환불받고 싶어요.",
+    "meaning": "환불",
+    "tts_text": "I'd like a refund please.",
+    "display_sentence": "I'd like a refund please.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "return",
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "coupon",
+    "sentence_en": "Do you accept this ___?",
+    "sentence_ko": "이 쿠폰 받으세요?",
+    "meaning": "쿠폰",
+    "tts_text": "Do you accept this coupon?",
+    "display_sentence": "Do you accept this coupon?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "discount",
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "in stock",
+    "sentence_en": "Is this item still ___?",
+    "sentence_ko": "이 상품 아직 재고 있나요?",
+    "meaning": "재고가 있는",
+    "tts_text": "Is this item still in stock?",
+    "display_sentence": "Is this item still in stock?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "shopping",
+      "availability"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get a refund",
+    "sentence_en": "I'd like to ___ for this.",
+    "sentence_ko": "이거 환불받고 싶어요.",
+    "meaning": "환불받다",
+    "tts_text": "I'd like to get a refund for this.",
+    "display_sentence": "I'd like to get a refund for this.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "return",
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "on sale",
+    "sentence_en": "These shoes are ___ this week.",
+    "sentence_ko": "이 신발은 이번 주에 세일해요.",
+    "meaning": "할인 중인",
+    "tts_text": "These shoes are on sale this week.",
+    "display_sentence": "These shoes are on sale this week.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "discount",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "exchange it",
+    "sentence_en": "Can I ___ for a different color?",
+    "sentence_ko": "다른 색으로 교환할 수 있나요?",
+    "meaning": "교환하다",
+    "tts_text": "Can I exchange it for a different color?",
+    "display_sentence": "Can I exchange it for a different color?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "return",
+      "exchange"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "afford",
+    "sentence_en": "I can't ___ such an expensive bag.",
+    "sentence_ko": "그렇게 비싼 가방은 살 형편이 안 돼요.",
+    "meaning": "~을 살 형편이 되다",
+    "tts_text": "I can't afford such an expensive bag.",
+    "display_sentence": "I can't afford such an expensive bag.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pricing",
+      "budget"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "proceed to checkout",
+    "sentence_en": "Please ___ to complete your purchase.",
+    "sentence_ko": "구매를 완료하려면 결제 단계로 넘어가세요.",
+    "meaning": "결제 단계로 넘어가다",
+    "tts_text": "Please proceed to checkout to complete your purchase.",
+    "display_sentence": "Please proceed to checkout to complete your purchase.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "online_shopping",
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "warranty",
+    "sentence_en": "Does it come with a ___?",
+    "sentence_ko": "보증서가 같이 오나요?",
+    "meaning": "보증(서)",
+    "tts_text": "Does it come with a warranty?",
+    "display_sentence": "Does it come with a warranty?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "purchase",
+      "product_info"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "sold out",
+    "sentence_en": "Sorry, that size is ___.",
+    "sentence_ko": "죄송해요, 그 사이즈는 품절이에요.",
+    "meaning": "품절된",
+    "tts_text": "Sorry, that size is sold out.",
+    "display_sentence": "Sorry, that size is sold out.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "shopping",
+      "availability"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "try on",
+    "sentence_en": "Where can I ___ these jeans?",
+    "sentence_ko": "이 청바지 어디서 입어 볼 수 있어요?",
+    "meaning": "입어 보다",
+    "tts_text": "Where can I try on these jeans?",
+    "display_sentence": "Where can I try on these jeans?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "clothing",
+      "fitting_room"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a real bargain",
+    "sentence_en": "This coat was ___.",
+    "sentence_ko": "이 코트는 정말 싸게 잘 산 거예요.",
+    "meaning": "정말 싸게 잘 산 물건",
+    "tts_text": "This coat was a real bargain.",
+    "display_sentence": "This coat was a real bargain.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pricing",
+      "discount"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "out of stock",
+    "sentence_en": "The item is currently ___.",
+    "sentence_ko": "그 상품은 현재 품절이에요.",
+    "meaning": "품절된",
+    "tts_text": "The item is currently out of stock.",
+    "display_sentence": "The item is currently out of stock.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "shopping",
+      "availability"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "place an order",
+    "sentence_en": "I'd like to ___ online.",
+    "sentence_ko": "온라인으로 주문하고 싶어요.",
+    "meaning": "주문하다",
+    "tts_text": "I'd like to place an order online.",
+    "display_sentence": "I'd like to place an order online.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "online_shopping",
+      "purchase"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "looking for",
+    "sentence_en": "I'm ___ a gift for my mom.",
+    "sentence_ko": "엄마 선물을 찾고 있어요.",
+    "meaning": "찾다",
+    "tts_text": "I'm looking for a gift for my mom.",
+    "display_sentence": "I'm looking for a gift for my mom.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "shopping",
+      "gifting"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "return policy",
+    "sentence_en": "What's your ___?",
+    "sentence_ko": "반품 규정이 어떻게 되나요?",
+    "meaning": "반품 규정",
+    "tts_text": "What's your return policy?",
+    "display_sentence": "What's your return policy?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "return",
+      "customer_service"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a good deal",
+    "sentence_en": "You got ___ on that.",
+    "sentence_ko": "그거 정말 잘 샀네요.",
+    "meaning": "좋은 거래, 싸게 사기",
+    "tts_text": "You got a good deal on that.",
+    "display_sentence": "You got a good deal on that.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pricing",
+      "discount"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pick up",
+    "sentence_en": "I'll ___ my order tomorrow.",
+    "sentence_ko": "제 주문은 내일 찾아갈게요.",
+    "meaning": "찾아가다, 수령하다",
+    "tts_text": "I'll pick up my order tomorrow.",
+    "display_sentence": "I'll pick up my order tomorrow.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "shopping",
+      "delivery"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "free shipping",
+    "sentence_en": "Orders over $50 get ___.",
+    "sentence_ko": "50달러 이상 주문은 무료 배송이에요.",
+    "meaning": "무료 배송",
+    "tts_text": "Orders over $50 get free shipping.",
+    "display_sentence": "Orders over $50 get free shipping.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "online_shopping",
+      "delivery"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "run out of",
+    "sentence_en": "We've ___ that model.",
+    "sentence_ko": "그 모델은 다 떨어졌어요.",
+    "meaning": "다 떨어지다",
+    "tts_text": "We've run out of that model.",
+    "display_sentence": "We've run out of that model.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "shopping",
+      "availability"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a coupon",
+    "sentence_en": "Do you have ___ for this?",
+    "sentence_ko": "이거 쓸 쿠폰 있어요?",
+    "meaning": "쿠폰",
+    "tts_text": "Do you have a coupon for this?",
+    "display_sentence": "Do you have a coupon for this?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "discount",
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "in cash",
+    "sentence_en": "I'd rather pay ___.",
+    "sentence_ko": "현금으로 내고 싶어요.",
+    "meaning": "현금으로",
+    "tts_text": "I'd rather pay in cash.",
+    "display_sentence": "I'd rather pay in cash.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "payment",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "brand new",
+    "sentence_en": "It's ___ in the box.",
+    "sentence_ko": "상자째 완전 새것이에요.",
+    "meaning": "완전 새것인",
+    "tts_text": "It's brand new in the box.",
+    "display_sentence": "It's brand new in the box.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "shopping",
+      "product_info"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "compare prices",
+    "sentence_en": "I always ___ before buying.",
+    "sentence_ko": "전 사기 전에 늘 가격을 비교해요.",
+    "meaning": "가격을 비교하다",
+    "tts_text": "I always compare prices before buying.",
+    "display_sentence": "I always compare prices before buying.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "shopping",
+      "pricing"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "on display",
+    "sentence_en": "The sample is ___ over there.",
+    "sentence_ko": "견본은 저쪽에 진열돼 있어요.",
+    "meaning": "진열된",
+    "tts_text": "The sample is on display over there.",
+    "display_sentence": "The sample is on display over there.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "shopping",
+      "browsing"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "ring up",
+    "sentence_en": "Let me ___ these items for you.",
+    "sentence_ko": "이 물건들 계산해 드릴게요.",
+    "meaning": "계산하다",
+    "tts_text": "Let me ring up these items for you.",
+    "display_sentence": "Let me ring up these items for you.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "payment",
+      "customer_service"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "stock up",
+    "sentence_en": "I want to ___ on snacks.",
+    "sentence_ko": "간식을 잔뜩 사 두고 싶어요.",
+    "meaning": "사재기하다, 잔뜩 사두다",
+    "tts_text": "I want to stock up on snacks.",
+    "display_sentence": "I want to stock up on snacks.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "grocery",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "shop online",
+    "sentence_en": "I prefer to ___ for clothes.",
+    "sentence_ko": "옷은 온라인으로 사는 걸 더 좋아해요.",
+    "meaning": "온라인으로 쇼핑하다",
+    "tts_text": "I prefer to shop online for clothes.",
+    "display_sentence": "I prefer to shop online for clothes.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "online_shopping",
+      "clothing"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "add to cart",
+    "sentence_en": "Just ___ and proceed to payment.",
+    "sentence_ko": "장바구니에 담고 결제하면 돼요.",
+    "meaning": "장바구니에 담다",
+    "tts_text": "Just add to cart and proceed to payment.",
+    "display_sentence": "Just add to cart and proceed to payment.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "online_shopping",
+      "purchase"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "track my order",
+    "sentence_en": "How can I ___ on the app?",
+    "sentence_ko": "앱에서 주문 배송 조회는 어떻게 하나요?",
+    "meaning": "주문을 추적하다",
+    "tts_text": "How can I track my order on the app?",
+    "display_sentence": "How can I track my order on the app?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "online_shopping",
+      "delivery"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "gift wrap",
+    "sentence_en": "Can you ___ this for me?",
+    "sentence_ko": "이거 선물 포장해 주실 수 있어요?",
+    "meaning": "선물 포장하다",
+    "tts_text": "Can you gift wrap this for me?",
+    "display_sentence": "Can you gift wrap this for me?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "gifting",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "loyalty card",
+    "sentence_en": "Do you have a ___ program?",
+    "sentence_ko": "적립 카드 프로그램이 있나요?",
+    "meaning": "적립 카드",
+    "tts_text": "Do you have a loyalty card program?",
+    "display_sentence": "Do you have a loyalty card program?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "membership",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "split the bill",
+    "sentence_en": "Can we ___ between two cards?",
+    "sentence_ko": "카드 두 장으로 나눠서 낼 수 있어요?",
+    "meaning": "계산을 나누다",
+    "tts_text": "Can we split the bill between two cards?",
+    "display_sentence": "Can we split the bill between two cards?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "payment",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "check out",
+    "sentence_en": "I'm ready to ___ now.",
+    "sentence_ko": "이제 계산하려고요.",
+    "meaning": "계산하다",
+    "tts_text": "I'm ready to check out now.",
+    "display_sentence": "I'm ready to check out now.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "payment",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "make a payment",
+    "sentence_en": "How would you like to ___?",
+    "sentence_ko": "어떻게 결제하시겠어요?",
+    "meaning": "결제하다",
+    "tts_text": "How would you like to make a payment?",
+    "display_sentence": "How would you like to make a payment?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "payment",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "price tag",
+    "sentence_en": "The ___ is still on this jacket.",
+    "sentence_ko": "이 재킷에 가격표가 아직 붙어 있어요.",
+    "meaning": "가격표",
+    "tts_text": "The price tag is still on this jacket.",
+    "display_sentence": "The price tag is still on this jacket.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "pricing"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "window shop",
+    "sentence_en": "I just want to ___ today.",
+    "sentence_ko": "오늘은 그냥 아이쇼핑만 하고 싶어요.",
+    "meaning": "아이쇼핑하다",
+    "tts_text": "I just want to window shop today.",
+    "display_sentence": "I just want to window shop today.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "browsing",
+      "leisure"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "saving up",
+    "sentence_en": "She's been ___ for months.",
+    "sentence_ko": "그녀는 몇 달째 돈을 모으고 있어요.",
+    "meaning": "저축 중인",
+    "tts_text": "She's been saving up for months.",
+    "display_sentence": "She's been saving up for months.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "budget",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "drop in price",
+    "sentence_en": "The TV is going to ___ after the holidays.",
+    "sentence_ko": "TV 가격은 연휴 이후에 내려갈 거예요.",
+    "meaning": "가격이 떨어지다",
+    "tts_text": "The TV is going to drop in price after the holidays.",
+    "display_sentence": "The TV is going to drop in price after the holidays.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pricing",
+      "online_shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "bulk buy",
+    "sentence_en": "It's cheaper if you ___.",
+    "sentence_ko": "대량으로 사면 더 저렴해요.",
+    "meaning": "대량 구매",
+    "tts_text": "It's cheaper if you bulk buy.",
+    "display_sentence": "It's cheaper if you bulk buy.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "grocery",
+      "discount"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "flash sale",
+    "sentence_en": "There's a ___ for the next hour.",
+    "sentence_ko": "앞으로 한 시간 동안 반짝 세일이 있어요.",
+    "meaning": "반짝 할인",
+    "tts_text": "There's a flash sale for the next hour.",
+    "display_sentence": "There's a flash sale for the next hour.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "discount",
+      "online_shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "make a list",
+    "sentence_en": "I always ___ before going grocery shopping.",
+    "sentence_ko": "장 보러 가기 전에 항상 목록을 만들어요.",
+    "meaning": "목록을 만들다",
+    "tts_text": "I always make a list before going grocery shopping.",
+    "display_sentence": "I always make a list before going grocery shopping.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "grocery",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "tap to pay",
+    "sentence_en": "Just ___ with your phone.",
+    "sentence_ko": "폰으로 탭해서 결제하면 돼요.",
+    "meaning": "탭으로 결제하다",
+    "tts_text": "Just tap to pay with your phone.",
+    "display_sentence": "Just tap to pay with your phone.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "payment",
+      "mobile"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "shopping spree",
+    "sentence_en": "We went on a ___ last weekend.",
+    "sentence_ko": "지난 주말에 쇼핑을 마음껏 했어요.",
+    "meaning": "쇼핑을 마음껏 하기",
+    "tts_text": "We went on a shopping spree last weekend.",
+    "display_sentence": "We went on a shopping spree last weekend.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "leisure",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "buy in bulk",
+    "sentence_en": "It's much cheaper to ___ at the warehouse.",
+    "sentence_ko": "창고에서 대량 구매하면 훨씬 저렴해요.",
+    "meaning": "대량으로 구매하다",
+    "tts_text": "It's much cheaper to buy in bulk at the warehouse.",
+    "display_sentence": "It's much cheaper to buy in bulk at the warehouse.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "grocery",
+      "discount"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "apply a promo code",
+    "sentence_en": "Don't forget to ___ at checkout.",
+    "sentence_ko": "결제할 때 프로모 코드 입력하는 거 잊지 마세요.",
+    "meaning": "프로모 코드를 적용하다",
+    "tts_text": "Don't forget to apply a promo code at checkout.",
+    "display_sentence": "Don't forget to apply a promo code at checkout.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "online_shopping",
+      "discount"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a steal",
+    "sentence_en": "At that price, it's ___.",
+    "sentence_ko": "그 가격이면 거저나 마찬가지예요.",
+    "meaning": "거저, 아주 싼 것",
+    "tts_text": "At that price, it's a steal.",
+    "display_sentence": "At that price, it's a steal.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "pricing",
+      "discount"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "splurge on",
+    "sentence_en": "I decided to ___ a designer coat.",
+    "sentence_ko": "큰맘 먹고 명품 코트를 샀어요.",
+    "meaning": "큰돈을 쓰다",
+    "tts_text": "I decided to splurge on a designer coat.",
+    "display_sentence": "I decided to splurge on a designer coat.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "luxury",
+      "purchase"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "haggle over",
+    "sentence_en": "It's rude to ___ the price here.",
+    "sentence_ko": "여기서 가격을 흥정하는 건 무례해요.",
+    "meaning": "값을 흥정하다",
+    "tts_text": "It's rude to haggle over the price here.",
+    "display_sentence": "It's rude to haggle over the price here.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pricing",
+      "negotiation"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "buyer's remorse",
+    "sentence_en": "I had ___ after the purchase.",
+    "sentence_ko": "구매 후에 후회가 밀려왔어요.",
+    "meaning": "구매 후 후회",
+    "tts_text": "I had buyer's remorse after the purchase.",
+    "display_sentence": "I had buyer's remorse after the purchase.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "purchase",
+      "regret"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "break the bank",
+    "sentence_en": "A nice dinner won't ___.",
+    "sentence_ko": "근사한 저녁 한 끼가 큰돈 드는 건 아니에요.",
+    "meaning": "큰돈이 들다",
+    "tts_text": "A nice dinner won't break the bank.",
+    "display_sentence": "A nice dinner won't break the bank.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "budget",
+      "pricing"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "value for money",
+    "sentence_en": "This laptop is great ___.",
+    "sentence_ko": "이 노트북은 가성비가 훌륭해요.",
+    "meaning": "가성비",
+    "tts_text": "This laptop is great value for money.",
+    "display_sentence": "This laptop is great value for money.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pricing",
+      "product_info"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "impulse buy",
+    "sentence_en": "That gadget was a total ___.",
+    "sentence_ko": "그 기기는 완전 충동구매였어요.",
+    "meaning": "충동구매",
+    "tts_text": "That gadget was a total impulse buy.",
+    "display_sentence": "That gadget was a total impulse buy.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "purchase",
+      "impulse"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on a budget",
+    "sentence_en": "I'm shopping ___ this month.",
+    "sentence_ko": "이번 달은 예산을 아끼며 쇼핑해요.",
+    "meaning": "빠듯한 예산으로",
+    "tts_text": "I'm shopping on a budget this month.",
+    "display_sentence": "I'm shopping on a budget this month.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "budget",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "cost an arm and a leg",
+    "sentence_en": "That watch ___.",
+    "sentence_ko": "그 시계는 엄청 비쌌어요.",
+    "meaning": "엄청 비싸다",
+    "tts_text": "That watch cost an arm and a leg.",
+    "display_sentence": "That watch cost an arm and a leg.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "pricing",
+      "luxury"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "window shopping",
+    "sentence_en": "We spent the afternoon ___.",
+    "sentence_ko": "우리는 오후 내내 아이쇼핑을 했어요.",
+    "meaning": "아이쇼핑",
+    "tts_text": "We spent the afternoon window shopping.",
+    "display_sentence": "We spent the afternoon window shopping.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "browsing",
+      "leisure"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "worth every penny",
+    "sentence_en": "This sofa was ___.",
+    "sentence_ko": "이 소파는 값을 톡톡히 했어요.",
+    "meaning": "돈값을 하는",
+    "tts_text": "This sofa was worth every penny.",
+    "display_sentence": "This sofa was worth every penny.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "pricing",
+      "purchase"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a rip-off",
+    "sentence_en": "Honestly, that's ___.",
+    "sentence_ko": "솔직히 그건 바가지예요.",
+    "meaning": "바가지",
+    "tts_text": "Honestly, that's a rip-off.",
+    "display_sentence": "Honestly, that's a rip-off.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "pricing",
+      "complaint"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "knock off",
+    "sentence_en": "Could you ___ a few dollars?",
+    "sentence_ko": "몇 달러 좀 깎아 주실 수 있어요?",
+    "meaning": "값을 깎다",
+    "tts_text": "Could you knock off a few dollars?",
+    "display_sentence": "Could you knock off a few dollars?",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "negotiation",
+      "pricing"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "shop around",
+    "sentence_en": "You should ___ before deciding.",
+    "sentence_ko": "결정 전에 여기저기 둘러보는 게 좋아요.",
+    "meaning": "여러 곳을 둘러보다",
+    "tts_text": "You should shop around before deciding.",
+    "display_sentence": "You should shop around before deciding.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "shopping",
+      "comparison"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on clearance",
+    "sentence_en": "These boots are ___.",
+    "sentence_ko": "이 부츠는 재고 정리 세일 중이에요.",
+    "meaning": "재고 정리 할인 중인",
+    "tts_text": "These boots are on clearance.",
+    "display_sentence": "These boots are on clearance.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "discount",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "set me back",
+    "sentence_en": "The repair ___ a fortune.",
+    "sentence_ko": "그 수리비가 큰돈이 들었어요.",
+    "meaning": "(비용이) ~나 들다",
+    "tts_text": "The repair set me back a fortune.",
+    "display_sentence": "The repair set me back a fortune.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pricing",
+      "expense"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "tighten my belt",
+    "sentence_en": "I need to ___ this year.",
+    "sentence_ko": "올해는 허리띠를 졸라매야 해요.",
+    "meaning": "허리띠를 졸라매다",
+    "tts_text": "I need to tighten my belt this year.",
+    "display_sentence": "I need to tighten my belt this year.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "budget",
+      "expense"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "at a premium",
+    "sentence_en": "Tickets are selling ___.",
+    "sentence_ko": "표가 웃돈을 얹어 팔리고 있어요.",
+    "meaning": "웃돈이 붙어",
+    "tts_text": "Tickets are selling at a premium.",
+    "display_sentence": "Tickets are selling at a premium.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "pricing",
+      "luxury"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "dirt cheap",
+    "sentence_en": "I got it ___ at the market.",
+    "sentence_ko": "시장에서 아주 싸게 샀어요.",
+    "meaning": "아주 싼",
+    "tts_text": "I got it dirt cheap at the market.",
+    "display_sentence": "I got it dirt cheap at the market.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "pricing",
+      "discount"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a hidden gem",
+    "sentence_en": "That little shop is ___.",
+    "sentence_ko": "그 작은 가게는 숨은 보석 같아요.",
+    "meaning": "숨은 명소",
+    "tts_text": "That little shop is a hidden gem.",
+    "display_sentence": "That little shop is a hidden gem.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "recommendation"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "haggled down",
+    "sentence_en": "She ___ the price to half.",
+    "sentence_ko": "그녀는 흥정해서 가격을 절반으로 깎았어요.",
+    "meaning": "흥정해서 값을 내린",
+    "tts_text": "She haggled down the price to half.",
+    "display_sentence": "She haggled down the price to half.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "negotiation",
+      "pricing"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "burning a hole in my pocket",
+    "sentence_en": "This bonus is ___.",
+    "sentence_ko": "이 보너스가 자꾸 쓰고 싶게 만드네요.",
+    "meaning": "돈을 자꾸 쓰게 만들다",
+    "tts_text": "This bonus is burning a hole in my pocket.",
+    "display_sentence": "This bonus is burning a hole in my pocket.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "budget",
+      "impulse"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "paid through the nose",
+    "sentence_en": "We ___ for parking downtown.",
+    "sentence_ko": "시내 주차에 바가지를 썼어요.",
+    "meaning": "바가지를 쓰다",
+    "tts_text": "We paid through the nose for parking downtown.",
+    "display_sentence": "We paid through the nose for parking downtown.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "expense",
+      "complaint"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a spending spree",
+    "sentence_en": "She went on ___ after payday.",
+    "sentence_ko": "그녀는 월급날 이후 펑펑 썼어요.",
+    "meaning": "돈을 마구 쓰기",
+    "tts_text": "She went on a spending spree after payday.",
+    "display_sentence": "She went on a spending spree after payday.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "impulse"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get your money's worth",
+    "sentence_en": "Use it daily to ___.",
+    "sentence_ko": "매일 써서 본전을 뽑으세요.",
+    "meaning": "본전을 뽑다",
+    "tts_text": "Use it daily to get your money's worth.",
+    "display_sentence": "Use it daily to get your money's worth.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "purchase",
+      "value"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "go over budget",
+    "sentence_en": "I didn't mean to ___ this month.",
+    "sentence_ko": "이번 달에 예산을 초과할 생각은 없었어요.",
+    "meaning": "예산을 초과하다",
+    "tts_text": "I didn't mean to go over budget this month.",
+    "display_sentence": "I didn't mean to go over budget this month.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "budget",
+      "expense"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "cut back on spending",
+    "sentence_en": "I'm trying to ___ this quarter.",
+    "sentence_ko": "이번 분기에 지출을 줄이려고 노력 중이에요.",
+    "meaning": "지출을 줄이다",
+    "tts_text": "I'm trying to cut back on spending this quarter.",
+    "display_sentence": "I'm trying to cut back on spending this quarter.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "budget",
+      "expense"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "treat myself",
+    "sentence_en": "I decided to ___ to a spa day.",
+    "sentence_ko": "스파에서 하루를 즐기기로 했어요.",
+    "meaning": "자신에게 선물하다",
+    "tts_text": "I decided to treat myself to a spa day.",
+    "display_sentence": "I decided to treat myself to a spa day.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "luxury",
+      "self_care"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "snap up",
+    "sentence_en": "I had to ___ that deal before it was gone.",
+    "sentence_ko": "사라지기 전에 그 특가를 재빨리 잡아야 했어요.",
+    "meaning": "재빨리 낚아채다",
+    "tts_text": "I had to snap up that deal before it was gone.",
+    "display_sentence": "I had to snap up that deal before it was gone.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "discount",
+      "online_shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "cash in on",
+    "sentence_en": "Retailers love to ___ the holiday rush.",
+    "sentence_ko": "소매업체들은 연휴 대목을 이용해 수익을 챙기기 좋아해요.",
+    "meaning": "~을 이용해 돈을 벌다",
+    "tts_text": "Retailers love to cash in on the holiday rush.",
+    "display_sentence": "Retailers love to cash in on the holiday rush.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "business",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "trade in",
+    "sentence_en": "You can ___ your old phone for credit.",
+    "sentence_ko": "구형 폰을 반납하고 크레딧을 받을 수 있어요.",
+    "meaning": "보상 판매하다",
+    "tts_text": "You can trade in your old phone for credit.",
+    "display_sentence": "You can trade in your old phone for credit.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "exchange",
+      "purchase"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "price match",
+    "sentence_en": "Can you ___ the deal I found online?",
+    "sentence_ko": "온라인에서 찾은 가격으로 맞춰 주실 수 있어요?",
+    "meaning": "가격을 맞추다",
+    "tts_text": "Can you price match the deal I found online?",
+    "display_sentence": "Can you price match the deal I found online?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pricing",
+      "negotiation"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "in the red",
+    "sentence_en": "I went ___ after all that holiday shopping.",
+    "sentence_ko": "연휴 쇼핑을 다 하고 나서 적자가 됐어요.",
+    "meaning": "적자인, 빚진",
+    "tts_text": "I went in the red after all that holiday shopping.",
+    "display_sentence": "I went in the red after all that holiday shopping.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "budget",
+      "expense"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "rack up debt",
+    "sentence_en": "It's easy to ___ with a new credit card.",
+    "sentence_ko": "새 신용카드로 빚을 쌓기는 쉬워요.",
+    "meaning": "빚을 쌓다",
+    "tts_text": "It's easy to rack up debt with a new credit card.",
+    "display_sentence": "It's easy to rack up debt with a new credit card.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "payment",
+      "budget"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "marked down",
+    "sentence_en": "All the winter coats have been ___.",
+    "sentence_ko": "겨울 코트가 전부 가격이 내려갔어요.",
+    "meaning": "가격이 인하된",
+    "tts_text": "All the winter coats have been marked down.",
+    "display_sentence": "All the winter coats have been marked down.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "discount",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "an eye-catching display",
+    "sentence_en": "The store had ___ right at the entrance.",
+    "sentence_ko": "가게 입구 바로 앞에 눈을 사로잡는 진열이 있었어요.",
+    "meaning": "눈길을 끄는 진열",
+    "tts_text": "The store had an eye-catching display right at the entrance.",
+    "display_sentence": "The store had an eye-catching display right at the entrance.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "browsing",
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "money-back guarantee",
+    "sentence_en": "They offer a ___ on all products.",
+    "sentence_ko": "모든 제품에 환불 보장을 제공해요.",
+    "meaning": "환불 보장",
+    "tts_text": "They offer a money-back guarantee on all products.",
+    "display_sentence": "They offer a money-back guarantee on all products.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "return",
+      "customer_service"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "penny-pinching",
+    "sentence_en": "I've been ___ all month to save for the trip.",
+    "sentence_ko": "여행 비용 모으려고 한 달 내내 알뜰살뜰하게 살았어요.",
+    "meaning": "아주 검소한",
+    "tts_text": "I've been penny-pinching all month to save for the trip.",
+    "display_sentence": "I've been penny-pinching all month to save for the trip.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "budget",
+      "saving"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "sticker shock",
+    "sentence_en": "I had ___ when I saw the price.",
+    "sentence_ko": "가격을 보고 깜짝 놀랐어요.",
+    "meaning": "가격을 보고 받는 충격",
+    "tts_text": "I had sticker shock when I saw the price.",
+    "display_sentence": "I had sticker shock when I saw the price.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "pricing",
+      "complaint"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "comparison shopping",
+    "sentence_en": "I always do ___ before a big purchase.",
+    "sentence_ko": "큰 구매 전에 항상 가격 비교를 해요.",
+    "meaning": "가격 비교 쇼핑",
+    "tts_text": "I always do comparison shopping before a big purchase.",
+    "display_sentence": "I always do comparison shopping before a big purchase.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "online_shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "shop",
+    "sentence_en": "I like to ___ on weekends.",
+    "sentence_ko": "저는 주말에 쇼핑하는 걸 좋아해요.",
+    "meaning": "쇼핑하다",
+    "tts_text": "I like to shop on weekends.",
+    "display_sentence": "I like to shop on weekends.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "spend",
+    "sentence_en": "How much did you ___?",
+    "sentence_ko": "얼마나 썼어요?",
+    "meaning": "(돈을) 쓰다",
+    "tts_text": "How much did you spend?",
+    "display_sentence": "How much did you spend?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "fit",
+    "sentence_en": "Does this jacket ___?",
+    "sentence_ko": "이 재킷 잘 맞아요?",
+    "meaning": "(옷이) 맞다",
+    "tts_text": "Does this jacket fit?",
+    "display_sentence": "Does this jacket fit?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "clothing"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "basket",
+    "sentence_en": "I'll grab a ___.",
+    "sentence_ko": "바구니 하나 가져올게요.",
+    "meaning": "장바구니",
+    "tts_text": "I'll grab a basket.",
+    "display_sentence": "I'll grab a basket.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "store"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "shelf",
+    "sentence_en": "It's on the top ___.",
+    "sentence_ko": "맨 위 선반에 있어요.",
+    "meaning": "선반",
+    "tts_text": "It's on the top shelf.",
+    "display_sentence": "It's on the top shelf.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "store"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "aisle",
+    "sentence_en": "It's in the next ___.",
+    "sentence_ko": "다음 통로에 있어요.",
+    "meaning": "(상점) 통로",
+    "tts_text": "It's in the next aisle.",
+    "display_sentence": "It's in the next aisle.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "store"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "fresh",
+    "sentence_en": "Is this fruit ___?",
+    "sentence_ko": "이 과일 신선한가요?",
+    "meaning": "신선한",
+    "tts_text": "Is this fruit fresh?",
+    "display_sentence": "Is this fruit fresh?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "groceries"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pay by card",
+    "sentence_en": "Can I ___?",
+    "sentence_ko": "카드로 결제해도 되나요?",
+    "meaning": "카드로 결제하다",
+    "tts_text": "Can I pay by card?",
+    "display_sentence": "Can I pay by card?",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "keep the receipt",
+    "sentence_en": "Make sure to ___.",
+    "sentence_ko": "영수증을 꼭 챙기세요.",
+    "meaning": "영수증을 보관하다",
+    "tts_text": "Make sure to keep the receipt.",
+    "display_sentence": "Make sure to keep the receipt.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "ask for a discount",
+    "sentence_en": "You can always ___.",
+    "sentence_ko": "할인해 달라고 물어봐도 돼요.",
+    "meaning": "할인을 요청하다",
+    "tts_text": "You can always ask for a discount.",
+    "display_sentence": "You can always ask for a discount.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "bargain"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "browse around",
+    "sentence_en": "I'm just going to ___.",
+    "sentence_ko": "그냥 좀 둘러볼게요.",
+    "meaning": "둘러보다",
+    "tts_text": "I'm just going to browse around.",
+    "display_sentence": "I'm just going to browse around.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "store"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "put it back",
+    "sentence_en": "I'll just ___ then.",
+    "sentence_ko": "그럼 그냥 다시 갖다 놓을게요.",
+    "meaning": "제자리에 다시 놓다",
+    "tts_text": "I'll just put it back then.",
+    "display_sentence": "I'll just put it back then.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "store"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pick out",
+    "sentence_en": "Help me ___ a gift.",
+    "sentence_ko": "선물 고르는 것 좀 도와줘요.",
+    "meaning": "고르다",
+    "tts_text": "Help me pick out a gift.",
+    "display_sentence": "Help me pick out a gift.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "go shopping",
+    "sentence_en": "Let's ___ this afternoon.",
+    "sentence_ko": "오후에 쇼핑하러 가요.",
+    "meaning": "쇼핑하러 가다",
+    "tts_text": "Let's go shopping this afternoon.",
+    "display_sentence": "Let's go shopping this afternoon.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "grab a bargain",
+    "sentence_en": "I managed to ___.",
+    "sentence_ko": "저렴하게 잘 건졌어요.",
+    "meaning": "싸게 잘 사다",
+    "tts_text": "I managed to grab a bargain.",
+    "display_sentence": "I managed to grab a bargain.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "bargain"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get a good price",
+    "sentence_en": "I hope to ___ on it.",
+    "sentence_ko": "그걸 좋은 가격에 사고 싶어요.",
+    "meaning": "좋은 가격에 사다",
+    "tts_text": "I hope to get a good price on it.",
+    "display_sentence": "I hope to get a good price on it.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "bargain"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "shop for",
+    "sentence_en": "I need to ___ a new coat.",
+    "sentence_ko": "새 코트를 사러 가야 해요.",
+    "meaning": "~을 사러 다니다",
+    "tts_text": "I need to shop for a new coat.",
+    "display_sentence": "I need to shop for a new coat.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "look around",
+    "sentence_en": "Feel free to ___.",
+    "sentence_ko": "편하게 둘러보세요.",
+    "meaning": "둘러보다",
+    "tts_text": "Feel free to look around.",
+    "display_sentence": "Feel free to look around.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "store"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pay full price",
+    "sentence_en": "I never ___ for clothes.",
+    "sentence_ko": "저는 옷을 제값 주고 사는 법이 없어요.",
+    "meaning": "제값을 다 주고 사다",
+    "tts_text": "I never pay full price for clothes.",
+    "display_sentence": "I never pay full price for clothes.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get it gift-wrapped",
+    "sentence_en": "Could I ___?",
+    "sentence_ko": "선물 포장을 해 주실 수 있나요?",
+    "meaning": "선물 포장을 받다",
+    "tts_text": "Could I get it gift-wrapped?",
+    "display_sentence": "Could I get it gift-wrapped?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "gift"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "buy on sale",
+    "sentence_en": "I always try to ___.",
+    "sentence_ko": "저는 항상 세일할 때 사려고 해요.",
+    "meaning": "세일할 때 사다",
+    "tts_text": "I always try to buy on sale.",
+    "display_sentence": "I always try to buy on sale.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "bargain"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "check the price",
+    "sentence_en": "Let me ___ first.",
+    "sentence_ko": "먼저 가격 좀 볼게요.",
+    "meaning": "가격을 확인하다",
+    "tts_text": "Let me check the price first.",
+    "display_sentence": "Let me check the price first.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "store"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "scan the barcode",
+    "sentence_en": "Just ___ at the kiosk.",
+    "sentence_ko": "키오스크에서 바코드를 찍기만 하면 돼요.",
+    "meaning": "바코드를 스캔하다",
+    "tts_text": "Just scan the barcode at the kiosk.",
+    "display_sentence": "Just scan the barcode at the kiosk.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "queue up",
+    "sentence_en": "We had to ___ for an hour.",
+    "sentence_ko": "우리는 한 시간이나 줄을 서야 했어요.",
+    "meaning": "줄을 서다",
+    "tts_text": "We had to queue up for an hour.",
+    "display_sentence": "We had to queue up for an hour.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "store"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "wait in line",
+    "sentence_en": "You'll have to ___.",
+    "sentence_ko": "줄을 서서 기다리셔야 해요.",
+    "meaning": "줄을 서서 기다리다",
+    "tts_text": "You'll have to wait in line.",
+    "display_sentence": "You'll have to wait in line.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "store"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "use a gift card",
+    "sentence_en": "Can I ___ for this?",
+    "sentence_ko": "이거 기프트 카드로 살 수 있나요?",
+    "meaning": "기프트 카드를 사용하다",
+    "tts_text": "Can I use a gift card for this?",
+    "display_sentence": "Can I use a gift card for this?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "earn points",
+    "sentence_en": "You ___ on every purchase.",
+    "sentence_ko": "구매할 때마다 포인트가 적립돼요.",
+    "meaning": "포인트를 적립하다",
+    "tts_text": "You earn points on every purchase.",
+    "display_sentence": "You earn points on every purchase.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "leave a review",
+    "sentence_en": "Don't forget to ___.",
+    "sentence_ko": "후기 남기는 거 잊지 마세요.",
+    "meaning": "후기를 남기다",
+    "tts_text": "Don't forget to leave a review.",
+    "display_sentence": "Don't forget to leave a review.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "online"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get store credit",
+    "sentence_en": "You can ___ instead.",
+    "sentence_ko": "대신 매장 적립금을 받을 수 있어요.",
+    "meaning": "매장 적립금을 받다",
+    "tts_text": "You can get store credit instead.",
+    "display_sentence": "You can get store credit instead.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "refund"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "exchange for",
+    "sentence_en": "Can I ___ a bigger size?",
+    "sentence_ko": "더 큰 사이즈로 교환할 수 있나요?",
+    "meaning": "~으로 교환하다",
+    "tts_text": "Can I exchange for a bigger size?",
+    "display_sentence": "Can I exchange for a bigger size?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "refund"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "return for a refund",
+    "sentence_en": "I'd like to ___.",
+    "sentence_ko": "환불을 위해 반품하고 싶어요.",
+    "meaning": "환불을 위해 반품하다",
+    "tts_text": "I'd like to return for a refund.",
+    "display_sentence": "I'd like to return for a refund.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "refund"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "try a smaller size",
+    "sentence_en": "Could I ___?",
+    "sentence_ko": "더 작은 사이즈로 입어 볼 수 있을까요?",
+    "meaning": "더 작은 사이즈를 입어 보다",
+    "tts_text": "Could I try a smaller size?",
+    "display_sentence": "Could I try a smaller size?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "clothing"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pay in installments",
+    "sentence_en": "Can I ___?",
+    "sentence_ko": "할부로 결제할 수 있나요?",
+    "meaning": "할부로 결제하다",
+    "tts_text": "Can I pay in installments?",
+    "display_sentence": "Can I pay in installments?",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "pinch pennies",
+    "sentence_en": "We've had to ___ lately.",
+    "sentence_ko": "요즘 우리는 한 푼이라도 아껴야 했어요.",
+    "meaning": "한 푼이라도 아끼다",
+    "tts_text": "We've had to pinch pennies lately.",
+    "display_sentence": "We've had to pinch pennies lately.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "budget"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "live within your means",
+    "sentence_en": "It's wise to ___.",
+    "sentence_ko": "분수에 맞게 사는 게 현명해요.",
+    "meaning": "분수에 맞게 살다",
+    "tts_text": "It's wise to live within your means.",
+    "display_sentence": "It's wise to live within your means.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "budget"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "stretch your budget",
+    "sentence_en": "These tips help you ___.",
+    "sentence_ko": "이 팁들은 예산을 늘려 쓰는 데 도움이 돼요.",
+    "meaning": "예산을 알뜰하게 늘려 쓰다",
+    "tts_text": "These tips help you stretch your budget.",
+    "display_sentence": "These tips help you stretch your budget.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "budget"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a big-ticket item",
+    "sentence_en": "A fridge is ___.",
+    "sentence_ko": "냉장고는 고가품이에요.",
+    "meaning": "고가품",
+    "tts_text": "A fridge is a big-ticket item.",
+    "display_sentence": "A fridge is a big-ticket item.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "watch your spending",
+    "sentence_en": "You should ___ this month.",
+    "sentence_ko": "이번 달은 지출을 조심하는 게 좋아요.",
+    "meaning": "지출을 조심하다",
+    "tts_text": "You should watch your spending this month.",
+    "display_sentence": "You should watch your spending this month.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "budget"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "think twice about",
+    "sentence_en": "I'd ___ that purchase.",
+    "sentence_ko": "그 구매는 다시 한번 생각해 보겠어요.",
+    "meaning": "~을 다시 한번 신중히 생각하다",
+    "tts_text": "I'd think twice about that purchase.",
+    "display_sentence": "I'd think twice about that purchase.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "budget"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "hold off on buying",
+    "sentence_en": "Let's ___ for now.",
+    "sentence_ko": "지금은 사는 걸 좀 미뤄요.",
+    "meaning": "사는 것을 미루다",
+    "tts_text": "Let's hold off on buying for now.",
+    "display_sentence": "Let's hold off on buying for now.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "budget"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "wait for the sale",
+    "sentence_en": "I'd rather ___.",
+    "sentence_ko": "저는 차라리 세일을 기다리겠어요.",
+    "meaning": "세일을 기다리다",
+    "tts_text": "I'd rather wait for the sale.",
+    "display_sentence": "I'd rather wait for the sale.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "bargain"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a money pit",
+    "sentence_en": "That car is ___.",
+    "sentence_ko": "그 차는 돈 먹는 하마예요.",
+    "meaning": "돈 먹는 하마",
+    "tts_text": "That car is a money pit.",
+    "display_sentence": "That car is a money pit.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "budget"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "worth the splurge",
+    "sentence_en": "This bag is ___.",
+    "sentence_ko": "이 가방은 큰맘 먹고 살 만해요.",
+    "meaning": "큰맘 먹고 살 만한",
+    "tts_text": "This bag is worth the splurge.",
+    "display_sentence": "This bag is worth the splurge.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a fair price",
+    "sentence_en": "That sounds like ___.",
+    "sentence_ko": "그 정도면 적정한 가격 같네요.",
+    "meaning": "적정한 가격",
+    "tts_text": "That sounds like a fair price.",
+    "display_sentence": "That sounds like a fair price.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "bargain"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "negotiate the price",
+    "sentence_en": "You can try to ___.",
+    "sentence_ko": "가격을 흥정해 볼 수 있어요.",
+    "meaning": "가격을 흥정하다",
+    "tts_text": "You can try to negotiate the price.",
+    "display_sentence": "You can try to negotiate the price.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "bargain"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get more bang for your buck",
+    "sentence_en": "This deal lets you ___.",
+    "sentence_ko": "이 상품은 본전을 더 뽑게 해줘요.",
+    "meaning": "투자한 돈값을 더 뽑다",
+    "tts_text": "This deal lets you get more bang for your buck.",
+    "display_sentence": "This deal lets you get more bang for your buck.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "bargain"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a once-in-a-lifetime deal",
+    "sentence_en": "This is ___.",
+    "sentence_ko": "이건 평생 한 번 올까 말까 한 기회예요.",
+    "meaning": "평생 한 번뿐인 특가",
+    "tts_text": "This is a once-in-a-lifetime deal.",
+    "display_sentence": "This is a once-in-a-lifetime deal.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "bargain"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "an impulse purchase",
+    "sentence_en": "It was totally ___.",
+    "sentence_ko": "그건 완전히 충동구매였어요.",
+    "meaning": "충동구매",
+    "tts_text": "It was totally an impulse purchase.",
+    "display_sentence": "It was totally an impulse purchase.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "budget"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "retail therapy",
+    "sentence_en": "I needed some ___.",
+    "sentence_ko": "저는 기분 전환용 쇼핑이 좀 필요했어요.",
+    "meaning": "기분 전환용 쇼핑",
+    "tts_text": "I needed some retail therapy.",
+    "display_sentence": "I needed some retail therapy.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "the going rate",
+    "sentence_en": "That's about ___.",
+    "sentence_ko": "그게 대략 시세예요.",
+    "meaning": "시세, 통상 가격",
+    "tts_text": "That's about the going rate.",
+    "display_sentence": "That's about the going rate.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "bargain"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a premium brand",
+    "sentence_en": "They only buy ___.",
+    "sentence_ko": "그들은 고급 브랜드만 사요.",
+    "meaning": "고급 브랜드",
+    "tts_text": "They only buy a premium brand.",
+    "display_sentence": "They only buy a premium brand.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a counterfeit",
+    "sentence_en": "Watch out for ___.",
+    "sentence_ko": "위조품을 조심하세요.",
+    "meaning": "위조품, 가짜",
+    "tts_text": "Watch out for a counterfeit.",
+    "display_sentence": "Watch out for a counterfeit.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "online"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "overpriced",
+    "sentence_en": "That café is so ___.",
+    "sentence_ko": "그 카페는 너무 비싸요.",
+    "meaning": "값이 너무 비싼",
+    "tts_text": "That café is so overpriced.",
+    "display_sentence": "That café is so overpriced.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "within budget",
+    "sentence_en": "Let's keep it ___.",
+    "sentence_ko": "예산 안에서 해결합시다.",
+    "meaning": "예산 안에서",
+    "tts_text": "Let's keep it within budget.",
+    "display_sentence": "Let's keep it within budget.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "budget"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a no-brainer",
+    "sentence_en": "At that price, it's ___.",
+    "sentence_ko": "그 가격이면 고민할 것도 없어요.",
+    "meaning": "고민할 것도 없는 일",
+    "tts_text": "At that price, it's a no-brainer.",
+    "display_sentence": "At that price, it's a no-brainer.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "bargain"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "second-hand",
+    "sentence_en": "I bought it ___.",
+    "sentence_ko": "저는 그걸 중고로 샀어요.",
+    "meaning": "중고의",
+    "tts_text": "I bought it second-hand.",
+    "display_sentence": "I bought it second-hand.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "weigh the cost",
+    "sentence_en": "You should ___ first.",
+    "sentence_ko": "먼저 비용을 잘 따져 봐야 해요.",
+    "meaning": "비용을 따져 보다",
+    "tts_text": "You should weigh the cost first.",
+    "display_sentence": "You should weigh the cost first.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "budget"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bargain hunter",
+    "sentence_en": "She's a real ___.",
+    "sentence_ko": "그녀는 진짜 알뜰 쇼핑족이에요.",
+    "meaning": "알뜰 쇼핑족",
+    "tts_text": "She's a real bargain hunter.",
+    "display_sentence": "She's a real bargain hunter.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "bargain"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "over the odds",
+    "sentence_en": "We ended up paying ___.",
+    "sentence_ko": "우리는 결국 바가지를 썼어요.",
+    "meaning": "(시세보다) 비싸게",
+    "tts_text": "We ended up paying over the odds.",
+    "display_sentence": "We ended up paying over the odds.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "loyalty program",
+    "sentence_en": "They have a great ___.",
+    "sentence_ko": "그곳은 멤버십 적립 제도가 아주 좋아요.",
+    "meaning": "단골 우대/적립 제도",
+    "tts_text": "They have a great loyalty program.",
+    "display_sentence": "They have a great loyalty program.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "shop till you drop",
+    "sentence_en": "Let us ___ this weekend.",
+    "sentence_ko": "이번 주말엔 지칠 때까지 쇼핑하자.",
+    "meaning": "지칠 때까지 쇼핑하다",
+    "tts_text": "Let us shop till you drop this weekend.",
+    "display_sentence": "Let us shop till you drop this weekend.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "free returns",
+    "sentence_en": "They offer ___.",
+    "sentence_ko": "그곳은 무료 반품을 제공해요.",
+    "meaning": "무료 반품",
+    "tts_text": "They offer free returns.",
+    "display_sentence": "They offer free returns.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "online",
+      "refund"
+    ]
+  },
+  {
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a flash deal",
+    "sentence_en": "I grabbed ___.",
+    "sentence_ko": "저는 반짝 특가를 잡았어요.",
+    "meaning": "반짝 특가",
+    "tts_text": "I grabbed a flash deal.",
+    "display_sentence": "I grabbed a flash deal.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "bargain",
+      "online"
+    ]
+  }
+]

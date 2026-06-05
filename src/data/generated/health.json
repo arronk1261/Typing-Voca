@@ -1,0 +1,3731 @@
+[
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sick",
+    "sentence_en": "I feel ___ today.",
+    "sentence_ko": "오늘 몸이 안 좋아요.",
+    "meaning": "아픈",
+    "tts_text": "I feel sick today.",
+    "display_sentence": "I feel sick today.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "doctor",
+    "sentence_en": "I need to see a ___.",
+    "sentence_ko": "의사를 만나야 해요.",
+    "meaning": "의사",
+    "tts_text": "I need to see a doctor.",
+    "display_sentence": "I need to see a doctor.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "hospital",
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hurts",
+    "sentence_en": "My back really ___.",
+    "sentence_ko": "허리가 정말 아파요.",
+    "meaning": "아프다",
+    "tts_text": "My back really hurts.",
+    "display_sentence": "My back really hurts.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "pain",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "rest",
+    "sentence_en": "You should get some ___.",
+    "sentence_ko": "좀 쉬어야 해요.",
+    "meaning": "휴식",
+    "tts_text": "You should get some rest.",
+    "display_sentence": "You should get some rest.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "recovery",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "medicine",
+    "sentence_en": "Take this ___ twice a day.",
+    "sentence_ko": "이 약을 하루에 두 번 드세요.",
+    "meaning": "약",
+    "tts_text": "Take this medicine twice a day.",
+    "display_sentence": "Take this medicine twice a day.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "pharmacy",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "headache",
+    "sentence_en": "I have a bad ___.",
+    "sentence_ko": "두통이 심해요.",
+    "meaning": "두통",
+    "tts_text": "I have a bad headache.",
+    "display_sentence": "I have a bad headache.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "pain",
+      "illness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "better",
+    "sentence_en": "I feel ___ now.",
+    "sentence_ko": "이제 좀 나아요.",
+    "meaning": "더 나은",
+    "tts_text": "I feel better now.",
+    "display_sentence": "I feel better now.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "recovery",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "cold",
+    "sentence_en": "I caught a ___.",
+    "sentence_ko": "감기에 걸렸어요.",
+    "meaning": "감기",
+    "tts_text": "I caught a cold.",
+    "display_sentence": "I caught a cold.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "fever",
+    "sentence_en": "She has a high ___.",
+    "sentence_ko": "그녀는 고열이 있어요.",
+    "meaning": "열",
+    "tts_text": "She has a high fever.",
+    "display_sentence": "She has a high fever.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "illness",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hospital",
+    "sentence_en": "He went to the ___.",
+    "sentence_ko": "그는 병원에 갔어요.",
+    "meaning": "병원",
+    "tts_text": "He went to the hospital.",
+    "display_sentence": "He went to the hospital.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "hospital",
+      "emergency"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "pain",
+    "sentence_en": "I have a ___ in my knee.",
+    "sentence_ko": "무릎에 통증이 있어요.",
+    "meaning": "통증",
+    "tts_text": "I have a pain in my knee.",
+    "display_sentence": "I have a pain in my knee.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "pain",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sleep",
+    "sentence_en": "You need more ___.",
+    "sentence_ko": "잠을 더 자야 해요.",
+    "meaning": "잠",
+    "tts_text": "You need more sleep.",
+    "display_sentence": "You need more sleep.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "daily",
+      "recovery"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "cough",
+    "sentence_en": "I've had a ___ for days.",
+    "sentence_ko": "며칠째 기침이 나요.",
+    "meaning": "기침",
+    "tts_text": "I've had a cough for days.",
+    "display_sentence": "I've had a cough for days.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "illness",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "tired",
+    "sentence_en": "I feel ___ all the time.",
+    "sentence_ko": "항상 피곤해요.",
+    "meaning": "피곤한",
+    "tts_text": "I feel tired all the time.",
+    "display_sentence": "I feel tired all the time.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "daily",
+      "illness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "Drink",
+    "sentence_en": "___ plenty of water.",
+    "sentence_ko": "물을 많이 마시세요.",
+    "meaning": "마시다",
+    "tts_text": "Drink plenty of water.",
+    "display_sentence": "Drink plenty of water.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "daily",
+      "recovery"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sore",
+    "sentence_en": "I have a ___ throat.",
+    "sentence_ko": "목이 따끔거려요.",
+    "meaning": "아픈, 따끔한",
+    "tts_text": "I have a sore throat.",
+    "display_sentence": "I have a sore throat.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "illness",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "nurse",
+    "sentence_en": "The ___ will help you.",
+    "sentence_ko": "간호사가 도와줄 거예요.",
+    "meaning": "간호사",
+    "tts_text": "The nurse will help you.",
+    "display_sentence": "The nurse will help you.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "hospital",
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "dizzy",
+    "sentence_en": "I feel a little ___.",
+    "sentence_ko": "좀 어지러워요.",
+    "meaning": "어지러운",
+    "tts_text": "I feel a little dizzy.",
+    "display_sentence": "I feel a little dizzy.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "illness",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "healthy",
+    "sentence_en": "Stay ___ this winter.",
+    "sentence_ko": "이번 겨울 건강하세요.",
+    "meaning": "건강한",
+    "tts_text": "Stay healthy this winter.",
+    "display_sentence": "Stay healthy this winter.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "daily",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "eat",
+    "sentence_en": "Try to ___ well.",
+    "sentence_ko": "잘 챙겨 드세요.",
+    "meaning": "먹다",
+    "tts_text": "Try to eat well.",
+    "display_sentence": "Try to eat well.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "daily",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "stomach",
+    "sentence_en": "My ___ hurts.",
+    "sentence_ko": "배가 아파요.",
+    "meaning": "배, 위",
+    "tts_text": "My stomach hurts.",
+    "display_sentence": "My stomach hurts.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "pain",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "weak",
+    "sentence_en": "I feel a bit ___.",
+    "sentence_ko": "좀 기운이 없어요.",
+    "meaning": "약한, 기운 없는",
+    "tts_text": "I feel a bit weak.",
+    "display_sentence": "I feel a bit weak.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "illness",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "warm",
+    "sentence_en": "Keep yourself ___.",
+    "sentence_ko": "몸을 따뜻하게 하세요.",
+    "meaning": "따뜻한",
+    "tts_text": "Keep yourself warm.",
+    "display_sentence": "Keep yourself warm.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "daily",
+      "recovery"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "teeth",
+    "sentence_en": "Brush your ___ twice a day.",
+    "sentence_ko": "하루에 두 번 양치하세요.",
+    "meaning": "치아",
+    "tts_text": "Brush your teeth twice a day.",
+    "display_sentence": "Brush your teeth twice a day.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "daily",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "exercise",
+    "sentence_en": "I ___ every morning.",
+    "sentence_ko": "전 매일 아침 운동해요.",
+    "meaning": "운동하다",
+    "tts_text": "I exercise every morning.",
+    "display_sentence": "I exercise every morning.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "allergy",
+    "sentence_en": "I have a peanut ___.",
+    "sentence_ko": "저는 땅콩 알레르기가 있어요.",
+    "meaning": "알레르기",
+    "tts_text": "I have a peanut allergy.",
+    "display_sentence": "I have a peanut allergy.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "illness",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "nausea",
+    "sentence_en": "I'm experiencing some ___.",
+    "sentence_ko": "속이 좀 메스꺼워요.",
+    "meaning": "메스꺼움",
+    "tts_text": "I'm experiencing some nausea.",
+    "display_sentence": "I'm experiencing some nausea.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "illness",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "blood",
+    "sentence_en": "They need to take a ___ sample.",
+    "sentence_ko": "혈액 샘플을 채취해야 해요.",
+    "meaning": "혈액",
+    "tts_text": "They need to take a blood sample.",
+    "display_sentence": "They need to take a blood sample.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "hospital",
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "swollen",
+    "sentence_en": "My ankle is ___.",
+    "sentence_ko": "발목이 부어 있어요.",
+    "meaning": "부어 있는",
+    "tts_text": "My ankle is swollen.",
+    "display_sentence": "My ankle is swollen.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "pain",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "ambulance",
+    "sentence_en": "Call an ___ right away.",
+    "sentence_ko": "바로 구급차를 불러 주세요.",
+    "meaning": "구급차",
+    "tts_text": "Call an ambulance right away.",
+    "display_sentence": "Call an ambulance right away.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emergency",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "clinic",
+    "sentence_en": "There's a ___ around the corner.",
+    "sentence_ko": "모퉁이에 클리닉이 있어요.",
+    "meaning": "클리닉, 진료소",
+    "tts_text": "There's a clinic around the corner.",
+    "display_sentence": "There's a clinic around the corner.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "hospital",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "pharmacy",
+    "sentence_en": "Is there a ___ nearby?",
+    "sentence_ko": "근처에 약국이 있나요?",
+    "meaning": "약국",
+    "tts_text": "Is there a pharmacy nearby?",
+    "display_sentence": "Is there a pharmacy nearby?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "pharmacy",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "tablet",
+    "sentence_en": "Take one ___ with water.",
+    "sentence_ko": "물과 함께 알약 하나를 드세요.",
+    "meaning": "알약",
+    "tts_text": "Take one tablet with water.",
+    "display_sentence": "Take one tablet with water.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "pharmacy",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "wound",
+    "sentence_en": "Clean the ___ carefully.",
+    "sentence_ko": "상처를 조심스럽게 닦아 주세요.",
+    "meaning": "상처, 부상",
+    "tts_text": "Clean the wound carefully.",
+    "display_sentence": "Clean the wound carefully.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "emergency",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "injection",
+    "sentence_en": "You'll need an ___ for that.",
+    "sentence_ko": "그것에는 주사가 필요할 거예요.",
+    "meaning": "주사",
+    "tts_text": "You'll need an injection for that.",
+    "display_sentence": "You'll need an injection for that.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "hospital",
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "stress",
+    "sentence_en": "I've been under a lot of ___.",
+    "sentence_ko": "스트레스를 많이 받고 있어요.",
+    "meaning": "스트레스",
+    "tts_text": "I've been under a lot of stress.",
+    "display_sentence": "I've been under a lot of stress.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "daily",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "insurance",
+    "sentence_en": "Do you accept health ___?",
+    "sentence_ko": "건강 보험 받으시나요?",
+    "meaning": "보험",
+    "tts_text": "Do you accept health insurance?",
+    "display_sentence": "Do you accept health insurance?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "hospital",
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sneeze",
+    "sentence_en": "I keep having to ___.",
+    "sentence_ko": "계속 재채기가 나와요.",
+    "meaning": "재채기하다",
+    "tts_text": "I keep having to sneeze.",
+    "display_sentence": "I keep having to sneeze.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "rash",
+    "sentence_en": "I have a ___ on my arm.",
+    "sentence_ko": "팔에 발진이 생겼어요.",
+    "meaning": "발진",
+    "tts_text": "I have a rash on my arm.",
+    "display_sentence": "I have a rash on my arm.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "illness",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "bandage",
+    "sentence_en": "I need a ___ for this cut.",
+    "sentence_ko": "이 상처에 붕대가 필요해요.",
+    "meaning": "붕대",
+    "tts_text": "I need a bandage for this cut.",
+    "display_sentence": "I need a bandage for this cut.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "emergency",
+      "pharmacy"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "diet",
+    "sentence_en": "I'm on a strict ___ right now.",
+    "sentence_ko": "지금 엄격한 식이요법 중이에요.",
+    "meaning": "식이요법, 식단",
+    "tts_text": "I'm on a strict diet right now.",
+    "display_sentence": "I'm on a strict diet right now.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "pregnant",
+    "sentence_en": "She is three months ___.",
+    "sentence_ko": "그녀는 임신 3개월이에요.",
+    "meaning": "임신한",
+    "tts_text": "She is three months pregnant.",
+    "display_sentence": "She is three months pregnant.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "hospital",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "fitness",
+    "sentence_en": "I want to improve my ___.",
+    "sentence_ko": "체력을 키우고 싶어요.",
+    "meaning": "체력, 건강",
+    "tts_text": "I want to improve my fitness.",
+    "display_sentence": "I want to improve my fitness.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "vitamin",
+    "sentence_en": "I take a ___ every morning.",
+    "sentence_ko": "매일 아침 비타민을 먹어요.",
+    "meaning": "비타민",
+    "tts_text": "I take a vitamin every morning.",
+    "display_sentence": "I take a vitamin every morning.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "daily",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "symptom",
+    "sentence_en": "That's a common ___ of the flu.",
+    "sentence_ko": "그건 독감의 흔한 증상이에요.",
+    "meaning": "증상",
+    "tts_text": "That's a common symptom of the flu.",
+    "display_sentence": "That's a common symptom of the flu.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "illness",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "stretching",
+    "sentence_en": "I do ___ before I run.",
+    "sentence_ko": "달리기 전에 스트레칭을 해요.",
+    "meaning": "스트레칭",
+    "tts_text": "I do stretching before I run.",
+    "display_sentence": "I do stretching before I run.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "appointment",
+    "sentence_en": "I have a doctor's ___ at noon.",
+    "sentence_ko": "정오에 진료 예약이 있어요.",
+    "meaning": "예약, 진료 약속",
+    "tts_text": "I have a doctor's appointment at noon.",
+    "display_sentence": "I have a doctor's appointment at noon.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "hospital",
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "pressure",
+    "sentence_en": "My blood ___ is a little high.",
+    "sentence_ko": "혈압이 좀 높아요.",
+    "meaning": "압력, 혈압",
+    "tts_text": "My blood pressure is a little high.",
+    "display_sentence": "My blood pressure is a little high.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "hospital",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sprain",
+    "sentence_en": "I think I ___ my wrist.",
+    "sentence_ko": "손목을 삔 것 같아요.",
+    "meaning": "삐다",
+    "tts_text": "I think I sprain my wrist.",
+    "display_sentence": "I think I sprained my wrist.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "pain",
+      "emergency"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "bleed",
+    "sentence_en": "My finger won't stop ___ing.",
+    "sentence_ko": "손가락에서 피가 안 멈춰요.",
+    "meaning": "피가 나다",
+    "tts_text": "My finger won't stop bleeding.",
+    "display_sentence": "My finger won't stop bleeding.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "emergency",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "nap",
+    "sentence_en": "I need to take a quick ___.",
+    "sentence_ko": "잠깐 낮잠을 자야 할 것 같아요.",
+    "meaning": "낮잠",
+    "tts_text": "I need to take a quick nap.",
+    "display_sentence": "I need to take a quick nap.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "daily",
+      "recovery"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "dehydrated",
+    "sentence_en": "I think I'm a little ___.",
+    "sentence_ko": "좀 탈수가 온 것 같아요.",
+    "meaning": "탈수된",
+    "tts_text": "I think I'm a little dehydrated.",
+    "display_sentence": "I think I'm a little dehydrated.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "sweat",
+    "sentence_en": "I woke up in a cold ___.",
+    "sentence_ko": "식은땀을 흘리며 깼어요.",
+    "meaning": "땀",
+    "tts_text": "I woke up in a cold sweat.",
+    "display_sentence": "I woke up in a cold sweat.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "illness",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "cramp",
+    "sentence_en": "I have a leg ___ right now.",
+    "sentence_ko": "지금 다리에 쥐가 났어요.",
+    "meaning": "쥐, 경련",
+    "tts_text": "I have a leg cramp right now.",
+    "display_sentence": "I have a leg cramp right now.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "pain",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "itchy",
+    "sentence_en": "My eyes are really ___ today.",
+    "sentence_ko": "오늘 눈이 정말 가려워요.",
+    "meaning": "가려운",
+    "tts_text": "My eyes are really itchy today.",
+    "display_sentence": "My eyes are really itchy today.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "illness",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "bruise",
+    "sentence_en": "I have a big ___ on my leg.",
+    "sentence_ko": "다리에 멍이 크게 들었어요.",
+    "meaning": "멍",
+    "tts_text": "I have a big bruise on my leg.",
+    "display_sentence": "I have a big bruise on my leg.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "pain",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "flu",
+    "sentence_en": "I have the ___ this week.",
+    "sentence_ko": "이번 주에 독감에 걸렸어요.",
+    "meaning": "독감",
+    "tts_text": "I have the flu this week.",
+    "display_sentence": "I have the flu this week.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "faint",
+    "sentence_en": "I almost ___ in the heat.",
+    "sentence_ko": "더위에 거의 기절할 뻔했어요.",
+    "meaning": "기절하다",
+    "tts_text": "I almost faint in the heat.",
+    "display_sentence": "I almost fainted in the heat.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emergency",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "runny",
+    "sentence_en": "I have a ___ nose all day.",
+    "sentence_ko": "하루 종일 콧물이 흘러요.",
+    "meaning": "콧물이 흐르는",
+    "tts_text": "I have a runny nose all day.",
+    "display_sentence": "I have a runny nose all day.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "congested",
+    "sentence_en": "My nose is really ___.",
+    "sentence_ko": "코가 많이 막혀요.",
+    "meaning": "막힌",
+    "tts_text": "My nose is really congested.",
+    "display_sentence": "My nose is really congested.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "illness",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "ache",
+    "sentence_en": "My whole body ___s.",
+    "sentence_ko": "온몸이 쑤셔요.",
+    "meaning": "쑤시다, 욱신거리다",
+    "tts_text": "My whole body aches.",
+    "display_sentence": "My whole body aches.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "pain",
+      "illness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "numb",
+    "sentence_en": "My hand is completely ___.",
+    "sentence_ko": "손이 완전히 저려요.",
+    "meaning": "저린, 감각 없는",
+    "tts_text": "My hand is completely numb.",
+    "display_sentence": "My hand is completely numb.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "pronunciation",
+    "use_case": [
+      "pain",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "pill",
+    "sentence_en": "Take this ___ before bed.",
+    "sentence_ko": "자기 전에 이 알약을 드세요.",
+    "meaning": "알약",
+    "tts_text": "Take this pill before bed.",
+    "display_sentence": "Take this pill before bed.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "pharmacy",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "stretches",
+    "sentence_en": "Do some morning ___ to start the day.",
+    "sentence_ko": "하루를 시작하기 위해 아침 스트레칭을 해보세요.",
+    "meaning": "스트레칭",
+    "tts_text": "Do some morning stretches to start the day.",
+    "display_sentence": "Do some morning stretches to start the day.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hygiene",
+    "sentence_en": "Good ___ helps prevent illness.",
+    "sentence_ko": "청결을 유지하면 질병을 예방하는 데 도움이 돼요.",
+    "meaning": "위생",
+    "tts_text": "Good hygiene helps prevent illness.",
+    "display_sentence": "Good hygiene helps prevent illness.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "hydrated",
+    "sentence_en": "Make sure you stay ___ today.",
+    "sentence_ko": "오늘은 수분 보충을 잘 하세요.",
+    "meaning": "수분이 충분한",
+    "tts_text": "Make sure you stay hydrated today.",
+    "display_sentence": "Make sure you stay hydrated today.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "daily",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "stiff",
+    "sentence_en": "My neck feels really ___ this morning.",
+    "sentence_ko": "오늘 아침 목이 많이 뻐근해요.",
+    "meaning": "뻐근한, 뻣뻣한",
+    "tts_text": "My neck feels really stiff this morning.",
+    "display_sentence": "My neck feels really stiff this morning.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "pain",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "coming down with",
+    "sentence_en": "I think I'm ___ a cold.",
+    "sentence_ko": "감기에 걸리는 것 같아요.",
+    "meaning": "(병에) 걸리다",
+    "tts_text": "I think I'm coming down with a cold.",
+    "display_sentence": "I think I'm coming down with a cold.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "make an appointment",
+    "sentence_en": "I'd like to ___ with Dr. Lee.",
+    "sentence_ko": "이 선생님께 진료 예약하고 싶어요.",
+    "meaning": "예약하다",
+    "tts_text": "I'd like to make an appointment with Dr. Lee.",
+    "display_sentence": "I'd like to make an appointment with Dr. Lee.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "hospital",
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "symptoms",
+    "sentence_en": "What ___ do you have?",
+    "sentence_ko": "어떤 증상이 있으세요?",
+    "meaning": "증상들",
+    "tts_text": "What symptoms do you have?",
+    "display_sentence": "What symptoms do you have?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "hospital",
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get well",
+    "sentence_en": "I hope you ___ soon.",
+    "sentence_ko": "빨리 낫길 바라요.",
+    "meaning": "회복하다",
+    "tts_text": "I hope you get well soon.",
+    "display_sentence": "I hope you get well soon.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "prescription",
+    "sentence_en": "Here's your ___.",
+    "sentence_ko": "여기 처방전이요.",
+    "meaning": "처방전",
+    "tts_text": "Here's your prescription.",
+    "display_sentence": "Here's your prescription.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "pharmacy",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "work out",
+    "sentence_en": "I try to ___ three times a week.",
+    "sentence_ko": "일주일에 세 번 운동하려고 해요.",
+    "meaning": "운동하다",
+    "tts_text": "I try to work out three times a week.",
+    "display_sentence": "I try to work out three times a week.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "throw up",
+    "sentence_en": "I felt like I might ___.",
+    "sentence_ko": "토할 것 같았어요.",
+    "meaning": "토하다",
+    "tts_text": "I felt like I might throw up.",
+    "display_sentence": "I felt like I might throw up.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "cut down on",
+    "sentence_en": "I should ___ sugar.",
+    "sentence_ko": "설탕을 줄여야 해요.",
+    "meaning": "~을 줄이다",
+    "tts_text": "I should cut down on sugar.",
+    "display_sentence": "I should cut down on sugar.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "passed out",
+    "sentence_en": "He nearly ___ from the heat.",
+    "sentence_ko": "그는 더위에 거의 기절할 뻔했어요.",
+    "meaning": "기절하다",
+    "tts_text": "He nearly passed out from the heat.",
+    "display_sentence": "He nearly passed out from the heat.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emergency",
+      "illness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get some rest",
+    "sentence_en": "You really need to ___.",
+    "sentence_ko": "정말 좀 쉬어야 해요.",
+    "meaning": "휴식을 취하다",
+    "tts_text": "You really need to get some rest.",
+    "display_sentence": "You really need to get some rest.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "due for a check-up",
+    "sentence_en": "I'm ___.",
+    "sentence_ko": "건강검진 받을 때가 됐어요.",
+    "meaning": "건강 검진을 받아야 할 때가 된",
+    "tts_text": "I'm due for a check-up.",
+    "display_sentence": "I'm due for a check-up.",
+    "frequency": "mid",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "hospital",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "feel under the weather",
+    "sentence_en": "I ___ today.",
+    "sentence_ko": "오늘 몸이 좀 안 좋아요.",
+    "meaning": "(몸이) 안 좋다",
+    "tts_text": "I feel under the weather today.",
+    "display_sentence": "I feel under the weather today.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "woke up with a sore throat",
+    "sentence_en": "I ___.",
+    "sentence_ko": "목이 아픈 채로 깼어요.",
+    "meaning": "인후통이 있는 채로 일어나다",
+    "tts_text": "I woke up with a sore throat.",
+    "display_sentence": "I woke up with a sore throat.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "knock me out",
+    "sentence_en": "This medicine will ___ for hours.",
+    "sentence_ko": "이 약을 먹으면 몇 시간 곯아떨어질 거예요.",
+    "meaning": "곯아떨어지게 하다",
+    "tts_text": "This medicine will knock me out for hours.",
+    "display_sentence": "This medicine will knock me out for hours.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pharmacy",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a balanced diet",
+    "sentence_en": "I try to keep ___.",
+    "sentence_ko": "균형 잡힌 식사를 하려고 해요.",
+    "meaning": "균형 잡힌 식단",
+    "tts_text": "I try to keep a balanced diet.",
+    "display_sentence": "I try to keep a balanced diet.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "put on weight",
+    "sentence_en": "I ___ over the holidays.",
+    "sentence_ko": "휴가 동안 살이 쪘어요.",
+    "meaning": "살이 찌다",
+    "tts_text": "I put on weight over the holidays.",
+    "display_sentence": "I put on weight over the holidays.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "ease the pain",
+    "sentence_en": "This will help ___.",
+    "sentence_ko": "이게 통증을 덜어 줄 거예요.",
+    "meaning": "통증을 덜다",
+    "tts_text": "This will help ease the pain.",
+    "display_sentence": "This will help ease the pain.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pain",
+      "pharmacy"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "running a fever",
+    "sentence_en": "The child is ___.",
+    "sentence_ko": "아이가 열이 나고 있어요.",
+    "meaning": "열이 나다",
+    "tts_text": "The child is running a fever.",
+    "display_sentence": "The child is running a fever.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get checked out",
+    "sentence_en": "You should ___ by a doctor.",
+    "sentence_ko": "의사에게 진찰받아 보는 게 좋아요.",
+    "meaning": "진찰받다",
+    "tts_text": "You should get checked out by a doctor.",
+    "display_sentence": "You should get checked out by a doctor.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "hospital",
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "Take it easy",
+    "sentence_en": "___ until you recover.",
+    "sentence_ko": "회복할 때까지 무리하지 마세요.",
+    "meaning": "무리하지 않다",
+    "tts_text": "Take it easy until you recover.",
+    "display_sentence": "Take it easy until you recover.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "over the counter",
+    "sentence_en": "You can buy it ___.",
+    "sentence_ko": "처방전 없이 살 수 있어요.",
+    "meaning": "처방전 없이",
+    "tts_text": "You can buy it over the counter.",
+    "display_sentence": "You can buy it over the counter.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pharmacy",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "lose weight",
+    "sentence_en": "I'm trying to ___.",
+    "sentence_ko": "살을 빼려고 노력 중이에요.",
+    "meaning": "살을 빼다",
+    "tts_text": "I'm trying to lose weight.",
+    "display_sentence": "I'm trying to lose weight.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "a sick day",
+    "sentence_en": "I'm taking ___ today.",
+    "sentence_ko": "오늘 병가를 내요.",
+    "meaning": "병가",
+    "tts_text": "I'm taking a sick day today.",
+    "display_sentence": "I'm taking a sick day today.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "recover from",
+    "sentence_en": "It took weeks to ___ the flu.",
+    "sentence_ko": "독감에서 회복하는 데 몇 주 걸렸어요.",
+    "meaning": "~에서 회복하다",
+    "tts_text": "It took weeks to recover from the flu.",
+    "display_sentence": "It took weeks to recover from the flu.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery",
+      "illness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "keep fit",
+    "sentence_en": "I jog to ___.",
+    "sentence_ko": "건강을 유지하려고 조깅해요.",
+    "meaning": "건강을 유지하다",
+    "tts_text": "I jog to keep fit.",
+    "display_sentence": "I jog to keep fit.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "have a follow-up",
+    "sentence_en": "I need to ___ with my doctor next week.",
+    "sentence_ko": "다음 주에 의사와 경과 진료를 받아야 해요.",
+    "meaning": "경과 진료를 받다",
+    "tts_text": "I need to have a follow-up with my doctor next week.",
+    "display_sentence": "I need to have a follow-up with my doctor next week.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "hospital",
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "break out in",
+    "sentence_en": "I ___ a rash after eating shellfish.",
+    "sentence_ko": "조개를 먹고 나서 두드러기가 났어요.",
+    "meaning": "~이 생기다, 발진이 나다",
+    "tts_text": "I break out in a rash after eating shellfish.",
+    "display_sentence": "I broke out in a rash after eating shellfish.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "watch your weight",
+    "sentence_en": "The doctor told me to ___.",
+    "sentence_ko": "의사가 체중 관리를 하라고 했어요.",
+    "meaning": "체중을 관리하다",
+    "tts_text": "The doctor told me to watch your weight.",
+    "display_sentence": "The doctor told me to watch my weight.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take medication",
+    "sentence_en": "I have to ___ every day.",
+    "sentence_ko": "매일 약을 먹어야 해요.",
+    "meaning": "약을 복용하다",
+    "tts_text": "I have to take medication every day.",
+    "display_sentence": "I have to take medication every day.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pharmacy",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "side effects",
+    "sentence_en": "This drug has some mild ___.",
+    "sentence_ko": "이 약은 약간의 부작용이 있어요.",
+    "meaning": "부작용",
+    "tts_text": "This drug has some mild side effects.",
+    "display_sentence": "This drug has some mild side effects.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pharmacy",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "pull a muscle",
+    "sentence_en": "I think I ___ at the gym.",
+    "sentence_ko": "헬스장에서 근육을 당긴 것 같아요.",
+    "meaning": "근육을 삐다",
+    "tts_text": "I think I pull a muscle at the gym.",
+    "display_sentence": "I think I pulled a muscle at the gym.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pain",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "skip a meal",
+    "sentence_en": "You shouldn't ___.",
+    "sentence_ko": "식사를 거르면 안 돼요.",
+    "meaning": "식사를 건너뛰다",
+    "tts_text": "You shouldn't skip a meal.",
+    "display_sentence": "You shouldn't skip a meal.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "boost your immune system",
+    "sentence_en": "Vitamin C can help ___.",
+    "sentence_ko": "비타민 C는 면역력을 높이는 데 도움이 돼요.",
+    "meaning": "면역력을 높이다",
+    "tts_text": "Vitamin C can help boost your immune system.",
+    "display_sentence": "Vitamin C can help boost your immune system.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "strain my eyes",
+    "sentence_en": "I've been ___ looking at the screen all day.",
+    "sentence_ko": "하루 종일 화면을 봐서 눈이 피로해요.",
+    "meaning": "눈에 무리를 주다",
+    "tts_text": "I've been strain my eyes looking at the screen all day.",
+    "display_sentence": "I've been straining my eyes looking at the screen all day.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "urgent care",
+    "sentence_en": "I went to ___ for my sprained ankle.",
+    "sentence_ko": "발목을 삐어서 응급 진료소에 갔어요.",
+    "meaning": "응급 진료소",
+    "tts_text": "I went to urgent care for my sprained ankle.",
+    "display_sentence": "I went to urgent care for my sprained ankle.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "emergency",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "call in sick",
+    "sentence_en": "I had to ___ this morning.",
+    "sentence_ko": "오늘 아침에 아파서 결근 연락을 해야 했어요.",
+    "meaning": "병가 연락을 하다",
+    "tts_text": "I had to call in sick this morning.",
+    "display_sentence": "I had to call in sick this morning.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "having trouble sleeping",
+    "sentence_en": "I've been ___ lately.",
+    "sentence_ko": "요즘 잠을 못 자고 있어요.",
+    "meaning": "잠을 못 자다",
+    "tts_text": "I've been having trouble sleeping lately.",
+    "display_sentence": "I've been having trouble sleeping lately.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "hold your breath",
+    "sentence_en": "The doctor asked me to ___ for a moment.",
+    "sentence_ko": "의사가 잠깐 숨을 참아 보라고 했어요.",
+    "meaning": "숨을 참다",
+    "tts_text": "The doctor asked me to hold your breath for a moment.",
+    "display_sentence": "The doctor asked me to hold my breath for a moment.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "hospital",
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get a second opinion",
+    "sentence_en": "I decided to ___.",
+    "sentence_ko": "다른 의사 의견을 구하기로 했어요.",
+    "meaning": "다른 의사 의견을 구하다",
+    "tts_text": "I decided to get a second opinion.",
+    "display_sentence": "I decided to get a second opinion.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "hospital",
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get stitches",
+    "sentence_en": "The cut was deep enough to ___.",
+    "sentence_ko": "상처가 깊어서 봉합을 해야 했어요.",
+    "meaning": "봉합하다",
+    "tts_text": "The cut was deep enough to get stitches.",
+    "display_sentence": "The cut was deep enough to get stitches.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emergency",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "food poisoning",
+    "sentence_en": "I think I have ___.",
+    "sentence_ko": "식중독에 걸린 것 같아요.",
+    "meaning": "식중독",
+    "tts_text": "I think I have food poisoning.",
+    "display_sentence": "I think I have food poisoning.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "illness",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get enough sleep",
+    "sentence_en": "You need to ___.",
+    "sentence_ko": "잠을 충분히 자야 해요.",
+    "meaning": "충분히 잠을 자다",
+    "tts_text": "You need to get enough sleep.",
+    "display_sentence": "You need to get enough sleep.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "avoid junk food",
+    "sentence_en": "Try to ___ this week.",
+    "sentence_ko": "이번 주는 정크푸드를 멀리해 보세요.",
+    "meaning": "정크푸드를 피하다",
+    "tts_text": "Try to avoid junk food this week.",
+    "display_sentence": "Try to avoid junk food this week.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "have your blood pressure checked",
+    "sentence_en": "You should ___.",
+    "sentence_ko": "혈압을 재봐야 해요.",
+    "meaning": "혈압을 재다",
+    "tts_text": "You should have your blood pressure checked.",
+    "display_sentence": "You should have your blood pressure checked.",
+    "frequency": "mid",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "hospital",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "wear off",
+    "sentence_en": "The painkiller started to ___ after a few hours.",
+    "sentence_ko": "몇 시간 후에 진통제 효과가 사라지기 시작했어요.",
+    "meaning": "효과가 없어지다",
+    "tts_text": "The painkiller started to wear off after a few hours.",
+    "display_sentence": "The painkiller started to wear off after a few hours.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pharmacy",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "under the weather",
+    "sentence_en": "I'm feeling a bit ___.",
+    "sentence_ko": "몸이 좀 안 좋아요.",
+    "meaning": "몸이 찌뿌둥한",
+    "tts_text": "I'm feeling a bit under the weather.",
+    "display_sentence": "I'm feeling a bit under the weather.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "runs in the family",
+    "sentence_en": "Diabetes ___.",
+    "sentence_ko": "당뇨는 집안 내력이에요.",
+    "meaning": "집안 내력이다",
+    "tts_text": "Diabetes runs in the family.",
+    "display_sentence": "Diabetes runs in the family.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on the mend",
+    "sentence_en": "She's finally ___.",
+    "sentence_ko": "그녀는 마침내 회복 중이에요.",
+    "meaning": "회복 중인",
+    "tts_text": "She's finally on the mend.",
+    "display_sentence": "She's finally on the mend.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "overdue for a check-up",
+    "sentence_en": "I'm ___.",
+    "sentence_ko": "건강검진 받을 때가 한참 지났어요.",
+    "meaning": "건강검진이 한참 늦은",
+    "tts_text": "I'm overdue for a check-up.",
+    "display_sentence": "I'm overdue for a check-up.",
+    "frequency": "mid",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "hospital",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bounced back",
+    "sentence_en": "He ___ quickly after the surgery.",
+    "sentence_ko": "그는 수술 후 빠르게 회복했어요.",
+    "meaning": "빠르게 회복하다",
+    "tts_text": "He bounced back quickly after the surgery.",
+    "display_sentence": "He bounced back quickly after the surgery.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "burnt out",
+    "sentence_en": "I was completely ___ last month.",
+    "sentence_ko": "지난달엔 완전히 지쳐 있었어요.",
+    "meaning": "기진맥진한",
+    "tts_text": "I was completely burnt out last month.",
+    "display_sentence": "I was completely burnt out last month.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "take its toll",
+    "sentence_en": "Stress can ___ on your body.",
+    "sentence_ko": "스트레스는 몸에 큰 타격을 줄 수 있어요.",
+    "meaning": "큰 피해를 입히다",
+    "tts_text": "Stress can take its toll on your body.",
+    "display_sentence": "Stress can take its toll on your body.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "nursed him back to health",
+    "sentence_en": "She ___ after the accident.",
+    "sentence_ko": "그녀는 사고 후 그를 간호해 회복시켰어요.",
+    "meaning": "간호해 회복시키다",
+    "tts_text": "She nursed him back to health after the accident.",
+    "display_sentence": "She nursed him back to health after the accident.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a clean bill of health",
+    "sentence_en": "The doctor gave me ___.",
+    "sentence_ko": "의사가 건강에 이상 없다고 했어요.",
+    "meaning": "건강 이상 없음 진단",
+    "tts_text": "The doctor gave me a clean bill of health.",
+    "display_sentence": "The doctor gave me a clean bill of health.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "hospital",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a splitting headache",
+    "sentence_en": "I have ___.",
+    "sentence_ko": "머리가 깨질 듯이 아파요.",
+    "meaning": "쪼개질 듯한 두통",
+    "tts_text": "I have a splitting headache.",
+    "display_sentence": "I have a splitting headache.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pain",
+      "illness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "at death's door",
+    "sentence_en": "He was ___ but pulled through.",
+    "sentence_ko": "그는 사경을 헤맸지만 이겨 냈어요.",
+    "meaning": "죽기 직전인",
+    "tts_text": "He was at death's door but pulled through.",
+    "display_sentence": "He was at death's door but pulled through.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "emergency"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "fighting fit",
+    "sentence_en": "After the rest, I'm ___.",
+    "sentence_ko": "쉬고 나니 아주 팔팔해요.",
+    "meaning": "아주 건강한",
+    "tts_text": "After the rest, I'm fighting fit.",
+    "display_sentence": "After the rest, I'm fighting fit.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "off-color",
+    "sentence_en": "She looked a bit ___ today.",
+    "sentence_ko": "그녀는 오늘 안색이 좀 안 좋아 보였어요.",
+    "meaning": "안색이 안 좋은",
+    "tts_text": "She looked a bit off-color today.",
+    "display_sentence": "She looked a bit off-color today.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a shot in the arm",
+    "sentence_en": "The vaccine was ___ for the clinic.",
+    "sentence_ko": "그 백신은 병원에 큰 힘이 됐어요.",
+    "meaning": "활력소, 자극제",
+    "tts_text": "The vaccine was a shot in the arm for the clinic.",
+    "display_sentence": "The vaccine was a shot in the arm for the clinic.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "kicked the habit",
+    "sentence_en": "He finally ___ of smoking.",
+    "sentence_ko": "그는 마침내 담배를 끊었어요.",
+    "meaning": "나쁜 습관을 끊다",
+    "tts_text": "He finally kicked the habit of smoking.",
+    "display_sentence": "He finally kicked the habit of smoking.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "run-down",
+    "sentence_en": "I've been feeling ___ lately.",
+    "sentence_ko": "요즘 기진맥진한 느낌이에요.",
+    "meaning": "쇠약해진",
+    "tts_text": "I've been feeling run-down lately.",
+    "display_sentence": "I've been feeling run-down lately.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a new lease on life",
+    "sentence_en": "The surgery gave her ___.",
+    "sentence_ko": "그 수술은 그녀에게 새 삶을 줬어요.",
+    "meaning": "새로운 삶",
+    "tts_text": "The surgery gave her a new lease on life.",
+    "display_sentence": "The surgery gave her a new lease on life.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "watch what you eat",
+    "sentence_en": "You should ___ more carefully.",
+    "sentence_ko": "드시는 걸 더 신경 써야 해요.",
+    "meaning": "음식을 가려 먹다",
+    "tts_text": "You should watch what you eat more carefully.",
+    "display_sentence": "You should watch what you eat more carefully.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "on the road to recovery",
+    "sentence_en": "He's ___ now.",
+    "sentence_ko": "그는 이제 회복의 길에 들어섰어요.",
+    "meaning": "회복하는 중인",
+    "tts_text": "He's on the road to recovery now.",
+    "display_sentence": "He's on the road to recovery now.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a picture of health",
+    "sentence_en": "She's ___ these days.",
+    "sentence_ko": "그녀는 요즘 건강 그 자체예요.",
+    "meaning": "아주 건강한 모습",
+    "tts_text": "She's a picture of health these days.",
+    "display_sentence": "She's a picture of health these days.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "came down hard",
+    "sentence_en": "The flu ___ on him.",
+    "sentence_ko": "독감이 그를 심하게 덮쳤어요.",
+    "meaning": "심하게 들이닥치다",
+    "tts_text": "The flu came down hard on him.",
+    "display_sentence": "The flu came down hard on him.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "nip it in the bud",
+    "sentence_en": "Treat the cold early to ___.",
+    "sentence_ko": "감기를 초기에 잡으세요.",
+    "meaning": "초기에 막다",
+    "tts_text": "Treat the cold early to nip it in the bud.",
+    "display_sentence": "Treat the cold early to nip it in the bud.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "pull through",
+    "sentence_en": "Doctors weren't sure he'd ___.",
+    "sentence_ko": "의사들은 그가 회복할지 확신 못 했어요.",
+    "meaning": "위기를 넘기다",
+    "tts_text": "Doctors weren't sure he'd pull through.",
+    "display_sentence": "Doctors weren't sure he'd pull through.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emergency",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "sleep it off",
+    "sentence_en": "I'll just ___ tonight.",
+    "sentence_ko": "오늘 밤은 푹 자서 떨쳐낼게요.",
+    "meaning": "자고 나서 회복하다",
+    "tts_text": "I'll just sleep it off tonight.",
+    "display_sentence": "I'll just sleep it off tonight.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "took a turn for the worse",
+    "sentence_en": "His condition ___.",
+    "sentence_ko": "그의 상태가 악화됐어요.",
+    "meaning": "악화되다",
+    "tts_text": "His condition took a turn for the worse.",
+    "display_sentence": "His condition took a turn for the worse.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "make a full recovery",
+    "sentence_en": "She's expected to ___.",
+    "sentence_ko": "그녀는 완전히 회복될 것으로 예상돼요.",
+    "meaning": "완전히 회복하다",
+    "tts_text": "She's expected to make a full recovery.",
+    "display_sentence": "She's expected to make a full recovery.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "manage chronic pain",
+    "sentence_en": "She's learning how to ___ with exercise.",
+    "sentence_ko": "그녀는 운동으로 만성 통증을 관리하는 법을 배우고 있어요.",
+    "meaning": "만성 통증을 관리하다",
+    "tts_text": "She's learning how to manage chronic pain with exercise.",
+    "display_sentence": "She's learning how to manage chronic pain with exercise.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pain",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "in tip-top shape",
+    "sentence_en": "I want to be ___ for the marathon.",
+    "sentence_ko": "마라톤을 위해 최상의 컨디션으로 있고 싶어요.",
+    "meaning": "최상의 컨디션인",
+    "tts_text": "I want to be in tip-top shape for the marathon.",
+    "display_sentence": "I want to be in tip-top shape for the marathon.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "had a relapse",
+    "sentence_en": "Unfortunately, he ___ last week.",
+    "sentence_ko": "안타깝게도 그는 지난주에 재발했어요.",
+    "meaning": "재발하다",
+    "tts_text": "Unfortunately, he had a relapse last week.",
+    "display_sentence": "Unfortunately, he had a relapse last week.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "go cold turkey",
+    "sentence_en": "He decided to ___ on alcohol.",
+    "sentence_ko": "그는 술을 단번에 끊기로 결심했어요.",
+    "meaning": "단번에 끊다",
+    "tts_text": "He decided to go cold turkey on alcohol.",
+    "display_sentence": "He decided to go cold turkey on alcohol.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "put on a brave face",
+    "sentence_en": "She ___ despite the pain.",
+    "sentence_ko": "그녀는 통증에도 불구하고 애써 괜찮은 척했어요.",
+    "meaning": "괜찮은 척하다",
+    "tts_text": "She put on a brave face despite the pain.",
+    "display_sentence": "She put on a brave face despite the pain.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pain",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "hit rock bottom",
+    "sentence_en": "My health really ___ after the accident.",
+    "sentence_ko": "사고 이후 건강이 정말 바닥을 쳤어요.",
+    "meaning": "최저점에 달하다",
+    "tts_text": "My health really hit rock bottom after the accident.",
+    "display_sentence": "My health really hit rock bottom after the accident.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get to the root of",
+    "sentence_en": "The doctor is trying to ___ my symptoms.",
+    "sentence_ko": "의사가 증상의 근본 원인을 찾으려 하고 있어요.",
+    "meaning": "~의 근본 원인을 찾다",
+    "tts_text": "The doctor is trying to get to the root of my symptoms.",
+    "display_sentence": "The doctor is trying to get to the root of my symptoms.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "hospital",
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "eat clean",
+    "sentence_en": "I've been trying to ___ for the past month.",
+    "sentence_ko": "지난달부터 건강한 식단을 지키려 노력 중이에요.",
+    "meaning": "건강하게 먹다",
+    "tts_text": "I've been trying to eat clean for the past month.",
+    "display_sentence": "I've been trying to eat clean for the past month.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "be in good hands",
+    "sentence_en": "Don't worry — you'll ___ at that hospital.",
+    "sentence_ko": "걱정 마세요, 그 병원에서 잘 돌봐 줄 거예요.",
+    "meaning": "좋은 손에 맡겨지다, 잘 돌봐지다",
+    "tts_text": "Don't worry — you'll be in good hands at that hospital.",
+    "display_sentence": "Don't worry — you'll be in good hands at that hospital.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "hospital",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "have a high pain tolerance",
+    "sentence_en": "She didn't complain at all — she must ___.",
+    "sentence_ko": "그녀는 전혀 불평하지 않았어요, 통증에 강한 것 같아요.",
+    "meaning": "통증에 강하다",
+    "tts_text": "She didn't complain at all — she must have a high pain tolerance.",
+    "display_sentence": "She didn't complain at all — she must have a high pain tolerance.",
+    "frequency": "mid",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pain",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "break the cycle",
+    "sentence_en": "You need to ___ of stress and insomnia.",
+    "sentence_ko": "스트레스와 불면증의 악순환을 끊어야 해요.",
+    "meaning": "악순환을 끊다",
+    "tts_text": "You need to break the cycle of stress and insomnia.",
+    "display_sentence": "You need to break the cycle of stress and insomnia.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "rule out",
+    "sentence_en": "We need more tests to ___ anything serious.",
+    "sentence_ko": "심각한 문제를 배제하려면 검사가 더 필요해요.",
+    "meaning": "배제하다",
+    "tts_text": "We need more tests to rule out anything serious.",
+    "display_sentence": "We need more tests to rule out anything serious.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "hospital",
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "have an adverse reaction",
+    "sentence_en": "Some patients ___ to that antibiotic.",
+    "sentence_ko": "일부 환자들은 그 항생제에 부작용 반응을 보여요.",
+    "meaning": "부작용 반응을 보이다",
+    "tts_text": "Some patients have an adverse reaction to that antibiotic.",
+    "display_sentence": "Some patients have an adverse reaction to that antibiotic.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pharmacy",
+      "hospital"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "get back on your feet",
+    "sentence_en": "It takes time to ___ after surgery.",
+    "sentence_ko": "수술 후 기력을 회복하는 데는 시간이 걸려요.",
+    "meaning": "기력을 회복하다",
+    "tts_text": "It takes time to get back on your feet after surgery.",
+    "display_sentence": "It takes time to get back on your feet after surgery.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "manage stress levels",
+    "sentence_en": "It's important to ___ for your heart health.",
+    "sentence_ko": "심장 건강을 위해 스트레스를 관리하는 것이 중요해요.",
+    "meaning": "스트레스 수준을 관리하다",
+    "tts_text": "It's important to manage stress levels for your heart health.",
+    "display_sentence": "It's important to manage stress levels for your heart health.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "make a speedy recovery",
+    "sentence_en": "I hope you ___.",
+    "sentence_ko": "빠른 회복을 바라요.",
+    "meaning": "빠르게 회복하다",
+    "tts_text": "I hope you make a speedy recovery.",
+    "display_sentence": "I hope you make a speedy recovery.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "have a weak constitution",
+    "sentence_en": "She tends to get sick easily — she might ___.",
+    "sentence_ko": "그녀는 쉽게 아프는 경향이 있어요, 몸이 약한 것 같아요.",
+    "meaning": "몸이 약하다",
+    "tts_text": "She tends to get sick easily — she might have a weak constitution.",
+    "display_sentence": "She tends to get sick easily — she might have a weak constitution.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "address the underlying cause",
+    "sentence_en": "The treatment needs to ___.",
+    "sentence_ko": "치료는 근본적인 원인을 해결해야 해요.",
+    "meaning": "근본 원인을 해결하다",
+    "tts_text": "The treatment needs to address the underlying cause.",
+    "display_sentence": "The treatment needs to address the underlying cause.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "hospital",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "push through the pain",
+    "sentence_en": "Athletes sometimes have to ___.",
+    "sentence_ko": "운동선수들은 때로 통증을 참고 버텨야 해요.",
+    "meaning": "통증을 참고 버티다",
+    "tts_text": "Athletes sometimes have to push through the pain.",
+    "display_sentence": "Athletes sometimes have to push through the pain.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pain",
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "feel the burn",
+    "sentence_en": "You'll start to ___ after a few minutes of exercise.",
+    "sentence_ko": "운동을 몇 분 하면 근육이 타는 느낌이 날 거예요.",
+    "meaning": "근육이 타는 느낌이 나다",
+    "tts_text": "You'll start to feel the burn after a few minutes of exercise.",
+    "display_sentence": "You'll start to feel the burn after a few minutes of exercise.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness",
+      "daily"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "throat",
+    "sentence_en": "I have a sore ___.",
+    "sentence_ko": "목이 아파요.",
+    "meaning": "목구멍",
+    "tts_text": "I have a sore throat.",
+    "display_sentence": "I have a sore throat.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "symptom"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "knee",
+    "sentence_en": "My ___ really hurts.",
+    "sentence_ko": "무릎이 너무 아파요.",
+    "meaning": "무릎",
+    "tts_text": "My knee really hurts.",
+    "display_sentence": "My knee really hurts.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "body"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "appetite",
+    "sentence_en": "I have no ___ today.",
+    "sentence_ko": "오늘은 입맛이 없어요.",
+    "meaning": "식욕",
+    "tts_text": "I have no appetite today.",
+    "display_sentence": "I have no appetite today.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "symptom"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "see a doctor",
+    "sentence_en": "You should ___ about that.",
+    "sentence_ko": "그건 병원에 가 보는 게 좋겠어요.",
+    "meaning": "병원에 가다, 진료받다",
+    "tts_text": "You should see a doctor about that.",
+    "display_sentence": "You should see a doctor about that.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "book an appointment",
+    "sentence_en": "I need to ___ with the dentist.",
+    "sentence_ko": "치과 예약을 잡아야 해요.",
+    "meaning": "예약을 잡다",
+    "tts_text": "I need to book an appointment with the dentist.",
+    "display_sentence": "I need to book an appointment with the dentist.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "feel dizzy",
+    "sentence_en": "I suddenly started to ___.",
+    "sentence_ko": "갑자기 어지럽기 시작했어요.",
+    "meaning": "어지럽다",
+    "tts_text": "I suddenly started to feel dizzy.",
+    "display_sentence": "I suddenly started to feel dizzy.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "symptom"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "catch a cold",
+    "sentence_en": "Be careful not to ___.",
+    "sentence_ko": "감기 걸리지 않게 조심하세요.",
+    "meaning": "감기에 걸리다",
+    "tts_text": "Be careful not to catch a cold.",
+    "display_sentence": "Be careful not to catch a cold.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "symptom"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "catch a bug",
+    "sentence_en": "I think I might ___.",
+    "sentence_ko": "제가 뭔가에 걸린 것 같아요.",
+    "meaning": "(가벼운) 병에 걸리다",
+    "tts_text": "I think I might catch a bug.",
+    "display_sentence": "I think I might catch a bug.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "symptom"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "stay hydrated",
+    "sentence_en": "Make sure to ___.",
+    "sentence_ko": "수분을 충분히 섭취하세요.",
+    "meaning": "수분을 유지하다",
+    "tts_text": "Make sure to stay hydrated.",
+    "display_sentence": "Make sure to stay hydrated.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get a flu shot",
+    "sentence_en": "You should ___ this year.",
+    "sentence_ko": "올해는 독감 주사를 맞는 게 좋아요.",
+    "meaning": "독감 예방 주사를 맞다",
+    "tts_text": "You should get a flu shot this year.",
+    "display_sentence": "You should get a flu shot this year.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "take your temperature",
+    "sentence_en": "Let me ___ first.",
+    "sentence_ko": "먼저 체온을 재 볼게요.",
+    "meaning": "체온을 재다",
+    "tts_text": "Let me take your temperature first.",
+    "display_sentence": "Let me take your temperature first.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "run some tests",
+    "sentence_en": "The doctor wants to ___.",
+    "sentence_ko": "의사 선생님이 검사를 좀 해 보길 원해요.",
+    "meaning": "검사를 하다",
+    "tts_text": "The doctor wants to run some tests.",
+    "display_sentence": "The doctor wants to run some tests.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get a referral",
+    "sentence_en": "I need to ___ to a specialist.",
+    "sentence_ko": "전문의에게 진료 의뢰서를 받아야 해요.",
+    "meaning": "진료 의뢰를 받다",
+    "tts_text": "I need to get a referral to a specialist.",
+    "display_sentence": "I need to get a referral to a specialist.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "fill a prescription",
+    "sentence_en": "I have to ___ at the pharmacy.",
+    "sentence_ko": "약국에서 처방약을 받아야 해요.",
+    "meaning": "처방약을 받다/조제하다",
+    "tts_text": "I have to fill a prescription at the pharmacy.",
+    "display_sentence": "I have to fill a prescription at the pharmacy.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "pharmacy"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "have a temperature",
+    "sentence_en": "You seem to ___.",
+    "sentence_ko": "열이 좀 있어 보여요.",
+    "meaning": "열이 있다",
+    "tts_text": "You seem to have a temperature.",
+    "display_sentence": "You seem to have a temperature.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "symptom"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "feel queasy",
+    "sentence_en": "I've started to ___.",
+    "sentence_ko": "속이 메스껍기 시작했어요.",
+    "meaning": "속이 메스껍다",
+    "tts_text": "I've started to feel queasy.",
+    "display_sentence": "I've started to feel queasy.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "symptom"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "stick to a diet",
+    "sentence_en": "It's hard to ___.",
+    "sentence_ko": "식단을 지키기가 어려워요.",
+    "meaning": "식단을 지키다",
+    "tts_text": "It's hard to stick to a diet.",
+    "display_sentence": "It's hard to stick to a diet.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get back in shape",
+    "sentence_en": "I'm trying to ___.",
+    "sentence_ko": "다시 몸을 만들려고 하고 있어요.",
+    "meaning": "다시 몸 상태를 회복하다",
+    "tts_text": "I'm trying to get back in shape.",
+    "display_sentence": "I'm trying to get back in shape.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "fitness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "shake off a cold",
+    "sentence_en": "I can't seem to ___.",
+    "sentence_ko": "감기가 좀처럼 안 떨어지네요.",
+    "meaning": "감기를 떨쳐내다",
+    "tts_text": "I can't seem to shake off a cold.",
+    "display_sentence": "I can't seem to shake off a cold.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "symptom"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "drink plenty of fluids",
+    "sentence_en": "Remember to ___.",
+    "sentence_ko": "물을 충분히 많이 드세요.",
+    "meaning": "수분을 충분히 섭취하다",
+    "tts_text": "Remember to drink plenty of fluids.",
+    "display_sentence": "Remember to drink plenty of fluids.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "rest up",
+    "sentence_en": "You need to ___ this weekend.",
+    "sentence_ko": "이번 주말엔 푹 쉬어야 해요.",
+    "meaning": "푹 쉬다",
+    "tts_text": "You need to rest up this weekend.",
+    "display_sentence": "You need to rest up this weekend.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "ice the bruise",
+    "sentence_en": "You should ___ right away.",
+    "sentence_ko": "멍든 데를 바로 얼음찜질하세요.",
+    "meaning": "멍든 곳을 얼음찜질하다",
+    "tts_text": "You should ice the bruise right away.",
+    "display_sentence": "You should ice the bruise right away.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "injury"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "lose your voice",
+    "sentence_en": "You'll ___ if you keep shouting.",
+    "sentence_ko": "계속 소리 지르면 목소리가 안 나와요.",
+    "meaning": "목소리가 안 나오다",
+    "tts_text": "You'll lose your voice if you keep shouting.",
+    "display_sentence": "You'll lose your voice if you keep shouting.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "symptom"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "feel light-headed",
+    "sentence_en": "I sometimes ___ when I stand up.",
+    "sentence_ko": "일어설 때 가끔 어질해요.",
+    "meaning": "어지럽고 멍하다",
+    "tts_text": "I sometimes feel light-headed when I stand up.",
+    "display_sentence": "I sometimes feel light-headed when I stand up.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "symptom"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "monitor your symptoms",
+    "sentence_en": "Please ___ for a few days.",
+    "sentence_ko": "며칠간 증상을 지켜봐 주세요.",
+    "meaning": "증상을 관찰하다",
+    "tts_text": "Please monitor your symptoms for a few days.",
+    "display_sentence": "Please monitor your symptoms for a few days.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get a checkup",
+    "sentence_en": "It's time to ___.",
+    "sentence_ko": "건강 검진을 받을 때가 됐어요.",
+    "meaning": "건강 검진을 받다",
+    "tts_text": "It's time to get a checkup.",
+    "display_sentence": "It's time to get a checkup.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "clinic"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "ease off the caffeine",
+    "sentence_en": "You might want to ___.",
+    "sentence_ko": "카페인을 좀 줄이는 게 좋겠어요.",
+    "meaning": "카페인을 줄이다",
+    "tts_text": "You might want to ease off the caffeine.",
+    "display_sentence": "You might want to ease off the caffeine.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "build up your strength",
+    "sentence_en": "Slowly ___ after the surgery.",
+    "sentence_ko": "수술 후엔 천천히 체력을 키우세요.",
+    "meaning": "체력을 키우다",
+    "tts_text": "Slowly build up your strength after the surgery.",
+    "display_sentence": "Slowly build up your strength after the surgery.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a chronic condition",
+    "sentence_en": "She manages ___.",
+    "sentence_ko": "그녀는 만성 질환을 관리하고 있어요.",
+    "meaning": "만성 질환",
+    "tts_text": "She manages a chronic condition.",
+    "display_sentence": "She manages a chronic condition.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "medical"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a flare-up",
+    "sentence_en": "He had ___ last night.",
+    "sentence_ko": "그는 어젯밤 증상이 도졌어요.",
+    "meaning": "(증상의) 재발, 악화",
+    "tts_text": "He had a flare-up last night.",
+    "display_sentence": "He had a flare-up last night.",
+    "frequency": "mid",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "medical"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "in remission",
+    "sentence_en": "Her illness is now ___.",
+    "sentence_ko": "그녀의 병은 지금 차도가 있어요.",
+    "meaning": "차도가 있는, 완화 상태인",
+    "tts_text": "Her illness is now in remission.",
+    "display_sentence": "Her illness is now in remission.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "medical"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "an underlying condition",
+    "sentence_en": "It could point to ___.",
+    "sentence_ko": "그건 기저 질환을 가리킬 수도 있어요.",
+    "meaning": "기저 질환",
+    "tts_text": "It could point to an underlying condition.",
+    "display_sentence": "It could point to an underlying condition.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "medical"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "preventive care",
+    "sentence_en": "Don't underestimate ___.",
+    "sentence_ko": "예방적 건강 관리를 가볍게 보지 마세요.",
+    "meaning": "예방적 건강 관리",
+    "tts_text": "Don't underestimate preventive care.",
+    "display_sentence": "Don't underestimate preventive care.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "stay on top of your health",
+    "sentence_en": "It's important to ___.",
+    "sentence_ko": "건강을 꾸준히 챙기는 게 중요해요.",
+    "meaning": "건강을 꾸준히 챙기다",
+    "tts_text": "It's important to stay on top of your health.",
+    "display_sentence": "It's important to stay on top of your health.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "listen to your body",
+    "sentence_en": "You really need to ___.",
+    "sentence_ko": "몸이 보내는 신호에 귀 기울여야 해요.",
+    "meaning": "몸의 신호에 귀 기울이다",
+    "tts_text": "You really need to listen to your body.",
+    "display_sentence": "You really need to listen to your body.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "build up immunity",
+    "sentence_en": "Good sleep helps ___.",
+    "sentence_ko": "충분한 수면은 면역력을 키우는 데 도움이 돼요.",
+    "meaning": "면역력을 키우다",
+    "tts_text": "Good sleep helps build up immunity.",
+    "display_sentence": "Good sleep helps build up immunity.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a sedentary lifestyle",
+    "sentence_en": "He's worried about ___.",
+    "sentence_ko": "그는 앉아만 있는 생활 방식을 걱정해요.",
+    "meaning": "주로 앉아서 지내는 생활 방식",
+    "tts_text": "He's worried about a sedentary lifestyle.",
+    "display_sentence": "He's worried about a sedentary lifestyle.",
+    "frequency": "low",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "shrug off a cold",
+    "sentence_en": "He always manages to ___.",
+    "sentence_ko": "그는 늘 감기쯤은 가볍게 털어내요.",
+    "meaning": "감기쯤은 가볍게 떨쳐내다",
+    "tts_text": "He always manages to shrug off a cold.",
+    "display_sentence": "He always manages to shrug off a cold.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "recovery"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "catch up on sleep",
+    "sentence_en": "I need to ___ this weekend.",
+    "sentence_ko": "이번 주말엔 밀린 잠을 자야 해요.",
+    "meaning": "밀린 잠을 자다",
+    "tts_text": "I need to catch up on sleep this weekend.",
+    "display_sentence": "I need to catch up on sleep this weekend.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "stress eating",
+    "sentence_en": "I tend to do a lot of ___.",
+    "sentence_ko": "저는 스트레스성 폭식을 자주 해요.",
+    "meaning": "스트레스성 폭식",
+    "tts_text": "I tend to do a lot of stress eating.",
+    "display_sentence": "I tend to do a lot of stress eating.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "wear yourself out",
+    "sentence_en": "Don't ___ before the trip.",
+    "sentence_ko": "여행 전에 무리하지 마세요.",
+    "meaning": "기진맥진하다, 무리하다",
+    "tts_text": "Don't wear yourself out before the trip.",
+    "display_sentence": "Don't wear yourself out before the trip.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "push yourself too hard",
+    "sentence_en": "Try not to ___.",
+    "sentence_ko": "너무 무리하지 않도록 하세요.",
+    "meaning": "자신을 너무 몰아붙이다",
+    "tts_text": "Try not to push yourself too hard.",
+    "display_sentence": "Try not to push yourself too hard.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "ride out the flu",
+    "sentence_en": "I just had to ___ at home.",
+    "sentence_ko": "그냥 집에서 독감이 지나가길 견뎌야 했어요.",
+    "meaning": "독감이 지나가길 견디다",
+    "tts_text": "I just had to ride out the flu at home.",
+    "display_sentence": "I just had to ride out the flu at home.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "recovery"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "ease back into exercise",
+    "sentence_en": "Start slow and ___.",
+    "sentence_ko": "천천히 시작해서 다시 운동에 적응하세요.",
+    "meaning": "다시 운동에 적응하다",
+    "tts_text": "Start slow and ease back into exercise.",
+    "display_sentence": "Start slow and ease back into exercise.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "fitness",
+      "recovery"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "build healthy habits",
+    "sentence_en": "It takes time to ___.",
+    "sentence_ko": "건강한 습관을 들이는 데는 시간이 걸려요.",
+    "meaning": "건강한 습관을 들이다",
+    "tts_text": "It takes time to build healthy habits.",
+    "display_sentence": "It takes time to build healthy habits.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "keep symptoms at bay",
+    "sentence_en": "This medication helps ___.",
+    "sentence_ko": "이 약은 증상을 억제하는 데 도움이 돼요.",
+    "meaning": "증상을 억제하다",
+    "tts_text": "This medication helps keep symptoms at bay.",
+    "display_sentence": "This medication helps keep symptoms at bay.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "medical"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "fighting off a cold",
+    "sentence_en": "I've been ___ all week.",
+    "sentence_ko": "일주일 내내 감기와 싸우고 있어요.",
+    "meaning": "감기를 이겨내려 애쓰는",
+    "tts_text": "I've been fighting off a cold all week.",
+    "display_sentence": "I've been fighting off a cold all week.",
+    "frequency": "mid",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "symptom"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a balanced lifestyle",
+    "sentence_en": "He swears by ___.",
+    "sentence_ko": "그는 균형 잡힌 생활 방식을 신봉해요.",
+    "meaning": "균형 잡힌 생활 방식",
+    "tts_text": "He swears by a balanced lifestyle.",
+    "display_sentence": "He swears by a balanced lifestyle.",
+    "frequency": "mid",
+    "chunk_type": "collocation",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "a quick recovery",
+    "sentence_en": "I wish you ___.",
+    "sentence_ko": "빠른 쾌유를 빌어요.",
+    "meaning": "빠른 회복",
+    "tts_text": "I wish you a quick recovery.",
+    "display_sentence": "I wish you a quick recovery.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "run yourself ragged",
+    "sentence_en": "You'll ___ at this rate.",
+    "sentence_ko": "이러다간 완전히 지쳐 쓰러져요.",
+    "meaning": "기진맥진할 때까지 무리하다",
+    "tts_text": "You'll run yourself ragged at this rate.",
+    "display_sentence": "You'll run yourself ragged at this rate.",
+    "frequency": "low",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "wellness"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "bounce back quickly",
+    "sentence_en": "Kids tend to ___.",
+    "sentence_ko": "아이들은 회복이 빠른 편이에요.",
+    "meaning": "빠르게 회복하다",
+    "tts_text": "Kids tend to bounce back quickly.",
+    "display_sentence": "Kids tend to bounce back quickly.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "recovery"
+    ]
+  },
+  {
+    "category": "health",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "feeling out of sorts",
+    "sentence_en": "I've been ___ lately.",
+    "sentence_ko": "요즘 몸이 영 찌뿌둥해요.",
+    "meaning": "몸 상태가 영 좋지 않다",
+    "tts_text": "I've been feeling out of sorts lately.",
+    "display_sentence": "I've been feeling out of sorts lately.",
+    "frequency": "mid",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "symptom"
+    ]
+  }
+]

@@ -102,12 +102,32 @@
 
 ---
 
+## Phase 6 — 콘텐츠 정제 ✅ (완료)
+
+> v6 단어 DB(2,520문항) 구축 과정에서 6-1·6-2·6-4가 사실상 완료됐고, 이번에 **6-3(중복 정리)**를 마무리하며 Phase 6 전 단위를 닫음.
+
+| 단위 | 내용 | 상태 | 검증 |
+|------|------|------|------|
+| 6-1 | 콘텐츠 검수 스크립트 | ✅ | `scripts/validateWords.ts`(`npm run validate:words`): 필드 누락·enum·빈칸 1개·**빈칸채움=tts 일치**·placeholder 누수(`someone/something`)·**카테고리 내 answer 중복**·셀당 70개를 전수 리포트. 회귀 방지용 상시 재사용. **전수 결과: 오류 0건.** |
+| 6-2 | 확정 오류 수정 | ✅ | 구 900문항 시절 템플릿 오류 4건(`ping someone`→`ping` 등)·placeholder 9건은 v6 신규 생성 시 원천 제거. 현재 검수기에서 **answer placeholder 누수 0건**(경고 6건은 모두 `something/someone`이 *answer가 아닌 자연스러운 전체 문장*에 포함된 정상 표현). |
+| 6-3 | 중복 answer 정리 + 사유 기록 | ✅ | `scripts/dedupReport.ts`(`npm run dedup:report`): 중복을 **의도적 재노출**(다른 카테고리·다른 예문 → 간격 반복에 유익, 유지) vs **오염**(동일 카테고리 또는 동일 예문 단순 복제 → 교체)으로 자동 분류. 카테고리 내 중복 0종, 카테고리 간 중복 238종 중 **동일 예문 오염 9종을 카테고리 맥락에 맞는 예문으로 차별화**(예: social "drop by"→"Why don't you drop by after work?"). 재실행 결과 **오염 0종**, 사유 로그 `docs/duplicate-answer-report.md` 생성. |
+| 6-4 | 콘텐츠 태깅 + 스키마 확장 | ✅ | `words`에 `display_sentence`/`frequency`/`chunk_type`/`difficulty_axis`/`use_case`(text[]) 추가(`supabase/migrations/v6_words_tags.sql`+`schema.sql`), `types/index.ts` `Word` 확장, `scripts/assembleWords.ts` 파이프라인. **2,520개 전수 태깅·시드 완료**(idiom 약 14%로 절제). 규격: `docs/word-content-spec-v6.md`. |
+
+**검증 방법**: `npm run validate:words`(오류 0/2,520행) + `npm run dedup:report`(오염 0종) + `npm run build` 통과. 6-3 수정분 9건은 `generated/*.json` 원천 패치 → `npm run assemble:words` 재조립(id 재할당+검증) → **Supabase 재시드(2,520행)** → 루트 `words.json`/`words.csv` 동기화까지 일괄 반영. 콘텐츠 단일 소스(`src/data/words.json`·루트 백업·Supabase) 3중 일치 확인.
+
+> ℹ️ **6-3 판정 기준 메모**: "다른 카테고리에서 서로 다른 예문으로 등장"은 학습상 **간격 반복**이라 일부러 남깁니다(238종 유지). 제거 대상은 "같은 문장을 그대로 복붙한" 9종뿐이었고, 모두 카테고리 맥락(식당 결제·IT 프린터·친구 방문 등)에 맞는 새 예문으로 바꿔 재노출로 전환했습니다. 전체 목록·사유는 `docs/duplicate-answer-report.md` 참조.
+
+---
+
 ## 실행 방법
 ```bash
 npm install
 npm run dev      # http://localhost:3000
 npm run build    # 프로덕션 빌드 + 타입/lint 검증
-npm run seed     # (Supabase 설정 후) words 900행 적재
+npm run seed     # (Supabase 설정 후) words 2,520행 적재
+npm run validate:words   # 콘텐츠 전수 검수(필드·빈칸채움=tts·placeholder·중복·셀70) — 오류 0
+npm run dedup:report     # 중복 answer 분석 → docs/duplicate-answer-report.md (오염 0종)
+npm run assemble:words   # generated/*.json → src/data/words.json 재조립(id 재할당+검증)
 node --experimental-strip-types scripts/test-score.ts  # 섀도잉 채점 단위 테스트(6/6)
 node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-srs.ts  # SRS 복습 규칙(7/7)
 node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-stats.ts  # 통계 집계(7/7)
@@ -119,7 +139,7 @@ node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/te
 - **게스트 모드 QA**: `.claude/launch.json`의 `dev-guest`(포트 3100)는 Supabase 미설정 상태를 흉내 내 로그인 없이 대시보드/레벨테스트/카테고리를 점검하는 용도.
 
 ## 알려진 메모
-- **Supabase 실연동 활성화 상태** — 앱이 로그인-퍼스트 모드로 동작. words 900행 적재 완료. 배포 시 운영 도메인의 콜백 URL을 Google OAuth 승인 리디렉션 + Supabase Redirect URLs에 추가 필요.
+- **Supabase 실연동 활성화 상태** — 앱이 로그인-퍼스트 모드로 동작. **words 2,520행(v6 스키마) 적재 완료**(구 900행에서 확충, Phase 6). 배포 시 운영 도메인의 콜백 URL을 Google OAuth 승인 리디렉션 + Supabase Redirect URLs에 추가 필요.
 - **(Phase 2) `onboarded` 컬럼 마이그레이션 1회 필요** — Supabase SQL Editor에서 `alter table public.user_state add column if not exists onboarded boolean not null default false;` 실행(또는 `supabase/schema.sql` 재실행). 미실행 시 로그인 유저의 레벨 테스트 완료 저장이 동작하지 않음(게스트 모드는 영향 없음).
 - Next.js는 15.5.4 사용. `npm audit`에 표시되는 권고들은 대부분 미사용 기능(middleware/image optimizer/server actions) 대상이라 로컬 학습 MVP 동작에 영향 없음. 배포 전 16.x 안정 라인으로 일괄 업그레이드 검토.
 - 다크 모드 토글 UI는 0-5에서 구현 완료(홈/학습/샘플 헤더). 전 화면 일괄 점검은 Phase 5 최종 QA에서.

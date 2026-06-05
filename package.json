@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed": "node --env-file=.env.local --experimental-strip-types scripts/seed.ts"
+    "seed": "node --env-file=.env.local --experimental-strip-types scripts/seed.ts",
+    "validate:words": "node --experimental-strip-types scripts/validateWords.ts",
+    "assemble:words": "node --experimental-strip-types scripts/assembleWords.ts",
+    "dedup:report": "node --experimental-strip-types scripts/dedupReport.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.47.10",
