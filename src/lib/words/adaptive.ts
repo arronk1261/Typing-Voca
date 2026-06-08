@@ -36,15 +36,138 @@ const CATEGORY_FLOW_ORDER = [
   "health",
 ];
 
+// 9-B4: 같은 카테고리 안에서도 상황 흐름대로 출제하기 위한 use_case 순서(미니 시나리오)
+const USE_CASE_FLOW = [
+  "greeting",
+  "introduction",
+  "smalltalk",
+  "conversation",
+  "morning_routine",
+  "schedule",
+  "appointment",
+  "booking",
+  "airport",
+  "transportation",
+  "directions",
+  "sightseeing",
+  "hotel",
+  "shopping",
+  "ordering",
+  "food",
+  "payment",
+  "office",
+  "meeting",
+  "task",
+  "development",
+  "business",
+  "phone",
+  "email",
+  "communication",
+  "device",
+  "troubleshooting",
+  "illness",
+  "hospital",
+  "wellness",
+  "recovery",
+  "emotion",
+  "relationship",
+  "friendship",
+  "conflict",
+  "farewell",
+];
+
 function categoryFlowIndex(category: string): number {
   const i = CATEGORY_FLOW_ORDER.indexOf(category);
   return i === -1 ? CATEGORY_FLOW_ORDER.length : i;
 }
 
+function useCaseFlowIndex(word: Word): number {
+  const cases = word.use_case ?? [];
+  let best = USE_CASE_FLOW.length;
+  for (const c of cases) {
+    const i = USE_CASE_FLOW.indexOf(c);
+    if (i !== -1 && i < best) best = i;
+  }
+  return best;
+}
+
+// 9-B4: 카테고리 순서를 1차 키, 카테고리 내부 use_case 흐름을 2차 키로 정렬
 export function orderByCategoryFlow(words: Word[]): Word[] {
+  return [...words].sort((a, b) => {
+    const byCategory = categoryFlowIndex(a.category) - categoryFlowIndex(b.category);
+    if (byCategory !== 0) return byCategory;
+    return useCaseFlowIndex(a) - useCaseFlowIndex(b);
+  });
+}
+
+// 9-C2: 커리큘럼 레이어 — 별도 재태깅 없이 기존 태그(레벨·빈도·청크·use_case)에서 파생
+export type CurriculumLayer = "survival" | "daily" | "work" | "advanced";
+
+const SURVIVAL_USE_CASES = new Set([
+  "greeting",
+  "introduction",
+  "farewell",
+  "directions",
+  "airport",
+  "transportation",
+  "ordering",
+  "payment",
+  "booking",
+  "hospital",
+]);
+const WORK_USE_CASES = new Set([
+  "work",
+  "office",
+  "business",
+  "meeting",
+  "task",
+  "development",
+]);
+
+export function curriculumLayer(word: Word): CurriculumLayer {
+  if (word.level === 3 || word.chunk_type === "idiom" || word.frequency === "low") {
+    return "advanced";
+  }
+  const uses = word.use_case ?? [];
+  if (
+    word.level === 1 &&
+    word.frequency === "high" &&
+    uses.some((u) => SURVIVAL_USE_CASES.has(u))
+  ) {
+    return "survival";
+  }
+  if (word.category === "work" || uses.some((u) => WORK_USE_CASES.has(u))) {
+    return "work";
+  }
+  return "daily";
+}
+
+const LAYER_RANK: Record<CurriculumLayer, number> = {
+  survival: 0,
+  daily: 1,
+  work: 2,
+  advanced: 3,
+};
+
+// 9-C2: 초급 학습자에게 생존·일상 표현을 먼저 노출하도록 레이어 순서로 정렬
+export function orderByCurriculum(words: Word[]): Word[] {
   return [...words].sort(
-    (a, b) => categoryFlowIndex(a.category) - categoryFlowIndex(b.category),
+    (a, b) => LAYER_RANK[curriculumLayer(a)] - LAYER_RANK[curriculumLayer(b)],
   );
+}
+
+// 9-B1: 기본 세션에서 저빈도(niche) 표현이 신규 출제를 과점하지 않도록 상한 적용
+export function limitLowFrequency(words: Word[], cap: number): Word[] {
+  const result: Word[] = [];
+  let lowUsed = 0;
+  for (const w of words) {
+    if (w.frequency === "low") {
+      if (lowUsed >= cap) continue;
+      lowUsed += 1;
+    }
+    result.push(w);
+  }
+  return result;
 }
 
 // 8-6: 졸업 단어 중 마지막 학습이 ~30일 이상 지난 것을 유지 점검 후보로 선별
@@ -104,6 +227,7 @@ const ROLLING_MIN_QUESTIONS = 30;
 const UP_CORRECT = 0.85;
 const UP_REVIEW = 0.15;
 const UP_STARS = 2.2;
+const UP_GRADUATED = 5;
 const DOWN_CORRECT = 0.5;
 const DOWN_REVIEW = 0.4;
 
@@ -117,11 +241,13 @@ export function suggestLevelFromHistory(
   const reviewRate = w.reviewEntries / w.questions;
   const avgStars = w.starsCount > 0 ? w.starsSum / w.starsCount : 0;
 
+  // 9-A3: 정답률·복습률·별점에 더해, 실제 졸업 누적이 충분할 때만 상향 제안
   if (
     level < 3 &&
     correctRate >= UP_CORRECT &&
     reviewRate <= UP_REVIEW &&
-    avgStars >= UP_STARS
+    avgStars >= UP_STARS &&
+    w.graduatedCount >= UP_GRADUATED
   ) {
     return "up";
   }

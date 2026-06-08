@@ -79,6 +79,9 @@ export function LevelTest({ onDone }: LevelTestProps) {
             <p className="text-base font-semibold text-ink">
               {LEVEL_LABEL[outcome.level]}
             </p>
+            <p className="rounded-xl bg-brand-soft px-3 py-2 text-sm font-medium leading-relaxed text-brand-strong dark:text-white">
+              {outcome.feedback}
+            </p>
             <p className="px-2 text-sm leading-relaxed text-ink-soft">
               여기서 출발해요. 학습하는 동안 자동으로 딱 맞게 조정되니 부담 갖지
               않아도 괜찮아요 🙂
@@ -103,6 +106,7 @@ export function LevelTest({ onDone }: LevelTestProps) {
       retries: retriesRef.current,
       responseMs: Date.now() - startRef.current,
       multiWord: word.answer.trim().includes(" "),
+      chunkType: word.chunk_type,
     });
   };
 

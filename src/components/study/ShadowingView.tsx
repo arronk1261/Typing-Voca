@@ -55,12 +55,17 @@ export function ShadowingView({ word, mode, onNext }: ShadowingViewProps) {
   const recordedRef = useRef(false);
 
   const finish = useCallback(
-    (stars: number | null, score: number | null, skipped: boolean) => {
+    (
+      stars: number | null,
+      score: number | null,
+      skipped: boolean,
+      weakWords: string[] = [],
+    ) => {
       if (recordedRef.current) return;
       recordedRef.current = true;
-      completeShadowing(stars, score, skipped);
+      completeShadowing(stars, score, skipped, mode, weakWords);
     },
-    [completeShadowing],
+    [completeShadowing, mode],
   );
 
   const goNext = useCallback(() => {
@@ -126,7 +131,7 @@ export function ShadowingView({ word, mode, onNext }: ShadowingViewProps) {
     }
     setResult(scored);
     setPhase("scored");
-    finish(scored.stars, scored.score, false);
+    finish(scored.stars, scored.score, false, scored.weakWords);
     if (scored.stars === 3) {
       haptics(20);
       void burstConfetti();

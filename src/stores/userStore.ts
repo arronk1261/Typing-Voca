@@ -1,6 +1,7 @@
 import { create } from "zustand";
 import { isSupabaseConfigured } from "@/lib/supabase/client";
 import {
+  loadRecentSessions,
   loadUserData,
   saveProgress,
   saveStudySession,
@@ -11,6 +12,7 @@ import { appendLocalSession } from "@/lib/sync/localStats";
 import {
   appendRecentWindow,
   readRecentWindow,
+  sessionToWindowEntry,
   type SessionWindowEntry,
 } from "@/lib/sync/recentWindow";
 import { computeStreakOnComplete, todayKey } from "@/lib/streak";
@@ -86,9 +88,14 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
 
   hydrate: async (userId) => {
     if (isSupabaseConfigured && userId) {
-      const { userState, progress } = await loadUserData(userId);
+      const [{ userState, progress }, recent] = await Promise.all([
+        loadUserData(userId),
+        loadRecentSessions(userId, 5),
+      ]);
       const progressMap: Record<number, Progress> = {};
       for (const row of progress) progressMap[row.word_id] = row;
+      const recentSessions =
+        recent.length > 0 ? recent.map(sessionToWindowEntry) : readRecentWindow();
       set({
         userId,
         configured: true,
@@ -103,7 +110,7 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
         totalLearned: userState?.total_learned ?? 0,
         preferredCategories: userState?.preferred_categories ?? [],
         progress: progressMap,
-        recentSessions: readRecentWindow(),
+        recentSessions,
       });
       return;
     }
@@ -212,7 +219,9 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
       starsSum: scored.reduce((sum, r) => sum + (r.shadowStars ?? 0), 0),
       starsCount: scored.length,
     };
-    const recentSessions = appendRecentWindow(windowEntry);
+    // 9-C1: 메모리 윈도우(로그인 시 클라우드로 시드됨)에 이어붙이고, 로컬 캐시도 갱신
+    appendRecentWindow(windowEntry);
+    const recentSessions = [...state.recentSessions, windowEntry].slice(-5);
 
     const streakUpdate = computeStreakOnComplete(
       state.lastStudyDate,

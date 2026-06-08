@@ -9,10 +9,19 @@ import {
 } from "../src/lib/srs.ts";
 import {
   adaptiveReviewRatio,
+  curriculumLayer,
+  limitLowFrequency,
+  orderByCategoryFlow,
+  orderByCurriculum,
   pickMaintenanceWords,
   suggestLevelFromHistory,
   type RollingWindow,
 } from "../src/lib/words/adaptive.ts";
+import { scoreLevelTest } from "../src/lib/words/levelScore.ts";
+import {
+  focusWords,
+  pronunciationDifficulty,
+} from "../src/lib/shadowing/pronunciation.ts";
 import { isStreakBroken } from "../src/lib/streak.ts";
 import type { Progress, QuestionResult, Word, WordLevel } from "../src/types/index.ts";
 
@@ -233,6 +242,110 @@ const cases: Case[] = [
   {
     name: "streak broken: 2+일 공백이면 true, 어제면 false",
     run: () => isStreakBroken("2026-06-01", TODAY) === true && isStreakBroken("2026-06-03", TODAY) === false && isStreakBroken(null, TODAY) === false,
+  },
+
+  // ---- 9-B1 저빈도 출제 상한 ----
+  {
+    name: "9-B1 limitLowFrequency caps low-frequency words",
+    run: () => {
+      const list = [
+        word({ id: 1, frequency: "low" }),
+        word({ id: 2, frequency: "high" }),
+        word({ id: 3, frequency: "low" }),
+        word({ id: 4, frequency: "low" }),
+        word({ id: 5, frequency: "mid" }),
+      ];
+      const capped = limitLowFrequency(list, 1);
+      const lows = capped.filter((w) => w.frequency === "low").length;
+      return lows === 1 && capped.length === 3 && capped.some((w) => w.id === 2);
+    },
+  },
+  {
+    name: "9-B1 cap 0 removes all low-frequency",
+    run: () => {
+      const list = [word({ id: 1, frequency: "low" }), word({ id: 2, frequency: "high" })];
+      return limitLowFrequency(list, 0).every((w) => w.frequency !== "low");
+    },
+  },
+
+  // ---- 9-B4 카테고리 내부 use_case 흐름 정렬 ----
+  {
+    name: "9-B4 orderByCategoryFlow sorts by category then use_case flow",
+    run: () => {
+      const list = [
+        word({ id: 1, category: "travel", use_case: ["directions"] }),
+        word({ id: 2, category: "travel", use_case: ["airport"] }),
+        word({ id: 3, category: "greeting", use_case: ["greeting"] }),
+      ];
+      const ordered = orderByCategoryFlow(list);
+      // greeting 카테고리가 먼저, travel 내부에서는 airport(흐름 앞) → directions
+      return ordered[0].id === 3 && ordered[1].id === 2 && ordered[2].id === 1;
+    },
+  },
+
+  // ---- 9-B3 레벨테스트 다축 점수·피드백 ----
+  {
+    name: "9-B3 chunk scores computed per chunk type",
+    run: () => {
+      const o = scoreLevelTest([
+        { questionLevel: 1, correct: true, hintsUsed: 0, retries: 0, responseMs: 3000, multiWord: false, chunkType: "single_word" },
+        { questionLevel: 2, correct: false, hintsUsed: 0, retries: 0, responseMs: 3000, multiWord: true, chunkType: "idiom" },
+      ]);
+      return (o.chunkScores.single_word ?? 0) === 1 && (o.chunkScores.idiom ?? -1) === 0;
+    },
+  },
+  {
+    name: "9-B3 strong words + weak chunks → 덩어리 연습 피드백",
+    run: () => {
+      const o = scoreLevelTest([
+        { questionLevel: 1, correct: true, hintsUsed: 0, retries: 0, responseMs: 3000, multiWord: false, chunkType: "single_word" },
+        { questionLevel: 2, correct: false, hintsUsed: 0, retries: 0, responseMs: 3000, multiWord: true, chunkType: "collocation" },
+        { questionLevel: 3, correct: false, hintsUsed: 0, retries: 0, responseMs: 3000, multiWord: true, chunkType: "idiom" },
+      ]);
+      return o.feedback.includes("덩어리 표현") && o.levelRatios[1] === 1 && o.levelRatios[3] === 0;
+    },
+  },
+
+  // ---- 9-C2 커리큘럼 레이어 ----
+  {
+    name: "9-C2 curriculumLayer derives survival/advanced/work",
+    run: () => {
+      const survival = curriculumLayer(word({ level: 1, frequency: "high", use_case: ["airport"] }));
+      const advanced = curriculumLayer(word({ level: 3, chunk_type: "idiom" }));
+      const work = curriculumLayer(word({ level: 2, frequency: "high", category: "work", use_case: ["meeting"] }));
+      const daily = curriculumLayer(word({ level: 2, frequency: "high", category: "daily", use_case: ["morning_routine"] }));
+      return survival === "survival" && advanced === "advanced" && work === "work" && daily === "daily";
+    },
+  },
+  {
+    name: "9-C2 orderByCurriculum puts survival before advanced",
+    run: () => {
+      const list = [
+        word({ id: 1, level: 3, chunk_type: "idiom" }),
+        word({ id: 2, level: 1, frequency: "high", use_case: ["greeting"] }),
+      ];
+      const ordered = orderByCurriculum(list);
+      return ordered[0].id === 2 && ordered[1].id === 1;
+    },
+  },
+
+  // ---- 9-C3 발음 난이도·포커스 ----
+  {
+    name: "9-C3 pronunciationDifficulty flags th/r-l/clusters",
+    run: () => {
+      return (
+        pronunciationDifficulty("the") >= 1 &&
+        pronunciationDifficulty("really") >= 1 &&
+        pronunciationDifficulty("cat") === 0
+      );
+    },
+  },
+  {
+    name: "9-C3 focusWords dedupes and ranks by difficulty",
+    run: () => {
+      const focus = focusWords(["cat", "Cat", "thrill", "really"], 2);
+      return focus.length === 2 && focus[0] === "thrill" && !focus.includes("Cat");
+    },
   },
 ];
 

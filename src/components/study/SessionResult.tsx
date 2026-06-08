@@ -16,6 +16,7 @@ import {
   type RollingWindow,
 } from "@/lib/words/getWords";
 import { isGraduated, isReviewTrigger } from "@/lib/srs";
+import { focusWords } from "@/lib/shadowing/pronunciation";
 import { SET_SIZE, useSessionStore } from "@/stores/sessionStore";
 import { useUserStore } from "@/stores/userStore";
 import type { WordLevel } from "@/types";
@@ -83,6 +84,11 @@ export function SessionResult() {
   const justMissedIds = results
     .filter((r) => isReviewTrigger(r))
     .map((r) => r.wordId);
+
+  const pronunciationFocus = focusWords(
+    results.flatMap((r) => r.weakWords ?? []),
+    3,
+  );
 
   const restart = async () => {
     const queue = await buildSession({
@@ -156,6 +162,24 @@ export function SessionResult() {
             );
           })}
         </Card>
+
+        {pronunciationFocus.length > 0 && (
+          <Card className="flex flex-col gap-2">
+            <p className="text-sm font-semibold text-ink-soft">
+              🎤 발음 포커스 — 다음엔 이 단어를 또렷하게!
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {pronunciationFocus.map((w) => (
+                <span
+                  key={w}
+                  className="rounded-full bg-brand-soft px-3 py-1 font-en text-sm font-medium text-brand-strong dark:text-white"
+                >
+                  {w}
+                </span>
+              ))}
+            </div>
+          </Card>
+        )}
       </div>
 
       <BottomActionBar>

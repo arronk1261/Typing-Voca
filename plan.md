@@ -2,7 +2,7 @@
 
 본 문서는 AI(Claude)와 함께 **단계별(Phase-by-Phase) 바이브 코딩**으로 MVP를 빌드하기 위한 제품 요구사항 정의서(PRD)이자 실행 로드맵입니다. 각 Phase는 **독립적으로 테스트 가능한 산출물**을 갖도록 설계되어, 한 단계를 끝낼 때마다 실제로 동작하는 결과물이 나옵니다.
 
-> **버전:** v6 (학습 품질 고도화) — **단어 DB를 900→2,520(레벨당 840, 카테고리당 210)로 확충 + v6 스키마(콘텐츠 태그) 적용 완료** / MVP(Phase 0~5) 완료 후 **콘텐츠 정제 · 진단/채점 신뢰도 · 장기 기억(SRS) 설계**를 다루는 Phase 6~8 로드맵 추가(8장 말미) / v5 구글 로그인 + 카테고리·통계·리포트·채점 고도화 MVP 포함 / v4 학습 데이터 Supabase 이전 / v3 단어 DB Supabase / v2 발음 재설계·폴백·콘텐츠 확장
+> **버전:** v7 (신뢰도·무중단 보강) — **외부 코드리뷰 반영 Phase 9 추가**: typingOnly 환경 졸업 차단 버그 수정(학습 무중단), 앵커 진단 블루프린트·다축 레벨점수, 저빈도 출제 제한·카테고리 미니 시나리오, study_sessions 기반 기기 간 승급, 커리큘럼 레이어·발음 포커스(스키마 변경 없음) / v6 단어 DB 900→2,520 확충 + v6 스키마(콘텐츠 태그) + Phase 6~8(콘텐츠 정제·진단/채점·장기 기억) / v5 구글 로그인 + 카테고리·통계·리포트·채점 고도화 MVP / v4 학습 데이터 Supabase 이전 / v3 단어 DB Supabase / v2 발음 재설계·폴백·콘텐츠 확장
 
 ---
 
@@ -132,6 +132,7 @@
 * 한 세션 내 **중복 출제 금지.**
 * 문항별 메타 추적: `seen_count, first_try_correct, shadow_stars, last_seen, next_due, pass_count, in_review`.
 * **적응형 레벨 보정(제안만, 강제 ❌):** (타이핑 첫 시도 정답률 높음 + 섀도잉 평균 ⭐⭐ 이상) 반복 → 상향 토스트 / 목숨 소진 잦음 → 하향 제안.
+* ⚠️ **현행(Phase 8-3/9-B1·C2 반영):** 고정 70/30이 아니라 **상태 적응형 복습 비율**(복귀자 0.7 / 오답누적 0.6 / Lv.1 초반 0.5 / 안정 0.3, `adaptiveReviewRatio`)이며, 기본 세션은 **저빈도 신규 ≤10% 제한**·**초급 생존/일상 우선** 정렬. 8.5 참조.
 
 ### 5.5 복습 졸업 규칙 (SRS-lite)
 * **`in_review` 진입:** 타이핑 목숨 전부 소진(실패) **또는** 섀도잉 ⭐ 1개 이하.
@@ -139,6 +140,7 @@
 * **졸업(`in_review=false`):** 서로 다른 2회(이상적으로 다른 날) "통과" 시.
   * 1차 통과 → `next_due = +1일` / 2차 통과 → **졸업** / 통과 실패 → `pass_count` 리셋(행 유지).
 * `(user_id, word_id)` 복합키로 중복 방지, 복습 노출은 `next_due` 지난 것 중 오래된 순.
+* ⚠️ **현행(Phase 8-1/9-A1 반영):** 졸업은 **2회 → 기본 3회**(Lv.3 관용구 4회), 간격 **+1일 고정 → 1→3→7→14일**. **typingOnly 등 STT 미지원 환경에서는 타이핑만으로 통과·졸업 가능**하며, 발음 미응시(자발적 스킵)는 `pass_count`를 리셋하지 않는 중립 처리(학습 무중단). 8.5 참조.
 
 ### 5.6 카테고리 선택 학습 (이번 MVP 포함)
 * **두 가지 진입 모드:**
@@ -389,12 +391,12 @@ create policy "own sessions" on public.study_sessions
 
 ---
 
-### (참고) 그 밖의 확장 후보 (Phase 9+)
-* 데이터 export/import(백업), 리더보드/친구 등 소셜, PWA 오프라인 강화, 월간 리포트·공유 이미지, 채점 동의어 사전 확장.
+### (참고) 그 밖의 확장 후보 (Phase 10+)
+* 데이터 export/import(백업), 리더보드/친구 등 소셜, PWA 오프라인 강화, 월간 리포트·공유 이미지, 채점 동의어 사전 확장. (Phase 9는 신뢰도·무중단 보강으로 이미 사용 — 8.5 참조)
 
 ---
 
-## 8.5 학습 품질 고도화 로드맵 ⭐ (v6 추가 · Phase 6~8)
+## 8.5 학습 품질 고도화 로드맵 ⭐ (v6~v7 · Phase 6~9)
 
 > MVP(Phase 0~5)로 **제품 학습 루프**는 완성됐다. 이제 *영어 학습 서비스로서의 품질*을 끌어올린다. 영어 학습 콘텐츠 전문가 리뷰 결과, 개선 우선순위는 **①콘텐츠 오류 정제 → ②진단(레벨테스트)·채점 신뢰도 → ③장기 기억(SRS) 설계** 순이다.
 >
@@ -404,7 +406,9 @@ create policy "own sessions" on public.study_sessions
 
 > **Phase 7 진단·채점 신뢰도 상태 — ✅ 전 단위 완료:** 7-1(앵커 레벨테스트 `src/data/anchorTest.json`+`scripts/buildAnchorTest.ts`)·7-2(다요소 채점 `levelScore.ts`)·7-3(임시 레벨 자동 보정 `calibration.ts`+`user_state` v7 컬럼)·7-4(정답 허용범위 `answerCheck.ts` canonical 비교)·7-5(단계 힌트 `hints.ts`) 완료. 단위 테스트 `npm run test:phase7` **23/23**, `npm run build` 통과. **운영 반영: `supabase/migrations/v7_user_state_calibration.sql` SQL Editor 1회 적용**(✅ 적용 완료).
 
-> **Phase 8 장기 기억·적응 상태 — ✅ 전 단위 완료:** 8-1(SRS 간격 장기화 `srs.ts`)·8-2(3요소 분리 기록 `progress` v8 컬럼)·8-3(적응형 출제 비율 `adaptive.ts`)·8-4(크로스레벨 복습 로드 `userData.ts`)·8-5(누적 승급 `suggestLevelFromHistory`+`recentSessions`)·8-6(졸업 유지 점검 `pickMaintenanceWords`) 완료. 순수 적응 로직은 `lib/words/adaptive.ts`로 분리. 단위 테스트 `npm run test:phase8` **25/25**·`test:srs` 8/8, `npm run build` 통과. **운영 반영: `supabase/migrations/v8_progress_components.sql` SQL Editor 1회 적용 필요**(미적용 시 무중단 폴백). → **MVP 로드맵(0~8) 전 구간 완료.**
+> **Phase 8 장기 기억·적응 상태 — ✅ 전 단위 완료:** 8-1(SRS 간격 장기화 `srs.ts`)·8-2(3요소 분리 기록 `progress` v8 컬럼)·8-3(적응형 출제 비율 `adaptive.ts`)·8-4(크로스레벨 복습 로드 `userData.ts`)·8-5(누적 승급 `suggestLevelFromHistory`+`recentSessions`)·8-6(졸업 유지 점검 `pickMaintenanceWords`) 완료. 순수 적응 로직은 `lib/words/adaptive.ts`로 분리. 단위 테스트 `npm run test:phase8`·`test:srs`, `npm run build` 통과. **운영 반영: `supabase/migrations/v8_progress_components.sql` SQL Editor 1회 적용 필요**(미적용 시 무중단 폴백). → **MVP 로드맵(0~8) 전 구간 완료.**
+
+> **Phase 9 신뢰도·무중단·적응 보강 상태 — ✅ 전 단위 완료(외부 코드리뷰 반영):** A1(typingOnly 졸업 차단 버그 수정 — `QuestionResult.shadowMode`+모드 인지형 `isPass`/`isFail`, 발음 미응시는 중립 처리)·A3(graduatedCount 승급 반영)·A4(빌드 경고 0, `omitKeys`)·B1(저빈도 출제 ≤10% `limitLowFrequency`)·B2(앵커 진단 블루프린트 재설계 — 레벨별 chunk_type 슬롯·카테고리 ≥8, `anchorTest.json` 재생성)·B3(레벨테스트 다축 점수+강약 피드백 `levelScore.ts`)·B4(use_case 미니 시나리오 `orderByCategoryFlow`)·C1(study_sessions 기반 기기 간 롤링 승급 `loadRecentSessions`)·C2(커리큘럼 레이어 파생 `curriculumLayer`/`orderByCurriculum`)·C3(발음 난이도 파생 `pronunciationDifficulty`+세션 발음 포커스 `focusWords`) 완료. 단위 테스트 `test:srs` **12/12**·`test:phase8` **34/34**·`test:phase7` 23/23, 섀도잉 6/6·통계 7/7, `npm run build`·`npm run lint` 경고 0. **스키마 변경 없음**(weakWords는 세션 메모리 전용, C1은 기존 `study_sessions` 읽기만) → 마이그레이션 불필요. 상세: `docs/phase9-dev-note.md`. → **로드맵 0~9 전 구간 완료.**
 
 ### 의존성 순서
 
@@ -412,9 +416,10 @@ create policy "own sessions" on public.study_sessions
 [Phase 6] 콘텐츠 정제 (최우선)        6-1 → 6-2 → 6-3 → 6-4
 [Phase 7] 진단·채점 신뢰도           7-1 → 7-2 → 7-3 → 7-4 → 7-5
 [Phase 8] 장기 기억·적응            8-1 → 8-2 → 8-3 → 8-4 → 8-5 → 8-6
+[Phase 9] 신뢰도·무중단·적응 보강    A(A1·A3·A4) → B(B1·B2·B3·B4) → C(C1·C2·C3)
 ```
-* **6 → 7 → 8 순서 권장.** 7-1(앵커 문항 선별)·8-3(적응 출제)이 6-4의 콘텐츠 태그를 활용한다.
-* 스키마 변경을 수반하는 단위: **6-4(`words`), 7-3(`user_state`), 8-2(`progress`)** → 각각 `supabase/migrations/` SQL + `scripts/seed.ts`/`types/index.ts` 동반 수정.
+* **6 → 7 → 8 → 9 순서.** 7-1(앵커 문항 선별)·8-3(적응 출제)이 6-4의 콘텐츠 태그를 활용하고, Phase 9는 7·8 로직을 다듬는다(A1이 8-1 졸업 규칙을 모드 인지형으로 보강).
+* 스키마 변경을 수반하는 단위: **6-4(`words`), 7-3(`user_state`), 8-2(`progress`)** → 각각 `supabase/migrations/` SQL + `scripts/seed.ts`/`types/index.ts` 동반 수정. **Phase 9는 스키마 변경 없음.**
 
 ---
 
@@ -451,6 +456,25 @@ create policy "own sessions" on public.study_sessions
 ### ⚠️ Phase 6~8 선결 의사결정 2가지 — ✅ 해소됨
 1. **콘텐츠 모델:** `someone`류 관용구는 **실제 목적어를 문장에 넣고 answer는 핵심 청크만** 두는 방식으로 정리(예: `win over the whole team`). `display_sentence`도 함께 도입. → 해결.
 2. **태깅 범위:** **2,520개 전수 태깅을 이번 DB 구축에 포함** 완료(코드 파이프라인 + 시드). → 별도 콘텐츠 작업 불필요.
+
+---
+
+### 🛡️ Phase 9 — 신뢰도·무중단·적응 보강 (외부 코드리뷰 반영)
+* **목표:** 외부 코드리뷰(Codex)가 짚은 8개 항목 반영. **최우선은 "학습 무중단" 원칙을 깨던 졸업 차단 버그.** 스키마 변경 없이 클라이언트 로직·기존 태그 파생으로 처리.
+* **Wave A — 무중단 버그 + 빠른 정리**
+  * **A1 typingOnly 졸업 차단 수정:** ✅ 완료 — 기존 `isPass`가 `섀도잉 별점 ≥2`를 필수로 요구해, STT 미지원(typingOnly)·자발적 스킵 환경에서 **타이핑을 완벽히 해도 졸업 불가 + pass_count 리셋**되던 버그. `QuestionResult.shadowMode` 기록 후 `srs.ts`를 모드 인지형으로: **typingOnly는 타이핑만으로 졸업**, 발음 미응시(자발적 스킵)는 리셋 없는 **중립**, 진짜 실패(하트 소진/약한 발음)만 리셋·복습. **Done 확인:** `test-srs` typingOnly·listening·중립 케이스(12/12).
+  * **A3 graduatedCount 승급 반영:** ✅ — `suggestLevelFromHistory` 상향 조건에 졸업 누적(≥5) 추가.
+  * **A4 빌드 경고 0:** ✅ — `userData.ts` unused 구조분해를 `omitKeys` 유틸로 교체.
+* **Wave B — 진단·출제 품질**
+  * **B1 저빈도 출제 제한:** ✅ — `limitLowFrequency`로 기본 세션 신규 출제의 `frequency=low`(niche)를 ≤10% 제한(카테고리 학습은 선택 존중·제외).
+  * **B2 앵커 진단 블루프린트:** ✅ — `buildAnchorTest.ts` 재설계(레벨별 chunk_type 슬롯: L1 단어 / L2 연어·구동사·문장틀 / L3 연어·구동사·문장틀·관용구 + 카테고리 ≥8 분산), `anchorTest.json` 재생성(11개 카테고리·고급 청크 포함).
+  * **B3 레벨테스트 다축 점수:** ✅ — `levelScore.ts`에 레벨별 ratio·청크유형별 점수·강약 피드백 추가, 결과 화면 격려 카드.
+  * **B4 카테고리 미니 시나리오:** ✅ — `orderByCategoryFlow`에 use_case 흐름(공항→호텔→길찾기…) 2차 정렬.
+* **Wave C — 클라우드 누적성·콘텐츠 심화**
+  * **C1 클라우드 롤링 승급:** ✅ — `loadRecentSessions`로 `study_sessions` 최근 5세트를 로그인 시 시드 → 기기 간 승급 판단 일관(로컬은 게스트/오프라인 보조).
+  * **C2 커리큘럼 레이어:** ✅ — 재태깅 없이 기존 태그에서 `curriculumLayer`(survival/daily/work/advanced) 파생, 초급(Lv.1 <30문항)은 생존·일상 우선 출제(`orderByCurriculum`).
+  * **C3 발음 난이도·포커스:** ✅ — `pronunciationDifficulty`(th·r/l·v/f·자음군 휴리스틱) + 세션 발화 약점을 모아 결과 화면 "발음 포커스"(`focusWords`).
+* **🔭 보류(효과 대비 작업량 큼 — 별도 단계 후보):** weakWords 영속화 기반 **"이번 주 발음 약점" 주간 리포트**, 발음 난이도 축 **전수 재태깅**(현재는 표면형 파생 추정).
 
 ---
 

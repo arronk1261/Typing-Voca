@@ -160,6 +160,31 @@
 
 ---
 
+## Phase 9 — 신뢰도·무중단·적응 보강 ✅ (완료)
+
+> 외부 코드리뷰(Codex) 피드백 반영. **"학습은 어떤 환경에서도 멈추지 않는다"** 원칙을 깨던 졸업 차단 버그를 최우선 수정하고, 진단·출제 품질과 클라우드 누적성을 끌어올림. **DB 스키마 변경 없음**(전부 클라이언트 로직·기존 태그 파생).
+
+| 단위 | 내용 | 상태 | 검증 |
+|------|------|------|------|
+| A1 | typingOnly 졸업 차단 버그 수정 | ✅ | `QuestionResult.shadowMode` 기록. `srs.ts` `isPass`/`isFail`/`computeProgressUpdate`를 모드 인지형으로: **typingOnly는 타이핑만으로 졸업 가능**, 발음 미응시(자발적 스킵)는 `pass_count` 리셋 없는 **중립** 처리. 실패(하트 소진/약한 발음)만 리셋·복습. |
+| A3 | graduatedCount 승급 반영 | ✅ | `suggestLevelFromHistory`에 졸업 누적(≥5) 조건 추가 — 정답률만 높고 실제 졸업이 없으면 상향 제안 보류. |
+| A4 | 빌드 경고 0 | ✅ | `userData.ts`의 unused 구조분해를 `omitKeys` 유틸로 교체(ESLint 0). |
+| B1 | 저빈도 출제 상한 | ✅ | 기본 세션 신규 출제에서 `frequency=low`(niche)를 ≤10%로 제한(`limitLowFrequency`). 카테고리 학습은 선택 존중해 제외. |
+| B2 | 앵커 진단 블루프린트 | ✅ | `buildAnchorTest.ts` 재설계 — 레벨별 chunk_type 슬롯(L1 단어 / L2 연어·구동사·문장틀 / L3 연어·구동사·문장틀·관용구) + 카테고리 분산(≥8). `anchorTest.json` 재생성(**11개 카테고리·고급 청크 포함**). |
+| B3 | 레벨테스트 다축 점수 | ✅ | `levelScore.ts`: 단일 ratio에 더해 **레벨별 ratio·청크유형별 점수·강약 피드백**("단어는 탄탄, 덩어리 표현 연습" 등). 결과 화면에 격려 카드 노출. |
+| B4 | 카테고리 미니 시나리오 | ✅ | `orderByCategoryFlow`에 use_case 흐름(공항→호텔→길찾기…) 2차 정렬 추가. |
+| C1 | 클라우드 롤링 승급 | ✅ | `loadRecentSessions`로 `study_sessions` 최근 5세트를 로그인 시 시드 → **기기 간 승급 판단 일관**. 세션 종료 시 메모리 윈도우에 이어붙임. 로컬 캐시는 게스트/오프라인 보조. |
+| C2 | 커리큘럼 레이어 | ✅ | 재태깅 없이 기존 태그에서 `curriculumLayer`(survival/daily/work/advanced) 파생. 초급(Lv.1 <30문항)은 생존·일상 표현 우선 출제(`orderByCurriculum`). |
+| C3 | 발음 난이도·포커스 | ✅ | `pronunciationDifficulty`(th·r/l·v/f·자음군 휴리스틱) + 세션 발화 약점을 모아 결과 화면 **"발음 포커스"** 노출(`focusWords`). |
+
+**검증 방법**: `npm run test:srs`(**12/12**, typingOnly·listening·중립 케이스 추가) + `npm run test:phase8`(**34/34**, B1·B3·B4·C2·C3 추가) + `npm run test:phase7`(23/23) + 섀도잉 채점(6/6) + 통계(7/7) + `npm run build`·`npm run lint`(경고 0).
+
+> ℹ️ **마이그레이션 불필요**: Phase 9는 새 DB 컬럼을 추가하지 않습니다(weakWords는 세션 메모리에서만 사용). C1은 기존 `study_sessions`를 읽기만 합니다.
+>
+> 🔭 **추가 검토 후보(미착수)**: weakWords를 영속화한 **"이번 주 발음 약점" 주간 리포트**, 발음 난이도 축의 **전수 재태깅**(현재는 표면형 파생 추정)은 별도 작업으로 남겨둠.
+
+---
+
 ## 실행 방법
 ```bash
 npm install

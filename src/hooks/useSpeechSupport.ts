@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import type { ShadowMode } from "@/types";
 
-export type ShadowMode = "full" | "listening" | "typingOnly";
+export type { ShadowMode };
 
 export interface SpeechSupport {
   mode: ShadowMode;
