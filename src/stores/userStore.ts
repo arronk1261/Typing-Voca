@@ -16,7 +16,7 @@ import {
   type SessionWindowEntry,
 } from "@/lib/sync/recentWindow";
 import { computeStreakOnComplete, todayKey } from "@/lib/streak";
-import { computeProgressUpdate } from "@/lib/srs";
+import { computeProgressUpdate, isReviewTrigger } from "@/lib/srs";
 import { applyCalibration } from "@/lib/words/calibration";
 import type { LevelTestOutcome } from "@/lib/words/levelScore";
 import type {
@@ -37,7 +37,7 @@ export interface SessionCommitOutcome {
   correctFirstTry: number;
   avgStars: number | null;
   avgScore: number | null;
-  reviewCount: number;
+  reviewTriggers: number;
 }
 
 interface UserStoreState {
@@ -210,12 +210,14 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
         ? scoredPoints.reduce((sum, r) => sum + (r.shadowScore ?? 0), 0) /
           scoredPoints.length
         : null;
-    const reviewCount = updatedRows.filter((r) => r.in_review).length;
+    // 9-2a: 승급 판단·세션 기록 모두 '이번 세션 신규 복습 진입(실패) 수'를 쓴다.
+    // (잔존 in_review 수는 이미 잘 맞히고 있는 복습 단어까지 포함돼 복습률을 부풀린다)
+    const reviewTriggers = results.filter(isReviewTrigger).length;
 
     const windowEntry: SessionWindowEntry = {
       total: learnedCount,
       firstTryCorrect: correctFirstTry,
-      reviewCount,
+      reviewTriggers,
       starsSum: scored.reduce((sum, r) => sum + (r.shadowStars ?? 0), 0),
       starsCount: scored.length,
     };
@@ -271,7 +273,7 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
       correct_first_try: correctFirstTry,
       avg_stars: avgStars,
       avg_score: avgScore,
-      review_count: reviewCount,
+      review_count: reviewTriggers,
       weak_words: results.flatMap((r) => r.weakWords ?? []),
     };
 
@@ -282,7 +284,7 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
       appendLocalSession(summary);
     }
 
-    return { learnedCount, correctFirstTry, avgStars, avgScore, reviewCount };
+    return { learnedCount, correctFirstTry, avgStars, avgScore, reviewTriggers };
   },
 
   reviewWordIds: () =>

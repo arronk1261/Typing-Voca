@@ -10,6 +10,17 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
+  // Next 16에서 `next lint`가 제거되므로 ESLint CLI(`eslint .`)로 전환 — 빌드 산출물·의존성은 직접 무시
+  {
+    ignores: [
+      ".next/**",
+      "out/**",
+      "build/**",
+      "node_modules/**",
+      "next-env.d.ts",
+      "*.tsbuildinfo",
+    ],
+  },
   ...compat.extends("next/core-web-vitals", "next/typescript"),
 ];
 

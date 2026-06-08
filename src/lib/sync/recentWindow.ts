@@ -6,7 +6,8 @@ const CAP = 5;
 export interface SessionWindowEntry {
   total: number;
   firstTryCorrect: number;
-  reviewCount: number;
+  // 9-2a: '세션 후 잔존 in_review'가 아니라 '이번 세션에 새로 복습 진입한 수'(승급 판단 정확도)
+  reviewTriggers: number;
   starsSum: number;
   starsCount: number;
 }
@@ -18,7 +19,7 @@ export function sessionToWindowEntry(s: StudySession): SessionWindowEntry {
   return {
     total: s.words_count,
     firstTryCorrect: s.correct_first_try,
-    reviewCount: s.review_count,
+    reviewTriggers: s.review_count,
     starsSum: hasStars ? (s.avg_stars as number) * s.words_count : 0,
     starsCount: hasStars ? s.words_count : 0,
   };
