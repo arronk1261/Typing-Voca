@@ -119,6 +119,26 @@
 
 ---
 
+## Phase 7 — 진단·채점 신뢰도 ✅ (완료)
+
+> "운 좋게 레벨이 정해지고, 맞는 답인데 틀렸다고 나오는" 신뢰 문제를 제거하는 단계. 레벨 진단을 **랜덤 → 검증된 앵커**로 바꾸고, 채점을 **정답 수만 → 다요소 가중**으로 바꾸고, 추정 레벨을 **학습 중 자동 보정**하며, 정답 허용범위를 넓히고, 오답 힌트를 단계화함.
+
+| 단위 | 내용 | 상태 | 검증 |
+|------|------|------|------|
+| 7-1 | 앵커 레벨테스트 | ✅ | `scripts/buildAnchorTest.ts`(`npm run build:anchors`)가 6-4 태그(고빈도·single_word/collocation 우선)로 레벨별 4문항씩 **결정적**으로 선별 → `src/data/anchorTest.json`(12문항, 카테고리 분산). `pickLevelTest`를 앵커 로딩으로 교체 → **매 진입 동일 난이도 분포**(랜덤·운 요소 제거). |
+| 7-2 | 다요소 채점 + "추천 시작 레벨" | ✅ | `src/lib/words/levelScore.ts`의 `scoreLevelTest`: 정답 여부 외 **힌트 사용·재시도·응답시간·멀티워드 성공**을 문항 레벨 가중으로 합산 → 비율(0~1)로 Lv.1~3 추천. LevelTest 결과 UI를 "Lv.X 확정"이 아닌 **"추천 시작 레벨"**(T2 격려 톤)로. 단위 테스트: 동일 정답수라도 힌트 다용/저속 응답이 점수·레벨을 낮춤. |
+| 7-3 | 임시 레벨 자동 보정 | ✅ | `user_state`에 `level_provisional`·`calibration_questions`·`calibration_correct` 추가(`supabase/migrations/v7_user_state_calibration.sql`+`schema.sql`+`types`). `src/lib/words/calibration.ts`의 `applyCalibration`: provisional 동안 세션 결과를 누적, **누적 30문항(3세트) 도달 시** 정답률로 확정/상향/하향. `userStore.completeOnboarding`/`commitSession` 연동, 게스트는 `localProfile`에 보존. 단위 테스트: 30 미만은 provisional 유지, 30 도달 시 확정·고/저정답률 조정. |
+| 7-4 | 정답 허용범위 확대 | ✅ | `src/lib/typing/answerCheck.ts`의 `canonicalAnswer`/`isAnswerCorrect`: 축약(`I'll`=`I will`·`don't`=`do not`)·하이픈/공백(`well-known`=`well known`)·아포스트로피·대소문자·관사(`a`=`an`) 차이를 흡수, `Word.accepted_answers[]` 변형 허용. **핵심 철자 차이(`recommended`≠`recommend`·`expensive`≠`overpriced`)는 차단.** 단위 테스트로 통과/차단 케이스 검증. |
+| 7-5 | 멀티워드 단계 힌트 | ✅ | `src/lib/typing/hints.ts`의 `stagedHint`: 오답 1회차 **첫 글자** → 2회차 **단어/글자 수(+머리글자)** → 3회차 **청크 단위 공개**(첫 단어+나머지 빈칸). `QuestionView`가 오답 횟수에 따라 단계 힌트를 표시. |
+
+**검증 방법**: `npm run test:phase7`(**23/23 통과** — 7-2 채점 5 / 7-3 보정 6 / 7-4 허용범위 8 / 7-5 힌트 4) + `npm run build`(타입·lint 0 오류) + `npm run build:anchors`(앵커 12문항 재생성). Supabase 동기화는 **v7 컬럼 부재 시 핵심 필드만 재저장하는 무중단 폴백**(`userData.ts`)을 넣어 마이그레이션 적용 전에도 streak·level 저장이 끊기지 않음. 적용 여부 확인: `node --env-file=.env.local --experimental-strip-types scripts/checkUserStateColumns.ts`.
+
+> ⚠️ **운영 반영 필수(수동 1회)**: 7-3은 `user_state` 스키마를 확장하므로 **Supabase SQL Editor에 `supabase/migrations/v7_user_state_calibration.sql`을 1회 붙여넣어 실행**해야 보정값이 클라우드에 저장됩니다(v6 적용과 동일 방식). 적용 전에도 앱은 무중단으로 동작(위 폴백).
+
+> ℹ️ **7-3 설계 메모**: 레벨테스트는 이제 **"확정"이 아니라 "추천 시작 레벨"**만 제시하고 provisional로 시작합니다. 이후 실제 학습 3세트(30문항)의 첫 시도 정답률로 자동 확정·조정하므로, 테스트 한 번의 운에 레벨이 묶이지 않습니다(정답률 ≥0.85 상향 / <0.45 하향 / 그 사이 유지).
+
+---
+
 ## 실행 방법
 ```bash
 npm install
@@ -128,6 +148,8 @@ npm run seed     # (Supabase 설정 후) words 2,520행 적재
 npm run validate:words   # 콘텐츠 전수 검수(필드·빈칸채움=tts·placeholder·중복·셀70) — 오류 0
 npm run dedup:report     # 중복 answer 분석 → docs/duplicate-answer-report.md (오염 0종)
 npm run assemble:words   # generated/*.json → src/data/words.json 재조립(id 재할당+검증)
+npm run build:anchors    # 레벨테스트 앵커 12문항 재생성 → src/data/anchorTest.json (Phase 7-1)
+npm run test:phase7      # Phase 7 진단·채점 단위 테스트(23/23)
 node --experimental-strip-types scripts/test-score.ts  # 섀도잉 채점 단위 테스트(6/6)
 node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-srs.ts  # SRS 복습 규칙(7/7)
 node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-stats.ts  # 통계 집계(7/7)
@@ -141,5 +163,6 @@ node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/te
 ## 알려진 메모
 - **Supabase 실연동 활성화 상태** — 앱이 로그인-퍼스트 모드로 동작. **words 2,520행(v6 스키마) 적재 완료**(구 900행에서 확충, Phase 6). 배포 시 운영 도메인의 콜백 URL을 Google OAuth 승인 리디렉션 + Supabase Redirect URLs에 추가 필요.
 - **(Phase 2) `onboarded` 컬럼 마이그레이션 1회 필요** — Supabase SQL Editor에서 `alter table public.user_state add column if not exists onboarded boolean not null default false;` 실행(또는 `supabase/schema.sql` 재실행). 미실행 시 로그인 유저의 레벨 테스트 완료 저장이 동작하지 않음(게스트 모드는 영향 없음).
+- **(Phase 7) `user_state` 보정 컬럼 마이그레이션 1회 필요** — `supabase/migrations/v7_user_state_calibration.sql`(`level_provisional`·`calibration_questions`·`calibration_correct`)을 SQL Editor에서 1회 실행. **미실행이어도 무중단**(`userData.ts`가 컬럼 부재 시 핵심 필드만 재저장) — 단, 적용 전에는 레벨 자동 보정값이 클라우드에 저장되지 않음(게스트 모드는 영향 없음). 적용 확인: `scripts/checkUserStateColumns.ts`.
 - Next.js는 15.5.4 사용. `npm audit`에 표시되는 권고들은 대부분 미사용 기능(middleware/image optimizer/server actions) 대상이라 로컬 학습 MVP 동작에 영향 없음. 배포 전 16.x 안정 라인으로 일괄 업그레이드 검토.
 - 다크 모드 토글 UI는 0-5에서 구현 완료(홈/학습/샘플 헤더). 전 화면 일괄 점검은 Phase 5 최종 QA에서.

@@ -10,6 +10,8 @@ import { readLocalProfile, writeLocalProfile } from "@/lib/sync/localProfile";
 import { appendLocalSession } from "@/lib/sync/localStats";
 import { computeStreakOnComplete, todayKey } from "@/lib/streak";
 import { computeProgressUpdate } from "@/lib/srs";
+import { applyCalibration } from "@/lib/words/calibration";
+import type { LevelTestOutcome } from "@/lib/words/levelScore";
 import type {
   Progress,
   QuestionResult,
@@ -37,6 +39,9 @@ interface UserStoreState {
   hydrated: boolean;
   onboarded: boolean;
   level: WordLevel;
+  levelProvisional: boolean;
+  calibrationQuestions: number;
+  calibrationCorrect: number;
   streak: number;
   lastStudyDate: string | null;
   totalLearned: number;
@@ -45,6 +50,7 @@ interface UserStoreState {
 
   hydrate: (userId: string | null) => Promise<void>;
   setLevel: (level: WordLevel) => void;
+  completeOnboarding: (outcome: LevelTestOutcome) => void;
   setPreferredCategories: (categories: string[]) => void;
   markStudiedToday: (learnedCount: number) => void;
   commitSession: (input: SessionCommitInput) => SessionCommitOutcome;
@@ -58,6 +64,9 @@ const initialState = {
   hydrated: false,
   onboarded: false,
   level: 1 as WordLevel,
+  levelProvisional: true,
+  calibrationQuestions: 0,
+  calibrationCorrect: 0,
   streak: 0,
   lastStudyDate: null as string | null,
   totalLearned: 0,
@@ -79,6 +88,9 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
         hydrated: true,
         onboarded: userState?.onboarded ?? false,
         level: (userState?.level ?? 1) as WordLevel,
+        levelProvisional: userState?.level_provisional ?? true,
+        calibrationQuestions: userState?.calibration_questions ?? 0,
+        calibrationCorrect: userState?.calibration_correct ?? 0,
         streak: userState?.streak ?? 0,
         lastStudyDate: userState?.last_study_date ?? null,
         totalLearned: userState?.total_learned ?? 0,
@@ -95,6 +107,9 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
       hydrated: true,
       onboarded: profile.level !== null,
       level: (profile.level ?? 1) as WordLevel,
+      levelProvisional: profile.levelProvisional,
+      calibrationQuestions: profile.calibrationQuestions,
+      calibrationCorrect: profile.calibrationCorrect,
       streak: profile.streak,
       lastStudyDate: profile.lastStudyDate,
       totalLearned: profile.totalLearned,
@@ -106,6 +121,23 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
   setLevel: (level) => {
     set({ level, onboarded: true });
     persist(get, { level, onboarded: true });
+  },
+
+  completeOnboarding: (outcome) => {
+    set({
+      level: outcome.level,
+      onboarded: true,
+      levelProvisional: true,
+      calibrationQuestions: 0,
+      calibrationCorrect: 0,
+    });
+    persist(get, {
+      level: outcome.level,
+      onboarded: true,
+      level_provisional: true,
+      calibration_questions: 0,
+      calibration_correct: 0,
+    });
   },
 
   setPreferredCategories: (categories) => {
@@ -171,17 +203,35 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
     );
     const nextTotal = state.totalLearned + learnedCount;
 
+    const calibrated = applyCalibration(
+      {
+        level: state.level,
+        levelProvisional: state.levelProvisional,
+        calibrationQuestions: state.calibrationQuestions,
+        calibrationCorrect: state.calibrationCorrect,
+      },
+      { questions: learnedCount, correct: correctFirstTry },
+    );
+
     set({
       progress: nextProgress,
       streak: streakUpdate.streak,
       lastStudyDate: streakUpdate.lastStudyDate,
       totalLearned: nextTotal,
+      level: calibrated.level,
+      levelProvisional: calibrated.levelProvisional,
+      calibrationQuestions: calibrated.calibrationQuestions,
+      calibrationCorrect: calibrated.calibrationCorrect,
     });
 
     persist(get, {
       streak: streakUpdate.streak,
       last_study_date: streakUpdate.lastStudyDate,
       total_learned: nextTotal,
+      level: calibrated.level,
+      level_provisional: calibrated.levelProvisional,
+      calibration_questions: calibrated.calibrationQuestions,
+      calibration_correct: calibrated.calibrationCorrect,
     });
 
     const summary: StudySession = {
@@ -217,6 +267,9 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
 type PersistPatch = {
   level?: WordLevel;
   onboarded?: boolean;
+  level_provisional?: boolean;
+  calibration_questions?: number;
+  calibration_correct?: number;
   streak?: number;
   last_study_date?: string | null;
   total_learned?: number;
@@ -231,6 +284,9 @@ function persist(get: () => UserStoreState, patch: PersistPatch): void {
   }
   writeLocalProfile({
     level: patch.level,
+    levelProvisional: patch.level_provisional,
+    calibrationQuestions: patch.calibration_questions,
+    calibrationCorrect: patch.calibration_correct,
     streak: patch.streak,
     lastStudyDate: patch.last_study_date,
     totalLearned: patch.total_learned,

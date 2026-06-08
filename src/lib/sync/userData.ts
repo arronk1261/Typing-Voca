@@ -47,18 +47,35 @@ async function loadLevelProgress(
   });
 }
 
+function isMissingColumn(error: { code?: string; message?: string }): boolean {
+  return error.code === "42703" || (error.message ?? "").includes("does not exist");
+}
+
 async function applyWrite(
   supabase: SupabaseClient,
   item: QueuedWrite,
 ): Promise<boolean> {
   try {
     if (item.table === "user_state") {
+      const payload = { ...item.payload, updated_at: new Date().toISOString() };
       const { error } = await supabase
         .from("user_state")
-        .upsert({ ...item.payload, updated_at: new Date().toISOString() }, {
-          onConflict: "user_id",
-        });
-      return !error;
+        .upsert(payload, { onConflict: "user_id" });
+      if (!error) return true;
+      // v7 마이그레이션 전이면 보정 컬럼이 없으므로 핵심 필드만 다시 저장(무중단)
+      if (isMissingColumn(error)) {
+        const {
+          level_provisional: _lp,
+          calibration_questions: _cq,
+          calibration_correct: _cc,
+          ...core
+        } = payload;
+        const retry = await supabase
+          .from("user_state")
+          .upsert(core, { onConflict: "user_id" });
+        return !retry.error;
+      }
+      return false;
     }
     if (item.table === "progress") {
       if (item.payload.length === 0) return true;

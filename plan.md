@@ -400,7 +400,9 @@ create policy "own sessions" on public.study_sessions
 >
 > **현황 검증(2026-06):** 단어 DB는 **총 2,520문항(Lv.1/2/3 각 840, 카테고리당 210)·v6 스키마로 확충·시드 완료** ✅ (구 900문항 시절의 템플릿 오류 4건·placeholder 9건·중복 61종은 검수 스크립트로 전수 제거). **남은 과제는 콘텐츠가 아니라 진단·채점·복습 로직** — 레벨테스트 5문항 랜덤, 완전일치만 정답 인정, SRS 2회 통과 졸업·+1일 고정, `loadUserData`가 현재 레벨 progress만 로드(레벨 상향 시 이전 레벨 복습 누락).
 >
-> **Phase 6 콘텐츠 정제 상태 — ✅ 전 단위 완료:** 6-1(검수 스크립트 `scripts/validateWords.ts`)·6-2(오류 수정)·6-4(v6 태깅+스키마/시드 파이프라인)은 DB 구축으로 완료, **6-3(중복 정리)도 `scripts/dedupReport.ts`로 마무리**(카테고리 간 동일 예문 오염 9종을 맥락별 예문으로 차별화 → 오염 0종, 사유 로그 `docs/duplicate-answer-report.md`). 전수 검수 오류 0/2,520. → **다음 착수는 Phase 7(진단·채점 신뢰도)**.
+> **Phase 6 콘텐츠 정제 상태 — ✅ 전 단위 완료:** 6-1(검수 스크립트 `scripts/validateWords.ts`)·6-2(오류 수정)·6-4(v6 태깅+스키마/시드 파이프라인)은 DB 구축으로 완료, **6-3(중복 정리)도 `scripts/dedupReport.ts`로 마무리**(카테고리 간 동일 예문 오염 9종을 맥락별 예문으로 차별화 → 오염 0종, 사유 로그 `docs/duplicate-answer-report.md`). 전수 검수 오류 0/2,520.
+
+> **Phase 7 진단·채점 신뢰도 상태 — ✅ 전 단위 완료:** 7-1(앵커 레벨테스트 `src/data/anchorTest.json`+`scripts/buildAnchorTest.ts`)·7-2(다요소 채점 `levelScore.ts`)·7-3(임시 레벨 자동 보정 `calibration.ts`+`user_state` v7 컬럼)·7-4(정답 허용범위 `answerCheck.ts` canonical 비교)·7-5(단계 힌트 `hints.ts`) 완료. 단위 테스트 `npm run test:phase7` **23/23**, `npm run build` 통과. **운영 반영: `supabase/migrations/v7_user_state_calibration.sql` SQL Editor 1회 적용 필요**(미적용 시 무중단 폴백 동작). → **다음 착수는 Phase 8(장기 기억·적응)**.
 
 ### 의존성 순서
 
@@ -425,11 +427,11 @@ create policy "own sessions" on public.study_sessions
 
 ### 🎯 Phase 7 — 진단·채점 신뢰도
 * **목표:** 첫 경험 진단 정확도 + 정답 인정 범위의 학습 친화성.
-* **7-1 앵커 레벨테스트(5→9~12문항):** `src/data/anchorTest.json` — 레벨별 3~4개 **검증된 대표 문항**(랜덤 아님, 6-4 태그로 고빈도·대표성 선별). `levelTest.ts`의 `pickLevelTest`를 앵커 로딩으로 교체. **Done:** 매 진입 동일 난이도 분포, 운 요소 제거.
-* **7-2 다요소 채점 + "추천 시작 레벨" 표현:** 정답 수 외 **힌트 사용·오답 후 재시도·응답 시간·멀티워드 성공** 반영한 가중 점수로 `levelFromScore` 교체, 결과 UI를 "Lv.X 확정"이 아닌 **"추천 시작 레벨"**(T2 톤). **Done:** 단위 테스트 — 동일 정답수라도 힌트 다용/저속 응답이 점수에 반영되어 분기.
-* **7-3 임시 레벨 자동 보정(`user_state` 확장):** 컬럼 추가 `level_provisional`(bool)·`calibration_questions`·`calibration_correct`. 첫 진입 Lv.2 provisional로 시작 → 누적 30문항(3세트) 후 확정/조정. **Done:** 모킹으로 30문항 누적 시 확정, 그 전엔 provisional 유지.
-* **7-4 정답 허용범위 확대:** `answerCheck.ts`의 `isAnswerCorrect`에 허용 규칙 — 관사 차이 일부, 축약/비축약(`I'll`=`I will`), 하이픈·아포스트로피, 단/복수 일부. `Word`에 선택적 `accepted_answers[]` 지원. **Done:** 단위 테스트 — `I will`=`I'll` 통과, 핵심 표현 오인정은 차단.
-* **7-5 멀티워드 단계 힌트:** 오답 시 1회차 첫 글자 → 2회차 단어 수 → 3회차 청크 단위 힌트. Lv.3 긴 표현은 "핵심 청크 재조립" UX 검토. **Done:** 멀티워드 문항에서 단계별 힌트 순차 노출.
+* **7-1 앵커 레벨테스트(5→9~12문항):** ✅ 완료 — `scripts/buildAnchorTest.ts`가 6-4 태그(고빈도·single_word/collocation 우선·카테고리 분산)로 레벨별 4문항씩 **결정적** 선별 → `src/data/anchorTest.json`(12문항). `levelTest.ts`의 `pickLevelTest`를 앵커 로딩으로 교체. **Done 확인:** 매 진입 동일 난이도 분포, 운 요소 제거.
+* **7-2 다요소 채점 + "추천 시작 레벨" 표현:** ✅ 완료 — `src/lib/words/levelScore.ts`의 `scoreLevelTest`가 정답 외 **힌트·재시도·응답시간·멀티워드**를 문항 레벨 가중 합산, LevelTest 결과 UI를 **"추천 시작 레벨"**(T2 톤)로. **Done 확인:** `test:phase7` — 동일 정답수라도 힌트 다용/저속 응답이 점수·레벨을 낮춤.
+* **7-3 임시 레벨 자동 보정(`user_state` 확장):** ✅ 완료 — `level_provisional`·`calibration_questions`·`calibration_correct` 컬럼(`v7_user_state_calibration.sql`+`schema.sql`+`types`), `src/lib/words/calibration.ts`의 `applyCalibration`(누적 30문항 도달 시 정답률 ≥0.85 상향/<0.45 하향/유지). `userStore`/`localProfile` 연동, 무중단 폴백(`userData.ts`). **Done 확인:** 모킹으로 30 미만 provisional 유지·30 도달 확정/조정.
+* **7-4 정답 허용범위 확대:** ✅ 완료 — `answerCheck.ts`의 `canonicalAnswer`/`isAnswerCorrect`: 축약(`I'll`=`I will`)·하이픈/공백·아포스트로피·대소문자·관사(`a`=`an`) 흡수, `Word.accepted_answers[]` 지원, 핵심 철자 차이는 차단. **Done 확인:** 단위 테스트 통과/차단 검증.
+* **7-5 멀티워드 단계 힌트:** ✅ 완료 — `src/lib/typing/hints.ts`의 `stagedHint`(1차 첫 글자→2차 단어/글자 수+머리글자→3차 청크 공개), `QuestionView` 오답 횟수 연동. **Done 확인:** 멀티워드 문항 단계별 힌트 순차 노출.
 
 ---
 

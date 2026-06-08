@@ -41,11 +41,21 @@ create table if not exists public.user_state (
   total_learned  int  not null default 0,
   preferred_categories text[] not null default '{}',
   onboarded      boolean not null default false,
+  level_provisional     boolean not null default true,
+  calibration_questions int not null default 0,
+  calibration_correct   int not null default 0,
   updated_at     timestamptz not null default now()
 );
 -- 기존 프로젝트 마이그레이션: 레벨 테스트 완료 여부(이미 있으면 무시)
 alter table public.user_state
   add column if not exists onboarded boolean not null default false;
+-- 7-3: 임시(추정) 레벨 자동 보정 컬럼
+alter table public.user_state
+  add column if not exists level_provisional boolean not null default true;
+alter table public.user_state
+  add column if not exists calibration_questions int not null default 0;
+alter table public.user_state
+  add column if not exists calibration_correct int not null default 0;
 
 -- =========================================================
 -- 3) 문항별 학습 신호 (user_id + word_id 복합키)

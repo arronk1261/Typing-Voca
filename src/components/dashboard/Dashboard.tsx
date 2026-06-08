@@ -21,7 +21,6 @@ import { LoadingDots } from "@/components/ui/LoadingDots";
 import { ThemeToggle } from "@/components/theme/ThemeToggle";
 import { GoogleLoginCard } from "@/components/auth/GoogleLoginCard";
 import { useUserStore } from "@/stores/userStore";
-import type { WordLevel } from "@/types";
 
 export function Dashboard() {
   const { configured, loading, user, signOut } = useAuth();
@@ -34,7 +33,7 @@ export function Dashboard() {
   const totalLearned = useUserStore((s) => s.totalLearned);
   const preferredCategories = useUserStore((s) => s.preferredCategories);
   const hydrate = useUserStore((s) => s.hydrate);
-  const setLevel = useUserStore((s) => s.setLevel);
+  const completeOnboarding = useUserStore((s) => s.completeOnboarding);
   const setPreferredCategories = useUserStore((s) => s.setPreferredCategories);
   const reviewWordIds = useUserStore((s) => s.reviewWordIds);
 
@@ -58,7 +57,7 @@ export function Dashboard() {
   }
 
   if (!onboarded) {
-    return <LevelTest onDone={(lv: WordLevel) => setLevel(lv)} />;
+    return <LevelTest onDone={completeOnboarding} />;
   }
 
   const reviewCount = reviewWordIds().length;

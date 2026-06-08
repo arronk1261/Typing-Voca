@@ -1,0 +1,229 @@
+[
+  {
+    "id": 1,
+    "category": "greeting",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "How",
+    "sentence_en": "___ are you doing today?",
+    "sentence_ko": "오늘 어떻게 지내세요?",
+    "meaning": "어떻게",
+    "tts_text": "How are you doing today?",
+    "display_sentence": "How are you doing today?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "greeting",
+      "smalltalk"
+    ]
+  },
+  {
+    "id": 211,
+    "category": "shopping",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "much",
+    "sentence_en": "How ___ is this?",
+    "sentence_ko": "이거 얼마예요?",
+    "meaning": "얼마나",
+    "tts_text": "How much is this?",
+    "display_sentence": "How much is this?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "shopping",
+      "payment"
+    ]
+  },
+  {
+    "id": 421,
+    "category": "restaurant",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "menu",
+    "sentence_en": "Can I see the ___?",
+    "sentence_ko": "메뉴 좀 볼 수 있을까요?",
+    "meaning": "메뉴",
+    "tts_text": "Can I see the menu?",
+    "display_sentence": "Can I see the menu?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "id": 631,
+    "category": "travel",
+    "level": 1,
+    "cefr": "A1-A2",
+    "answer": "ticket",
+    "sentence_en": "I need a ___ to Busan.",
+    "sentence_ko": "부산행 표가 필요해요.",
+    "meaning": "표",
+    "tts_text": "I need a ticket to Busan.",
+    "display_sentence": "I need a ticket to Busan.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "transportation",
+      "booking"
+    ]
+  },
+  {
+    "id": 285,
+    "category": "shopping",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "afford",
+    "sentence_en": "I can't ___ such an expensive bag.",
+    "sentence_ko": "그렇게 비싼 가방은 살 형편이 안 돼요.",
+    "meaning": "~을 살 형편이 되다",
+    "tts_text": "I can't afford such an expensive bag.",
+    "display_sentence": "I can't afford such an expensive bag.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "pricing",
+      "budget"
+    ]
+  },
+  {
+    "id": 491,
+    "category": "restaurant",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "recommend",
+    "sentence_en": "What would you ___ for a first-timer?",
+    "sentence_ko": "처음 온 사람에게 뭘 추천하시겠어요?",
+    "meaning": "추천하다",
+    "tts_text": "What would you recommend for a first-timer?",
+    "display_sentence": "What would you recommend for a first-timer?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "spelling",
+    "use_case": [
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "id": 1125,
+    "category": "phone_email",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "reach",
+    "sentence_en": "What's the best way to ___ you?",
+    "sentence_ko": "어떻게 연락드리는 게 가장 좋을까요?",
+    "meaning": "연락하다",
+    "tts_text": "What's the best way to reach you?",
+    "display_sentence": "What's the best way to reach you?",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "contact",
+      "business"
+    ]
+  },
+  {
+    "id": 1343,
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "into",
+    "sentence_en": "I'm really ___ photography.",
+    "sentence_ko": "전 사진에 푹 빠져 있어요.",
+    "meaning": "~에 푹 빠진",
+    "tts_text": "I'm really into photography.",
+    "display_sentence": "I'm really into photography.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "emotion",
+      "social"
+    ]
+  },
+  {
+    "id": 146,
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "make small talk",
+    "sentence_en": "I tried to ___ while we waited.",
+    "sentence_ko": "기다리는 동안 가벼운 대화를 나누려 했어요.",
+    "meaning": "잡담을 나누다",
+    "tts_text": "I tried to make small talk while we waited.",
+    "display_sentence": "I tried to make small talk while we waited.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "smalltalk",
+      "social"
+    ]
+  },
+  {
+    "id": 410,
+    "category": "shopping",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "overpriced",
+    "sentence_en": "That café is so ___.",
+    "sentence_ko": "그 카페는 너무 비싸요.",
+    "meaning": "값이 너무 비싼",
+    "tts_text": "That café is so overpriced.",
+    "display_sentence": "That café is so overpriced.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "payment"
+    ]
+  },
+  {
+    "id": 1204,
+    "category": "phone_email",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "ping",
+    "sentence_en": "I'll ___ you on the app.",
+    "sentence_ko": "앱으로 연락 한번 할게요.",
+    "meaning": "간단히 연락하다",
+    "tts_text": "I'll ping you on the app.",
+    "display_sentence": "I'll ping you on the app.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "messaging",
+      "digital"
+    ]
+  },
+  {
+    "id": 2456,
+    "category": "it",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "scalable",
+    "sentence_en": "The system needs to be ___.",
+    "sentence_ko": "그 시스템은 확장 가능해야 해요.",
+    "meaning": "확장 가능한",
+    "tts_text": "The system needs to be scalable.",
+    "display_sentence": "The system needs to be scalable.",
+    "frequency": "high",
+    "chunk_type": "single_word",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "architecture",
+      "server"
+    ]
+  }
+]
