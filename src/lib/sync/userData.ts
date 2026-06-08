@@ -127,7 +127,17 @@ async function applyWrite(
       return false;
     }
     const { error } = await supabase.from("study_sessions").insert(item.payload);
-    return !error;
+    if (!error) return true;
+    // v9 마이그레이션 전이면 weak_words 컬럼이 없으므로 제거 후 재시도(무중단)
+    if (isMissingColumn(error)) {
+      const stripped = omitKeys(
+        item.payload as unknown as Record<string, unknown>,
+        ["weak_words"],
+      );
+      const retry = await supabase.from("study_sessions").insert(stripped);
+      return !retry.error;
+    }
+    return false;
   } catch {
     return false;
   }

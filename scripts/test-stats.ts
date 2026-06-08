@@ -171,6 +171,24 @@ const cases: Case[] = [
       return r.hasData === false && r.totalWords === 0 && r.bestCategory === null;
     },
   },
+  {
+    name: "weeklyReport-pronunciation-focus (9-1a)",
+    run: () => {
+      const sessions = [
+        session({ study_date: TODAY, weak_words: ["the", "think", "world"] }),
+        session({ study_date: "2026-06-02", weak_words: ["the", "cat"] }),
+        session({ study_date: "2026-05-20", weak_words: ["ancient"] }), // 주간 범위 밖 → 제외
+      ];
+      const r = weeklyReport(sessions, [], new Map(), label, TODAY);
+      const focusTop = r.pronunciationFocus[0];
+      return (
+        focusTop.word === "the" &&
+        focusTop.count === 2 &&
+        r.pronunciationFeatures[0] === "th" &&
+        !r.pronunciationFocus.some((w) => w.word === "ancient")
+      );
+    },
+  },
 ];
 
 let pass = 0;

@@ -1,8 +1,9 @@
 "use client";
 
-import { Flame, Star, TrendingDown, TrendingUp } from "lucide-react";
+import { Flame, Mic, Star, TrendingDown, TrendingUp } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import type { WeeklyReport } from "@/lib/stats/aggregate";
+import { PHONEME_LABEL } from "@/lib/shadowing/pronunciation";
 
 function DeltaTag({ delta, unit }: { delta: number; unit: string }) {
   if (delta === 0) {
@@ -92,6 +93,40 @@ export function WeeklyReportCard({
               {report.topMastered.label} · {Math.round(report.topMastered.ratio * 100)}%
             </p>
           </div>
+        </Card>
+      )}
+
+      {report.pronunciationFocus.length > 0 && (
+        <Card className="flex flex-col gap-2">
+          <div className="flex items-center gap-2">
+            <Mic size={16} className="text-brand" aria-hidden />
+            <p className="text-sm font-semibold text-ink">이번 주 발음 약점</p>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {report.pronunciationFocus.map((w) => (
+              <span
+                key={w.word}
+                className="flex items-center gap-1 rounded-full bg-brand-soft px-3 py-1 font-en text-sm font-medium text-brand-strong dark:text-white"
+              >
+                {w.word}
+                {w.count > 1 && (
+                  <b className="font-sans text-[11px] text-brand">×{w.count}</b>
+                )}
+              </span>
+            ))}
+          </div>
+          {report.pronunciationFeatures.length > 0 && (
+            <p className="text-xs leading-relaxed text-ink-soft">
+              특히{" "}
+              <b className="text-ink">
+                {report.pronunciationFeatures
+                  .slice(0, 2)
+                  .map((f) => PHONEME_LABEL[f])
+                  .join(", ")}
+              </b>{" "}
+              발음을 또렷하게 연습해 보세요 🎤
+            </p>
+          )}
         </Card>
       )}
 

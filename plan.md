@@ -2,7 +2,7 @@
 
 본 문서는 AI(Claude)와 함께 **단계별(Phase-by-Phase) 바이브 코딩**으로 MVP를 빌드하기 위한 제품 요구사항 정의서(PRD)이자 실행 로드맵입니다. 각 Phase는 **독립적으로 테스트 가능한 산출물**을 갖도록 설계되어, 한 단계를 끝낼 때마다 실제로 동작하는 결과물이 나옵니다.
 
-> **버전:** v7 (신뢰도·무중단 보강) — **외부 코드리뷰 반영 Phase 9 추가**: typingOnly 환경 졸업 차단 버그 수정(학습 무중단), 앵커 진단 블루프린트·다축 레벨점수, 저빈도 출제 제한·카테고리 미니 시나리오, study_sessions 기반 기기 간 승급, 커리큘럼 레이어·발음 포커스(스키마 변경 없음) / v6 단어 DB 900→2,520 확충 + v6 스키마(콘텐츠 태그) + Phase 6~8(콘텐츠 정제·진단/채점·장기 기억) / v5 구글 로그인 + 카테고리·통계·리포트·채점 고도화 MVP / v4 학습 데이터 Supabase 이전 / v3 단어 DB Supabase / v2 발음 재설계·폴백·콘텐츠 확장
+> **버전:** v7 (신뢰도·무중단 보강) — **외부 코드리뷰 반영 Phase 9 + 9-1 추가**: typingOnly 환경 졸업 차단 버그 수정(학습 무중단), 앵커 진단 블루프린트·다축 레벨점수, 저빈도 출제 제한·카테고리 미니 시나리오, study_sessions 기반 기기 간 승급, 커리큘럼 레이어·발음 포커스 / **9-1: 영속 주간 발음 리포트(`study_sessions.weak_words` v9)·발음 난이도 전수 분석** / v6 단어 DB 900→2,520 확충 + v6 스키마(콘텐츠 태그) + Phase 6~8(콘텐츠 정제·진단/채점·장기 기억) / v5 구글 로그인 + 카테고리·통계·리포트·채점 고도화 MVP / v4 학습 데이터 Supabase 이전 / v3 단어 DB Supabase / v2 발음 재설계·폴백·콘텐츠 확장
 
 ---
 
@@ -419,7 +419,7 @@ create policy "own sessions" on public.study_sessions
 [Phase 9] 신뢰도·무중단·적응 보강    A(A1·A3·A4) → B(B1·B2·B3·B4) → C(C1·C2·C3)
 ```
 * **6 → 7 → 8 → 9 순서.** 7-1(앵커 문항 선별)·8-3(적응 출제)이 6-4의 콘텐츠 태그를 활용하고, Phase 9는 7·8 로직을 다듬는다(A1이 8-1 졸업 규칙을 모드 인지형으로 보강).
-* 스키마 변경을 수반하는 단위: **6-4(`words`), 7-3(`user_state`), 8-2(`progress`)** → 각각 `supabase/migrations/` SQL + `scripts/seed.ts`/`types/index.ts` 동반 수정. **Phase 9는 스키마 변경 없음.**
+* 스키마 변경을 수반하는 단위: **6-4(`words`), 7-3(`user_state`), 8-2(`progress`), 9-1a(`study_sessions`)** → 각각 `supabase/migrations/` SQL + `types/index.ts` 동반 수정. **Phase 9 본편(A·B·C)은 스키마 변경 없음**, 보류 항목을 마저 구현한 **9-1a만 `study_sessions.weak_words` 추가(v9)**.
 
 ---
 
@@ -474,7 +474,10 @@ create policy "own sessions" on public.study_sessions
   * **C1 클라우드 롤링 승급:** ✅ — `loadRecentSessions`로 `study_sessions` 최근 5세트를 로그인 시 시드 → 기기 간 승급 판단 일관(로컬은 게스트/오프라인 보조).
   * **C2 커리큘럼 레이어:** ✅ — 재태깅 없이 기존 태그에서 `curriculumLayer`(survival/daily/work/advanced) 파생, 초급(Lv.1 <30문항)은 생존·일상 우선 출제(`orderByCurriculum`).
   * **C3 발음 난이도·포커스:** ✅ — `pronunciationDifficulty`(th·r/l·v/f·자음군 휴리스틱) + 세션 발화 약점을 모아 결과 화면 "발음 포커스"(`focusWords`).
-* **🔭 보류(효과 대비 작업량 큼 — 별도 단계 후보):** weakWords 영속화 기반 **"이번 주 발음 약점" 주간 리포트**, 발음 난이도 축 **전수 재태깅**(현재는 표면형 파생 추정).
+* **Phase 9-1 — 보류 항목 마저 구현(완료)**
+  * **9-1a 영속 주간 발음 리포트:** ✅ — `study_sessions.weak_words`(text[], **v9 마이그레이션**) 추가. `commitSession`이 세션 약점 단어를 요약에 적재, `saveStudySession`은 컬럼 부재 시 떼고 재시도(무중단). `aggregate.ts`가 이번 주 약점을 **빈도×난이도 랭킹**(`rankWeakWords`)+**음소 요소 집계**(`topPhonemeFeatures`)로 산출 → 주간 리포트 카드 "이번 주 발음 약점" 섹션.
+  * **9-1b 발음 난이도 전수 분석·태깅:** ✅ — `pronunciation.ts`에 `pronunciationFeatures`(th·r/l·v/f·z·자음군)+`PHONEME_LABEL`. `scripts/tagPronunciation.ts`(`npm run tag:pronunciation`)가 **2,520단어 전수 분류** → `docs/pronunciation-coverage.md`(난이 요소 1개+ **1,363개=54%**, 기존 `difficulty_axis=pronunciation` 23개 대비 대폭 확대). 런타임 동일 함수 파생 계산이라 **words DB 컬럼·시드 불필요**.
+  * **검증:** `test:phase8` **37/37**·`test:stats` **8/8**·`build`·`lint` 0. **운영 반영:** `supabase/migrations/v9_session_weak_words.sql` 1회 적용(미적용 시 무중단 폴백).
 
 ---
 

@@ -100,9 +100,13 @@ create table if not exists public.study_sessions (
   correct_first_try int not null,
   avg_stars       numeric(3,2),
   avg_score       numeric(5,2),
-  review_count    int  not null default 0
+  review_count    int  not null default 0,
+  weak_words      text[] not null default '{}'
 );
 create index if not exists sessions_date_idx on public.study_sessions (user_id, study_date);
+-- 9-1a: 주간 발음 리포트용 약점 단어(기존 프로젝트 마이그레이션)
+alter table public.study_sessions
+  add column if not exists weak_words text[] not null default '{}';
 
 -- =========================================================
 -- 5) RLS: 본인 행만 읽기/쓰기

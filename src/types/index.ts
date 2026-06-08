@@ -91,6 +91,8 @@ export interface StudySession {
   avg_stars: number | null;
   avg_score: number | null;
   review_count: number;
+  // 9-1a: 이번 세션 섀도잉 약점 단어(주간 발음 리포트 원천)
+  weak_words?: string[];
 }
 
 export function isWord(value: unknown): value is Word {

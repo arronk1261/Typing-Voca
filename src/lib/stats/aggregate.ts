@@ -1,5 +1,11 @@
 import { todayKey } from "@/lib/streak";
 import { addDays } from "@/lib/srs";
+import {
+  rankWeakWords,
+  topPhonemeFeatures,
+  type PhonemeFeature,
+  type WeakWordStat,
+} from "@/lib/shadowing/pronunciation";
 import type { Progress, StudySession } from "@/types";
 
 export interface CalendarCell {
@@ -159,6 +165,9 @@ export interface WeeklyReport {
   deltaDays: number;
   prevTotalWords: number;
   hasData: boolean;
+  // 9-1a: 이번 주 발음 약점(빈도×난이도 랭킹) + 몰린 음소 요소
+  pronunciationFocus: WeakWordStat[];
+  pronunciationFeatures: PhonemeFeature[];
 }
 
 function weekWindow(sessions: StudySession[], from: string, to: string) {
@@ -203,6 +212,12 @@ export function weeklyReport(
   const cur = weekWindow(sessions, thisFrom, today);
   const prev = weekWindow(sessions, lastFrom, lastTo);
 
+  const weekWeakWords = sessions
+    .filter((s) => s.study_date >= thisFrom && s.study_date <= today)
+    .flatMap((s) => s.weak_words ?? []);
+  const pronunciationFocus = rankWeakWords(weekWeakWords, 5);
+  const pronunciationFeatures = topPhonemeFeatures(weekWeakWords);
+
   const recentSeen = new Set(
     progressRows.filter((p) => p.last_seen && p.last_seen >= thisFrom).map((p) => p.word_id),
   );
@@ -240,5 +255,7 @@ export function weeklyReport(
     deltaDays: cur.daysStudied - prev.daysStudied,
     prevTotalWords: prev.words,
     hasData: cur.words > 0 || cur.daysStudied > 0,
+    pronunciationFocus,
+    pronunciationFeatures,
   };
 }

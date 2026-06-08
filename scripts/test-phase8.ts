@@ -21,6 +21,9 @@ import { scoreLevelTest } from "../src/lib/words/levelScore.ts";
 import {
   focusWords,
   pronunciationDifficulty,
+  pronunciationFeatures,
+  rankWeakWords,
+  topPhonemeFeatures,
 } from "../src/lib/shadowing/pronunciation.ts";
 import { isStreakBroken } from "../src/lib/streak.ts";
 import type { Progress, QuestionResult, Word, WordLevel } from "../src/types/index.ts";
@@ -345,6 +348,35 @@ const cases: Case[] = [
     run: () => {
       const focus = focusWords(["cat", "Cat", "thrill", "really"], 2);
       return focus.length === 2 && focus[0] === "thrill" && !focus.includes("Cat");
+    },
+  },
+
+  // ---- 9-1b 발음 음소 feature ----
+  {
+    name: "9-1b pronunciationFeatures detects th/r_l/v_f/cluster",
+    run: () => {
+      const th = pronunciationFeatures("think").includes("th");
+      const rl = pronunciationFeatures("really").includes("r_l");
+      const vf = pronunciationFeatures("five").includes("v_f");
+      const cluster = pronunciationFeatures("street").includes("cluster");
+      const none = pronunciationFeatures("cat").length === 0;
+      return th && rl && vf && cluster && none;
+    },
+  },
+
+  // ---- 9-1a 약점 단어 랭킹·feature 집계 ----
+  {
+    name: "9-1a rankWeakWords sorts by frequency then difficulty",
+    run: () => {
+      const ranked = rankWeakWords(["the", "the", "the", "world", "cat"], 5);
+      return ranked[0].word === "the" && ranked[0].count === 3 && ranked.length === 3;
+    },
+  },
+  {
+    name: "9-1a topPhonemeFeatures ranks dominant phoneme",
+    run: () => {
+      const feats = topPhonemeFeatures(["think", "the", "three", "five"]);
+      return feats[0] === "th";
     },
   },
 ];

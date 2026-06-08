@@ -179,9 +179,18 @@
 
 **검증 방법**: `npm run test:srs`(**12/12**, typingOnly·listening·중립 케이스 추가) + `npm run test:phase8`(**34/34**, B1·B3·B4·C2·C3 추가) + `npm run test:phase7`(23/23) + 섀도잉 채점(6/6) + 통계(7/7) + `npm run build`·`npm run lint`(경고 0).
 
-> ℹ️ **마이그레이션 불필요**: Phase 9는 새 DB 컬럼을 추가하지 않습니다(weakWords는 세션 메모리에서만 사용). C1은 기존 `study_sessions`를 읽기만 합니다.
->
-> 🔭 **추가 검토 후보(미착수)**: weakWords를 영속화한 **"이번 주 발음 약점" 주간 리포트**, 발음 난이도 축의 **전수 재태깅**(현재는 표면형 파생 추정)은 별도 작업으로 남겨둠.
+> ℹ️ **마이그레이션 불필요**: Phase 9 본편은 새 DB 컬럼을 추가하지 않습니다(weakWords는 세션 메모리에서만 사용). C1은 기존 `study_sessions`를 읽기만 합니다. → **Phase 9-1에서 보류 항목을 마저 구현**(아래).
+
+### Phase 9-1 — 보류 항목 구현(주간 발음 리포트 + 발음 전수 분석) ✅
+
+| 단위 | 내용 | 상태 | 검증 |
+|------|------|------|------|
+| 9-1a | 영속 주간 발음 리포트 | ✅ | `study_sessions.weak_words`(text[]) 추가(**v9 마이그레이션**). `commitSession`이 세션 약점 단어를 요약에 적재, `saveStudySession`은 컬럼 부재 시 떼고 재시도(무중단). `aggregate.ts`가 이번 주 약점을 **빈도×난이도 랭킹**(`rankWeakWords`)+**음소 요소 집계**(`topPhonemeFeatures`)로 산출, 주간 리포트 카드에 "이번 주 발음 약점" 섹션 노출. |
+| 9-1b | 발음 난이도 전수 분석·태깅 | ✅ | `pronunciation.ts`에 `pronunciationFeatures`(th·r/l·v/f·z·자음군) + `PHONEME_LABEL`. `scripts/tagPronunciation.ts`(`npm run tag:pronunciation`)가 **2,520단어 전수 분류** → `docs/pronunciation-coverage.md`(난이 요소 1개+ 단어 **1,363개=54%**, 기존 `difficulty_axis=pronunciation` 23개 대비 대폭 확대). 런타임은 동일 함수로 파생 계산하므로 **DB 컬럼·시드 불필요**. |
+
+**검증 방법(9-1)**: `npm run test:phase8`(**37/37**, 9-1a/9-1b 케이스 추가) + `npm run test:stats`(**8/8**, 주간 발음 약점 케이스 추가) + `npm run tag:pronunciation`(커버리지 리포트) + `npm run build`·`npm run lint`(경고 0).
+
+> ⚠️ **운영 반영 필수(수동 1회)**: 9-1a는 `study_sessions` 스키마를 확장하므로 **Supabase SQL Editor에 `supabase/migrations/v9_session_weak_words.sql`을 1회 실행**해야 약점 단어가 클라우드에 저장됩니다. **미실행이어도 무중단**(`userData.ts`가 `weak_words` 컬럼 부재 시 떼고 저장) — 단, 적용 전에는 주간 발음 리포트가 비어 있을 수 있음(게스트 모드는 로컬 통계라 영향 없음).
 
 ---
 
@@ -194,10 +203,11 @@ npm run seed     # (Supabase 설정 후) words 2,520행 적재
 npm run validate:words   # 콘텐츠 전수 검수(필드·빈칸채움=tts·placeholder·중복·셀70) — 오류 0
 npm run dedup:report     # 중복 answer 분석 → docs/duplicate-answer-report.md (오염 0종)
 npm run assemble:words   # generated/*.json → src/data/words.json 재조립(id 재할당+검증)
-npm run build:anchors    # 레벨테스트 앵커 12문항 재생성 → src/data/anchorTest.json (Phase 7-1)
+npm run build:anchors    # 레벨테스트 앵커 12문항 재생성 → src/data/anchorTest.json (Phase 7-1/9-B2)
+npm run tag:pronunciation # 발음 난이도 전수 분석 → docs/pronunciation-coverage.md (Phase 9-1b)
 npm run test:phase7      # Phase 7 진단·채점 단위 테스트(23/23)
-npm run test:phase8      # Phase 8 장기 기억·적응 단위 테스트(25/25)
-npm run test:srs         # SRS 졸업/간격 규칙(8/8, 8-1 정책 반영)
+npm run test:phase8      # Phase 8+9 적응·신뢰도 단위 테스트(37/37)
+npm run test:srs         # SRS 졸업/간격 규칙(12/12, 8-1·9-A1 정책 반영)
 npm run check:schema     # Supabase v7·v8 마이그레이션 컬럼 적용 여부 점검
 node --experimental-strip-types scripts/test-score.ts  # 섀도잉 채점 단위 테스트(6/6)
 node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-srs.ts  # SRS 복습 규칙(7/7)
@@ -214,5 +224,6 @@ node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/te
 - **(Phase 2) `onboarded` 컬럼 마이그레이션 1회 필요** — Supabase SQL Editor에서 `alter table public.user_state add column if not exists onboarded boolean not null default false;` 실행(또는 `supabase/schema.sql` 재실행). 미실행 시 로그인 유저의 레벨 테스트 완료 저장이 동작하지 않음(게스트 모드는 영향 없음).
 - **(Phase 7) `user_state` 보정 컬럼 마이그레이션 1회 필요** — `supabase/migrations/v7_user_state_calibration.sql`(`level_provisional`·`calibration_questions`·`calibration_correct`)을 SQL Editor에서 1회 실행. ✅ **적용 완료**(`npm run check:schema`로 확인). **미실행이어도 무중단**(`userData.ts`가 컬럼 부재 시 핵심 필드만 재저장).
 - **(Phase 8) `progress` 3요소 점수 컬럼 마이그레이션 1회 필요** — `supabase/migrations/v8_progress_components.sql`(`meaning_recall_score`·`spelling_score`·`pronunciation_score`)을 SQL Editor에서 1회 실행. **미실행이어도 무중단**(`userData.ts`가 컬럼 부재 시 점수 컬럼만 떼고 재저장) — 단, 적용 전에는 3요소 점수가 클라우드에 저장되지 않음(게스트 모드는 영향 없음). 적용 확인: `npm run check:schema`.
+- **(Phase 9-1) `study_sessions` 약점 단어 컬럼 마이그레이션 1회 필요** — `supabase/migrations/v9_session_weak_words.sql`(`weak_words text[]`)을 SQL Editor에서 1회 실행. **미실행이어도 무중단**(`userData.ts`가 컬럼 부재 시 `weak_words`만 떼고 세션 저장) — 단, 적용 전에는 주간 발음 리포트가 비어 있을 수 있음(게스트 모드는 로컬 통계라 영향 없음).
 - Next.js는 15.5.4 사용. `npm audit`에 표시되는 권고들은 대부분 미사용 기능(middleware/image optimizer/server actions) 대상이라 로컬 학습 MVP 동작에 영향 없음. 배포 전 16.x 안정 라인으로 일괄 업그레이드 검토.
 - 다크 모드 토글 UI는 0-5에서 구현 완료(홈/학습/샘플 헤더). 전 화면 일괄 점검은 Phase 5 최종 QA에서.

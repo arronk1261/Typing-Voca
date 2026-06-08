@@ -272,6 +272,7 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
       avg_stars: avgStars,
       avg_score: avgScore,
       review_count: reviewCount,
+      weak_words: results.flatMap((r) => r.weakWords ?? []),
     };
 
     if (state.configured && state.userId) {

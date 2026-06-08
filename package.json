@@ -12,6 +12,7 @@
     "assemble:words": "node --experimental-strip-types scripts/assembleWords.ts",
     "dedup:report": "node --experimental-strip-types scripts/dedupReport.ts",
     "build:anchors": "node --experimental-strip-types scripts/buildAnchorTest.ts",
+    "tag:pronunciation": "node --experimental-strip-types scripts/tagPronunciation.ts",
     "test:stats": "node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-stats.ts",
     "test:phase7": "node --experimental-strip-types scripts/test-phase7.ts",
     "test:srs": "node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-srs.ts",
