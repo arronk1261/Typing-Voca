@@ -11,10 +11,10 @@ export default function AuthCallbackPage() {
   useEffect(() => {
     const supabase = getSupabase();
     if (!supabase) {
-      router.replace("/study");
+      router.replace("/");
       return;
     }
-    supabase.auth.getSession().then(() => router.replace("/study"));
+    supabase.auth.getSession().then(() => router.replace("/"));
   }, [router]);
 
   return (
