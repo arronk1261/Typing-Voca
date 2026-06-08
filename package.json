@@ -10,7 +10,10 @@
     "seed": "node --env-file=.env.local --experimental-strip-types scripts/seed.ts",
     "validate:words": "node --experimental-strip-types scripts/validateWords.ts",
     "assemble:words": "node --experimental-strip-types scripts/assembleWords.ts",
-    "dedup:report": "node --experimental-strip-types scripts/dedupReport.ts"
+    "dedup:report": "node --experimental-strip-types scripts/dedupReport.ts",
+    "build:anchors": "node --experimental-strip-types scripts/buildAnchorTest.ts",
+    "test:stats": "node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-stats.ts",
+    "test:phase7": "node --experimental-strip-types scripts/test-phase7.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.47.10",

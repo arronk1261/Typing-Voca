@@ -25,6 +25,8 @@ export interface Word {
   chunk_type?: WordChunkType;
   difficulty_axis?: WordDifficultyAxis;
   use_case?: string[];
+  // 7-4: 정답으로 함께 인정할 표현 변형(축약/대체 표현 등)
+  accepted_answers?: string[];
 }
 
 export type StudyStage = "typing" | "shadowing";
@@ -47,6 +49,9 @@ export interface UserState {
   total_learned: number;
   preferred_categories: string[];
   onboarded: boolean;
+  level_provisional: boolean;
+  calibration_questions: number;
+  calibration_correct: number;
   updated_at?: string;
 }
 

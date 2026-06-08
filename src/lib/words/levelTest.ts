@@ -1,27 +1,12 @@
-import { loadLevelPool } from "@/lib/words/getWords";
-import type { Word, WordLevel } from "@/types";
+import anchors from "@/data/anchorTest.json";
+import { isWord, type Word } from "@/types";
 
-function pickRandom(pool: Word[], n: number): Word[] {
-  const copy = [...pool];
-  const out: Word[] = [];
-  for (let i = 0; i < n && copy.length > 0; i++) {
-    const idx = Math.floor(Math.random() * copy.length);
-    out.push(copy.splice(idx, 1)[0]);
-  }
-  return out;
-}
+const ANCHOR_QUESTIONS: Word[] = (anchors as unknown[]).filter(isWord);
 
+// 7-1: 랜덤 추출 대신 검증된 앵커 문항(레벨별 고정 분포)으로 매 진입 동일 난이도 보장
 export async function pickLevelTest(): Promise<Word[]> {
-  const [l1, l2, l3] = await Promise.all([
-    loadLevelPool(1),
-    loadLevelPool(2),
-    loadLevelPool(3),
-  ]);
-  return [...pickRandom(l1, 1), ...pickRandom(l2, 2), ...pickRandom(l3, 2)];
+  return ANCHOR_QUESTIONS;
 }
 
-export function levelFromScore(correct: number): WordLevel {
-  if (correct >= 4) return 3;
-  if (correct >= 2) return 2;
-  return 1;
-}
+export { scoreLevelTest, levelFromScore } from "@/lib/words/levelScore";
+export type { LevelTestSignal, LevelTestOutcome } from "@/lib/words/levelScore";

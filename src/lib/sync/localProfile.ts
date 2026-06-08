@@ -4,6 +4,9 @@ const PROFILE_KEY = "tv:profile:guest";
 
 export interface LocalProfile {
   level: WordLevel | null;
+  levelProvisional: boolean;
+  calibrationQuestions: number;
+  calibrationCorrect: number;
   streak: number;
   lastStudyDate: string | null;
   totalLearned: number;
@@ -12,6 +15,9 @@ export interface LocalProfile {
 
 export const EMPTY_PROFILE: LocalProfile = {
   level: null,
+  levelProvisional: true,
+  calibrationQuestions: 0,
+  calibrationCorrect: 0,
   streak: 0,
   lastStudyDate: null,
   totalLearned: 0,

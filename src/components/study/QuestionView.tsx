@@ -11,7 +11,8 @@ import { ShadowingView } from "@/components/study/ShadowingView";
 import { useHaptics } from "@/hooks/useHaptics";
 import type { ShadowMode } from "@/hooks/useSpeechSupport";
 import { burstConfetti } from "@/lib/confetti";
-import { firstLetterHint, isAnswerCorrect, splitSentence } from "@/lib/typing/answerCheck";
+import { isAnswerCorrect, splitSentence } from "@/lib/typing/answerCheck";
+import { stagedHint, type StagedHint } from "@/lib/typing/hints";
 import { useSessionStore } from "@/stores/sessionStore";
 import type { Word } from "@/types";
 
@@ -34,7 +35,7 @@ export function QuestionView({ word, mode }: QuestionViewProps) {
   const [value, setValue] = useState("");
   const [judge, setJudge] = useState<Judge>("typing");
   const [shake, setShake] = useState(false);
-  const [hint, setHint] = useState<string | null>(null);
+  const [hint, setHint] = useState<StagedHint | null>(null);
   const [encourage, setEncourage] = useState<string | null>(null);
   const [flash, setFlash] = useState(false);
   const attemptsRef = useRef(0);
@@ -46,7 +47,7 @@ export function QuestionView({ word, mode }: QuestionViewProps) {
     if (locked || stage !== "typing") return;
     if (value.trim().length === 0) return;
 
-    const correct = isAnswerCorrect(value, word.answer);
+    const correct = isAnswerCorrect(value, word.answer, word.accepted_answers);
     const isFirstTry = attemptsRef.current === 0;
     registerAttempt();
     attemptsRef.current += 1;
@@ -75,7 +76,7 @@ export function QuestionView({ word, mode }: QuestionViewProps) {
       return;
     }
 
-    setHint(firstLetterHint(word.answer));
+    setHint(stagedHint(word.answer, attemptsRef.current));
     setEncourage("거의 다 왔어요! 한 번 더 볼까요?");
     window.setTimeout(() => {
       setValue("");
@@ -148,7 +149,7 @@ export function QuestionView({ word, mode }: QuestionViewProps) {
                   {encourage}
                   {hint && (
                     <span className="ml-1 text-ink-soft">
-                      첫 글자: <b className="font-mono">{hint}</b>
+                      {hint.label}: <b className="font-mono">{hint.text}</b>
                     </span>
                   )}
                 </motion.p>
