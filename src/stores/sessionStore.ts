@@ -1,5 +1,11 @@
 import { create } from "zustand";
-import type { QuestionResult, StudyStage, Word, WordLevel } from "@/types";
+import type {
+  QuestionResult,
+  ShadowMode,
+  StudyStage,
+  Word,
+  WordLevel,
+} from "@/types";
 
 export const SET_SIZE = 10;
 export const MAX_HEARTS = 3;
@@ -35,7 +41,12 @@ interface SessionState {
   loseHeart: () => void;
   registerAttempt: () => void;
   completeTyping: (firstTryCorrect: boolean, heartsDepleted: boolean) => void;
-  completeShadowing: (stars: number | null, score: number | null, skipped: boolean) => void;
+  completeShadowing: (
+    stars: number | null,
+    score: number | null,
+    skipped: boolean,
+    mode: ShadowMode,
+  ) => void;
   advance: () => void;
   reset: () => void;
 }
@@ -87,7 +98,7 @@ export const useSessionStore = create<SessionState>((set, get) => ({
     set({ results: [...results, result], stage: "shadowing" });
   },
 
-  completeShadowing: (stars, score, skipped) => {
+  completeShadowing: (stars, score, skipped, mode) => {
     const { results } = get();
     if (results.length === 0) return;
     const last = results[results.length - 1];
@@ -96,6 +107,7 @@ export const useSessionStore = create<SessionState>((set, get) => ({
       shadowStars: stars,
       shadowScore: score,
       shadowSkipped: skipped,
+      shadowMode: mode,
     };
     set({ results: [...results.slice(0, -1), updated] });
   },

@@ -58,9 +58,9 @@ export function ShadowingView({ word, mode, onNext }: ShadowingViewProps) {
     (stars: number | null, score: number | null, skipped: boolean) => {
       if (recordedRef.current) return;
       recordedRef.current = true;
-      completeShadowing(stars, score, skipped);
+      completeShadowing(stars, score, skipped, mode);
     },
-    [completeShadowing],
+    [completeShadowing, mode],
   );
 
   const goNext = useCallback(() => {

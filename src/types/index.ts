@@ -31,6 +31,8 @@ export interface Word {
 
 export type StudyStage = "typing" | "shadowing";
 
+export type ShadowMode = "full" | "listening" | "typingOnly";
+
 export interface QuestionResult {
   wordId: number;
   firstTryCorrect: boolean;
@@ -42,6 +44,8 @@ export interface QuestionResult {
   // 8-1: 졸업 정책(레벨/청크 유형별)을 위해 문항 메타를 함께 기록
   wordLevel?: WordLevel;
   wordChunkType?: WordChunkType;
+  // 9-A1: 발음 단계 환경(모드)을 기록 — typingOnly는 발음 없이도 졸업 가능
+  shadowMode?: ShadowMode;
 }
 
 export interface UserState {

@@ -104,6 +104,7 @@ const ROLLING_MIN_QUESTIONS = 30;
 const UP_CORRECT = 0.85;
 const UP_REVIEW = 0.15;
 const UP_STARS = 2.2;
+const UP_GRADUATED = 5;
 const DOWN_CORRECT = 0.5;
 const DOWN_REVIEW = 0.4;
 
@@ -117,11 +118,13 @@ export function suggestLevelFromHistory(
   const reviewRate = w.reviewEntries / w.questions;
   const avgStars = w.starsCount > 0 ? w.starsSum / w.starsCount : 0;
 
+  // 9-A3: 정답률·복습률·별점에 더해, 실제 졸업 누적이 충분할 때만 상향 제안
   if (
     level < 3 &&
     correctRate >= UP_CORRECT &&
     reviewRate <= UP_REVIEW &&
-    avgStars >= UP_STARS
+    avgStars >= UP_STARS &&
+    w.graduatedCount >= UP_GRADUATED
   ) {
     return "up";
   }

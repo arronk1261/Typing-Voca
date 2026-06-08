@@ -70,6 +70,15 @@ function isMissingColumn(error: { code?: string; message?: string }): boolean {
   return error.code === "42703" || (error.message ?? "").includes("does not exist");
 }
 
+function omitKeys<T extends Record<string, unknown>>(
+  obj: T,
+  keys: string[],
+): Partial<T> {
+  const clone: Record<string, unknown> = { ...obj };
+  for (const key of keys) delete clone[key];
+  return clone as Partial<T>;
+}
+
 async function applyWrite(
   supabase: SupabaseClient,
   item: QueuedWrite,
@@ -83,12 +92,11 @@ async function applyWrite(
       if (!error) return true;
       // v7 마이그레이션 전이면 보정 컬럼이 없으므로 핵심 필드만 다시 저장(무중단)
       if (isMissingColumn(error)) {
-        const {
-          level_provisional: _lp,
-          calibration_questions: _cq,
-          calibration_correct: _cc,
-          ...core
-        } = payload;
+        const core = omitKeys(payload, [
+          "level_provisional",
+          "calibration_questions",
+          "calibration_correct",
+        ]);
         const retry = await supabase
           .from("user_state")
           .upsert(core, { onConflict: "user_id" });
@@ -104,15 +112,13 @@ async function applyWrite(
       if (!error) return true;
       // v8 마이그레이션 전이면 3요소 점수 컬럼이 없으므로 제거 후 재저장(무중단)
       if (isMissingColumn(error)) {
-        const stripped = item.payload.map((row) => {
-          const {
-            meaning_recall_score: _m,
-            spelling_score: _s,
-            pronunciation_score: _p,
-            ...core
-          } = row;
-          return core;
-        });
+        const stripped = item.payload.map((row) =>
+          omitKeys(row as unknown as Record<string, unknown>, [
+            "meaning_recall_score",
+            "spelling_score",
+            "pronunciation_score",
+          ]),
+        );
         const retry = await supabase
           .from("progress")
           .upsert(stripped, { onConflict: "user_id,word_id" });

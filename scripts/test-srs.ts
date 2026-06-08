@@ -95,12 +95,47 @@ const cases: Case[] = [
     },
   },
   {
-    name: "skip-no-pass",
-    describe: "타이핑 정답+섀도잉 스킵(별점 없음) → 통과 아님, pass_count 리셋, 복습 진입 안 함",
+    name: "skip-neutral",
+    describe: "full 모드 자발적 건너뛰기 → 중립(통과 아님, pass_count 유지, 리셋·복습 없음)",
     run: () => {
       const existing = progress({ pass_count: 1 });
-      const r = computeProgressUpdate(existing, result({ firstTryCorrect: true, shadowStars: null, shadowSkipped: true }), "u", 1, TODAY);
-      return r.pass_count === 0 && r.in_review === false;
+      const r = computeProgressUpdate(existing, result({ firstTryCorrect: true, shadowStars: null, shadowSkipped: true, shadowMode: "full" }), "u", 1, TODAY);
+      return r.pass_count === 1 && r.in_review === false;
+    },
+  },
+  {
+    name: "typingonly-1st-pass",
+    describe: "typingOnly + 타이핑 첫 시도 정답 → 발음 없이 1차 통과(pass_count=1, +1일)",
+    run: () => {
+      const r = computeProgressUpdate(undefined, result({ firstTryCorrect: true, shadowStars: null, shadowSkipped: true, shadowMode: "typingOnly" }), "u", 1, TODAY);
+      return r.pass_count === 1 && r.in_review === true && r.next_due === TOMORROW;
+    },
+  },
+  {
+    name: "typingonly-graduate",
+    describe: "typingOnly에서 누적 통과로 졸업 가능(pass_count 2→3, in_review=false)",
+    run: () => {
+      const existing = progress({ in_review: true, pass_count: 2 });
+      const r = computeProgressUpdate(existing, result({ firstTryCorrect: true, shadowStars: null, shadowSkipped: true, shadowMode: "typingOnly" }), "u", 1, TODAY);
+      return r.pass_count === 3 && r.in_review === false && r.next_due === null;
+    },
+  },
+  {
+    name: "typingonly-hearts-fail",
+    describe: "typingOnly + 하트 소진 → 실패로 리셋·복습 진입",
+    run: () => {
+      const existing = progress({ pass_count: 2 });
+      const r = computeProgressUpdate(existing, result({ firstTryCorrect: false, heartsDepleted: true, shadowMode: "typingOnly" }), "u", 1, TODAY);
+      return r.pass_count === 0 && r.in_review === true;
+    },
+  },
+  {
+    name: "listening-pass",
+    describe: "listening 자가체크 '잘했어요'(⭐2) + 첫 시도 정답 → 통과",
+    run: () => {
+      const existing = progress({ in_review: true, pass_count: 0 });
+      const r = computeProgressUpdate(existing, result({ firstTryCorrect: true, shadowStars: 2, shadowMode: "listening" }), "u", 1, TODAY);
+      return r.pass_count === 1 && r.in_review === true && r.next_due === TOMORROW;
     },
   },
   {

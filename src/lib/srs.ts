@@ -45,19 +45,34 @@ function emptyProgress(userId: string, wordId: number): Progress {
   };
 }
 
+// 9-A1: 발음 단계 결과를 세 상태로 구분 — 평가됨(좋음/약함) vs 발음 자체가 없음
+type ShadowOutcome = "ok" | "weak" | "absent";
+
+function shadowOutcome(result: QuestionResult): ShadowOutcome {
+  if (typeof result.shadowStars === "number") {
+    return result.shadowStars >= 2 ? "ok" : "weak";
+  }
+  return "absent";
+}
+
+// 9-A1: typingOnly는 STT가 없는 환경이므로 발음 없이 타이핑만으로 통과(학습 무중단)
 export function isPass(result: QuestionResult): boolean {
-  return (
-    result.firstTryCorrect &&
-    typeof result.shadowStars === "number" &&
-    result.shadowStars >= 2
-  );
+  if (!result.firstTryCorrect) return false;
+  const outcome = shadowOutcome(result);
+  if (outcome === "ok") return true;
+  if (outcome === "absent" && result.shadowMode === "typingOnly") {
+    return !result.heartsDepleted;
+  }
+  return false;
+}
+
+// 9-A1: 실패 = 뜻/철자 실패(하트 소진) 또는 발음을 시도했으나 약함. 발음 미응시는 실패가 아님.
+export function isFail(result: QuestionResult): boolean {
+  return result.heartsDepleted || shadowOutcome(result) === "weak";
 }
 
 export function isReviewTrigger(result: QuestionResult): boolean {
-  return (
-    result.heartsDepleted ||
-    (typeof result.shadowStars === "number" && result.shadowStars <= 1)
-  );
+  return isFail(result);
 }
 
 // 8-2: 한 번의 결과를 뜻 회상 / 철자 / 발음 세 점수로 분리
@@ -101,13 +116,12 @@ export function computeProgressUpdate(
       inReview = true;
       nextDue = addDays(today, intervalForPass(passCount));
     }
-  } else {
+  } else if (isFail(result)) {
     passCount = 0;
-    if (isReviewTrigger(result)) {
-      inReview = true;
-      nextDue = addDays(today, REVIEW_INTERVALS[0]);
-    }
+    inReview = true;
+    nextDue = addDays(today, REVIEW_INTERVALS[0]);
   }
+  // 9-A1: 그 외(발음 미응시 등)는 중립 — pass_count·복습 상태를 그대로 유지(벌칙 없음)
 
   const pronunciation = pronunciationScore(result);
 
