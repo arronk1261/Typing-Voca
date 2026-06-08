@@ -28,6 +28,9 @@ function progress(p: Partial<Progress>): Progress {
     in_review: false,
     last_seen: null,
     next_due: null,
+    meaning_recall_score: null,
+    spelling_score: null,
+    pronunciation_score: null,
     ...p,
   };
 }
@@ -65,12 +68,21 @@ const cases: Case[] = [
     },
   },
   {
-    name: "graduate-2nd",
-    describe: "2차 통과 → 졸업(in_review=false)",
+    name: "pass-2nd-interval",
+    describe: "2차 통과 → pass_count=2, 간격 +3일, 아직 졸업 아님(기본 3회)",
     run: () => {
       const existing = progress({ in_review: true, pass_count: 1 });
       const r = computeProgressUpdate(existing, result({ firstTryCorrect: true, shadowStars: 3 }), "u", 1, TODAY);
-      return r.pass_count === 2 && r.in_review === false && r.next_due === null;
+      return r.pass_count === 2 && r.in_review === true && r.next_due === "2026-06-07";
+    },
+  },
+  {
+    name: "graduate-3rd",
+    describe: "3차 통과 → 졸업(in_review=false)",
+    run: () => {
+      const existing = progress({ in_review: true, pass_count: 2 });
+      const r = computeProgressUpdate(existing, result({ firstTryCorrect: true, shadowStars: 3 }), "u", 1, TODAY);
+      return r.pass_count === 3 && r.in_review === false && r.next_due === null;
     },
   },
   {

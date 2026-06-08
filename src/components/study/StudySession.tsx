@@ -15,6 +15,7 @@ import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { ThemeToggle } from "@/components/theme/ThemeToggle";
 import { buildReviewSession, buildSession } from "@/lib/words/getWords";
+import { isStreakBroken } from "@/lib/streak";
 import { registerOnlineFlush } from "@/lib/sync/userData";
 import {
   SET_SIZE,
@@ -46,6 +47,7 @@ export function StudySession() {
   const level = useUserStore((s) => s.level);
   const preferredCategories = useUserStore((s) => s.preferredCategories);
   const progress = useUserStore((s) => s.progress);
+  const lastStudyDate = useUserStore((s) => s.lastStudyDate);
   const reviewWordIds = useUserStore((s) => s.reviewWordIds);
   const hydrate = useUserStore((s) => s.hydrate);
 
@@ -66,6 +68,7 @@ export function StudySession() {
         progress,
         categories: mode === "category" ? preferredCategories : undefined,
         count: SET_SIZE,
+        streakBroken: isStreakBroken(lastStudyDate),
       });
     };
     build().then((queue) => {

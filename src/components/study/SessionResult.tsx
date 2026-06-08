@@ -12,9 +12,10 @@ import { burstConfetti } from "@/lib/confetti";
 import {
   buildReviewSession,
   buildSession,
-  suggestLevelAdjustment,
+  suggestLevelFromHistory,
+  type RollingWindow,
 } from "@/lib/words/getWords";
-import { isReviewTrigger } from "@/lib/srs";
+import { isGraduated, isReviewTrigger } from "@/lib/srs";
 import { SET_SIZE, useSessionStore } from "@/stores/sessionStore";
 import { useUserStore } from "@/stores/userStore";
 import type { WordLevel } from "@/types";
@@ -35,31 +36,34 @@ export function SessionResult() {
     if (useSessionStore.getState().committed || results.length === 0) return;
     useSessionStore.getState().markCommitted();
 
-    const outcome = commitSession({
+    commitSession({
       results,
       level: config.level,
       categories: config.categories,
     });
 
-    const suggestion = suggestLevelAdjustment(
-      {
-        total: outcome.learnedCount,
-        firstTryCorrect: outcome.correctFirstTry,
-        avgStars: outcome.avgStars,
-        reviewCount: outcome.reviewCount,
-      },
-      config.level,
-    );
+    const recent = useUserStore.getState().recentSessions;
+    const progressNow = useUserStore.getState().progress;
+    const rolling: RollingWindow = {
+      sessions: recent.length,
+      questions: recent.reduce((s, e) => s + e.total, 0),
+      firstTryCorrect: recent.reduce((s, e) => s + e.firstTryCorrect, 0),
+      reviewEntries: recent.reduce((s, e) => s + e.reviewCount, 0),
+      starsSum: recent.reduce((s, e) => s + e.starsSum, 0),
+      starsCount: recent.reduce((s, e) => s + e.starsCount, 0),
+      graduatedCount: Object.values(progressNow).filter(isGraduated).length,
+    };
+    const suggestion = suggestLevelFromHistory(rolling, config.level);
     if (suggestion === "up") {
       const next = (config.level + 1) as WordLevel;
       toast.show(
-        `정말 잘하고 있어요! 다음엔 Lv.${next}에 도전해볼까요? (메뉴에서 언제든 조절돼요)`,
+        `요즘 꾸준히 잘하고 있어요! Lv.${next} 맛보기 세트는 어때요? (강제 아니에요, 언제든 조절돼요)`,
         "success",
       );
     } else if (suggestion === "down") {
       const next = (config.level - 1) as WordLevel;
       toast.show(
-        `조금 버거웠나요? Lv.${next}부터 차근차근 다져도 좋아요.`,
+        `최근 조금 버거웠죠? Lv.${next} 기초 다지기 모드로 잠깐 쉬어가도 좋아요.`,
         "info",
       );
     }

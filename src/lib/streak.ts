@@ -31,6 +31,15 @@ export function computeStreakOnComplete(
   return { streak: 1, lastStudyDate: today, changed: true };
 }
 
+// 8-3: 마지막 학습이 어제보다 더 오래전이면 "끊겼다 돌아온 복귀자"로 판단
+export function isStreakBroken(
+  lastStudyDate: string | null,
+  today: string = todayKey(),
+): boolean {
+  if (!lastStudyDate) return false;
+  return diffInDays(lastStudyDate, today) > 1;
+}
+
 export type FlameTier = "spark" | "small" | "medium" | "large" | "blaze";
 
 export function flameTier(streak: number): FlameTier {
