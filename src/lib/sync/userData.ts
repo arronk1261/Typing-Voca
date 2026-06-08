@@ -29,22 +29,41 @@ export async function loadUserData(userId: string): Promise<LoadedUserData> {
   return { userState, progress };
 }
 
+function stripJoin(rows: unknown[]): Progress[] {
+  return rows.map((row) => {
+    const rest = { ...(row as Record<string, unknown>) };
+    delete rest.words;
+    return rest as unknown as Progress;
+  });
+}
+
+// 8-4: 현재 레벨 progress + (레벨 무관) in_review=true 복습 대상까지 로드해 병합
 async function loadLevelProgress(
   supabase: SupabaseClient,
   userId: string,
   level: WordLevel,
 ): Promise<Progress[]> {
-  const { data, error } = await supabase
-    .from("progress")
-    .select("*, words!inner(level)")
-    .eq("user_id", userId)
-    .eq("words.level", level);
-  if (error || !Array.isArray(data)) return [];
-  return data.map((row) => {
-    const rest = { ...(row as Record<string, unknown>) };
-    delete rest.words;
-    return rest as unknown as Progress;
-  });
+  const [levelRes, reviewRes] = await Promise.all([
+    supabase
+      .from("progress")
+      .select("*, words!inner(level)")
+      .eq("user_id", userId)
+      .eq("words.level", level),
+    supabase
+      .from("progress")
+      .select("*")
+      .eq("user_id", userId)
+      .eq("in_review", true),
+  ]);
+
+  const byId = new Map<number, Progress>();
+  if (Array.isArray(levelRes.data)) {
+    for (const row of stripJoin(levelRes.data)) byId.set(row.word_id, row);
+  }
+  if (Array.isArray(reviewRes.data)) {
+    for (const row of stripJoin(reviewRes.data)) byId.set(row.word_id, row);
+  }
+  return [...byId.values()];
 }
 
 function isMissingColumn(error: { code?: string; message?: string }): boolean {
@@ -82,7 +101,24 @@ async function applyWrite(
       const { error } = await supabase
         .from("progress")
         .upsert(item.payload, { onConflict: "user_id,word_id" });
-      return !error;
+      if (!error) return true;
+      // v8 마이그레이션 전이면 3요소 점수 컬럼이 없으므로 제거 후 재저장(무중단)
+      if (isMissingColumn(error)) {
+        const stripped = item.payload.map((row) => {
+          const {
+            meaning_recall_score: _m,
+            spelling_score: _s,
+            pronunciation_score: _p,
+            ...core
+          } = row;
+          return core;
+        });
+        const retry = await supabase
+          .from("progress")
+          .upsert(stripped, { onConflict: "user_id,word_id" });
+        return !retry.error;
+      }
+      return false;
     }
     const { error } = await supabase.from("study_sessions").insert(item.payload);
     return !error;

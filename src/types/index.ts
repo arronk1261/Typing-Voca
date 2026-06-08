@@ -39,6 +39,9 @@ export interface QuestionResult {
   shadowStars: number | null;
   shadowScore: number | null;
   shadowSkipped: boolean;
+  // 8-1: 졸업 정책(레벨/청크 유형별)을 위해 문항 메타를 함께 기록
+  wordLevel?: WordLevel;
+  wordChunkType?: WordChunkType;
 }
 
 export interface UserState {
@@ -65,6 +68,10 @@ export interface Progress {
   in_review: boolean;
   last_seen: string | null;
   next_due: string | null;
+  // 8-2: 3요소 분리 기록 (타이핑=뜻/철자, 섀도잉=발음)
+  meaning_recall_score: number | null;
+  spelling_score: number | null;
+  pronunciation_score: number | null;
   updated_at?: string;
 }
 

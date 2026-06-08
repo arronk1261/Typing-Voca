@@ -139,6 +139,27 @@
 
 ---
 
+## Phase 8 — 장기 기억·적응 ✅ (완료)
+
+> "한 세트 단위 복습 노트"를 넘어 **누적 안정성 기반 장기 기억 시스템**으로. 복습 간격을 길게, 출제 비율을 상황 적응형으로, 승급을 누적 데이터로, 졸업 단어를 주기적 유지 점검으로 전환.
+
+| 단위 | 내용 | 상태 | 검증 |
+|------|------|------|------|
+| 8-1 | SRS 간격 장기화 | ✅ | `srs.ts`: 졸업 2회 → **기본 3회**(가장 어려운 **Lv.3 관용구는 4회**), 복습 간격 `1→3→7→14일`(`REVIEW_INTERVALS`). `QuestionResult`에 `wordLevel`/`wordChunkType` 추가해 졸업 정책 분기. `graduationTarget`/`intervalForPass`. |
+| 8-2 | 3요소 분리 기록 | ✅ | `progress`에 `meaning_recall_score`·`spelling_score`·`pronunciation_score` 추가(`v8_progress_components.sql`+`schema.sql`+`types`). 타이핑=뜻 회상(끝내 맞히면 100)/철자(재시도마다 −35), 섀도잉=발음(STT 점수). `srs.ts`에서 산출·저장(스킵 시 직전 발음 점수 유지). |
+| 8-3 | 적응형 출제 비율 | ✅ | `lib/words/adaptive.ts`의 `adaptiveReviewRatio`: 복귀자(streak 끊김) **0.7** / 오답 누적 多 **0.6** / Lv.1 초반 **0.5** / 안정 **0.3**. 카테고리 학습은 `orderByCategoryFlow`로 상황 흐름 순서 묶음. `buildSession`이 상태로 비율 산출. |
+| 8-4 | 크로스레벨 복습 로드 | ✅ | `userData.loadLevelProgress`: 현재 레벨 progress + (레벨 무관) **`in_review=true` 전부**를 2쿼리로 병합 로드 → 레벨 상향 후에도 이전 레벨 복습 대상이 출제 풀에 유지. |
+| 8-5 | 누적 기반 승급 정책 | ✅ | `suggestLevelFromHistory`(최근 ≤5세트 롤링, ≥30문항): 정답률 ≥0.85·복습진입률 ≤0.15·평균별점 ≥2.2 → 상향 / 정답률 <0.5 또는 복습률 ≥0.4 → 하향. `userStore.recentSessions`(localStorage 영속)에 세트 요약 누적, `SessionResult`가 윈도우로 판정(단일 세트 흔들림 제거). 토스트는 "Lv.X 맛보기/기초 다지기 모드"(강제 X, T2). |
+| 8-6 | 졸업 후 유지 점검 | ✅ | `isGraduated` + `pickMaintenanceWords`: 졸업 단어 중 **마지막 학습 ~30일 경과** 1개를 세션 풀에 소량 혼입 재출제 → 장기 망각 방지. |
+
+**검증 방법**: `npm run test:phase8`(**25/25 통과** — 8-1 간격/졸업 6 · 8-2 3요소 5 · 8-3 비율 5 · 8-5 승급 5 · 8-6 유지 3 · 보조 1) + `npm run test:srs`(새 졸업 정책 8/8) + `npm run build`(타입·lint 0 오류). 순수 적응 로직은 `lib/words/adaptive.ts`로 분리해 데이터 의존 없이 단위 검증. Supabase 동기화는 **v8 컬럼 부재 시 점수 컬럼만 떼고 재저장하는 무중단 폴백**(`userData.ts`) — 마이그레이션 전에도 progress 저장이 끊기지 않음.
+
+> ⚠️ **운영 반영 필수(수동 1회)**: 8-2는 `progress` 스키마를 확장하므로 **Supabase SQL Editor에 `supabase/migrations/v8_progress_components.sql`을 1회 실행**해야 3요소 점수가 클라우드에 저장됩니다(v6/v7과 동일 방식). 적용 전에도 앱은 무중단으로 동작(위 폴백). 적용 확인: `npm run check:schema`(v7·v8 컬럼 일괄 점검).
+
+> ℹ️ **8-1 졸업 정책 메모**: plan 5.5의 "통과 2회 졸업"을 **8-1에서 3회로 강화**(간격 1→3→7→14일). 가장 까다로운 **Lv.3 관용구만 4회**로 더 길게 반복해 장기 기억을 다집니다. `test-srs.ts`도 새 정책으로 갱신.
+
+---
+
 ## 실행 방법
 ```bash
 npm install
@@ -150,6 +171,9 @@ npm run dedup:report     # 중복 answer 분석 → docs/duplicate-answer-report
 npm run assemble:words   # generated/*.json → src/data/words.json 재조립(id 재할당+검증)
 npm run build:anchors    # 레벨테스트 앵커 12문항 재생성 → src/data/anchorTest.json (Phase 7-1)
 npm run test:phase7      # Phase 7 진단·채점 단위 테스트(23/23)
+npm run test:phase8      # Phase 8 장기 기억·적응 단위 테스트(25/25)
+npm run test:srs         # SRS 졸업/간격 규칙(8/8, 8-1 정책 반영)
+npm run check:schema     # Supabase v7·v8 마이그레이션 컬럼 적용 여부 점검
 node --experimental-strip-types scripts/test-score.ts  # 섀도잉 채점 단위 테스트(6/6)
 node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-srs.ts  # SRS 복습 규칙(7/7)
 node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-stats.ts  # 통계 집계(7/7)
@@ -163,6 +187,7 @@ node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/te
 ## 알려진 메모
 - **Supabase 실연동 활성화 상태** — 앱이 로그인-퍼스트 모드로 동작. **words 2,520행(v6 스키마) 적재 완료**(구 900행에서 확충, Phase 6). 배포 시 운영 도메인의 콜백 URL을 Google OAuth 승인 리디렉션 + Supabase Redirect URLs에 추가 필요.
 - **(Phase 2) `onboarded` 컬럼 마이그레이션 1회 필요** — Supabase SQL Editor에서 `alter table public.user_state add column if not exists onboarded boolean not null default false;` 실행(또는 `supabase/schema.sql` 재실행). 미실행 시 로그인 유저의 레벨 테스트 완료 저장이 동작하지 않음(게스트 모드는 영향 없음).
-- **(Phase 7) `user_state` 보정 컬럼 마이그레이션 1회 필요** — `supabase/migrations/v7_user_state_calibration.sql`(`level_provisional`·`calibration_questions`·`calibration_correct`)을 SQL Editor에서 1회 실행. **미실행이어도 무중단**(`userData.ts`가 컬럼 부재 시 핵심 필드만 재저장) — 단, 적용 전에는 레벨 자동 보정값이 클라우드에 저장되지 않음(게스트 모드는 영향 없음). 적용 확인: `scripts/checkUserStateColumns.ts`.
+- **(Phase 7) `user_state` 보정 컬럼 마이그레이션 1회 필요** — `supabase/migrations/v7_user_state_calibration.sql`(`level_provisional`·`calibration_questions`·`calibration_correct`)을 SQL Editor에서 1회 실행. ✅ **적용 완료**(`npm run check:schema`로 확인). **미실행이어도 무중단**(`userData.ts`가 컬럼 부재 시 핵심 필드만 재저장).
+- **(Phase 8) `progress` 3요소 점수 컬럼 마이그레이션 1회 필요** — `supabase/migrations/v8_progress_components.sql`(`meaning_recall_score`·`spelling_score`·`pronunciation_score`)을 SQL Editor에서 1회 실행. **미실행이어도 무중단**(`userData.ts`가 컬럼 부재 시 점수 컬럼만 떼고 재저장) — 단, 적용 전에는 3요소 점수가 클라우드에 저장되지 않음(게스트 모드는 영향 없음). 적용 확인: `npm run check:schema`.
 - Next.js는 15.5.4 사용. `npm audit`에 표시되는 권고들은 대부분 미사용 기능(middleware/image optimizer/server actions) 대상이라 로컬 학습 MVP 동작에 영향 없음. 배포 전 16.x 안정 라인으로 일괄 업그레이드 검토.
 - 다크 모드 토글 UI는 0-5에서 구현 완료(홈/학습/샘플 헤더). 전 화면 일괄 점검은 Phase 5 최종 QA에서.

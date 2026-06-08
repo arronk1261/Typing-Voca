@@ -70,11 +70,21 @@ create table if not exists public.progress (
   in_review        boolean not null default false,
   last_seen        date,
   next_due         date,
+  meaning_recall_score int,
+  spelling_score       int,
+  pronunciation_score  int,
   updated_at       timestamptz not null default now(),
   primary key (user_id, word_id)
 );
 create index if not exists progress_review_idx   on public.progress (user_id, in_review);
 create index if not exists progress_next_due_idx on public.progress (user_id, next_due);
+-- 8-2: 3요소 분리 점수(기존 프로젝트 마이그레이션)
+alter table public.progress
+  add column if not exists meaning_recall_score int;
+alter table public.progress
+  add column if not exists spelling_score int;
+alter table public.progress
+  add column if not exists pronunciation_score int;
 
 -- =========================================================
 -- 4) 세션 요약 (통계/리포트 원천)

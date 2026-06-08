@@ -13,7 +13,10 @@
     "dedup:report": "node --experimental-strip-types scripts/dedupReport.ts",
     "build:anchors": "node --experimental-strip-types scripts/buildAnchorTest.ts",
     "test:stats": "node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-stats.ts",
-    "test:phase7": "node --experimental-strip-types scripts/test-phase7.ts"
+    "test:phase7": "node --experimental-strip-types scripts/test-phase7.ts",
+    "test:srs": "node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-srs.ts",
+    "test:phase8": "node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-phase8.ts",
+    "check:schema": "node --env-file=.env.local --experimental-strip-types scripts/checkSchema.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.47.10",

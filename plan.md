@@ -402,7 +402,9 @@ create policy "own sessions" on public.study_sessions
 >
 > **Phase 6 콘텐츠 정제 상태 — ✅ 전 단위 완료:** 6-1(검수 스크립트 `scripts/validateWords.ts`)·6-2(오류 수정)·6-4(v6 태깅+스키마/시드 파이프라인)은 DB 구축으로 완료, **6-3(중복 정리)도 `scripts/dedupReport.ts`로 마무리**(카테고리 간 동일 예문 오염 9종을 맥락별 예문으로 차별화 → 오염 0종, 사유 로그 `docs/duplicate-answer-report.md`). 전수 검수 오류 0/2,520.
 
-> **Phase 7 진단·채점 신뢰도 상태 — ✅ 전 단위 완료:** 7-1(앵커 레벨테스트 `src/data/anchorTest.json`+`scripts/buildAnchorTest.ts`)·7-2(다요소 채점 `levelScore.ts`)·7-3(임시 레벨 자동 보정 `calibration.ts`+`user_state` v7 컬럼)·7-4(정답 허용범위 `answerCheck.ts` canonical 비교)·7-5(단계 힌트 `hints.ts`) 완료. 단위 테스트 `npm run test:phase7` **23/23**, `npm run build` 통과. **운영 반영: `supabase/migrations/v7_user_state_calibration.sql` SQL Editor 1회 적용 필요**(미적용 시 무중단 폴백 동작). → **다음 착수는 Phase 8(장기 기억·적응)**.
+> **Phase 7 진단·채점 신뢰도 상태 — ✅ 전 단위 완료:** 7-1(앵커 레벨테스트 `src/data/anchorTest.json`+`scripts/buildAnchorTest.ts`)·7-2(다요소 채점 `levelScore.ts`)·7-3(임시 레벨 자동 보정 `calibration.ts`+`user_state` v7 컬럼)·7-4(정답 허용범위 `answerCheck.ts` canonical 비교)·7-5(단계 힌트 `hints.ts`) 완료. 단위 테스트 `npm run test:phase7` **23/23**, `npm run build` 통과. **운영 반영: `supabase/migrations/v7_user_state_calibration.sql` SQL Editor 1회 적용**(✅ 적용 완료).
+
+> **Phase 8 장기 기억·적응 상태 — ✅ 전 단위 완료:** 8-1(SRS 간격 장기화 `srs.ts`)·8-2(3요소 분리 기록 `progress` v8 컬럼)·8-3(적응형 출제 비율 `adaptive.ts`)·8-4(크로스레벨 복습 로드 `userData.ts`)·8-5(누적 승급 `suggestLevelFromHistory`+`recentSessions`)·8-6(졸업 유지 점검 `pickMaintenanceWords`) 완료. 순수 적응 로직은 `lib/words/adaptive.ts`로 분리. 단위 테스트 `npm run test:phase8` **25/25**·`test:srs` 8/8, `npm run build` 통과. **운영 반영: `supabase/migrations/v8_progress_components.sql` SQL Editor 1회 적용 필요**(미적용 시 무중단 폴백). → **MVP 로드맵(0~8) 전 구간 완료.**
 
 ### 의존성 순서
 
@@ -437,12 +439,12 @@ create policy "own sessions" on public.study_sessions
 
 ### 🧠 Phase 8 — 장기 기억·적응
 * **목표:** "복습 노트"를 넘어 장기 기억 시스템으로. 한 세트가 아닌 누적 안정성 기반 적응.
-* **8-1 SRS 간격 장기화:** `srs.ts` — 졸업 2회 → **3~4회 노출**, 간격 `1→3→7→14일`, Lv.3 idiom은 졸업 3회. **Done:** 모킹으로 간격 확장·졸업 회수 분기 정확.
-* **8-2 3요소 분리 기록(`progress` 스키마 확장):** 컬럼 추가 `meaning_recall_score`·`spelling_score`·`pronunciation_score`. 타이핑(철자/뜻)·섀도잉(발음)을 따로 기록. **Done:** 결과가 각 요소로 분리 저장.
-* **8-3 적응형 출제 비율:** `getWords.ts`의 고정 `REVIEW_RATIO` → 동적 — Lv.1 초반 신규50/복습50, 안정 70/30, 오답누적 多 40/60, streak 끊긴 복귀자 30/70. 카테고리 학습은 상황별 순서(공항→호텔→길찾기→식당) 묶음. **Done:** 상태별로 비율이 의도대로 변동.
-* **8-4 크로스레벨 복습 로드(현 누락 수정):** `userData.ts`의 `loadLevelProgress` — 현재 레벨 + `in_review=true`인 이전 레벨 progress까지 로드. **Done:** 레벨 상향 후에도 이전 레벨 복습 대상이 출제 풀에 유지.
-* **8-5 누적 기반 승급 정책:** `suggestLevelAdjustment`를 한 세트 → **최근 3~5세트/40~50문항 롤링 윈도우**로(정답률 85%↑, 복습진입률 15%↓, 섀도잉 2.2↑, 졸업 30개↑). 상향=강제 X "Lv.3 맛보기 세트", 하향="기초 다지기 모드"(T2). **Done:** 누적 모킹으로 제안 정확, 단일 세트 흔들림 제거.
-* **8-6 졸업 후 유지 점검:** 졸업 단어를 월 1회 아주 낮은 비율로 8-3 풀에 소량 혼입 재출제. **Done:** 졸업 단어가 일정 주기로 재등장.
+* **8-1 SRS 간격 장기화:** ✅ 완료 — `srs.ts`: 졸업 기본 **3회**(Lv.3 idiom **4회**), 간격 `1→3→7→14일`(`REVIEW_INTERVALS`), `graduationTarget`/`intervalForPass`, `QuestionResult`에 `wordLevel`/`wordChunkType`. **Done 확인:** `test-phase8`/`test-srs`로 간격·졸업 회수 분기 정확.
+* **8-2 3요소 분리 기록(`progress` 스키마 확장):** ✅ 완료 — `meaning_recall_score`·`spelling_score`·`pronunciation_score`(`v8_progress_components.sql`+`schema.sql`+`types`), `srs.ts`에서 타이핑=뜻/철자·섀도잉=발음 분리 산출·저장. 무중단 폴백(`userData.ts`). **Done 확인:** 각 요소 분리 저장 테스트.
+* **8-3 적응형 출제 비율:** ✅ 완료 — `lib/words/adaptive.ts`의 `adaptiveReviewRatio`(복귀자 0.7 / 오답누적 0.6 / Lv.1 초반 0.5 / 안정 0.3) + `orderByCategoryFlow`(상황 흐름 순서). `buildSession`이 상태로 비율 산출. **Done 확인:** 상태별 비율 변동 테스트.
+* **8-4 크로스레벨 복습 로드(현 누락 수정):** ✅ 완료 — `userData.loadLevelProgress`가 현재 레벨 + (레벨 무관) `in_review=true` 전부 병합 로드. **Done 확인:** 레벨 상향 후에도 이전 레벨 복습 대상 유지.
+* **8-5 누적 기반 승급 정책:** ✅ 완료 — `suggestLevelFromHistory`(최근 ≤5세트·≥30문항 롤링: 정답률 ≥0.85·복습진입 ≤0.15·별점 ≥2.2 상향 / 정답률 <0.5·복습 ≥0.4 하향), `userStore.recentSessions` 누적·영속, `SessionResult` 연동, 토스트 "맛보기/기초 다지기"(강제 X, T2). **Done 확인:** 누적 모킹으로 단일 세트 흔들림 제거.
+* **8-6 졸업 후 유지 점검:** ✅ 완료 — `isGraduated`+`pickMaintenanceWords`로 졸업 단어 중 ~30일 경과 1개를 세션 풀에 소량 혼입. **Done 확인:** 주기 경과 졸업 단어 재등장 테스트.
 
 ---
 

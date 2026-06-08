@@ -81,6 +81,8 @@ export const useSessionStore = create<SessionState>((set, get) => ({
       shadowStars: null,
       shadowScore: null,
       shadowSkipped: false,
+      wordLevel: word.level,
+      wordChunkType: word.chunk_type,
     };
     set({ results: [...results, result], stage: "shadowing" });
   },

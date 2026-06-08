@@ -1,7 +1,27 @@
 import rawWords from "@/data/words.json";
 import { getSupabase } from "@/lib/supabase/client";
 import { isDue } from "@/lib/srs";
+import { todayKey } from "@/lib/streak";
+import {
+  adaptiveReviewRatio,
+  orderByCategoryFlow,
+  pickMaintenanceWords,
+} from "@/lib/words/adaptive";
 import { isWord, type Progress, type Word, type WordLevel } from "@/types";
+
+export {
+  adaptiveReviewRatio,
+  pickMaintenanceWords,
+  orderByCategoryFlow,
+  suggestLevelAdjustment,
+  suggestLevelFromHistory,
+} from "@/lib/words/adaptive";
+export type {
+  ReviewRatioContext,
+  LevelSuggestion,
+  SessionStats,
+  RollingWindow,
+} from "@/lib/words/adaptive";
 
 const BUNDLED: Word[] = (rawWords as unknown[]).filter(isWord);
 const LEVELS: WordLevel[] = [1, 2, 3];
@@ -135,21 +155,23 @@ export async function buildReviewSession(
   return shuffle(matched).slice(0, count);
 }
 
-const REVIEW_RATIO = 0.3;
-
 export interface BuildSessionInput {
   level: WordLevel;
   progress: Record<number, Progress>;
   categories?: string[];
   count?: number;
+  streakBroken?: boolean;
+  today?: string;
 }
 
-// 출제 로직 (plan 5.4): 신규 70% + 복습 30%, 신규는 미학습 우선, 복습은 next_due 지난 것 오래된 순
+// 출제 로직 (plan 5.4 + 8-3/8-6): 적응형 신규/복습 비율 + 졸업 단어 유지 점검 소량 혼입
 export async function buildSession({
   level,
   progress,
   categories,
   count = 10,
+  streakBroken = false,
+  today = todayKey(),
 }: BuildSessionInput): Promise<Word[]> {
   const hasCategories = !!categories && categories.length > 0;
   let pool = await loadLevelPool(level);
@@ -163,23 +185,33 @@ export async function buildSession({
     }
   }
 
+  const seenCount = Object.keys(progress).length;
+  const inReviewCount = Object.values(progress).filter((p) => p.in_review).length;
+  const reviewRatio = adaptiveReviewRatio({
+    level,
+    seenCount,
+    inReviewCount,
+    streakBroken,
+  });
+
   const unseen = shuffle(pool.filter((w) => !progress[w.id]));
   const dueReview = pool
-    .filter((w) => progress[w.id] && isDue(progress[w.id]))
+    .filter((w) => progress[w.id] && isDue(progress[w.id], today))
     .sort((a, b) => {
       const da = progress[a.id].next_due ?? "";
       const db = progress[b.id].next_due ?? "";
       return da.localeCompare(db);
     });
   const seenNotDue = shuffle(
-    pool.filter((w) => progress[w.id] && !isDue(progress[w.id])),
+    pool.filter((w) => progress[w.id] && !isDue(progress[w.id], today)),
   ).sort((a, b) => {
     const la = progress[a.id].last_seen ?? "";
     const lb = progress[b.id].last_seen ?? "";
     return la.localeCompare(lb);
   });
 
-  const reviewTarget = Math.round(count * REVIEW_RATIO);
+  const maintenance = pickMaintenanceWords(pool, progress, today, 1);
+  const reviewTarget = Math.round(count * reviewRatio);
   const chosen: Word[] = [];
   const take = (list: Word[], n: number) => {
     for (const w of list) {
@@ -191,37 +223,12 @@ export async function buildSession({
     }
   };
 
+  take(maintenance, 1);
   take(dueReview, reviewTarget);
   take(unseen, count - chosen.length);
   take(seenNotDue, count - chosen.length);
   take(dueReview, count - chosen.length);
 
-  return shuffle(chosen).slice(0, count);
-}
-
-export type LevelSuggestion = "up" | "down" | null;
-
-export interface SessionStats {
-  total: number;
-  firstTryCorrect: number;
-  avgStars: number | null;
-  reviewCount: number;
-}
-
-// 적응형 레벨 제안 (plan 5.4, 강제 X): 잘하면 상향 / 자주 막히면 하향
-export function suggestLevelAdjustment(
-  stats: SessionStats,
-  level: WordLevel,
-): LevelSuggestion {
-  if (stats.total === 0) return null;
-  const correctRate = stats.firstTryCorrect / stats.total;
-  const reviewRate = stats.reviewCount / stats.total;
-
-  if (level < 3 && correctRate >= 0.8 && (stats.avgStars ?? 0) >= 2) {
-    return "up";
-  }
-  if (level > 1 && reviewRate >= 0.4) {
-    return "down";
-  }
-  return null;
+  const result = chosen.slice(0, count);
+  return hasCategories ? orderByCategoryFlow(result) : shuffle(result);
 }

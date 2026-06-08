@@ -8,6 +8,11 @@ import {
 } from "@/lib/sync/userData";
 import { readLocalProfile, writeLocalProfile } from "@/lib/sync/localProfile";
 import { appendLocalSession } from "@/lib/sync/localStats";
+import {
+  appendRecentWindow,
+  readRecentWindow,
+  type SessionWindowEntry,
+} from "@/lib/sync/recentWindow";
 import { computeStreakOnComplete, todayKey } from "@/lib/streak";
 import { computeProgressUpdate } from "@/lib/srs";
 import { applyCalibration } from "@/lib/words/calibration";
@@ -47,6 +52,7 @@ interface UserStoreState {
   totalLearned: number;
   preferredCategories: string[];
   progress: Record<number, Progress>;
+  recentSessions: SessionWindowEntry[];
 
   hydrate: (userId: string | null) => Promise<void>;
   setLevel: (level: WordLevel) => void;
@@ -72,6 +78,7 @@ const initialState = {
   totalLearned: 0,
   preferredCategories: [] as string[],
   progress: {} as Record<number, Progress>,
+  recentSessions: [] as SessionWindowEntry[],
 };
 
 export const useUserStore = create<UserStoreState>((set, get) => ({
@@ -96,6 +103,7 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
         totalLearned: userState?.total_learned ?? 0,
         preferredCategories: userState?.preferred_categories ?? [],
         progress: progressMap,
+        recentSessions: readRecentWindow(),
       });
       return;
     }
@@ -115,6 +123,7 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
       totalLearned: profile.totalLearned,
       preferredCategories: profile.preferredCategories,
       progress: {},
+      recentSessions: readRecentWindow(),
     });
   },
 
@@ -196,6 +205,15 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
         : null;
     const reviewCount = updatedRows.filter((r) => r.in_review).length;
 
+    const windowEntry: SessionWindowEntry = {
+      total: learnedCount,
+      firstTryCorrect: correctFirstTry,
+      reviewCount,
+      starsSum: scored.reduce((sum, r) => sum + (r.shadowStars ?? 0), 0),
+      starsCount: scored.length,
+    };
+    const recentSessions = appendRecentWindow(windowEntry);
+
     const streakUpdate = computeStreakOnComplete(
       state.lastStudyDate,
       state.streak,
@@ -222,6 +240,7 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
       levelProvisional: calibrated.levelProvisional,
       calibrationQuestions: calibrated.calibrationQuestions,
       calibrationCorrect: calibrated.calibrationCorrect,
+      recentSessions,
     });
 
     persist(get, {
