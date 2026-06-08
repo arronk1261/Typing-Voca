@@ -49,7 +49,7 @@ export function SessionResult() {
       sessions: recent.length,
       questions: recent.reduce((s, e) => s + e.total, 0),
       firstTryCorrect: recent.reduce((s, e) => s + e.firstTryCorrect, 0),
-      reviewEntries: recent.reduce((s, e) => s + e.reviewCount, 0),
+      reviewEntries: recent.reduce((s, e) => s + e.reviewTriggers, 0),
       starsSum: recent.reduce((s, e) => s + e.starsSum, 0),
       starsCount: recent.reduce((s, e) => s + e.starsCount, 0),
       graduatedCount: Object.values(progressNow).filter(isGraduated).length,

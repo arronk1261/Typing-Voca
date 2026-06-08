@@ -1,4 +1,4 @@
-import { computeProgressUpdate, isDue } from "../src/lib/srs.ts";
+import { computeProgressUpdate, isDue, isReviewTrigger } from "../src/lib/srs.ts";
 import type { Progress, QuestionResult } from "../src/types/index.ts";
 
 const TODAY = "2026-06-04";
@@ -139,6 +139,20 @@ const cases: Case[] = [
     },
   },
   {
+    name: "review-triggers-count",
+    describe: "9-2a: 잘 맞힌 복습 단어는 트리거 아님, 실패만 신규 복습 진입으로 집계",
+    run: () => {
+      const sessionResults: QuestionResult[] = [
+        result({ firstTryCorrect: true, shadowStars: 2 }), // 복습 통과 → 트리거 아님
+        result({ firstTryCorrect: true, shadowStars: 3 }), // 통과 → 트리거 아님
+        result({ firstTryCorrect: false, heartsDepleted: true }), // 실패 → 트리거
+        result({ firstTryCorrect: true, shadowStars: 1 }), // 발음 약함 → 트리거
+      ];
+      const triggers = sessionResults.filter(isReviewTrigger).length;
+      return triggers === 2;
+    },
+  },
+  {
     name: "isDue",
     describe: "in_review + next_due 지남 → isDue true / 미래면 false",
     run: () => {
@@ -155,7 +169,7 @@ for (const c of cases) {
   let ok = false;
   try {
     ok = c.run();
-  } catch (e) {
+  } catch {
     ok = false;
   }
   if (ok) pass += 1;

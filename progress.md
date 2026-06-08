@@ -14,14 +14,14 @@
 | 단위 | 내용 | 상태 | 메모 |
 |------|------|------|------|
 | 0-1 | 프로젝트 초기 셋업 | ✅ | Next.js(App Router)+TS+Tailwind v4, Zustand sessionStore, 디자인 토큰, 모바일 전역 레이아웃, ESLint, .env 플레이스홀더. |
-| 0-2 | Supabase 스키마 + RLS + 시드 | ✅ | `supabase/schema.sql`(words 공개읽기 + user_state/progress/study_sessions + auth.uid() RLS), `scripts/seed.ts`(Service Role 전용, `npm run seed`), `src/lib/supabase/client.ts`(anon, 미설정 시 null). **실연동 완료**: 실제 프로젝트에 스키마 적용 + **words 900행 적재** + anon 읽기 OK / INSERT 차단(42501) / 비로그인 progress 0행 **실측 검증**. |
+| 0-2 | Supabase 스키마 + RLS + 시드 | ✅ | `supabase/schema.sql`(words 공개읽기 + user_state/progress/study_sessions + auth.uid() RLS), `scripts/seed.ts`(Service Role 전용, `npm run seed`), `src/lib/supabase/client.ts`(anon, 미설정 시 null). **실연동 완료**: 실제 프로젝트에 스키마 적용 + **words 적재**(초기 900행 → Phase 6에서 **2,520행**으로 확충) + anon 읽기 OK / INSERT 차단(42501) / 비로그인 progress 0행 **실측 검증**. |
 | 0-3 | 구글 로그인 + 세션 가드 | ✅ | `/login`([Google로 계속하기]), `AuthProvider`(onAuthStateChange·signOut), `/auth/callback`, `AuthGuard`, 신규 유저 `user_state` upsert(`ensureUserState`). **실연동 완료**: Google OAuth Provider 활성화 + 키 등록 + 리다이렉트 허용목록 설정, authorize→accounts.google.com 302(scope `email profile`, client_id 정상) **실측 검증**. 비로그인 시 `/study`→`/login` 가드 동작 확인. |
 | 0-4 | 데이터 레이어(조회/동기화/오프라인 큐) | ✅ | `getWords`(Supabase→캐시→번들 JSON 폴백), `lib/sync/userData.ts`(로드·배치 upsert·`study_sessions` insert), `offlineQueue.ts`(LocalStorage 큐 + `online` flush), 타입(UserState/Progress/StudySession) 추가. |
 | 0-5 | 디자인 시스템 & 공통 컴포넌트 | ✅ | Button/Card/ProgressBar/Hearts/BottomActionBar/LoadingDots/BottomSheet/Toast, 다크모드(ThemeProvider+토글+시스템감지+FOUC방지), 접근성(포커스링·48px·aria·색+아이콘), framer-motion 프리셋 + `MotionConfig reducedMotion`. 샘플 페이지 `/sample`. |
 
 > ℹ️ **graceful 동작 원칙**: Supabase 환경변수가 비어 있으면(미설정) 앱은 **로컬 게스트 모드**로 동작해 Phase 1 학습이 그대로 가능(규칙 6 학습 무중단). 환경변수를 채우면 **로그인-퍼스트 + 동기화**가 자동 활성화됩니다.
 >
-> ✅ **실연동 셋업 완료**: ① Supabase 프로젝트 생성 ✓ → ② `supabase/schema.sql` 실행 ✓ → ③ `.env.local` 채움 ✓ → ④ `npm run seed`로 900행 적재 ✓ → ⑤ Google OAuth Provider + 리다이렉트 허용목록 설정 ✓. 현재 앱은 **로그인-퍼스트 모드**로 동작.
+> ✅ **실연동 셋업 완료**: ① Supabase 프로젝트 생성 ✓ → ② `supabase/schema.sql` 실행 ✓ → ③ `.env.local` 채움 ✓ → ④ `npm run seed`로 적재 ✓(초기 900행 → 현재 2,520행, Phase 6) → ⑤ Google OAuth Provider + 리다이렉트 허용목록 설정 ✓. 현재 앱은 **로그인-퍼스트 모드**로 동작.
 >
 > ⏳ **남은 사람 작업(검증만)**: 사용자 브라우저에서 `http://localhost:3000` → [Google로 계속하기] 실제 1회 로그인 (자동 프리뷰 브라우저로는 구글 동의 화면 완료 불가). 로그인 시 `user_state` 행 자동 생성.
 
@@ -46,7 +46,7 @@
 |------|------|------|------|
 | 2-1 | 유저 데이터 스토어(Supabase 동기화) | ✅ | `stores/userStore.ts`(level/streak/lastStudyDate/totalLearned/progress맵/preferredCategories/onboarded, 세션 중 메모리). 로그인 시 `loadUserData`로 적재, 체크포인트(레벨확정·카테고리저장·세션완료 훅)에서만 배치 upsert. 비로그인(게스트)은 `localProfile`(LocalStorage)에 영속 → **학습 무중단**. |
 | 2-2 | 메인 로비/대시보드 UI | ✅ | 홈(`/`)이 대시보드. 상단 상태(Lv./누적단어/Streak🔥), CTA([오늘의 10단어]/[카테고리 학습]/[오답 노트]=`in_review` 있을 때만), 하단 [통계 히스토리]·[주간 리포트] 진입점. 로그인-퍼스트(미로그인 시 Google 카드), 게스트는 바로 진입. |
-| 2-3 | 레벨 테스트(온보딩) | ✅ | 최초 접속(미온보딩) 시 5문항 타이핑 테스트 → 정답 수로 Lv.1~3 확정 + 저장(`onboarded=true`), 로비 이동. "추정치·자동 조정" 안내. 재방문 시 건너뜀(브라우저 실측). |
+| 2-3 | 레벨 테스트(온보딩) | ✅ | 최초 접속(미온보딩) 시 타이핑 테스트 → Lv.1~3 추천 + 저장(`onboarded=true`), 로비 이동. "추정치·자동 조정" 안내. 재방문 시 건너뜀(브라우저 실측). *(초기 5문항·즉시 확정 → Phase 7-1에서 **앵커 12문항·provisional 시작**으로 교체, 이후 실학습 30문항으로 자동 확정.)* |
 | 2-4 | Streak 로직 + 불꽃 비주얼 | ✅ | `lib/streak.ts`(오늘 완료=+1 / 하루 건너뜀=리셋, 날짜 모킹 테스트 통과), `StreakFlame`(streak 구간별 불꽃 강화 모션). 세션완료 시 갱신용 `markStudiedToday` 액션 제공(실제 호출은 Phase 4 결과창에서 연결). |
 | 2-5 | 카테고리 선택 학습 | ✅ | 12개 카테고리 멀티 선택 바텀시트(아이콘+토글칩), 선택을 `preferred_categories`에 저장(다음 기본값 복원). [카테고리 학습]→해당 범위 세션 구성, 부족 시 5.6 충원(인접 레벨 확장). 선택 0개면 전체. 브라우저에서 선택→`/study?mode=category` 세션 구성·영속 실측. |
 
@@ -192,6 +192,18 @@
 
 > ⚠️ **운영 반영 필수(수동 1회)**: 9-1a는 `study_sessions` 스키마를 확장하므로 **Supabase SQL Editor에 `supabase/migrations/v9_session_weak_words.sql`을 1회 실행**해야 약점 단어가 클라우드에 저장됩니다. **미실행이어도 무중단**(`userData.ts`가 `weak_words` 컬럼 부재 시 떼고 저장) — 단, 적용 전에는 주간 발음 리포트가 비어 있을 수 있음(게스트 모드는 로컬 통계라 영향 없음).
 
+### Phase 9-2 — 정책 정밀화·문서·툴체인 정리(2차 코드리뷰 반영) ✅
+
+| 단위 | 내용 | 상태 | 검증 |
+|------|------|------|------|
+| 9-2a | 승급 판단 `reviewEntries` 의미 분리 | ✅ | 롤링 윈도우 복습률을 **'세션 후 잔존 in_review 수'가 아니라 '이번 세션에 새로 복습 진입한 수'**(`results.filter(isReviewTrigger)`)로 계산. 기존엔 이미 잘 맞히는 복습 단어까지 잔존 카운트에 잡혀 복습률이 부풀고 상향 제안이 억제될 수 있었음. `SessionWindowEntry.reviewCount→reviewTriggers` 리네임, `study_sessions.review_count`도 트리거 카운트로 정밀화(유일 소비처=롤링 시드, 화면 비노출이라 의미 충돌 없음). |
+| 9-2b | `lint`를 ESLint CLI로 전환 | ✅ | `next lint`(Next 16에서 제거 예정)를 **`eslint .`**로 교체. `eslint.config.mjs`에 `ignores`(.next/out/build/node_modules/next-env.d.ts/*.tsbuildinfo) 추가. CLI가 `scripts/`까지 검사하며 드러난 잔여 경고 2건(미사용 import·catch 바인딩) 제거 → **경고 0**. |
+| 9-2c | `progress.md` 옛 내용 정리 | ✅ | 앞부분 stale 문구 정정: words **900행→2,520행 확충** 명시, 레벨테스트 **5문항→앵커 12문항·provisional** 교체 명시, `/report` "준비 중"→**실제 구현 완료** 반영. 명령어 레퍼런스 테스트 카운트 최신화(srs 13/13·stats 8/8). |
+
+**검증 방법(9-2)**: `npm run test:srs`(**13/13**, 9-2a 트리거 카운트 케이스 추가) + `npm run test:phase8`(37/37) + `npm run test:stats`(8/8) + `npm run build`·`npm run lint`(경고 0). **마이그레이션 불필요**(기존 `review_count` 컬럼 재사용, DB 스키마 변경 없음).
+
+> ℹ️ **9-2a 전환 메모**: `review_count`는 기존에 화면/통계 어디에서도 표시되지 않고 롤링 윈도우 시드로만 쓰였으므로, 저장값을 트리거 카운트로 바꿔도 표시 충돌이 없습니다. 마이그레이션 적용 이전에 저장된 과거 세션 행은 옛 의미(잔존 수)를 갖지만, 최근 5세트만 승급 판단에 쓰여 새 세션이 쌓이면 자연히 정정됩니다.
+
 ---
 
 ## 실행 방법
@@ -207,14 +219,14 @@ npm run build:anchors    # 레벨테스트 앵커 12문항 재생성 → src/dat
 npm run tag:pronunciation # 발음 난이도 전수 분석 → docs/pronunciation-coverage.md (Phase 9-1b)
 npm run test:phase7      # Phase 7 진단·채점 단위 테스트(23/23)
 npm run test:phase8      # Phase 8+9 적응·신뢰도 단위 테스트(37/37)
-npm run test:srs         # SRS 졸업/간격 규칙(12/12, 8-1·9-A1 정책 반영)
+npm run test:srs         # SRS 졸업/간격 규칙(13/13, 8-1·9-A1·9-2a 정책 반영)
+npm run test:stats       # 통계·주간 리포트 집계(8/8, 9-1a 발음 약점 포함)
 npm run check:schema     # Supabase v7·v8 마이그레이션 컬럼 적용 여부 점검
+npm run lint             # ESLint CLI(eslint .) — Next 16 대비, next lint 대체(9-2b)
 node --experimental-strip-types scripts/test-score.ts  # 섀도잉 채점 단위 테스트(6/6)
-node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-srs.ts  # SRS 복습 규칙(7/7)
-node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-stats.ts  # 통계 집계(7/7)
 ```
 - 홈(`/`) = 대시보드 → [오늘의 10단어]/[카테고리 학습]/[오답 노트] → 학습 화면(`/study`)
-- 통계/리포트 진입점: `/stats`·`/report`(Phase 5 자리표시 "준비 중" 화면)
+- 통계/리포트 진입점: `/stats`(스트릭 캘린더·추이·카테고리 숙련도)·`/report`(주간 리포트 + 9-1a 발음 약점) — Phase 5/9-1에서 실제 구현 완료
 - 디자인 시스템 미리보기: `/sample`
 - 로그인 화면: `/login` (Supabase 설정 시에만 가드 동작)
 - **게스트 모드 QA**: `.claude/launch.json`의 `dev-guest`(포트 3100)는 Supabase 미설정 상태를 흉내 내 로그인 없이 대시보드/레벨테스트/카테고리를 점검하는 용도.

@@ -478,6 +478,11 @@ create policy "own sessions" on public.study_sessions
   * **9-1a 영속 주간 발음 리포트:** ✅ — `study_sessions.weak_words`(text[], **v9 마이그레이션**) 추가. `commitSession`이 세션 약점 단어를 요약에 적재, `saveStudySession`은 컬럼 부재 시 떼고 재시도(무중단). `aggregate.ts`가 이번 주 약점을 **빈도×난이도 랭킹**(`rankWeakWords`)+**음소 요소 집계**(`topPhonemeFeatures`)로 산출 → 주간 리포트 카드 "이번 주 발음 약점" 섹션.
   * **9-1b 발음 난이도 전수 분석·태깅:** ✅ — `pronunciation.ts`에 `pronunciationFeatures`(th·r/l·v/f·z·자음군)+`PHONEME_LABEL`. `scripts/tagPronunciation.ts`(`npm run tag:pronunciation`)가 **2,520단어 전수 분류** → `docs/pronunciation-coverage.md`(난이 요소 1개+ **1,363개=54%**, 기존 `difficulty_axis=pronunciation` 23개 대비 대폭 확대). 런타임 동일 함수 파생 계산이라 **words DB 컬럼·시드 불필요**.
   * **검증:** `test:phase8` **37/37**·`test:stats` **8/8**·`build`·`lint` 0. **운영 반영:** `supabase/migrations/v9_session_weak_words.sql` 1회 적용(미적용 시 무중단 폴백).
+* **Phase 9-2 — 정책 정밀화·툴체인 정리(2차 코드리뷰 반영, 완료)**
+  * **9-2a 승급 판단 `reviewEntries` 의미 분리:** ✅ — 롤링 윈도우 복습률을 **'세션 후 잔존 in_review 수'가 아니라 '이번 세션 신규 복습 진입 수'**(`results.filter(isReviewTrigger)`)로 계산. 잔존 수를 쓰면 이미 잘 맞히는 복습 단어까지 잡혀 복습률이 부풀고 상향 제안이 억제됨. `SessionWindowEntry.reviewCount→reviewTriggers` 리네임, `study_sessions.review_count`도 트리거 카운트로 정밀화(유일 소비처=롤링 시드라 화면 충돌 없음·스키마 변경 없음).
+  * **9-2b lint를 ESLint CLI로 전환:** ✅ — Next 16에서 제거되는 `next lint`를 **`eslint .`**로 교체, `eslint.config.mjs`에 빌드 산출물 `ignores` 추가. CLI가 `scripts/`까지 검사하며 드러난 잔여 경고 2건 제거 → 경고 0.
+  * **9-2c 문서 정합성:** ✅ — `progress.md` 앞부분 stale 문구(words 900행·레벨테스트 5문항·`/report` 준비 중) 정정, 명령어 레퍼런스 카운트 최신화.
+  * **검증:** `test:srs` **13/13**(트리거 카운트 케이스)·`test:phase8` 37/37·`test:stats` 8/8·`build`·`lint` 0. **마이그레이션 불필요**(기존 `review_count` 재사용).
 
 ---
 

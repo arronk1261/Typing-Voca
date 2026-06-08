@@ -26,7 +26,7 @@ import {
   topPhonemeFeatures,
 } from "../src/lib/shadowing/pronunciation.ts";
 import { isStreakBroken } from "../src/lib/streak.ts";
-import type { Progress, QuestionResult, Word, WordLevel } from "../src/types/index.ts";
+import type { Progress, QuestionResult, Word } from "../src/types/index.ts";
 
 const TODAY = "2026-06-04";
 
