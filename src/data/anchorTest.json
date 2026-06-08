@@ -76,154 +76,156 @@
     ]
   },
   {
-    "id": 285,
-    "category": "shopping",
+    "id": 911,
+    "category": "work",
     "level": 2,
     "cefr": "B1",
-    "answer": "afford",
-    "sentence_en": "I can't ___ such an expensive bag.",
-    "sentence_ko": "그렇게 비싼 가방은 살 형편이 안 돼요.",
-    "meaning": "~을 살 형편이 되다",
-    "tts_text": "I can't afford such an expensive bag.",
-    "display_sentence": "I can't afford such an expensive bag.",
-    "frequency": "high",
-    "chunk_type": "single_word",
-    "difficulty_axis": "usage",
-    "use_case": [
-      "pricing",
-      "budget"
-    ]
-  },
-  {
-    "id": 491,
-    "category": "restaurant",
-    "level": 2,
-    "cefr": "B1",
-    "answer": "recommend",
-    "sentence_en": "What would you ___ for a first-timer?",
-    "sentence_ko": "처음 온 사람에게 뭘 추천하시겠어요?",
-    "meaning": "추천하다",
-    "tts_text": "What would you recommend for a first-timer?",
-    "display_sentence": "What would you recommend for a first-timer?",
-    "frequency": "high",
-    "chunk_type": "single_word",
-    "difficulty_axis": "spelling",
-    "use_case": [
-      "restaurant",
-      "ordering"
-    ]
-  },
-  {
-    "id": 1125,
-    "category": "phone_email",
-    "level": 2,
-    "cefr": "B1",
-    "answer": "reach",
-    "sentence_en": "What's the best way to ___ you?",
-    "sentence_ko": "어떻게 연락드리는 게 가장 좋을까요?",
-    "meaning": "연락하다",
-    "tts_text": "What's the best way to reach you?",
-    "display_sentence": "What's the best way to reach you?",
-    "frequency": "high",
-    "chunk_type": "single_word",
-    "difficulty_axis": "usage",
-    "use_case": [
-      "contact",
-      "business"
-    ]
-  },
-  {
-    "id": 1343,
-    "category": "emotion",
-    "level": 2,
-    "cefr": "B1",
-    "answer": "into",
-    "sentence_en": "I'm really ___ photography.",
-    "sentence_ko": "전 사진에 푹 빠져 있어요.",
-    "meaning": "~에 푹 빠진",
-    "tts_text": "I'm really into photography.",
-    "display_sentence": "I'm really into photography.",
-    "frequency": "high",
-    "chunk_type": "single_word",
-    "difficulty_axis": "usage",
-    "use_case": [
-      "emotion",
-      "social"
-    ]
-  },
-  {
-    "id": 146,
-    "category": "greeting",
-    "level": 3,
-    "cefr": "B2-C1",
-    "answer": "make small talk",
-    "sentence_en": "I tried to ___ while we waited.",
-    "sentence_ko": "기다리는 동안 가벼운 대화를 나누려 했어요.",
-    "meaning": "잡담을 나누다",
-    "tts_text": "I tried to make small talk while we waited.",
-    "display_sentence": "I tried to make small talk while we waited.",
+    "answer": "a deadline",
+    "sentence_en": "We're working against ___.",
+    "sentence_ko": "마감에 쫓기며 일하고 있어요.",
+    "meaning": "마감 기한",
+    "tts_text": "We're working against a deadline.",
+    "display_sentence": "We're working against a deadline.",
     "frequency": "high",
     "chunk_type": "collocation",
     "difficulty_axis": "usage",
     "use_case": [
-      "smalltalk",
-      "social"
+      "work",
+      "schedule"
     ]
   },
   {
-    "id": 410,
-    "category": "shopping",
-    "level": 3,
-    "cefr": "B2-C1",
-    "answer": "overpriced",
-    "sentence_en": "That café is so ___.",
-    "sentence_ko": "그 카페는 너무 비싸요.",
-    "meaning": "값이 너무 비싼",
-    "tts_text": "That café is so overpriced.",
-    "display_sentence": "That café is so overpriced.",
-    "frequency": "high",
-    "chunk_type": "single_word",
-    "difficulty_axis": "meaning",
-    "use_case": [
-      "payment"
-    ]
-  },
-  {
-    "id": 1204,
+    "id": 1121,
     "category": "phone_email",
-    "level": 3,
-    "cefr": "B2-C1",
-    "answer": "ping",
-    "sentence_en": "I'll ___ you on the app.",
-    "sentence_ko": "앱으로 연락 한번 할게요.",
-    "meaning": "간단히 연락하다",
-    "tts_text": "I'll ping you on the app.",
-    "display_sentence": "I'll ping you on the app.",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "get back to",
+    "sentence_en": "I'll ___ you by Friday.",
+    "sentence_ko": "금요일까지 답변드릴게요.",
+    "meaning": "나중에 답하다",
+    "tts_text": "I'll get back to you by Friday.",
+    "display_sentence": "I'll get back to you by Friday.",
     "frequency": "high",
-    "chunk_type": "single_word",
+    "chunk_type": "phrasal_verb",
     "difficulty_axis": "usage",
     "use_case": [
-      "messaging",
-      "digital"
+      "phone",
+      "email"
     ]
   },
   {
-    "id": 2456,
-    "category": "it",
-    "level": 3,
-    "cefr": "B2-C1",
-    "answer": "scalable",
-    "sentence_en": "The system needs to be ___.",
-    "sentence_ko": "그 시스템은 확장 가능해야 해요.",
-    "meaning": "확장 가능한",
-    "tts_text": "The system needs to be scalable.",
-    "display_sentence": "The system needs to be scalable.",
+    "id": 1331,
+    "category": "emotion",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "stressed out",
+    "sentence_en": "I've been ___ lately.",
+    "sentence_ko": "요즘 스트레스를 많이 받았어요.",
+    "meaning": "스트레스에 시달리는",
+    "tts_text": "I've been stressed out lately.",
+    "display_sentence": "I've been stressed out lately.",
     "frequency": "high",
-    "chunk_type": "single_word",
+    "chunk_type": "collocation",
     "difficulty_axis": "meaning",
     "use_case": [
-      "architecture",
-      "server"
+      "emotion",
+      "work",
+      "daily"
+    ]
+  },
+  {
+    "id": 1763,
+    "category": "health",
+    "level": 2,
+    "cefr": "B1",
+    "answer": "woke up with a sore throat",
+    "sentence_en": "I ___.",
+    "sentence_ko": "목이 아픈 채로 깼어요.",
+    "meaning": "인후통이 있는 채로 일어나다",
+    "tts_text": "I woke up with a sore throat.",
+    "display_sentence": "I woke up with a sore throat.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "illness",
+      "daily"
+    ]
+  },
+  {
+    "id": 143,
+    "category": "greeting",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "long time no see",
+    "sentence_en": "Well, ___! You haven't changed a bit.",
+    "sentence_ko": "오랜만이에요! 하나도 안 변하셨네요.",
+    "meaning": "오랜만이에요",
+    "tts_text": "Well, long time no see! You haven't changed a bit.",
+    "display_sentence": "Well, long time no see! You haven't changed a bit.",
+    "frequency": "high",
+    "chunk_type": "sentence_frame",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "reunion",
+      "greeting"
+    ]
+  },
+  {
+    "id": 1627,
+    "category": "schedule",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "ahead of schedule",
+    "sentence_en": "We finished ___.",
+    "sentence_ko": "우리는 예정보다 일찍 끝냈어요.",
+    "meaning": "예정보다 빨리",
+    "tts_text": "We finished ahead of schedule.",
+    "display_sentence": "We finished ahead of schedule.",
+    "frequency": "high",
+    "chunk_type": "collocation",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "schedule",
+      "work"
+    ]
+  },
+  {
+    "id": 2033,
+    "category": "daily",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "wind down",
+    "sentence_en": "I read to ___ at night.",
+    "sentence_ko": "밤에 긴장을 풀려고 책을 읽어요.",
+    "meaning": "긴장을 풀다",
+    "tts_text": "I read to wind down at night.",
+    "display_sentence": "I read to wind down at night.",
+    "frequency": "high",
+    "chunk_type": "phrasal_verb",
+    "difficulty_axis": "usage",
+    "use_case": [
+      "evening_routine",
+      "sleep"
+    ]
+  },
+  {
+    "id": 2242,
+    "category": "social",
+    "level": 3,
+    "cefr": "B2-C1",
+    "answer": "got your back",
+    "sentence_en": "Don't worry, I've ___.",
+    "sentence_ko": "걱정 마, 내가 네 편이야.",
+    "meaning": "편이 되어 줌",
+    "tts_text": "Don't worry, I've got your back.",
+    "display_sentence": "Don't worry, I've got your back.",
+    "frequency": "high",
+    "chunk_type": "idiom",
+    "difficulty_axis": "meaning",
+    "use_case": [
+      "support",
+      "friendship"
     ]
   }
 ]

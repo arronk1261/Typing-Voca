@@ -36,15 +36,82 @@ const CATEGORY_FLOW_ORDER = [
   "health",
 ];
 
+// 9-B4: 같은 카테고리 안에서도 상황 흐름대로 출제하기 위한 use_case 순서(미니 시나리오)
+const USE_CASE_FLOW = [
+  "greeting",
+  "introduction",
+  "smalltalk",
+  "conversation",
+  "morning_routine",
+  "schedule",
+  "appointment",
+  "booking",
+  "airport",
+  "transportation",
+  "directions",
+  "sightseeing",
+  "hotel",
+  "shopping",
+  "ordering",
+  "food",
+  "payment",
+  "office",
+  "meeting",
+  "task",
+  "development",
+  "business",
+  "phone",
+  "email",
+  "communication",
+  "device",
+  "troubleshooting",
+  "illness",
+  "hospital",
+  "wellness",
+  "recovery",
+  "emotion",
+  "relationship",
+  "friendship",
+  "conflict",
+  "farewell",
+];
+
 function categoryFlowIndex(category: string): number {
   const i = CATEGORY_FLOW_ORDER.indexOf(category);
   return i === -1 ? CATEGORY_FLOW_ORDER.length : i;
 }
 
+function useCaseFlowIndex(word: Word): number {
+  const cases = word.use_case ?? [];
+  let best = USE_CASE_FLOW.length;
+  for (const c of cases) {
+    const i = USE_CASE_FLOW.indexOf(c);
+    if (i !== -1 && i < best) best = i;
+  }
+  return best;
+}
+
+// 9-B4: 카테고리 순서를 1차 키, 카테고리 내부 use_case 흐름을 2차 키로 정렬
 export function orderByCategoryFlow(words: Word[]): Word[] {
-  return [...words].sort(
-    (a, b) => categoryFlowIndex(a.category) - categoryFlowIndex(b.category),
-  );
+  return [...words].sort((a, b) => {
+    const byCategory = categoryFlowIndex(a.category) - categoryFlowIndex(b.category);
+    if (byCategory !== 0) return byCategory;
+    return useCaseFlowIndex(a) - useCaseFlowIndex(b);
+  });
+}
+
+// 9-B1: 기본 세션에서 저빈도(niche) 표현이 신규 출제를 과점하지 않도록 상한 적용
+export function limitLowFrequency(words: Word[], cap: number): Word[] {
+  const result: Word[] = [];
+  let lowUsed = 0;
+  for (const w of words) {
+    if (w.frequency === "low") {
+      if (lowUsed >= cap) continue;
+      lowUsed += 1;
+    }
+    result.push(w);
+  }
+  return result;
 }
 
 // 8-6: 졸업 단어 중 마지막 학습이 ~30일 이상 지난 것을 유지 점검 후보로 선별
