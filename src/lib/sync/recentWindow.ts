@@ -1,3 +1,5 @@
+import type { StudySession } from "@/types";
+
 const KEY = "tv:window:recent";
 const CAP = 5;
 
@@ -7,6 +9,19 @@ export interface SessionWindowEntry {
   reviewCount: number;
   starsSum: number;
   starsCount: number;
+}
+
+// 9-C1: Supabase 세션 요약을 롤링 윈도우 항목으로 변환(기기 간 일관성).
+// 요약엔 별점 응시 수가 없으므로 starsCount는 words_count로 근사한다.
+export function sessionToWindowEntry(s: StudySession): SessionWindowEntry {
+  const hasStars = typeof s.avg_stars === "number";
+  return {
+    total: s.words_count,
+    firstTryCorrect: s.correct_first_try,
+    reviewCount: s.review_count,
+    starsSum: hasStars ? (s.avg_stars as number) * s.words_count : 0,
+    starsCount: hasStars ? s.words_count : 0,
+  };
 }
 
 export function readRecentWindow(): SessionWindowEntry[] {

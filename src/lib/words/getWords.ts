@@ -6,18 +6,22 @@ import {
   adaptiveReviewRatio,
   limitLowFrequency,
   orderByCategoryFlow,
+  orderByCurriculum,
   pickMaintenanceWords,
 } from "@/lib/words/adaptive";
 import { isWord, type Progress, type Word, type WordLevel } from "@/types";
 
 export {
   adaptiveReviewRatio,
+  curriculumLayer,
   limitLowFrequency,
+  orderByCurriculum,
   pickMaintenanceWords,
   orderByCategoryFlow,
   suggestLevelAdjustment,
   suggestLevelFromHistory,
 } from "@/lib/words/adaptive";
+export type { CurriculumLayer } from "@/lib/words/adaptive";
 export type {
   ReviewRatioContext,
   LevelSuggestion,
@@ -197,7 +201,10 @@ export async function buildSession({
   });
 
   const LOW_FREQ_CAP = Math.max(0, Math.floor(count * 0.1));
-  const unseenAll = shuffle(pool.filter((w) => !progress[w.id]));
+  const isEarlyLearner = level === 1 && seenCount < 30;
+  const unseenShuffled = shuffle(pool.filter((w) => !progress[w.id]));
+  // 9-C2: 초급 학습자에겐 생존·일상 표현을 먼저 노출
+  const unseenAll = isEarlyLearner ? orderByCurriculum(unseenShuffled) : unseenShuffled;
   const unseen = hasCategories
     ? unseenAll
     : limitLowFrequency(unseenAll, LOW_FREQ_CAP);

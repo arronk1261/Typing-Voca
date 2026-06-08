@@ -138,6 +138,27 @@ export interface LoadedStatsData {
   progress: Progress[];
 }
 
+// 9-C1: 승급 판단용 최근 N세트를 Supabase에서 로드(로그인 유저는 기기 간 일관)
+export async function loadRecentSessions(
+  userId: string,
+  limit = 5,
+): Promise<StudySession[]> {
+  const supabase = getSupabase();
+  if (!supabase) return [];
+  try {
+    const { data, error } = await supabase
+      .from("study_sessions")
+      .select("*")
+      .eq("user_id", userId)
+      .order("ended_at", { ascending: false })
+      .limit(limit);
+    if (error || !Array.isArray(data)) return [];
+    return (data as StudySession[]).reverse();
+  } catch {
+    return [];
+  }
+}
+
 export async function loadStatsData(userId: string): Promise<LoadedStatsData> {
   const supabase = getSupabase();
   if (!supabase) return { sessions: [], progress: [] };

@@ -46,6 +46,8 @@ export interface QuestionResult {
   wordChunkType?: WordChunkType;
   // 9-A1: 발음 단계 환경(모드)을 기록 — typingOnly는 발음 없이도 졸업 가능
   shadowMode?: ShadowMode;
+  // 9-C3: 발화에서 약했던 단어(발음 포커스용, 세션 내 메모리에서만 사용)
+  weakWords?: string[];
 }
 
 export interface UserState {

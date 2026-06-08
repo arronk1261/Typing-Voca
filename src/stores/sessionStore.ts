@@ -46,6 +46,7 @@ interface SessionState {
     score: number | null,
     skipped: boolean,
     mode: ShadowMode,
+    weakWords?: string[],
   ) => void;
   advance: () => void;
   reset: () => void;
@@ -98,7 +99,7 @@ export const useSessionStore = create<SessionState>((set, get) => ({
     set({ results: [...results, result], stage: "shadowing" });
   },
 
-  completeShadowing: (stars, score, skipped, mode) => {
+  completeShadowing: (stars, score, skipped, mode, weakWords = []) => {
     const { results } = get();
     if (results.length === 0) return;
     const last = results[results.length - 1];
@@ -108,6 +109,7 @@ export const useSessionStore = create<SessionState>((set, get) => ({
       shadowScore: score,
       shadowSkipped: skipped,
       shadowMode: mode,
+      weakWords,
     };
     set({ results: [...results.slice(0, -1), updated] });
   },

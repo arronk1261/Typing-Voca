@@ -9,13 +9,19 @@ import {
 } from "../src/lib/srs.ts";
 import {
   adaptiveReviewRatio,
+  curriculumLayer,
   limitLowFrequency,
   orderByCategoryFlow,
+  orderByCurriculum,
   pickMaintenanceWords,
   suggestLevelFromHistory,
   type RollingWindow,
 } from "../src/lib/words/adaptive.ts";
 import { scoreLevelTest } from "../src/lib/words/levelScore.ts";
+import {
+  focusWords,
+  pronunciationDifficulty,
+} from "../src/lib/shadowing/pronunciation.ts";
 import { isStreakBroken } from "../src/lib/streak.ts";
 import type { Progress, QuestionResult, Word, WordLevel } from "../src/types/index.ts";
 
@@ -297,6 +303,48 @@ const cases: Case[] = [
         { questionLevel: 3, correct: false, hintsUsed: 0, retries: 0, responseMs: 3000, multiWord: true, chunkType: "idiom" },
       ]);
       return o.feedback.includes("덩어리 표현") && o.levelRatios[1] === 1 && o.levelRatios[3] === 0;
+    },
+  },
+
+  // ---- 9-C2 커리큘럼 레이어 ----
+  {
+    name: "9-C2 curriculumLayer derives survival/advanced/work",
+    run: () => {
+      const survival = curriculumLayer(word({ level: 1, frequency: "high", use_case: ["airport"] }));
+      const advanced = curriculumLayer(word({ level: 3, chunk_type: "idiom" }));
+      const work = curriculumLayer(word({ level: 2, frequency: "high", category: "work", use_case: ["meeting"] }));
+      const daily = curriculumLayer(word({ level: 2, frequency: "high", category: "daily", use_case: ["morning_routine"] }));
+      return survival === "survival" && advanced === "advanced" && work === "work" && daily === "daily";
+    },
+  },
+  {
+    name: "9-C2 orderByCurriculum puts survival before advanced",
+    run: () => {
+      const list = [
+        word({ id: 1, level: 3, chunk_type: "idiom" }),
+        word({ id: 2, level: 1, frequency: "high", use_case: ["greeting"] }),
+      ];
+      const ordered = orderByCurriculum(list);
+      return ordered[0].id === 2 && ordered[1].id === 1;
+    },
+  },
+
+  // ---- 9-C3 발음 난이도·포커스 ----
+  {
+    name: "9-C3 pronunciationDifficulty flags th/r-l/clusters",
+    run: () => {
+      return (
+        pronunciationDifficulty("the") >= 1 &&
+        pronunciationDifficulty("really") >= 1 &&
+        pronunciationDifficulty("cat") === 0
+      );
+    },
+  },
+  {
+    name: "9-C3 focusWords dedupes and ranks by difficulty",
+    run: () => {
+      const focus = focusWords(["cat", "Cat", "thrill", "really"], 2);
+      return focus.length === 2 && focus[0] === "thrill" && !focus.includes("Cat");
     },
   },
 ];
