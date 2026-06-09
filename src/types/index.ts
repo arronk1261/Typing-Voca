@@ -75,8 +75,12 @@ export interface Progress {
   first_try_correct: boolean | null;
   shadow_stars: number | null;
   // 9-3d: pass_count는 '타이핑(뜻·철자) 졸업 트랙', pron_pass_count는 '발음 졸업 트랙'(별도 누적)
+  // 9-4: pass_count는 SM-2의 연속 통과 횟수(n) 역할도 겸함
   pass_count: number;
   pron_pass_count: number;
+  // 9-4: SM-2 간격 스케줄 상태(타이핑 트랙) — 난이도계수 EF와 직전 간격(일)
+  ease_factor: number;
+  interval_days: number;
   in_review: boolean;
   last_seen: string | null;
   next_due: string | null;
@@ -85,6 +89,19 @@ export interface Progress {
   spelling_score: number | null;
   pronunciation_score: number | null;
   updated_at?: string;
+}
+
+// 9-4: per-review 로그 — SM-2 운영 분석·향후 FSRS 파라미터 학습의 원천
+export interface ReviewLog {
+  user_id: string;
+  word_id: number;
+  grade: number; // SM-2 q: 2=Again 3=Hard 4=Good 5=Easy
+  elapsed_days: number; // 직전 학습 이후 경과일(없으면 0)
+  ease_factor: number;
+  interval_days: number;
+  reps: number;
+  shadow_stars: number | null;
+  reviewed_at: string;
 }
 
 export interface StudySession {

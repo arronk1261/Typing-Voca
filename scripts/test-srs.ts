@@ -1,6 +1,7 @@
 import {
   computeProgressUpdate,
   crossLevelDueIds,
+  gradeFor,
   isDue,
   isReviewTrigger,
   needsPronCheck,
@@ -32,6 +33,8 @@ function progress(p: Partial<Progress>): Progress {
     shadow_stars: null,
     pass_count: 0,
     pron_pass_count: 0,
+    ease_factor: 2.5,
+    interval_days: 0,
     in_review: false,
     last_seen: null,
     next_due: null,
@@ -76,18 +79,18 @@ const cases: Case[] = [
   },
   {
     name: "pass-2nd-interval",
-    describe: "2차 통과 → pass_count=2, 간격 +3일, 아직 졸업 아님(기본 3회)",
+    describe: "2차 통과 → pass_count=2, SM-2 간격 +6일, 아직 졸업 아님",
     run: () => {
       const existing = progress({ in_review: true, pass_count: 1 });
       const r = computeProgressUpdate(existing, result({ firstTryCorrect: true, shadowStars: 3 }), "u", 1, TODAY);
-      return r.pass_count === 2 && r.in_review === true && r.next_due === "2026-06-07";
+      return r.pass_count === 2 && r.in_review === true && r.next_due === "2026-06-10";
     },
   },
   {
     name: "graduate-3rd",
-    describe: "3차 통과 → 졸업(in_review=false)",
+    describe: "3차 통과 + 간격 ≥ 졸업 지평선 → 졸업(in_review=false)",
     run: () => {
-      const existing = progress({ in_review: true, pass_count: 2 });
+      const existing = progress({ in_review: true, pass_count: 2, interval_days: 6 });
       const r = computeProgressUpdate(existing, result({ firstTryCorrect: true, shadowStars: 3 }), "u", 1, TODAY);
       return r.pass_count === 3 && r.in_review === false && r.next_due === null;
     },
@@ -107,7 +110,7 @@ const cases: Case[] = [
     run: () => {
       const existing = progress({ in_review: true, pass_count: 1, pron_pass_count: 1 });
       const r = computeProgressUpdate(existing, result({ firstTryCorrect: true, shadowStars: null, shadowSkipped: true, shadowMode: "full" }), "u", 1, TODAY);
-      return r.pass_count === 2 && r.pron_pass_count === 1 && r.in_review === true && r.next_due === "2026-06-07";
+      return r.pass_count === 2 && r.pron_pass_count === 1 && r.in_review === true && r.next_due === "2026-06-10";
     },
   },
   {
@@ -122,7 +125,7 @@ const cases: Case[] = [
     name: "typingonly-graduate",
     describe: "typingOnly에서 누적 통과로 졸업 가능(pass_count 2→3, in_review=false)",
     run: () => {
-      const existing = progress({ in_review: true, pass_count: 2 });
+      const existing = progress({ in_review: true, pass_count: 2, interval_days: 6 });
       const r = computeProgressUpdate(existing, result({ firstTryCorrect: true, shadowStars: null, shadowSkipped: true, shadowMode: "typingOnly" }), "u", 1, TODAY);
       return r.pass_count === 3 && r.in_review === false && r.next_due === null;
     },
@@ -173,7 +176,7 @@ const cases: Case[] = [
     name: "pron-track-graduates",
     describe: "9-3d: 타이핑 졸업 후 발음 ⭐2+를 2회 쌓으면 발음 졸업 → needsPronCheck 해제",
     run: () => {
-      const existing = progress({ in_review: false, pass_count: 3, pron_pass_count: 0 });
+      const existing = progress({ in_review: false, pass_count: 3, pron_pass_count: 0, interval_days: 20 });
       const p1 = computeProgressUpdate(existing, result({ firstTryCorrect: true, shadowStars: 3 }), "u", 1, TODAY);
       const p2 = computeProgressUpdate(p1, result({ firstTryCorrect: true, shadowStars: 2 }), "u", 1, TODAY);
       return p1.pron_pass_count === 1 && needsPronCheck(p1) === true && p2.pron_pass_count === 2 && needsPronCheck(p2) === false;
@@ -183,9 +186,46 @@ const cases: Case[] = [
     name: "weak-pron-keeps-typing-graduated",
     describe: "9-3d: 타이핑 졸업 단어의 발음이 약해도 능동 복습으로 끌려가지 않음(저빈도 재확인만)",
     run: () => {
-      const existing = progress({ in_review: false, pass_count: 3, pron_pass_count: 1 });
+      const existing = progress({ in_review: false, pass_count: 3, pron_pass_count: 1, interval_days: 20 });
       const r = computeProgressUpdate(existing, result({ firstTryCorrect: true, shadowStars: 1 }), "u", 1, TODAY);
       return r.in_review === false && r.pron_pass_count === 0 && needsPronCheck(r) === true;
+    },
+  },
+  {
+    name: "sm2-grade-mapping",
+    describe: "9-4: 신호 → SM-2 등급(q) 매핑 (Again2/Hard3/Good4/Easy5)",
+    run: () => {
+      const again = gradeFor(result({ heartsDepleted: true }));
+      const hard = gradeFor(result({ firstTryCorrect: false, attempts: 2 }));
+      const hardHint = gradeFor(result({ firstTryCorrect: true, hintsUsed: 1 }));
+      const good = gradeFor(result({ firstTryCorrect: true, hintsUsed: 0, responseMs: 8000 }));
+      const easy = gradeFor(result({ firstTryCorrect: true, hintsUsed: 0, responseMs: 2000 }));
+      return again === 2 && hard === 3 && hardHint === 3 && good === 4 && easy === 5;
+    },
+  },
+  {
+    name: "sm2-easy-raises-ef-hard-lowers",
+    describe: "9-4: Easy는 EF↑(2.5→2.6), Hard는 EF↓(2.5→2.36)",
+    run: () => {
+      const easy = computeProgressUpdate(progress({ pass_count: 1, interval_days: 6 }), result({ firstTryCorrect: true, hintsUsed: 0, responseMs: 1000 }), "u", 1, TODAY);
+      const hard = computeProgressUpdate(progress({ pass_count: 1, interval_days: 6 }), result({ firstTryCorrect: false, attempts: 2 }), "u", 1, TODAY);
+      return Math.abs(easy.ease_factor - 2.6) < 1e-9 && Math.abs(hard.ease_factor - 2.36) < 1e-9 && hard.pass_count === 2;
+    },
+  },
+  {
+    name: "sm2-again-resets-and-lowers-ef",
+    describe: "9-4: 하트 소진(Again) → n·간격 리셋, EF 하락, 복습 복귀",
+    run: () => {
+      const r = computeProgressUpdate(progress({ in_review: false, pass_count: 3, interval_days: 20 }), result({ heartsDepleted: true }), "u", 1, TODAY);
+      return r.pass_count === 0 && r.interval_days === 1 && r.in_review === true && Math.abs(r.ease_factor - 2.18) < 1e-9;
+    },
+  },
+  {
+    name: "sm2-horizon-gate",
+    describe: "9-4: 통과 3회라도 간격이 졸업 지평선(14) 미만이면 졸업 보류(약한 카드는 더 머문다)",
+    run: () => {
+      const r = computeProgressUpdate(progress({ in_review: true, pass_count: 2, interval_days: 4, ease_factor: 1.5 }), result({ firstTryCorrect: true }), "u", 1, TODAY);
+      return r.pass_count === 3 && r.interval_days === 6 && r.in_review === true;
     },
   },
   {

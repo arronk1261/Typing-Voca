@@ -221,6 +221,22 @@
 
 > ⚙️ **9-3d 운영 반영**: `supabase/migrations/v10_progress_pron_pass.sql` 1회 적용(`pron_pass_count int default 0`). 미적용 시 `saveProgress`가 컬럼을 떼고 재시도하므로 학습은 무중단. `npm run check:schema`로 적용 여부 점검 가능.
 
+### Phase 9-4 — SM-2 간격 알고리즘 + 리뷰 로그 ✅
+
+고정 간격 [1,3,7,14]를 **SM-2(SuperMemo-2) 카드별 적응형 간격**으로 교체. 타이핑(회상) 트랙에만 적용하고 발음 트랙·졸업 개념은 유지.
+
+| 단위 | 내용 | 상태 | 검증 |
+|------|------|------|------|
+| 9-4a | SM-2 스케줄러(타이핑 트랙) | ✅ | `gradeFor`(풍부한 신호 → q: Again2/Hard3/Good4/Easy5) + `sm2Update`(간격 1→6→round(prev×EF), EF 보정·최소1.3) 신설. `computeProgressUpdate`가 `pass_count`(=SM-2 n)·`ease_factor`·`interval_days`를 갱신. 첫 시도 정답=Good/Easy(간격 크게), 재시도·힌트=Hard(EF↓·간격 짧게), 하트 소진=Again(리셋). |
+| 9-4b | 졸업 지평선 재정의 | ✅ | 졸업 = **통과수 ≥ target(3, Lv3관용구4) AND interval ≥ `GRAD_HORIZON_DAYS`(14)**. EF가 낮은(자주 틀리는) 카드는 간격이 천천히 늘어 더 여러 번 복습 후 졸업. `isGraduated`/`needsPronCheck`/통계(pass_count≥2)는 그대로 호환. |
+| 9-4c | 리뷰 로그 적재 | ✅ | `review_logs` 테이블(**v11**, RLS 본인 행) + `commitSession`이 문항별 `{grade·elapsed_days·ease_factor·interval_days·reps·shadow_stars}`를 배치 insert. 비핵심 분석용이라 실패·테이블 부재 시 폐기(큐 무적체). **향후 FSRS 파라미터 학습의 원천.** |
+
+**검증 방법(9-4)**: `npm run test:srs`(**21/21**, SM-2 등급 매핑·EF 증감·Again 리셋·지평선 게이트 케이스) + `npm run test:phase8`(42/42, 간격 +1/+6/+15 갱신) + `npm run test:stats`(8/8) + `build`·`lint` 0.
+
+> ⚙️ **9-4 운영 반영**: `supabase/migrations/v11_sm2_scheduler.sql` 1회 적용(progress에 `ease_factor real default 2.5`·`interval_days int default 0` + `review_logs` 테이블·RLS). 미적용 시 progress는 컬럼을 떼고 재시도, review_logs는 폐기 — **학습 무중단**. `npm run check:schema`로 점검.
+
+> 🔭 **향후(FSRS)**: `review_logs`가 쌓이면 SM-2 → FSRS(안정성 S·난이도 D 모델, 목표 유지율) 전환 + 파라미터 최적화 검토. 상세 비교·근거는 학습 가이드 참조.
+
 ---
 
 ## 실행 방법
@@ -235,10 +251,10 @@ npm run assemble:words   # generated/*.json → src/data/words.json 재조립(id
 npm run build:anchors    # 레벨테스트 앵커 12문항 재생성 → src/data/anchorTest.json (Phase 7-1/9-B2)
 npm run tag:pronunciation # 발음 난이도 전수 분석 → docs/pronunciation-coverage.md (Phase 9-1b)
 npm run test:phase7      # Phase 7 진단·채점 단위 테스트(23/23)
-npm run test:phase8      # Phase 8+9 적응·신뢰도 단위 테스트(42/42, 9-3c 힌트·9-3f 시나리오 포함)
-npm run test:srs         # SRS 졸업/간격 규칙(17/17, 8-1·9-A1·9-2a·9-3a·9-3d 정책 반영)
+npm run test:phase8      # Phase 8+9 적응·신뢰도 단위 테스트(42/42, 9-3c 힌트·9-3f 시나리오·9-4 SM-2 간격)
+npm run test:srs         # SRS 졸업/간격 규칙(21/21, 9-3a·9-3d·9-4 SM-2 정책 반영)
 npm run test:stats       # 통계·주간 리포트 집계(8/8, 9-1a 발음 약점 포함)
-npm run check:schema     # Supabase v7·v8·v10 마이그레이션 컬럼 적용 여부 점검
+npm run check:schema     # Supabase v7·v8·v10·v11 마이그레이션 컬럼 적용 여부 점검
 npm run lint             # ESLint CLI(eslint .) — Next 16 대비, next lint 대체(9-2b)
 node --experimental-strip-types scripts/test-score.ts  # 섀도잉 채점 단위 테스트(6/6)
 ```

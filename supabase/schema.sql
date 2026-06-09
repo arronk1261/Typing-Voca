@@ -68,6 +68,8 @@ create table if not exists public.progress (
   shadow_stars     int,
   pass_count       int  not null default 0,
   pron_pass_count  int  not null default 0,
+  ease_factor      real not null default 2.5,
+  interval_days    int  not null default 0,
   in_review        boolean not null default false,
   last_seen        date,
   next_due         date,
@@ -89,6 +91,11 @@ alter table public.progress
 -- 9-3d: 발음 졸업 트랙(기존 프로젝트 마이그레이션)
 alter table public.progress
   add column if not exists pron_pass_count int not null default 0;
+-- 9-4: SM-2 간격 스케줄 상태(기존 프로젝트 마이그레이션)
+alter table public.progress
+  add column if not exists ease_factor real not null default 2.5;
+alter table public.progress
+  add column if not exists interval_days int not null default 0;
 
 -- =========================================================
 -- 4) 세션 요약 (통계/리포트 원천)
@@ -113,11 +120,29 @@ alter table public.study_sessions
   add column if not exists weak_words text[] not null default '{}';
 
 -- =========================================================
+-- 4b) 리뷰 로그 (9-4: SM-2 운영 분석 · 향후 FSRS 파라미터 학습 원천)
+-- =========================================================
+create table if not exists public.review_logs (
+  id            bigint generated always as identity primary key,
+  user_id       uuid not null references auth.users(id) on delete cascade,
+  word_id       int  not null references public.words(id),
+  reviewed_at   timestamptz not null default now(),
+  grade         smallint not null,
+  elapsed_days  int  not null default 0,
+  ease_factor   real not null,
+  interval_days int  not null,
+  reps          int  not null,
+  shadow_stars  int
+);
+create index if not exists review_logs_user_idx on public.review_logs (user_id, reviewed_at);
+
+-- =========================================================
 -- 5) RLS: 본인 행만 읽기/쓰기
 -- =========================================================
 alter table public.user_state     enable row level security;
 alter table public.progress       enable row level security;
 alter table public.study_sessions enable row level security;
+alter table public.review_logs    enable row level security;
 
 drop policy if exists "own state" on public.user_state;
 create policy "own state" on public.user_state
@@ -129,4 +154,8 @@ create policy "own progress" on public.progress
 
 drop policy if exists "own sessions" on public.study_sessions;
 create policy "own sessions" on public.study_sessions
+  for all using (auth.uid() = user_id) with check (auth.uid() = user_id);
+
+drop policy if exists "own review logs" on public.review_logs;
+create policy "own review logs" on public.review_logs
   for all using (auth.uid() = user_id) with check (auth.uid() = user_id);

@@ -4,6 +4,7 @@ import {
   loadRecentSessions,
   loadUserData,
   saveProgress,
+  saveReviewLogs,
   saveStudySession,
   saveUserState,
 } from "@/lib/sync/userData";
@@ -16,12 +17,13 @@ import {
   type SessionWindowEntry,
 } from "@/lib/sync/recentWindow";
 import { computeStreakOnComplete, todayKey } from "@/lib/streak";
-import { computeProgressUpdate, isReviewTrigger } from "@/lib/srs";
+import { computeProgressUpdate, gradeFor, isReviewTrigger } from "@/lib/srs";
 import { applyCalibration } from "@/lib/words/calibration";
 import type { LevelTestOutcome } from "@/lib/words/levelScore";
 import type {
   Progress,
   QuestionResult,
+  ReviewLog,
   StudySession,
   WordLevel,
 } from "@/types";
@@ -182,18 +184,26 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
     const state = get();
 
     const updatedRows: Progress[] = [];
+    const reviewLogs: ReviewLog[] = [];
     const nextProgress = { ...state.progress };
     for (const result of results) {
       const ownerId = state.userId ?? "guest";
-      const row = computeProgressUpdate(
-        state.progress[result.wordId],
-        result,
-        ownerId,
-        result.wordId,
-        today,
-      );
+      const prev = state.progress[result.wordId];
+      const row = computeProgressUpdate(prev, result, ownerId, result.wordId, today);
       nextProgress[result.wordId] = row;
       updatedRows.push(row);
+      // 9-4: per-review 로그(SM-2 등급·경과일·EF·간격) — 향후 FSRS 학습 원천
+      reviewLogs.push({
+        user_id: ownerId,
+        word_id: result.wordId,
+        grade: gradeFor(result),
+        elapsed_days: prev?.last_seen ? daysBetween(prev.last_seen, today) : 0,
+        ease_factor: row.ease_factor,
+        interval_days: row.interval_days,
+        reps: row.pass_count,
+        shadow_stars: result.shadowStars,
+        reviewed_at: new Date().toISOString(),
+      });
     }
 
     const learnedCount = results.length;
@@ -280,6 +290,7 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
     if (state.configured && state.userId) {
       void saveProgress(updatedRows);
       void saveStudySession(summary);
+      void saveReviewLogs(reviewLogs);
     } else {
       appendLocalSession(summary);
     }
@@ -294,6 +305,12 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
 
   reset: () => set({ ...initialState, hydrated: true }),
 }));
+
+function daysBetween(fromKey: string, toKey: string): number {
+  const from = new Date(`${fromKey}T00:00:00`).getTime();
+  const to = new Date(`${toKey}T00:00:00`).getTime();
+  return Math.max(0, Math.round((to - from) / 86_400_000));
+}
 
 type PersistPatch = {
   level?: WordLevel;

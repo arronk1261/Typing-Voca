@@ -53,6 +53,8 @@ function progress(p: Partial<Progress>): Progress {
     shadow_stars: null,
     pass_count: 0,
     pron_pass_count: 0,
+    ease_factor: 2.5,
+    interval_days: 0,
     in_review: false,
     last_seen: null,
     next_due: null,
@@ -111,25 +113,25 @@ const cases: Case[] = [
     run: () => graduationTarget(3, "idiom") === 4,
   },
   {
-    name: "8-1 pass1 → +1d, pass2 → +3d",
+    name: "9-4 SM-2 pass1 → +1d, pass2 → +6d",
     run: () => {
       const p1 = computeProgressUpdate(progress({ in_review: true, pass_count: 0 }), result({ firstTryCorrect: true, shadowStars: 3, wordLevel: 1 }), "u", 1, TODAY);
       const p2 = computeProgressUpdate(progress({ in_review: true, pass_count: 1 }), result({ firstTryCorrect: true, shadowStars: 3, wordLevel: 1 }), "u", 1, TODAY);
-      return p1.next_due === "2026-06-05" && p2.next_due === "2026-06-07" && p2.in_review === true;
+      return p1.next_due === "2026-06-05" && p2.next_due === "2026-06-10" && p2.in_review === true;
     },
   },
   {
-    name: "8-1 default 3rd pass graduates",
+    name: "9-4 default 3rd pass + 간격≥지평선 → graduates",
     run: () => {
-      const r = computeProgressUpdate(progress({ in_review: true, pass_count: 2 }), result({ firstTryCorrect: true, shadowStars: 3, wordLevel: 2 }), "u", 1, TODAY);
+      const r = computeProgressUpdate(progress({ in_review: true, pass_count: 2, interval_days: 6 }), result({ firstTryCorrect: true, shadowStars: 3, wordLevel: 2 }), "u", 1, TODAY);
       return r.pass_count === 3 && r.in_review === false && r.next_due === null;
     },
   },
   {
-    name: "8-1 Lv.3 idiom 3rd pass NOT graduate (needs 4)",
+    name: "9-4 Lv.3 idiom 3rd pass NOT graduate (needs 4), SM-2 간격 +15d",
     run: () => {
-      const r = computeProgressUpdate(progress({ in_review: true, pass_count: 2 }), result({ firstTryCorrect: true, shadowStars: 3, wordLevel: 3, wordChunkType: "idiom" }), "u", 1, TODAY);
-      return r.pass_count === 3 && r.in_review === true && r.next_due === "2026-06-11";
+      const r = computeProgressUpdate(progress({ in_review: true, pass_count: 2, interval_days: 6 }), result({ firstTryCorrect: true, shadowStars: 3, wordLevel: 3, wordChunkType: "idiom" }), "u", 1, TODAY);
+      return r.pass_count === 3 && r.in_review === true && r.next_due === "2026-06-19";
     },
   },
 

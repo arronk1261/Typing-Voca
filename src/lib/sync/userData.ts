@@ -6,7 +6,13 @@ import {
   setQueue,
   type QueuedWrite,
 } from "@/lib/sync/offlineQueue";
-import type { Progress, StudySession, UserState, WordLevel } from "@/types";
+import type {
+  Progress,
+  ReviewLog,
+  StudySession,
+  UserState,
+  WordLevel,
+} from "@/types";
 
 export interface LoadedUserData {
   userState: UserState | null;
@@ -110,7 +116,7 @@ async function applyWrite(
         .from("progress")
         .upsert(item.payload, { onConflict: "user_id,word_id" });
       if (!error) return true;
-      // v8/v10 마이그레이션 전이면 해당 컬럼이 없으므로 제거 후 재저장(무중단)
+      // v8/v10/v11 마이그레이션 전이면 해당 컬럼이 없으므로 제거 후 재저장(무중단)
       if (isMissingColumn(error)) {
         const stripped = item.payload.map((row) =>
           omitKeys(row as unknown as Record<string, unknown>, [
@@ -118,6 +124,8 @@ async function applyWrite(
             "spelling_score",
             "pronunciation_score",
             "pron_pass_count",
+            "ease_factor",
+            "interval_days",
           ]),
         );
         const retry = await supabase
@@ -125,6 +133,14 @@ async function applyWrite(
           .upsert(stripped, { onConflict: "user_id,word_id" });
         return !retry.error;
       }
+      return false;
+    }
+    if (item.table === "review_logs") {
+      if (item.payload.length === 0) return true;
+      const { error } = await supabase.from("review_logs").insert(item.payload);
+      if (!error) return true;
+      // v11 전이면 테이블이 없을 수 있음 — 로그는 비핵심 분석용이라 폐기(큐 무한 적체 방지)
+      if (isMissingColumn(error)) return true;
       return false;
     }
     const { error } = await supabase.from("study_sessions").insert(item.payload);
@@ -220,6 +236,13 @@ export async function saveProgress(rows: Progress[]): Promise<void> {
 
 export async function saveStudySession(session: StudySession): Promise<void> {
   enqueueWrite({ table: "study_sessions", payload: session });
+  await syncNow();
+}
+
+// 9-4: 리뷰 로그 배치 적재(비핵심 분석용) — 실패해도 학습 흐름을 막지 않음
+export async function saveReviewLogs(rows: ReviewLog[]): Promise<void> {
+  if (rows.length === 0) return;
+  enqueueWrite({ table: "review_logs", payload: rows });
   await syncNow();
 }
 
