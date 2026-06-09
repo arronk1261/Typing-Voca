@@ -40,7 +40,11 @@ interface SessionState {
   markCommitted: () => void;
   loseHeart: () => void;
   registerAttempt: () => void;
-  completeTyping: (firstTryCorrect: boolean, heartsDepleted: boolean) => void;
+  completeTyping: (
+    firstTryCorrect: boolean,
+    heartsDepleted: boolean,
+    meta?: { hintsUsed?: number; responseMs?: number; answerRevealed?: boolean },
+  ) => void;
   completeShadowing: (
     stars: number | null,
     score: number | null,
@@ -81,7 +85,7 @@ export const useSessionStore = create<SessionState>((set, get) => ({
 
   registerAttempt: () => set((s) => ({ attempts: s.attempts + 1 })),
 
-  completeTyping: (firstTryCorrect, heartsDepleted) => {
+  completeTyping: (firstTryCorrect, heartsDepleted, meta) => {
     const { words, currentIndex, attempts, results } = get();
     const word = words[currentIndex];
     if (!word) return;
@@ -95,6 +99,9 @@ export const useSessionStore = create<SessionState>((set, get) => ({
       shadowSkipped: false,
       wordLevel: word.level,
       wordChunkType: word.chunk_type,
+      hintsUsed: meta?.hintsUsed,
+      responseMs: meta?.responseMs,
+      answerRevealed: meta?.answerRevealed,
     };
     set({ results: [...results, result], stage: "shadowing" });
   },

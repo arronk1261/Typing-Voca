@@ -38,14 +38,39 @@ export function QuestionView({ word, mode }: QuestionViewProps) {
   const [hint, setHint] = useState<StagedHint | null>(null);
   const [encourage, setEncourage] = useState<string | null>(null);
   const [flash, setFlash] = useState(false);
+  const [recovering, setRecovering] = useState(false);
   const attemptsRef = useRef(0);
+  const hintsUsedRef = useRef(0);
+  const startedAtRef = useRef(Date.now());
 
   const { before, after } = splitSentence(word.sentence_en);
   const locked = judge === "correct";
 
+  const finishWithReveal = () =>
+    completeTyping(false, true, {
+      hintsUsed: hintsUsedRef.current,
+      responseMs: Date.now() - startedAtRef.current,
+      answerRevealed: true,
+    });
+
   const handleSubmit = () => {
     if (locked || stage !== "typing") return;
     if (value.trim().length === 0) return;
+
+    // 9-3e: 하트 소진 후 정답을 보고 한 번 따라 입력하는 복구 루프(하트 차감·오답 판정 없음)
+    if (recovering) {
+      if (!isAnswerCorrect(value, word.answer, word.accepted_answers)) {
+        setShake(true);
+        window.setTimeout(() => setShake(false), 420);
+        return;
+      }
+      setJudge("correct");
+      setFlash(true);
+      haptics(20);
+      window.setTimeout(() => setFlash(false), 320);
+      window.setTimeout(finishWithReveal, 520);
+      return;
+    }
 
     const correct = isAnswerCorrect(value, word.answer, word.accepted_answers);
     const isFirstTry = attemptsRef.current === 0;
@@ -57,8 +82,12 @@ export function QuestionView({ word, mode }: QuestionViewProps) {
       setFlash(true);
       haptics(20);
       void burstConfetti();
+      const meta = {
+        hintsUsed: hintsUsedRef.current,
+        responseMs: Date.now() - startedAtRef.current,
+      };
       window.setTimeout(() => setFlash(false), 320);
-      window.setTimeout(() => completeTyping(isFirstTry, false), 520);
+      window.setTimeout(() => completeTyping(isFirstTry, false, meta), 520);
       return;
     }
 
@@ -71,11 +100,17 @@ export function QuestionView({ word, mode }: QuestionViewProps) {
     loseHeart();
 
     if (remaining <= 0) {
-      setEncourage("이 단어는 복습 노트에 담아둘게요 📒");
-      window.setTimeout(() => completeTyping(false, true), 700);
+      setHint(null);
+      setEncourage("정답을 확인하고 한 번 그대로 따라 입력해 볼까요? ✍️");
+      window.setTimeout(() => {
+        setRecovering(true);
+        setValue("");
+        setJudge("typing");
+      }, 500);
       return;
     }
 
+    hintsUsedRef.current += 1;
     setHint(stagedHint(word.answer, attemptsRef.current));
     setEncourage("거의 다 왔어요! 한 번 더 볼까요?");
     window.setTimeout(() => {
@@ -128,6 +163,19 @@ export function QuestionView({ word, mode }: QuestionViewProps) {
             </span>
           </div>
 
+          {recovering && (
+            <motion.p
+              initial={{ opacity: 0, y: 6 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="text-center text-sm text-ink-soft"
+            >
+              정답{" "}
+              <b className="font-mono text-base text-brand-strong dark:text-white">
+                {word.answer}
+              </b>
+            </motion.p>
+          )}
+
           <div className="min-h-[1.5rem] text-center" aria-live="polite">
             <AnimatePresence mode="wait">
               {judge === "correct" ? (
@@ -160,9 +208,26 @@ export function QuestionView({ word, mode }: QuestionViewProps) {
       </div>
 
       <BottomActionBar>
-        <Button onClick={handleSubmit} disabled={locked || value.trim().length === 0}>
-          확인하기
-        </Button>
+        {recovering ? (
+          <div className="flex flex-col gap-2">
+            <Button
+              onClick={handleSubmit}
+              disabled={locked || value.trim().length === 0}
+            >
+              따라 입력 완료
+            </Button>
+            <Button variant="ghost" onClick={finishWithReveal} disabled={locked}>
+              건너뛰기
+            </Button>
+          </div>
+        ) : (
+          <Button
+            onClick={handleSubmit}
+            disabled={locked || value.trim().length === 0}
+          >
+            확인하기
+          </Button>
+        )}
       </BottomActionBar>
     </div>
   );

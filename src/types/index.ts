@@ -48,6 +48,10 @@ export interface QuestionResult {
   shadowMode?: ShadowMode;
   // 9-C3: 발화에서 약했던 단어(발음 포커스용, 세션 내 메모리에서만 사용)
   weakWords?: string[];
+  // 9-3c: 일반 학습 품질 신호 — 힌트 사용량·응답시간(뜻 회상 점수 정밀화)
+  hintsUsed?: number;
+  responseMs?: number;
+  answerRevealed?: boolean;
 }
 
 export interface UserState {
@@ -70,7 +74,9 @@ export interface Progress {
   seen_count: number;
   first_try_correct: boolean | null;
   shadow_stars: number | null;
+  // 9-3d: pass_count는 '타이핑(뜻·철자) 졸업 트랙', pron_pass_count는 '발음 졸업 트랙'(별도 누적)
   pass_count: number;
+  pron_pass_count: number;
   in_review: boolean;
   last_seen: string | null;
   next_due: string | null;

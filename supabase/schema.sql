@@ -67,6 +67,7 @@ create table if not exists public.progress (
   first_try_correct boolean,
   shadow_stars     int,
   pass_count       int  not null default 0,
+  pron_pass_count  int  not null default 0,
   in_review        boolean not null default false,
   last_seen        date,
   next_due         date,
@@ -85,6 +86,9 @@ alter table public.progress
   add column if not exists spelling_score int;
 alter table public.progress
   add column if not exists pronunciation_score int;
+-- 9-3d: 발음 졸업 트랙(기존 프로젝트 마이그레이션)
+alter table public.progress
+  add column if not exists pron_pass_count int not null default 0;
 
 -- =========================================================
 -- 4) 세션 요약 (통계/리포트 원천)

@@ -100,6 +100,30 @@ export function orderByCategoryFlow(words: Word[]): Word[] {
   });
 }
 
+// 9-3f: 카테고리 세션을 하나의 상황 흐름으로 묶기 — flow 정렬된 풀에서
+// 학습 가치(미학습+복습 대상)가 가장 높은 '연속 구간'을 골라 미니 시나리오 세트를 만든다.
+// (예: 여행 = 공항 → 이동 → 길찾기 → 숙소 처럼 인접한 use_case가 한 세트를 이룸)
+export function pickScenarioWindow(
+  flowOrdered: Word[],
+  isLearnable: (w: Word) => boolean,
+  count: number,
+): Word[] {
+  if (flowOrdered.length <= count) return flowOrdered;
+  let bestStart = 0;
+  let bestScore = -1;
+  for (let start = 0; start + count <= flowOrdered.length; start += 1) {
+    let score = 0;
+    for (let i = start; i < start + count; i += 1) {
+      if (isLearnable(flowOrdered[i])) score += 1;
+    }
+    if (score > bestScore) {
+      bestScore = score;
+      bestStart = start;
+    }
+  }
+  return flowOrdered.slice(bestStart, bestStart + count);
+}
+
 // 9-C2: 커리큘럼 레이어 — 별도 재태깅 없이 기존 태그(레벨·빈도·청크·use_case)에서 파생
 export type CurriculumLayer = "survival" | "daily" | "work" | "advanced";
 

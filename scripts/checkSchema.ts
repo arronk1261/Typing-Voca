@@ -23,6 +23,11 @@ const CHECKS: { table: string; columns: string[]; migration: string }[] = [
     columns: ["meaning_recall_score", "spelling_score", "pronunciation_score"],
     migration: "v8_progress_components.sql",
   },
+  {
+    table: "progress",
+    columns: ["pron_pass_count"],
+    migration: "v10_progress_pron_pass.sql",
+  },
 ];
 
 async function main() {

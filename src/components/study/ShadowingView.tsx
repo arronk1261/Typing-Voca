@@ -27,9 +27,11 @@ import { scoreShadowing, type ShadowResult } from "@/lib/shadowing/score";
 import { useSessionStore } from "@/stores/sessionStore";
 import type { Word } from "@/types";
 
-type Phase = "intro" | "recording" | "scored" | "retry";
+type Phase = "intro" | "recording" | "scored" | "retry" | "fatigue";
 
 const AUTO_ADVANCE_MS = 3000;
+// 9-3b: 음성 인식이 연속 실패하면 발음 약점이 아니라 '인식 환경 이슈'로 보고 중립 처리
+const MAX_MISSES = 2;
 
 const STAR_LABEL: Record<number, string> = {
   3: "Perfect Echo!",
@@ -53,6 +55,7 @@ export function ShadowingView({ word, mode, onNext }: ShadowingViewProps) {
   const sttRef = useRef<STTHandle | null>(null);
   const advanceTimer = useRef<number | null>(null);
   const recordedRef = useRef(false);
+  const missesRef = useRef(0);
 
   const finish = useCallback(
     (
@@ -126,6 +129,14 @@ export function ShadowingView({ word, mode, onNext }: ShadowingViewProps) {
 
   const applyResult = (scored: ShadowResult) => {
     if (scored.status === "retry") {
+      missesRef.current += 1;
+      // 9-3b: 2회 연속 미인식이면 중립으로 넘겨 피로를 덜고 발음 점수에 불이익을 주지 않음
+      if (missesRef.current >= MAX_MISSES) {
+        finish(null, null, true);
+        setPhase("fatigue");
+        advanceTimer.current = window.setTimeout(goNext, AUTO_ADVANCE_MS);
+        return;
+      }
       setPhase("retry");
       return;
     }
@@ -197,6 +208,16 @@ export function ShadowingView({ word, mode, onNext }: ShadowingViewProps) {
                   🎤 잘 안 들렸어요. 한 번 더 해볼까요?
                 </motion.p>
               )}
+              {phase === "fatigue" && (
+                <motion.p
+                  key="fatigue"
+                  initial={{ opacity: 0, y: 6 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="text-base font-semibold text-brand"
+                >
+                  🙂 인식이 잘 안 되는 환경 같아요. 오늘은 듣고 넘어가도 좋아요.
+                </motion.p>
+              )}
               {phase === "recording" && (
                 <motion.p
                   key="rec"
@@ -214,14 +235,14 @@ export function ShadowingView({ word, mode, onNext }: ShadowingViewProps) {
 
       <BottomActionBar>
         <div className="flex flex-col gap-2">
-          {mode === "full" && phase !== "scored" && (
+          {mode === "full" && phase !== "scored" && phase !== "fatigue" && (
             <Button onClick={startRecording} disabled={phase === "recording"}>
               <Mic size={18} aria-hidden />
               {phase === "retry" ? "다시 따라 말하기" : "따라 말하기"}
             </Button>
           )}
 
-          {mode === "listening" && phase !== "scored" && (
+          {mode === "listening" && phase !== "scored" && phase !== "fatigue" && (
             <div className="flex gap-2">
               <Button variant="secondary" onClick={() => selfCheck(false)}>
                 <RotateCcw size={18} aria-hidden /> 다시
@@ -232,7 +253,7 @@ export function ShadowingView({ word, mode, onNext }: ShadowingViewProps) {
             </div>
           )}
 
-          {phase === "scored" ? (
+          {phase === "scored" || phase === "fatigue" ? (
             <Button onClick={goNext}>
               <SkipForward size={18} aria-hidden /> 다음 문제
             </Button>

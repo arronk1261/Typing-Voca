@@ -1,6 +1,6 @@
 import rawWords from "@/data/words.json";
 import { getSupabase } from "@/lib/supabase/client";
-import { isDue } from "@/lib/srs";
+import { crossLevelDueIds, isDue, needsPronCheck } from "@/lib/srs";
 import { todayKey } from "@/lib/streak";
 import {
   adaptiveReviewRatio,
@@ -8,6 +8,7 @@ import {
   orderByCategoryFlow,
   orderByCurriculum,
   pickMaintenanceWords,
+  pickScenarioWindow,
 } from "@/lib/words/adaptive";
 import { isWord, type Progress, type Word, type WordLevel } from "@/types";
 
@@ -168,6 +169,8 @@ export interface BuildSessionInput {
   count?: number;
   streakBroken?: boolean;
   today?: string;
+  // 9-3d: full/listening 등 발음 가능 환경이면 '말하기 확인'(타이핑 졸업·발음 미완) 단어를 저빈도 혼입
+  pronCapable?: boolean;
 }
 
 // 출제 로직 (plan 5.4 + 8-3/8-6): 적응형 신규/복습 비율 + 졸업 단어 유지 점검 소량 혼입
@@ -178,6 +181,7 @@ export async function buildSession({
   count = 10,
   streakBroken = false,
   today = todayKey(),
+  pronCapable = false,
 }: BuildSessionInput): Promise<Word[]> {
   const hasCategories = !!categories && categories.length > 0;
   let pool = await loadLevelPool(level);
@@ -189,6 +193,14 @@ export async function buildSession({
       const more = (await loadLevelPool(adj)).filter(inCategories);
       pool = dedupeById([...pool, ...more]);
     }
+    // 9-3f: 카테고리 세션은 SRS 비율보다 '상황 흐름'을 우선 — 미학습/복습이 몰린
+    // 연속 use_case 구간을 골라 하나의 미니 시나리오 세트로 구성한다.
+    const flow = orderByCategoryFlow(pool);
+    const isLearnable = (w: Word) => {
+      const p = progress[w.id];
+      return !p || isDue(p, today);
+    };
+    return pickScenarioWindow(flow, isLearnable, count);
   }
 
   const seenCount = Object.keys(progress).length;
@@ -208,13 +220,26 @@ export async function buildSession({
   const unseen = hasCategories
     ? unseenAll
     : limitLowFrequency(unseenAll, LOW_FREQ_CAP);
-  const dueReview = pool
-    .filter((w) => progress[w.id] && isDue(progress[w.id], today))
-    .sort((a, b) => {
-      const da = progress[a.id].next_due ?? "";
-      const db = progress[b.id].next_due ?? "";
-      return da.localeCompare(db);
-    });
+  // 9-3a: 기본(전체) 세션에는 현재 레벨 풀 밖의 due 복습(이전 레벨에서 올라온 것)도 합류시킨다.
+  // 카테고리 세션은 시나리오 일관성을 위해 현재 범위 안의 복습만 유지한다.
+  let crossLevelDue: Word[] = [];
+  if (!hasCategories) {
+    const poolIds = new Set(pool.map((w) => w.id));
+    const ids = crossLevelDueIds(progress, poolIds, today);
+    if (ids.length > 0) {
+      const wanted = new Set(ids);
+      const allPools = await Promise.all(LEVELS.map((l) => loadLevelPool(l)));
+      crossLevelDue = dedupeById(allPools.flat()).filter((w) => wanted.has(w.id));
+    }
+  }
+  const dueReview = [
+    ...pool.filter((w) => progress[w.id] && isDue(progress[w.id], today)),
+    ...crossLevelDue,
+  ].sort((a, b) => {
+    const da = progress[a.id].next_due ?? "";
+    const db = progress[b.id].next_due ?? "";
+    return da.localeCompare(db);
+  });
   const seenNotDue = shuffle(
     pool.filter((w) => progress[w.id] && !isDue(progress[w.id], today)),
   ).sort((a, b) => {
@@ -224,6 +249,10 @@ export async function buildSession({
   });
 
   const maintenance = pickMaintenanceWords(pool, progress, today, 1);
+  // 9-3d: 발음 가능 환경에서만, 타이핑 졸업·발음 미완 단어를 한 세션에 최대 1개 저빈도로 재등장
+  const pronCheck = pronCapable
+    ? shuffle(pool.filter((w) => progress[w.id] && needsPronCheck(progress[w.id])))
+    : [];
   const reviewTarget = Math.round(count * reviewRatio);
   const chosen: Word[] = [];
   const take = (list: Word[], n: number) => {
@@ -238,10 +267,11 @@ export async function buildSession({
 
   take(maintenance, 1);
   take(dueReview, reviewTarget);
+  take(pronCheck, 1);
   take(unseen, count - chosen.length);
   take(seenNotDue, count - chosen.length);
   take(dueReview, count - chosen.length);
 
-  const result = chosen.slice(0, count);
-  return hasCategories ? orderByCategoryFlow(result) : shuffle(result);
+  // 카테고리 세션은 위에서 시나리오 윈도우로 조기 반환됨 — 여기는 기본(전체) 세션
+  return shuffle(chosen.slice(0, count));
 }
