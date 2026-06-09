@@ -28,6 +28,16 @@ const CHECKS: { table: string; columns: string[]; migration: string }[] = [
     columns: ["pron_pass_count"],
     migration: "v10_progress_pron_pass.sql",
   },
+  {
+    table: "progress",
+    columns: ["ease_factor", "interval_days"],
+    migration: "v11_sm2_scheduler.sql",
+  },
+  {
+    table: "review_logs",
+    columns: ["grade", "ease_factor", "interval_days", "reps"],
+    migration: "v11_sm2_scheduler.sql",
+  },
 ];
 
 async function main() {

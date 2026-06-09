@@ -491,6 +491,12 @@ create policy "own sessions" on public.study_sessions
   * **9-3d 타이핑 졸업 / 발음 졸업 분리:** ✅ — 두 트랙 SRS. `pass_count`=타이핑 졸업 트랙(첫 시도 정답 +1), `pron_pass_count`(신규, **v10**)=발음 졸업 트랙(⭐2+ +1, `PRON_TARGET=2`). 타이핑 졸업이 능동 복습을 끝내고, 발음 미완은 `needsPronCheck`로 full/listening 세션에 세션당 1개 저빈도 재등장(`buildSession.pronCapable`). typingOnly 환경 타이핑 졸업 허용 + 추후 발음 환경 재확인. 미적용 시 무중단 폴백.
   * **9-3f 카테고리 미니 시나리오 세트화:** ✅ — 카테고리 세션을 `pickScenarioWindow`로 use_case 흐름의 '학습 가치 높은 연속 구간'을 골라 하나의 상황 흐름(공항→이동→길찾기→숙소)으로 구성. SRS 비율보다 시나리오 우선. 기존 use_case 태그(2,520단어 100%) 재사용 — DB·시드 변경 없음.
   * **검증:** `test:srs` **17/17**·`test:phase8` **42/42**·`test:stats` 8/8·`build`·`lint` 0. **9-3d만 v10 마이그레이션**(`pron_pass_count`), 나머지 불필요. 3차 리뷰 6건(9-3a~f) 전부 반영.
+* **Phase 9-4 — SM-2 간격 알고리즘 + 리뷰 로그(완료)**
+  * **9-4a SM-2 스케줄러:** ✅ — 고정 간격 [1,3,7,14]를 SM-2로 교체(타이핑 트랙). `gradeFor`(신호→q 2/3/4/5) + `sm2Update`(간격 1→6→round(prev×EF), EF 보정·min 1.3). `computeProgressUpdate`가 `pass_count`(=n)·`ease_factor`·`interval_days` 갱신.
+  * **9-4b 졸업 지평선:** ✅ — 졸업 = 통과수 ≥ target AND `interval ≥ GRAD_HORIZON_DAYS`(14). 약한 카드(EF↓)는 더 오래 복습 후 졸업. `isGraduated`·통계 호환.
+  * **9-4c 리뷰 로그:** ✅ — `review_logs`(v11, RLS) + `commitSession` 배치 insert(grade·elapsed·EF·interval·reps·stars). 비핵심이라 실패 시 폐기. FSRS 학습 원천.
+  * **검증:** `test:srs` **21/21**·`test:phase8` 42/42·`test:stats` 8/8·`build`·`lint` 0. **v11 마이그레이션**(progress ease_factor·interval_days + review_logs), 미적용 시 무중단 폴백.
+  * **향후:** review_logs 축적 후 FSRS(안정성·난이도 모델, 목표 유지율) 전환·파라미터 최적화 검토. 상세는 `docs/learning-system-guide.md`.
 
 ---
 

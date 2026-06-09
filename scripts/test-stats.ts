@@ -34,6 +34,8 @@ function progress(p: Partial<Progress>): Progress {
     shadow_stars: 2,
     pass_count: 0,
     pron_pass_count: 0,
+    ease_factor: 2.5,
+    interval_days: 0,
     in_review: false,
     last_seen: TODAY,
     next_due: null,

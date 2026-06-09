@@ -1,11 +1,12 @@
-import type { Progress, StudySession, UserState } from "@/types";
+import type { Progress, ReviewLog, StudySession, UserState } from "@/types";
 
 const QUEUE_KEY = "tv:sync:queue";
 
 export type QueuedWrite =
   | { table: "user_state"; payload: Partial<UserState> & { user_id: string } }
   | { table: "progress"; payload: Progress[] }
-  | { table: "study_sessions"; payload: StudySession };
+  | { table: "study_sessions"; payload: StudySession }
+  | { table: "review_logs"; payload: ReviewLog[] };
 
 function read(): QueuedWrite[] {
   if (typeof window === "undefined") return [];
