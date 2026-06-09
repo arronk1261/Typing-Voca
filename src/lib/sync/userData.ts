@@ -7,9 +7,11 @@ import {
   type QueuedWrite,
 } from "@/lib/sync/offlineQueue";
 import type {
+  DailyRing,
   Progress,
   ReviewLog,
   StudySession,
+  UserAchievement,
   UserState,
   WordLevel,
 } from "@/types";
@@ -102,6 +104,9 @@ async function applyWrite(
           "level_provisional",
           "calibration_questions",
           "calibration_correct",
+          "streak_freezes",
+          "xp",
+          "best_streak",
         ]);
         const retry = await supabase
           .from("user_state")
@@ -140,6 +145,27 @@ async function applyWrite(
       const { error } = await supabase.from("review_logs").insert(item.payload);
       if (!error) return true;
       // v11 전이면 테이블이 없을 수 있음 — 로그는 비핵심 분석용이라 폐기(큐 무한 적체 방지)
+      if (isMissingColumn(error)) return true;
+      return false;
+    }
+    if (item.table === "user_achievements") {
+      if (item.payload.length === 0) return true;
+      const { error } = await supabase
+        .from("user_achievements")
+        .upsert(item.payload, {
+          onConflict: "user_id,achievement_key",
+          ignoreDuplicates: true,
+        });
+      if (!error) return true;
+      // v12 전이면 테이블이 없음 — 배지는 best-effort라 폐기(학습 무중단)
+      if (isMissingColumn(error)) return true;
+      return false;
+    }
+    if (item.table === "daily_rings") {
+      const { error } = await supabase
+        .from("daily_rings")
+        .upsert(item.payload, { onConflict: "user_id,date" });
+      if (!error) return true;
       if (isMissingColumn(error)) return true;
       return false;
     }
@@ -243,6 +269,33 @@ export async function saveStudySession(session: StudySession): Promise<void> {
 export async function saveReviewLogs(rows: ReviewLog[]): Promise<void> {
   if (rows.length === 0) return;
   enqueueWrite({ table: "review_logs", payload: rows });
+  await syncNow();
+}
+
+// 10-3: 획득한 배지 로드(v12 전이면 빈 배열 — 무중단)
+export async function loadAchievements(userId: string): Promise<string[]> {
+  const supabase = getSupabase();
+  if (!supabase) return [];
+  try {
+    const { data, error } = await supabase
+      .from("user_achievements")
+      .select("achievement_key")
+      .eq("user_id", userId);
+    if (error || !Array.isArray(data)) return [];
+    return (data as { achievement_key: string }[]).map((r) => r.achievement_key);
+  } catch {
+    return [];
+  }
+}
+
+export async function saveAchievements(rows: UserAchievement[]): Promise<void> {
+  if (rows.length === 0) return;
+  enqueueWrite({ table: "user_achievements", payload: rows });
+  await syncNow();
+}
+
+export async function saveDailyRing(row: DailyRing): Promise<void> {
+  enqueueWrite({ table: "daily_rings", payload: row });
   await syncNow();
 }
 

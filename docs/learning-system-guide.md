@@ -403,4 +403,32 @@ needsPronCheck(p) = !in_review && pass_count ≥ 3 && pron_pass_count < 2
 
 ---
 
-*이 문서는 Phase 9-4(SM-2 간격) 기준입니다. 정책 변경 시 본 문서 + `lib/srs.ts` + `scripts/test-srs.ts`/`test-phase8.ts`를 함께 업데이트하세요.*
+## 12. 동기부여 시스템 (Phase 10 — 애플 활동 스타일)
+
+학습 품질과 별개로 **돌아오게 만드는 층**. 애플 활동 앱의 4원리(닫을 고리·과거의 나와 경쟁·즉각 축하·수집욕)를 학습 루프에 얹는다. **기존 학습 데이터를 읽어 판정만** 하며 새 점수 로직은 없다. (`lib/achievements/*`)
+
+### 12.1 학습 링 (`rings.ts` · `LearningRings.tsx`)
+- 🟣 학습 / 🟠 복습 / ⭐ 발음 3링. 오늘의 달성치(`dailyRing.ts`, 로컬 일일 누적)를 목표로 나눠 채운다.
+- 목표 자동 개인화: `learnGoal = clamp(median(최근 세션 단어수) × 1.05, 10, 40)`, `pronGoal = clamp(learn/2, 5, 20)`, 복습 목표 = 오늘 due/lapsed 수(`clamp 0..10`). 목표 0이면 닫힘 처리.
+- 3링 닫힘 → confetti(하루 1회). `prefers-reduced-motion` 존중.
+
+### 12.2 배지 (`catalog.ts` · `engine.ts`)
+- 배지 26종, 5묶음: **연속**(3·7·14·30·60·100·365·주말전사·불사조) / **누적**(학습 50~1000·졸업 10~100·카테고리 마스터) / **기량**(퍼펙트 세트·골든 보이스·스피드러너·오답 정복) / **시즌**(이달의 챌린지, 키가 월별 분기 `monthly_days_YYYY-MM`) / **탐험**(카테고리 5종·올빼미·아침형).
+- 각 배지는 `progress(ctx) → {current, target}` 하나로 정의 → `current ≥ target`이면 획득. 같은 함수로 컬렉션 진행바도 그린다.
+- `evaluate(ctx)`는 세션 종료 시 **새로 딴 배지만** 반환 → 획득 모먼트(`AchievementSheet`)로 톡 등장.
+
+### 12.3 경험치·개인 기록·동결권
+- **XP**: `learnedCount×10 + firstTryCorrect×5 + 별점×2 + 새 배지×50`. 누적은 `user_state.xp`.
+- **개인 기록**: 최장 연속(`best_streak`)·역대 최고 정확도·최고 평균 별점 경신 시 토스트(과거의 나와 비교 → 항상 긍정).
+- **스트릭 동결권**(`applyStreak`): 연속이 7의 배수에 도달할 때 +1(최대 3). 하루(정확히 1일)만 빠졌고 동결권이 있으면 연속 보존 → 이탈 차단. 끊겨도 벌점 없음.
+
+### 12.4 위클리 챌린지 (`weeklyChallenge`)
+- 주(월요일 시작) 누적 50단어 목표. 주간 리포트(`/report`)에 진행바, 달성 시 시즌 배지.
+
+### 12.5 데이터·무중단
+- v12: `achievements`(공개 읽기)·`user_achievements`(본인 RLS)·`daily_rings`(본인 RLS) + `user_state`(`streak_freezes`·`xp`·`best_streak`).
+- 전부 **best-effort**: 테이블/컬럼 부재 또는 저장 실패 시 떼고 재시도하거나 폐기 — 학습 루프는 절대 막지 않는다. 판정은 세션 종료에 1회 배치(키 입력마다 X).
+
+---
+
+*이 문서는 Phase 10(동기부여 시스템) 기준입니다. SRS 정책은 Phase 9-4(SM-2). 정책 변경 시 본 문서 + 해당 `lib/*` + `scripts/test-*.ts`를 함께 업데이트하세요.*

@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint .",
     "seed": "node --env-file=.env.local --experimental-strip-types scripts/seed.ts",
+    "seed:achievements": "node --env-file=.env.local --experimental-strip-types scripts/seedAchievements.ts",
     "validate:words": "node --experimental-strip-types scripts/validateWords.ts",
     "assemble:words": "node --experimental-strip-types scripts/assembleWords.ts",
     "dedup:report": "node --experimental-strip-types scripts/dedupReport.ts",
@@ -17,7 +18,9 @@
     "test:phase7": "node --experimental-strip-types scripts/test-phase7.ts",
     "test:srs": "node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-srs.ts",
     "test:phase8": "node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-phase8.ts",
-    "check:schema": "node --env-file=.env.local --experimental-strip-types scripts/checkSchema.ts"
+    "test:achievements": "node --experimental-strip-types --import ./scripts/test-bootstrap.mjs scripts/test-achievements.ts",
+    "check:schema": "node --env-file=.env.local --experimental-strip-types scripts/checkSchema.ts",
+    "reset:user": "node --env-file=.env.local --experimental-strip-types scripts/resetUser.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.47.10",

@@ -1,8 +1,8 @@
 "use client";
 
-import { Flame, Mic, Star, TrendingDown, TrendingUp } from "lucide-react";
+import { Flame, Mic, Star, Target, TrendingDown, TrendingUp } from "lucide-react";
 import { Card } from "@/components/ui/Card";
-import type { WeeklyReport } from "@/lib/stats/aggregate";
+import type { WeeklyChallenge, WeeklyReport } from "@/lib/stats/aggregate";
 import { PHONEME_LABEL } from "@/lib/shadowing/pronunciation";
 
 function DeltaTag({ delta, unit }: { delta: number; unit: string }) {
@@ -25,9 +25,11 @@ function DeltaTag({ delta, unit }: { delta: number; unit: string }) {
 export function WeeklyReportCard({
   report,
   streak,
+  challenge,
 }: {
   report: WeeklyReport;
   streak: number;
+  challenge?: WeeklyChallenge;
 }) {
   if (!report.hasData) {
     return (
@@ -42,6 +44,42 @@ export function WeeklyReportCard({
 
   return (
     <div className="flex flex-col gap-3">
+      {challenge && (
+        <Card className="flex flex-col gap-2">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <Target size={16} className="text-brand" aria-hidden />
+              <p className="text-sm font-semibold text-ink">이번 주 미션</p>
+            </div>
+            <span
+              className={`text-xs font-medium ${challenge.done ? "text-success" : "text-ink-soft"}`}
+            >
+              {challenge.done ? "🎉 달성!" : `${challenge.current}/${challenge.goalWords} 단어`}
+            </span>
+          </div>
+          <div
+            className="h-2 w-full overflow-hidden rounded-full bg-line"
+            role="progressbar"
+            aria-valuenow={Math.min(challenge.current, challenge.goalWords)}
+            aria-valuemin={0}
+            aria-valuemax={challenge.goalWords}
+            aria-label="이번 주 미션 진행도"
+          >
+            <div
+              className={`h-full rounded-full ${challenge.done ? "bg-success" : "bg-brand"}`}
+              style={{
+                width: `${Math.min(100, Math.round((challenge.current / challenge.goalWords) * 100))}%`,
+              }}
+            />
+          </div>
+          {!challenge.done && (
+            <p className="text-xs text-ink-soft">
+              {challenge.goalWords - challenge.current}단어만 더 하면 시즌 배지를 받아요!
+            </p>
+          )}
+        </Card>
+      )}
+
       <Card className="flex flex-col items-center gap-1 text-center">
         <p className="text-sm font-medium text-ink-soft">이번 주 학습</p>
         <p className="text-3xl font-bold text-brand">

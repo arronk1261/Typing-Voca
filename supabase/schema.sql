@@ -56,6 +56,13 @@ alter table public.user_state
   add column if not exists calibration_questions int not null default 0;
 alter table public.user_state
   add column if not exists calibration_correct int not null default 0;
+-- 10-1: 동기부여 시스템(스트릭 동결권 / 경험치 / 역대 최장 연속)
+alter table public.user_state
+  add column if not exists streak_freezes int not null default 0;
+alter table public.user_state
+  add column if not exists xp int not null default 0;
+alter table public.user_state
+  add column if not exists best_streak int not null default 0;
 
 -- =========================================================
 -- 3) 문항별 학습 신호 (user_id + word_id 복합키)
@@ -137,12 +144,61 @@ create table if not exists public.review_logs (
 create index if not exists review_logs_user_idx on public.review_logs (user_id, reviewed_at);
 
 -- =========================================================
+-- 4c) 동기부여 시스템 (10-1: 애플 활동 스타일 배지·학습 링)
+-- =========================================================
+create table if not exists public.achievements (
+  key         text primary key,
+  category    text not null,
+  tier        int  not null default 1,
+  title       text not null,
+  description text not null,
+  icon        text not null,
+  season      text,
+  criteria    jsonb not null default '{}'::jsonb
+);
+create table if not exists public.user_achievements (
+  user_id          uuid not null references auth.users(id) on delete cascade,
+  achievement_key  text not null,
+  earned_at        timestamptz not null default now(),
+  progress_snapshot jsonb,
+  primary key (user_id, achievement_key)
+);
+create index if not exists user_achievements_user_idx
+  on public.user_achievements (user_id, earned_at);
+create table if not exists public.daily_rings (
+  user_id     uuid not null references auth.users(id) on delete cascade,
+  date        date not null default current_date,
+  learn_goal  int not null default 10,
+  learn_done  int not null default 0,
+  review_goal int not null default 0,
+  review_done int not null default 0,
+  pron_goal   int not null default 0,
+  pron_done   int not null default 0,
+  primary key (user_id, date)
+);
+
+-- =========================================================
 -- 5) RLS: 본인 행만 읽기/쓰기
 -- =========================================================
 alter table public.user_state     enable row level security;
 alter table public.progress       enable row level security;
 alter table public.study_sessions enable row level security;
 alter table public.review_logs    enable row level security;
+alter table public.achievements      enable row level security;
+alter table public.user_achievements enable row level security;
+alter table public.daily_rings       enable row level security;
+
+drop policy if exists "public read achievements" on public.achievements;
+create policy "public read achievements" on public.achievements
+  for select using (true);
+
+drop policy if exists "own achievements" on public.user_achievements;
+create policy "own achievements" on public.user_achievements
+  for all using (auth.uid() = user_id) with check (auth.uid() = user_id);
+
+drop policy if exists "own rings" on public.daily_rings;
+create policy "own rings" on public.daily_rings
+  for all using (auth.uid() = user_id) with check (auth.uid() = user_id);
 
 drop policy if exists "own state" on public.user_state;
 create policy "own state" on public.user_state

@@ -170,6 +170,30 @@ export interface WeeklyReport {
   pronunciationFeatures: PhonemeFeature[];
 }
 
+// 10-7: 이번 주 챌린지 — 주(월요일 시작) 누적 학습 단어 목표. 달성 시 시즌 배지 연동.
+export const WEEKLY_GOAL_WORDS = 50;
+
+export interface WeeklyChallenge {
+  goalWords: number;
+  current: number;
+  done: boolean;
+}
+
+export function weeklyChallenge(
+  sessions: StudySession[],
+  today: string = todayKey(),
+): WeeklyChallenge {
+  const from = weekStartKey(today);
+  const current = sessions
+    .filter((s) => s.study_date >= from && s.study_date <= today)
+    .reduce((sum, s) => sum + s.words_count, 0);
+  return {
+    goalWords: WEEKLY_GOAL_WORDS,
+    current,
+    done: current >= WEEKLY_GOAL_WORDS,
+  };
+}
+
 function weekWindow(sessions: StudySession[], from: string, to: string) {
   const inRange = sessions.filter(
     (s) => s.study_date >= from && s.study_date <= to,

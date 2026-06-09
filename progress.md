@@ -239,6 +239,27 @@
 
 ---
 
+## Phase 10 — 동기부여 시스템(애플 활동 스타일) ✅ (완료)
+
+매일 돌아올 이유(학습 링)·모을 이유(배지·XP)·놓치지 않을 안전장치(스트릭 동결권)를 학습 루프 위에 얹음. 긍정 강화·학습 무중단·기존 데이터 판정(새 점수로직 없음) 원칙 준수.
+
+| 단위 | 내용 | 상태 | 검증 |
+|------|------|------|------|
+| 10-1 | 스키마 + 배지 카탈로그 시드 | ✅ | `achievements`(공개 읽기)·`user_achievements`(본인 RLS)·`daily_rings`(본인 RLS) + `user_state` 확장(`streak_freezes`·`xp`·`best_streak`). **v12** 마이그레이션 + `schema.sql` + `types`. 시드 `scripts/seedAchievements.ts`(Service Role 전용). |
+| 10-2 | 판정 엔진 + 단위 테스트 | ✅ | 배지 26종 `catalog.ts`(progress(ctx)→current/target로 획득·진행바 통일) + `engine.ts` evaluate/achievementProgress. 순수·json 비의존. `test:achievements` 40/40. |
+| 10-3 | 세션 종료 연결 + 동기화 | ✅ | `commitSession`이 `buildSnapshot`+`evaluate`로 새 배지만 산출 → 배치 upsert. `offlineQueue`에 user_achievements·daily_rings 추가, 컬럼/테이블 부재 시 폐기(무중단). XP·best_streak 갱신. |
+| 10-4 | 학습 3링 위젯 + 대시보드 | ✅ | `LearningRings.tsx`(SVG 동심원, framer-motion 채움). 목표 자동 개인화(`rings.ts` 중앙값×1.05·바닥10·상한). 3링 닫힘 시 confetti(하루 1회), reduced-motion 분기, 색+수치+✓ 이중 표시. |
+| 10-5 | 배지 획득 모먼트 + 결과창 | ✅ | `AchievementSheet.tsx`(바텀시트, scale+회전 등장·confetti·햅틱·aria-live). 결과창에 +XP·신기록 토스트·동결권 안내 연동. |
+| 10-6 | 배지 컬렉션 화면 | ✅ | `AchievementCollection.tsx`+`/achievements`. 획득=컬러/미획득=실루엣+진행바("앞으로 N"), 5개 묶음, 획득수·XP·동결권 요약. 다크·48px·색+아이콘. |
+| 10-7 | 프리즈 + 개인 기록 + 위클리 챌린지 | ✅ | `applyStreak`(동결권: 7의 배수마다 +1·최대3, 1일 결석 보존). 개인 기록(최장 연속·최고 정확도·최고 별점) 토스트. `weeklyChallenge`(주 50단어) → 주간 리포트 진행바·시즌 배지. |
+| 10-8 | 최종 QA + 개발 노트 | ✅ | 빌드·테스트·lint 0, `check:schema` v12 4개 추가, `docs/phase10-dev-note.md`, 학습 가이드 §동기부여 추가. |
+
+**검증 방법(10)**: `npm run test:achievements`(**40/40** — 엔진 23·링 8·학습일 3·동결권 6) + 기존 `test:srs` 22·`test:phase8` 42·`test:phase7` 27·`test:stats` 8 전부 통과 + `npm run build`(`/achievements` 라우트 생성)·`npm run lint`(경고 0).
+
+> ⚙️ **10 운영 반영**: `supabase/migrations/v12_achievements.sql` 1회 적용(3개 테이블 + user_state 3컬럼 + RLS) → `npm run seed:achievements`로 배지 카탈로그 적재. 미적용 시 배지·링은 best-effort 폴백(학습 무중단). `npm run check:schema`로 점검.
+
+---
+
 ## 실행 방법
 ```bash
 npm install
@@ -254,7 +275,9 @@ npm run test:phase7      # Phase 7 진단·채점 단위 테스트(23/23)
 npm run test:phase8      # Phase 8+9 적응·신뢰도 단위 테스트(42/42, 9-3c 힌트·9-3f 시나리오·9-4 SM-2 간격)
 npm run test:srs         # SRS 졸업/간격 규칙(21/21, 9-3a·9-3d·9-4 SM-2 정책 반영)
 npm run test:stats       # 통계·주간 리포트 집계(8/8, 9-1a 발음 약점 포함)
-npm run check:schema     # Supabase v7·v8·v10·v11 마이그레이션 컬럼 적용 여부 점검
+npm run test:achievements # 동기부여 배지·링·동결권 단위 테스트(40/40, Phase 10)
+npm run seed:achievements # (Supabase 설정 후) 배지 카탈로그 26종 적재 — Service Role 전용
+npm run check:schema     # Supabase v7·v8·v10·v11·v12 마이그레이션 컬럼 적용 여부 점검
 npm run lint             # ESLint CLI(eslint .) — Next 16 대비, next lint 대체(9-2b)
 node --experimental-strip-types scripts/test-score.ts  # 섀도잉 채점 단위 테스트(6/6)
 ```
