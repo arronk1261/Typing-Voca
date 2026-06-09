@@ -14,6 +14,7 @@ import {
   orderByCategoryFlow,
   orderByCurriculum,
   pickMaintenanceWords,
+  pickScenarioWindow,
   suggestLevelFromHistory,
   type RollingWindow,
 } from "../src/lib/words/adaptive.ts";
@@ -51,6 +52,7 @@ function progress(p: Partial<Progress>): Progress {
     first_try_correct: null,
     shadow_stars: null,
     pass_count: 0,
+    pron_pass_count: 0,
     in_review: false,
     last_seen: null,
     next_due: null,
@@ -159,6 +161,31 @@ const cases: Case[] = [
       const r = computeProgressUpdate(undefined, result({ firstTryCorrect: true, attempts: 1, shadowStars: 3, shadowScore: 88 }), "u", 1, TODAY);
       return r.meaning_recall_score === 100 && r.spelling_score === 100 && r.pronunciation_score === 88;
     },
+  },
+  {
+    name: "9-3c hints lower meaning recall (first-try clean stays 100)",
+    run: () => {
+      const clean = result({ firstTryCorrect: true, attempts: 1, hintsUsed: 0 });
+      const oneHint = result({ firstTryCorrect: false, attempts: 2, hintsUsed: 1 });
+      const twoHints = result({ firstTryCorrect: false, attempts: 3, hintsUsed: 2 });
+      return (
+        meaningRecallScore(clean) === 100 &&
+        meaningRecallScore(oneHint) === 80 &&
+        meaningRecallScore(twoHints) === 60
+      );
+    },
+  },
+  {
+    name: "9-3c very slow response shaves meaning recall, fast keeps 100",
+    run: () => {
+      const slow = result({ firstTryCorrect: true, hintsUsed: 0, responseMs: 15000 });
+      const fast = result({ firstTryCorrect: true, hintsUsed: 0, responseMs: 4000 });
+      return meaningRecallScore(slow) === 90 && meaningRecallScore(fast) === 100;
+    },
+  },
+  {
+    name: "9-3c revealed answer marks meaning recall as weak",
+    run: () => meaningRecallScore(result({ answerRevealed: true })) === 30,
   },
   {
     name: "8-2 skipped shadow keeps prior pronunciation score",
@@ -284,6 +311,21 @@ const cases: Case[] = [
       // greeting 카테고리가 먼저, travel 내부에서는 airport(흐름 앞) → directions
       return ordered[0].id === 3 && ordered[1].id === 2 && ordered[2].id === 1;
     },
+  },
+
+  // ---- 9-3f 카테고리 미니 시나리오 세트 ----
+  {
+    name: "9-3f pickScenarioWindow picks contiguous high-learning-value arc",
+    run: () => {
+      const list = [1, 2, 3, 4, 5].map((id) => word({ id }));
+      const learnable = new Set([3, 4, 5]);
+      const picked = pickScenarioWindow(list, (w) => learnable.has(w.id), 3);
+      return picked.length === 3 && picked[0].id === 3 && picked[2].id === 5;
+    },
+  },
+  {
+    name: "9-3f pickScenarioWindow returns whole pool when smaller than count",
+    run: () => pickScenarioWindow([word({ id: 1 }), word({ id: 2 })], () => true, 5).length === 2,
   },
 
   // ---- 9-B3 레벨테스트 다축 점수·피드백 ----

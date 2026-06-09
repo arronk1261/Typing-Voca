@@ -33,6 +33,7 @@ function progress(p: Partial<Progress>): Progress {
     first_try_correct: true,
     shadow_stars: 2,
     pass_count: 0,
+    pron_pass_count: 0,
     in_review: false,
     last_seen: TODAY,
     next_due: null,

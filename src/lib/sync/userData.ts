@@ -110,13 +110,14 @@ async function applyWrite(
         .from("progress")
         .upsert(item.payload, { onConflict: "user_id,word_id" });
       if (!error) return true;
-      // v8 마이그레이션 전이면 3요소 점수 컬럼이 없으므로 제거 후 재저장(무중단)
+      // v8/v10 마이그레이션 전이면 해당 컬럼이 없으므로 제거 후 재저장(무중단)
       if (isMissingColumn(error)) {
         const stripped = item.payload.map((row) =>
           omitKeys(row as unknown as Record<string, unknown>, [
             "meaning_recall_score",
             "spelling_score",
             "pronunciation_score",
+            "pron_pass_count",
           ]),
         );
         const retry = await supabase

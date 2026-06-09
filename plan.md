@@ -483,6 +483,14 @@ create policy "own sessions" on public.study_sessions
   * **9-2b lint를 ESLint CLI로 전환:** ✅ — Next 16에서 제거되는 `next lint`를 **`eslint .`**로 교체, `eslint.config.mjs`에 빌드 산출물 `ignores` 추가. CLI가 `scripts/`까지 검사하며 드러난 잔여 경고 2건 제거 → 경고 0.
   * **9-2c 문서 정합성:** ✅ — `progress.md` 앞부분 stale 문구(words 900행·레벨테스트 5문항·`/report` 준비 중) 정정, 명령어 레퍼런스 카운트 최신화.
   * **검증:** `test:srs` **13/13**(트리거 카운트 케이스)·`test:phase8` 37/37·`test:stats` 8/8·`build`·`lint` 0. **마이그레이션 불필요**(기존 `review_count` 재사용).
+* **Phase 9-3 — 학습 효과 정교화(3차 코드리뷰 반영, 로직·데이터 묶음, 완료)**
+  * **9-3a 레벨 밖 due 복습 합류:** ✅ — `buildSession`이 현재 레벨 풀 안에서만 due review를 골라 레벨 상승 후 이전 레벨 복습이 기본 세션에 안 섞이던 SRS 누수를 수정. 순수 선택 함수 `crossLevelDueIds`(`srs.ts`) 신설 → 비카테고리 기본 세션이 풀 밖 due 단어를 전 레벨에서 끌어와 병합. 카테고리 세션은 시나리오 일관성 위해 제외.
+  * **9-3b STT 반복 실패 피로도 완화:** ✅ — `ShadowingView`가 2회 연속 미인식 시 `fatigue` 중립 단계로 자동 전환("오늘은 듣고 넘어가도 좋아요"), 발음 약점이 아닌 **환경 이슈**로 기록(점수·벌점 영향 0).
+  * **9-3c 일반 학습 힌트/응답시간 기록:** ✅ — `QuestionResult`에 `hintsUsed·responseMs·answerRevealed` 추가, `meaningRecallScore`를 힌트(−20/개)·느린 응답(−10)·정답 노출(30점)로 정밀화. 첫 시도 정답은 100 유지.
+  * **9-3e 오답 후 정답 복구 루프:** ✅ — 타이핑 하트 소진 시 바로 섀도잉으로 넘기지 않고 `QuestionView`가 정답을 노출 → 한 번 따라 입력(`recovering`, 하트 차감·오답 판정 없음, `[건너뛰기]` 무중단) 후 진행. 완료/건너뛰기 모두 `answerRevealed:true`로 기록돼 9-3c 뜻 회상 30점과 연동. 마이그레이션 불필요.
+  * **9-3d 타이핑 졸업 / 발음 졸업 분리:** ✅ — 두 트랙 SRS. `pass_count`=타이핑 졸업 트랙(첫 시도 정답 +1), `pron_pass_count`(신규, **v10**)=발음 졸업 트랙(⭐2+ +1, `PRON_TARGET=2`). 타이핑 졸업이 능동 복습을 끝내고, 발음 미완은 `needsPronCheck`로 full/listening 세션에 세션당 1개 저빈도 재등장(`buildSession.pronCapable`). typingOnly 환경 타이핑 졸업 허용 + 추후 발음 환경 재확인. 미적용 시 무중단 폴백.
+  * **9-3f 카테고리 미니 시나리오 세트화:** ✅ — 카테고리 세션을 `pickScenarioWindow`로 use_case 흐름의 '학습 가치 높은 연속 구간'을 골라 하나의 상황 흐름(공항→이동→길찾기→숙소)으로 구성. SRS 비율보다 시나리오 우선. 기존 use_case 태그(2,520단어 100%) 재사용 — DB·시드 변경 없음.
+  * **검증:** `test:srs` **17/17**·`test:phase8` **42/42**·`test:stats` 8/8·`build`·`lint` 0. **9-3d만 v10 마이그레이션**(`pron_pass_count`), 나머지 불필요. 3차 리뷰 6건(9-3a~f) 전부 반영.
 
 ---
 

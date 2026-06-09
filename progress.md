@@ -204,6 +204,23 @@
 
 > ℹ️ **9-2a 전환 메모**: `review_count`는 기존에 화면/통계 어디에서도 표시되지 않고 롤링 윈도우 시드로만 쓰였으므로, 저장값을 트리거 카운트로 바꿔도 표시 충돌이 없습니다. 마이그레이션 적용 이전에 저장된 과거 세션 행은 옛 의미(잔존 수)를 갖지만, 최근 5세트만 승급 판단에 쓰여 새 세션이 쌓이면 자연히 정정됩니다.
 
+### Phase 9-3 — 학습 효과 정교화(3차 코드리뷰 반영, 로직·데이터 묶음) ✅
+
+| 단위 | 내용 | 상태 | 검증 |
+|------|------|------|------|
+| 9-3a | 레벨 밖 due 복습을 '오늘의 세션'에 합류 | ✅ | 기존 `buildSession`은 **현재 레벨 풀 안에서만** due review를 골라, 레벨이 오른 뒤 이전 레벨 복습 단어가 progress엔 있어도 기본 세션에 섞이지 않았음(SRS 누수). 순수 선택 함수 `crossLevelDueIds(progress, poolIds, today)`를 `srs.ts`에 신설, `buildSession`(비카테고리 기본 세션)이 풀 밖 due 단어를 전 레벨 풀에서 끌어와 dueReview 후보에 병합. 카테고리 세션은 시나리오 일관성 위해 현재 범위 복습만 유지. |
+| 9-3b | STT 반복 미인식 피로도 완화 | ✅ | `ShadowingView`에 미인식 카운터(`missesRef`) 추가. **2회 연속 미인식**이면 `fatigue` 단계로 자동 전환 → "인식이 잘 안 되는 환경 같아요. 오늘은 듣고 넘어가도 좋아요" + 중립 종료(`finish(null,null,skipped)`)·자동 진행. **발음 약점이 아닌 환경 이슈**로 처리(점수·weakWords 영향 0, 벌점 없음). |
+| 9-3c | 일반 학습 힌트·응답시간 기록·점수 반영 | ✅ | `QuestionResult`에 `hintsUsed·responseMs·answerRevealed` 추가. `QuestionView`가 힌트 노출 수·응답시간을 측정해 `completeTyping(meta)`로 전달. `meaningRecallScore`를 정밀화 — **힌트 1개당 −20, 12초 초과 −10, 정답 노출 시 30점**(첫 시도 정답·힌트 0이면 100 유지). 여러 번 틀리고 힌트 본 뒤 맞힌 경우도 더 이상 '뜻 회상 100'이 아님. |
+| 9-3d | 타이핑 졸업 / 발음 졸업 분리 | ✅ | **두 트랙 SRS**로 전환. `pass_count`를 '타이핑(뜻·철자) 졸업 트랙'으로 재해석(첫 시도 정답=+1, 하트 소진=리셋), **`pron_pass_count` 신규 추가**('발음 졸업 트랙', ⭐2+=+1, 약함=리셋, `PRON_TARGET=2`). **타이핑 졸업이 능동 복습을 끝내고**, 발음 미완은 능동 복습으로 끌려가지 않고 `needsPronCheck`로 표시 → full/listening 모드 세션에 **세션당 최대 1개 저빈도 재등장**(`buildSession`의 `pronCapable`). typingOnly 환경에서 타이핑만으로 졸업 가능하되 나중에 발음 환경에서 확인됨. **v10 마이그레이션**(`pron_pass_count` 컬럼, 미적용 시 무중단 폴백). |
+| 9-3e | 오답 후 정답 복구 루프 | ✅ | 타이핑에서 **하트 소진 시 바로 섀도잉으로 넘기지 않고** → 정답을 보여주고(`정답 hello`) → **한 번 그대로 따라 입력**하는 복구 단계(`recovering`)를 거친 뒤 다음 단계로. 복구 단계는 하트 차감·오답 판정 없음(틀리면 부드러운 shake만), `[건너뛰기]`로 무중단 보장(규칙 6). 복구 완료/건너뛰기 모두 `answerRevealed:true`로 기록 → 9-3c의 뜻 회상 30점과 자연 연동. "틀린 단어를 정확히 한 번 입력"해 기억에 남는 품질↑. |
+| 9-3f | 카테고리 미니 시나리오 세트화 | ✅ | 카테고리 세션을 무작위 10개 묶음이 아니라 **하나의 상황 흐름**으로. `orderByCategoryFlow`로 use_case 흐름 정렬 후, 신규 함수 `pickScenarioWindow`가 **학습 가치(미학습+복습)가 가장 높은 연속 use_case 구간**을 골라 미니 시나리오(예: 여행=공항→이동→길찾기→숙소)를 구성. 카테고리 모드는 SRS 비율보다 상황 흐름을 우선해 조기 반환. 콘텐츠는 기존 `use_case` 태그(2,520단어 100% 보유) 재사용 — **시드·DB 변경 없음**. |
+
+**검증 방법(9-3)**: `npm run test:srs`(**17/17**, 9-3a 레벨밖 선택 + 9-3d 두 트랙 졸업·needsPronCheck 케이스) + `npm run test:phase8`(**42/42**, 9-3c 힌트·응답시간 3케이스 + 9-3f 시나리오 윈도우 2케이스) + `npm run test:stats`(8/8) + `npm run build`·`npm run lint`(경고 0). **9-3d만 v10 마이그레이션 필요**(`pron_pass_count` 컬럼, 미적용 시 무중단 폴백) — 나머지는 마이그레이션 불필요. UX(9-3e 복구 루프·9-3d 발음 재확인 재등장)는 모바일 실화면에서 수동 확인.
+
+> ✅ **9-3 범위 메모**: 3차 리뷰 **6건 전부**(9-3a~f) 반영 완료. 9-3a/b/c(로직·데이터) → 9-3e(오답 복구 루프) → **9-3d(두 트랙 졸업, v10 마이그레이션)·9-3f(카테고리 미니 시나리오)** 순으로 완료.
+
+> ⚙️ **9-3d 운영 반영**: `supabase/migrations/v10_progress_pron_pass.sql` 1회 적용(`pron_pass_count int default 0`). 미적용 시 `saveProgress`가 컬럼을 떼고 재시도하므로 학습은 무중단. `npm run check:schema`로 적용 여부 점검 가능.
+
 ---
 
 ## 실행 방법
@@ -218,10 +235,10 @@ npm run assemble:words   # generated/*.json → src/data/words.json 재조립(id
 npm run build:anchors    # 레벨테스트 앵커 12문항 재생성 → src/data/anchorTest.json (Phase 7-1/9-B2)
 npm run tag:pronunciation # 발음 난이도 전수 분석 → docs/pronunciation-coverage.md (Phase 9-1b)
 npm run test:phase7      # Phase 7 진단·채점 단위 테스트(23/23)
-npm run test:phase8      # Phase 8+9 적응·신뢰도 단위 테스트(37/37)
-npm run test:srs         # SRS 졸업/간격 규칙(13/13, 8-1·9-A1·9-2a 정책 반영)
+npm run test:phase8      # Phase 8+9 적응·신뢰도 단위 테스트(42/42, 9-3c 힌트·9-3f 시나리오 포함)
+npm run test:srs         # SRS 졸업/간격 규칙(17/17, 8-1·9-A1·9-2a·9-3a·9-3d 정책 반영)
 npm run test:stats       # 통계·주간 리포트 집계(8/8, 9-1a 발음 약점 포함)
-npm run check:schema     # Supabase v7·v8 마이그레이션 컬럼 적용 여부 점검
+npm run check:schema     # Supabase v7·v8·v10 마이그레이션 컬럼 적용 여부 점검
 npm run lint             # ESLint CLI(eslint .) — Next 16 대비, next lint 대체(9-2b)
 node --experimental-strip-types scripts/test-score.ts  # 섀도잉 채점 단위 테스트(6/6)
 ```

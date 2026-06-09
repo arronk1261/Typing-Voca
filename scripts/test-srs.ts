@@ -1,4 +1,10 @@
-import { computeProgressUpdate, isDue, isReviewTrigger } from "../src/lib/srs.ts";
+import {
+  computeProgressUpdate,
+  crossLevelDueIds,
+  isDue,
+  isReviewTrigger,
+  needsPronCheck,
+} from "../src/lib/srs.ts";
 import type { Progress, QuestionResult } from "../src/types/index.ts";
 
 const TODAY = "2026-06-04";
@@ -25,6 +31,7 @@ function progress(p: Partial<Progress>): Progress {
     first_try_correct: null,
     shadow_stars: null,
     pass_count: 0,
+    pron_pass_count: 0,
     in_review: false,
     last_seen: null,
     next_due: null,
@@ -52,10 +59,10 @@ const cases: Case[] = [
   },
   {
     name: "enter-star1",
-    describe: "섀도잉 ⭐1 → in_review 진입",
+    describe: "9-3d: 첫 시도 정답+⭐1 → 타이핑 트랙은 +1, 발음 트랙은 약함으로 0(복습 유지)",
     run: () => {
       const r = computeProgressUpdate(undefined, result({ firstTryCorrect: true, shadowStars: 1 }), "u", 1, TODAY);
-      return r.in_review === true && r.pass_count === 0;
+      return r.in_review === true && r.pass_count === 1 && r.pron_pass_count === 0;
     },
   },
   {
@@ -96,11 +103,11 @@ const cases: Case[] = [
   },
   {
     name: "skip-neutral",
-    describe: "full 모드 자발적 건너뛰기 → 중립(통과 아님, pass_count 유지, 리셋·복습 없음)",
+    describe: "9-3d: full 모드 발음 건너뛰기 → 타이핑은 첫 시도 정답으로 진척, 발음 트랙은 중립(리셋 없음)",
     run: () => {
-      const existing = progress({ pass_count: 1 });
+      const existing = progress({ in_review: true, pass_count: 1, pron_pass_count: 1 });
       const r = computeProgressUpdate(existing, result({ firstTryCorrect: true, shadowStars: null, shadowSkipped: true, shadowMode: "full" }), "u", 1, TODAY);
-      return r.pass_count === 1 && r.in_review === false;
+      return r.pass_count === 2 && r.pron_pass_count === 1 && r.in_review === true && r.next_due === "2026-06-07";
     },
   },
   {
@@ -150,6 +157,50 @@ const cases: Case[] = [
       ];
       const triggers = sessionResults.filter(isReviewTrigger).length;
       return triggers === 2;
+    },
+  },
+  {
+    name: "typing-graduates-without-pron",
+    describe: "9-3d: 발음을 한 번도 안 해도 타이핑 첫 시도 정답 3회면 타이핑 졸업(발음 트랙은 0)",
+    run: () => {
+      let p = computeProgressUpdate(undefined, result({ firstTryCorrect: true, shadowSkipped: true, shadowMode: "typingOnly" }), "u", 1, TODAY);
+      p = computeProgressUpdate(p, result({ firstTryCorrect: true, shadowSkipped: true, shadowMode: "typingOnly" }), "u", 1, TODAY);
+      p = computeProgressUpdate(p, result({ firstTryCorrect: true, shadowSkipped: true, shadowMode: "typingOnly" }), "u", 1, TODAY);
+      return p.pass_count === 3 && p.pron_pass_count === 0 && p.in_review === false && needsPronCheck(p) === true;
+    },
+  },
+  {
+    name: "pron-track-graduates",
+    describe: "9-3d: 타이핑 졸업 후 발음 ⭐2+를 2회 쌓으면 발음 졸업 → needsPronCheck 해제",
+    run: () => {
+      const existing = progress({ in_review: false, pass_count: 3, pron_pass_count: 0 });
+      const p1 = computeProgressUpdate(existing, result({ firstTryCorrect: true, shadowStars: 3 }), "u", 1, TODAY);
+      const p2 = computeProgressUpdate(p1, result({ firstTryCorrect: true, shadowStars: 2 }), "u", 1, TODAY);
+      return p1.pron_pass_count === 1 && needsPronCheck(p1) === true && p2.pron_pass_count === 2 && needsPronCheck(p2) === false;
+    },
+  },
+  {
+    name: "weak-pron-keeps-typing-graduated",
+    describe: "9-3d: 타이핑 졸업 단어의 발음이 약해도 능동 복습으로 끌려가지 않음(저빈도 재확인만)",
+    run: () => {
+      const existing = progress({ in_review: false, pass_count: 3, pron_pass_count: 1 });
+      const r = computeProgressUpdate(existing, result({ firstTryCorrect: true, shadowStars: 1 }), "u", 1, TODAY);
+      return r.in_review === false && r.pron_pass_count === 0 && needsPronCheck(r) === true;
+    },
+  },
+  {
+    name: "cross-level-due",
+    describe: "9-3a: 현재 레벨 풀 밖의 due 복습만 골라낸다(풀 안 단어·미래 due 제외)",
+    run: () => {
+      const prog: Record<number, Progress> = {
+        10: progress({ word_id: 10, in_review: true, next_due: "2026-06-01" }), // 풀 밖·due → 대상
+        11: progress({ word_id: 11, in_review: true, next_due: "2026-06-01" }), // 풀 안 → 제외
+        12: progress({ word_id: 12, in_review: true, next_due: "2026-06-20" }), // 미래 due → 제외
+        13: progress({ word_id: 13, in_review: false, next_due: "2026-06-01" }), // 졸업 → 제외
+      };
+      const poolIds = new Set<number>([11]);
+      const ids = crossLevelDueIds(prog, poolIds, TODAY);
+      return ids.length === 1 && ids[0] === 10;
     },
   },
   {

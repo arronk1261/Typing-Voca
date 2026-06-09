@@ -69,6 +69,7 @@ export function StudySession() {
         categories: mode === "category" ? preferredCategories : undefined,
         count: SET_SIZE,
         streakBroken: isStreakBroken(lastStudyDate),
+        pronCapable: speech.mode === "full" || speech.mode === "listening",
       });
     };
     build().then((queue) => {
