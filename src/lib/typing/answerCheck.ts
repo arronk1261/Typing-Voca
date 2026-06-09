@@ -96,3 +96,21 @@ export function splitSentence(sentenceEn: string): SentenceParts {
 export function firstLetterHint(answer: string): string {
   return answer.charAt(0).toUpperCase();
 }
+
+// 9-4 fix: 여러 단어 정답(공백 포함)에서 사용자가 공백을 직접 안 쳐도 정답 슬롯에 맞춰
+// 글자를 흘려넣고 정답의 공백은 자동으로 채운다. (예: "straightahead" → "straight ahead")
+export function fillTypedSlots(answer: string, raw: string): string {
+  const letters = raw.replace(/\s+/g, "");
+  let out = "";
+  let li = 0;
+  for (const ch of answer) {
+    if (li >= letters.length) break;
+    if (ch === " ") {
+      out += " ";
+    } else {
+      out += letters[li];
+      li += 1;
+    }
+  }
+  return out;
+}
