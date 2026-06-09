@@ -3,6 +3,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import { cn } from "@/lib/cn";
+import { fillTypedSlots } from "@/lib/typing/answerCheck";
 
 interface TypingInputProps {
   answer: string;
@@ -50,7 +51,7 @@ export function TypingInput({
         maxLength={answer.length}
         value={value}
         disabled={disabled}
-        onChange={(e) => onChange(e.target.value)}
+        onChange={(e) => onChange(fillTypedSlots(answer, e.target.value))}
         onKeyDown={(e) => {
           if (e.key === "Enter") {
             e.preventDefault();

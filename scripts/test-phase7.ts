@@ -7,7 +7,11 @@ import {
   CALIBRATION_TARGET,
   type CalibrationState,
 } from "../src/lib/words/calibration.ts";
-import { canonicalAnswer, isAnswerCorrect } from "../src/lib/typing/answerCheck.ts";
+import {
+  canonicalAnswer,
+  fillTypedSlots,
+  isAnswerCorrect,
+} from "../src/lib/typing/answerCheck.ts";
 import { stagedHint } from "../src/lib/typing/hints.ts";
 import type { WordLevel } from "../src/types/index.ts";
 
@@ -145,6 +149,25 @@ const cases: Case[] = [
   },
 
   // ---- 7-4 정답 허용범위 확대 ----
+  {
+    name: "9-4fix multiword: space auto-filled so typed becomes correct",
+    run: () => {
+      const filled = fillTypedSlots("straight ahead", "straightahead");
+      return filled === "straight ahead" && isAnswerCorrect(filled, "straight ahead");
+    },
+  },
+  {
+    name: "9-4fix multiword: partial typing keeps no trailing space",
+    run: () => fillTypedSlots("straight ahead", "straight") === "straight",
+  },
+  {
+    name: "9-4fix multiword: explicit space also works (idempotent)",
+    run: () => fillTypedSlots("straight ahead", "straight ahead") === "straight ahead",
+  },
+  {
+    name: "9-4fix single word unchanged",
+    run: () => fillTypedSlots("hello", "hell") === "hell",
+  },
   {
     name: "7-4 contraction: I will == I'll",
     run: () => isAnswerCorrect("I will", "I'll") && isAnswerCorrect("I'll", "I will"),
