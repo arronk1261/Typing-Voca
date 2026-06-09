@@ -333,7 +333,8 @@ needsPronCheck(p) = !in_review && pass_count ≥ 3 && pron_pass_count < 2
 - 현재 레벨 단어가 부족하면 인접 레벨에서 같은 카테고리로 충원.
 
 ### 8.3 오답 노트 세션
-- `in_review`인 단어들로만 구성(`buildReviewSession`).
+- **현재 틀린 상태**인 단어(`isLapsed` = `in_review && pass_count === 0`, 즉 가장 최근 시도에서 하트 소진으로 통과 누적이 리셋된 단어)로만 구성(`buildReviewSession`).
+- 정답으로 진행 중(pass_count ≥ 1)이거나 졸업한 단어는 **제외** — '맞힌 문제'가 오답 노트에 섞이지 않음. (일반 세션의 SRS 복습 혼합은 `isDue` 기준이라 별개)
 
 ---
 
@@ -393,7 +394,7 @@ needsPronCheck(p) = !in_review && pass_count ≥ 3 && pron_pass_count < 2
 | `computeProgressUpdate` | 문항 결과 → progress 행(두 트랙 + SM-2 간격) | `lib/srs.ts` |
 | `gradeFor` / `sm2Update` | 학습 신호 → SM-2 등급(q) / SM-2 한 스텝 | `lib/srs.ts` |
 | `isPass` / `isFail` / `isReviewTrigger` | 통과/실패/복습 진입 판정 | `lib/srs.ts` |
-| `isGraduated` / `needsPronCheck` / `isDue` | 졸업·발음확인·복습대상 판정 | `lib/srs.ts` |
+| `isGraduated` / `needsPronCheck` / `isDue` / `isLapsed` | 졸업·발음확인·복습대상·오답노트 판정 | `lib/srs.ts` |
 | `meaningRecallScore` / `spellingScore` / `pronunciationScore` | 3요소 점수 | `lib/srs.ts` |
 | `scoreShadowing` | 발음 0~100 채점 + 별점 + 약점 | `lib/shadowing/score.ts` |
 | `buildSession` / `pickScenarioWindow` / `crossLevelDueIds` | 출제 구성 | `lib/words/getWords.ts`·`adaptive.ts`·`srs.ts` |

@@ -226,6 +226,13 @@ export function isGraduated(progress: Progress): boolean {
   return !progress.in_review && progress.pass_count >= 3;
 }
 
+// 오답 노트: 가장 최근 시도에서 하트가 소진돼(타이핑 실패) 통과 누적이 0으로 리셋된 '현재 틀린 상태' 단어.
+// 정답으로 진행 중(pass_count ≥ 1)인 단어는 제외 → 맞힌 문제가 오답 노트에 섞이지 않는다.
+// (buildSession의 일반 복습 혼합은 isDue로 별도 처리하므로 영향 없음)
+export function isLapsed(progress: Progress): boolean {
+  return progress.in_review && progress.pass_count === 0;
+}
+
 // 9-3d: 타이핑은 졸업했지만 발음 트랙은 미완 — full/listening 모드에서 저빈도 '말하기 확인'으로 재등장.
 // (typingOnly 환경에서 타이핑만으로 졸업한 단어가 나중에 발음 가능 환경에서 확인되게 함)
 export function needsPronCheck(progress: Progress): boolean {
