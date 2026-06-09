@@ -65,7 +65,49 @@ export interface UserState {
   level_provisional: boolean;
   calibration_questions: number;
   calibration_correct: number;
+  // 10-1: 동기부여 시스템 — 스트릭 동결권 / 누적 경험치 / 역대 최장 연속(개인 기록)
+  streak_freezes: number;
+  xp: number;
+  best_streak: number;
   updated_at?: string;
+}
+
+// 10-1: 배지 카탈로그(공개 읽기 전용) 메타데이터 — 판정 로직은 lib/achievements/catalog.ts에 둔다
+export type AchievementCategory =
+  | "streak"
+  | "milestone"
+  | "skill"
+  | "season"
+  | "explore";
+
+export interface AchievementRow {
+  key: string;
+  category: AchievementCategory;
+  tier: number;
+  title: string;
+  description: string;
+  icon: string;
+  season: string | null;
+}
+
+// 10-1: 유저가 획득한 배지 1행(본인 RLS)
+export interface UserAchievement {
+  user_id: string;
+  achievement_key: string;
+  earned_at: string;
+  progress_snapshot?: Record<string, number> | null;
+}
+
+// 10-1: 오늘의 학습 링(애플 활동 스타일) — 학습/복습/발음 3링의 목표·달성치(본인 RLS)
+export interface DailyRing {
+  user_id: string;
+  date: string;
+  learn_goal: number;
+  learn_done: number;
+  review_goal: number;
+  review_done: number;
+  pron_goal: number;
+  pron_done: number;
 }
 
 export interface Progress {

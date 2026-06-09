@@ -2,7 +2,7 @@
 
 본 문서는 AI(Claude)와 함께 **단계별(Phase-by-Phase) 바이브 코딩**으로 MVP를 빌드하기 위한 제품 요구사항 정의서(PRD)이자 실행 로드맵입니다. 각 Phase는 **독립적으로 테스트 가능한 산출물**을 갖도록 설계되어, 한 단계를 끝낼 때마다 실제로 동작하는 결과물이 나옵니다.
 
-> **버전:** v7 (신뢰도·무중단 보강) — **외부 코드리뷰 반영 Phase 9 + 9-1 추가**: typingOnly 환경 졸업 차단 버그 수정(학습 무중단), 앵커 진단 블루프린트·다축 레벨점수, 저빈도 출제 제한·카테고리 미니 시나리오, study_sessions 기반 기기 간 승급, 커리큘럼 레이어·발음 포커스 / **9-1: 영속 주간 발음 리포트(`study_sessions.weak_words` v9)·발음 난이도 전수 분석** / v6 단어 DB 900→2,520 확충 + v6 스키마(콘텐츠 태그) + Phase 6~8(콘텐츠 정제·진단/채점·장기 기억) / v5 구글 로그인 + 카테고리·통계·리포트·채점 고도화 MVP / v4 학습 데이터 Supabase 이전 / v3 단어 DB Supabase / v2 발음 재설계·폴백·콘텐츠 확장
+> **버전:** v8 (동기부여 시스템) — **Phase 10 추가(애플 활동 스타일 게이미피케이션, 풀 범위 10-1~10-8)**: 학습 링(자동 개인화 목표·Zeigarnik) + 배지 컬렉션(연속·마일스톤·완벽·시즌·탐험) + 스트릭 프리즈 + 개인 기록 + 위클리 챌린지. 긍정 강화·학습 무중단·새 점수로직 없음(기존 데이터 판정) 원칙. 8.6 참조 / **v7 (신뢰도·무중단 보강) — 외부 코드리뷰 반영 Phase 9 + 9-1 추가**: typingOnly 환경 졸업 차단 버그 수정(학습 무중단), 앵커 진단 블루프린트·다축 레벨점수, 저빈도 출제 제한·카테고리 미니 시나리오, study_sessions 기반 기기 간 승급, 커리큘럼 레이어·발음 포커스 / **9-1: 영속 주간 발음 리포트(`study_sessions.weak_words` v9)·발음 난이도 전수 분석** / v6 단어 DB 900→2,520 확충 + v6 스키마(콘텐츠 태그) + Phase 6~8(콘텐츠 정제·진단/채점·장기 기억) / v5 구글 로그인 + 카테고리·통계·리포트·채점 고도화 MVP / v4 학습 데이터 Supabase 이전 / v3 단어 DB Supabase / v2 발음 재설계·폴백·콘텐츠 확장
 
 ---
 
@@ -391,8 +391,8 @@ create policy "own sessions" on public.study_sessions
 
 ---
 
-### (참고) 그 밖의 확장 후보 (Phase 10+)
-* 데이터 export/import(백업), 리더보드/친구 등 소셜, PWA 오프라인 강화, 월간 리포트·공유 이미지, 채점 동의어 사전 확장. (Phase 9는 신뢰도·무중단 보강으로 이미 사용 — 8.5 참조)
+### (참고) 그 밖의 확장 후보 (Phase 11+)
+* 데이터 export/import(백업), 리더보드/친구 등 소셜, PWA 오프라인 강화, 월간 리포트, 채점 동의어 사전 확장. (Phase 9=신뢰도·무중단 보강 — 8.5 / Phase 10=동기부여 시스템 — 8.6 참조. 배지·기록 **공유 이미지 카드**는 Phase 10 이후 소셜 후보로 이관.)
 
 ---
 
@@ -497,6 +497,41 @@ create policy "own sessions" on public.study_sessions
   * **9-4c 리뷰 로그:** ✅ — `review_logs`(v11, RLS) + `commitSession` 배치 insert(grade·elapsed·EF·interval·reps·stars). 비핵심이라 실패 시 폐기. FSRS 학습 원천.
   * **검증:** `test:srs` **21/21**·`test:phase8` 42/42·`test:stats` 8/8·`build`·`lint` 0. **v11 마이그레이션**(progress ease_factor·interval_days + review_logs), 미적용 시 무중단 폴백.
   * **향후:** review_logs 축적 후 FSRS(안정성·난이도 모델, 목표 유지율) 전환·파라미터 최적화 검토. 상세는 `docs/learning-system-guide.md`.
+
+---
+
+## 8.6 동기부여 시스템 로드맵 ⭐ (v8 · Phase 10 — 애플 활동 스타일 게이미피케이션)
+
+> **목표(북극성 직결):** 리텐션·학습 지속을 끌어올리는 동기 장치. 애플 활동 앱의 4원리 — **①닫아야 할 고리(Zeigarnik) ②과거의 나와 경쟁(개인화) ③마일스톤 즉시 축하 ④수집욕·희소성** — 을 Typing-Voca 학습 루프로 번역한다. **풀 범위(10-1~10-8)**: 학습 링 + 배지 컬렉션 + 스트릭 프리즈 + 개인 기록 + 위클리 챌린지.
+>
+> **원칙(규칙 6 / T2 / T3 절대 준수):** ①**긍정 강화만** — '놓친 배지·끊긴 streak'를 빨강·실패·벌칙으로 표시하지 않고 "다음 기회"로 표현. ②**학습 무중단** — 배지 판정·동기화는 전부 best-effort(테이블 부재·실패해도 학습 루프 0 지연, review_logs 패턴 재사용). ③**새 점수 로직 없음** — 기존 `study_sessions`·`progress`·SM-2 신호를 *읽어서* 판정만 한다. ④**흐름 방해 0** — 획득 모먼트는 confetti+바텀시트로 톡 등장 후 한 번에 닫힘(300ms 이하, `prefers-reduced-motion` 분기).
+>
+> **핵심 설계 결정 — 학습 링 목표치:** 고정(10단어)이 아니라 **과거 평균 기반 자동 개인화 + 최소 바닥값**. "최근 7일 학습량 중앙값 × 1.0~1.1, 단 최소 1세트(10단어) / 최대 상한"으로 도전적이되 달성 가능하게(미달성 좌절 방지). 신규 유저는 바닥값으로 시작.
+
+### 의존성 순서 (Phase 10)
+
+```
+[Phase 10] 동기부여(애플 활동 스타일)  10-1 → 10-2 → 10-3 → 10-4 → 10-5 → 10-6 → 10-7 → 10-8
+```
+* **10-1(스키마) → 10-2(판정 엔진) → 10-3(세션 연결)** 이 데이터·로직 토대. 그 위에 **10-4(링)·10-5(획득 모먼트)·10-6(컬렉션)** UI, **10-7(프리즈·기록·위클리)** 리텐션 장치, **10-8** 최종 QA 순.
+* **스키마 변경 단위:** 10-1만 — `achievements`(공개 읽기 전용)·`user_achievements`(본인 RLS)·`daily_rings`(본인 RLS) 신설 + `user_state` 확장(`streak_freezes`·`xp`·`best_streak`). `supabase/migrations/v12_achievements.sql` + `types/index.ts` 동반. 미적용 시 무중단 폴백.
+* 판정 로직은 전부 순수 함수(`lib/achievements/`)로 분리해 node 단위 테스트(`scripts/test-achievements.ts`) — 기존 `srs.ts`/`adaptive.ts` 패턴 동일.
+
+---
+
+### 🏅 Phase 10 — 동기부여 시스템 (애플 활동 스타일 · 풀 범위)
+* **목표:** 매일 돌아올 이유(닫을 고리)·모을 이유(배지·기록)·놓치지 않을 안전장치(프리즈)를 학습 루프 위에 얹는다.
+
+> **Phase 10 상태 — ✅ 전 단위 완료(10-1~10-8):** 배지 카탈로그 26종(`lib/achievements/catalog.ts`)·순수 판정 엔진(`engine.ts` evaluate/achievementProgress)·세션 스냅샷(`snapshot.ts`)·링 목표 계산(`rings.ts`)·학습 3링 위젯(`LearningRings.tsx`)·획득 모먼트 시트(`AchievementSheet.tsx`)·배지 컬렉션(`AchievementCollection.tsx`+`/achievements`)·스트릭 동결권(`applyStreak`)·개인 기록 토스트·위클리 챌린지(`weeklyChallenge`) 완료. `commitSession`이 스트릭(동결권)·베스트·XP·링·학습일·배지 판정을 세션 종료에 1회 배치. 단위 테스트 `test:achievements` **40/40**, 기존 `test:srs` 22·`test:phase8` 42·`test:phase7` 27·`test:stats` 8 전부 통과, `lint` 0·`build` 성공. **운영 반영: `supabase/migrations/v12_achievements.sql` 1회 적용 + `npm run seed:achievements`**(미적용 시 무중단 폴백). 상세: `docs/phase10-dev-note.md`. → **로드맵 0~10 전 구간 완료.**
+
+* **10-1 스키마 + 시드(데이터 토대):** ✅ — `achievements`(id·key·category·tier·title·desc·icon·criteria(jsonb)·season nullable — words처럼 **공개 읽기 전용 RLS**) / `user_achievements`(user_id·achievement_key·earned_at·progress_snapshot(jsonb) — `auth.uid()` **본인 RLS**) / `daily_rings`(user_id·date·learn/review/pron 목표·달성치 — 본인 RLS) 신설 + `user_state` 확장(`streak_freezes int`·`xp int`·`best_streak int`). `v12_achievements.sql`(+`schema.sql`+`types/index.ts`), 배지 카탈로그 시드 스크립트(`scripts/seedAchievements.ts`, Service Role 전용). **Done:** 4종 테이블/컬럼 생성, anon 배지 카탈로그 SELECT 가능·쓰기 차단, 본인 외 user_achievements RLS 차단, 카탈로그 시드 적재.
+* **10-2 판정 엔진(순수 함수 + 단위 테스트):** `src/lib/achievements/catalog.ts`(배지 정의)·`engine.ts`의 `evaluate(state, sessionOutcome) → newlyEarned[]`. 카테고리 — **연속(3·7·14·30·60·100·365·주말전사·불사조)** / **마일스톤(누적 50·100·250·500·1000단어, 졸업 10·50·100, 카테고리 마스터)** / **완벽·기량(퍼펙트 세트·골든 보이스·스피드러너·오답 청소부)** / **시즌(이달의 챌린지, season 키)** / **탐험(카테고리 5종·야간·아침)**. 기존 `progress`·`study_sessions`·SM-2 신호만 읽어 판정. **Done:** `npm run test:achievements`로 각 criteria 모킹 케이스 통과(연속·마일스톤·완벽·시즌·탐험·중복획득 방지).
+* **10-3 세션 종료 연결 + 동기화(무중단):** `commitSession` 종료 시점에 `evaluate` 1회 호출 → 새로 딴 배지만 배치 upsert(키 입력마다 X). 오프라인이면 `offlineQueue`에 `user_achievements`·`daily_rings` 적재 후 flush. 테이블·컬럼 부재 시 떼고 재시도/폐기(best-effort). XP·best_streak 동시 갱신. **Done:** 세션 완주 시 새 배지만 1회 적재, 오프라인 변경 복귀 시 flush, 테이블 없어도 학습 0 지연.
+* **10-4 학습 링 위젯 + 대시보드 통합:** 🟣학습 / 🟠복습 / ⭐발음 3링(SVG 도넛, framer-motion 채움). 목표치는 **자동 개인화**(8.6 결정: 최근 중앙값×1.0~1.1, 최소 1세트). 대시보드(2-2) 상단 배치, 1링 닫힘=미세 confetti·3링=풀 confetti(T3, 0.5초)·햅틱. `prefers-reduced-motion` 분기, 색+수치 이중 표시(T5). **Done:** 모바일에서 3링이 오늘 데이터로 채워지고 닫힘 모먼트 동작, reduced-motion 정적 표시.
+* **10-5 배지 획득 모먼트 + 결과창 통합:** 획득 시 바텀시트(T7)로 배지가 scale+회전 톡 등장 + confetti + 햅틱 + `aria-live` 안내, "확인" 한 번에 학습 복귀(흐름 방해 0). 결과창(4-1)에 "이번에 딴 배지" 줄. **Done:** 신규 획득 시 시트·연출·접근성 안내, 학습 루프 무중단, 결과창에 표시.
+* **10-6 배지 컬렉션 화면:** 획득/미획득 그리드(미획득=실루엣 + 진행바 "앞으로 N일/N단어!"). 시즌 배지는 한정 표기, 다크모드·48px 터치·색+아이콘 이중 표시. 대시보드/메뉴 진입점 + 뒤로가기. **Done:** 획득·미획득·진행도가 실데이터로 표시, 빈 상태 자연스러움, 다크·접근성 통과.
+* **10-7 스트릭 프리즈 + 개인 기록 + 위클리 챌린지:** ①**스트릭 프리즈/세이버** — 학습으로 동결권 적립, 하루 빠져도 streak 유지(이탈 차단). `computeStreakOnComplete`와 연동, 자동 소모 + 알림(T2 톤). ②**개인 기록(Personal Records)** — 최장 연속·역대 최고 정확도·최고 평균별점 경신 시 토스트("신기록!"). ③**위클리 챌린지** — 주간 리포트(5-2)와 결합한 "이번 주 미션"(예: 새 단어 30개) 진행 바, 달성 시 시즌 배지. **Done:** 동결권 적립·소모로 streak 보존, 기록 경신 토스트, 주간 미션 진행·달성 연동.
+* **10-8 최종 QA + 문서/브리핑:** 전 화면 다크모드(대비 AA, 링/배지/confetti 가독성)·접근성(aria-live·포커스·색+아이콘·48px)·모바일 실기기(노치·키보드·오프라인)·`prefers-reduced-motion` 전수. `docs/learning-system-guide.md`에 §동기부여 시스템 추가, `docs/phase10-dev-note.md`(비개발자 브리핑). **Done:** 라이트/다크·접근성·모바일 QA 통과, 문서 갱신, Phase 10 마스터 브리핑(동기 여정 관점).
 
 ---
 

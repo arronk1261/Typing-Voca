@@ -38,6 +38,26 @@ const CHECKS: { table: string; columns: string[]; migration: string }[] = [
     columns: ["grade", "ease_factor", "interval_days", "reps"],
     migration: "v11_sm2_scheduler.sql",
   },
+  {
+    table: "user_state",
+    columns: ["streak_freezes", "xp", "best_streak"],
+    migration: "v12_achievements.sql",
+  },
+  {
+    table: "achievements",
+    columns: ["key", "category", "tier", "season"],
+    migration: "v12_achievements.sql",
+  },
+  {
+    table: "user_achievements",
+    columns: ["achievement_key", "earned_at"],
+    migration: "v12_achievements.sql",
+  },
+  {
+    table: "daily_rings",
+    columns: ["learn_goal", "learn_done", "pron_done"],
+    migration: "v12_achievements.sql",
+  },
 ];
 
 async function main() {

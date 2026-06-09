@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import {
+  Award,
   BarChart3,
   BookMarked,
   CalendarRange,
@@ -12,6 +13,7 @@ import {
 } from "lucide-react";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { CategorySheet } from "@/components/dashboard/CategorySheet";
+import { LearningRings } from "@/components/dashboard/LearningRings";
 import { StreakFlame } from "@/components/dashboard/StreakFlame";
 import { WeeklyReportAuto } from "@/components/report/WeeklyReportAuto";
 import { LevelTest } from "@/components/onboarding/LevelTest";
@@ -31,6 +33,8 @@ export function Dashboard() {
   const level = useUserStore((s) => s.level);
   const streak = useUserStore((s) => s.streak);
   const totalLearned = useUserStore((s) => s.totalLearned);
+  const xp = useUserStore((s) => s.xp);
+  const streakFreezes = useUserStore((s) => s.streakFreezes);
   const preferredCategories = useUserStore((s) => s.preferredCategories);
   const hydrate = useUserStore((s) => s.hydrate);
   const completeOnboarding = useUserStore((s) => s.completeOnboarding);
@@ -106,9 +110,16 @@ export function Dashboard() {
         <div className="flex flex-col items-end gap-1">
           <span className="text-xs font-medium text-ink-soft">연속 학습</span>
           <StreakFlame streak={streak} />
-          <span className="text-xs text-ink-soft">일째 🔥</span>
+          <span className="text-xs text-ink-soft">
+            {streakFreezes > 0 && `🧊${streakFreezes} · `}
+            <b className="text-accent">{xp}</b> XP
+          </span>
         </div>
       </Card>
+
+      <div className="mt-4">
+        <LearningRings />
+      </div>
 
       <div className="mt-5 flex flex-col gap-3">
         <Button onClick={() => router.push("/study")}>
@@ -127,15 +138,20 @@ export function Dashboard() {
         )}
       </div>
 
-      <div className="mt-auto grid grid-cols-2 gap-3 pt-8">
+      <div className="mt-auto grid grid-cols-3 gap-3 pt-8">
+        <SecondaryLink
+          icon={<Award size={18} aria-hidden />}
+          label="배지"
+          onClick={() => router.push("/achievements")}
+        />
         <SecondaryLink
           icon={<BarChart3 size={18} aria-hidden />}
-          label="통계 히스토리"
+          label="통계"
           onClick={() => router.push("/stats")}
         />
         <SecondaryLink
           icon={<CalendarRange size={18} aria-hidden />}
-          label="주간 리포트"
+          label="리포트"
           onClick={() => router.push("/report")}
         />
       </div>

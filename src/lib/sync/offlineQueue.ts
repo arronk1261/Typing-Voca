@@ -1,4 +1,11 @@
-import type { Progress, ReviewLog, StudySession, UserState } from "@/types";
+import type {
+  DailyRing,
+  Progress,
+  ReviewLog,
+  StudySession,
+  UserAchievement,
+  UserState,
+} from "@/types";
 
 const QUEUE_KEY = "tv:sync:queue";
 
@@ -6,7 +13,9 @@ export type QueuedWrite =
   | { table: "user_state"; payload: Partial<UserState> & { user_id: string } }
   | { table: "progress"; payload: Progress[] }
   | { table: "study_sessions"; payload: StudySession }
-  | { table: "review_logs"; payload: ReviewLog[] };
+  | { table: "review_logs"; payload: ReviewLog[] }
+  | { table: "user_achievements"; payload: UserAchievement[] }
+  | { table: "daily_rings"; payload: DailyRing };
 
 function read(): QueuedWrite[] {
   if (typeof window === "undefined") return [];

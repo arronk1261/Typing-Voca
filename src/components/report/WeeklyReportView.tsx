@@ -6,7 +6,7 @@ import { ArrowLeft } from "lucide-react";
 import { LoadingDots } from "@/components/ui/LoadingDots";
 import { WeeklyReportCard } from "@/components/report/WeeklyReportCard";
 import { useStatsData } from "@/hooks/useStatsData";
-import { weeklyReport } from "@/lib/stats/aggregate";
+import { weeklyChallenge, weeklyReport } from "@/lib/stats/aggregate";
 import { categoryLabel } from "@/lib/words/categories";
 import { wordCategoryMap } from "@/lib/stats/categoryMap";
 import { useUserStore } from "@/stores/userStore";
@@ -20,6 +20,7 @@ export function WeeklyReportView() {
     () => weeklyReport(sessions, progressRows, wordCategoryMap, categoryLabel),
     [sessions, progressRows],
   );
+  const challenge = useMemo(() => weeklyChallenge(sessions), [sessions]);
 
   return (
     <main className="mx-auto flex min-h-[100dvh] max-w-md flex-col px-5 pb-10">
@@ -44,7 +45,7 @@ export function WeeklyReportView() {
         </div>
       ) : (
         <div className="pt-2">
-          <WeeklyReportCard report={report} streak={streak} />
+          <WeeklyReportCard report={report} streak={streak} challenge={challenge} />
         </div>
       )}
     </main>

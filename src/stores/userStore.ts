@@ -1,8 +1,11 @@
 import { create } from "zustand";
 import { isSupabaseConfigured } from "@/lib/supabase/client";
 import {
+  loadAchievements,
   loadRecentSessions,
   loadUserData,
+  saveAchievements,
+  saveDailyRing,
   saveProgress,
   saveReviewLogs,
   saveStudySession,
@@ -16,17 +19,32 @@ import {
   sessionToWindowEntry,
   type SessionWindowEntry,
 } from "@/lib/sync/recentWindow";
-import { computeStreakOnComplete, todayKey } from "@/lib/streak";
+import { bumpDailyRing } from "@/lib/sync/dailyRing";
+import { recordStudyDay } from "@/lib/sync/studyDays";
+import { applyStreak, computeStreakOnComplete, todayKey } from "@/lib/streak";
 import { computeProgressUpdate, gradeFor, isLapsed, isReviewTrigger } from "@/lib/srs";
+import { buildSnapshot } from "@/lib/achievements/snapshot";
+import { evaluate, type EarnedAchievement } from "@/lib/achievements/engine";
+import { learnGoal, pronGoal } from "@/lib/achievements/rings";
 import { applyCalibration } from "@/lib/words/calibration";
 import type { LevelTestOutcome } from "@/lib/words/levelScore";
 import type {
+  DailyRing,
   Progress,
   QuestionResult,
   ReviewLog,
   StudySession,
+  UserAchievement,
   WordLevel,
 } from "@/types";
+
+const FREEZE_CAP = 3;
+
+export interface PersonalRecords {
+  streak: boolean;
+  accuracy: boolean;
+  stars: boolean;
+}
 
 export interface SessionCommitInput {
   results: QuestionResult[];
@@ -40,6 +58,11 @@ export interface SessionCommitOutcome {
   avgStars: number | null;
   avgScore: number | null;
   reviewTriggers: number;
+  // 10-3/10-7: 동기부여 — 이번 세션 신규 배지·경험치·개인 기록 경신·동결권 적립
+  newAchievements: EarnedAchievement[];
+  xpGained: number;
+  records: PersonalRecords;
+  freezesEarned: number;
 }
 
 interface UserStoreState {
@@ -57,6 +80,11 @@ interface UserStoreState {
   preferredCategories: string[];
   progress: Record<number, Progress>;
   recentSessions: SessionWindowEntry[];
+  // 10-3: 동기부여 상태
+  streakFreezes: number;
+  xp: number;
+  bestStreak: number;
+  achievements: string[];
 
   hydrate: (userId: string | null) => Promise<void>;
   setLevel: (level: WordLevel) => void;
@@ -83,6 +111,10 @@ const initialState = {
   preferredCategories: [] as string[],
   progress: {} as Record<number, Progress>,
   recentSessions: [] as SessionWindowEntry[],
+  streakFreezes: 0,
+  xp: 0,
+  bestStreak: 0,
+  achievements: [] as string[],
 };
 
 export const useUserStore = create<UserStoreState>((set, get) => ({
@@ -90,9 +122,10 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
 
   hydrate: async (userId) => {
     if (isSupabaseConfigured && userId) {
-      const [{ userState, progress }, recent] = await Promise.all([
+      const [{ userState, progress }, recent, achievements] = await Promise.all([
         loadUserData(userId),
         loadRecentSessions(userId, 5),
+        loadAchievements(userId),
       ]);
       const progressMap: Record<number, Progress> = {};
       for (const row of progress) progressMap[row.word_id] = row;
@@ -113,6 +146,10 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
         preferredCategories: userState?.preferred_categories ?? [],
         progress: progressMap,
         recentSessions,
+        streakFreezes: userState?.streak_freezes ?? 0,
+        xp: userState?.xp ?? 0,
+        bestStreak: userState?.best_streak ?? userState?.streak ?? 0,
+        achievements,
       });
       return;
     }
@@ -133,6 +170,10 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
       preferredCategories: profile.preferredCategories,
       progress: {},
       recentSessions: readRecentWindow(),
+      streakFreezes: profile.streakFreezes,
+      xp: profile.xp,
+      bestStreak: profile.bestStreak,
+      achievements: profile.achievements,
     });
   },
 
@@ -235,12 +276,80 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
     appendRecentWindow(windowEntry);
     const recentSessions = [...state.recentSessions, windowEntry].slice(-5);
 
-    const streakUpdate = computeStreakOnComplete(
+    // 10-7: 동결권을 적용한 스트릭 — 하루 빠져도 동결권이 있으면 연속 보존
+    const streakUpdate = applyStreak(
       state.lastStudyDate,
       state.streak,
+      state.streakFreezes,
       today,
     );
+    const nextBestStreak = Math.max(state.bestStreak, streakUpdate.streak);
+    const nextFreezes = Math.min(
+      FREEZE_CAP,
+      state.streakFreezes - streakUpdate.freezesUsed + streakUpdate.freezesEarned,
+    );
     const nextTotal = state.totalLearned + learnedCount;
+
+    // 10-7: 개인 기록 경신 판단(과거의 나와 비교 — 충분한 표본이 쌓였을 때만)
+    const thisAccuracy = learnedCount > 0 ? correctFirstTry / learnedCount : 0;
+    const prevAccuracies = state.recentSessions
+      .filter((e) => e.total > 0)
+      .map((e) => e.firstTryCorrect / e.total);
+    const accuracyRecord =
+      prevAccuracies.length >= 3 &&
+      thisAccuracy > 0 &&
+      thisAccuracy > Math.max(...prevAccuracies);
+    const prevStars = state.recentSessions
+      .filter((e) => e.starsCount > 0)
+      .map((e) => e.starsSum / e.starsCount);
+    const starsRecord =
+      avgStars !== null &&
+      prevStars.length >= 2 &&
+      avgStars > Math.max(...prevStars);
+    const records: PersonalRecords = {
+      streak: streakUpdate.changed && streakUpdate.streak > state.bestStreak,
+      accuracy: accuracyRecord,
+      stars: starsRecord,
+    };
+
+    // 10-4: 오늘의 학습 링 누적(학습/복습/발음) + 학습일 원장 적재
+    const reviewDone = results.filter(
+      (r) => state.progress[r.wordId]?.in_review,
+    ).length;
+    const pronDone = results.filter(
+      (r) => typeof r.shadowStars === "number" && (r.shadowStars ?? 0) >= 2,
+    ).length;
+    const ring = bumpDailyRing(
+      { learn: learnedCount, review: reviewDone, pron: pronDone },
+      today,
+    );
+    const studyDays = recordStudyDay(today);
+
+    // 10-3: 배지 판정 — 세션 종료 상태로 컨텍스트를 만들어 새로 달성한 배지만 산출
+    const ctx = buildSnapshot({
+      today,
+      hour: new Date().getHours(),
+      streak: streakUpdate.streak,
+      bestStreak: nextBestStreak,
+      prevBestStreak: state.bestStreak,
+      totalLearned: nextTotal,
+      earnedKeys: new Set(state.achievements),
+      progressAfter: nextProgress,
+      prevProgress: state.progress,
+      results,
+      studyDays,
+    });
+    const newAchievements = evaluate(ctx);
+    const xpGained =
+      learnedCount * 10 +
+      correctFirstTry * 5 +
+      Math.round((avgStars ?? 0) * scored.length * 2) +
+      newAchievements.length * 50;
+    const nextXp = state.xp + xpGained;
+    const nextAchievements = [
+      ...state.achievements,
+      ...newAchievements.map((a) => a.key),
+    ];
 
     const calibrated = applyCalibration(
       {
@@ -262,6 +371,10 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
       calibrationQuestions: calibrated.calibrationQuestions,
       calibrationCorrect: calibrated.calibrationCorrect,
       recentSessions,
+      streakFreezes: nextFreezes,
+      xp: nextXp,
+      bestStreak: nextBestStreak,
+      achievements: nextAchievements,
     });
 
     persist(get, {
@@ -272,6 +385,10 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
       level_provisional: calibrated.levelProvisional,
       calibration_questions: calibrated.calibrationQuestions,
       calibration_correct: calibrated.calibrationCorrect,
+      streak_freezes: nextFreezes,
+      xp: nextXp,
+      best_streak: nextBestStreak,
+      achievements: nextAchievements,
     });
 
     const summary: StudySession = {
@@ -288,14 +405,46 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
     };
 
     if (state.configured && state.userId) {
+      const owner = state.userId;
       void saveProgress(updatedRows);
       void saveStudySession(summary);
       void saveReviewLogs(reviewLogs);
+      if (newAchievements.length > 0) {
+        const earnedAt = new Date().toISOString();
+        const rows: UserAchievement[] = newAchievements.map((a) => ({
+          user_id: owner,
+          achievement_key: a.key,
+          earned_at: earnedAt,
+        }));
+        void saveAchievements(rows);
+      }
+      const lGoal = learnGoal(state.recentSessions.map((e) => e.total));
+      const ringRow: DailyRing = {
+        user_id: owner,
+        date: today,
+        learn_goal: lGoal,
+        learn_done: ring.learnDone,
+        review_goal: Math.max(ring.reviewDone, reviewTriggers),
+        review_done: ring.reviewDone,
+        pron_goal: pronGoal(lGoal),
+        pron_done: ring.pronDone,
+      };
+      void saveDailyRing(ringRow);
     } else {
       appendLocalSession(summary);
     }
 
-    return { learnedCount, correctFirstTry, avgStars, avgScore, reviewTriggers };
+    return {
+      learnedCount,
+      correctFirstTry,
+      avgStars,
+      avgScore,
+      reviewTriggers,
+      newAchievements,
+      xpGained,
+      records,
+      freezesEarned: streakUpdate.freezesEarned,
+    };
   },
 
   reviewWordIds: () =>
@@ -322,12 +471,19 @@ type PersistPatch = {
   last_study_date?: string | null;
   total_learned?: number;
   preferred_categories?: string[];
+  streak_freezes?: number;
+  xp?: number;
+  best_streak?: number;
+  achievements?: string[];
 };
 
 function persist(get: () => UserStoreState, patch: PersistPatch): void {
   const { configured, userId } = get();
   if (configured && userId) {
-    void saveUserState({ user_id: userId, ...patch });
+    // achievements는 user_achievements 테이블로 별도 저장되므로 user_state upsert에선 제외
+    const { achievements: _a, ...statePatch } = patch;
+    void _a;
+    void saveUserState({ user_id: userId, ...statePatch });
     return;
   }
   writeLocalProfile({
@@ -339,5 +495,9 @@ function persist(get: () => UserStoreState, patch: PersistPatch): void {
     lastStudyDate: patch.last_study_date,
     totalLearned: patch.total_learned,
     preferredCategories: patch.preferred_categories,
+    streakFreezes: patch.streak_freezes,
+    xp: patch.xp,
+    bestStreak: patch.best_streak,
+    achievements: patch.achievements,
   });
 }

@@ -11,6 +11,11 @@ export interface LocalProfile {
   lastStudyDate: string | null;
   totalLearned: number;
   preferredCategories: string[];
+  // 10-3: 게스트의 동기부여 상태(로그인하면 클라우드로 대체됨)
+  streakFreezes: number;
+  xp: number;
+  bestStreak: number;
+  achievements: string[];
 }
 
 export const EMPTY_PROFILE: LocalProfile = {
@@ -22,6 +27,10 @@ export const EMPTY_PROFILE: LocalProfile = {
   lastStudyDate: null,
   totalLearned: 0,
   preferredCategories: [],
+  streakFreezes: 0,
+  xp: 0,
+  bestStreak: 0,
+  achievements: [],
 };
 
 export function readLocalProfile(): LocalProfile {

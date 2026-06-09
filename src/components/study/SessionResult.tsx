@@ -3,12 +3,14 @@
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import { Home, RotateCcw, Trophy } from "lucide-react";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { BottomActionBar } from "@/components/ui/BottomActionBar";
 import { useToast } from "@/components/ui/Toast";
+import { AchievementSheet } from "@/components/achievements/AchievementSheet";
 import { burstConfetti } from "@/lib/confetti";
+import type { EarnedAchievement } from "@/lib/achievements/engine";
 import {
   buildReviewSession,
   buildSession,
@@ -32,16 +34,33 @@ export function SessionResult() {
   const router = useRouter();
   const toast = useToast();
 
+  const [earned, setEarned] = useState<EarnedAchievement[]>([]);
+  const [xpGained, setXpGained] = useState(0);
+  const [badgesDone, setBadgesDone] = useState(false);
+
   useEffect(() => {
     void burstConfetti();
     if (useSessionStore.getState().committed || results.length === 0) return;
     useSessionStore.getState().markCommitted();
 
-    commitSession({
+    const outcome = commitSession({
       results,
       level: config.level,
       categories: config.categories,
     });
+
+    setEarned(outcome.newAchievements);
+    setXpGained(outcome.xpGained);
+    if (outcome.records.streak) {
+      toast.show("🔥 최장 연속 학습 신기록!", "success");
+    } else if (outcome.records.accuracy) {
+      toast.show("🎯 역대 최고 정확도 신기록!", "success");
+    } else if (outcome.records.stars) {
+      toast.show("⭐ 역대 최고 평균 별점 신기록!", "success");
+    }
+    if (outcome.freezesEarned > 0) {
+      toast.show("🧊 스트릭 동결권을 얻었어요! 하루 쉬어도 연속이 지켜져요.", "info");
+    }
 
     const recent = useUserStore.getState().recentSessions;
     const progressNow = useUserStore.getState().progress;
@@ -123,6 +142,11 @@ export function SessionResult() {
           </motion.div>
           <h1 className="mt-4 text-2xl font-bold text-ink">한 세트 완료! 🎉</h1>
           <p className="mt-1 text-sm text-ink-soft">오늘도 한 걸음 나아갔어요.</p>
+          {xpGained > 0 && (
+            <span className="mt-3 inline-flex items-center gap-1 rounded-full bg-accent/15 px-3 py-1 text-sm font-bold text-accent">
+              +{xpGained} XP
+            </span>
+          )}
         </div>
 
         <Card className="flex justify-around text-center">
@@ -204,6 +228,10 @@ export function SessionResult() {
           </div>
         </div>
       </BottomActionBar>
+
+      {earned.length > 0 && !badgesDone && (
+        <AchievementSheet items={earned} onDone={() => setBadgesDone(true)} />
+      )}
     </main>
   );
 }
