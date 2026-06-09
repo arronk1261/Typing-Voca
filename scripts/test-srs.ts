@@ -3,6 +3,7 @@ import {
   crossLevelDueIds,
   gradeFor,
   isDue,
+  isLapsed,
   isReviewTrigger,
   needsPronCheck,
 } from "../src/lib/srs.ts";
@@ -241,6 +242,16 @@ const cases: Case[] = [
       const poolIds = new Set<number>([11]);
       const ids = crossLevelDueIds(prog, poolIds, TODAY);
       return ids.length === 1 && ids[0] === 10;
+    },
+  },
+  {
+    name: "lapsed-only-failed",
+    describe: "오답 노트: 하트 소진(pass_count=0)만 포함, 정답 진행 중(pass_count≥1)·졸업은 제외",
+    run: () => {
+      const failed = isLapsed(progress({ in_review: true, pass_count: 0 }));
+      const progressing = isLapsed(progress({ in_review: true, pass_count: 1 }));
+      const graduated = isLapsed(progress({ in_review: false, pass_count: 3 }));
+      return failed === true && progressing === false && graduated === false;
     },
   },
   {

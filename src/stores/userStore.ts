@@ -17,7 +17,7 @@ import {
   type SessionWindowEntry,
 } from "@/lib/sync/recentWindow";
 import { computeStreakOnComplete, todayKey } from "@/lib/streak";
-import { computeProgressUpdate, gradeFor, isReviewTrigger } from "@/lib/srs";
+import { computeProgressUpdate, gradeFor, isLapsed, isReviewTrigger } from "@/lib/srs";
 import { applyCalibration } from "@/lib/words/calibration";
 import type { LevelTestOutcome } from "@/lib/words/levelScore";
 import type {
@@ -300,7 +300,7 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
 
   reviewWordIds: () =>
     Object.values(get().progress)
-      .filter((p) => p.in_review)
+      .filter(isLapsed)
       .map((p) => p.word_id),
 
   reset: () => set({ ...initialState, hydrated: true }),
