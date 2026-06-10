@@ -21,7 +21,6 @@ import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { LoadingDots } from "@/components/ui/LoadingDots";
 import { ThemeToggle } from "@/components/theme/ThemeToggle";
-import { GoogleLoginCard } from "@/components/auth/GoogleLoginCard";
 import { useUserStore } from "@/stores/userStore";
 
 export function Dashboard() {
@@ -48,8 +47,18 @@ export function Dashboard() {
     void hydrate(user?.id ?? null);
   }, [loading, user?.id, hydrate]);
 
-  if (configured && !loading && !user) {
-    return <GoogleLoginCard />;
+  const loggedOut = configured && !loading && !user;
+
+  useEffect(() => {
+    if (loggedOut) router.replace("/welcome");
+  }, [loggedOut, router]);
+
+  if (loggedOut) {
+    return (
+      <main className="flex min-h-[100dvh] items-center justify-center">
+        <LoadingDots />
+      </main>
+    );
   }
 
   if (loading || !hydrated) {

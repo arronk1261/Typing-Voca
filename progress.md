@@ -260,6 +260,23 @@
 
 ---
 
+## Phase 11 — 로그아웃 상태 서비스 소개(랜딩) 페이지 ✅ (완료)
+
+비로그인 사용자가 맨송맨송한 로그인 카드 대신 **스크롤형 서비스 소개 페이지(`/welcome`)**를 먼저 만나도록 전환. 학습 원리(능동 인출·망각 곡선 간격 반복)·레벨 구성·재미 요소·학습 대상을 설득력 있게 보여주고 곳곳에 `[Google로 시작하기]` CTA를 배치해 이용 전환률을 높임. **DB/스키마 변경 없음**(순수 프론트), 게스트 모드 회귀 없음.
+
+| 단위 | 내용 | 상태 | 검증 |
+|------|------|------|------|
+| 11-1 | 랜딩 공통 요소 | ✅ | `landing/Reveal.tsx`(스크롤 인뷰 페이드업, reduced-motion 존중), `landing/GoogleCta.tsx`(공통 Button 기반, `signInWithGoogle` 직접 호출). |
+| 11-2 | 소개 섹션 7종 | ✅ | Hero(타이핑→발음 미니 프리뷰) · LoopSteps(3단계 루프) · ForgettingCurve(**recharts** 망각곡선 비교 + SM-2/복습우선/2회졸업 카드) · LevelSection(Lv.1~3·적응형·신규70%복습30%·12카테고리 칩) · FunGallery(스트릭·배지26·3링·컨페티·동결권·위클리) · AudienceSection(대상 4종 + 무중단/녹음안함/기기동기화 신뢰 배지) · FinalCta. |
+| 11-3 | `/welcome` 라우트 조립 | ✅ | `app/welcome/page.tsx`(OG 메타) → `landing/WelcomeView.tsx`(로그인 상태/미설정 시 `/`로 리다이렉트) → `landing/LandingPage.tsx`(sticky 헤더+테마토글+로그인, 하단 sticky CTA, safe-area). |
+| 11-4 | 비로그인 가드 연결 | ✅ | `AuthGuard`·`Dashboard` 비로그인 분기를 `/login`/`GoogleLoginCard` 직노출 대신 **`/welcome` 리다이렉트**로 통일(`GoogleLoginCard` 미사용 import 제거). `/login`은 직접 진입용으로 유지. |
+
+**검증 방법(11)**: `npm run lint`(경고 0) + `npm run build`(`/welcome` 라우트 생성) 통과. 프리뷰(390px·라이트/다크)에서 `/welcome` 7개 섹션·망각곡선 차트·스티키 CTA 렌더, 콘솔 에러 0 실측. 빌드 시 recharts SSR `width(-1)` 경고는 `/stats`·`/report`와 동일한 무해 prerender 경고.
+
+> ℹ️ **11 운영 반영 없음**: 마이그레이션·시드 불필요(프론트 전용). `dev-loggedout`(포트 3200) launch 구성은 로그인-퍼스트 + 무세션 상태를 흉내 내 `/welcome`을 미리보기 위한 QA 전용.
+
+---
+
 ## 실행 방법
 ```bash
 npm install
