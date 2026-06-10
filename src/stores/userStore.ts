@@ -19,13 +19,19 @@ import {
   sessionToWindowEntry,
   type SessionWindowEntry,
 } from "@/lib/sync/recentWindow";
-import { bumpDailyRing } from "@/lib/sync/dailyRing";
+import { bumpDailyRing, freezeDailyRingGoals } from "@/lib/sync/dailyRing";
 import { recordStudyDay } from "@/lib/sync/studyDays";
 import { applyStreak, computeStreakOnComplete, todayKey } from "@/lib/streak";
-import { computeProgressUpdate, gradeFor, isLapsed, isReviewTrigger } from "@/lib/srs";
+import {
+  computeProgressUpdate,
+  gradeFor,
+  isDue,
+  isLapsed,
+  isReviewTrigger,
+} from "@/lib/srs";
 import { buildSnapshot } from "@/lib/achievements/snapshot";
 import { evaluate, type EarnedAchievement } from "@/lib/achievements/engine";
-import { learnGoal, pronGoal } from "@/lib/achievements/rings";
+import { clamp, learnGoal, pronGoal, REVIEW_CAP } from "@/lib/achievements/rings";
 import { applyCalibration } from "@/lib/words/calibration";
 import type { LevelTestOutcome } from "@/lib/words/levelScore";
 import type {
@@ -312,10 +318,25 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
       stars: starsRecord,
     };
 
-    // 10-4: 오늘의 학습 링 누적(학습/복습/발음) + 학습일 원장 적재
-    const reviewDone = results.filter(
-      (r) => state.progress[r.wordId]?.in_review,
+    // 10-4: 오늘의 학습 링 — 목표는 하루 첫 세션에 고정(이후 흔들리지 않게), 달성치만 누적.
+    const frozenLearnGoal = learnGoal(state.recentSessions.map((e) => e.total));
+    const reviewAvailable = Object.values(state.progress).filter(
+      (p) => isDue(p, today) || isLapsed(p),
     ).length;
+    const frozenReviewGoal = clamp(reviewAvailable, 0, REVIEW_CAP);
+    const frozenRing = freezeDailyRingGoals(
+      {
+        learn: frozenLearnGoal,
+        review: frozenReviewGoal,
+        pron: pronGoal(frozenLearnGoal),
+      },
+      today,
+    );
+    // 복습 done은 목표와 같은 기준(이번 세션에 푼 due/lapsed 단어)으로 센다.
+    const reviewDone = results.filter((r) => {
+      const prev = state.progress[r.wordId];
+      return Boolean(prev) && (isDue(prev, today) || isLapsed(prev));
+    }).length;
     const pronDone = results.filter(
       (r) => typeof r.shadowStars === "number" && (r.shadowStars ?? 0) >= 2,
     ).length;
@@ -418,15 +439,14 @@ export const useUserStore = create<UserStoreState>((set, get) => ({
         }));
         void saveAchievements(rows);
       }
-      const lGoal = learnGoal(state.recentSessions.map((e) => e.total));
       const ringRow: DailyRing = {
         user_id: owner,
         date: today,
-        learn_goal: lGoal,
+        learn_goal: frozenRing.learnGoal ?? frozenLearnGoal,
         learn_done: ring.learnDone,
-        review_goal: Math.max(ring.reviewDone, reviewTriggers),
+        review_goal: frozenRing.reviewGoal ?? frozenReviewGoal,
         review_done: ring.reviewDone,
-        pron_goal: pronGoal(lGoal),
+        pron_goal: frozenRing.pronGoal ?? pronGoal(frozenLearnGoal),
         pron_done: ring.pronDone,
       };
       void saveDailyRing(ringRow);

@@ -39,15 +39,18 @@ export function LearningRings() {
   const rings = useMemo<RingSpec[]>(() => {
     const today = todayKey();
     const ring = readDailyRing(today);
-    const lGoal = learnGoal(recentSessions.map((e) => e.total));
+    // 학습 전(목표 미고정)에는 라이브 프리뷰, 첫 세션 이후엔 고정된 목표를 그대로 쓴다.
+    const liveLearnGoal = learnGoal(recentSessions.map((e) => e.total));
     const reviewAvailable = Object.values(progress).filter(
       (p) => isDue(p, today) || isLapsed(p),
     ).length;
-    const rGoal = clamp(reviewAvailable, 0, REVIEW_CAP);
+    const lGoal = ring.learnGoal ?? liveLearnGoal;
+    const rGoal = ring.reviewGoal ?? clamp(reviewAvailable, 0, REVIEW_CAP);
+    const pGoal = ring.pronGoal ?? pronGoal(liveLearnGoal);
     return [
       { key: "learn", label: "학습", color: "#6366F1", radius: 56, done: ring.learnDone, goal: lGoal },
       { key: "review", label: "복습", color: "#F59E0B", radius: 43, done: ring.reviewDone, goal: rGoal },
-      { key: "pron", label: "발음", color: "#FBBF24", radius: 30, done: ring.pronDone, goal: pronGoal(lGoal) },
+      { key: "pron", label: "발음", color: "#FBBF24", radius: 30, done: ring.pronDone, goal: pGoal },
     ];
   }, [progress, recentSessions]);
 
