@@ -391,8 +391,16 @@ create policy "own sessions" on public.study_sessions
 
 ---
 
-### (참고) 그 밖의 확장 후보 (Phase 11+)
-* 데이터 export/import(백업), 리더보드/친구 등 소셜, PWA 오프라인 강화, 월간 리포트, 채점 동의어 사전 확장. (Phase 9=신뢰도·무중단 보강 — 8.5 / Phase 10=동기부여 시스템 — 8.6 참조. 배지·기록 **공유 이미지 카드**는 Phase 10 이후 소셜 후보로 이관.)
+### 🛬 Phase 11 — 로그아웃 상태 서비스 소개(랜딩) 페이지 ✅ (완료)
+* **목표:** 비로그인 사용자의 **이용 전환률↑**. 곧장 로그인 카드를 던지는 대신 "무엇을·왜·어떻게" 학습하는지 설득하는 스크롤형 랜딩(`/welcome`)을 먼저 보여준다. 프론트 전용(스키마·시드 변경 없음), 게스트 모드 무회귀, 학습 무중단 원칙 유지.
+* **진입 전략:** 새 라우트 `/welcome`(가드 밖). 비로그인 진입 경로 통일 — `AuthGuard`·`Dashboard` 비로그인 분기를 `/welcome` 리다이렉트로 전환. `/login`은 직접 로그인용으로 유지. CTA는 `signInWithGoogle()` 직접 호출(중간 페이지 없이 OAuth).
+* **11-1 공통 요소:** `Reveal`(스크롤 인뷰 페이드업·reduced-motion 존중), `GoogleCta`(공통 Button 기반 구글 CTA). **Done:** 두 컴포넌트가 모든 섹션에서 재사용.
+* **11-2 소개 섹션 7종:** Hero(타이핑→발음 미니 프리뷰) → LoopSteps(능동 인출·입력·발화 3단계) → **ForgettingCurve(recharts로 망각 곡선 vs 간격 반복 비교 + SM-2·복습 우선 출제·2회 졸업 설명)** → LevelSection(Lv.1~3·적응형·신규70%/복습30%·12카테고리) → FunGallery(스트릭·배지26·3링·컨페티·동결권·위클리) → AudienceSection(성인 회화 학습자 + 무중단/녹음 미저장/기기 동기화 신뢰 배지) → FinalCta. **Done:** 7개 섹션이 라이트/다크·390px에서 매끄럽게 렌더.
+* **11-3 라우트 조립:** `app/welcome/page.tsx`(OG 메타) → `WelcomeView`(로그인 상태/미설정 시 `/` 리다이렉트) → `LandingPage`(sticky 헤더·하단 sticky CTA·safe-area). **Done:** `/welcome` 진입·CTA→OAuth·로그인 상태 리다이렉트 동작.
+* **11-4 가드 연결:** 비로그인 3경로를 `/welcome`로 통일, 미사용 `GoogleLoginCard` import 정리. **Done:** 비로그인 시 어떤 가드 화면에서도 `/welcome` 노출.
+
+### (참고) 그 밖의 확장 후보 (Phase 12+)
+* 데이터 export/import(백업), 리더보드/친구 등 소셜, PWA 오프라인 강화, 월간 리포트, 채점 동의어 사전 확장. (Phase 9=신뢰도·무중단 보강 — 8.5 / Phase 10=동기부여 시스템 — 8.6 참조. 배지·기록 **공유 이미지 카드**는 소셜 후보로 이관.)
 
 ---
 

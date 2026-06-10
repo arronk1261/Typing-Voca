@@ -35,10 +35,22 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       return;
     }
 
-    supabase.auth.getSession().then(({ data }) => {
-      setSession(data.session);
-      setLoading(false);
-    });
+    supabase.auth
+      .getSession()
+      .then(async ({ data, error }) => {
+        if (error) {
+          // 만료·폐기된 리프레시 토큰이 남아 있으면 로컬 세션을 비워 반복 에러를 막는다
+          await supabase.auth.signOut({ scope: "local" }).catch(() => {});
+          setSession(null);
+        } else {
+          setSession(data.session);
+        }
+        setLoading(false);
+      })
+      .catch(() => {
+        setSession(null);
+        setLoading(false);
+      });
 
     const { data: sub } = supabase.auth.onAuthStateChange((event, next) => {
       setSession(next);
